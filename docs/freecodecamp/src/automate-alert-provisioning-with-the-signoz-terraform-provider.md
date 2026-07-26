@@ -149,7 +149,7 @@ cd signoz-terraform
 
 Create a <VPIcon icon="iconfont icon-terraform"/>`main.tf` file with the following content:
 
-```tf title="main.tf"
+```hcl title="main.tf"
 terraform {
   required_providers {
     signoz = {
@@ -173,7 +173,7 @@ The `provider` block configures the SigNoz provider, where `endpoint` specifies 
 
 If you plan to send alerts to specific channels, define them using `signoz_notification_channel`. For example, create a <VPIcon icon="iconfont icon-terraform"/>`channels.tf` file:
 
-```tf title="channels.tf"
+```hcl title="channels.tf"
 resource "signoz_notification_channel" "email_channel" {
   name = "Email Channel"
   type = "email"
@@ -192,7 +192,7 @@ Defining a notification channel ensures that alerts are sent to the correct reci
 
 Create an <VPIcon icon="iconfont icon-terraform"/>`alerts.tf` file to define your alert:
 
-```tf :collapsed-lines title="alerts.tf"
+```hcl :collapsed-lines title="alerts.tf"
 resource "signoz_alert" "cpu_high_usage" {
   alert            = "High CPU Usage Alert"
   alert_type       = "METRIC_BASED_ALERT"
@@ -297,7 +297,7 @@ To change the CPU usage threshold to 75%, follow these steps:
 
 - Update the target in <VPIcon icon="iconfont icon-terraform"/>`alerts.tf`
 
-```tf title="alerts.tf"
+```hcl title="alerts.tf"
 target = 75
 ```
 

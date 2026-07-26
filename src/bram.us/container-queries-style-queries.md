@@ -76,6 +76,16 @@ For Style-based Container Queries – or Style Queries for short – you can loo
 
 This post only covers Style Container Queries. [**Read about Size Container Queries here**.](/bram.us/css-container-queries-a-first-look-and-demo.md)
 
+```component VPCard
+{
+  "title": "CSS Container Queries: A First Look + Demo",
+  "desc": "CSS Container Queries landed in Chrome Canary (behind a flag). Let's take it for a test drive …",
+  "link": "/bram.us/css-container-queries-a-first-look-and-demo.md",
+  "logo": "https://bramu.us/favicon.ico",
+  "background": "rgba(17,17,17,0.2)"
+}
+```
+
 :::
 
 ---

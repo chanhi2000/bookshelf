@@ -37,8 +37,11 @@ const Y2026: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2026
+    "2026-state-of-css-devs-surveys", // 2026-08-06
+    "css-gap-decorations-now-available", // 2026-08-03
+    "get-ready-for-the-powerful-css-border-shape-property", // 2026-07-31
+    "whats-important-16", // 2026-07-31
     "whats-important-15", // 2026-07-15
-    "get-ready-for-the-powerful-css-border-shape-property", // 2026-07-07
     "whats-important-14", // 2026-06-30
     "css-states-and-javascript-events", // 2026-06-29
     "scroll-driven-animations-opposing-scroll-directions", // 2026-06-22
@@ -253,6 +256,7 @@ const Y2021: SidebarYeargroupTemplate = {
     "web-components-are-easier-than-you-think", // 2021-03-08
     "exploring-property-and-its-animating-powers", // 2021-03-04
     "the-css-box-model", // 2021-02-18
+    "how-to-play-and-pause-css-animations-with-css-custom-properties", // 2021-01-21
   ],
 }
 
@@ -468,6 +472,7 @@ export const template: SidebarInfoTemplate = {
       "the-css-custom-property-toggle-trick", // 2020-10-29
       "the-raven-technique-one-step-closer-to-container-queries", // 2020-11-10
       // END: 2020css
+      "how-to-play-and-pause-css-animations-with-css-custom-properties", // 2021-01-21
       "the-css-box-model", // 2021-02-18
       "exploring-property-and-its-animating-powers", // 2021-03-04
       "web-components-are-easier-than-you-think", // 2021-03-08
@@ -616,8 +621,10 @@ export const template: SidebarInfoTemplate = {
       "scroll-driven-animations-opposing-scroll-directions", // 2026-06-22
       "css-states-and-javascript-events", // 2026-06-29
       "whats-important-14", // 2026-06-30
-      "get-ready-for-the-powerful-css-border-shape-property", // 2026-07-07
       "whats-important-15", // 2026-07-15
+      "whats-important-16", // 2026-07-31
+      "get-ready-for-the-powerful-css-border-shape-property", // 2026-07-31
+      "2026-state-of-css-devs-surveys", // 2026-08-06
       // END: 2026css
       // END: css
     ]],[
@@ -644,6 +651,7 @@ export const template: SidebarInfoTemplate = {
       // END: js-node
     ]],[
     "js",[
+      "how-to-play-and-pause-css-animations-with-css-custom-properties", // 2021-01-21
       "web-components-are-easier-than-you-think", // 2021-03-08
       "scroll-linked-animations-with-the-web-animations-api-waapi-and-scrolltimeline", // 2021-11-04
       // END: 2021js

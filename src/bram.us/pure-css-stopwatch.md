@@ -71,6 +71,16 @@ The animation play state is controlled using a checkbox, [**as detailed here**](
 
 CSS Counters is one of the [**9 Underutilized CSS Features**](/bram.us/9-underutilized-features-in-css.md)
 
+```component VPCard
+{
+  "title": "9 Underutilized Features in CSS",
+  "desc": "List assembled by Jordan Little: The CSS calc() function The pointer media query The currentColor variable The :valid, :invalid, and :empty pseudoclasses Counters using only CSS Predictable tables with fixed layout Easy form states using adjacent sibling selectors Algebraic nth-child() selection Animating elements with animation-fill-mode As a tenth feature I’d like to add the use … Continue reading ”9 Underutilized Features in CSS”",
+  "link": "/bram.us/9-underutilized-features-in-css.md",
+  "logo": "https://bram.us/favicon.ico",
+  "background": "rgba(17,17,17,0.2)"
+}
+```
+
 :::
 
 <!-- TODO: add ARTICLE CARD -->

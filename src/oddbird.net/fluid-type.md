@@ -52,8 +52,25 @@ cover: https://oddbird.net/assets/images/blog/2025/font-scale-hero-1366w.jpeg
 
 ::: info This post is part of a series on revisiting fluid typography:
 
-1. [**Relative Units & Typography**](/oddbird.net/winging-it/15.md) – _With special guest Alan Stearns_
-2. Reimagining Fluid Typography
+```component VPCard
+{
+  "title": "Relative Units & Typography",
+  "desc": "With special guest Alan Stearns",
+  "link": "/oddbird.net/winging-it/15.md",
+  "logo": "https://oddbird.net/safari-pinned-tab.svg",
+  "background": "rgba(145,208,222,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "Reimagining Fluid Typography",
+  "desc": "Are we responding to the right inputs?",
+  "link": "/oddbird.net/fluid-type.md",
+  "logo": "https://oddbird.net/safari-pinned-tab.svg",
+  "background": "rgba(145,208,222,0.2)"
+}
+```
 
 ```component VPCard
 {
@@ -65,8 +82,15 @@ cover: https://oddbird.net/assets/images/blog/2025/font-scale-hero-1366w.jpeg
 }
 ```
 
-4. [**Designing for User Font-size and Zoom**](/oddbird.net/size-preferences.md) – _Using modern CSS units and math functions_
-5. [**Visualizing Responsive Typography**](/oddbird.net/type-visual.md) – _What do all the numbers in our `clamp()` do?_
+```component VPCard
+{
+  "title": "Designing for User Font-size and Zoom",
+  "desc": "Using modern CSS units and math functions",
+  "link": "/oddbird.net/size-preferences.md",
+  "logo": "https://oddbird.net/safari-pinned-tab.svg",
+  "background": "rgba(145,208,222,0.2)"
+}
+```
 
 ```component VPCard
 {
@@ -78,7 +102,25 @@ cover: https://oddbird.net/assets/images/blog/2025/font-scale-hero-1366w.jpeg
 }
 ```
 
-7. [**Responsive and Fluid Typography with Baseline CSS Features**](/oddbird.net/typography-baseline-css.md)
+```component VPCard
+{
+  "title": "Visualizing Responsive Typography",
+  "desc": "What do all the numbers in our clamp() do?",
+  "link": "/oddbird.net/type-visual.md",
+  "logo": "https://oddbird.net/safari-pinned-tab.svg",
+  "background": "rgba(145,208,222,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "Responsive and Fluid Typography with Baseline CSS Features",
+  "desc": "As designers, it makes sense to think about what space is available in the browser, and adjust your typography accordingly. It's also important to remember that different users will have different font-size needs -- and the more a font size is responsive to the viewport, the less responsive it will be to user inputs.",
+  "link": "/oddbird.net/typography-baseline-css.md",
+  "logo": "https://oddbird.net/safari-pinned-tab.svg",
+  "background": "rgba(145,208,222,0.2)"
+}
+```
 
 :::
 

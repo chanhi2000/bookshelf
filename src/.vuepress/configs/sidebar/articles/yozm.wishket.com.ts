@@ -5,6 +5,13 @@ const Y2026: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2026
+    "3883", // 2026-08-04
+    "3882", // 2026-08-04
+    "3880", // 2026-08-03
+    "3877", // 2026-07-31
+    "3874", // 2026-07-30
+    "3872", // 2026-07-29
+    "3866", // 2026-07-28
     "3850", // 2026-07-15
     "3839", // 2026-07-08
     "3838", // 2026-07-07
@@ -753,6 +760,13 @@ export const template: SidebarInfoTemplate = {
       // END: 2024js-nest
       // END: js-nest
     ]], [
+    "js-supabase", [
+      // END: 2024js-supabase
+      // END: 2025js-supabase
+      "3883", // 2026-08-04
+      // END: 2026js-supabase
+      // END: js-supabase
+    ]],[
     "js-playwright", [
       "2992", // 2025-02-26
       // END: js-playwright
@@ -774,6 +788,7 @@ export const template: SidebarInfoTemplate = {
       // END: 2025py
       "3560", // 2026-01-21
       "3708", // 2026-04-15
+      "3872", // 2026-07-29
       // END: 2026py
       // END: py
     ]],[
@@ -1237,6 +1252,8 @@ export const template: SidebarInfoTemplate = {
       "3787", // 2026-06-08
       "3813", // 2026-06-22
       "3839", // 2026-07-08
+      "3866", // 2026-07-28
+      "3882", // 2026-08-04
       // END: 2026ai
       // END: ai
     ]],[
@@ -1287,6 +1304,8 @@ export const template: SidebarInfoTemplate = {
       "3790", // 2026-06-09
       "3817", // 2026-06-24
       "3850", // 2026-07-15
+      "3872", // 2026-07-29
+      "3883", // 2026-08-04
       // END: 2026llm
       // END: llm
     ]],[
@@ -1349,6 +1368,8 @@ export const template: SidebarInfoTemplate = {
       "3792", // 2026-06-10
       "3801", // 2026-06-15
       "3838", // 2026-07-07
+      "3874", // 2026-07-30
+      "3877", // 2026-07-31
       // END: 2026claude
       // END: claude
     ]],[
@@ -1522,6 +1543,7 @@ export const template: SidebarInfoTemplate = {
       "3694", // 2026-04-07
       "3701", // 2026-04-10
       "3752", // 2026-05-13
+      "3880", // 2026-08-03
       // END: 2026career
       // END: career
     ]],[

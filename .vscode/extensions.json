@@ -1,0 +1,22 @@
+{
+  "recommendations": [
+    "aaron-bond.better-comments",
+    "pranaygp.vscode-css-peek",
+    "mikestead.dotenv",
+    "necinc.elmmet",
+    "dsznajder.es7-react-js-snippets",
+    "Zignd.html-css-class-completion",
+    "dbaeumer.vscode-eslint",
+    "FallenMax.mithril-emmet",
+    "christian-kohler.path-intellisense",
+    "esbenp.prettier-vscode",
+    "wayou.vscode-todo-highlight",
+    "Gruntfuggly.todo-tree",
+    "DavidAnson.vscode-markdownlint",
+    "ms-vscode-remote.remote-containers",
+    "HashiCorp.HCL",
+    // "HashiCorp.terraform",
+    "pjmiravalle.terraform-advanced-syntax-highlighting",
+  ],
+  "unwantedRecommendations": []
+}

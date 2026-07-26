@@ -54,8 +54,25 @@ There are multiple tools that can help create a fluid font-size calculation for 
 
 ::: info This post is part of a series on revisiting fluid typography:
 
-1. [**Relative Units & Typography**](/oddbird.net/winging-it/15.md) – *With special guest Alan Stearns*
-2. [**Reimagining Fluid Typography**](/oddbird.net/fluid-type.md) – *Are we responding to the right inputs?*
+```component VPCard
+{
+  "title": "Relative Units & Typography",
+  "desc": "With special guest Alan Stearns",
+  "link": "/oddbird.net/winging-it/15.md",
+  "logo": "https://oddbird.net/safari-pinned-tab.svg",
+  "background": "rgba(145,208,222,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "Reimagining Fluid Typography",
+  "desc": "Are we responding to the right inputs?",
+  "link": "/oddbird.net/fluid-type.md",
+  "logo": "https://oddbird.net/safari-pinned-tab.svg",
+  "background": "rgba(145,208,222,0.2)"
+}
+```
 
 ```component VPCard
 {
@@ -67,8 +84,15 @@ There are multiple tools that can help create a fluid font-size calculation for 
 }
 ```
 
-4. [**Designing for User Font-size and Zoom**](/oddbird.net/size-preferences.md) – *Using modern CSS units and math functions*
-5. Visualizing Responsive Typography
+```component VPCard
+{
+  "title": "Designing for User Font-size and Zoom",
+  "desc": "Using modern CSS units and math functions",
+  "link": "/oddbird.net/size-preferences.md",
+  "logo": "https://oddbird.net/safari-pinned-tab.svg",
+  "background": "rgba(145,208,222,0.2)"
+}
+```
 
 ```component VPCard
 {
@@ -82,9 +106,19 @@ There are multiple tools that can help create a fluid font-size calculation for 
 
 ```component VPCard
 {
+  "title": "Visualizing Responsive Typography",
+  "desc": "What do all the numbers in our clamp() do?",
+  "link": "/oddbird.net/type-visual.md",
+  "logo": "https://oddbird.net/safari-pinned-tab.svg",
+  "background": "rgba(145,208,222,0.2)"
+}
+```
+
+```component VPCard
+{
   "title": "Responsive and Fluid Typography with Baseline CSS Features",
   "desc": "As designers, it makes sense to think about what space is available in the browser, and adjust your typography accordingly. It's also important to remember that different users will have different font-size needs -- and the more a font size is responsive to the viewport, the less responsive it will be to user inputs.",
-  "link": "oddbird.net/typography-baseline-css.md",
+  "link": "/oddbird.net/typography-baseline-css.md",
   "logo": "https://oddbird.net/safari-pinned-tab.svg",
   "background": "rgba(145,208,222,0.2)"
 }

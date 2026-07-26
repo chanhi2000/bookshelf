@@ -89,6 +89,7 @@ const Y2020: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2020
+    "building-a-pwa-with-netlify-functions", // 2020-01-27
   ],
 }
 
@@ -275,6 +276,7 @@ export const template: SidebarInfoTemplate = {
       // END: 2017js-node
       // END: 2018js-node
       // END: 2019js-node
+      "building-a-pwa-with-netlify-functions", // 2020-01-27
       // END: 2020js-node
       // END: 2021js-node
       // END: 2022js-node
@@ -469,6 +471,7 @@ export const template: SidebarInfoTemplate = {
       // END: 2017netlify
       // END: 2018netlify
       // END: 2019netlify
+      "building-a-pwa-with-netlify-functions", // 2020-01-27
       // END: 2020netlify
       // END: 2021netlify
       // END: 2022netlify

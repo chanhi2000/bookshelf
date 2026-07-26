@@ -237,7 +237,7 @@ Experimental support first appeared in Safari Technology Preview 142. To stay up
 
 :::: info ☝️
 
-If you’re looking for more demos, [Miriam Suzanne (<VPIcon icon="fa-brands fa-x-twitter"/>)](https://twitter.com/MiriSuzanne/) is collecting a bunch in [<VPIcon icon="fa-brands fa-codepen"/>this CodePen Collection](https://codepen.io/collection/XQrgJo). Be sure to check out [Una (<VPIcon icon="fa-brands fa-x-twitter"/>`una`)](https://twitter.com/una)‘s [Episode Card (<VPIcon icon="fa-brands fa-codepen"/>`una`)](https://codepen.io/una/pen/LYbvKpK) for [<VPIcon icon="fas fa-globe"/>The CSS Podcast](https://thecsspodcast.libsyn.com/)
+If you’re looking for more demos, [Miriam Suzanne (<VPIcon icon="fa-brands fa-x-twitter"/>)](https://x.com/MiriSuzanne/) is collecting a bunch in [<VPIcon icon="fa-brands fa-codepen"/>this CodePen Collection](https://codepen.io/collection/XQrgJo). Be sure to check out [Una (<VPIcon icon="fa-brands fa-x-twitter"/>`una`)](https://twitter.com/una)‘s [Episode Card (<VPIcon icon="fa-brands fa-codepen"/>`una`)](https://codepen.io/una/pen/LYbvKpK) for [<VPIcon icon="fas fa-globe"/>The CSS Podcast](https://thecsspodcast.libsyn.com/)
 
 :::
 

@@ -10,6 +10,7 @@ const WINGING_IT: SidebarInfoSubgroupTemplate = {
     "18", // 2025-04-17
     "17", // 2025-03-20
     "16", // 2025-02-20
+    "15", // 2025-01-24
     "11", // 2024-08-27
     "08", // 2024-05-30
   ]
@@ -32,6 +33,7 @@ const Y2025: SidebarYeargroupTemplate = {
     "type-units", // 2025-09-23
     "box-model", // 2025-09-04
     "type-visual", // 2025-08-26
+    "size-preferences", // 2025-07-22
     "fluid-type", // 2025-02-12
     "anchor-position-area", // 2025-02-05
     "anchor-position-validity", // 2025-01-29
@@ -197,6 +199,7 @@ export const template: SidebarInfoTemplate = {
       "anchor-position-validity", // 2025-01-29
       "anchor-position-area", // 2025-02-05
       "fluid-type", // 2025-02-12
+      "size-preferences", // 2025-07-22
       "box-model", // 2025-09-04
       "type-units", // 2025-09-23
       // END: 2025css

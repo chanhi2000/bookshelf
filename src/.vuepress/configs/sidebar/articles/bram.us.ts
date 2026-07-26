@@ -93,6 +93,7 @@ const Y2021: SidebarYeargroupTemplate = {
     "the-future-of-css-scroll-linked-animations-part-1", // 2021-02-23
     "pure-css-stopwatch", // 2021-02-19
     "animating-a-css-gradient-border", // 2021-01-30
+    "how-to-play-and-pause-css-animations-with-css-custom-properties", // 2021-01-24
     "css-mix-blend-mode-not-working-set-a-background-color", // 2021-01-15
   ],
 }
@@ -109,6 +110,7 @@ const Y2020: SidebarYeargroupTemplate = {
     "css-grid-layout-module-level-2-masonry-layout", // 2020-05-05
     "pass-data-from-css-to-javascript-with-css-variables", // 2020-03-31
     "the-ultimate-guide-to-css-viewport-units", // 2020-03-17
+    "staggered-animations-with-css-custom-properties", // 2020-03-10
     "prevent-content-from-being-hidden-underneath-a-fixed-header-by-using-scroll-margin-top", // 2020-03-02
     "smooth-scrolling-sticky-scrollspy-navigation", // 2020-01-10
   ]
@@ -123,6 +125,7 @@ const Y2019: SidebarYeargroupTemplate = {
     "how-to-add-dark-mode-to-a-javascript-app-react-angular-vue-etc", // 2019-12-10
     "embeddable-caniuse-images", // 2019-12-04
     "simple-scroll-snapping-carousel-flexbox-layout-grid-layout", // 2019-10-10
+    "building-better-interfaces-a-talk-by-hakim-el-hattab", // 2019-10-04
     "css-logical-properties-and-values-the-next-step-of-css-evolution", // 2019-09-20
     "logical-operations-with-css-variables", // 2019-09-17
     "css-color-scheme-queries-dark-mode-css", // 2019-05-24
@@ -139,6 +142,7 @@ const Y2017: SidebarYeargroupTemplate = {
     "introducing-user-agent-variables-rendering-sites-fullscreen-in-safari-on-iphone-x", // 2017-09-15
     "masonry-layout-with-css-grid-and-grid-auto-flow-dense", // 2017-08-15
     "using-intersection-observers", // 2017-08-14
+    "css-variables-and-reduced-motion", // 2017-07-24
     "theming-with-css-custom-properties-css-variables", // 2017-07-23
     "conditions-for-css-calculations", // 2017-01-17
     "resilient-web-design", // 2017-01-03
@@ -151,6 +155,7 @@ const Y2016: SidebarYeargroupTemplate = {
   children: [
     // END: 2016
     "css-variables-var-subtitle", // 2016-11-13
+    "9-underutilized-features-in-css", // 2016-10-06
     "making-viewport-units-work-properly-in-mobile-safari", // 2016-09-12
     "using-feature-queries-in-css", // 2016-08-28
     "viewport-unit-based-typography", // 2016-03-11
@@ -274,11 +279,13 @@ export const template: SidebarInfoTemplate = {
       "viewport-unit-based-typography", // 2016-03-11
       "using-feature-queries-in-css", // 2016-08-28
       "making-viewport-units-work-properly-in-mobile-safari", // 2016-09-12
+      "9-underutilized-features-in-css", // 2016-10-06
       "css-variables-var-subtitle", // 2016-11-13
       // END: 2016css
       "resilient-web-design", // 2017-01-03
       "conditions-for-css-calculations", // 2017-01-17
       "theming-with-css-custom-properties-css-variables", // 2017-07-23
+      "css-variables-and-reduced-motion", // 2017-07-24
       "masonry-layout-with-css-grid-and-grid-auto-flow-dense", // 2017-08-15
       "introducing-user-agent-variables-rendering-sites-fullscreen-in-safari-on-iphone-x", // 2017-09-15
       "badass", // 2017-10-16
@@ -288,6 +295,7 @@ export const template: SidebarInfoTemplate = {
       "css-color-scheme-queries-dark-mode-css", // 2019-05-24
       "logical-operations-with-css-variables", // 2019-09-17
       "css-logical-properties-and-values-the-next-step-of-css-evolution", // 2019-09-20
+      "building-better-interfaces-a-talk-by-hakim-el-hattab", // 2019-10-04
       "simple-scroll-snapping-carousel-flexbox-layout-grid-layout", // 2019-10-10
       "embeddable-caniuse-images", // 2019-12-04
       "how-to-add-dark-mode-to-a-javascript-app-react-angular-vue-etc", // 2019-12-10
@@ -295,6 +303,7 @@ export const template: SidebarInfoTemplate = {
       // END: 2019css
       "smooth-scrolling-sticky-scrollspy-navigation", // 2020-01-10
       "prevent-content-from-being-hidden-underneath-a-fixed-header-by-using-scroll-margin-top", // 2020-03-02
+      "staggered-animations-with-css-custom-properties", // 2020-03-10
       "the-ultimate-guide-to-css-viewport-units", // 2020-03-17
       "pass-data-from-css-to-javascript-with-css-variables", // 2020-03-31
       "css-grid-layout-module-level-2-masonry-layout", // 2020-05-05
@@ -304,6 +313,7 @@ export const template: SidebarInfoTemplate = {
       "css-custom-properties-are-not-variables", // 2020-12-10
       // END: 2020css
       "css-mix-blend-mode-not-working-set-a-background-color", // 2021-01-15
+      "how-to-play-and-pause-css-animations-with-css-custom-properties", // 2021-01-24
       "animating-a-css-gradient-border", // 2021-01-30
       "pure-css-stopwatch", // 2021-02-19
       "the-future-of-css-scroll-linked-animations-part-1", // 2021-02-23

@@ -5,6 +5,11 @@ const Y2026: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2026
+    "typographic-css-tricks", // 2026-08-05
+    "something-nobody-told-you-about-the-image-element-it-can-overflow", // 2026-08-03
+    "same-name-different-component-with-scoped-custom-element-registries", // 2026-07-30
+    "a-button-that-links-to-a-random-post-in-html-css-only", // 2026-07-29
+    "cloudflare-workers-and-hyperdrive-with-sveltekit", // 2026-07-27
     "when-you-need-to-make-a-triangle-think-conic-gradients", // 2026-07-24
     "using-animation-composition-in-css-to-avoid-redeclaring-other-values", // 2026-07-23
     "durable-objects-on-cloudflare", // 2026-07-20
@@ -380,6 +385,7 @@ export const template: SidebarInfoTemplate = {
       "the-web-is-fun-again-first-experiments-with-html-in-canvas", // 2026-04-21
       "animating-focus-with-view-transitions", // 2026-05-06
       "in-n-out-animations-view-transitions-part-3-3", // 2026-06-20
+      "same-name-different-component-with-scoped-custom-element-registries", // 2026-07-30
       // END: 2026js
       // END: js
     ]],[
@@ -460,6 +466,7 @@ export const template: SidebarInfoTemplate = {
       "fine-grained-reactivity-in-svelte-5", // 2024-08-14
       // END: 2024js-svelte
       // END: 2025js-svelte
+      "cloudflare-workers-and-hyperdrive-with-sveltekit", // 2026-07-27
       // END: 2026js-svelte
       // END: js-svelte
     ]],[
@@ -682,6 +689,9 @@ export const template: SidebarInfoTemplate = {
       "masonry-with-animation-in-css", // 2026-07-17
       "using-animation-composition-in-css-to-avoid-redeclaring-other-values", // 2026-07-23
       "when-you-need-to-make-a-triangle-think-conic-gradients", // 2026-07-24
+      "a-button-that-links-to-a-random-post-in-html-css-only", // 2026-07-29
+      "something-nobody-told-you-about-the-image-element-it-can-overflow", // 2026-08-03
+      "typographic-css-tricks", // 2026-08-05
       // END: 2026css
       // END: css
     ]],[
@@ -718,6 +728,7 @@ export const template: SidebarInfoTemplate = {
       "introduction-to-cloudflare-workers-for-web-apps", // 2026-06-26
       "cloudflare-workers-and-hyperdrive-with-tanstack-start", // 2026-07-02
       "durable-objects-on-cloudflare", // 2026-07-20
+      "cloudflare-workers-and-hyperdrive-with-sveltekit", // 2026-07-27
       // END: 2026cloudflare
       // END: cloudflare
     ]],[

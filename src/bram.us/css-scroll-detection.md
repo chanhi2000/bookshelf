@@ -198,7 +198,7 @@ It is very important to note that I’m delaying the `--scroll-position-delayed`
 
 ::: note ☝️
 
-This parent-child relationship is a requirement for this trick to work – it won’t work if you delay `--scroll-position-delayed` on the scroller – here `html` – itself. You can draw a parallel to [**Container Queries**](/bram.us/css-container-queries-a-first-look-and-demo.md#container-queries.md) here, which also require a parent-child relationship.
+This parent-child relationship is a requirement for this trick to work – it won’t work if you delay `--scroll-position-delayed` on the scroller – here `html` – itself. You can draw a parallel to [**Container Queries**](/bram.us/css-container-queries-a-first-look-and-demo.md#container-queries) here, which also require a parent-child relationship.
 
 :::
 

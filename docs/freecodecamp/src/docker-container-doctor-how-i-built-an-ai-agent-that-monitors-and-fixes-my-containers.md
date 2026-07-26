@@ -18,6 +18,8 @@ tag:
   - freecodecamp.org
   - py
   - python
+  - flask
+  - py-flask
   - devops
   - docker
   - ai

@@ -109,7 +109,7 @@ You define the required provider, configure authentication, and declare resource
 
 Here's a minimal example that provisions an application using a managed platform provider.
 
-```tf
+```hcl
 terraform {
  required_providers {
    sevalla = {

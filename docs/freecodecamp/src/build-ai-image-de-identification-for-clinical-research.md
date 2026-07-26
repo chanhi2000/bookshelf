@@ -468,7 +468,6 @@ More importantly, the underlying concepts can help developers and researchers cr
   logo="https://hhs.gov/themes/custom/hhs_uswds/favicon.ico"
   preview="https://hhs.gov/sites/default/files/styles/og_image_style/public/hhs-mark-og_0.png?h=457da100&itok=8h12Thnc"/>
 
-
 :::
 
 <!-- TODO: add ARTICLE CARD -->

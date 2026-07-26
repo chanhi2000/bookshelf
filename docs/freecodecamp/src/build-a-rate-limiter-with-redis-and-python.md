@@ -191,7 +191,7 @@ You can skip this section if you just want to see the rate limiter in action and
 
 Our [<VPIcon icon="iconfont icon-terraform"/>`main.tf` (<VPIcon icon="iconfont icon-github"/>`sravankaruturi/system-design`)](https://github.com/sravankaruturi/system-design/blob/main/infra/main.tf) file defines all the components of our system. Let's look at a key piece: the Redis VM.
 
-```tf :collapsed-lines title="main.tf"
+```hcl :collapsed-lines title="main.tf"
 # --- Redis Cache for Rate Limiter ---
 resource "proxmox_vm_qemu" "redis_cache" {
 
@@ -464,7 +464,7 @@ Here are the complete files used in the project.
 
 ::: details
 
-```tf :collapsed-lines title="main.tf"
+```hcl :collapsed-lines title="main.tf"
 terraform {
     required_providers {
         proxmox = {

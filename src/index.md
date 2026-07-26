@@ -243,7 +243,7 @@ projects:
     desc: "코딩에브리바디는 HTML, CSS, JAVASCRIPT, PHP, PYTHON, SQL, C++ 등 모든 사람을 위한 코딩 학습서입니다."
     link: /codingeverybody.kr/README.md
 footerHtml: true
-footer: <i>__BLOG_VERSION__</i><br/><br/>MIT Licensed<br/>Copyright © 2022-present <a target="_blank" href="https://github.com/chanhi2000">Chan Hee Lee</a>
+footer: <i>0.2.33</i><br/><br/>MIT Licensed<br/>Copyright © 2022-present <a target="_blank" href="https://github.com/chanhi2000">Chan Hee Lee</a>
 
 copyright: false
 ---

@@ -307,7 +307,7 @@ This module sets up the AWS landing zone using `landingzone_manifest_template`. 
 
 I defined a local variable `landingzone_manifest_template`, which is a JSON template for setting up the landing zone. This JSON template has several important settings:
 
-```tf
+```hcl
 provider "aws" {
   region = var.region
 }
@@ -388,7 +388,7 @@ When you run this code, different organizational units (OUs) are created accordi
 
 Once the landing zone setup is finished, we can create an OU as per our business requirements. This will take the OU name from the variable file and create the OU.
 
-```tfvars title="variables.auto.tfvars"
+```hclvars title="variables.auto.tfvars"
 aws_region = "us-east-2"
 
 organizational_units = [
@@ -434,7 +434,7 @@ Once you have created the OU units using the above repository, this repository w
 
 After creating the required objects, you can attach controls to the OU if you need them. Here is the [<VPIcon icon="iconfont icon-terraform"/>`main.tf`](https://github.com/nitheeshp-irl/controltower_controls/blob/main/main.tf) file:
 
-```tf title="main.tf"
+```hcl title="main.tf"
 provider "aws" {
   region = var.region
 }
@@ -451,7 +451,7 @@ We used Terraform modules to create AWS resources.
 
 Here are the control variables:
 
-```tf
+```hcl
 aws_region = "us-east-2"
 
 controls = [

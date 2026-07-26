@@ -54,8 +54,25 @@ There are many articles and established CSS best-practices that rely on determin
 
 ::: info This post is part of a series on revisiting fluid typography:
 
-1. [**Relative Units & Typography**](/oddbird.net/winging-it/15.md) – *With special guest Alan Stearns*
-2. [**Reimagining Fluid Typography**](/oddbird.net/fluid-type.md) – *Are we responding to the right inputs?*
+```component VPCard
+{
+  "title": "Relative Units & Typography",
+  "desc": "With special guest Alan Stearns",
+  "link": "/oddbird.net/winging-it/15.md",
+  "logo": "https://oddbird.net/safari-pinned-tab.svg",
+  "background": "rgba(145,208,222,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "Reimagining Fluid Typography",
+  "desc": "Are we responding to the right inputs?",
+  "link": "/oddbird.net/fluid-type.md",
+  "logo": "https://oddbird.net/safari-pinned-tab.svg",
+  "background": "rgba(145,208,222,0.2)"
+}
+```
 
 ```component VPCard
 {
@@ -67,7 +84,15 @@ There are many articles and established CSS best-practices that rely on determin
 }
 ```
 
-4. [**Designing for User Font-size and Zoom**](/oddbird.net/size-preferences.md) – *Using modern CSS units and math functions*
+```component VPCard
+{
+  "title": "Designing for User Font-size and Zoom",
+  "desc": "Using modern CSS units and math functions",
+  "link": "/oddbird.net/size-preferences.md",
+  "logo": "https://oddbird.net/safari-pinned-tab.svg",
+  "background": "rgba(145,208,222,0.2)"
+}
+```
 
 ```component VPCard
 {
@@ -79,7 +104,15 @@ There are many articles and established CSS best-practices that rely on determin
 }
 ```
 
-6. The Best CSS Unit Might Be a Combination
+```component VPCard
+{
+  "title": "The Best CSS Unit Might Be a Combination",
+  "desc": "We don't have to choose between px and rem for spacing",
+  "link": "/oddbird.net/type-units.md",
+  "logo": "https://oddbird.net/safari-pinned-tab.svg",
+  "background": "rgba(145,208,222,0.2)"
+}
+```
 
 ```component VPCard
 {

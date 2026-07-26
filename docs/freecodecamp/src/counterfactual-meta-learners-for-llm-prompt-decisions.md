@@ -7,6 +7,8 @@ category:
   - Python
   - Pandas
   - NumPy
+  - AI
+  - LLM
   - Article(s)
 tag:
   - blog

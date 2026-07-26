@@ -4,16 +4,18 @@ title: "Learn How AI Agents Are Changing Software Development by Building a Flut
 description: "Article(s) > Learn How AI Agents Are Changing Software Development by Building a Flutter App Using Antigravity and Stitch"
 icon: iconfont icon-antigravity
 category:
+  - Dart
+  - Flutter
   - AI
   - LLM
   - Google
   - Google Antigravity
-  - Dart
-  - Flutter
   - Article(s)
 tag:
   - blog
   - freecodecamp.org
+  - dart
+  - flutter
   - ai
   - artificial-intelligence
   - llm
@@ -21,8 +23,6 @@ tag:
   - google
   - antigravity
   - google-antigravity
-  - dart
-  - flutter
 head:
   - - meta:
     - property: og:title

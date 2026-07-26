@@ -2067,7 +2067,29 @@ const REMOTE_PROCEDURE_CALLS_PROTOCOL_BUFFERS_AND_MODERN_DISTRIBUTED_SYSTEMS_COM
   text: "From RPC to gRPC: Understanding Remote Procedure Calls, Protocol Buffers, and Modern Distributed Systems Communication",
   collapsible: true,
   icon: 'fa-brands fa-dart-lang',
-  subPath:'remote-procedure-calls-protocol-buffers-and-modern-distributed-systems-communication',
+  subPath: 'remote-procedure-calls-protocol-buffers-and-modern-distributed-systems-communication',
+  children: [
+    'README',
+    // TODO: 페이지 생성
+  ]
+}
+
+const THE_ETL_PIPELINE_HANDBOOK_HOW_TO_BUILD_A_PRODUCTION_GRADE_PIPELINE_IN_PYTHON: SidebarInfoSubgroupTemplate = { // 2026-07-28
+  text: "The ETL Pipeline Handbook: How to Build a Production-Grade Pipeline in Python",
+  collapsible: true,
+  icon: 'iconfont icon-pandas',
+  subPath: 'the-etl-pipeline-handbook-how-to-build-a-production-grade-pipeline-in-python',
+  children: [
+    'README',
+    // TODO: 페이지 생성
+  ]
+}
+
+const HOW_TO_BUILD_A_PRODUCTION_READY_DEVSECOPS_PLATFORM_FROM_HOMELAB_TO_AWS_FULL_BOOK: SidebarInfoSubgroupTemplate = { // 2026-07-28
+  text: "How to Build a Production-Ready DevSecOps Platform from Homelab to AWS [Full Book]",
+  collapsible: true,
+  icon: 'iconfont icon-k8s',
+  subPath: 'how-to-build-a-production-ready-devsecops-platform-from-homelab-to-aws-full-book',
   children: [
     'README',
     // TODO: 페이지 생성
@@ -2079,6 +2101,32 @@ const Y2026: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2026
+    "build-a-privacy-first-medical-image-de-identification-agent", // 2026-08-06
+    "bluetooth-low-energy-in-flutter-a-handbook-for-devs", // 2026-08-06
+    "how-to-fix-the-dual-write-problem-in-node-js-with-the-outbox-pattern", // 2026-08-06
+    "claude-code-full-course", // 2026-08-05
+    "how-gps-works-in-wearables-and-why-it-kills-your-battery", // 2026-08-05
+    "what-does-a-modern-qa-engineer-do", // 2026-08-05
+    "how-to-implement-hipaa-technical-safeguards-on-aws-full-handbook", // 2026-08-04
+    "how-to-implement-privacy-by-design-in-modern-apis", // 2026-08-04
+    "why-your-quantum-circuit-works-in-a-simulator-but-fails-on-real-hardware-full-handbook", // 2026-08-04
+    "how-to-build-landing-page-nextjs-shadcn", // 2026-08-04
+    "what-happens-during-a-production-deployment", // 2026-08-04
+    "what-is-agentic-ai-from-chatbot-to-co-worker", // 2026-08-01
+    "how-to-create-a-marketing-landing-page-using-shadcn-ui", // 2026-07-31
+    "agentic-ai-using-langgraph-build-ai-agents-automate-workflows", // 2026-07-30
+    "how-to-build-kubernetes-operators-a-handbook-for-devs", // 2026-07-29
+    "instrumental-variables-for-llm-routing-in-python", // 2026-07-29
+    "build-ai-applications-that-switch-models-automatically", // 2026-07-29
+    "make-your-antigravity-agent-skills-configurable-without-forking-them", // 2026-07-29
+    "oauth-2-0-guide-for-backend-developers", // 2026-07-29
+    "prompt-vs-loop-engineering-a-guide-for-developers", // 2026-07-29
+    "master-3d-printing-additive-manufacturing", // 2026-07-29
+    "the-internet-s-longest-running-joke-a-field-guide-to-the-april-fools-rfcs", // 2026-07-29
+    "a-guide-to-modern-react-form-architecture-tanstack-form-zod-shadcn", // 2026-07-29
+    "how-to-build-an-automated-workload-model-for-peak-readiness", // 2026-07-28
+    HOW_TO_BUILD_A_PRODUCTION_READY_DEVSECOPS_PLATFORM_FROM_HOMELAB_TO_AWS_FULL_BOOK, // 2026-07-28
+    THE_ETL_PIPELINE_HANDBOOK_HOW_TO_BUILD_A_PRODUCTION_GRADE_PIPELINE_IN_PYTHON, // 2026-07-28
     "how-to-build-a-real-time-object-detection-and-tracking-pipeline-with-ros-2-and-yolov11", // 2026-07-25
     "how-to-diagnose-production-bugs-when-you-can-t-reproduce-them-locally", // 2026-07-25
     "build-pdf-blur-tool-javascript", // 2026-07-25
@@ -4052,6 +4100,7 @@ export const template: SidebarInfoTemplate = {
         "how-to-build-your-own-circuit-breaker-in-spring-boot-and-really-understand-resilience4j", // 2026-02-17
         "how-to-deploy-a-spring-boot-app-with-mysql-on-amazon-eks", // 2026-06-04
         "database-version-control-with-liquibase-and-spring-boot", // 2026-06-09
+        "how-to-build-an-automated-workload-model-for-peak-readiness", // 2026-07-28
         // END: 2026java-spring
         // END: java-spring
       ]], [
@@ -4633,8 +4682,16 @@ export const template: SidebarInfoTemplate = {
         "how-to-build-production-ready-card-components-with-shadcn-ui", // 2026-07-08
         "how-to-build-a-shadcn-sheet-component-in-react-cart-and-filter-panel-examples", // 2026-07-13
         "build-a-reusable-date-time-picker-in-react-with-shadcn-ui", // 2026-07-23
+        "a-guide-to-modern-react-form-architecture-tanstack-form-zod-shadcn", // 2026-07-29
+        "how-to-create-a-marketing-landing-page-using-shadcn-ui", // 2026-07-31
+        "how-to-build-landing-page-nextjs-shadcn", // 2026-08-04
         // END: 2026js-shadcn
         // END: js-shadcn
+      ]], [
+      "js-tanstack", [
+        "a-guide-to-modern-react-form-architecture-tanstack-form-zod-shadcn", // 2026-07-29
+        // END: 2026js-tanstack
+        // END: js-tanstack
       ]], [
       "js-vue", [
         "build-a-vue-ecommerce-app-using-msw", // 2024-07-08
@@ -4770,6 +4827,8 @@ export const template: SidebarInfoTemplate = {
         "how-to-build-a-multi-tenant-saas-api-with-nodejs-rbac-and-audit-logging", // 2026-07-21
         "build-bulletproof-apis-using-typescript-in-express", // 2026-07-24
         "how-to-build-ai-agent-function-calling-nodejs-gemini", // 2026-07-25
+        "how-to-implement-privacy-by-design-in-modern-apis", // 2026-08-04
+        "how-to-fix-the-dual-write-problem-in-node-js-with-the-outbox-pattern", // 2026-08-06
         // END: 2026js-express
         // END: js-express
       ]], [
@@ -5256,6 +5315,10 @@ export const template: SidebarInfoTemplate = {
         "how-to-run-an-ai-extractability-audit", // 2026-07-23
         "how-to-use-prompt-engineering-and-context-engineering-for-ai-agents", // 2026-07-25
         "how-to-build-a-real-time-object-detection-and-tracking-pipeline-with-ros-2-and-yolov11", // 2026-07-25
+        "make-your-antigravity-agent-skills-configurable-without-forking-them", // 2026-07-29
+        "build-ai-applications-that-switch-models-automatically", // 2026-07-29
+        "how-to-implement-hipaa-technical-safeguards-on-aws-full-handbook", // 2026-08-04
+        "build-a-privacy-first-medical-image-de-identification-agent", // 2026-08-06
         // END: 2026py
         // END: py
       ]], [
@@ -5312,6 +5375,7 @@ export const template: SidebarInfoTemplate = {
         // END: 2025py-flask
         "learn-python-and-build-autonomous-agents", // 2026-02-27
         "docker-container-doctor-how-i-built-an-ai-agent-that-monitors-and-fixes-my-containers", // 2026-03-24
+        "how-to-build-kubernetes-operators-a-handbook-for-devs", // 2026-07-29
         // END: 2026py-flask
         // END: py-flask
       ]], [
@@ -5366,6 +5430,8 @@ export const template: SidebarInfoTemplate = {
         "regression-models-for-causal-inference-on-ai-features", // 2026-07-16
         "what-is-hyde-how-to-improve-rag-with-hypothetical-documents", // 2026-07-23
         "counterfactual-meta-learners-for-llm-prompt-decisions", // 2026-07-24
+        THE_ETL_PIPELINE_HANDBOOK_HOW_TO_BUILD_A_PRODUCTION_GRADE_PIPELINE_IN_PYTHON, // 2026-07-28
+        "instrumental-variables-for-llm-routing-in-python", // 2026-07-29
         // END: 2026py-numpy
         // END: py-numpy
       ]], [
@@ -5473,6 +5539,8 @@ export const template: SidebarInfoTemplate = {
         "how-to-analyze-insider-transactions-with-python-a-ceo-buying-case-study", // 2026-07-15
         "regression-models-for-causal-inference-on-ai-features", // 2026-07-16
         "counterfactual-meta-learners-for-llm-prompt-decisions", // 2026-07-24
+        THE_ETL_PIPELINE_HANDBOOK_HOW_TO_BUILD_A_PRODUCTION_GRADE_PIPELINE_IN_PYTHON, // 2026-07-28
+        "instrumental-variables-for-llm-routing-in-python", // 2026-07-29
         // END: 2026py-pandas
         // END: py-pandas
       ]], [
@@ -5560,6 +5628,8 @@ export const template: SidebarInfoTemplate = {
       "py-pydantic", [
         "how-to-keep-llm-outputs-predictable-using-pydantic-validation", // 2025-11-14
         // END: 2025py-pydantic
+        "build-ai-applications-that-switch-models-automatically", // 2026-07-29
+        // END: 2026py-pydantic
         // END: py-pydantic
       ]], [
       "py-openwebui", [
@@ -5595,6 +5665,7 @@ export const template: SidebarInfoTemplate = {
       "py-qiskit", [
         // END: 2025py-qiskit
         "how-to-write-your-first-quantum-circuit-in-python-a-beginner-s-step-by-step-guide", // 2026-06-30
+        "why-your-quantum-circuit-works-in-a-simulator-but-fails-on-real-hardware-full-handbook", // 2026-08-04
         // END: 2026py-qiskit
         // END: py-qiskit
       ]], [
@@ -5676,6 +5747,7 @@ export const template: SidebarInfoTemplate = {
         "how-to-fix-app-jank-profiling-flutter-apps-with-devtools", // 2026-07-09
         "the-observer-design-pattern-handbook-event-driven-architecture-domain-driven-design-in-dart", // 2026-07-17
         REMOTE_PROCEDURE_CALLS_PROTOCOL_BUFFERS_AND_MODERN_DISTRIBUTED_SYSTEMS_COMMUNICATION, // 2026-07-23
+        "bluetooth-low-energy-in-flutter-a-handbook-for-devs", // 2026-08-06
         // END: 2026dart
         // END: dart
       ]], [
@@ -5755,6 +5827,7 @@ export const template: SidebarInfoTemplate = {
         "how-to-dockerize-a-go-application-full-step-by-step-walkthrough", // 2026-04-30
         "how-to-build-a-postgresql-backed-job-queue-in-go", // 2026-06-10
         REMOTE_PROCEDURE_CALLS_PROTOCOL_BUFFERS_AND_MODERN_DISTRIBUTED_SYSTEMS_COMMUNICATION, // 2026-07-23
+        "how-to-build-kubernetes-operators-a-handbook-for-devs", // 2026-07-29
         // END: 2026go
         // END: go
       ]], [
@@ -6106,6 +6179,7 @@ export const template: SidebarInfoTemplate = {
         "why-it-worked-on-my-machine-still-happens-in-2026", // 2026-07-16
         "from-manufacturing-to-microservices-universal-lessons-about-reliability", // 2026-07-20
         "how-to-diagnose-production-bugs-when-you-can-t-reproduce-them-locally", // 2026-07-25
+        "what-happens-during-a-production-deployment", // 2026-08-04
         // END: 2026devops
         // END: devops
       ]], [
@@ -6180,6 +6254,7 @@ export const template: SidebarInfoTemplate = {
         "how-to-turn-a-postman-collection-into-a-maintainable-pytest-suite", // 2026-07-10
         "how-to-integrate-ai-agents-in-net-environments-for-faster-development", // 2026-07-13
         "containerize-a-node-js-app-with-docker-and-deploy-with-github-actions", // 2026-07-15
+        HOW_TO_BUILD_A_PRODUCTION_READY_DEVSECOPS_PLATFORM_FROM_HOMELAB_TO_AWS_FULL_BOOK, // 2026-07-28
         // END: 2026github
         // END: github
       ]], [
@@ -6376,6 +6451,8 @@ export const template: SidebarInfoTemplate = {
         "how-to-manage-secrets-securely-with-azure-key-vault-in-node-js", // 2026-07-20
         "how-to-build-a-multi-tenant-saas-api-with-nodejs-rbac-and-audit-logging", // 2026-07-21
         "what-to-do-if-you-ve-outgrown-your-cron-job-scheduler", // 2026-07-25
+        HOW_TO_BUILD_A_PRODUCTION_READY_DEVSECOPS_PLATFORM_FROM_HOMELAB_TO_AWS_FULL_BOOK, // 2026-07-28
+        "agentic-ai-using-langgraph-build-ai-agents-automate-workflows", // 2026-07-30
         // END: 2026docker
         // END: docker
       ]], [
@@ -6432,6 +6509,8 @@ export const template: SidebarInfoTemplate = {
         "implement-zero-trust-workload-identity-in-kubernetes-with-spiffe-spire-and-cilium", // 2026-07-08
         "how-to-build-an-internal-developer-platform-a-complete-guide-to-backstage-argocd-and-crossplane", // 2026-07-18
         "how-to-build-kubernetes-networking-without-kubernetes-do-what-the-cni-does-by-hand", // 2026-07-23
+        HOW_TO_BUILD_A_PRODUCTION_READY_DEVSECOPS_PLATFORM_FROM_HOMELAB_TO_AWS_FULL_BOOK, // 2026-07-28
+        "how-to-build-kubernetes-operators-a-handbook-for-devs", // 2026-07-29
         // END: 2026k8s
         // END: k8s
       ]], [
@@ -6532,6 +6611,9 @@ export const template: SidebarInfoTemplate = {
         "my-team-s-experience-moving-from-aws-to-a-paas", // 2026-07-01
         "why-does-the-internet-keep-breaking-a-deep-dive-into-aws-us-east-1", // 2026-07-08
         "how-to-build-an-internal-developer-platform-a-complete-guide-to-backstage-argocd-and-crossplane", // 2026-07-18
+        HOW_TO_BUILD_A_PRODUCTION_READY_DEVSECOPS_PLATFORM_FROM_HOMELAB_TO_AWS_FULL_BOOK, // 2026-07-28
+        "agentic-ai-using-langgraph-build-ai-agents-automate-workflows", // 2026-07-30
+        "how-to-implement-hipaa-technical-safeguards-on-aws-full-handbook", // 2026-08-04
         // END: 2026aws
         // END: aws
       ]], [
@@ -6742,6 +6824,7 @@ export const template: SidebarInfoTemplate = {
         "the-2026-finops-roadmap-from-cost-blind-engineer-to-cloud-financial-manager", // 2026-06-16
         "how-to-organize-and-maintain-azure-repositories-at-scale", // 2026-06-23
         "how-enterprise-teams-manage-infrastructure-at-scale-with-terraform", // 2026-06-24
+        "how-to-implement-hipaa-technical-safeguards-on-aws-full-handbook", // 2026-08-04
         // END: 2026terraform
         // END: terraform
       ]], [
@@ -6803,6 +6886,16 @@ export const template: SidebarInfoTemplate = {
         "how-to-set-up-your-own-google-analytics-alternative-using-umami", // 2025-11-12
         // END: 2025dvc
         // END: dvc
+      ]], [
+      "newrelic", [
+        "how-to-build-an-automated-workload-model-for-peak-readiness", // 2026-07-28
+        // END: 2026newrelic
+        // END: newrelic
+      ]], [
+      "dynatrace", [
+        "how-to-build-an-automated-workload-model-for-peak-readiness", // 2026-07-28
+        // END: 2025dynatrace
+        // END: dynatrace
       ]], [
       "security", [
         "crack-passwords-using-john-the-ripper-pentesting-tutorial", // 2022-11-18
@@ -6876,6 +6969,7 @@ export const template: SidebarInfoTemplate = {
         "the-cloud-pentesting-problem-why-traditional-security-models-stop-working-at-scale", // 2026-07-02
         "how-to-take-control-of-your-online-privacy", // 2026-07-06
         "the-hidden-engineering-behind-ai-products-what-devs-should-know", // 2026-07-07
+        "how-to-implement-privacy-by-design-in-modern-apis", // 2026-08-04
         // END: 2026security
         // END: security
       ]], [
@@ -6890,12 +6984,14 @@ export const template: SidebarInfoTemplate = {
         "how-to-build-a-scoped-note-taking-api-with-django-rest-framework-and-simplejwt", // 2026-05-06
         "role-based-access-control-nodejs-rest-api-jwt", // 2026-07-09
         "how-to-fix-common-web-application-security-vulnerabilities-in-node-js", // 2026-07-16
+        "oauth-2-0-guide-for-backend-developers", // 2026-07-29
         // END: 2026security-jwt
         // END: security-jwt
       ]], [
       "security-oauth", [
         // END: 2025security-oauth
         "oauth-2-course-for-beginners", // 2026-01-07
+        "oauth-2-0-guide-for-backend-developers", // 2026-07-29
         // END: 2026security-oauth
         // END: security-oauth
       ]], [
@@ -7053,6 +7149,7 @@ export const template: SidebarInfoTemplate = {
         "how-to-schedule-jobs-in-postgresql-with-pg-cron", // 2026-06-18
         "how-to-build-rag-chatbot-nodejs-gemini-pgvector", // 2026-07-16
         "how-to-build-a-multi-tenant-saas-api-with-nodejs-rbac-and-audit-logging", // 2026-07-21
+        "how-to-fix-the-dual-write-problem-in-node-js-with-the-outbox-pattern", // 2026-08-06
         // END: 2026postgresql
         // END: postgresql
       ]], [
@@ -7208,6 +7305,8 @@ export const template: SidebarInfoTemplate = {
         "how-to-connect-your-aws-ec2-instance-to-vs-code", // 2025-03-26
         "how-to-use-your-raspberry-pi-headlessly-with-vs-code-and-ssh", // 2025-05-27
         // END: 2025vscode
+        "claude-code-full-course", // 2026-08-05
+        // END: 2026vscode
         // END: vscode
       ]], [
       "xls", [
@@ -7503,6 +7602,9 @@ export const template: SidebarInfoTemplate = {
         "what-is-hyde-how-to-improve-rag-with-hypothetical-documents", // 2026-07-23
         "how-to-run-an-ai-extractability-audit", // 2026-07-23
         "counterfactual-meta-learners-for-llm-prompt-decisions", // 2026-07-24
+        "prompt-vs-loop-engineering-a-guide-for-developers", // 2026-07-29
+        "instrumental-variables-for-llm-routing-in-python", // 2026-07-29
+        "what-is-agentic-ai-from-chatbot-to-co-worker", // 2026-08-01
         // END: 2026llm
         // END: llm
       ]], [
@@ -7543,6 +7645,7 @@ export const template: SidebarInfoTemplate = {
         "build-a-self-healing-ci-cd-pipeline-with-ai", // 2026-06-15
         "codex-vs-claude-code-which-ai-coding-assistant-to-choose", // 2026-07-02
         "ai-paper-review-self-consistency-improves-chain-of-thought-reasoning-in-language-models", // 2026-07-09
+        "build-ai-applications-that-switch-models-automatically", // 2026-07-29
         // END: 2026openai
         // END: openai
       ]], [
@@ -7572,15 +7675,17 @@ export const template: SidebarInfoTemplate = {
         "how-to-stop-your-ai-coding-agent-from-writing-outdated-code-with-modern-web-guidance", // 2026-06-25
         "how-to-build-an-ai-feature-with-gemini-a-practical-guide-to-prompt-engineering-for-developers", // 2026-07-23
         "how-to-build-ai-agent-function-calling-nodejs-gemini", // 2026-07-25
+        "build-ai-applications-that-switch-models-automatically", // 2026-07-29
         // END: 2026gemini
         // END: gemini
       ]], [
-      "anitgravity", [
+      "antogravity", [
         "build-an-ai-powered-flutter-app-with-google-antigravity", // 2026-01-08
-        // END: 2025anitgravity
+        // END: 2025antogravity
         "learn-how-ai-agents-are-changing-development-by-building-a-flutter-app", // 2026-03-12
-        // END: 2026anitgravity
-        // END: anitgravity
+        "make-your-antigravity-agent-skills-configurable-without-forking-them", // 2026-07-29
+        // END: 2026antogravity
+        // END: antogravity
       ]], [
       "llama", [
         "how-to-build-a-rag-pipeline-with-llamaindex", // 2024-08-30
@@ -7628,6 +7733,8 @@ export const template: SidebarInfoTemplate = {
         "export-a-claude-conversation-as-pdf-complete-guide", // 2026-07-06
         "claude-certified-architect-foundations-prep-for-anthropic-s-new-certification-exam", // 2026-07-23
         "the-new-agency-stack-how-dev-shops-use-claude-cursor-and-copilot-in-production", // 2026-07-25
+        "claude-code-full-course", // 2026-08-05
+        "build-a-privacy-first-medical-image-de-identification-agent", // 2026-08-06
         // END: 2026claude
         // END: claude
       ]], [
@@ -7711,6 +7818,7 @@ export const template: SidebarInfoTemplate = {
         // END: 2025langgraph
         HOW_TO_BUILD_A_MULTI_AGENT_AI_SYSTEM_WITH_LANGGRAPH_MCP_AND_A2A_FULL_BOOK, // 2026-04-30
         "how-to-build-your-first-multi-agent-ai-system-in-python-and-langgraph", // 2026-07-15
+        "agentic-ai-using-langgraph-build-ai-agents-automate-workflows", // 2026-07-30
         // END: 2026langgraph
         // END: langgraph
       ]], [
@@ -7815,6 +7923,8 @@ export const template: SidebarInfoTemplate = {
         HOW_TO_BUILD_YOUR_OWN_MCP_SERVER_AND_PUBLISH_YOUR_CHATGPT_APP, // 2026-07-10
         "harness-engineering-ai-native-company", // 2026-07-16
         "claude-certified-architect-foundations-prep-for-anthropic-s-new-certification-exam", // 2026-07-23
+        "claude-code-full-course", // 2026-08-05
+        "build-a-privacy-first-medical-image-de-identification-agent", // 2026-08-06
         // END: 2026mcp
         // END: mcp
       ]], [
@@ -7959,6 +8069,8 @@ export const template: SidebarInfoTemplate = {
         "how-an-lms-software-helps-technical-teams-upskill-faster", // 2026-07-10
         "understanding-dijkstra-s-algorithm", // 2026-07-16
         "how-clients-and-servers-communicate-handbook-http-rest-websockets-graphql-grpc-protobuf", // 2026-07-24
+        "the-internet-s-longest-running-joke-a-field-guide-to-the-april-fools-rfcs", // 2026-07-29
+        "what-does-a-modern-qa-engineer-do", // 2026-08-05
         // END: 2026coen
         // END: coen
       ]], [
@@ -8020,6 +8132,9 @@ export const template: SidebarInfoTemplate = {
         "sleep-tracking-bluetooth-signals-and-emf-in-wearables", // 2026-06-24
         "why-different-wearables-report-different-heart-rates", // 2026-06-30
         "hrv-data-is-everywhere-here-s-what-it-actually-means", // 2026-07-21
+        "master-3d-printing-additive-manufacturing", // 2026-07-29
+        "why-your-quantum-circuit-works-in-a-simulator-but-fails-on-real-hardware-full-handbook", // 2026-08-04
+        "how-gps-works-in-wearables-and-why-it-kills-your-battery", // 2026-08-05
         // END: 2026hw
         // END: hw
       ]], [

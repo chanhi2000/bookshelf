@@ -15,6 +15,8 @@ const Y2026: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2026
+    "persisting-a-rich-domain-model-with-ef-core", // 2026-08-08
+    "should-you-split-that-into-microservices-ask-these-5-questions-first", // 2026-08-01
     "the-system-design-behind-my-new-saas", // 2026-07-25
     "how-i-migrated-my-website-to-cloudflare-and-saved-228-dollars", // 2026-07-18
     "how-to-test-vertical-slice-architecture", // 2026-07-11
@@ -431,6 +433,7 @@ export const template: SidebarInfoTemplate = {
       "building-dapr-workflows-in-dotnet-with-aspire", // 2026-06-13
       "getting-started-with-nats-jetstream-in-dotnet", // 2026-06-27
       "how-to-test-vertical-slice-architecture", // 2026-07-11
+      "persisting-a-rich-domain-model-with-ef-core", // 2026-08-08
       // END: 2026cs
       // END: cs
     ]],[
@@ -602,6 +605,7 @@ export const template: SidebarInfoTemplate = {
       "the-modular-monolith-boundary-i-couldnt-take-back", // 2026-06-20
       "build-your-own-vpn-with-tailscale", // 2026-07-04
       "the-system-design-behind-my-new-saas", // 2026-07-25
+      "should-you-split-that-into-microservices-ask-these-5-questions-first", // 2026-08-01
       // END: 2026system-design
       // END: system-design
     ]],[

@@ -621,7 +621,7 @@ Whether you are spinning up a single server or scaling a complex system, IaC lay
 
 First, define the providers and versions you need. Here, we’re using Render’s free cloud hosting service:
 
-```tf
+```hcl
 # Define required providers and versions
 terraform {
   required_providers {
@@ -644,7 +644,7 @@ Then, configure the provider by authenticating with your API key. It is best pra
 
 Next, define the infrastructure you want - in this case, a web service hosted on Render:
 
-```tf
+```hcl
 # Define a web service on Render's free tier
 resource "render_service" "web_app" {
   name = "ci-demo-app"                                 # Service name
