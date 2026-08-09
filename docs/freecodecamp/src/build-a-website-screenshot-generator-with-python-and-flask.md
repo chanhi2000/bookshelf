@@ -164,11 +164,11 @@ pip install flask requests
 Inside your project folder, create the following files and folders:
 
 ```sh title="file structure"
-screenshot-generator/
+📂screenshot-generator/
 ├── app.py
-├── templates/
+├── 📂templates/
 │   └── index.html
-└── static/
+└── 📂static/
 ```
 
 Here’s what each part does:

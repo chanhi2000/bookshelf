@@ -108,10 +108,10 @@ We'll build the PDF OCR application using standard web technologies.
 Create the following project structure.
 
 ```sh title="file structure"
-pdf-ocr-tool/
-│── index.html
-│── style.css
-│── script.js
+📂pdf-ocr-tool/
+├── index.html
+├── style.css
+└── script.js
 ```
 
 Next, include the required JavaScript libraries inside <VPIcon icon="fa-brands fa-html5"/>`index.html`.

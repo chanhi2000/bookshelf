@@ -24,7 +24,6 @@ tag:
   - claude
   - mcp
   - model-context-protocols
-
 head:
   - - meta:
     - property: og:title

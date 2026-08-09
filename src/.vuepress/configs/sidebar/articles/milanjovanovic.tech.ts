@@ -15,6 +15,7 @@ const Y2026: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2026
+    "how-do-you-build-a-social-media-feed-system-design", // 2026-08-15
     "persisting-a-rich-domain-model-with-ef-core", // 2026-08-08
     "should-you-split-that-into-microservices-ask-these-5-questions-first", // 2026-08-01
     "the-system-design-behind-my-new-saas", // 2026-07-25
@@ -606,6 +607,7 @@ export const template: SidebarInfoTemplate = {
       "build-your-own-vpn-with-tailscale", // 2026-07-04
       "the-system-design-behind-my-new-saas", // 2026-07-25
       "should-you-split-that-into-microservices-ask-these-5-questions-first", // 2026-08-01
+      "how-do-you-build-a-social-media-feed-system-design", // 2026-08-15
       // END: 2026system-design
       // END: system-design
     ]],[

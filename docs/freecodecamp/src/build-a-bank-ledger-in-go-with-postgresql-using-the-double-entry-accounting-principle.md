@@ -195,15 +195,15 @@ Every request flows from the handler, through the service, to the store, and fin
 ### Backend Request Flow
 
 ```mermaid
-graph TD
-    A[HTTP Request] --> B[Handler - API Layer]
-    B --> C[LedgerService - Business Logic]
-    C --> D[Store - Persistence Layer]
-    D --> E[(PostgreSQL)]
-    E --> D
-    D --> C
-    C --> B
-    B --> F[HTTP Response]
+flowchart TD
+  A[HTTP Request] --> B[Handler - API Layer]
+  B --> C[LedgerService - Business Logic]
+  C --> D[Store - Persistence Layer]
+  D --> E[(PostgreSQL)]
+  E --> D
+  D --> C
+  C --> B
+  B --> F[HTTP Response]
 ```
 
 ---

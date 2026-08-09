@@ -326,7 +326,7 @@ Keep in mind that the actual machine learning model is usually just a tiny fract
 Now that you have your model files, set up your project structure like this and create an <VPIcon icon="fa-brands fa-html5"/>`index.html` file:
 
 ```sh title="file structure"
-your-project/
+📂your-project/
 ├── index.html
 ├── model.json
 ├── weights.bin

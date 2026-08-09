@@ -174,15 +174,15 @@ Update <VPIcon icon="iconfont icon-json"/>`package.json` to add start scripts:
 Create the project structure:
 
 ```sh title="file structure"
-nodejs-rbac-jwt-api/
-├── src/
-│   ├── middleware/
+📂nodejs-rbac-jwt-api/
+├── 📂src/
+│   ├── 📂middleware/
 │   │   └── auth.js
-│   ├── routes/
+│   ├── 📂routes/
 │   │   ├── auth.js
 │   │   ├── content.js
 │   │   └── admin.js
-│   ├── data/
+│   ├── 📂data/
 │   │   └── users.js
 │   └── app.js
 ├── .env

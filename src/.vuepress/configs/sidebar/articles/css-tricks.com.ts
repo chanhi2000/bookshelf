@@ -37,6 +37,12 @@ const Y2026: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2026
+    "dark-mode-toggles-two-states-are-enough", // 2026-08-17
+    "whats-important-17", // 2026-08-14
+    "blocked-aria-hidden-fix", // 2026-08-12
+    "animating-css-border-image", // 2026-08-10
+    "smashingconf-freiburg-2026-september-7-10", // 2026-08-10
+    "using-and-styling-the-dialog-element", // 2026-08-07
     "2026-state-of-css-devs-surveys", // 2026-08-06
     "css-gap-decorations-now-available", // 2026-08-03
     "get-ready-for-the-powerful-css-border-shape-property", // 2026-07-31
@@ -625,6 +631,12 @@ export const template: SidebarInfoTemplate = {
       "whats-important-16", // 2026-07-31
       "get-ready-for-the-powerful-css-border-shape-property", // 2026-07-31
       "2026-state-of-css-devs-surveys", // 2026-08-06
+      "using-and-styling-the-dialog-element", // 2026-08-07
+      "smashingconf-freiburg-2026-september-7-10", // 2026-08-10
+      "animating-css-border-image", // 2026-08-10
+      "blocked-aria-hidden-fix", // 2026-08-12
+      "whats-important-17", // 2026-08-14
+      "dark-mode-toggles-two-states-are-enough", // 2026-08-17
       // END: 2026css
       // END: css
     ]],[
@@ -633,6 +645,16 @@ export const template: SidebarInfoTemplate = {
       "4-reasons-that-make-tailwind-great-for-building-layouts", // 2026-03-16
       // END: 2026css-tailwind
       // END: css-tailwind
+    ]],[
+    "js-react",[
+      "blocked-aria-hidden-fix", // 2026-08-12
+      // END: 2026js-react
+      // END: js-react
+    ]],[
+    "js-vue",[
+      "blocked-aria-hidden-fix", // 2026-08-12
+      // END: 2026js-vue
+      // END: js-vue
     ]],[
     "js-astro",[
       "building-a-honeypot-field-that-works", // 2025-10-20
@@ -675,6 +697,7 @@ export const template: SidebarInfoTemplate = {
       "another-stab-at-the-perfect-css-pie-chart-sans-javascript", // 2026-06-04
       "the-siren-song-of-arianotify", // 2026-06-17
       "css-states-and-javascript-events", // 2026-06-29
+      "using-and-styling-the-dialog-element", // 2026-08-07
       // END: 2026js
       // END: js
     ]],[

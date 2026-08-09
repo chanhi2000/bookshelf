@@ -140,10 +140,10 @@ We'll build this project using standard web technologies.
 Create the following files:
 
 ```sh title="file structure"
-pdf-analyzer/
-│── index.html
-│── style.css
-│── script.js
+📂pdf-analyzer/
+├── index.html
+├── style.css
+└── script.js
 ```
 
 Next, include the required libraries inside **index.html**.

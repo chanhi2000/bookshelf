@@ -34,7 +34,7 @@ head:
       content: "How to Build AI Applications That Switch Models Automatically"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-ai-applications-that-switch-models-automatically.html
-prev: /articles/README.md
+prev: /programming/py-pydantic/articles/README.md
 date: 2026-07-29
 isOriginal: false
 author:
@@ -47,9 +47,29 @@ cover: https://cdn.hashnode.com/uploads/covers/5fc16e412cae9c5b190b6cdd/521c4138
 
 ```component VPCard
 {
-  "title": " > Article(s)",
+  "title": "Pydantic > Article(s)",
   "desc": "Article(s)",
-  "link": "/articles/README.md",
+  "link": "/programming/py-pydantic/articles/README.md",
+  "logo": "/images/ico-wind.svg",
+  "background": "rgba(10,10,10,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "Google Gemini > Article(s)",
+  "desc": "Article(s)",
+  "link": "/ai/gemini/articles/README.md",
+  "logo": "/images/ico-wind.svg",
+  "background": "rgba(10,10,10,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "OpenAI > Article(s)",
+  "desc": "Article(s)",
+  "link": "/ai/openai/articles/README.md",
   "logo": "/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
@@ -100,8 +120,7 @@ pip install openai anthropic python-dotenv pydantic
 Organize your project directory like this to keep your code clean:
 
 ```sh title="file structure"
-ai-model-router/
-│
+📂ai-model-router/
 ├── .env
 ├── README.md
 └── app.py

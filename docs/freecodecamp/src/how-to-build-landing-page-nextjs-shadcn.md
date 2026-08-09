@@ -2,7 +2,7 @@
 lang: en-US
 title: "How to Build an Open Source SaaS Landing Page Template with shadcn/ui"
 description: "Article(s) > How to Build an Open Source SaaS Landing Page Template with shadcn/ui"
-icon: fa-brands fa-js
+icon: iconfont icon-shadcn
 category:
   - Node.js
   - React.js

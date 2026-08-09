@@ -132,13 +132,13 @@ Notes: coverage varies by provider. Some APIs return abstracts reliably, while o
 While n8n is a visual tool, it helps to design your workflow as modular stages to avoid the “spaghetti workflow” problem.
 
 ```sh title="file structure"
-.
-├── configuration/         # Keywords, thresholds, limits, date filters
-├── collectors/            # Parallel HTTP request nodes (multiple sources)
-├── processing/            # Normalization + deduplication code nodes
-├── extraction/            # LLM extraction nodes (strict JSON)
-├── scoring/               # Relevance + quality scoring + filtering
-└── delivery/              # Google Sheets + email/HTML report
+📂.
+├── 📂configuration/         # Keywords, thresholds, limits, date filters
+├── 📂collectors/            # Parallel HTTP request nodes (multiple sources)
+├── 📂processing/            # Normalization + deduplication code nodes
+├── 📂extraction/            # LLM extraction nodes (strict JSON)
+├── 📂scoring/               # Relevance + quality scoring + filtering
+└── 📂delivery/              # Google Sheets + email/HTML report
 ```
 
 Design principle: each stage should produce a clean, predictable output shape that the next stage can rely on.

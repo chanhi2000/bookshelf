@@ -25,7 +25,7 @@ head:
     - property: og:description
       content: "How to Use Dart Cloud Functions and the Firebase Admin SDK: A Handbook for Developers"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-use-dart-cloud-functions-and-the-firebase-admin-sdk.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-use-dart-cloud-functions-and-the-firebase-admin-sdk/
 prev: /programming/dart/articles/README.md
 date: 2026-05-23
 isOriginal: false
@@ -1756,7 +1756,7 @@ This handbook was written in May 2026, reflecting the experimental Dart Cloud Fu
 {
   "title": "How to Use Dart Cloud Functions and the Firebase Admin SDK: A Handbook for Developers",
   "desc": "There is a specific kind of friction that every Flutter developer who has tried to write a backend has felt. You spend your days writing expressive, null-safe, strongly typed Dart code on the frontend",
-  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-use-dart-cloud-functions-and-the-firebase-admin-sdk.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-use-dart-cloud-functions-and-the-firebase-admin-sdk/",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

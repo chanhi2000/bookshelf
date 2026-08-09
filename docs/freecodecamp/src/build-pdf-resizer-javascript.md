@@ -111,10 +111,10 @@ A simple project structure looks like this:
 
 ```sh title="file structure"
 pdf-resizer/
-│── index.html
-│── style.css
-│── script.js
-│── assets/
+├── index.html
+├── style.css
+├── script.js
+├── assets/
 ```
 
 The HTML file contains the upload area, page preview, resize settings, and download section.

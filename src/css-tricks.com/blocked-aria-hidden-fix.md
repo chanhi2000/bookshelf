@@ -1,0 +1,610 @@
+---
+lang: en-US
+title: "Blocked aria-hidden: The Warning is Right, and Every Fix You've Found is Wrong"
+description: "Article(s) > Blocked aria-hidden: The Warning is Right, and Every Fix You've Found is Wrong"
+icon: fa-brands fa-css3-alt
+category:
+  - Node.js
+  - React.js
+  - Vue.js
+  - CSS
+  - Article(s)
+tag:
+  - blog
+  - css-tricks.com
+  - node
+  - nodejs
+  - node-js
+  - react
+  - reactjs
+  - react-js
+  - vue
+  - vuejs
+  - vue-js
+  - css
+head:
+  - - meta:
+    - property: og:title
+      content: "Article(s) > Blocked aria-hidden: The Warning is Right, and Every Fix You've Found is Wrong"
+    - property: og:description
+      content: "Blocked aria-hidden: The Warning is Right, and Every Fix You've Found is Wrong"
+    - property: og:url
+      content: https://chanhi2000.github.io/bookshelf/css-tricks.com/blocked-aria-hidden-fix.html
+prev: /programming/css/articles/README.md
+date: 2026-08-12
+isOriginal: false
+author:
+  - name: Durgesh Rajubhai Pawar
+    url: https://css-tricks.com/author/durgeshpawar/
+cover: https://i0.wp.com/css-tricks.com/wp-content/uploads/2026/07/devtools-aria-hidden-console-warning.jpg
+---
+
+# {{ $frontmatter.title }} 관련
+
+```component VPCard
+{
+  "title": "React.js > Article(s)",
+  "desc": "Article(s)",
+  "link": "/programming/js-react/articles/README.md",
+  "logo": "/images/ico-wind.svg",
+  "background": "rgba(10,10,10,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "Vue.js > Article(s)",
+  "desc": "Article(s)",
+  "link": "/programming/js-vue/articles/README.md",
+  "logo": "/images/ico-wind.svg",
+  "background": "rgba(10,10,10,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "CSS > Article(s)",
+  "desc": "Article(s)",
+  "link": "/programming/css/articles/README.md",
+  "logo": "/images/ico-wind.svg",
+  "background": "rgba(10,10,10,0.2)"
+}
+```
+
+[[toc]]
+
+---
+
+<SiteInfo
+  name="Blocked aria-hidden: The Warning is Right, and Every Fix You've Found is Wrong"
+  desc="The warning is correct. And the recommended fixes you've probably seen are wrong. Here's what you can do instead to properly fix the issue."
+  url="https://css-tricks.com/blocked-aria-hidden-fix"
+  logo="https://css-tricks/favicon.svg"
+  preview="https://i0.wp.com/css-tricks.com/wp-content/uploads/2026/07/devtools-aria-hidden-console-warning.jpg"/>
+
+You closed a dialog and the console went that particular shade of angry mustard. You highlighted the message, dropped it into a search box, and it spat you out here along with half the front-end internet, because this exact string turns up identically whether you’re on Angular, Bootstrap, Ionic, or phpMyAdmin.
+
+Here’s the part the top results bury: the warning is correct. There’s a real person on the other side of it — someone using a screen reader whose focus is about to drop into a hole in your page.
+
+And the fixes ranking above me right now all do the same thing under different names: the [<VPIcon icon="fas fa-globe"/>`blur()` one-liner](https://datatables.net/forums/discussion/81601/console-warning-for-editor-with-bootstrap-5-and-foundation), the [`setTimeout` you wrap the close in (<VPIcon icon="iconfont icon-github"/>`shadcn-ui/ui`)](https://github.com/shadcn-ui/ui/discussions/5953), the trick where you [yank the `aria-hidden` attribute off (<VPIcon icon="iconfont icon-github"/>`twbs/bootstrap`)](https://github.com/twbs/bootstrap/issues/29769).
+
+Each one quiets the console while quietly hurting the person the browser was trying to protect. If you’ve already shipped one of them, you’re in enormous company. You were failed by your search results, not careless.
+
+I know, because I shipped one too.
+
+One honest shortcut before you read another word: if you can migrate to the native `<dialog>` element and call `.showModal()`, do that, close this tab, and get your afternoon back, because the browser runs the entire focus dance for you and this class of bug all but disappears. (You’ll still want to handle the case where the element focus should return to has been removed from the DOM, which no browser can guess for you.) Everything past here is for the rest of us, wired into a component library or a design system we can’t tear out this quarter.
+
+---
+
+## The fix, if you’re in a hurry
+
+The whole thing fits in one sentence, and if it’s the only sentence you read you’ll still be ahead of most of what ranks above me: **focus has to leave a region before that region becomes hidden or inert.** That’s it. Everything else here is footnotes, edge cases, and the story of how I learned it the expensive way.
+
+In practice it’s an order of operations. Most modal code already has the right pieces, just in the wrong sequence — the fix is purely a reordering, and the two versions below show it directly, with the one step nearly everyone skips (inert-ing the closing overlay itself) called out in the comments.
+
+```js
+// WRONG: the order most modal code ships with
+function closeModal() {
+  // background hidden while focus is STILL inside it → ghost focus
+  overlay.setAttribute('aria-hidden', 'true');
+  overlay.classList.add('fade-out');
+  overlay.addEventListener('transitionend', () => overlay.remove());
+  // focus restored after the hide already committed; too late
+  triggerButton.focus();
+}
+
+// RIGHT: hand the page back, then focus leaves, then the region goes inert
+function closeModal() {
+  // un-inert FIRST: inert blocks focus, so the trigger can't receive focus while the background is still inert
+  background.removeAttribute('inert');
+  // move focus OUT before anything gets hidden
+  triggerButton.focus();
+  // inert, not aria-hidden, on the CLOSING shell
+  overlay.setAttribute('inert', '');
+  overlay.style.pointerEvents = 'none';
+  overlay.classList.add('fade-out');
+  overlay.addEventListener('transitionend', () => overlay.remove());
+}
+```
+
+The wrong version isn’t wrong because someone was careless. It reads top-to-bottom exactly the way you’d narrate closing a modal out loud.
+
+But the browser applies that hide the moment the statement runs, before the focus move on the next line even happens. It’s all one synchronous task. The damage is in the ordering and the invalid state that exists between those two statements, not a literal gap in time.
+
+Get the order right and the result is boring — which is exactly the point. The user hits Esc, hears focus land back on the button they opened the thing with, and carries on.
+
+Get it wrong and they land on `<body>`, hear silence or just the page title, and have to Tab from the top of a long page all the way back to wherever they’d been. That second experience is what the warning exists to prevent, and it’s the one `blur()` hands the user every time.
+
+Let’s talk about the traps you’ve probably already got open in other tabs: the `blur()` one-liner, the `setTimeout` shim, stripping `aria-hidden`, and `modal={false}` on Radix or [<VPIcon icon="iconfont icon-shadcn"/>shadcn](https://ui.shadcn.com). I’ll take each apart properly in a bit, because every one is a reasonable-looking mistake, not a dumb one.
+
+That warning isn’t Chrome nagging you about a style-guide nicety. It’s the browser telling on your architecture.
+
+---
+
+## Chrome isn’t warning you. It’s overruling you.
+
+You read the word “warning” and filed it where you file the rest of the console: yellow, non-blocking, someone else’s problem, deal with it after the release. I did the same thing.
+
+That word is doing a lot of damage, because it tells you this is advisory — and it isn’t. By the time you see the message, the browser has looked at your markup, decided you were wrong, and shipped a different accessibility tree than the one you wrote.
+
+Open the modal that triggers it and look at the Elements panel. Your `aria-hidden="true"` is right there on the background wrapper, untouched. Nothing in the DOM inspector is a lie.
+
+Now switch to the Accessibility panel and look at the tree Chrome actually handed the operating system’s screen-reader APIs. The subtree you told it to hide is still there, still exposed, still fully readable.
+
+![](https://i0.wp.com/css-tricks.com/wp-content/uploads/2026/07/chrome-devtools-aria-hidden-tree.png?resize=1100%2C1604&ssl=1)
+
+Chrome DevTools with the modal open: the `#page` wrapper carries `aria-hidden="true"` (see the console warning naming the focused button), yet its entire subtree — including the focusable links — is still exposed in the accessibility tree, because a focused element remains inside it.
+
+Blink read your attribute, saw the focused node living inside that subtree, and walked back up the focused node’s ancestor chain, ignoring your `aria-hidden` the whole way. The moment focus leaves, the pruning snaps back and the region hides like you asked.
+
+So the state you think you shipped — the one where that region is invisible to assistive tech — is not the state any screen reader receives. It exists only in your Elements panel and your head.
+
+That gap between the two panels is the whole bug, and it comes from a paradox baked into `aria-hidden`.
+
+The attribute pulls content out of the accessibility tree. It does not pull that content out of keyboard focus order. Two different systems, nothing keeping them in sync.
+
+So an element can be fully focusable and completely imperceptible at once. The instant Tab lands on it, you’ve created what I’ve come to call *ghost focus*: the screen reader fires a focus event for a node it’s been told doesn’t exist, looks it up, finds nothing it’s allowed to describe, and says nothing.
+
+Sit with what that’s like from the other side of the screen. Someone pressed Tab. Focus moved, a control lit up, and their screen reader went silent. Not “button, dialog.” Not the field label. Silence.
+
+They pressed a key, the machine acknowledged nothing, and now they don’t know if the app broke, if their assistive tech crashed, or if they did something wrong. They’re standing in the middle of a room the map insists isn’t there, and the only way out is to keep tabbing blind and hope something eventually speaks.
+
+That’s what Chrome prevents when it overrules you. Left alone, `aria-hidden` over a focused control doesn’t hide anything kindly; it hides the labels and keeps the focus, which is the worst of both.
+
+Chromium has been quietly patching this for far longer than the warning’s been around. As far as I can reconstruct, the tree got loud in two installments, and I’m piecing the timing together from when bug reports clustered rather than from a changelog I can point at cleanly.
+
+The open-time variant — the one that scolds you about an element that “just received focus” — shows up across trackers around Chrome 127 in summer 2024, clustering in July and August across [MUI (<VPIcon icon="iconfont icon-github"/>`mui/material-ui#43106`)](https://github.com/mui/material-ui/issues/43106), [Ant Design (<VPIcon icon="iconfont icon-github"/>`ant-design/ant-design#50170`)](https://github.com/ant-design/ant-design/issues/50170), and [Flowbite (<VPIcon icon="iconfont icon-github"/>`themesberg/flowbite#943`)](https://github.com/themesberg/flowbite/issues/943).
+
+The close-time variant, the “retained focus” wording, arrives months later around [<VPIcon icon="fa-brands fa-chrome"/>Chrome 131](https://developer.chrome.com/release-notes/131) in late 2024. The person who filed [Bootstrap #41005 (<VPIcon icon="iconfont icon-github"/>`twbs/bootstrap`)](https://github.com/twbs/bootstrap/issues/41005) on November 5 caught it live, noting it showed in the 131 Beta and Nightly builds but not stable yet, and [Angular (<VPIcon icon="iconfont icon-github"/>`angular/components#30187`)](https://github.com/angular/components/issues/30187) in December matches. Two waves, one behavior underneath.
+
+That behavior is old. Chromium was already exposing focusable `aria-hidden` nodes back in early 2020. We know this because [ARIA WG issue (<VPIcon icon="iconfont icon-github"/>`w3c/aria#1185`)](https://github.com/w3c/aria/issues/1185) records Chrome accessibility engineer Aaron Leventhal proposing exactly that, so users could “at least hear where they are tabbing to, instead of complete silence.”
+
+The pattern he was defending against goes back further, to teams slapping `aria-hidden` on `<body>` or a giant wrapper when a modal opened. Through portal and markup mistakes, this sometimes hid the modal too, locking a screen reader out of the whole page. You can watch people argue about that failure as far back as [Bootstrap (<VPIcon icon="iconfont icon-github"/>`twbs/bootstrap#29769`)](https://github.com/twbs/bootstrap/issues/29769) in 2019. The honest framing: your teardown code was broken years before any of this reached your console. The repair was happening silently the whole time, which is exactly why nobody fixed it.
+
+Firefox and Safari don’t surface a comparable console warning for this, as far as I’ve been able to test; whatever each engine does about focused content inside a hidden subtree, it does without telling you. Chrome decided to make you feel it, and I think that call was right, whatever you make of the tone. A silent fix lets broken code ship forever, because the browser papering over your mistake is indistinguishable, from your seat, from your code being correct. Loud is uncomfortable and loud is honest.
+
+If Chrome is repairing your tree, the question stops being “how do I make the message go away?” and becomes “at what exact instant does my code produce a focused node inside a hidden region?” It turns out there are four distinct instants, each with its own shape.
+
+---
+
+## The four ways you get here
+
+Every one of these ends at the same place: focus sitting inside a region that just went hidden. But they arrive from four different directions, and if you don’t know which one you’re looking at you’ll apply the wrong fix and either not silence the warning or silence it by breaking something worse. Here’s the map I wish I’d had, sorted roughly by how many of you are living each one.
+
+Before the deep dives, here’s the quick triage so you can find yours. If the warning fires when you *close* a modal, during the fade, you’ve got the close-time race. If it fires the instant a modal *opens*, it’s the open-time inversion. If it involves a `<select>`, `popover`, or dropdown nested inside a `<dialog>`, it’s the composition turf war, the one that turns fatal under React 19. And if it fires when nothing on the page changed but you Alt-Tabbed or switched tabs with an overlay open, focus left the page. Find your symptom, then read that one.
+
+### Hidden mid-goodbye (the close-time race)
+
+You click the close button. The dialog starts its fade out. Somewhere in those two hundred milliseconds of CSS transition, focus is still parked on that close button, and the button sits inside the overlay the library just marked hidden to start the fade. The transition hasn’t finished. Focus hasn’t gone anywhere. Chrome, seeing a focused node inside a freshly-hidden subtree, logs the “retained focus” line.
+
+This is the one perhaps seventy percent of you arrived with, and it has the cleanest anatomy.
+
+[phpMyAdmin (<VPIcon icon="iconfont icon-github"/>`phpmyadmin/phpmyadmin#19793`)](https://github.com/phpmyadmin/phpmyadmin/issues/19793) prints the whole crime scene straight into the console: the element with focus is a `<button.btn-close>`, and the ancestor carrying `aria-hidden` is the `<div.modal>` wrapping it. The close button is a descendant of the thing being hidden, and it still owns focus.
+
+Bootstrap earns a special place here because its architecture keeps the bad window open by design, not by accident. Historically it restores focus to the trigger on the `hidden.bs.modal` event, and that event fires after the CSS transition completes.
+
+So for the entire length of the fade, every frame of it, you have a hidden modal with a focused button inside and nowhere for focus to have gone because the code that moves it hasn’t run.
+
+The reporter on [Bootstrap (<VPIcon icon="iconfont icon-github"/>`twbs/bootstrap#41005`)](https://github.com/twbs/bootstrap/issues/41005) walked into exactly this, and the maintainers’ first answer, [PR (<VPIcon icon="iconfont icon-github"/>`twbs/bootstrap#41867`)](https://github.com/twbs/bootstrap/pull/41867), tried swapping in `inert` to close the hole. That PR was closed unmerged in June 2026: Bootstrap 6 opens modals with the native `showModal()`, which puts the dialog in the top layer and makes the rest of the document implicitly inert, so the manual `inert` toggling was never needed and the whole class of bug goes away.
+
+Good news if you’re on Bootstrap 6. If you’re still on the 5.x line, the failing pattern is exactly what you’re shipping.
+
+You’ll see the same shape in [MUI (<VPIcon icon="iconfont icon-github"/>`mui/material-ui#43106`)](https://github.com/mui/material-ui/issues/43106), [Shoelace (<VPIcon icon="iconfont icon-github"/>`shoelace-style/shoelace#2335`)](https://github.com/shoelace-style/shoelace/issues/2335), and [Angular (<VPIcon icon="iconfont icon-github"/>`angular/components#30187`)](https://github.com/angular/components/issues/30187), because they all make the same reasonable-looking decision: hide first so the animation can start, tidy up focus later. The cure is entirely about ordering, and it’s a few sections away.
+
+### The trigger left behind (open-time inversion)
+
+Now run it backwards. The overlay opens. The library marks the whole background `aria-hidden="true"` so the screen reader ignores the page behind the modal. Reasonable. Except the button the user just clicked lives in that background, and for one beat it still holds focus before anything moves it into the dialog. Hidden region, focused node inside, and this time you get the other wording, the one about an element that “just received focus.”
+
+[Flowbite (<VPIcon icon="iconfont icon-github"/>`themesberg/flowbite#943`)](https://github.com/themesberg/flowbite/issues/943) hits a sharper version: focus gets sent to an input inside a dropdown the code hasn’t finished revealing, so the target is hidden at the instant it receives focus.
+
+[Ant Design (<VPIcon icon="iconfont icon-github"/>`ant-design/ant-design#50170`)](https://github.com/ant-design/ant-design/issues/50170) shows the plainer flavor, a modal mounted to `<body>` with the trigger still lit behind the newly-hidden backdrop.
+
+It’s the same defect as the close-time race, mirrored in time: instead of hiding a region focus hasn’t left yet, you’re hiding a region focus hasn’t yet arrived to escape. The fix is the same family of ordering discipline, applied on the way up instead of the way down.
+
+### The turf war (nested composition conflicts)
+
+You open a `<dialog>`. Inside it you put a `<select>`, because of course you do, it’s a form. The user opens the `<select>`, picks an `<option>`, the `<select>` closes. And now two components that each believe they’re the one true modal layer are fighting over who gets to hide the rest of the page, because both ship the same hide-others logic and neither knows the other exists.
+
+This is where the warning stops being noise. On [shadcn (<VPIcon icon="iconfont icon-github"/>`shadcn-ui/ui#5953`)](https://github.com/shadcn-ui/ui/discussions/5953) you can read the whole saga of a `popover` inside a `<dialog>`, each applying its own background-hiding. Developers found themselves bouncing between `modal={true}` (console spam) and the alternative (an unclickable calendar) with no good option in the middle. Annoying, but survivable.
+
+Under React 19, it graduates from annoying to fatal. [Radix (<VPIcon icon="iconfont icon-github"/>`radix-ui/primitives#3701`)](https://github.com/radix-ui/primitives/issues/3701), filed October 2025, has the ugly title that says it all: *Select inside Dialog causes an aria-hidden focus freeze*.
+
+The React 19 unmount timing changed just enough that when the inner Select tears down, focus drops to `<body>` for a moment. The parent `<dialog>` reads that as a click outside itself, re-hides itself with the user’s focus still inside, and keyboard navigation dies. Not a warning. A page you can’t Tab through anymore.
+
+And it’s still claiming people. [shadcn-ui (<VPIcon icon="iconfont icon-github"/>`shadcn-ui/ui#10074`)](https://github.com/shadcn-ui/ui/issues/10074), from March 2026, pins the mechanism precisely: Radix’s internal `hideOthers`, from the `aria-hidden` package, walks every body-level sibling of the Select’s portal and marks them hidden before focus has moved off the trigger.
+
+The same architecture that merely prints a warning in the close-time race produces an unusable page here, which is why I refuse to treat the console line as cosmetic. The fix for this class isn’t ordering, it’s telling the two primitives to stop both being modal, and that one needs its own careful walkthrough later.
+
+### The user walked out (focus leaves the page)
+
+Nothing in your page changed. The user left. They had a menu open and hit Alt+Tab, or switched browser tabs, and the focus bookkeeping stranded an `aria-hidden` state on teardown with no live focus to reconcile against.
+
+[Material Web (<VPIcon icon="iconfont icon-github"/>`material-components/material-web#5760`)](https://github.com/material-components/material-web/issues/5760) only fires when the menu is open and focus goes to another tab or window, a genuinely hard case to see coming (and yes, that’s Google’s own component library tripping on the rule Google’s browser enforces). [Ionic (<VPIcon icon="iconfont icon-github"/>`ionic-team/ionic-framework#30240`)](https://github.com/ionic-team/ionic-framework/issues/30240) is the routing cousin, firing on navigation between tabbed pages with no modal in sight.
+
+This class is here to prove a point rather than be solved: if the maintainers of the browser can’t keep their own widgets clean, the problem is architectural, not a skill issue on your team.
+
+Look at the four side-by-side and the shared shape is impossible to miss. Close-time, open-time, turf war, or a user tabbing away, in every case a region became hidden while focus was still doing business inside it. Four costumes, one bug. Which raises the only question that matters next: what did the Internet tell everyone to do about it?
+
+---
+
+## Every fix that worked made it worse
+
+Type the warning into a search box and the same answer floats to the top of nearly every result. One line, drop it in your modal’s close handler, warning gone. It works in the sense that matters least: the console quiets and CI goes green. Here’s what it actually does.
+
+```js
+// the internet's favorite one-liner
+element.addEventListener('hide.bs.modal', () => {
+  // "fixes" the warning
+  document.activeElement.blur();
+});
+```
+
+Focus doesn’t go somewhere sensible when you call `blur()` with nothing after it. It goes nowhere. The browser has to put focus *somewhere*, so it falls back to `<body>`, the DOM equivalent of setting a passenger down in the middle of the highway and driving off. The warning clears because there’s no longer a focused element inside your hidden subtree, no meaningfully focused element at all.
+
+For a mouse user, this fix is invisible. For a keyboard or screen reader, the reader typically goes quiet or reads something useless like the page title (the exact announcement varies by screen reader and browser), and the very next Tab press restarts from the top of the entire page. That’s a straightforward [<VPIcon icon="iconfont icon-w3c"/>WCAG 2.4.3](https://w3.org/WAI/WCAG21/Understanding/focus-order.html) failure, dressed up as a fix, since focus is supposed to return somewhere logical — canonically the control that opened the thing.
+
+To be precise about the villain: it isn’t the `blur()` call itself, it’s blurring to nowhere. `blur()` immediately followed by a deliberate `trigger.focus()` is just a clumsy spelling of the correct move. It’s leaving focus stranded on `<body>` that does the damage.
+
+I know how appealing that one-liner is, because I shipped it.
+
+Late 2024, a release crunch, the warning suddenly flooding our console across half the modals in the app after a Chrome update we hadn’t been watching. It was loud, it was everywhere, it blocked nothing, and it made the console unreadable during a week when we needed the console.
+
+I found the Stack Overflow answer in about ninety seconds. One line, into a global hide handler so it covered every modal at once.
+
+The red went away. Tests passed. I remember the specific small satisfaction of a one-line fix that clears an entire category of noise, and I closed the ticket and moved on and felt, honestly, a little clever about it.
+
+Months later I sat in on a usability session, one of those where you’re mostly there to take notes and stay out of the way. A screen reader user was working through one of our flows and closed a modal — a normal one, nothing special, one of the ones my one-liner covered.
+
+The reader went quiet. Then they pressed Tab to get back to what they’d been doing, and I watched them ride focus down from the top of the page, through the header, through the nav, stop after stop, narrating each one, working back to the spot the modal had sent them away from.
+
+It took a while. Nobody in the room but me knew why it was happening.
+
+The warning I’d silenced had been the only voice in the building speaking for that user, and I’d put my hand over its mouth to make my console tidy. That’s the whole thing. That’s why this article exists.
+
+I’m not going to sit in that feeling, because sitting in it fixes no one’s modal. The useful part isn’t the guilt, it’s the mechanism: I’d treated a warning about a user as a warning about my logs, and every fix I reached for optimized the logs. Once you see that, the rest of the folk remedies sort themselves by the same tell.
+
+The timing hacks are second most popular, and subtler, because they sometimes work. The move is to wrap open or close in a `setTimeout` or `requestAnimationFrame` so focus restoration happens a tick later, after the hide has settled.
+
+```js
+// bet on the render finishing first
+requestAnimationFrame(() => triggerButton.focus());
+```
+
+Community advice floating around the shadcn threads is remarkably honest about what you’re buying: roughly, add a delay, you’ll still see the warning sometimes, but *mostly* it works ([shadcn (<VPIcon icon="iconfont icon-github"/>`shadcn-ui/ui#5953`)](https://github.com/shadcn-ui/ui/discussions/5953) has this exact resigned energy).
+
+That “mostly” is the problem. A timer bets the paint finishes before the focus call runs, and on a fast machine with a warm cache you win most of the time. Under CPU load, on a cheap Android, or under React’s concurrent rendering where the scheduler slices your work apart, you lose.
+
+When you lose, the broken hidden-with-focus state ships anyway, now intermittently, which is worse, because it won’t reproduce on your machine. You’ve added latency to every close for every user to sometimes-not-fix a problem for the few. Those flickering half-committed states are the kind of thing [<VPIcon icon="iconfont icon-w3c"/>WCAG 4.1.2](https://w3.org/WAI/WCAG21/Understanding/name-role-value.html) exists to rule out.
+
+Stripping the attribute is the next tier down, and it looks the most like addressing the root cause while doing the opposite. Some people delete `aria-hidden` from their markup; the more determined wire up a MutationObserver to yank it off every time the library sets it.
+
+The warning genuinely goes away, because now nothing is hidden. That’s the trouble: while your modal is open, the entire background page is handed back to the screen reader. The user can Tab out of the active modal and into background controls, even though the modal is supposed to be the only part of the page they can operate. That breaks the basic modal contract and creates an illogical focus order — a [<VPIcon icon="iconfont icon-w3c"/>WCAG 2.4.3](https://w3.org/WAI/WCAG21/Understanding/focus-order.html) (Focus Order) failure.
+
+Then there’s `modal={false}`, the Radix and shadcn escape hatch. Setting this turns the component into a legitimate non-modal dialog — a real, valid pattern in its own right. The problem is using it specifically to silence the warning while keeping the visual backdrop of a blocking modal. You give users something that looks modal but doesn’t behave modally, clearing the warning by removing the focus trap entirely.
+
+[Radix (<VPIcon icon="iconfont icon-github"/>`radix-ui/primitives#3811`)](https://github.com/radix-ui/primitives/issues/3811) documents where that lands: in Safari, focus tabs its way right out of the non-modal dialog, and Radix, seeing focus leave, reads it as an outside interaction and closes the dialog on the user, mid-form. You’ve silenced a console warning by shipping a dialog that dismisses itself while someone’s filling it in.
+
+Two more deserve exactly one sentence each. The temporary `tabindex="-1"` on `<body>` followed by a focus dump is `blur()` with extra ceremony and the identical result. Filtering the message out of your console output is the software equivalent of taping over the check-engine light and enjoying the quieter dashboard.
+
+None of this is the fault of the people who posted these answers, and correct guidance does exist: Scott O’Hara has [**written**](https://smashingmagazine.com/2014/09/making-modal-windows-better-for-everyone/) [<VPIcon icon="fas fa-globe"/>carefully](https://scottohara.me/blog/2016/09/07/revised-modal-window.html) [<VPIcon icon="fas fa-globe"/>about `inert`](https://scottohara.me/blog/2019/03/05/open-dialog.html) for years, and [<VPIcon icon="fa-brands fa-firefox"/>MDN’s `<dialog>` documentation](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/dialog) lays out the right model.
+
+It just doesn’t rank when you’re panicking at 4:00 p.m. with a red console and a deploy window. The good material is quiet and the bad material is optimized, and that asymmetry is the actual villain.
+
+So here’s the thesis the whole piece hangs on: **a clean console was never the goal.** You can drive this warning to zero and, at every step down that road, make your product measurably worse for the exact people the warning was put there to protect. The warning is a proxy. The user is the target.
+
+Which means the real fix has to satisfy both at once, the browser and the person, and that comes down to doing four things in a specific order.
+
+---
+
+## The teardown contract
+
+The rule the whole fix reduces to is short enough to keep in your head. On close, focus leaves the closing region before that region is hidden, and it must land somewhere real, never on an inert node and never on `<body>`.
+
+That second half has a consequence people trip on. `inert` blocks focus. So if your trigger sits inside the background you inert-ed on open, you have to lift that `inert` before you can focus the trigger at all, or `.focus()` is a silent no-op and focus stays stranded inside the dialog.
+
+So the four ordered steps are:
+
+1. remove `inert` from the background;
+2. restore focus to the stored trigger synchronously, before any hide-state touches the DOM;
+3. apply `inert` and `pointer-events: none` to the closing overlay shell itself, so its fade-out runs on an element that’s visually present but dead to focus and the accessibility tree;
+4. unmount when the transition ends.
+
+(If your trigger lives *outside* the inerted region, the first two steps commute and you’ll see the focus-first order in some codebases. Keeping background-first is the safe default because it works either way.)
+
+There’s a corollary at open time that most people already do by instinct: capture the return target, `document.activeElement`, before you move focus into the dialog. Once focus is inside, the thing you wanted to return to is gone.
+
+The step I want to single out is the third, because it’s the one I got wrong for months after I thought I’d learned my lesson. The common advice, once you get past `blur()`, is “just restore focus first.” That’s necessary and not sufficient.
+
+Restore focus to the trigger and you’ve cleared the warning, but the overlay is still fading out for another 200 milliseconds, still in the DOM, still focusable and still in the accessibility tree while it fades. A screen reader can catch it on the way down; VoiceOver’s cursor will touch that ghost content if you let it.
+
+Inert-ing the dying shell is what actually closes the hole, and it’s the honest answer to the question everyone asks first, which is how to animate the thing out without the warning coming back. You don’t suppress the warning during the fade. You make the fading element inert so there’s nothing to warn about.
+
+Why doesn’t this happen by default? Because the frameworks commit the hide before they restore the focus, for a structural reason rather than a careless one.
+
+In React, the state change that adds your hidden class or your `aria-hidden` attribute applies during render. The focus-restoration code you tucked into a `useEffect` cleanup runs after paint, a frame later, which is where a real gap in time does open up. So the browser gets handed hidden-with-focus-inside, fires the warning and does its tree repair, and only then does your `.focus()` call run.
+
+You wrote the two operations in the right order in your source; React scheduled them in the wrong order at runtime. The fix is to move the focus call out of the after-paint effect and run it before the hide commits, as the sample below does. Vue has the same disease through [<VPIcon icon="iconfont icon-vuejs"/>`nextTick()`](https://vuejs.org/api/general.html#nexttick) and Transition-hook ordering, Angular CDK through its [<VPIcon icon="fa-brands fa-angular"/>`FocusTrap`](https://v5.material.angular.dev/cdk/a11y/api#FocusTrapFactory) timing; the cause is identical, only the API names change.
+
+### The vanilla version
+
+Strip away the framework and the contract is easy to see because there’s no scheduler between you and the DOM. This is the reference I hand people who are on jQuery, Web Components, or nothing at all.
+
+```js :collapsed-lines
+class ModalController {
+  // where focus goes home to
+  #trigger = null;
+  // the sibling subtree we inert while open
+  #background = null;
+
+  open(dialog) {
+    // corollary: capture BEFORE we move focus in, or it's lost
+    this.#trigger = document.activeElement;
+    this.#background.setAttribute('inert', '');
+    dialog.hidden = false;
+    dialog.querySelector('[autofocus], button, [href], input')?.focus();
+  }
+
+  close(dialog) {
+    // STEP 1: hand the page back FIRST. inert blocks focus, so if the trigger lives inside the background, focusing it while the background is still inert is a silent no-op. Un-inert, then focus.
+    this.#background.removeAttribute('inert');
+
+    // STEP 2: focus goes home synchronously, before any hide-state lands.
+    // This is the line whose ORDER the warning is really about.
+    this.#trigger?.focus();
+
+    // STEP 3: the dying shell is inert, not aria-hidden. It can fade out in peace: unreachable by Tab, invisible to AT, no clicks.
+    dialog.setAttribute('inert', '');
+    dialog.style.pointerEvents = 'none';
+    // CSS drives the fade
+    dialog.classList.add('is-closing');
+
+    // STEP 4:  unmount when the animation ends. 
+    // Three traps:
+    // (1) transitionend bubbles from child elements (guard on e.target)
+    // (2) it never fires at all when there's nothing to wait for (duration + delay both 0) or the close is interrupted (transitioncancel)
+    // (3) you must NOT use { once: true } here  —  a bubbled child event would consume the one-shot listener before the dialog's own transition ever finishes.
+    // Remove listeners by hand, and only after accepting the dialog's own event.
+    const done = () => {
+      dialog.hidden = true;
+      dialog.classList.remove('is-closing');
+      dialog.removeAttribute('inert');
+      dialog.style.pointerEvents = '';
+    };
+    const finish = (e) => {
+      // a child's transition bubbled up; ignore it
+      if (e && e.target !== dialog) return;
+      dialog.removeEventListener('transitionend', finish);
+      dialog.removeEventListener('transitioncancel', finish);
+      done();
+    };
+    const style = getComputedStyle(dialog);
+    const dur = parseFloat(style.transitionDuration) || 0;
+    const delay = parseFloat(style.transitionDelay) || 0;
+    if (dur + delay <= 0) {
+      // no transition to wait for (e.g. a reduced-motion CSS rule zeroed it)
+      done();
+    } else {
+      dialog.addEventListener('transitionend', finish);
+      dialog.addEventListener('transitioncancel', finish);
+    }
+  }
+}
+```
+
+Nothing clever is happening here, and that’s the point. The trigger is stored on open, the page is handed back before focus moves, focus is sent home before a single hide-state lands, and the overlay is inert for the whole duration of its own exit animation.
+
+One caveat before you paste it into production: the single `#trigger` slot holds exactly one return target, which is fine for one modal at a time but wrong the moment modals stack or a rapid open-close-open overlaps. For that you want a stack of triggers rather than a field, which is the first of the edge cases below.
+
+The `transitionend` bookkeeping is the least pleasant part of this, and if you’d rather the JavaScript own the animation you can drive the fade with the Web Animations API instead, where `element.animate(...).finished` hands you a promise and the listener cleanup disappears.
+
+I’ve kept the CSS-transition version here because it’s how the overwhelming majority of the affected code in the wild is actually written, and matching that is the point. The guard code is the honest cost of the CSS approach, not incidental noise.
+
+### The React version
+
+The same contract, fighting the scheduler. The invariant is unchanged: focus has to land on the trigger before the state change that inerts or hides the region commits. Three things break that by default in React.
+
+First, people capture the return target too late. If you grab `document.activeElement` in an effect that runs after `isOpen` flips, an autofocus effect may already have moved focus into the dialog, so you store the wrong element. Capture it in the handler that opens the dialog, before you flip the state.
+
+Second, people restore focus in a cleanup effect that runs after paint, so the browser sees hidden-with-focus-inside first and warns.
+
+Third, and this is the subtle one: if the *background’s* `inert` is itself driven by state, `setIsOpen(false)` followed on the next line by `trigger.focus()` won’t work. React batches the state update, so the DOM still has the trigger sitting inside an inert container when `.focus()` runs, and the focus silently fails exactly the way the vanilla no-op did.
+
+The cleanest answer to that third one is to not route background inertness through render state at all. Whether the page behind a modal is inert is an imperative side effect, not view data: toggle the attribute directly, or use native `<dialog>` and let the top layer make it implicit, and the batching problem never exists. If you’re committed to keeping it in state, this is the case `flushSync` was built for.
+
+```jsx
+function useModalTeardown() {
+  const triggerRef = useRef(null);
+  // the wrapper you inert while the modal is open
+  const backgroundRef = useRef(null);
+
+  // capture in the OPEN handler, before state flips  —  not in a post-open effect, where an autofocus effect may already have stolen focus
+  const open = useCallback((setOpen) => {
+    triggerRef.current = document.activeElement;
+    if (backgroundRef.current) backgroundRef.current.inert = true;
+    setOpen(true);
+  }, []);
+
+  // Restore focus BEFORE the state update that hides/inerts the region.
+  // The background's inert is toggled imperatively here (not via state), so the trigger is reachable the instant we un-inert and there's no batching between the un-inert and the focus call.
+  const close = useCallback((setExiting) => {
+    // hand the page back
+    if (backgroundRef.current) backgroundRef.current.inert = false;
+    // move focus home first...
+    triggerRef.current?.focus();
+    // ...then commit the exiting/hidden state
+    setExiting(true);
+  }, []);
+
+  return { triggerRef, backgroundRef, open, close };
+}
+
+// The exiting shell renders inert while a CSS class runs the fade.
+// Guard the unmount the same way the vanilla version does: transitionend bubbles (check e.target) and won't fire with no transition (duration 0).
+function ModalShell({ exiting, onDone, children }) {
+  const onEnd = (e) => { if (e.target === e.currentTarget) onDone(); };
+  return (
+    <div
+      inert={exiting ? '' : undefined}
+      className={exiting ? 'modal is-closing' : 'modal'}
+      onTransitionEnd={exiting ? onEnd : undefined}
+    >
+      {children}
+    </div>
+  );
+}
+```
+
+If the background’s inertness genuinely has to be React state, ordering alone can’t save you, because the un-inert and the focus call are separated by React’s batching. This is the case `flushSync` exists for: force the state update that removes the background’s `inert` to commit to the DOM before you call `.focus()`.
+
+```js
+// commit the un-inert to the DOM NOW
+flushSync(() => setIsOpen(false));
+// trigger is reachable, so this lands
+triggerRef.current?.focus();
+// then start the fade
+setExiting(true);
+```
+
+Note what’s actually wrapped: the *state update whose DOM effect you depend on*, not the `.focus()` call, which is already synchronous. That distinction is the whole reason a bare `flushSync(() => trigger.focus())` does nothing. `flushSync` has a real batching cost, it throws if you call it during render, and most teardown code avoids needing it entirely by toggling background inertness imperatively or moving to native `<dialog>`. Reach for the imperative toggle first; reach for `flushSync` only when the inertness must stay in state.
+
+If you only change one thing in your existing React modal, it’s this: capture the trigger in the open handler, and run the focus restoration before the hide state commits rather than in an after-paint effect. That reorder is the whole difference between the warning and no warning, and between your screen reader user landing on the trigger and landing on `<body>`.
+
+Worth saying plainly: `inert` is the right instrument and `aria-hidden` was always the wrong one for this job. `aria-hidden` removes a subtree from the accessibility tree but leaves it fully focusable, the entire ghost-focus hole. `inert` removes it from the accessibility tree, from sequential focus navigation, and from pointer events (the [<VPIcon icon="fa-brands fa-firefox"/>HTML spec](https://html.spec.whatwg.org/multipage/interaction.html#the-inert-attribute) is explicit that inert elements cannot be focused, and [<VPIcon icon="fa-brands fa-firefox"/>MDN’s `inert` reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Global_attributes/inert) documents the same three effects), which is why Chrome’s own message points you at it. One trap: never put `inert` on an ancestor of a top-layer element or you’ll freeze the top-layer element itself, dialog included. Apply it to the sibling subtrees you actually want dead, not to a wrapper that contains your live dialog.
+
+### Comparing major implementations
+
+How the major implementations sequence this varies more than you’d hope.
+
+| Library | When focus is restored | Hiding mechanism | Verdict |
+| --- | --- | --- | --- |
+| **Native `<dialog>`** | Browser-internal, on close | Top layer, implicit inertness | Best default\* |
+| **React Aria** | Synchronous, layout-effect timing | `FocusScope` + inert direction | Strongest custom |
+| **Radix** | Pre-unmount via `onCloseAutoFocus` | hide-others / aria-hidden | Acceptable, React 19 caveat |
+| **Bootstrap 5.3** | On `hidden.bs.modal`, after the fade | `aria-hidden` on wrapper | The failing pattern |
+| **Floating UI** | Managed by `FloatingFocusManager` | Moved to inert suppression | Good direction |
+
+Native `<dialog>` earns “best default,” not “flawless”: it eliminates the ghost-focus class outright, but focus return on close only works if the previously-focused element is still there and focusable, and `autofocus` placement inside the dialog has had cross-browser wrinkles worth testing. You can animate its exit now with `@starting-style` and `transition-behavior: allow-discrete`.
+
+As detailed in the close-time-race section above, Bootstrap 5.x is the canonical failing pattern here, and version 6 abandons it for native `showModal()`.
+
+Radix is defensible: `onCloseAutoFocus` restores before unmount, which is fine, with the honest asterisk that React 19’s unmount timing changes introduced the freeze mentioned earlier. React Aria’s FocusScope is the one I’d study if you’re building your own, because it restores synchronously via layout-effect timing and sidesteps the whole race by construction.
+
+For most of us maintaining existing design systems with deep portal architectures, though, migrating to native `<dialog>` isn’t an option this quarter. That’s exactly who the four-step teardown contract is for.
+
+Four edge cases the contract has to survive, and each one breaks the UI in its own way if you skip it.
+
+*The trigger no longer exists.* The kebab menu opened a dialog, and the dialog deleted the row the kebab lived in. Restoring focus to a detached element silently drops you to `<body>`, so store a fallback, the list container or the nearest heading with `tabindex="-1"`, and send focus there instead.
+
+*Modals stack.* A modal opens another modal. Each layer stores the element that opened *it*, so restoration chains and the closes unwind like a stack, innermost first. This is the case the single-slot trigger storage from earlier can’t handle.
+
+*The user left the page.* An Alt+Tab or a tab switch with the overlay still open. Don’t run restoration against a stale `activeElement` on window blur; wait and reconcile focus when the window comes back.
+
+*There’s no transition to wait for.* This one isn’t glamorous but it’ll hang your UI cold. If you gate the unmount on `transitionend`, that event never fires when no transition runs, which is exactly what happens under `prefers-reduced-motion: reduce` or when a user closes fast enough to interrupt the fade. Run the teardown immediately when the computed transition duration is zero, or the closing shell sits in the DOM, inert, forever.
+
+That’s the contract. Next I’ll put a screen reader on it and show you the difference between the broken close and the correct one, because you shouldn’t take my word for any of this.
+
+---
+
+## Don’t take my word for it
+
+You’ve just read a few thousand words arguing that fixes with hundreds of upvotes are actively harmful, written by someone who admits he shipped one of them. That’s exactly the kind of claim you shouldn’t accept on trust. So I built the argument into something you can run, and I’d rather you catch me being wrong than believe me being right.
+
+The demo:
+
+<CodePen
+  user="anon"
+  slug-hash="xbgJdYb"
+  title="Blocked aria-hidden: The Warning Is Right — Demo"
+  :default-tab="['css','result']"
+  :theme="dark"/>
+
+It’s vanilla JavaScript, no framework, so what you’re watching is the raw ordering with no scheduler in the way. Four modals sit side by side, each closing a different way: variant 1 is the naive teardown that sets `aria-hidden` on the modal while the close button still holds focus and only restores focus in the `transitionend` handler; variant 2 is the `blur()` “fix”; variant 3 hides synchronously but defers focus restoration into a `setTimeout`; and variant 4 runs the contract, un-inert, focus home, inert the closing shell, unmount. Each one logs `document.activeElement` at every lifecycle tick, open, close-start, transition-end, straight to the console, next to whatever Chrome prints on its own.
+
+Open the console first, then work top to bottom. Open variant 1, close it with the keyboard, not the mouse (Escape, or Tab to the close button then Enter), and watch two things: whether the “retained focus” warning fires during the fade, and where the `activeElement` log says focus is sitting while it does.
+
+The prediction here is mild, and that’s the point of putting it first: Chrome’s tree repair keeps the focused content exposed, so a screen reader user is quietly saved by the browser even though your markup is wrong. The warning fires. The user is mostly fine.
+
+That gap between “your code is broken” and “the user noticed” is why this shipped everywhere for years.
+
+Variant 2 is where you should slow down. Close it and read the `activeElement` log at the tick right after close: as expected, it reads `body`.
+
+If you do this with a screen reader running (like NVDA or VoiceOver), the outcome is exactly what we discussed earlier: silence, or a useless page title announcement.
+
+When you press Tab, focus restarts from the very first focusable element on the page. On the demo’s deliberately-long scaffold, you’ll be forced to Tab through the entire header and nav just to get back.
+
+The console, meanwhile, is clean. No warning. That’s the whole trap on one screen: green console, user stranded on the highway.
+
+Variant 3 is the instructive one. In this plain-JS demo it warns every time you close it: the hide commits synchronously while focus is still inside, and the `setTimeout` only moves focus in a later task. The invalid state in the window between those two may never be painted as a visible frame, but Chrome detects it and warns regardless. That’s the honest lesson — a delay doesn’t remove the warning, it just relocates it — and, as covered earlier, under real CPU load or concurrent rendering it stops relocating cleanly and starts failing intermittently.
+
+Variant 4 should be boring, which is the objective. Close it and the prediction is a warning-free console and an `activeElement` log that reads the trigger button immediately, at the close-start tick, not three ticks later. Run it under a screen reader and the predicted behavior is a plain handoff: focus lands on the control you opened the modal with, that control is announced, and the next Tab continues from there rather than from the top of the document. Nobody gets stranded. If a modal close could be called uneventful, that’s the one.
+
+Here’s the part that should bother you if you lean on CI to catch this: run an axe or Lighthouse scan against all four variants and several of the broken ones pass.
+
+They pass because those scanners inspect the state of the markup, and in the resting state the markup is fine, the `aria-hidden` is gone, the dialog closed, nothing to photograph.
+
+The failure doesn’t live in any single frame. It lives in the two hundred milliseconds between two frames, in the order operations happened, and a scanner that photographs the page will never catch a bug that only exists in the film between the shots. That’s why this needs a human with a keyboard and a screen reader, and why it slipped past every automated gate we had.
+
+If you run this on an AT or browser version I haven’t tried and get different results, please file it on the demo repo; I’d like the article to be less wrong over time, and disagreement from a real NVDA build beats my predictions.
+
+---
+
+## So whose bug is it, really?
+
+Start with the maintainers, because their case is stronger than the browser partisans give them credit for. Chrome dropped a warning that reads like a scolding, in two waves nobody announced, onto teardown code that had worked fine for a decade. And it wasn’t sloppy code.
+
+Fade the overlay out, restore focus when the animation ends: that was the idiomatic pattern, the one every tutorial taught, the one baked into Bootstrap’s own `hidden.bs.modal` timing. A maintainer who shipped that in 2019 was following the documented shape of the day, and then one Tuesday their tracker fills with reports for a warning their users are convinced is release-blocking, on behavior that didn’t change on their end.
+
+Some of those issues understandably sat unresolved or ping-ponged between “that’s a Chrome bug” and “that’s your integration,” because from where the maintainer sits, both are half true and neither is their fault. If you maintain a component library, that whole experience was genuinely unfair, and I won’t pretend otherwise.
+
+The browser side answers cleanly, though. Hiding focusable content from assistive tech was never allowed by what WAI-ARIA implied, and the [<VPIcon icon="iconfont icon-w3c"/>APG modal-dialog pattern](https://w3.org/WAI/ARIA/apg/patterns/dialog-modal/) spells out the focus-management contract a dialog is supposed to honor. Chromium had been silently repairing this exact defect for years, and the protective stance is on the record all the way back in [ARIA WG issue (<VPIcon icon="iconfont icon-github"/>`w3c/aria#1185`)](https://github.com/w3c/aria/issues/1185) from 2020. The uncomfortable evidence is behavioral: libraries started migrating to `inert` only after the console got loud. The silent repair sat there for years and moved nobody. The warning shipped and within months Shoelace, Ant Design, and Floating UI were reworking their teardown.
+
+Loudness was the only thing that ever made the ecosystem act, which is an awkward thing to be right about.
+
+And then the people who got it worst, who did nothing wrong architecturally: app developers under a contractual or internal zero-console-warnings rule. They inherited the warning from a library they don’t control, reached for the top-ranked fix to satisfy the rule, shipped `blur()`, and then got flagged by an accessibility auditor for both the original defect and the WCAG failure the hack introduced.
+
+They paid twice for a problem that originated two layers above them. You’ll find the folk wisdom that it’s harmless all over community threads, the same shadcn discussion from earlier among them, where accepting the warning while chasing a functional fix slides quietly into treating it as cosmetic enough to ship.
+
+Everything above is the rebuttal, and the people repeating it aren’t fools; they’re downstream of the same bad search results I was.
+
+Here’s where I land, plainly. The browser is right on the merits: you cannot hide a focused control from a screen reader and call it an accessible modal, full stop. The rollout communication was poor, and the maintainers’ frustration about that is legitimate. But the durable fix lives in the component layer, not the browser and not a hundred app-level patches, because the component is the only place that owns both the focus and the hiding and can order them correctly. That’s why I spent the longest section on an ordering contract rather than any one library’s changelog. Libraries will patch and un-patch; the invariant is what you keep.
+
+Which is also why I think this outlasts its own specifics. The exact console string will get reworded. Bootstrap already resolved its case the durable way, closing the `inert` patch and moving to native `<dialog>` in version 6, and other libraries will keep patching and re-patching their own rows. Firefox and Safari repair silently today, with no comparable console warning, and could go loud tomorrow.
+
+But the standardization direction is no longer something I’m guessing at: [ARIA WG issue (<VPIcon icon="iconfont icon-github"/>`w3c/aria#2422`)](https://github.com/w3c/aria/issues/2422) asked whether the working group should standardize this kind of heuristic ignoring of ARIA, was worked through 2025, and closed around March 2026, with the group’s own minutes along the way acknowledging existing heuristics like disregarding `aria-hidden` on `<body>`. The direction is real and settling.
+
+The ordering problem between focus and hiding, though, is architectural, and every overlay system in every framework not yet written will meet it, which is why people were still filing fresh instances like [shadcn-ui (<VPIcon icon="iconfont icon-github"/>`shadcn-ui/ui#10074`)](https://github.com/shadcn-ui/ui/issues/10074) in March 2026. The one future I’d welcome is native `<dialog>` and the top layer eating the custom-modal category whole, and if that happens and this piece becomes a historical curiosity about a problem nobody has anymore, I’ll be glad to have written something with an expiration date.
+
+You got here with a red-yellow console and a string pasted into a search box, annoyed, mid-deploy, wanting the noise gone. The warning turned out to be the only thing in your whole toolchain speaking for someone who wasn’t in the room when you shipped, the person I watched Tab back through an entire page header in a silence I’d caused.
+
+So don’t reach for the mute. The warning isn’t noise on top of your architecture; it *is* your architecture, saying out loud what it does to someone the moment you stop watching.
+
+<!-- TODO: add ARTICLE CARD -->
+```component VPCard
+{
+  "title": "Blocked aria-hidden: The Warning is Right, and Every Fix You've Found is Wrong",
+  "desc": "The warning is correct. And the recommended fixes you've probably seen are wrong. Here's what you can do instead to properly fix the issue.",
+  "link": "https://chanhi2000.github.io/bookshelf/css-tricks.com/blocked-aria-hidden-fix.html",
+  "logo": "https://css-tricks/favicon.svg",
+  "background": "rgba(17,17,17,0.2)"
+}
+```

@@ -296,14 +296,14 @@ This demo combines both use cases: a Makaton to English classroom tool and the A
 
 ### Project structure
 
-```plaintext title="file structure"
-makaton_multimodal_demo/
-├─ .streamlit/
-│   └─ config.toml 
-├─ assets/
-│   └─ README.txt 
-├─ tests/
-│   └─ test_fuse.py 
+```sh title="file structure"
+📂makaton_multimodal_demo/
+├── 📂.streamlit/
+│   └── config.toml 
+├── 📂assets/
+│   └── README.txt 
+├── 📂tests/
+│   └── test_fuse.py
 └─ streamlit_app.py
 ```
 

@@ -110,12 +110,12 @@ We'll use plain HTML, CSS, and JavaScript, along with two libraries:
 Our project structure looks like this:
 
 ```sh title="file structure"
-pdf-blur-tool/
-│── index.html
-│── style.css
-│── script.js
-│── pdf.worker.min.js
-│── assets/
+📂pdf-blur-tool/
+├── index.html
+├── style.css
+├── script.js
+├── pdf.worker.min.js
+└── 📂assets/
 ```
 
 Keeping the project simple makes it easier to understand how each part works.

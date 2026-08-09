@@ -906,12 +906,12 @@ Happy building.
 ::: info Project File Structure
 
 ```sh title="file structure"
-hello-axion/
-├── app/
+📂hello-axion/
+├── 📂app/
 │   ├── main.go          # Go HTTP server
 │   ├── go.mod           # Go module definition
 │   └── Dockerfile       # Multi-stage Dockerfile
-└── k8s/
+└── 📂k8s/
     ├── deployment.yaml  # Deployment with nodeSelector and probes
     └── service.yaml     # LoadBalancer Service
 ```

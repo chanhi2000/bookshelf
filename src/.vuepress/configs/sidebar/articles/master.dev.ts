@@ -5,6 +5,11 @@ const Y2026: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2026
+    "react-compiler-linting-just-got-a-rust-native-speedup-in-oxlint", // 2026-08-17
+    "delayed-then-instant-tooltips-with-html-css-alone", // 2026-08-13
+    "tooltips-need-a-delay-and-then-they-need-to-skip-it", // 2026-08-13
+    "system-ui-san-francisco-fun", // 2026-08-11
+    "view-transitions-careful-not-to-make-stuff-unclickable", // 2026-08-07
     "typographic-css-tricks", // 2026-08-05
     "something-nobody-told-you-about-the-image-element-it-can-overflow", // 2026-08-03
     "same-name-different-component-with-scoped-custom-element-registries", // 2026-07-30
@@ -386,6 +391,8 @@ export const template: SidebarInfoTemplate = {
       "animating-focus-with-view-transitions", // 2026-05-06
       "in-n-out-animations-view-transitions-part-3-3", // 2026-06-20
       "same-name-different-component-with-scoped-custom-element-registries", // 2026-07-30
+      "view-transitions-careful-not-to-make-stuff-unclickable", // 2026-08-07
+      "tooltips-need-a-delay-and-then-they-need-to-skip-it", // 2026-08-13
       // END: 2026js
       // END: js
     ]],[
@@ -445,6 +452,7 @@ export const template: SidebarInfoTemplate = {
       "react-server-components-in-tanstack", // 2026-05-18
       "cloudflare-workers-and-hyperdrive-with-tanstack-start", // 2026-07-02
       "durable-objects-on-cloudflare", // 2026-07-20
+      "react-compiler-linting-just-got-a-rust-native-speedup-in-oxlint", // 2026-08-17
       // END: 2026js-react
       // END: js-react
     ]],[
@@ -692,6 +700,10 @@ export const template: SidebarInfoTemplate = {
       "a-button-that-links-to-a-random-post-in-html-css-only", // 2026-07-29
       "something-nobody-told-you-about-the-image-element-it-can-overflow", // 2026-08-03
       "typographic-css-tricks", // 2026-08-05
+      "view-transitions-careful-not-to-make-stuff-unclickable", // 2026-08-07
+      "system-ui-san-francisco-fun", // 2026-08-11
+      "tooltips-need-a-delay-and-then-they-need-to-skip-it", // 2026-08-13
+      "delayed-then-instant-tooltips-with-html-css-alone", // 2026-08-13
       // END: 2026css
       // END: css
     ]],[
@@ -830,6 +842,7 @@ export const template: SidebarInfoTemplate = {
       // END: 2025claude
       "ai-hates-ambiguity-a-guide-to-probability", // 2026-02-19
       "totally-free-course-claude-code", // 2026-07-01
+      "tooltips-need-a-delay-and-then-they-need-to-skip-it", // 2026-08-13
       // END: 2026claude
       // END: claude
     ]],[

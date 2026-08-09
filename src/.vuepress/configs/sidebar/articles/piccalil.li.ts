@@ -5,6 +5,8 @@ const Y2026: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2026
+    "working-with-highlight-using-progressive-enhancement", // 2026-08-06
+    "use-cases-for-aria-expanded", // 2026-07-16
     "publishing-on-the-atmosphere-with-standardsite", // 2026-06-25
     "a-front-end-developers-guide-to-the-hybrid-mobile-app-development-landscape", // 2026-06-04
     "navigating-the-age-old-problem-of-checkmarks-in-ui-with-progressive-enhancement", // 2026-05-28
@@ -237,6 +239,8 @@ export const template: SidebarInfoTemplate = {
       // END: 2025js
       "date-is-out-and-temporal-is-in", // 2026-01-07
       "navigating-the-age-old-problem-of-checkmarks-in-ui-with-progressive-enhancement", // 2026-05-28
+
+      "working-with-highlight-using-progressive-enhancement", // 2026-08-06
       // END: 2026js
       // END: js
     ]],[
@@ -272,6 +276,9 @@ export const template: SidebarInfoTemplate = {
       "the-end-of-responsive-images", // 2026-04-23
       "framework-agnostic-design-systems-part-1", // 2026-05-21
       "navigating-the-age-old-problem-of-checkmarks-in-ui-with-progressive-enhancement", // 2026-05-28
+
+      "use-cases-for-aria-expanded", // 2026-07-16
+      "working-with-highlight-using-progressive-enhancement", // 2026-08-06
       // END: 2026css
       // END: css
     ]],[
@@ -288,6 +295,8 @@ export const template: SidebarInfoTemplate = {
       "three-stoic-principles-for-better-web-accessibility", // 2026-04-30
       "framework-agnostic-design-systems-part-1", // 2026-05-21
       "a-front-end-developers-guide-to-the-hybrid-mobile-app-development-landscape", // 2026-06-04
+
+      "use-cases-for-aria-expanded", // 2026-07-16
       // END: 2026system-design
       // END: system-design
     ]],[

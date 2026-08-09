@@ -77,15 +77,15 @@ If you’d prefer to skip ahead, you can get the full code on [GitHub (<VPIcon i
 
 Before we start coding, let’s take a look at the basic structure of the project. Here's how everything will be organized:
 
-```plaintext title="file structure"
-/assets
-  - background_image.jpg
-  - user.png
-  - icon-github.svg
-  - icon-twitter.svg
-  - logo1.png
-  - logo2.png
-  - logo3.png
+```sh title="file structure"
+📂/assets
+├── background_image.jpg
+├── user.png
+├── icon-github.svg
+├── icon-twitter.svg
+├── logo1.png
+├── logo2.png
+└── logo3.png
 index.html
 styles.css
 ```

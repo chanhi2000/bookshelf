@@ -130,17 +130,13 @@ Your project structure will look like this:
 
 ```sh title="file structure"
 codemagic.yaml
-
-scripts/
-  generate_config.sh
-  quality_checks.sh
-  upload_symbols.sh
-
-lib/
-  core/
-    env/
-      env_ci.dart       
-      env_ci.g.dart     
+📂scripts/
+├── generate_config.sh
+├── quality_checks.sh
+└── upload_symbols.sh
+📂lib/core/env/
+├── env_ci.dart
+└── env_ci.g.dart
 ```
 
 ---

@@ -116,8 +116,6 @@ The redaction coordinates are then converted from preview coordinates to actual 
 The overall workflow looks like this:
 
 ```mermaid
-
-```mermaid
 graph TD
   A[Upload PDF] --> B[Render Page Preview]
   B --> C[Draw Redaction Areas]

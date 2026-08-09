@@ -107,9 +107,9 @@ Let’s begin by setting up the project. To keep things simple, we’ll just use
 
 ```plaintext title="file structure"
 weather-app/
-│── index.html
-│── style.css
-│── script.js
+├── index.html
+├── style.css
+├── script.js
 ```
 
 Next, to get the weather data, we’ll use an open-source weather API form [<VPIcon icon="fas fa-globe"/>Open-Meteo](https://open-meteo.com), since it’s free and doesn’t need an API key. It will provide us with the temperature, wind speed, and weather conditions.

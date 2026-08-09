@@ -5,6 +5,8 @@ const Y2026: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2026
+    "unlock-diagonal-scrolling-with-css-scroll-axis-lock-none", // 2026-08-09
+    "styling-the-navigation-declarative-route-and-navigation-matching-in-css", // 2026-07-31
     "more-easy-light-dark-mode-switching-light-dark-is-about-to-support-images", // 2026-03-19
     "at-rule", // 2026-03-16
   ]
@@ -16,6 +18,7 @@ const Y2025: SidebarYeargroupTemplate = {
   children: [
     // END: 2025
     "google-antigravity-modern-css", // 2025-12-03
+    "anchor-positioning-and-the-inset-modified-containing-block-imcb", // 2025-12-02
     "use-overscroll-behavior-contain-to-prevent-a-page-from-scrolling-while-a-dialog-is-open", // 2025-11-25
     "solved-by-css-scroll-state-queries-hide-a-header-when-scrolling-down-show-it-again-when-scrolling-up", // 2025-10-23
     "css-custom-light-dark", // 2025-10-01
@@ -85,6 +88,7 @@ const Y2021: SidebarYeargroupTemplate = {
     "practical-use-cases-for-scroll-linked-animations-with-css-scroll-timeline", // 2022-07-20
     "the-large-small-and-dynamic-viewports", // 2021-07-08
     "a-first-look-at-cqfill-a-polyfill-for-css-container-queries", // 2021-04-28
+    "create-a-color-theme-with-css-relative-color-syntax-css-color-mix-and-css-color-contrast", // 2021-04-28
     "identify-and-extract-pseudo-element-selectors-from-built-in-html-elements-using-devtools", // 2021-04-16
     "css-container-queries-a-first-look-and-demo", // 2021-03-29
     "three-important-things-you-should-know-about-css-is", // 2021-03-19
@@ -321,6 +325,7 @@ export const template: SidebarInfoTemplate = {
       "exploring-at-property-and-its-animating-powers", // 2021-03-07
       "three-important-things-you-should-know-about-css-is", // 2021-03-19
       "css-container-queries-a-first-look-and-demo", // 2021-03-29
+      "create-a-color-theme-with-css-relative-color-syntax-css-color-mix-and-css-color-contrast", // 2021-04-28
       "a-first-look-at-cqfill-a-polyfill-for-css-container-queries", // 2021-04-28
       "the-large-small-and-dynamic-viewports", // 2021-07-08
       "wwdc-meet-safari-15", // 2021-07-21
@@ -361,10 +366,13 @@ export const template: SidebarInfoTemplate = {
       "css-custom-light-dark", // 2025-10-01
       "solved-by-css-scroll-state-queries-hide-a-header-when-scrolling-down-show-it-again-when-scrolling-up", // 2025-10-23
       "use-overscroll-behavior-contain-to-prevent-a-page-from-scrolling-while-a-dialog-is-open", // 2025-11-25
+      "anchor-positioning-and-the-inset-modified-containing-block-imcb", // 2025-12-02
       "google-antigravity-modern-css", // 2025-12-03
       // END: 2025css
       "at-rule", // 2026-03-16
       "more-easy-light-dark-mode-switching-light-dark-is-about-to-support-images", // 2026-03-19
+      "styling-the-navigation-declarative-route-and-navigation-matching-in-css", // 2026-07-31
+      "unlock-diagonal-scrolling-with-css-scroll-axis-lock-none", // 2026-08-09
       // END: 2026css
       // END: css
     ]],[

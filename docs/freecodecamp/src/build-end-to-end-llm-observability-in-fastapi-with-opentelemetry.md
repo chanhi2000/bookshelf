@@ -548,10 +548,10 @@ This can be useful when diagnosing issues such as unexpectedly short or truncate
 When the request finishes, all spans belong to the same distributed trace:
 
 ```sh title="file structure"
-http.request
- ├── rag.retrieval
- ├── llm.call
- └── llm.postprocess
+📂http.request
+├── rag.retrieval
+├── llm.call
+└── llm.postprocess
 ```
 
 This hierarchy reflects the logical workflow of a retrieval-augmented LLM system. Because each span contains structured metadata, engineers can quickly answer questions such as:

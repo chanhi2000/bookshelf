@@ -147,10 +147,10 @@ Create the following project structure:
 
 ```sh title="file structure"
 pdf-image-extractor/
-│── index.html
-│── style.css
-│── script.js
-│── assets/
+├── index.html
+├── style.css
+├── script.js
+├── assets/
 ```
 
 After creating the project, include the required JavaScript libraries inside your <VPIcon icon="fa-brands fa-html5"/>`index.html` file:
