@@ -2,7 +2,7 @@
 lang: en-US
 title: "Brief Note on Application Keyboard Shortcuts"
 description: "Article(s) > Brief Note on Application Keyboard Shortcuts"
-icon: fas fa-accessible-icon
+icon: fa-brands fa-accessible-icon
 category:
   - Design
   - System

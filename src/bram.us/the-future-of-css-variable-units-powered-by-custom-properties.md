@@ -164,7 +164,6 @@ If you want to follow along, or have some feedback on the syntax, you can do so 
   logo="https://github.githubassets.com/favicons/favicon-dark.svg"
   preview="https://opengraph.githubassets.com/773781b59e40f34c35718311be90ca20480a320f78068b9e41714e6a081314e5/w3c/csswg-drafts/issues/7379"/>
 
-
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {

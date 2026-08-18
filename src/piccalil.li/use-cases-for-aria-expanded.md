@@ -2,7 +2,7 @@
 lang: en-US
 title: "Use cases for aria-expanded"
 description: "Article(s) > Use cases for aria-expanded"
-icon: fas fa-accessible-icon
+icon: fa-brands fa-accessible-icon
 category:
   - CSS
   - Design

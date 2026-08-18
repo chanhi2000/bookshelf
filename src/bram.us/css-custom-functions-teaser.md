@@ -157,7 +157,6 @@ Also note that for `<color>` values I am still using the built-in `light-dark()`
 In this post I’ve limited myself to only a *basic-ish* example, without covering too much details. Not mentioned for example are default values for the function parameters and how to specify the types for any of those. For that, you can [<VPIcon icon="fas fa-globe"/>dig into the spec](https://drafts.csswg.org/css-mixins-1/). Note that the spec still has a lot of moving parts, as the spec gets influenced by findings from the prototype Chrome is building.
 
 To follow along with Chrome’s progress of the prototype, subscribe to [<VPIcon icon="fa-brands fa-chrome"/>crbug/325504770](https://issues.chromium.org/issues/325504770) by hitting the star next to its title.
-urn:li:activity:7294163643791798273/)
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

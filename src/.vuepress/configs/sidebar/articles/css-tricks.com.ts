@@ -37,6 +37,7 @@ const Y2026: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2026
+    "css-navigation-matching-early-days", // 2026-08-19
     "dark-mode-toggles-two-states-are-enough", // 2026-08-17
     "whats-important-17", // 2026-08-14
     "blocked-aria-hidden-fix", // 2026-08-12
@@ -637,6 +638,7 @@ export const template: SidebarInfoTemplate = {
       "blocked-aria-hidden-fix", // 2026-08-12
       "whats-important-17", // 2026-08-14
       "dark-mode-toggles-two-states-are-enough", // 2026-08-17
+      "css-navigation-matching-early-days", // 2026-08-19
       // END: 2026css
       // END: css
     ]],[

@@ -5,6 +5,7 @@ const Y2026: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2026
+    "introducing-ai-skills-for-real-engineers", // 2026-08-18
     "react-compiler-linting-just-got-a-rust-native-speedup-in-oxlint", // 2026-08-17
     "delayed-then-instant-tooltips-with-html-css-alone", // 2026-08-13
     "tooltips-need-a-delay-and-then-they-need-to-skip-it", // 2026-08-13
@@ -843,6 +844,7 @@ export const template: SidebarInfoTemplate = {
       "ai-hates-ambiguity-a-guide-to-probability", // 2026-02-19
       "totally-free-course-claude-code", // 2026-07-01
       "tooltips-need-a-delay-and-then-they-need-to-skip-it", // 2026-08-13
+      "introducing-ai-skills-for-real-engineers", // 2026-08-18
       // END: 2026claude
       // END: claude
     ]],[

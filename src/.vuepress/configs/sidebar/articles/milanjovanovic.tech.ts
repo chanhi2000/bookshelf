@@ -15,6 +15,7 @@ const Y2026: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2026
+    "how-to-design-the-right-sql-index", // 2026-08-22
     "how-do-you-build-a-social-media-feed-system-design", // 2026-08-15
     "persisting-a-rich-domain-model-with-ef-core", // 2026-08-08
     "should-you-split-that-into-microservices-ask-these-5-questions-first", // 2026-08-01
@@ -562,6 +563,7 @@ export const template: SidebarInfoTemplate = {
       "implementing-the-inbox-pattern-for-reliable-message-consumption", // 2026-04-04
       "implementing-the-saga-pattern-with-wolverine", // 2026-04-11
       "build-your-own-vpn-with-tailscale", // 2026-07-04
+      "how-to-design-the-right-sql-index", // 2026-08-22
       // END: 2026postgres
       // END: postgres
     ]],[

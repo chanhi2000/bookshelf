@@ -7,6 +7,7 @@ const Y2026: SidebarYeargroupTemplate = {
     // END: 2026
     "unlock-diagonal-scrolling-with-css-scroll-axis-lock-none", // 2026-08-09
     "styling-the-navigation-declarative-route-and-navigation-matching-in-css", // 2026-07-31
+    "do-websites-need-to-function-exactly-the-same-on-every-platform", // 2026-06-22
     "more-easy-light-dark-mode-switching-light-dark-is-about-to-support-images", // 2026-03-19
     "at-rule", // 2026-03-16
   ]
@@ -108,6 +109,7 @@ const Y2020: SidebarYeargroupTemplate = {
   children: [
     // END: 2020
     "css-custom-properties-are-not-variables", // 2020-12-10
+    "native-aspect-ratio-boxes-in-css-thanks-to-aspect-ratio", // 2020-11-30
     "container-queries-are-coming-to-chromium", // 2020-11-05
     "css-only-resizable-elements", // 2020-05-15
     "100vh-in-safari-on-ios", // 2020-05-07
@@ -117,6 +119,7 @@ const Y2020: SidebarYeargroupTemplate = {
     "staggered-animations-with-css-custom-properties", // 2020-03-10
     "prevent-content-from-being-hidden-underneath-a-fixed-header-by-using-scroll-margin-top", // 2020-03-02
     "smooth-scrolling-sticky-scrollspy-navigation", // 2020-01-10
+    "firefox-72-individual-transform-properties", // 2020-01-09
   ]
 }
 
@@ -192,6 +195,8 @@ const Y2013: SidebarYeargroupTemplate = {
   children: [
     // END: 2013
     "css-scroll-snap-points", // 2013-12-09
+    "ghost-in-the-shadow-dom", // 2013-06-09
+    "shadow-dom-introduction", // 2013-03-23
   ]
 }
 
@@ -234,6 +239,11 @@ export const template: SidebarInfoTemplate = {
   linksMap: new Map([
     [
     "js",[
+      "shadow-dom-introduction", // 2013-03-23
+      "ghost-in-the-shadow-dom", // 2013-06-09
+      // END: 2013js
+      // END: 2014js
+      // END: 2015js
       "making-viewport-units-work-properly-in-mobile-safari", // 2016-09-12
       // END: 2016js
       "using-intersection-observers", // 2017-08-14
@@ -314,6 +324,7 @@ export const template: SidebarInfoTemplate = {
       "100vh-in-safari-on-ios", // 2020-05-07
       "css-only-resizable-elements", // 2020-05-15
       "container-queries-are-coming-to-chromium", // 2020-11-05
+      "native-aspect-ratio-boxes-in-css-thanks-to-aspect-ratio", // 2020-11-30
       "css-custom-properties-are-not-variables", // 2020-12-10
       // END: 2020css
       "css-mix-blend-mode-not-working-set-a-background-color", // 2021-01-15
@@ -371,6 +382,7 @@ export const template: SidebarInfoTemplate = {
       // END: 2025css
       "at-rule", // 2026-03-16
       "more-easy-light-dark-mode-switching-light-dark-is-about-to-support-images", // 2026-03-19
+      "do-websites-need-to-function-exactly-the-same-on-every-platform", // 2026-06-22
       "styling-the-navigation-declarative-route-and-navigation-matching-in-css", // 2026-07-31
       "unlock-diagonal-scrolling-with-css-scroll-axis-lock-none", // 2026-08-09
       // END: 2026css

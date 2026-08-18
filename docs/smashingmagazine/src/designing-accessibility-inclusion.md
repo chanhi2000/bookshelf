@@ -2,7 +2,7 @@
 lang: en-US
 title: "Designing For Accessibility And Inclusion"
 description: "Article(s) > Designing For Accessibility And Inclusion"
-icon: fas fa-accessible-icon
+icon: fa-brands fa-accessible-icon
 category: 
   - Design
   - System

@@ -43,6 +43,7 @@ const Y2024: SidebarYeargroupTemplate = {
   children: [
     // END: 2024
     "static-search-page-find", // 2024-11-21
+    "rem-or-px", // 2024-11-11
     "html-parser-conundrum", // 2024-10-01
     "hmmarkdown", // 2024-09-01
     "git-granary", // 2024-07-25
@@ -342,6 +343,7 @@ export const template: SidebarInfoTemplate = {
       // END: 2023css
       "better-syntax-highlighting", // 2024-03-14
       "microblog", // 2024-07-10
+      "rem-or-px", // 2024-11-11
       // END: 2024css
       "baseless", // 2025-06-01
       "text-to-speech-synthesis", // 2025-07-26

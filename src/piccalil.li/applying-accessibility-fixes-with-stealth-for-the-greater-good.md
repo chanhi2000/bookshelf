@@ -2,7 +2,7 @@
 lang: en-US
 title: "Applying accessibility fixes with stealth for the greater good"
 description: "Article(s) > Applying accessibility fixes with stealth for the greater good"
-icon: fas fa-accessible-icon
+icon: fa-brands fa-accessible-icon
 category: 
   - Design
   - System

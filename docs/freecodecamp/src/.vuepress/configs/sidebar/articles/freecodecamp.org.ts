@@ -2128,6 +2128,7 @@ const AI_EVALUATION_ENGINEERING_BUILD_A_PRODUCTION_GRADE_LLM_EVALUATION_PLATFORM
     // TODO: 페이지 생성
   ]
 }
+
 const BUILD_A_MULTI_AGENT_TRADING_RESEARCH_SYSTEM_WITH_LANGCHAIN_DEEP_AGENTS_HANDBOOK: SidebarInfoSubgroupTemplate = { // 2026-08-15
   text: "How to Build a Multi-Agent Trading Research System with LangChain Deep Agents [Full Handbook]",
   collapsible: true,
@@ -2150,11 +2151,72 @@ const HOW_TO_BUILD_A_BASIC_DISCORD_BOT_WITH_PYTHON: SidebarInfoSubgroupTemplate 
   ]
 }
 
+const HOW_TO_BUILD_A_KNOWLEDGE_GRAPH_WITH_PYTHON_AND_NEO4J_HANDBOOK: SidebarInfoSubgroupTemplate = { // 2026-08-21
+  text: "How to Build a Knowledge Graph with Python and Neo4j [Full Handbook]",
+  collapsible: true,
+  icon: 'fa-brands fa-python',
+  subPath: 'how-to-build-a-knowledge-graph-with-python-and-neo4j-handbook',
+  children: [
+    'README',
+    // TODO: 페이지 생성
+  ]
+}
+
+const AI_AGENT_ENGINEERS_GUIDE_60_PATTERNS_FOR_BUILDING_AUTONOMOUS_SYSTEMS_BOOK: SidebarInfoSubgroupTemplate = { // 2026-08-21
+  text: "How to Build a Knowledge Graph with Python and Neo4j [Full Handbook]",
+  collapsible: true,
+  icon: 'fa-brands fa-python',
+  subPath: 'ai-agent-engineers-guide-60-patterns-for-building-autonomous-systems-book',
+  children: [
+    'README',
+    // TODO: 페이지 생성
+  ]
+}
+
+const THE_SANITIZERS_HANDBOOK: SidebarInfoSubgroupTemplate = { // 2026-08-22
+  text: "The Sanitizers Handbook: Memory, Initialization, and Races",
+  collapsible: true,
+  icon: 'iconfont icon-cpp',
+  subPath: 'the-sanitizers-handbook',
+  children: [
+    'README',
+    // TODO: 페이지 생성
+  ]
+}
+
+const NEURAL_NETWORKS_EXPLAINED_SIMPLY_IN_PYTHON: SidebarInfoSubgroupTemplate = { // 2026-08-22
+  text: "Neural Networks Explained: What They Are and How to Build One in Python",
+  collapsible: true,
+  icon: 'iconfont icon-numpy',
+  subPath: 'neural-networks-explained-simply-in-python',
+  children: [
+    'README',
+    // TODO: 페이지 생성
+  ]
+}
+
 const Y2026: SidebarYeargroupTemplate = {
   text: '2026',
   collapsible: true,
   children: [
     // END: 2026
+    NEURAL_NETWORKS_EXPLAINED_SIMPLY_IN_PYTHON, // 2026-08-22
+    "chain-of-responsibility-design-pattern-decoupling-complex-business-rules", // 2026-08-22
+    "how-to-host-odoo", // 2026-08-22
+    "understand-a-legacy-codebase-with-ai", // 2026-08-22
+    "kubernetes-networking-explained-from-clusterip-to-cilium-service-mesh", // 2026-08-22
+    "how-sensors-collect-process-and-track-data-in-wearables", // 2026-08-22
+    THE_SANITIZERS_HANDBOOK, // 2026-08-22
+    AI_AGENT_ENGINEERS_GUIDE_60_PATTERNS_FOR_BUILDING_AUTONOMOUS_SYSTEMS_BOOK, // 2026-08-21
+    HOW_TO_BUILD_A_KNOWLEDGE_GRAPH_WITH_PYTHON_AND_NEO4J_HANDBOOK, // 2026-08-21
+    "the-hidden-risks-lurking-in-your-cloud-infrastructure", // 202-08-21
+    "learn-system-design-for-ai-agents-build-a-production-ready-multi-agent-pr-reviewer", // 2026-08-20
+    "learn-data-structures-and-algorithms-visually", // 2026-08-20
+    "building-a-reinforcement-learning-framework-from-scratch-in-pure-c", // 2026-08-19
+    "high-frequency-real-time-data-in-react-from-ring-buffers-to-offscreencanvas", // 2026-08-19
+    "what-to-do-if-your-site-is-about-to-hit-vercels-free-image-optimization-cap", // 2026-08-19
+    "how-to-build-more-accessible-websites-with-wcag-2-2", // 2026-08-19
+    "how-to-work-with-material-and-cupertino-decoupling-in-flutter-full-handbook", // 2026-08-19
     "how-to-work-with-subqueries-in-sql", // 2026-08-18
     "how-to-scale-llm-inference-for-ai-agents-using-vllm", // 2026-08-18
     "how-to-manage-context-files-in-your-codebase-and-get-better-agent-output", // 2026-08-17
@@ -4456,6 +4518,7 @@ export const template: SidebarInfoTemplate = {
         "level-up-your-react-skills-with-typescript", // 2026-07-08
         REMOTE_PROCEDURE_CALLS_PROTOCOL_BUFFERS_AND_MODERN_DISTRIBUTED_SYSTEMS_COMMUNICATION, // 2026-07-23
         "modernize-legacy-applications-with-ai", // 2026-08-14
+        "understand-a-legacy-codebase-with-ai", // 2026-08-22
         // END: 2026ts
         // END: ts
       ]], [
@@ -4761,6 +4824,7 @@ export const template: SidebarInfoTemplate = {
         "master-full-stack-mobile-development-with-react-native", // 2026-07-16
         "how-neural-machine-translation-works-build-your-own-translation-app-with-react-native-and-qvac", // 2026-07-18
         "how-to-use-apple-s-foundation-models-in-a-web-app-with-a-macos-companion", // 2026-07-21
+        "high-frequency-real-time-data-in-react-from-ring-buffers-to-offscreencanvas", // 2026-08-19
         // END: 2026js-react
         // END: js-react
       ]], [
@@ -4859,6 +4923,7 @@ export const template: SidebarInfoTemplate = {
         "how-to-deploy-a-full-stack-next-js-app-on-cloudflare-workers-with-github-actions-ci-cd", // 2026-04-29
         "build-an-ai-agent-in-telegram-with-vercel-cursor-composio", // 2026-06-26
         HOW_TO_BUILD_YOUR_OWN_MCP_SERVER_AND_PUBLISH_YOUR_CHATGPT_APP, // 2026-07-10
+        "what-to-do-if-your-site-is-about-to-hit-vercels-free-image-optimization-cap", // 2026-08-19
         // END: 2026js-next
         // END: js-next
       ]], [
@@ -5147,6 +5212,7 @@ export const template: SidebarInfoTemplate = {
         "how-to-build-text-compare-tool-html-css-javascript", // 2026-07-02
         "how-to-create-accessible-modals-and-pop-ups-using-html-css-and-minimal-javascript", // 2026-07-18
         "how-to-make-a-static-html-page-editable-in-the-browser-with-vanilla-javascript", // 2026-07-23
+        "how-to-build-more-accessible-websites-with-wcag-2-2", // 2026-08-19
         // END: 2026css
         // END`: css
       ]], [
@@ -5413,6 +5479,7 @@ export const template: SidebarInfoTemplate = {
         "how-to-implement-hipaa-technical-safeguards-on-aws-full-handbook", // 2026-08-04
         "build-a-privacy-first-medical-image-de-identification-agent", // 2026-08-06
         HOW_TO_BUILD_A_BASIC_DISCORD_BOT_WITH_PYTHON, // 2026-08-15
+        HOW_TO_BUILD_A_KNOWLEDGE_GRAPH_WITH_PYTHON_AND_NEO4J_HANDBOOK, // 2026-08-21
         // END: 2026py
         // END: py
       ]], [
@@ -5530,6 +5597,7 @@ export const template: SidebarInfoTemplate = {
         "causal-inference-at-scale-with-case-studies", // 2026-08-12
         "python-for-mechanical-engineering", // 2026-08-13
         BUILD_A_MULTI_AGENT_TRADING_RESEARCH_SYSTEM_WITH_LANGCHAIN_DEEP_AGENTS_HANDBOOK, // 2026-08-15
+        NEURAL_NETWORKS_EXPLAINED_SIMPLY_IN_PYTHON, // 2026-08-22
         // END: 2026py-numpy
         // END: py-numpy
       ]], [
@@ -5863,6 +5931,8 @@ export const template: SidebarInfoTemplate = {
         HOW_TO_TEST_AI_FEATURES_IN_FLUTTER_FULL_HANDBOOK, // 2026-08-08
         "flutter-frontend-systems-design-how-to-think-like-a-senior-engineer-in-the-ai-age", // 2026-08-10
         "how-to-automate-flutter-releases-with-fastlane-and-github-actions", // 2026-08-12
+        "how-to-work-with-material-and-cupertino-decoupling-in-flutter-full-handbook", // 2026-08-19
+        "chain-of-responsibility-design-pattern-decoupling-complex-business-rules", // 2026-08-22
         // END: 2026dart
         // END: dart
       ]], [
@@ -6034,6 +6104,7 @@ export const template: SidebarInfoTemplate = {
         QURT_THE_REAL_TIME_OS_INSIDE_YOUR_PHONE_S_PROCESSOR_FULL_HANDBOOK, // 2026-05-07
         HOW_TO_BUILD_BLUETOOTH_APPLICATIONS_WITH_ZEPHYR_OS_A_HANDBOOK_FOR_DEVS, // 2026-06-02
         "master-low-level-graphics-in-c-build-a-software-renderer-from-scratch", // 2026-08-13
+        "building-a-reinforcement-learning-framework-from-scratch-in-pure-c", // 2026-08-19
         // END: 2026c
         // END: c
       ]], [
@@ -6066,6 +6137,7 @@ export const template: SidebarInfoTemplate = {
         // END: 2025cpp
         HOW_TO_USE_SCONS_TO_BUILD_SOFTWARE_PROJECTS_FULL_HANDBOOK, // 2026-05-08
         "a-deep-dive-into-gabeldorsche-the-bluetooth-stack-android-rebuilt-on-purpose", // 2026-07-15
+        THE_SANITIZERS_HANDBOOK, // 2026-08-22
         // END: 2026cpp
         // END: cpp
       ]], [
@@ -6577,6 +6649,8 @@ export const template: SidebarInfoTemplate = {
         "what-to-do-if-you-ve-outgrown-your-cron-job-scheduler", // 2026-07-25
         HOW_TO_BUILD_A_PRODUCTION_READY_DEVSECOPS_PLATFORM_FROM_HOMELAB_TO_AWS_FULL_BOOK, // 2026-07-28
         "agentic-ai-using-langgraph-build-ai-agents-automate-workflows", // 2026-07-30
+        HOW_TO_BUILD_A_KNOWLEDGE_GRAPH_WITH_PYTHON_AND_NEO4J_HANDBOOK, // 2026-08-21
+        "how-to-host-odoo", // 2026-08-22
         // END: 2026docker
         // END: docker
       ]], [
@@ -6635,6 +6709,7 @@ export const template: SidebarInfoTemplate = {
         "how-to-build-kubernetes-networking-without-kubernetes-do-what-the-cni-does-by-hand", // 2026-07-23
         HOW_TO_BUILD_A_PRODUCTION_READY_DEVSECOPS_PLATFORM_FROM_HOMELAB_TO_AWS_FULL_BOOK, // 2026-07-28
         "how-to-build-kubernetes-operators-a-handbook-for-devs", // 2026-07-29
+        "kubernetes-networking-explained-from-clusterip-to-cilium-service-mesh", // 2026-08-22
         // END: 2026k8s
         // END: k8s
       ]], [
@@ -6738,6 +6813,7 @@ export const template: SidebarInfoTemplate = {
         HOW_TO_BUILD_A_PRODUCTION_READY_DEVSECOPS_PLATFORM_FROM_HOMELAB_TO_AWS_FULL_BOOK, // 2026-07-28
         "agentic-ai-using-langgraph-build-ai-agents-automate-workflows", // 2026-07-30
         "how-to-implement-hipaa-technical-safeguards-on-aws-full-handbook", // 2026-08-04
+        HOW_TO_BUILD_A_KNOWLEDGE_GRAPH_WITH_PYTHON_AND_NEO4J_HANDBOOK, // 2026-08-21
         // END: 2026aws
         // END: aws
       ]], [
@@ -7096,6 +7172,7 @@ export const template: SidebarInfoTemplate = {
         "how-to-take-control-of-your-online-privacy", // 2026-07-06
         "the-hidden-engineering-behind-ai-products-what-devs-should-know", // 2026-07-07
         "how-to-implement-privacy-by-design-in-modern-apis", // 2026-08-04
+        "the-hidden-risks-lurking-in-your-cloud-infrastructure", // 202-08-21
         // END: 2026security
         // END: security
       ]], [
@@ -7567,6 +7644,8 @@ export const template: SidebarInfoTemplate = {
         "how-large-scale-platforms-handle-millions-of-daily-transactions", // 2026-06-13
         "from-manufacturing-to-microservices-universal-lessons-about-reliability", // 2026-07-20
         "the-visitor-design-pattern-and-its-clean-operations-across-complex-object-structures", // 2026-08-07
+        "how-to-build-more-accessible-websites-with-wcag-2-2", // 2026-08-19
+        "chain-of-responsibility-design-pattern-decoupling-complex-business-rules", // 2026-08-22
         // END: 2026system-design
         // END: system-design
       ]], [
@@ -7747,6 +7826,8 @@ export const template: SidebarInfoTemplate = {
         "building-agents-with-pydantic-ai", // 2026-08-14
         "modernize-legacy-applications-with-ai", // 2026-08-14
         HOW_TO_BUILD_A_BASIC_DISCORD_BOT_WITH_PYTHON, // 2026-08-15
+        "learn-system-design-for-ai-agents-build-a-production-ready-multi-agent-pr-reviewer", // 2026-08-20
+        "understand-a-legacy-codebase-with-ai", // 2026-08-22
         // END: 2026llm
         // END: llm
       ]], [
@@ -8225,6 +8306,7 @@ export const template: SidebarInfoTemplate = {
         "how-clients-and-servers-communicate-handbook-http-rest-websockets-graphql-grpc-protobuf", // 2026-07-24
         "the-internet-s-longest-running-joke-a-field-guide-to-the-april-fools-rfcs", // 2026-07-29
         "what-does-a-modern-qa-engineer-do", // 2026-08-05
+        "learn-data-structures-and-algorithms-visually", // 2026-08-20
         // END: 2026coen
         // END: coen
       ]], [
@@ -8292,6 +8374,7 @@ export const template: SidebarInfoTemplate = {
         "how-smartwatch-ecg-works", // 2026-08-07
         "why-2d-trapped-ion-quantum-computers-could-be-easier-to-scale-than-1d-architectures", // 2026-08-07
         "why-your-wearable-needs-weeks-of-data-before-it-becomes-useful", // 2026-08-15
+        "how-sensors-collect-process-and-track-data-in-wearables", // 2026-08-22
         // END: 2026hw
         // END: hw
       ]], [

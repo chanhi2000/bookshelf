@@ -64,7 +64,7 @@ cover: https://master.dev/blog/wp-json/social-image-generator/v1/image/10635
 {
   "title": "Claude > Article(s)",
   "desc": "Article(s)",
-  "link": "/devops/claude/articles/README.md",
+  "link": "/ai/claude/articles/README.md",
   "logo": "/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }

@@ -2,7 +2,7 @@
 lang: en-US
 title: "A Front-end developer’s guide to the hybrid mobile app development landscape"
 description: "Article(s) > A Front-end developer’s guide to the hybrid mobile app development landscape"
-icon: fas fa-accessible-icon
+icon: fa-brands fa-accessible-icon
 category:
   - Node.js
   - React.js

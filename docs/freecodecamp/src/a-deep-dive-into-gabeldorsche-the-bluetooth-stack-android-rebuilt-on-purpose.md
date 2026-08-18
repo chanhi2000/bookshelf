@@ -7,6 +7,7 @@ category:
   - Java
   - Kotlin
   - Android
+  - C++
   - Article(s)
 tag:
   - blog

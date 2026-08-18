@@ -2,7 +2,7 @@
 lang: en-US
 title: "How CAPTCHAs Affect Accessibility: Problems, Workarounds, and Alternatives"
 description: "Article(s) > How CAPTCHAs Affect Accessibility: Problems, Workarounds, and Alternatives"
-icon: fas fa-accessible-icon
+icon: fa-brands fa-accessible-icon
 category: 
   - Design
   - System

@@ -2,7 +2,7 @@
 lang: en-US
 title: "Three stoic principles for better web accessibility"
 description: "Article(s) > Three stoic principles for better web accessibility"
-icon: fas fa-accessible-icon
+icon: fa-brands fa-accessible-icon
 category: 
   - Design
   - System
