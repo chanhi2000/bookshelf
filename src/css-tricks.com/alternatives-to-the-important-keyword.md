@@ -62,7 +62,7 @@ Let’s talk about those alternatives.
 
 ## Specificity and `!important`
 
-Selector specificity is a deep rabbit hole, and not the goal of this discussion. That said, to understand why `!important` exists, we need to look at how CSS decides which rules apply in the first place. I wrote a [<VPIcon icon="fas fa-globe"/>brief overview](https://salehmubashar.com/blog/specificity-in-css-selectors) on specificity that serves as a good starting point. [**Chris also has a concise piece**](/css-tricks.com/specifics-on-css-specificity.md) on it. And if you really want to go deep into all the edge cases, Frontend Masters has a [**thorough breakdown**](/master.dev/css-specificity.md).
+Selector specificity is a deep rabbit hole, and not the goal of this discussion. That said, to understand why `!important` exists, we need to look at how CSS decides which rules apply in the first place. I wrote a [<VPIcon icon="fas fa-globe"/>brief overview](https://salehmubashar.com/blog/specificity-in-css-selectors) on specificity that serves as a good starting point. [**Chris also has a concise piece**](/css-tricks.com/specifics-on-css-specificity.md) on it. And if you really want to go deep into all the edge cases, Frontend Masters has a [**thorough breakdown**](/blog.master.dev/css-specificity.md).
 
 In short, CSS gives each selector a kind of “weight.” When two rules target the same element, the rule with higher specificity wins. If the specificity is equal, the **rule declared later in the stylesheet** takes precedence.
 
@@ -321,7 +321,7 @@ The difference between good and bad use of `!important` really comes down to int
 ::: info Further reading
 
 - [**Specifics on CSS Specificity**](/css-tricks.com/specifics-on-css-specificity.md) by Chris Coyier
-- [**Tackling CSS Specificity**](/master.dev/css-specificity.md) by Emma Bostian
+- [**Tackling CSS Specificity**](/blog.master.dev/css-specificity.md) by Emma Bostian
 - [**Cascade Layers Guide**](/css-tricks.com/css-cascade-layers.md) by Miriam Suzanne
 - [**When Using !important is The Right Choice**](/css-tricks.com/when-using-important-is-the-right-choice.md) by Chris Coyier
 

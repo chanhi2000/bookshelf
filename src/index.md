@@ -47,10 +47,10 @@ projects:
     name: outcomeschool.com
     desc: "Outcome School | Get High Paying Tech Job"
     link: /outcomeschool.com/README.md
-  - icon: https://master.dev/favicon.ico
-    name: master.dev
+  - icon: https://blog.master.dev/favicon.ico
+    name: blog.master.dev
     desc: "Learn JavaScript, React, and TypeScript to Node.js, Fullstack, and Backend | Frontend Masters"
-    link: /master.dev/README.md
+    link: /blog.master.dev/README.md
   - icon: https://css-tricks.com/favicon.svg
     name: css-tricks.com
     desc: "CSS-Tricks - A Website About Making Websites"
@@ -243,7 +243,7 @@ projects:
     desc: "코딩에브리바디는 HTML, CSS, JAVASCRIPT, PHP, PYTHON, SQL, C++ 등 모든 사람을 위한 코딩 학습서입니다."
     link: /codingeverybody.kr/README.md
 footerHtml: true
-footer: <i>0.2.35</i><br/><br/>MIT Licensed<br/>Copyright © 2022-present <a target="_blank" href="https://github.com/chanhi2000">Chan Hee Lee</a>
+footer: <i>0.2.36</i><br/><br/>MIT Licensed<br/>Copyright © 2022-present <a target="_blank" href="https://github.com/chanhi2000">Chan Hee Lee</a>
 
 copyright: false
 ---

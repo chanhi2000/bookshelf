@@ -27,6 +27,7 @@ const Y2024: SidebarYeargroupTemplate = {
     "introduction-css-scroll-driven-animations", // 2024-12-11
     "timeless-power-of-spreadsheets", // 2024-09-23
     "svg-coding-examples-recipes-writing-vectors-by-hand", // 2024-09-08
+    "history-future-regular-expressions-javascript", // 2024-08-20
     "pricing-projects-freelancer-agency-owner", // 2024-08-16
     "time-to-talk-about-css5", // 2024-08-05
     "css-tips-and-techniques", // 2024-06-07
@@ -307,6 +308,7 @@ export const template: SidebarInfoTemplate = {
       "write-better-css-borrow-ideas-javascript-functions", // 2023-04-28
       // END: 2023js
       "setting-persisting-color-scheme-preferences-css-javascript", // 2024-03-25
+      "history-future-regular-expressions-javascript", // 2024-08-20
       "svg-coding-examples-recipes-writing-vectors-by-hand", // 2024-09-08
       // END: 2024js
       // END: 2025js
@@ -552,6 +554,13 @@ export const template: SidebarInfoTemplate = {
       // END: 2024git
       // END: 2025git
       // END: git
+    ]],[
+    "regex", [
+      "history-future-regular-expressions-javascript", // 2024-08-20
+      // END: 2024regex
+      // END: 2025regex
+      // END: 2026regex
+      // END: regex
     ]],[
     "chrome", [
       "accessibility-chrome-devtools", // 2020-08-13

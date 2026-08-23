@@ -2,8 +2,10 @@
 lang: en-US
 title: "The Sanitizers Handbook: Memory, Initialization, and Races"
 description: "Article(s) > The Sanitizers Handbook: Memory, Initialization, and Races"
-icon: fas fa-pen-ruler
+icon: iconfont icon-cpp
 category:
+  - Dart
+  - Flutter
   - C++
   - Design
   - System
@@ -11,6 +13,8 @@ category:
 tag:
   - blog
   - freecodecamp.org
+  - dart
+  - flutter
   - c++
   - cpp
   - c-plus-plus
@@ -34,6 +38,16 @@ cover: https://cdn.hashnode.com/uploads/covers/5e1e335a7a1d3fcc59028c64/b4ab5b91
 ---
 
 # {{ $frontmatter.title }} 관련
+
+```component VPCard
+{
+  "title": "Dart > Article(s)",
+  "desc": "Article(s)",
+  "link": "/programming/dart/articles/README.md",
+  "logo": "/images/ico-wind.svg",
+  "background": "rgba(10,10,10,0.2)"
+}
+```
 
 ```component VPCard
 {
@@ -92,7 +106,7 @@ Those questions become especially sharp at managed/native boundaries. A Dart, Ja
 
 Many of the examples in this handbook come back to that kind of boundary: code that looks straightforward from the outside but has to keep native lifetime rules intact underneath.
 
-`google/webcrypto.dart` will serve as one recurring example. It combines Dart FFI, BoringSSL handles, finalizers, scoped cleanup, build hooks, and ownership transfer in a relatively compact system. It's also a useful example of a less glamorous but very common engineering constraint: sometimes the sanitizer setup you want is blocked by the surrounding toolchain, and you have to decide what useful runtime evidence you can obtain in the meantime.
+.<VPIcon icon="fas fa-folder-open"/>`google/`<VPIcon icon="fa-brands fa-dart-lang"/><VPIcon icon="fa-brands fa-dart-lang"/>`webcrypto.dart` will serve as one recurring example. It combines Dart FFI, BoringSSL handles, finalizers, scoped cleanup, build hooks, and ownership transfer in a relatively compact system. It's also a useful example of a less glamorous but very common engineering constraint: sometimes the sanitizer setup you want is blocked by the surrounding toolchain, and you have to decide what useful runtime evidence you can obtain in the meantime.
 
 That problem isn't specific to Dart or cryptography. Real systems rarely give you a perfectly instrumentable dependency graph, a cooperative runtime, complete symbols, and unlimited CI time all at once. The practical question is usually narrower: what can this build observe today, what can it not observe, and what workload would make the available evidence meaningful?
 
@@ -119,9 +133,7 @@ The chapters that follow move from that model into shadow memory, leak reachabil
 - [Closing Perspective](#heading-closing-perspective)
 - [References and Further Reading](#heading-references-and-further-reading)
 
----
-
-## Prerequisites
+::: note Prerequisites
 
 This handbook assumes basic comfort with native-code debugging and concurrent programs. It builds on pointers, allocation, thread synchronization, build systems, and CI rather than reintroducing C or C++ fundamentals.
 
@@ -141,12 +153,14 @@ And here's what you need to follow along with the examples:
 - A Linux or macOS environment for most compiler-based examples. Linux is the most practical environment for the complete set of examples and the Valgrind lane.
 - A way to run the produced binaries and preserve their logs and crash artifacts.
 - Optional access to Valgrind for the whole-process and FFI fallback examples.
-- Optional Dart tooling for the `webcrypto.dart` case study. You don't need Dart experience to follow the ownership analysis.
-- And, less officially, enough patience to read a stack trace before blaming the last person who touched the file :)
+- Optional Dart tooling for the <VPIcon icon="fa-brands fa-dart-lang"/>`webcrypto.dart` case study. You don't need Dart experience to follow the ownership analysis.
+- And, less officially, enough patience to read a stack trace before blaming the last person who touched the file.
 
 We won't go through a long compiler or environment setup walkthrough. The commands assume the relevant compiler and runtime packages are installed and focus on instrumentation, reports, workloads, and policy.
 
 We also won't re-teach general memory management, threading, fuzzing, or compiler construction. Only the parts that change how a sanitizer result should be interpreted are developed in detail.
+
+:::
 
 ---
 
@@ -163,6 +177,7 @@ Those questions overlap, but they aren't equivalent. A function can return the c
 That distinction is the starting point for sanitizer work:
 
 ![Flowchart showing that a functional test can produce the expected output and still pass while hidden runtime-contract violations remain detectable by ASan, LSan, MSan, or TSan.](https://cdn.hashnode.com/uploads/covers/66b563581acaa21b16e7093a/c34c34ca-f4b8-4d11-b397-ca181d4f310f.svg)
+<!-- TODO: mermaid화 -->
 
 The diagram shows why a passing test is not always a valid execution. Sanitizers check the hidden runtime contracts that ordinary output-based tests can miss.
 
@@ -182,7 +197,7 @@ That extra state gives you more than the final crash location. Depending on the 
 
 Consider a native API that writes a 32-byte digest into a caller-provided buffer:
 
-```plaintext
+```cpp
 bool digest(const uint8_t* input, size_t input_len, uint8_t* output, size_t* output_len);
 ```
 
@@ -322,7 +337,7 @@ The set of bugs ASan can catch is correspondingly broad: heap, stack, and global
 
 For debugging builds, the compiler flags should favor useful reports rather than maximum optimization. A practical baseline is:
 
-```plaintext
+```sh
 clang++ -O1 -g -fno-omit-frame-pointer -fno-optimize-sibling-calls -fsanitize=address -o my_tests sanitizer_tests.cc
 
 ASAN_SYMBOLIZER_PATH="$(command -v llvm-symbolizer)"
@@ -351,6 +366,7 @@ ASan gets much of its speed from using a compact shadow representation rather th
 In the common mapping, one shadow byte describes eight bytes of application memory. A shadow value of zero means all eight corresponding bytes are addressable. Values from one through seven can represent a partially addressable tail, encoding how many leading bytes remain valid. Other non-zero values are used as poison markers for regions such as redzones, freed memory, or invalid stack lifetimes.
 
 ![Flowchart explaining ASan shadow memory: an 8-byte block of application memory maps to one shadow byte, where zero means all bytes are addressable, values 1 through 7 mean only that many leading bytes are addressable, and poison markers represent redzones, freed memory, or invalid stack lifetime.](https://cdn.hashnode.com/uploads/covers/66b563581acaa21b16e7093a/19ab5525-92ae-446d-897f-cd78ec834cf0.png)
+<!-- TODO: mermaid화 -->
 
 The diagram shows how ASan maps application memory to shadow memory so it can quickly decide whether a load or store touches valid, partially valid, or poisoned memory.
 
@@ -457,7 +473,7 @@ A basic ASan-backed leak lane looks like this:
 
 ```sh
 clang -O1 -g -fsanitize=address -fno-omit-frame-pointer \
-  -o leak_suite leak_suite.c
+-o leak_suite leak_suite.c
 
 ASAN_SYMBOLIZER_PATH="$(command -v llvm-symbolizer)" \
 ASAN_OPTIONS="detect_leaks=1" \
@@ -481,6 +497,7 @@ A leak lane becomes valuable when its result has a clear interpretation. If the 
 LSan is conservative because it has no direct knowledge of your ownership design. At shutdown, it inspects root-like regions such as thread stacks, registers, globals, and thread-local storage, then follows pointer-looking values into heap allocations. If an allocation remains reachable through that graph, LSan may leave it alone even when the application logically intended to release it.
 
 ![Flowchart showing how LSan checks for leaks at process shutdown by collecting roots from stacks, registers, globals, and thread-local storage, tracing pointer-like values, and separating reachable allocations from unreachable direct and indirect leaks.](https://cdn.hashnode.com/uploads/covers/66b563581acaa21b16e7093a/74b5c28a-6256-4b5f-bed4-311b0909b13f.png)
+<!-- TODO: mermaid화 -->
 
 The diagram shows how LSan traces reachability at shutdown. Unreachable allocations become leak reports, but reachable memory may still be logically wrong if the program meant to release it earlier.
 
@@ -553,8 +570,8 @@ A basic MSan build looks like this:
 
 ```sh
 clang++ -O1 -g -fno-omit-frame-pointer \
-  -fsanitize=memory -fsanitize-memory-track-origins=2 \
-  -o msan_suite msan_suite.cc
+-fsanitize=memory -fsanitize-memory-track-origins=2 \
+-o msan_suite msan_suite.cc
 
 MSAN_SYMBOLIZER_PATH="$(command -v llvm-symbolizer)" \
 ./msan_suite
@@ -577,6 +594,7 @@ Calling uninitialized memory “random bytes” is a useful shorthand, but it mi
 MSan maintains shadow state describing which bits of a value are initialized. Copies propagate that state. Arithmetic and other operations propagate it into their results. As values move through the program, the initialization history moves with them.
 
 ![Flowchart showing how MSan tracks uninitialized state from an uninitialized allocation or stack slot into poisoned shadow state, through copies or arithmetic, until a sensitive use such as a branch, pointer/index, parameter, or return value triggers an MSan report.](https://cdn.hashnode.com/uploads/covers/66b563581acaa21b16e7093a/fd6f93d8-dc63-4117-8cc8-f3afc1c58258.png)
+<!-- TODO: mermaid화 -->
 
 The diagram shows how MSan follows uninitialized state through the program and reports it only when the value is used in a way that affects execution.
 
@@ -630,9 +648,9 @@ bool decode(const uint8_t* input, size_t input_len,
             uint8_t* output, size_t* output_len);
 ```
 
-A caller will naturally read true as a postcondition: output contains a valid result and \*output_len says how much of it is valid.
+A caller will naturally read true as a postcondition: output contains a valid result and `*output_len` says how much of it is valid.
 
-If some successful branch writes output but leaves \*output_len untouched, the implementation has created a state the API doesn't communicate.
+If some successful branch writes output but leaves `*output_len` untouched, the implementation has created a state the API doesn't communicate.
 
 The same problem appears with structures:
 
@@ -701,6 +719,7 @@ TSan doesn't simply look for “two threads touched the same variable.”
 It records memory accesses and synchronization events, then asks whether conflicting accesses are ordered by a happens-before relationship. If two threads touch the same memory, at least one access writes, and no observable synchronization orders those operations, TSan has the shape of a data race.
 
 ![Sequence diagram showing writer and reader threads with synchronization between them. A release/unlock/signal followed by an acquire/lock/wait creates ordered accesses with no data race, while a write and read without observable ordering are conflicting unordered accesses that TSan can report.](https://cdn.hashnode.com/uploads/covers/66b563581acaa21b16e7093a/20a3c7d3-872f-4eed-8f0c-060a35559201.png)
+<!-- TODO: mermaid화 -->
 
 The diagram shows how synchronization creates the ordering TSan needs to see. Without that observable ordering, conflicting accesses across threads can become a TSan report.
 
@@ -793,11 +812,11 @@ Understanding those boundaries matters because a large sanitizer matrix can stil
 
 ASan and UndefinedBehaviorSanitizer are commonly enabled together. Their checks cover different parts of the execution and coexist well in many Clang builds:
 
-```plaintext
+```sh
 clang++ -O1 -g -fno-omit-frame-pointer \
-  -fsanitize=address,undefined \
-  -fno-sanitize-recover=all \
-  app.cc -o app_sanitized
+-fsanitize=address,undefined \
+-fno-sanitize-recover=all \
+app.cc -o app_sanitized
 ```
 
 ASan watches addressability and lifetime. UBSan catches language-level undefined behavior such as invalid shifts, misaligned accesses, invalid enum values, and enabled integer-overflow checks.
@@ -960,7 +979,7 @@ The type system can't prevent every lifetime bug, but it can make ownership tran
 
 Managed FFI code often has to encode the same states more explicitly because the language's normal object lifetime doesn't automatically describe the native object's lifetime. A wrapper can still make the distinction visible:
 
-```cpp
+```dart :collapsed-lines
 import 'dart:ffi' as ffi;
 
 final class NativeHandle extends ffi.Opaque {}
@@ -1015,7 +1034,7 @@ The exact representation will differ by language and runtime. Some systems use n
 
 Temporary ownership needs the same treatment. A lexical cleanup scope can make “release unless transferred” explicit:
 
-```cpp
+```dart :collapsed-lines
 final class Scope {
     final Map<Object, void Function()> _cleanup = {};
 
@@ -1062,13 +1081,13 @@ This is also where the different sanitizer models start to line up around the sa
 
 The tools report different symptoms, but the design work is often the same: make ownership, release, transfer, and lifetime transitions explicit enough that there's only one reasonable interpretation at each boundary.
 
-That's the useful frame for the `webcrypto.dart` case study that follows. Dart, BoringSSL, native build hooks, and finalizers make the details specific, but the underlying problems are not. They're the same ownership questions any managed/native boundary eventually has to answer: who owns this resource now, how must it be released, what changes when ownership moves, and what happens when the operation fails halfway through?
+That's the useful frame for the <VPIcon icon="fa-brands fa-dart-lang"/>`webcrypto.dart` case study that follows. Dart, BoringSSL, native build hooks, and finalizers make the details specific, but the underlying problems are not. They're the same ownership questions any managed/native boundary eventually has to answer: who owns this resource now, how must it be released, what changes when ownership moves, and what happens when the operation fails halfway through?
 
 ---
 
-## Case Study: `webcrypto.dart` Issue #278
+## Case Study: <VPIcon icon="fa-brands fa-dart-lang"/>`webcrypto.dart` Issue #278
 
-`webcrypto.dart` is a useful example because several ownership systems meet in one fairly small surface area. In the browser, the package can rely on the platform Web Crypto implementation. Outside the browser, it crosses into native code through `dart:ffi` and uses BoringSSL underneath. Dart build hooks are responsible for producing the native assets.
+<VPIcon icon="fa-brands fa-dart-lang"/>`webcrypto.dart` is a useful example because several ownership systems meet in one fairly small surface area. In the browser, the package can rely on the platform Web Crypto implementation. Outside the browser, it crosses into native code through `dart:ffi` and uses BoringSSL underneath. Dart build hooks are responsible for producing the native assets.
 
 That means a single operation can involve Dart object reachability, native reference counting, explicit allocation and cleanup, finalizers, and build tooling that determines how much of the resulting process a debugger can actually see.
 
@@ -1082,7 +1101,7 @@ The natural next step was to run those paths under stronger memory-safety toolin
 
 ### Why Valgrind Came First
 
-The sanitizer path was blocked in the Dart SDK. `webcrypto.dart` relies on build hooks for its native assets, while sanitizer-enabled testing didn't yet support that setup cleanly. The missing work was tracked upstream in Dart SDK issue #63489. There was a second problem around AOT packaging and symbolization. With compiled Dart code packaged into the runtime in the existing layout, native tooling couldn't expose the symbols in the form sanitizer reports needed. That work was tracked separately in issue #63435. So simply adding a sanitizer flag inside `webcrypto.dart` wouldn't have produced a reliable sanitizer lane. The project first needed SDK support for building the right native assets under sanitizers and for producing reports that could be mapped back to useful code.
+The sanitizer path was blocked in the Dart SDK. <VPIcon icon="fa-brands fa-dart-lang"/>`webcrypto.dart` relies on build hooks for its native assets, while sanitizer-enabled testing didn't yet support that setup cleanly. The missing work was tracked upstream in Dart SDK issue #63489. There was a second problem around AOT packaging and symbolization. With compiled Dart code packaged into the runtime in the existing layout, native tooling couldn't expose the symbols in the form sanitizer reports needed. That work was tracked separately in issue #63435. So simply adding a sanitizer flag inside <VPIcon icon="fa-brands fa-dart-lang"/>`webcrypto.dart` wouldn't have produced a reliable sanitizer lane. The project first needed SDK support for building the right native assets under sanitizers and for producing reports that could be mapped back to useful code.
 
 Valgrind didn't depend on that integration in the same way. So PR #295 added a Linux Memcheck lane that could run against the existing test path while the sanitizer work remained blocked upstream.
 
@@ -1094,7 +1113,7 @@ That's exactly where a memory checker is useful. The test still verifies that th
 
 Valgrind also exposed a practical problem that appears whenever a memory checker is placed around a managed runtime: not every reported allocation necessarily belongs to the library being tested.
 
-The lane reported both definite and possible leaks, but only definite leaks failed CI. Possible leaks remained visible in the output because some could come from Dart VM runtime behavior rather than `webcrypto.dart` itself. There was little value in making an ambiguous category blocking before the project could reliably attribute it.
+The lane reported both definite and possible leaks, but only definite leaks failed CI. Possible leaks remained visible in the output because some could come from Dart VM runtime behavior rather than <VPIcon icon="fa-brands fa-dart-lang"/>`webcrypto.dart` itself. There was little value in making an ambiguous category blocking before the project could reliably attribute it.
 
 That distinction matters beyond Valgrind. A useful CI gate needs a failure category the team understands well enough to act on. Broader findings can still be recorded and investigated without pretending they all carry the same confidence.
 
@@ -1112,9 +1131,10 @@ Finally, a blocked sanitizer integration doesn't have to mean no dynamic checkin
 
 The progression looked roughly like this:
 
-![d64605ac-41ae-468a-be14-749fb3347dd9](https://cdn.hashnode.com/uploads/covers/66b563581acaa21b16e7093a/d64605ac-41ae-468a-be14-749fb3347dd9.png)
+![](https://cdn.hashnode.com/uploads/covers/66b563581acaa21b16e7093a/d64605ac-41ae-468a-be14-749fb3347dd9.png)
+<!-- TODO: mermaid화 -->
 
-`webcrypto.dart` didn't get the sanitizer lane it ultimately wanted from this work. The SDK couldn't support it yet. What the project did get was a repeatable native-lifetime workload, a Linux memory-checking lane that could run in CI, and upstream issues that made the remaining tooling gaps explicit.
+.<VPIcon icon="fa-brands fa-dart-lang"/>`webcrypto.dart` didn't get the sanitizer lane it ultimately wanted from this work. The SDK couldn't support it yet. What the project did get was a repeatable native-lifetime workload, a Linux memory-checking lane that could run in CI, and upstream issues that made the remaining tooling gaps explicit.
 
 That's a useful pattern well beyond Dart: enforce the runtime properties you can observe today, and keep the missing coverage visible until the toolchain can support something stronger.
 
@@ -1200,7 +1220,7 @@ With ASan:
 
 ```sh
 clang++ -O1 -g -fsanitize=fuzzer,address \
-  fuzz_target.cc -o fuzz_target
+fuzz_target.cc -o fuzz_target
 
 ./fuzz_target corpus/
 ```
@@ -1209,8 +1229,8 @@ And, when the dependency graph can be instrumented sufficiently for MSan:
 
 ```sh
 clang++ -O1 -g -fsanitize=fuzzer,memory \
-  -fsanitize-memory-track-origins=2 \
-  fuzz_target.cc -o fuzz_target_msan
+-fsanitize-memory-track-origins=2 \
+fuzz_target.cc -o fuzz_target_msan
 
 ./fuzz_target_msan corpus/
 ```
@@ -1490,7 +1510,7 @@ MSan can be treated similarly once the instrumented environment is complete enou
 
 TSan needs a little more context around instrumentation boundaries, but a race between accesses in code you own should normally block once the report has been confirmed. “It only happens under TSan” isn't a useful acceptance criterion.
 
-Leak policy tends to need the most judgment. A deterministic direct leak from a focused native test is very different from a possible leak reported while an entire managed runtime is shutting down. The `webcrypto.dart` case study is a useful example: definite Valgrind leaks could be made blocking while possible leaks remained visible until they could be attributed with more confidence.
+Leak policy tends to need the most judgment. A deterministic direct leak from a focused native test is very different from a possible leak reported while an entire managed runtime is shutting down. The <VPIcon icon="fa-brands fa-dart-lang"/>`webcrypto.dart` case study is a useful example: definite Valgrind leaks could be made blocking while possible leaks remained visible until they could be attributed with more confidence.
 
 That's a better pattern than either extreme. Ignoring all leak reports wastes useful ownership evidence. Failing every ambiguous allocation from day one can make the lane unusable.
 
@@ -1578,7 +1598,7 @@ For sanitizer jobs worth keeping, retain the artifacts needed to reconstruct the
 
 Managed runtimes, JITs, AOT compilers, and plugin systems need additional care because a native address may not map directly to an ordinary source file.
 
-The Dart AOT issue discussed in the `webcrypto.dart` case study is a good example. Native tooling could observe the bad execution, but the report lost much of its practical value if the runtime layout prevented useful Dart symbols from appearing in the stack.
+The Dart AOT issue discussed in the <VPIcon icon="fa-brands fa-dart-lang"/>`webcrypto.dart` case study is a good example. Native tooling could observe the bad execution, but the report lost much of its practical value if the runtime layout prevented useful Dart symbols from appearing in the stack.
 
 A sanitizer report is only as useful as your ability to connect it back to the code that produced it. Preserving symbolization belongs in the build and release setup, not in a developer's bag of local debugging tricks.
 
@@ -1652,7 +1672,7 @@ CI needs a clear policy for which findings are trusted, which are still being in
 
 Ownership is a recurring theme in this handbook because native boundaries make lifetime assumptions especially easy to lose. Borrowing, retaining, transferring, and releasing aren't bookkeeping details. They determine who may still touch a resource and who must eventually destroy it. Finalizers, cleanup scopes, custom allocators, and FFI wrappers add more places where two parts of the program can end up with different answers.
 
-The `webcrypto.dart` case study shows the same problem from the tooling side. The sanitizer path the project wanted was blocked upstream, so the work proceeded with a memory-checking path the existing build system could support. The native-lifetime workload still became testable, the higher-confidence findings could still be enforced, and the missing sanitizer support stayed visible instead of being treated as solved.
+The <VPIcon icon="fa-brands fa-dart-lang"/>`webcrypto.dart` case study shows the same problem from the tooling side. The sanitizer path the project wanted was blocked upstream, so the work proceeded with a memory-checking path the existing build system could support. The native-lifetime workload still became testable, the higher-confidence findings could still be enforced, and the missing sanitizer support stayed visible instead of being treated as solved.
 
 The details there are specific to Dart, BoringSSL, build hooks, and Valgrind. The situation is not. MSan loses authority when initialization crosses code it can't instrument. TSan becomes harder to interpret when synchronization happens inside an opaque dependency. ASan can't enforce logical object boundaries that a custom allocator never exposes.
 
@@ -1670,44 +1690,244 @@ The useful question after that run is what the lane still couldn't see.
 
 ::: info References and Further Reading
 
-### Sanitizer Documentation and Design
+**Sanitizer Documentation and Design**
 
-- [Clang AddressSanitizer documentation](https://clang.llvm.org/docs/AddressSanitizer.html)
-- [Clang LeakSanitizer documentation](https://clang.llvm.org/docs/LeakSanitizer.html)
-- [Clang MemorySanitizer documentation](https://clang.llvm.org/docs/MemorySanitizer.html)
-- [Clang ThreadSanitizer documentation](https://clang.llvm.org/docs/ThreadSanitizer.html)
-- [Google Sanitizers: AddressSanitizer algorithm (<VPIcon icon="iconfont icon-github"/>`google/sanitizers`)](https://github.com/google/sanitizers/wiki/AddressSanitizerAlgorithm)
-- [Google Sanitizers: LeakSanitizer (<VPIcon icon="iconfont icon-github"/>`google/sanitizers`)](https://github.com/google/sanitizers/wiki/AddressSanitizerLeakSanitizer)
-- [Google Sanitizers: ThreadSanitizer C++ manual (<VPIcon icon="iconfont icon-github"/>`google/sanitizers`)](https://github.com/google/sanitizers/wiki/ThreadSanitizerCppManual)
-- [AddressSanitizer: A Fast Address Sanity Checker](https://usenix.org/conference/atc12/technical-sessions/presentation/serebryany)
-- [MemorySanitizer: fast detector of uninitialized memory use in C++](https://research.google/pubs/memorysanitizer-fast-detector-of-uninitialized-memory-use-in-c/)
-- [Valgrind Memcheck manual](https://valgrind.org/docs/manual/mc-manual.html)
+```component VPCard
+{
+  "title": "AddressSanitizer — Clang 24.0.0git documentation",
+  "desc": "AddressSanitizer is a fast memory error detector. It consists of a compiler instrumentation module and a run-time library. The tool can detect the following types of bugs ...",
+  "link": "https://clang.llvm.org/docs/AddressSanitizer.html",
+  "logo": "https://clang.llvm.org/favicon.ico",
+  "background": "rgba(220,60,1,0.2)"
+}
+```
 
-### Fuzzing and Continuous Testing
+```component VPCard
+{
+  "title": "LeakSanitizer — Clang 24.0.0git documentation",
+  "desc": "LeakSanitizer is a run-time memory leak detector. It can be combined with AddressSanitizer to get both memory error and leak detection, or used in a stand-alone mode. LSan adds almost no performance overhead until the very end of the process, at which point there is an extra leak detection phase.",
+  "link": "https://clang.llvm.org/docs/LeakSanitizer.html",
+  "logo": "https://clang.llvm.org/favicon.ico",
+  "background": "rgba(220,60,1,0.2)"
+}
+```
 
-- [LLVM libFuzzer documentation](https://llvm.org/docs/LibFuzzer.html)
-- [OSS-Fuzz documentation](https://google.github.io/oss-fuzz/)
-- [OSS-Fuzz ideal integration guidance](https://google.github.io/oss-fuzz/advanced-topics/ideal-integration/)
-- [OSS-Fuzz reproducing guide](https://google.github.io/oss-fuzz/advanced-topics/reproducing/)
+```component VPCard
+{
+  "title": "MemorySanitizer — Clang 24.0.0git documentation",
+  "desc": "MemorySanitizer is a detector of uninitialized memory use. It consists of a compiler instrumentation module and a run-time library. Typical slowdown introduced by MemorySanitizer is 3x. Here is a not comprehensive of list cases when MemorySanitizer will report an error ...",
+  "link": "https://clang.llvm.org/docs/MemorySanitizer.html",
+  "logo": "https://clang.llvm.org/favicon.ico",
+  "background": "rgba(220,60,1,0.2)"
+}
+```
 
-### Ownership, FFI, and the Anchor Case Study
+```component VPCard
+{
+  "title": "ThreadSanitizer — Clang 24.0.0git documentation",
+  "desc": "ThreadSanitizer is a tool that detects data races. It consists of a compiler instrumentation module and a run-time library. Typical slowdown introduced by ThreadSanitizer is about 5x-15x. Typical memory overhead introduced by ThreadSanitizer is about 5x-10x.",
+  "link": "https://clang.llvm.org/docs/ThreadSanitizer.html",
+  "logo": "",
+  "background": "rgba(undefined,0.2)"
+}
+```
 
-- [BoringSSL API conventions (<VPIcon icon="iconfont icon-github"/>`google/boringssl`)](https://github.com/google/boringssl/blob/master/API-CONVENTIONS.md)
-- [BoringSSL `EVP_PKEY` declarations and ownership APIs (<VPIcon icon="iconfont icon-github"/>`google/boringssl`)](https://github.com/google/boringssl/blob/master/include/openssl/evp.h)
-- [`google/webcrypto.dart` repository (<VPIcon icon="iconfont icon-github"/>`google/webcrypto.dart`)](https://github.com/google/webcrypto.dart)
-- [`webcrypto.dart` issue #278 (<VPIcon icon="iconfont icon-github"/>`google/webcrypto.dart`)](https://github.com/google/webcrypto.dart/issues/278)
-- [Dart hooks documentation](https://dart.dev/tools/hooks)
-- [`dart build` documentation](https://dart.dev/tools/dart-build)
-- [`dart compile` documentation](https://dart.dev/tools/dart-compile)
-- [Dart SDK issue #63435: separate AOT runtime mode and symbolization (<VPIcon icon="iconfont icon-github"/>`dart-lang/sdk`)](https://github.com/dart-lang/sdk/issues/63435)
-- [Dart SDK issue #63489: sanitizer support with code assets (<VPIcon icon="iconfont icon-github"/>`dart-lang/sdk`)](https://github.com/dart-lang/sdk/issues/63489)
+<SiteInfo
+  name="AddressSanitizerAlgorithm - Wiki"
+  desc="AddressSanitizer, ThreadSanitizer, MemorySanitizer - google/sanitizers"
+  url="https://github.com/google/sanitizers/wiki/AddressSanitizerAlgorithm"
+  logo="https://github.githubassets.com/favicons/favicon-dark.svg"
+  preview="https://opengraph.githubassets.com/026110c45dc629330ff32259b2c370c965e6e672cbdd9d534ae73185ead058ee/google/sanitizers"/>
 
-### Public Incident References
+<SiteInfo
+  name="AddressSanitizerLeakSanitizer - Wiki"
+  desc="AddressSanitizer, ThreadSanitizer, MemorySanitizer - google/sanitizers"
+  url="https://github.com/google/sanitizers/wiki/AddressSanitizerLeakSanitizer"
+  logo="https://github.githubassets.com/favicons/favicon-dark.svg"
+  preview="https://opengraph.githubassets.com/cdb48ec5206d5951eda1371b6cdf74fd8b139d981fa2c56864ee7b533361a95e/google/sanitizers"/>
 
-- [<VPIcon icon="fa-brands fa-firefox"/>Mozilla Bug 1767590 / CVE-2022-31741: uninitialized value in S/MIME decryption](https://bugzilla.mozilla.org/show_bug.cgi?id=1767590)
-- [<VPIcon icon="fa-brands fa-firefox"/>Mozilla Bug 1688716: ThreadSanitizer report involving non-instrumented graphics code](https://bugzilla.mozilla.org/show_bug.cgi?id=1688716)
-- [<VPIcon icon="fa-brands fa-firefox"/>Mozilla Bug 1879437: LeakSanitizer report in JIT state handling](https://bugzilla.mozilla.org/show_bug.cgi?id=1879437)
-- [<VPIcon icon="fa-brands fa-firefox"/>Mozilla Bug 1895951 / CVE-2024-7528: AddressSanitizer heap-use-after-free](https://bugzilla.mozilla.org/show_bug.cgi?id=1895951)
+<SiteInfo
+  name="ThreadSanitizerCppManual - Wiki"
+  desc="AddressSanitizer, ThreadSanitizer, MemorySanitizer - google/sanitizers"
+  url="https://github.com/google/sanitizers/wiki/ThreadSanitizerCppManual"
+  logo="https://github.githubassets.com/favicons/favicon-dark.svg"
+  preview="https://opengraph.githubassets.com/cdb48ec5206d5951eda1371b6cdf74fd8b139d981fa2c56864ee7b533361a95e/google/sanitizers"/>
+
+```component VPCard
+{
+  "title": "AddressSanitizer: A Fast Address Sanity Checker | USENIX",
+  "desc": "Konstantin Serebryany, Derek Bruening, Alexander Potapenko, and Dmitriy Vyukov, Google Memory access bugs, including buffer overflows and uses of freed heap memory, remain a serious problem for programming languages like C and C++. Many memory error detectors exist, but most of them are either slow or detect a limited set of bugs, or both...",
+  "link": "https://usenix.org/conference/atc12/technical-sessions/presentation/serebryany",
+  "logo": "https://usenix.org/themes/motherboard/favicon.ico",
+  "background": "rgba(90,0,2,0.2)"
+}
+```
+
+<SiteInfo
+  name="MemorySanitizer: fast detector of uninitialized memory use in C++"
+  desc="This paper presents MemorySanitizer, a dynamic tool that detects uses of uninitialized memory in C and C++. The tool is based on compile time instrumentation and relies on bit-precise shadow memory at run-time. Shadow propagation technique is used to avoid false positive reports on copying of uninitialized memory..."
+  url="https://research.google/pubs/memorysanitizer-fast-detector-of-uninitialized-memory-use-in-c//"
+  logo="https://gstatic.com/images/branding/googleg_gradient/1x/googleg_gradient_standard_20dp.png"
+  preview="https://storage.googleapis.com/gweb-research2023-media/images/HO_previewImage1.width-800.format-jpeg.jpg"/>
+
+```component VPCard
+{
+  "title": "Valgrind",
+  "desc": "Official Home Page for valgrind, a suite of tools for debugging and profiling. Automatically detect memory management and threading bugs, and perform detailed profiling.  The current stable version is valgrind-3.27.1.",
+  "link": "https://valgrind.org/docs/manual/mc-manual.html/",
+  "logo": "https://valgrind.org/favicon.ico",
+  "background": "rgba(116,36,15,0.2)"
+}
+```
+
+**Fuzzing and Continuous Testing**
+
+```component VPCard
+{
+  "title": "libFuzzer – a library for coverage-guided fuzz testing. - LLVM",
+  "desc": "LibFuzzer is an in-process, coverage-guided, evolutionary fuzzing engine. LibFuzzer is linked with the library under test, and feeds fuzzed inputs to the library via a specific fuzzing entrypoint (aka “target function”); the fuzzer then tracks which areas of the code are reached, and generates mutations on the corpus of input data in order to maximize the code coverage. The code...",
+  "link": "https://llvm.org/docs/LibFuzzer.html/",
+  "logo": "https://llvm.org/favicon.ico",
+  "background": "rgba(0,0,0,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "OSS-Fuzz",
+  "desc": "Documentation for OSS-Fuzz",
+  "link": "https://google.github.io/oss-fuzz/",
+  "logo": "https://google.github.io/oss-fuzz/favicon.ico",
+  "background": "rgba(114,83,237,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "Ideal integration",
+  "desc": "Documentation for OSS-Fuzz",
+  "link": "https://google.github.io/oss-fuzz/advanced-topics/ideal-integration/",
+  "logo": "https://google.github.io/oss-fuzz/favicon.ico",
+  "background": "rgba(114,83,237,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "Reproducing",
+  "desc": "Documentation for OSS-Fuzz",
+  "link": "https://google.github.io/oss-fuzz/advanced-topics/reproducing//",
+  "logo": "https://google.github.io/oss-fuzz/favicon.ico",
+  "background": "rgba(114,83,237,0.2)"
+}
+```
+
+**Ownership, FFI, and the Anchor Case Study**
+
+<SiteInfo
+  name="boringssl/API-CONVENTIONS.md at main · google/boringssl"
+  desc="Mirror of BoringSSL. Contribute to google/boringssl development by creating an account on GitHub."
+  url="https://github.com/google/boringssl/blob/main/API-CONVENTIONS.md/"
+  logo="https://github.githubassets.com/favicons/favicon-dark.svg"
+  preview="https://opengraph.githubassets.com/86e5f96245ca4f3d31da885bf4b97fbf81cffdf375a20ee35388db8033e22669/google/boringssl"/>
+
+<SiteInfo
+  name="boringssl/include/openssl/evp.h at main · google/boringssl"
+  desc="Mirror of BoringSSL. Contribute to google/boringssl development by creating an account on GitHub."
+  url="https://github.com/google/boringssl/blob/main/include/openssl/evp.h/"
+  logo="https://github.githubassets.com/favicons/favicon-dark.svg"
+  preview="https://opengraph.githubassets.com/86e5f96245ca4f3d31da885bf4b97fbf81cffdf375a20ee35388db8033e22669/google/boringssl"/>
+
+<SiteInfo
+  name="google/webcrypto.dart"
+  desc="Cross-platform implementation of Web Cryptography APIs"
+  url="https://github.com/google/webcrypto.dart/"
+  logo="https://github.githubassets.com/favicons/favicon-dark.svg"
+  preview="https://opengraph.githubassets.com/06417af4999cb839b4f23368f17a98dcf463e57536c13add1b51e61862ae00e5/google/webcrypto.dart"/>
+
+<SiteInfo
+  name="FFI safety: add valgrind and memory-pressure testing · Issue #278 · google/webcrypto.dart"
+  desc="Before 1.0.0, we should add stronger memory-safety testing for the FFI/native path. The current test suite gives us good functional coverage, but native crypto code also needs protection against: l..."
+  url="https://github.com/google/webcrypto.dart/issues/278/"
+  logo="https://github.githubassets.com/favicons/favicon-dark.svg"
+  preview="https://opengraph.githubassets.com/8e8e301bb3669be67095106a36b9611611f8c8f3b3762cdbb56541b88bcd8cdd/google/webcrypto.dart/issues/278"/>
+
+<SiteInfo
+  name="Hooks"
+  desc="Run custom build scripts."
+  url="https://dart.dev/tools/hooks"
+  logo="https://dart.dev/assets/img/logo/dart-64.png"
+  preview="https://dart.dev/assets/img/logo/dart-logo-for-shares.png"/>
+
+<SiteInfo
+  name="dart build"
+  desc="Command-line tool for building Dart applications."
+  url="https://dart.dev/tools/dart-build/"
+  logo="https://dart.dev/assets/img/logo/dart-64.png"
+  preview="https://dart.dev/assets/img/logo/dart-logo-for-shares.png"/>
+
+<SiteInfo
+  name="Dart overview"
+  desc="A short introduction to Dart."
+  url="https://dart.dev/overview/"
+  logo="https://dart.dev/assets/img/logo/dart-64.png"
+  preview="https://dart.dev/assets/img/logo/dart-logo-for-shares.png"/>
+
+<SiteInfo
+  name="[dartdev] `dart build cli` support a separate aotruntime mode? · Issue #63435 · dart-lang/sdk"
+  desc="The Dart SDK, including the VM, JS and Wasm compilers, analysis, core libraries, and more. - [dartdev] `dart build cli` support a separate aotruntime mode? · Issue #63435 · dart-lang/sdk"
+  url="https://github.com/dart-lang/sdk/issues/63435/"
+  logo="https://github.githubassets.com/favicons/favicon-dark.svg"
+  preview="https://opengraph.githubassets.com/8db15beba22fc1c0035f7a89d07aa0aa5874da48a069e1fcd91ae22f54d62146/dart-lang/sdk/issues/63435"/>
+
+<SiteInfo
+  name="[hooks] Support code assets in `dart test -c cli --target-sanitizer` · Issue #63489 · dart-lang/sdk"
+  desc="The Dart SDK, including the VM, JS and Wasm compilers, analysis, core libraries, and more. - [hooks] Support code assets in `dart test -c cli --target-sanitizer` · Issue #63489 · dart-lang/sdk"
+  url="https://github.com/dart-lang/sdk/issues/63489/"
+  logo="https://github.githubassets.com/favicons/favicon-dark.svg"
+  preview="https://opengraph.githubassets.com/471fef2e8843327146a7ac56ff5c306c769a87505e07a99302582655cedee5bb/dart-lang/sdk/issues/63489"/>
+
+**Public Incident References**
+
+```component VPCard
+{
+  "title": "1767590 - (CVE-2022-31741) Uninitialized variable leads to invalid/arbitrary memory read in S/MIME decryption",
+  "desc": "RESOLVED (djackson) in NSS - Libraries. Last updated 2024-05-30.",
+  "link": "https://bugzilla.mozilla.org/show_bug.cgi?id=1767590",
+  "logo": "https://bugzilla.mozilla.org/extensions/BMO/web/images/favicon.svg",
+  "background": "rgba(26,168,245,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "1688716 - ThreadSanitizer: data race ../src/util/u_thread.h:197:4 in iris_dri.so",
+  "desc": "RESOLVED (twsmith) in Core - Graphics. Last updated 2021-09-13.",
+  "link": "https://bugzilla.mozilla.org/show_bug.cgi?id=1688716",
+  "logo": "https://bugzilla.mozilla.org/extensions/BMO/web/images/favicon.svg",
+  "background": "rgba(26,168,245,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "1879437 - LeakSanitizer: detected memory leaks [@ js::jit::JitHintsMap::addIonHint]",
+  "desc": "RESOLVED (dpalmeiro) in Core - JavaScript Engine: JIT. Last updated 2024-05-30.",
+  "link": "https://bugzilla.mozilla.org/show_bug.cgi?id=1879437/",
+  "logo": "https://bugzilla.mozilla.org/extensions/BMO/web/images/favicon.svg",
+  "background": "rgba(26,168,245,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "1895951 - (CVE-2024-7528) AddressSanitizer: heap-use-after-free [@ mozilla::Result<mozilla::Ok, nsresult> mozilla::dom::indexedDB::Key::EncodeAsString<unsigned char>] with READ of size 1",
+  "desc": "VERIFIED (jvarga) in Core - Storage: IndexedDB. Last updated 2025-03-24.",
+  "link": "https://bugzilla.mozilla.org/show_bug.cgi?id=1895951/",
+  "logo": "https://bugzilla.mozilla.org/extensions/BMO/web/images/favicon.svg",
+  "background": "rgba(26,168,245,0.2)"
+}
+```
 
 :::
 

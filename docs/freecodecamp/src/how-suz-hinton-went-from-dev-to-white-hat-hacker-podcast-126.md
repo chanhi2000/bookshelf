@@ -76,7 +76,25 @@ Or you can listen to the podcast in Apple Podcasts, Spotify, or your favorite po
 Links we talk about during our conversation:
 
 - [<VPIcon icon="fa-brands fa-free-code-camp"/>Suz's article on live coding on freeCodeCamp](https://freecodecamp.org/news/lessons-from-my-first-year-of-live-coding-on-twitch-41a32e2f41c1)
-- [<VPIcon icon="fa-brands fa-youtube"/>NoClip video game development documentaries](https://youtube.com/@NoclipDocs)
-- [The Dream Machine by M. Mitchell Waldrop. Suz says it's "Dense and long, but the best narrative about how computing came to be."](https://press.stripe.com/the-dream-machine) <!-- TODO: add VPCard -->
-- [Space Rogue: How the Hackers Known as L0pht Changed the World by Cris Thomas. "A book about the original cult of the dead cow hacking group."](https://barnesandnoble.com/w/space-rogue-cris-thomas/1142912008)
 
+<SiteInfo
+  name="/noclip"
+  desc="We make crowdfunded video game documentaries for everyone to enjoy. Our mission is to tell authentic stories about video games, the people who make them, and those who play them. Our work is funded by a community of Patrons and free of sponsored content. Subscribe to this channel to get access to our docs the moment they go live..."
+  url="https://youtube.com/@NoclipDocs"
+  logo="https://youtube.com/s/desktop/50af1447/img/favicon_144x144.png"
+  preview="https://yt3.googleusercontent.com/093arh9Jg1MqfdvcqcrDcUQm9QMdXnzWEJ-dpT_YUn5QU_8AQYbBIL37TvUHQDUaG1XErynq3w=s900-c-k-c0x00ffffff-no-rj"/>
+
+
+<SiteInfo
+  name="Stripe Press — The Dream Machine"
+  desc="A biography of J. C. R. Licklider, the psychologist and scientist who inspired the work that led to the internet, and shifted our understanding of what computers could be."
+  url="https://stripe.com/the-dream-machine"
+  logo="https://assets.stripeassets.com/fzn2n1nzq965/nu0iR4KqmkdJ52fgRts09/c3a10df318e7ffb1f516073daadea625/favicon.ico"
+  preview="https://images.stripeassets.com/fzn2n1nzq965/13zaWB3aiz08hqNr69CMW4/772586e910faef5d26d15e01edb9c010/social.png?q=80"/>
+
+<SiteInfo
+  name="Space Rogue: How the Hackers Known as L0pht Changed the World"
+  desc="Barnes & Noble’s online bookstore for books, NOOK ebooks & magazines. Shop music, movies, toys & games, too. Receive free shipping with your Barnes & Noble Membership."
+  url="https://barnesandnoble.com/w/space-rogue-cris-thomas/1142912008/"
+  logo="https://barnesandnoble.com/cdn/images/uecy4ntd/production/7c27f3d44a4bd52a5316156718ca966ddc992acf-192x192.png?w=192&auto=format&q=75"
+  preview="https://cdn.shopify.com/s/files/1/0674/5433/7265/files/9798987032411_p0.jpg?v=1765309290"/>

@@ -1,0 +1,50 @@
+---
+lang: ko-KR
+title: “Multiplexed” Fonts Have a Cool Superpower
+description: Article(s) > “Multiplexed” Fonts Have a Cool Superpower
+icon: fa-brands fa-css3-alt
+category: 
+  - CSS
+  - Article(s)
+tag: 
+  - blog
+  - master.dev
+  - css
+head:
+  - - meta:
+    - property: og:title
+      content: Article(s) > “Multiplexed” Fonts Have a Cool Superpower
+    - property: og:description
+      content: “Multiplexed” Fonts Have a Cool Superpower
+    - property: og:url
+      content: https://chanhi2000.github.io/bookshelf/blog.master.dev/multiplexed-fonts-have-a-cool-superpower.html
+prev: /programming/css/articles/README.md
+date: 2024-05-03
+isOriginal: false
+cover: https://i0.wp.com/master.dev/blog/wp-content/uploads/2024/04/tags-thumb.jpg?w=1000&ssl=1
+---
+
+# {{ $frontmatter.title }} 관련
+
+```component VPCard
+{
+  "title": "CSS > Article(s)",
+  "desc": "Article(s)",
+  "link": "/programming/css/articles/README.md",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
+  "background": "rgba(10,10,10,0.2)"
+}
+```
+
+[[toc]]
+
+---
+
+<SiteInfo
+  name="“Multiplexed” Fonts Have a Cool Superpower"
+  desc="Just to cut to the chase, the superpower is being able to adjust their weight (or at least one of their attributes, or as variable fonts call them, an “axis”) without changing the space they occupy. This means that interactive effect and animations can be done without worry for awkward reflow situations and performance problems. […]"
+  url="https://blog.master.dev/multiplexed-fonts-have-a-cool-superpower/"
+  logo="https://blog.master.dev/favicon.ico"
+  preview="https://i0.wp.com/master.dev/blog/wp-content/uploads/2024/04/tags-thumb.jpg?w=1000&ssl=1"/>
+
+<!-- TODO: 작성 -->

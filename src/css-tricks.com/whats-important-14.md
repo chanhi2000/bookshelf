@@ -76,7 +76,7 @@ Powered by [<VPIcon icon="fas fa-globe"/>PolyCSS](https://polycss.com/), Layouti
 
 ## A head-first dive into CSS Gap Decorations
 
-[<VPIcon icon="iconfont icon-css-tricks"/>Temani Afif](https://css-tricks.com/author/afiftemani/) showed us [**how to style gap decorations**](/master.dev/lets-play-with-gap-decorations.md). As you might’ve guessed, ‘gaps’ are the spaces that `gap`s take up when using flexbox, grid layout, or multi-column layout. To be honest, gap decorations have been a long time coming, but as Temani demonstrated, there’s actually a lot that we can do with them.
+[<VPIcon icon="iconfont icon-css-tricks"/>Temani Afif](https://css-tricks.com/author/afiftemani/) showed us [**how to style gap decorations**](/blog.master.dev/lets-play-with-gap-decorations.md). As you might’ve guessed, ‘gaps’ are the spaces that `gap`s take up when using flexbox, grid layout, or multi-column layout. To be honest, gap decorations have been a long time coming, but as Temani demonstrated, there’s actually a lot that we can do with them.
 
 <CodePen
   link="https://codepen.io/t_afif/pen/xbggQgj/f8fd92ac42f4d00a63df914c70439a39"

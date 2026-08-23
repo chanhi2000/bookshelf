@@ -56,7 +56,7 @@ The developer community hasn’t wasted any time kicking off 2026 with some real
 
 ## Building popover context menus with anchor positioning
 
-Chris Coyier (a familiar name, perhaps) shows us [**how to build context menus using popovers and anchor positioning**](/master.dev/popover-context-menus-with-anchor-positioning.md) over at Frontend Masters. Interest invokers, `<menu>`, discrete transitions, [**`@starting-style`**](/css-tricks.com/almanac-rules/starting-style.md)`, and fallback positions are also mentioned, so grab a pickaxe, because this one’s a bit of a goldmine.
+Chris Coyier (a familiar name, perhaps) shows us [**how to build context menus using popovers and anchor positioning**](/blog.master.dev/popover-context-menus-with-anchor-positioning.md) over at Frontend Masters. Interest invokers, `<menu>`, discrete transitions, [**`@starting-style`**](/css-tricks.com/almanac-rules/starting-style.md)`, and fallback positions are also mentioned, so grab a pickaxe, because this one’s a bit of a goldmine.
 
 Also, [**anchor positioning**](/css-tricks.com/css-anchor-positioning-guide.md) went baseline this week, so you can use it on production websites now! Do we have our CSS feature of the year already?
 
@@ -64,7 +64,7 @@ Also, [**anchor positioning**](/css-tricks.com/css-anchor-positioning-guide.md) 
 
 ## Scoping CSS with `@scope`
 
-Funnily enough, I also got the opportunity to write something for Frontend Masters, and I went with [**`@scope`**](/css-tricks.com/almanac-rules/s/scope.md). `@scope` has been my most-anticipated CSS feature for quite a while now, and Firefox shipping it in their final release of the year (making it baseline) made it *my* feature of the year, so I’m very happy to kick off 2026 with this little [**how-to on using `@scope` and scoping CSS overall**](/master.dev/how-to-scope-css-now-that-its-baseline.md).
+Funnily enough, I also got the opportunity to write something for Frontend Masters, and I went with [**`@scope`**](/css-tricks.com/almanac-rules/s/scope.md). `@scope` has been my most-anticipated CSS feature for quite a while now, and Firefox shipping it in their final release of the year (making it baseline) made it *my* feature of the year, so I’m very happy to kick off 2026 with this little [**how-to on using `@scope` and scoping CSS overall**](/blog.master.dev/how-to-scope-css-now-that-its-baseline.md).
 
 <BaselineStatus featureid="scope" />
 
@@ -120,7 +120,7 @@ As you know (hopefully?), we post [<VPIcon icon="iconfont icon-css-tricks"/>Quic
   preview="https://dbushell.com/images/articles/2026-01-09-death-to-scroll-fade.png"/>
 <!-- TODO: 태그 변경 -->
 
-- Chris Coyier quickly explained [**how `!important` works with custom properties**](/master.dev/important-and-css-custom-properties.md)
+- Chris Coyier quickly explained [**how `!important` works with custom properties**](/blog.master.dev/important-and-css-custom-properties.md)
 - [<VPIcon icon="fas fa-globe"/>ReliCSS](https://alwaystwisted.com/relicss/) shipped, which helps you to replace any CSS hacks with `@supports` and modern CSS
 - Temani Afif coded [Mario World with CSS (<VPIcon icon="fa-brands fa-bluesky"/>`css-only.dev`)](https://bsky.app/profile/css-only.dev/post/3mbgzfvaonc2w)
 

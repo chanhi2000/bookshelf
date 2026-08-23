@@ -69,7 +69,7 @@ Being a CSS/UI DevRel for Chrome, I [<VPIcon icon="fas fa-globe"/>nerd sniped](h
 - [**`overscroll-behavior: contain;` on a non-scrollable scroll container**](/bram.us/use-overscroll-behavior-contain-to-prevent-a-page-from-scrolling-while-a-dialog-is-open.md)
 - `scroll-state(scrolled: …)` scroll queries to [**create a hidey bar**](/bram.us/solved-by-css-scroll-state-queries-hide-a-header-when-scrolling-down-show-it-again-when-scrolling-up.md)
 - [<VPIcon icon="iconfont icon-w3c"/>CSS Scroll-Triggered Animations](https://drafts.csswg.org/css-animations-2/#animation-trigger-prop) *(which is admittedly a bit buggy in Chrome Canary right now)*
-- [**CSS `sibling-index()`**](/master.dev/staggered-animation-with-css-sibling-functions.md) *(would have loved to use `random()` but that’s not available in Chrome)*
+- [**CSS `sibling-index()`**](/blog.master.dev/staggered-animation-with-css-sibling-functions.md) *(would have loved to use `random()` but that’s not available in Chrome)*
 - [<VPIcon icon="fas fa-globe"/>CSS Scroll-Driven Animations](https://scroll-driven-animations.style/)
 
 ::: note

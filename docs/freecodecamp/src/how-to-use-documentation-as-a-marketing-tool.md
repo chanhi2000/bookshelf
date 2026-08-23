@@ -207,7 +207,7 @@ These metrics help demonstrate documentation's business impact and justify inves
 
 ::: note
 
-If you're curious about examples of docs that embody these strategies, then you might want to check out [<VPIcon icon="iconfont twilio"/>Twilio](https://twilio.com/docs), [<VPIcon icon="fas fa-globe"/>Stripe](https://docs.stripe.com/), or, as mentioned earlier, the [<VPIcon icon="fas fa-globe"/>Splunk](https://docs.splunk.com/Documentation) docs.
+If you're curious about examples of docs that embody these strategies, then you might want to check out [<VPIcon icon="iconfont twilio"/>Twilio](https://twilio.com/docs), [<VPIcon icon="fa-brands fa-stripe"/>Stripe](https://docs.stripe.com/), or, as mentioned earlier, the [<VPIcon icon="fas fa-globe"/>Splunk](https://docs.splunk.com/Documentation) docs.
 
 :::
 

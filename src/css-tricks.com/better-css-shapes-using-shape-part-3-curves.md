@@ -454,7 +454,7 @@ This said, most of the shapes I code are available within [<VPIcon icon="fas fa-
 
 ::: info
 
-If you want a good follow-up to this article, [**I wrote an article for Frontend Masters**](/master.dev/creating-blob-shapes-using-clip-path-shape.md) where you can create blob shapes using the `curve` command.
+If you want a good follow-up to this article, [**I wrote an article for Frontend Masters**](/blog.master.dev/creating-blob-shapes-using-clip-path-shape.md) where you can create blob shapes using the `curve` command.
 
 :::
 

@@ -1,0 +1,1 @@
+https://bram.us/2026/08/18/the-case-for-tri-state-dark-mode-toggles

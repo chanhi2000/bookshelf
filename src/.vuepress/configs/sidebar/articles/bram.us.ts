@@ -149,8 +149,11 @@ const Y2017: SidebarYeargroupTemplate = {
     "introducing-user-agent-variables-rendering-sites-fullscreen-in-safari-on-iphone-x", // 2017-09-15
     "masonry-layout-with-css-grid-and-grid-auto-flow-dense", // 2017-08-15
     "using-intersection-observers", // 2017-08-14
+    "vertical-marginspaddings-and-flexbox-a-quirky-combination", // 2017-07-30
     "css-variables-and-reduced-motion", // 2017-07-24
     "theming-with-css-custom-properties-css-variables", // 2017-07-23
+    "aspect-ratios-in-css-are-a-hack", // 2017-06-16
+    "why-you-should-be-excited-about-native-css-variables", // 2017-02-04
     "conditions-for-css-calculations", // 2017-01-17
     "resilient-web-design", // 2017-01-03
   ]
@@ -197,6 +200,7 @@ const Y2013: SidebarYeargroupTemplate = {
     "css-scroll-snap-points", // 2013-12-09
     "ghost-in-the-shadow-dom", // 2013-06-09
     "shadow-dom-introduction", // 2013-03-23
+    "css3-marquee", // 2013-02-13
   ]
 }
 
@@ -284,6 +288,7 @@ export const template: SidebarInfoTemplate = {
       // END: 2010css
       // END: 2011css
       // END: 2012css
+      "css3-marquee", // 2013-02-13
       "css-scroll-snap-points", // 2013-12-09
       // END: 2013css
       "css-nth-letter", // 2014-04-13
@@ -298,8 +303,11 @@ export const template: SidebarInfoTemplate = {
       // END: 2016css
       "resilient-web-design", // 2017-01-03
       "conditions-for-css-calculations", // 2017-01-17
+      "why-you-should-be-excited-about-native-css-variables", // 2017-02-04
+      "aspect-ratios-in-css-are-a-hack", // 2017-06-16
       "theming-with-css-custom-properties-css-variables", // 2017-07-23
       "css-variables-and-reduced-motion", // 2017-07-24
+      "vertical-marginspaddings-and-flexbox-a-quirky-combination", // 2017-07-30
       "masonry-layout-with-css-grid-and-grid-auto-flow-dense", // 2017-08-15
       "introducing-user-agent-variables-rendering-sites-fullscreen-in-safari-on-iphone-x", // 2017-09-15
       "badass", // 2017-10-16

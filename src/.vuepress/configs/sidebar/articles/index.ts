@@ -5,7 +5,7 @@ import { template as TEMPLATE_DONNYWALS } from './donnywals.com';
 import { template as TEMPLATE_DOUGGREGOR } from './douggregor.net';
 import { template as TEMPLATE_D2 } from './d2.naver.com';
 import { template as TEMPLATE_FREECODECAMP } from './freecodecamp.org';
-import { template as TEMPLATE_FRONTENDMASTER } from './master.dev';
+import { template as TEMPLATE_FRONTENDMASTER } from './blog.master.dev';
 import { template as TEMPLATE_CSS_TRICKS } from './css-tricks.com';
 import { template as TEMPLATE_SMASHINGMAGAZINE } from './smashingmagazine.com';
 import { template as TEMPLATE_ODD_BIRD } from './oddbird.net';

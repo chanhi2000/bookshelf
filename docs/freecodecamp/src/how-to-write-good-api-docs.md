@@ -134,7 +134,7 @@ Here are some examples of API documentation to give you a better idea of what’
 
 ### Stripe API Docs
 
-This is an example of a Web/HTTP API. Stripe is a payment processing tool, and the [<VPIcon icon="fas fa-globe"/>Stripe API documentation](https://docs.stripe.com/api) provides a clean, interactive, and developer-friendly guide on how to make use of the API for payment integrations.
+This is an example of a Web/HTTP API. Stripe is a payment processing tool, and the [<VPIcon icon="fa-brands fa-stripe"/>Stripe API documentation](https://docs.stripe.com/api) provides a clean, interactive, and developer-friendly guide on how to make use of the API for payment integrations.
 
 ![Stripe API documentation Image](https://cdn.hashnode.com/res/hashnode/image/upload/v1745908370335/eb50afc2-30b8-41ba-8c53-fd47b0f643a4.png)
 

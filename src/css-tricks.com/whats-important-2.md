@@ -56,7 +56,7 @@ cover: https://i0.wp.com/css-tricks.com/wp-content/uploads/2025/12/wi-2.png
 
 ## Conditional view transitions
 
-[<VPIcon icon="iconfont icon-css-tricks"/>Chris Coyier](https://css-tricks.com/author/chriscoyier/) showed us [**how to trigger different view transitions based on the URL**](/master.dev/different-page-transitions-for-different-circumstances.md) (or any conditional JavaScript logic, really). However, Bramus mentioned in the comments that [**navigation matching is coming to CSS**](/master.dev/different-page-transitions-for-different-circumstances.md), so we might not need to rely on JavaScript for that part for very long. I’m keeping my fingers crossed for 2026!
+[<VPIcon icon="iconfont icon-css-tricks"/>Chris Coyier](https://css-tricks.com/author/chriscoyier/) showed us [**how to trigger different view transitions based on the URL**](/blog.master.dev/different-page-transitions-for-different-circumstances.md) (or any conditional JavaScript logic, really). However, Bramus mentioned in the comments that [**navigation matching is coming to CSS**](/blog.master.dev/different-page-transitions-for-different-circumstances.md), so we might not need to rely on JavaScript for that part for very long. I’m keeping my fingers crossed for 2026!
 
 ---
 

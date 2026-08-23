@@ -2079,7 +2079,7 @@ After deploying, update your GitHub OAuth app's callback URL:
 
 Create a webhook endpoint in the Stripe dashboard:
 
-1. Go to [<VPIcon icon="fas fa-globe"/>Stripe Dashboard > Developers > Webhooks](https://dashboard.stripe.com/webhooks)
+1. Go to [<VPIcon icon="fa-brands fa-stripe"/>Stripe Dashboard > Developers > Webhooks](https://dashboard.stripe.com/webhooks)
 2. Click "Add endpoint"
 3. Set the URL to `https://your-app.vercel.app/api/payments/webhook`
 4. Select the events you want to receive (`charge.refunded`, `checkout.session.expired`, and so on)

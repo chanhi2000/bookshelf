@@ -15,6 +15,7 @@ const Y2026: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2026
+    "your-aspnetcore-endpoints-dont-have-a-timeout", // 2026-08-29
     "how-to-design-the-right-sql-index", // 2026-08-22
     "how-do-you-build-a-social-media-feed-system-design", // 2026-08-15
     "persisting-a-rich-domain-model-with-ef-core", // 2026-08-08

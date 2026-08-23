@@ -73,7 +73,7 @@ If you’re curious as to [**how `::highlight()` works alongside other highlight
 
 ## How images can overflow themselves
 
-[<VPIcon icon="iconfont icon-css-tricks"/>Temani Afif](https://css-tricks.com/author/afiftemani/) explained [**how images can sort of overflow themselves**](/master.dev/something-nobody-told-you-about-the-image-element-it-can-overflow.md), because the `<img>` element is like a container that the ‘replaced content’ (the image resource) can overflow.
+[<VPIcon icon="iconfont icon-css-tricks"/>Temani Afif](https://css-tricks.com/author/afiftemani/) explained [**how images can sort of overflow themselves**](/blog.master.dev/something-nobody-told-you-about-the-image-element-it-can-overflow.md), because the `<img>` element is like a container that the ‘replaced content’ (the image resource) can overflow.
 
 I suppose that explains why [**we can swap the `src` using CSS**](/css-tricks.com/whats-important-10.md#replacing-img-srcs-using-content), like this:
 

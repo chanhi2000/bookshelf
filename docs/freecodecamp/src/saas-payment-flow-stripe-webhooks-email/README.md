@@ -145,10 +145,10 @@ bun add stripe drizzle-orm @neondatabase/serverless inngest resend @react-email/
 
 You'll also need:
 
-- A [<VPIcon icon="iconfont icon-stripe"/>Stripe account](https://dashboard.stripe.com/register) (test mode is fine)
+- A [<VPIcon icon="fa-brands fa-stripe"/>Stripe account](https://dashboard.stripe.com/register) (test mode is fine)
 - A [<VPIcon icon="iconfont icon-neon"/>Neon](https://neon.tech) PostgreSQL database (or any PostgreSQL instance)
 - A [<VPIcon icon="fas fa-globe"/>Resend](https://resend.com) account for sending emails
-- The [<VPIcon icon="iconfont icon-stripe"/>Stripe CLI](https://stripe.com/docs/stripe-cli) for local webhook testing
+- The [<VPIcon icon="fa-brands fa-stripe"/>Stripe CLI](https://stripe.com/docs/stripe-cli) for local webhook testing
 
 **Environment Variables**
 

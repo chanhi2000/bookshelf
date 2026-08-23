@@ -234,7 +234,7 @@ install: $(PROGRAM)
 
 ### 변수 정의
 
-`Makefile` 내에서 변수를 정의하는 방법에는 두 가지가 있다.
+.<VPIcon icon="iconfont icon-gnu"/>`Makefile` 내에서 변수를 정의하는 방법에는 두 가지가 있다.
 
 | 기호 | 상세 |
 | :---: | :--- |
@@ -363,9 +363,9 @@ output/foo: input/baz input/baz input/baz
 
 ---
 
-## `Makefile`의 함수
+## <VPIcon icon="iconfont icon-gnu"/>`Makefile`의 함수
 
-Make에는 `Makefile` 내에서 문자열 처리와 조건부 분기를 위한 함수가 있다. 주요 함수는 다음과 같다.
+Make에는 <VPIcon icon="iconfont icon-gnu"/>`Makefile` 내에서 문자열 처리와 조건부 분기를 위한 함수가 있다. 주요 함수는 다음과 같다.
 
 ```component VPCard
 {
@@ -654,4 +654,4 @@ sudo apt install make
 
 ## 정리
 
-`Makefile` 작성 방법에 대해 정리해 보았다. 비망록으로 업데이트해 나갈 것이다.
+.<VPIcon icon="iconfont icon-gnu"/>`Makefile` 작성 방법에 대해 정리해 보았다. 비망록으로 업데이트해 나갈 것이다.

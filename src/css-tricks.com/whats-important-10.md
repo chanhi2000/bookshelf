@@ -56,7 +56,7 @@ Developers have been experimenting with HTML-in-Canvas, a hexagonal world map-an
 
 ## HTML-in-Canvas experiments
 
-HTML-in-Canvas, a new API that enables us to render real semantic HTML in a `<canvas>` with visual effects, is the talk of the town right now, so let’s lead with that. [<VPIcon icon="iconfont icon-css-tricks"/>Amit Sheen](https://css-tricks.com/author/amitsheen/) showed us [**how the HTML-in-Canvas API works**](/master.dev/the-web-is-fun-again-first-experiments-with-html-in-canvas.md), and also created some [<VPIcon icon="fas fa-globe"/>demos over at the HiC Showroom](https://hicshowroom.com/), like this one (requires Chrome 146 with the `chrome://flags/#canvas-draw-element` flag enabled):
+HTML-in-Canvas, a new API that enables us to render real semantic HTML in a `<canvas>` with visual effects, is the talk of the town right now, so let’s lead with that. [<VPIcon icon="iconfont icon-css-tricks"/>Amit Sheen](https://css-tricks.com/author/amitsheen/) showed us [**how the HTML-in-Canvas API works**](/blog.master.dev/the-web-is-fun-again-first-experiments-with-html-in-canvas.md), and also created some [<VPIcon icon="fas fa-globe"/>demos over at the HiC Showroom](https://hicshowroom.com/), like this one (requires Chrome 146 with the `chrome://flags/#canvas-draw-element` flag enabled):
 
 <CodePen
   link="https://codepen.io/amit_sheen/pen/dPpQmGv/42adf6e00961d1c6e5b890a30ef6e5ae"
@@ -149,7 +149,7 @@ So if you’re working on a website with non-responsive `<img>`s and no way to c
 
 Having said that, if you *do* have access to the HTML, you’ll want to serve responsive images using the `srcset` and `sizes` HTML attributes. [<VPIcon icon="iconfont icon-css-tricks"/>Mat Marquis](https://css-tricks.com/author/wilto/) demonstrated [**how the new `sizes=auto` attribute-value combination replaces responsive breakpoints for images that are loaded lazily**](/piccalil.li/the-end-of-responsive-images/).
 
-If you’re interested, Amit Sheen also talked about [**building layouts (not necessarily images) without breakpoints**](/master.dev/building-a-ui-without-breakpoints.md).
+If you’re interested, Amit Sheen also talked about [**building layouts (not necessarily images) without breakpoints**](/blog.master.dev/building-a-ui-without-breakpoints.md).
 
 ---
 

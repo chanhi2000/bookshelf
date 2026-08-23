@@ -56,7 +56,7 @@ CSS functions, the `alpha()` function, Grid Lanes, some things about `<dialog>` 
 
 ## CSS functions, expertly explained
 
-Jane Ori expertly explained [**how CSS functions work**](/master.dev/the-fundamentals-and-dev-experience-of-css-function.md). `@function` will *probably* be the biggest CSS feature to *probably* become Baseline this year, so I definitely found it a bit intimidating at first. That is, until I read Jane’s baby-step-by-baby-step walkthrough, which eases you into it really well.
+Jane Ori expertly explained [**how CSS functions work**](/blog.master.dev/the-fundamentals-and-dev-experience-of-css-function.md). `@function` will *probably* be the biggest CSS feature to *probably* become Baseline this year, so I definitely found it a bit intimidating at first. That is, until I read Jane’s baby-step-by-baby-step walkthrough, which eases you into it really well.
 
 In addition, [<VPIcon icon="iconfont icon-css-tricks"/>Declan Chidlow](https://css-tricks.com/author/declanchidlow/) wrote our [**`@function` documentation**](/css-tricks.com/almanac-rules/function.md), which you might want to bookmark for quick reference in the future.
 
@@ -123,7 +123,7 @@ WebKit launched the [<VPIcon icon="fas fa-globe"/>Field Guide to Grid Lanes](htt
 
 Una Kravets talked about two [quality-of-life upgrades for `<dialog>` (<VPIcon icon="fa-brands fa-bluesky"/>`una.im`)](https://bsky.app/profile/una.im/post/3mnf4c2gb5s2m) — the new `closedby` attribute, which isn’t supported by Safari yet, and `overscroll-behavior: contain`. There are some nuggets in the comments too, including a tip about `scrollbar-gutter: stable`.
 
-Also, Chris Coyier showed us [**how to animate `<dialog>`s**](/master.dev/in-n-out-animations-dialogs-part-1-3.md), which I think many of us know how to do already, but it’s so easy to mess up. I have to Google it every time (it’s those bleeping `@starting-style`s).
+Also, Chris Coyier showed us [**how to animate `<dialog>`s**](/blog.master.dev/in-n-out-animations-dialogs-part-1-3.md), which I think many of us know how to do already, but it’s so easy to mess up. I have to Google it every time (it’s those bleeping `@starting-style`s).
 
 ---
 

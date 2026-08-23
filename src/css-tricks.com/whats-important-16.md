@@ -56,7 +56,7 @@ In **What’s !important #16**, see how the soon-Baseline `sibling-index()` func
 
 ## Using `sibling-index()` for animations
 
-Following on from Chris Coyier’s [**In-N-Out Animations series**](/master.dev/in-n-out-animations-dialogs-part-1-3.md), [<VPIcon icon="iconfont icon-css-tricks"/>Temani Afif](https://css-tricks.com/author/afiftemani/) showed us [**how to use `sibling-index()` for animations**](/master.dev/in-n-out-animation-using-sibling-index.md), which Firefox 154 will ship on the 18th of August, 2026, making it Baseline: Newly Available. The demos are exceptionally cool, so I’ll share a couple of them below:
+Following on from Chris Coyier’s [**In-N-Out Animations series**](/blog.master.dev/in-n-out-animations-dialogs-part-1-3.md), [<VPIcon icon="iconfont icon-css-tricks"/>Temani Afif](https://css-tricks.com/author/afiftemani/) showed us [**how to use `sibling-index()` for animations**](/blog.master.dev/in-n-out-animation-using-sibling-index.md), which Firefox 154 will ship on the 18th of August, 2026, making it Baseline: Newly Available. The demos are exceptionally cool, so I’ll share a couple of them below:
 
 <CodePen
   user="anon"
@@ -145,7 +145,7 @@ Johannes Bechberger showcased [<VPIcon icon="fas fa-globe"/>three ways to animat
 
 ## An introduction to container ‘stuck’ queries
 
-Chris Coyier demonstrated [**how to query whether an element is stuck using container scroll state queries**](/master.dev/lessons-learned-rewriting-a-sticky-detector.md) (more specifically, using `@container scroll-state(stuck: <keyword>)`). This is one of those new container queries; although, neither Safari nor Firefox supports it yet.
+Chris Coyier demonstrated [**how to query whether an element is stuck using container scroll state queries**](/blog.master.dev/lessons-learned-rewriting-a-sticky-detector.md) (more specifically, using `@container scroll-state(stuck: <keyword>)`). This is one of those new container queries; although, neither Safari nor Firefox supports it yet.
 
 <CodePen
   link="https://codepen.io/editor/chriscoyier/pen/019f5d94-74b8-7052-9db1-f653635a7ceb/fabdf8101cbd5f7684ecb22c3856396b"

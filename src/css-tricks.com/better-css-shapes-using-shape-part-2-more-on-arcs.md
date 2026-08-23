@@ -402,7 +402,7 @@ We are done — enough about the `arc` command! I had to write two articles that
 
 By the way, I have only studied the case of circular arcs because, in reality, we can specify two radii and draw elliptical ones, which is even more complex. Unless you want to become a `shape()` master, you will rarely need elliptical arcs, so don’t bother yourself with them.
 
-Until the next article, [**I wrote an article for Frontend Masters**](/master.dev/creating-flower-shapes-using-clip-path-shape.md) where you can create more fancy shapes using the `arc` command that is a good follow-up to this one.
+Until the next article, [**I wrote an article for Frontend Masters**](/blog.master.dev/creating-flower-shapes-using-clip-path-shape.md) where you can create more fancy shapes using the `arc` command that is a good follow-up to this one.
 
 ![Three shapes. The first looks like a flower. The second looks like a sun. The third looks like a blob.](https://i0.wp.com/css-tricks.com/wp-content/uploads/2025/05/8hogoSIf.webp?resize=883%2C354&ssl=1)
 

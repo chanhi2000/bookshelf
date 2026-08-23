@@ -120,7 +120,7 @@ Godstime Aburu does [**a deep dive on the Popover API**](/smashingmagazine.com/g
 
 ## Unraveling yet another anchor positioning quirk
 
-Just [**another anchor positioning quirk**](/master.dev/the-big-gotcha-of-anchor-positioning.md), this time from Chris Coyier. These quirks have been piling up for a while now. *We’ve* talked about them [**time**](/css-tricks.com/anchor-positioning-quirks.md) and [**time again**](/css-tricks.com/yet-another-anchor-positioning-quirk.md), but the thing is, they’re *not* bugs. Anchor positioning works in a way that isn’t commonly understood, so Chris’ article is definitely worth a read, as are the articles that he references.
+Just [**another anchor positioning quirk**](/blog.master.dev/the-big-gotcha-of-anchor-positioning.md), this time from Chris Coyier. These quirks have been piling up for a while now. *We’ve* talked about them [**time**](/css-tricks.com/anchor-positioning-quirks.md) and [**time again**](/css-tricks.com/yet-another-anchor-positioning-quirk.md), but the thing is, they’re *not* bugs. Anchor positioning works in a way that isn’t commonly understood, so Chris’ article is definitely worth a read, as are the articles that he references.
 
 ---
 

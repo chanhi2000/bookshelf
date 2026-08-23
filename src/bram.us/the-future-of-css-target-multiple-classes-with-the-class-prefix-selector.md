@@ -1,0 +1,1 @@
+https://bram.us/2026/08/20/the-future-of-css-target-multiple-classes-with-the-class-prefix-selector

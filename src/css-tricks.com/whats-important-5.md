@@ -74,7 +74,7 @@ Ahmad Shadeed explains [why you shouldn’t switch to smaller responsive breakpo
 
 ## How to lazy-load above-the-fold iframes
 
-`loading=lazy` only works for off-screen elements, so Stefan Bauer demonstrates a neat trick for [**lazy-loading above-the-fold `<iframe>`s using `<details>`**](/master.dev/performance-optimized-video-embeds-with-zero-javascript.md).
+`loading=lazy` only works for off-screen elements, so Stefan Bauer demonstrates a neat trick for [**lazy-loading above-the-fold `<iframe>`s using `<details>`**](/blog.master.dev/performance-optimized-video-embeds-with-zero-javascript.md).
 
 <CodePen
   link="https://codepen.io/StfBauer/pen/RNbKYXe/a831adc966239412c0eded6aabd6b39b"
@@ -86,7 +86,7 @@ Ahmad Shadeed explains [why you shouldn’t switch to smaller responsive breakpo
 
 ## How to create repeating `corner-shape` backgrounds
 
-Preethi Sam shows us [**how to use `corner-shape` in `<svg>`s, which are then used as repeating `background`s**](/master.dev/background-patterns-with-css-corner-radius/). I’ve done [**my own experiments with `corner-shape`**](/css-tricks.com/what-can-we-actually-do-with-corner-shape.md), but this is wonderful and certainly something that I hadn’t considered.
+Preethi Sam shows us [**how to use `corner-shape` in `<svg>`s, which are then used as repeating `background`s**](/blog.master.dev/background-patterns-with-css-corner-radius/). I’ve done [**my own experiments with `corner-shape`**](/css-tricks.com/what-can-we-actually-do-with-corner-shape.md), but this is wonderful and certainly something that I hadn’t considered.
 
 <CodePen
   user="anon"

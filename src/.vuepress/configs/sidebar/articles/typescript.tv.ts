@@ -15,6 +15,7 @@ const Y2026: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2026
+    "are-you-linting-your-github-actions", // 2026-07-27
     "serious-about-ai-in-typescript-start-with-prompting-techniques", // 2026-06-19
     "ai-agents-need-these-typescript-test-patterns", // 2026-04-27
     "upgrading-to-typescript-6-a-real-world-migration", // 2026-04-21
@@ -367,6 +368,7 @@ export const template: SidebarInfoTemplate = {
       "upgrading-to-typescript-6-a-real-world-migration", // 2026-04-21
       "ai-agents-need-these-typescript-test-patterns", // 2026-04-27
       "serious-about-ai-in-typescript-start-with-prompting-techniques", // 2026-06-19
+      "are-you-linting-your-github-actions", // 2026-07-27
       // END: 2026ts
       // END: ts
     ]],[
@@ -457,6 +459,7 @@ export const template: SidebarInfoTemplate = {
       "never-review-a-dependency-update-again", // 2026-01-10
       "how-i-save-money-using-claude-code-as-my-server-admin", // 2026-04-07
       "ai-agents-need-these-typescript-test-patterns", // 2026-04-27
+      "are-you-linting-your-github-actions", // 2026-07-27
       // END: 2026github
       // END: github
     ]],[

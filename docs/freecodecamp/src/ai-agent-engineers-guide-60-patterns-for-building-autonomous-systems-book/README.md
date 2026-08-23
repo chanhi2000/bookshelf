@@ -2,15 +2,18 @@
 lang: en-US
 title: "The AI Agent Engineer's Guide: 60 Patterns for Building Autonomous Systems [Full Book]"
 description: "Article(s) > The AI Agent Engineer's Guide: 60 Patterns for Building Autonomous Systems [Full Book]"
-icon: iconfont icon-typescript
+icon: iconfont icon-fastapi
 category:
-  - TypeScript
+  - Python
+  - FastAPI
   - Article(s)
 tag:
   - blog
   - freecodecamp.org
-  - ts
-  - typescript
+  - py
+  - python
+  - fastapi
+  - py-fastapi
 head:
   - - meta:
     - property: og:title
@@ -19,7 +22,7 @@ head:
       content: "The AI Agent Engineer's Guide: 60 Patterns for Building Autonomous Systems [Full Book]"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/ai-agent-engineers-guide-60-patterns-for-building-autonomous-systems-book/
-prev: /programming/ts/articles/README.md
+prev: /programming/py-fastapi/articles/README.md
 date: 2026-08-21
 isOriginal: false
 author:
@@ -32,9 +35,9 @@ cover: https://cdn.hashnode.com/uploads/covers/5e1e335a7a1d3fcc59028c64/732208be
 
 ```component VPCard
 {
-  "title": "TypeScript > Article(s)",
+  "title": "FastAPI > Article(s)",
   "desc": "Article(s)",
-  "link": "/programming/ts/articles/README.md",
+  "link": "/programming/py-fastapi/articles/README.md",
   "logo": "/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
@@ -211,29 +214,13 @@ They aren't redundant. Patterns that look interchangeable in prose often have ve
 **Part II — The Eight Capabilities (60 patterns)**
 
 - [Chapter 5 — Perception: Turning Signals into Percepts](#heading-chapter-5-perception-turning-signals-into-percepts) (7 patterns)
-    
-    - Agents 1–7
 - [Chapter 6 — Reasoning: Inferring Beyond the Given](#heading-chapter-6-reasoning-inferring-beyond-the-given) (8 patterns)
-    
-    - Agents 8–15
 - [Chapter 7 — Planning: From Goal to Sequenced Action](#heading-chapter-7-planning-from-goal-to-sequenced-action) (7 patterns)
-    
-    - Agents 16–22
 - [Chapter 8 — Memory: Persistence Across Time](#heading-chapter-8-memory-persistence-across-time) (7 patterns)
-    
-    - Agents 23–29
 - [Chapter 9 — Tool Use: Reaching Outside the Model](#heading-chapter-9-tool-use-reaching-outside-the-model) (8 patterns)
-    
-    - Agents 30–37
 - [Chapter 10 — Coordination: Many Minds, One Outcome](#heading-chapter-10-coordination-many-minds-one-outcome) (8 patterns)
-    
-    - Agents 38–45
 - [Chapter 11 — Learning: Becoming Better at What It Does](#heading-chapter-11-learning-becoming-better-at-what-it-does) (7 patterns)
-    
-    - Agents 46–52
 - [Chapter 12 — Alignment: Behaving by Design, Not by Accident](#heading-chapter-12-alignment-behaving-by-design-not-by-accident) (8 patterns)
-    
-    - Agents 53–60
 
 **Part III — Composition**
 
@@ -295,7 +282,7 @@ The right level for any problem is **the lowest one that solves it**. The book's
 
 ### 0.2 Heuristics for Picking the Right Level
 
-#### Pick level 1 (static prompt) when:
+#### Pick level 1 (static prompt) when
 
 - The input fits comfortably in one model call.
 - The output structure is fully specified by the prompt.
@@ -304,7 +291,7 @@ The right level for any problem is **the lowest one that solves it**. The book's
 
 Examples that should be level 1: most summarization, most translation, most format conversion, most "write me a draft of X," most classification, most extraction-from-known-shape, most rewording.
 
-#### Pick level 2 (deterministic workflow) when:
+#### Pick level 2 (deterministic workflow) when
 
 - The problem decomposes into a fixed sequence of steps.
 - Each step has a well-defined input and output.
@@ -313,7 +300,7 @@ Examples that should be level 1: most summarization, most translation, most form
 
 Examples that should be level 2: most content pipelines (research → draft → fact-check → format), most data-enrichment workflows (parse → normalize → enrich → store), most form-processing pipelines, most "extract X then look up Y then summarize."
 
-#### Pick level 3 (bounded agent) when:
+#### Pick level 3 (bounded agent) when
 
 - The right next step depends on what the previous step returned.
 - The number of distinct possible sequences is large but the toolset is small (say, under 15 tools).
@@ -322,7 +309,7 @@ Examples that should be level 2: most content pipelines (research → draft → 
 
 Examples that fit level 3: customer-support ticket triage with a defined toolset, SQL question-answering against a known schema, ticket-routing-with-disambiguation, per-document analysis with a small standard set of operations.
 
-#### Pick level 4 (full agent) when:
+#### Pick level 4 (full agent) when
 
 - The problem genuinely requires holding a goal across long horizons.
 - Multiple specialists may need to coordinate.
@@ -389,7 +376,8 @@ The interesting word in that sentence is *environment*. For the agents in this b
 
 The simplest agent is a loop:
 
-[![Pattern 001 — 1.1 The observation-action loop](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5bfd6e9a9fe71f56ee81_codex-pattern-001-1-1-the-observation-action-loop.png) (<VPIcon icon="fa-brands fa-linkedin"/>`vahe-aslanyan`)](https://linkedin.com/in/vahe-aslanyan/)
+![Pattern 001 — 1.1 The observation-action loop](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5bfd6e9a9fe71f56ee81_codex-pattern-001-1-1-the-observation-action-loop.png)
+<!-- TODO: 아래 코드와 같으면 생략 -->
 
 ```py
 def run_agent(goal: str, env: Environment, max_steps: int = 50) -> Result:
@@ -423,7 +411,8 @@ The distinction between *policy* and *tool* is the most-confused boundary in age
 
 A policy without tools is a chatbot. A tool without a policy is a function call. An agent is the combination, mediated by a loop. Every pattern in this book either modifies the policy, modifies the tool surface, or modifies the loop that combines them — never all three simultaneously, because patterns that modify all three are usually two patterns in a trench coat.
 
-[![Pattern 002 — 1.2 Policy versus tool](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5ca2cd945e9ae18d8584_codex-pattern-002-1-2-policy-versus-tool.png) (<VPIcon icon="fa-brands fa-linkedin"/>`vahe-aslanyan`)](https://linkedin.com/in/vahe-aslanyan/)
+![Pattern 002 — 1.2 Policy versus tool](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5ca2cd945e9ae18d8584_codex-pattern-002-1-2-policy-versus-tool.png)
+<!-- TODO: 아래 코드와 같으면 생략 -->
 
 ```py
 class Policy(Protocol):
@@ -446,7 +435,8 @@ The policy in a sophisticated agent is rarely a single model call. It's typicall
 
 A planner fails by being wrong about the world. It produces a plan whose steps don't connect, don't respect the constraints, or don't lead to the goal. An executor fails by mis-binding parameters, mis-handling tool errors, or failing to detect that the plan has gone off the rails. Treating these as the same component conflates the failures and makes neither addressable.
 
-[![Pattern 003 — 1.3 The role of the planner](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5ca271de2ceb65d85d33_codex-pattern-003-1-3-the-role-of-the-planner.png) (<VPIcon icon="fa-brands fa-linkedin"/>`vahe-aslanyan`)](https://linkedin.com/in/vahe-aslanyan/)
+![Pattern 003 — 1.3 The role of the planner](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5ca271de2ceb65d85d33_codex-pattern-003-1-3-the-role-of-the-planner.png)
+<!-- TODO: 아래 코드와 같으면 생략 -->
 
 ```py
 class Planner(Protocol):
@@ -483,7 +473,8 @@ The mistake to avoid is conflating them. In-context state is volatile, expensive
 
 The patterns in Chapter 8 (Episodic Buffer, Semantic Curator, Working-Memory Manager, Forgetting Policy, Memory-of-Self, Vector-Store Curator, Persistent Identity) exist to manage the boundary between these two, and they all assume the boundary is explicit.
 
-[![Pattern 004 — 1.4 In-context state versus persistent memory](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5ca2a90f3d34d7e270a5_codex-pattern-004-1-4-in-context-state-versus-persistent-memory.png) (<VPIcon icon="fa-brands fa-linkedin"/>`vahe-aslanyan`)](https://linkedin.com/in/vahe-aslanyan/)
+![Pattern 004 — 1.4 In-context state versus persistent memory](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5ca2a90f3d34d7e270a5_codex-pattern-004-1-4-in-context-state-versus-persistent-memory.png)
+<!-- TODO: 아래 코드와 같으면 생략 -->
 
 ```py
 @dataclass
@@ -507,7 +498,8 @@ A useful invariant: the harness is deterministic, the policy is stochastic. The 
 
 This separation matters for two reasons. First, it confines the non-determinism to a single point. When something goes wrong, you can rerun the harness against a recorded policy output and reproduce the failure exactly. Second, it makes the policy substitutable. You can swap a frontier model for a smaller one, a single-shot call for a self-consistency vote, an API call for a local model, or an entire model for a deterministic stub during testing — without rewriting the rest of the system.
 
-[![Pattern 005 — 1.5 Deterministic harness, stochastic policy](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5ca2a90f3d34d7e27123_codex-pattern-005-1-5-deterministic-harness-stochastic-policy.png) (<VPIcon icon="fa-brands fa-linkedin"/>`vahe-aslanyan`)](https://linkedin.com/in/vahe-aslanyan/)
+![Pattern 005 — 1.5 Deterministic harness, stochastic policy](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5ca2a90f3d34d7e27123_codex-pattern-005-1-5-deterministic-harness-stochastic-policy.png)
+<!-- TODO: 아래 코드와 같으면 생략 -->
 
 ```py
 class RecordedPolicy:
@@ -553,10 +545,11 @@ When something goes wrong in production, the first question is which of the five
 
 The chapter closes with a working reference implementation in roughly three hundred lines of Python. Every later pattern in the book is described as a modification of, or addition to, this harness.
 
-[![Pattern 006 — 1.7 A reference harness](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5ca3a90f3d34d7e27161_codex-pattern-006-1-7-a-reference-harness.png) (<VPIcon icon="fa-brands fa-linkedin"/>`vahe-aslanyan`)](https://linkedin.com/in/vahe-aslanyan/)
+![Pattern 006 — 1.7 A reference harness](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5ca3a90f3d34d7e27161_codex-pattern-006-1-7-a-reference-harness.png)
+<!-- TODO: 아래 코드와 같으면 생략 -->
 
-```py
-# agents/harness.py — the canonical reference implementation
+```py :collapsed-lines title="agents/harness.py"
+# the canonical reference implementation
 from __future__ import annotations
 from dataclasses import dataclass, field
 from typing import Protocol, Callable, Optional
@@ -690,10 +683,10 @@ If you understand these five, you can read any framework's source in an afternoo
 
 Here's what the minimal-but-real version looks like. It's roughly two hundred lines and avoids every common mistake.
 
-[![Pattern 007 — 2.2 Building the five abstractions yourself](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5ca39996a5a8f7dedd3e_codex-pattern-007-2-2-building-the-five-abstractions-yourself.png) (<VPIcon icon="fa-brands fa-linkedin"/>`vahe-aslanyan`)](https://linkedin.com/in/vahe-aslanyan/)
+![Pattern 007 — 2.2 Building the five abstractions yourself](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5ca39996a5a8f7dedd3e_codex-pattern-007-2-2-building-the-five-abstractions-yourself.png)
+<!-- TODO: 아래 코드와 같으면 생략 -->
 
-```py
-# toolkit/client.py
+```py title="toolkit/client.py"
 from __future__ import annotations
 from dataclasses import dataclass
 from typing import Optional, Any
@@ -725,10 +718,10 @@ class LLMClient:
 
 The key word in that file is *normalizes*. The provider differences matter for half the things and don't matter for the other half. Pinning them all behind a least-common-denominator interface looks clean and is wrong. Agents need access to provider-specific features (prompt caching with Anthropic, structured outputs with OpenAI, tool-use modes with Bedrock). The toolkit's job is to expose them when needed and to keep callers from depending on them when not.
 
-[![Pattern 008 — 2.2 Building the five abstractions yourself](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5ca39996a5a8f7dedd5e_codex-pattern-008-2-2-building-the-five-abstractions-yourself.png) (<VPIcon icon="fa-brands fa-linkedin"/>`vahe-aslanyan`)](https://linkedin.com/in/vahe-aslanyan/)
+![Pattern 008 — 2.2 Building the five abstractions yourself](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5ca39996a5a8f7dedd5e_codex-pattern-008-2-2-building-the-five-abstractions-yourself.png)
+<!-- TODO: 아래 코드와 같으면 생략 -->
 
-```py
-# toolkit/registry.py
+```py title="toolkit/registry.py"
 from dataclasses import dataclass
 from typing import Callable
 
@@ -762,10 +755,10 @@ class ToolRegistry:
         ]
 ```
 
-[![Pattern 009 — 2.2 Building the five abstractions yourself](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5ca39996a5a8f7dedd9f_codex-pattern-009-2-2-building-the-five-abstractions-yourself.png) (<VPIcon icon="fa-brands fa-linkedin"/>`vahe-aslanyan`)](https://linkedin.com/in/vahe-aslanyan/)
+![Pattern 009 — 2.2 Building the five abstractions yourself](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5ca39996a5a8f7dedd9f_codex-pattern-009-2-2-building-the-five-abstractions-yourself.png)
+<!-- TODO: 아래 코드와 같으면 생략 -->
 
-```py
-# toolkit/prompt.py
+```py title="toolkit/prompt.py"
 @dataclass
 class PromptTemplate:
     """Four-layer prompt architecture: invariant, role, task, frame."""
@@ -786,10 +779,10 @@ class PromptTemplate:
 
 The four-layer split is not cosmetic. Each layer has a different change cadence and a different cacheability profile. Treating them as one string conflates them and loses both maintainability and (with providers that support prompt caching) money.
 
-[![Pattern 010 — 2.2 Building the five abstractions yourself](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5ca30fad12a602ce894a_codex-pattern-010-2-2-building-the-five-abstractions-yourself.png) (<VPIcon icon="fa-brands fa-linkedin"/>`vahe-aslanyan`)](https://linkedin.com/in/vahe-aslanyan/)
+![Pattern 010 — 2.2 Building the five abstractions yourself](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5ca30fad12a602ce894a_codex-pattern-010-2-2-building-the-five-abstractions-yourself.png)
+<!-- TODO: 아래 코드와 같으면 생략 -->
 
-```py
-# toolkit/memory.py
+```py title="toolkit/memory.py"
 class MemoryStore:
     """Pluggable backend; the interface stays the same."""
     def write(self, namespace: str, key: str, value: dict, ttl: int | None = None) -> None: ...
@@ -798,10 +791,10 @@ class MemoryStore:
     def delete(self, namespace: str, key: str) -> None: ...
 ```
 
-[![Pattern 011 — 2.2 Building the five abstractions yourself](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5ca4c289ca370bc05fe9_codex-pattern-011-2-2-building-the-five-abstractions-yourself.png) (<VPIcon icon="fa-brands fa-linkedin"/>`vahe-aslanyan`)](https://linkedin.com/in/vahe-aslanyan/)
+![Pattern 011 — 2.2 Building the five abstractions yourself](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5ca4c289ca370bc05fe9_codex-pattern-011-2-2-building-the-five-abstractions-yourself.png)
+<!-- TODO: 아래 코드와 같으면 생략 -->
 
-```py
-# toolkit/loop.py
+```py title="toolkit/loop.py"
 class AgentLoop:
     def __init__(self, *, policy, registry, memory, observers):
         self.policy, self.registry, self.memory, self.observers = (
@@ -846,10 +839,10 @@ The single highest-leverage piece of infrastructure most teams skip is an **inte
 
 It's fifty lines of FastAPI in front of `httpx`, and it will save you a year of pain.
 
-[![Pattern 012 — 2.5 The gateway pattern](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5ca4c289ca370bc06070_codex-pattern-012-2-5-the-gateway-pattern.png) (<VPIcon icon="fa-brands fa-linkedin"/>`vahe-aslanyan`)](https://linkedin.com/in/vahe-aslanyan/)
+![Pattern 012 — 2.5 The gateway pattern](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5ca4c289ca370bc06070_codex-pattern-012-2-5-the-gateway-pattern.png)
+<!-- TODO: 아래 코드와 같으면 생략 -->
 
-```py
-# gateway/main.py
+```py title='gateway/main.py"
 from fastapi import FastAPI, Request, HTTPException
 import httpx
 
@@ -889,7 +882,8 @@ Every well-designed prompt has four layers, in the order shown:
 3. **Task layer:** The current task definition. The output schema, the constraints on this particular call, the success criteria. This layer changes per task type but is often the same within a task type.
 4. **Frame layer:** The dynamic content: retrieved documents, memory contents, the user's current message. This layer changes per call.
 
-[![Pattern 013 — 3.1 The four-layer prompt architecture](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5ca49996a5a8f7dede73_codex-pattern-013-3-1-the-four-layer-prompt-architecture.png) (<VPIcon icon="fa-brands fa-linkedin"/>`vahe-aslanyan`)](https://linkedin.com/in/vahe-aslanyan/)
+![Pattern 013 — 3.1 The four-layer prompt architecture](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5ca49996a5a8f7dede73_codex-pattern-013-3-1-the-four-layer-prompt-architecture.png)
+<!-- TODO: 아래 코드와 같으면 생략 -->
 
 ```py
 # An invariant layer for an internal research assistant.
@@ -931,7 +925,8 @@ The split is operationally important. With prompt caching (which Anthropic, Open
 
 Here's a prompt of the kind you find in nearly every "build your first agent" tutorial:
 
-[![Pattern 014 — 3.2 The under-specified prompt — a worked example](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5ca4531a4154e4427319_codex-pattern-014-3-2-the-under-specified-prompt-a-worked-example.png) (<VPIcon icon="fa-brands fa-linkedin"/>`vahe-aslanyan`)](https://linkedin.com/in/vahe-aslanyan/)
+![Pattern 014 — 3.2 The under-specified prompt — a worked example](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5ca4531a4154e4427319_codex-pattern-014-3-2-the-under-specified-prompt-a-worked-example.png)
+<!-- TODO: 아래 코드와 같으면 생략 -->
 
 ```plaintext
 You are a helpful sales-research assistant. Given a company name, find
@@ -949,7 +944,8 @@ It's friendly, brief, and disastrous. It fails on every dimension that matters:
 
 Here's the same prompt re-specified:
 
-[![Pattern 015 — 3.2 The under-specified prompt — a worked example](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5ca492b55ea93e9385a6_codex-pattern-015-3-2-the-under-specified-prompt-a-worked-example.png) (<VPIcon icon="fa-brands fa-linkedin"/>`vahe-aslanyan`)](https://linkedin.com/in/vahe-aslanyan/)
+![Pattern 015 — 3.2 The under-specified prompt — a worked example](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5ca492b55ea93e9385a6_codex-pattern-015-3-2-the-under-specified-prompt-a-worked-example.png)
+<!-- TODO: 아래 코드와 같으면 생략 -->
 
 ```py
 TASK_SALES_RESEARCH = """\
@@ -1003,7 +999,8 @@ The four-layer architecture is a frame. Inside it, certain composable patterns r
 - **Plan-before-act:** When the model is going to take an action, have it write the plan first and the action second, in the same call. This is mechanically cheap and dramatically improves the quality of the action. The plan is the model's commitment device.
 - **Output schemas with rationale fields:** When you require structured output, include a `rationale: str` field for each decision the structure asks the model to make. The rationale is the model's reasoning trace, written next to the decision it explains, in a place where you can audit it.
 
-[![Pattern 016 — 3.3 Patterns for shaping behavior under uncertainty](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5ca518437f571ad48538_codex-pattern-016-3-3-patterns-for-shaping-behavior-under-uncertainty.png) (<VPIcon icon="fa-brands fa-linkedin"/>`vahe-aslanyan`)](https://linkedin.com/in/vahe-aslanyan/)
+![Pattern 016 — 3.3 Patterns for shaping behavior under uncertainty](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5ca518437f571ad48538_codex-pattern-016-3-3-patterns-for-shaping-behavior-under-uncertainty.png)
+<!-- TODO: 아래 코드와 같으면 생략 -->
 
 ```py
 # Output schema with structured refusal and rationale fields.
@@ -1027,7 +1024,8 @@ The discipline that fixes this is unromantic:
 3. **Version every prompt:** Tag every prompt with `agent_name:role:version`. Store the full prompt in version control, even if it includes generated content. The trace records which version produced which output.
 4. **Compare pairwise, not absolutely:** "Version 5 gets 78% pass" is less useful than "version 5 beats version 4 on cases 12, 17, and 23, loses on case 6, ties on the rest." The pairwise comparison is what tells you whether to ship.
 
-[![Pattern 017 — 3.4 A working method for prompt iteration](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5ca5b8c5c96b80f39a51_codex-pattern-017-3-4-a-working-method-for-prompt-iteration.png) (<VPIcon icon="fa-brands fa-linkedin"/>`vahe-aslanyan`)](https://linkedin.com/in/vahe-aslanyan/)
+![Pattern 017 — 3.4 A working method for prompt iteration](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5ca5b8c5c96b80f39a51_codex-pattern-017-3-4-a-working-method-for-prompt-iteration.png)
+<!-- TODO: 아래 코드와 같으면 생략 -->
 
 ```py
 # Prompt-iteration record.
@@ -1072,10 +1070,10 @@ An agent that works once in a notebook is a demo. An agent that works on the ten
 
 The minimum bar for production observability is one trace per agent run, with one span per step, with structured data on every span. The trace records the prompt sent, the response received, the tool calls made, the tool results obtained, the cost, the latency, and any errors.
 
-[![Pattern 018 — 4.1 Per-step tracing](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5ca518694553f01fd56f_codex-pattern-018-4-1-per-step-tracing.png) (<VPIcon icon="fa-brands fa-linkedin"/>`vahe-aslanyan`)](https://linkedin.com/in/vahe-aslanyan/)
+![Pattern 018 — 4.1 Per-step tracing](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5ca518694553f01fd56f_codex-pattern-018-4-1-per-step-tracing.png)
+<!-- TODO: 아래 코드와 같으면 생략 -->
 
-```py
-# observability/tracing.py
+```py :collapsed-lines title="observability/tracing.py"
 from contextlib import contextmanager
 from dataclasses import dataclass, field
 import time, uuid
@@ -1136,7 +1134,8 @@ Second, the trace is structured. It's queryable. You can ask "show me all sessio
 
 A trace that you can read is good. A trace that you can *replay* is better. Replay means: given a stored trace, you can run the agent harness against a recorded environment and reproduce the exact behavior. The replay doesn't call the LLM (the response is in the trace) or the tools (the tool result is in the trace), and is fully deterministic.
 
-[![Pattern 019 — 4.2 Replay of historical sessions](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5ca5cd8224963aff151e_codex-pattern-019-4-2-replay-of-historical-sessions.png) (<VPIcon icon="fa-brands fa-linkedin"/>`vahe-aslanyan`)](https://linkedin.com/in/vahe-aslanyan/)
+![Pattern 019 — 4.2 Replay of historical sessions](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5ca5cd8224963aff151e_codex-pattern-019-4-2-replay-of-historical-sessions.png)
+<!-- TODO: 아래 코드와 같으면 생략 -->
 
 ```py
 class ReplayHarness(Harness):
@@ -1162,7 +1161,8 @@ Replay is the foundation of every meaningful agent-debugging workflow. Without i
 
 Section 1.6 named drift as a canonical failure mode. Detecting it requires comparing the live output distribution against a reference. The patterns in Agent 59 (Drift Detector) cover this in depth. At the toolkit level, the operational shape is:
 
-[![Pattern 020 — 4.3 Drift detection on output distributions](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5ca62f5c607539ee912a_codex-pattern-020-4-3-drift-detection-on-output-distributions.png) (<VPIcon icon="fa-brands fa-linkedin"/>`vahe-aslanyan`)](https://linkedin.com/in/vahe-aslanyan/)
+![Pattern 020 — 4.3 Drift detection on output distributions](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5ca62f5c607539ee912a_codex-pattern-020-4-3-drift-detection-on-output-distributions.png)
+<!-- TODO: 아래 코드와 같으면 생략 -->
 
 ```py
 class OutputDistributionMonitor:
@@ -1192,7 +1192,8 @@ The features are agent-specific: average refusal rate, average response length, 
 
 Every agent in production should have explicit per-call cost and latency budgets. The budgets are enforced at the tool-call level, not just at the session level: a single agent run that consumes a thousand dollars of inference because a loop got stuck is a failure mode the budget catches.
 
-[![Pattern 021 — 4.4 Cost and latency budgets](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5ca606b2c784575bc58b_codex-pattern-021-4-4-cost-and-latency-budgets.png) (<VPIcon icon="fa-brands fa-linkedin"/>`vahe-aslanyan`)](https://linkedin.com/in/vahe-aslanyan/)
+![Pattern 021 — 4.4 Cost and latency budgets](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5ca606b2c784575bc58b_codex-pattern-021-4-4-cost-and-latency-budgets.png)
+<!-- TODO: 아래 코드와 같으면 생략 -->
 
 ```py
 @dataclass
@@ -1228,7 +1229,8 @@ The enforcer is invoked from inside the harness loop. Budget exceedance triggers
 
 Tool spoofing (Section 1.6) is most commonly delivered as prompt injection: hostile content in a retrieved document, a tool result, or a user input that the model interprets as instructions. Defending against this requires structural separation between trusted and untrusted text.
 
-[![Pattern 022 — 4.5 Prompt-injection defenses at the input boundary](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5dc9c0299cc0eef5013f_codex-pattern-022-4-5-prompt-injection-defenses-at-the-input-boundary.png) (<VPIcon icon="fa-brands fa-linkedin"/>`vahe-aslanyan`)](https://linkedin.com/in/vahe-aslanyan/)
+![Pattern 022 — 4.5 Prompt-injection defenses at the input boundary](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5dc9c0299cc0eef5013f_codex-pattern-022-4-5-prompt-injection-defenses-at-the-input-boundary.png)
+<!-- TODO: 아래 코드와 같으면 생략 -->
 
 ```py
 def build_prompt(invariant: str, user_input: str, retrieved: list[Document]) -> list[dict]:
@@ -1261,7 +1263,8 @@ Tools call APIs, and APIs need credentials. Three rules cover most of what matte
 2. Secrets never appear in any trace persisted past the session.
 3. Secrets are fetched from a secret manager at tool-invocation time, with the agent identity attached, and scoped to the narrowest credential the tool needs.
 
-[![Pattern 023 — 4.6 Secret handling](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5dc9c0299cc0eef5015f_codex-pattern-023-4-6-secret-handling.png) (<VPIcon icon="fa-brands fa-linkedin"/>`vahe-aslanyan`)](https://linkedin.com/in/vahe-aslanyan/)
+![Pattern 023 — 4.6 Secret handling](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5dc9c0299cc0eef5015f_codex-pattern-023-4-6-secret-handling.png)
+<!-- TODO: 아래 코드와 같으면 생략 -->
 
 ```py
 class CredentialedTool(Tool):
@@ -1282,7 +1285,8 @@ class CredentialedTool(Tool):
 
 The agent has access to information the user hasn't necessarily consented to send to the underlying model. Treat this as a first-class concern (the topic of Agent 57, Privacy-Preserving). At the toolkit level, the minimum is a redaction layer at the input boundary:
 
-[![Pattern 024 — 4.7 Data minimization and PII redaction](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5dc987f2457e35535836_codex-pattern-024-4-7-data-minimization-and-pii-redaction.png) (<VPIcon icon="fa-brands fa-linkedin"/>`vahe-aslanyan`)](https://linkedin.com/in/vahe-aslanyan/)
+![Pattern 024 — 4.7 Data minimization and PII redaction](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5dc987f2457e35535836_codex-pattern-024-4-7-data-minimization-and-pii-redaction.png)
+<!-- TODO: 아래 코드와 같으면 생략 -->
 
 ```py
 PII_PATTERNS = [
@@ -1614,10 +1618,10 @@ Here are the architectural moves:
 3. **Re-attachment loop:** When the user clarifies ("no, the *other* blue line"), update the map rather than starting from scratch.
 4. **Structured exposure:** The grounding map is exposed as a typed observation to whatever policy sits above it, never as free text.
 
-[![Pattern 025 — Agent 1 — The Multimodal Grounding Agent — The Mechanism](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5dca6d419072e07bf46f_codex-pattern-025-agent-1-the-multimodal-grounding-agent-the-mechanism.png) (<VPIcon icon="fa-brands fa-linkedin"/>`vahe-aslanyan`)](https://linkedin.com/in/vahe-aslanyan/)
+![Pattern 025 — Agent 1 — The Multimodal Grounding Agent — The Mechanism](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5dca6d419072e07bf46f_codex-pattern-025-agent-1-the-multimodal-grounding-agent-the-mechanism.png)
+<!-- TODO: 아래 코드와 같으면 생략 -->
 
-```py
-# perception/grounding.py
+```py :collapsed-lines title="perception/grounding.py"
 from dataclasses import dataclass, field
 from typing import Literal
 
@@ -1700,7 +1704,11 @@ A meeting-summary agent at a mid-sized professional-services firm attaches every
 
 Before the grounding agent was deployed, the firm's existing meeting tool produced action items as unattributed bullet points. The resulting accountability gap was a known product weakness. After deployment, the action-item completion rate measured at one-week follow-up improved from 41% to 67%.
 
-**Pairs with:** Visual Question Decomposition (Agent 5), Provenance Tracker (Agent 55), Document Layout (Agent 2).
+::: note Pairs with
+
+Visual Question Decomposition (Agent 5), Provenance Tracker (Agent 55), Document Layout (Agent 2).
+
+:::
 
 ### Agent 2 — The Document Layout Agent
 
@@ -1726,10 +1734,10 @@ The layout agent runs a document through a layout-detection model, segments it i
 
 The output is a tree, not a flat text blob. The tree preserves spatial relationships that pure OCR throws away (a table cell knows it is in column 3, row 5, of the table titled "Q2 Revenue by Region"). Every region carries its source bounding box and page number, so downstream provenance can point at the exact pixels.
 
-[![Pattern 026 — Agent 2 — The Document Layout Agent — The Mechanism](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5dcaa90f3d34d7e2aa32_codex-pattern-026-agent-2-the-document-layout-agent-the-mechanism.png) (<VPIcon icon="fa-brands fa-linkedin"/>`vahe-aslanyan`)](https://linkedin.com/in/vahe-aslanyan/)
+![Pattern 026 — Agent 2 — The Document Layout Agent — The Mechanism](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5dcaa90f3d34d7e2aa32_codex-pattern-026-agent-2-the-document-layout-agent-the-mechanism.png)
+<!-- TODO: 아래 코드와 같으면 생략 -->
 
-```py
-# perception/document_layout.py
+```py :collapsed-lines title="perception/document_layout.py"
 from dataclasses import dataclass, field
 from typing import Literal
 
@@ -1846,7 +1854,11 @@ An underwriting workflow at a specialty insurer ingests submission packets. It's
 
 The Document Layout Agent emits a region tree per submission. Downstream agents (a Schema-Inference Agent over the loss runs, a Symbolic-Neural Bridge translating broker narratives into structured exposure summaries, a Provenance Tracker attaching every entry in the final record back to its source region) compose into a workflow that handled 73% of submissions end-to-end after six months of tuning, with a measured one-shot accuracy on extracted fields of 96% measured against expert-reviewed ground truth.
 
-**Pairs with:** Schema-Inference (Agent 7), Provenance Tracker (Agent 55), Multimodal Grounding (Agent 1).
+::: note Pairs with
+
+Schema-Inference (Agent 7), Provenance Tracker (Agent 55), Multimodal Grounding (Agent 1).
+
+:::
 
 ### Agent 3 — The Temporal Sensor-Fusion Agent
 
@@ -1868,10 +1880,10 @@ The general problem is **clock skew at the input boundary**. Each stream has its
 
 The temporal sensor-fusion agent buffers incoming events, resolves their clock skew using shared landmark events, emits time-windowed percepts at a regular cadence, and handles back-pressure when a stream stalls.
 
-[![Pattern 027 — Agent 3 — The Temporal Sensor-Fusion Agent — The Mechanism](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5dcaf43a036859343a0d_codex-pattern-027-agent-3-the-temporal-sensor-fusion-agent-the-mechanism.png) (<VPIcon icon="fa-brands fa-linkedin"/>`vahe-aslanyan`)](https://linkedin.com/in/vahe-aslanyan/)
+![Pattern 027 — Agent 3 — The Temporal Sensor-Fusion Agent — The Mechanism](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5dcaf43a036859343a0d_codex-pattern-027-agent-3-the-temporal-sensor-fusion-agent-the-mechanism.png)
+<!-- TODO: 아래 코드와 같으면 생략 -->
 
-```py
-# perception/sensor_fusion.py
+```py :collapsed-lines title="perception/sensor_fusion.py"
 from dataclasses import dataclass, field
 from collections import defaultdict
 import heapq
@@ -1970,7 +1982,11 @@ The fusion window is sixty seconds. Landmarks include market-open and market-clo
 
 The downstream policy (an Anomaly-Spotter, Agent 4) reads the fused windows and surfaces anomalous combinations: a Slack mention of a counterparty paired with an OMS rejection on the same counterparty within the window, or a Bloomberg headline naming a sector paired with an unusual concentration of new orders in that sector. The fused-window approach reduced false-positive alerts by 60% compared to per-stream alerting.
 
-**Pairs with:** Ambient Context (Agent 6), Anomaly Spotter (Agent 4), Drift Detector (Agent 59).
+::: note Pairs with
+
+Ambient Context (Agent 6), Anomaly Spotter (Agent 4), Drift Detector (Agent 59).
+
+:::
 
 ### Agent 4 — The Anomaly-Spotter Agent
 
@@ -1994,10 +2010,10 @@ The general problem is **calibrated novelty detection**: identifying observation
 
 The anomaly-spotter maintains a model of the expected distribution of each observed signal, updates the model online, and emits an anomaly observation whenever the live signal deviates by a threshold the operator can tune.
 
-[![Pattern 028 — Agent 4 — The Anomaly-Spotter Agent — The Mechanism](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5dcaf32977bfedb0662e_codex-pattern-028-agent-4-the-anomaly-spotter-agent-the-mechanism.png) (<VPIcon icon="fa-brands fa-linkedin"/>`vahe-aslanyan`)](https://linkedin.com/in/vahe-aslanyan/)
+![Pattern 028 — Agent 4 — The Anomaly-Spotter Agent — The Mechanism](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5dcaf32977bfedb0662e_codex-pattern-028-agent-4-the-anomaly-spotter-agent-the-mechanism.png)
+<!-- TODO: 아래 코드와 같으면 생략 -->
 
-```py
-# perception/anomaly_spotter.py
+```py :collapsed-lines title="perception/anomaly_spotter.py"
 from dataclasses import dataclass
 import math, time
 
@@ -2088,7 +2104,11 @@ Each service gets its own Anomaly-Spotter instance with shared thresholds. When 
 
 The pattern moves the detection time from "user complaint" (median twenty-three minutes) to "automated alarm" (median forty-seven seconds), and reduces false-positive incidents by 80% compared to the previous static-threshold system.
 
-**Pairs with:** Drift Detector (Agent 59), Reflection (Agent 47), Temporal Sensor-Fusion (Agent 3).
+::: note Pairs with
+
+Drift Detector (Agent 59), Reflection (Agent 47), Temporal Sensor-Fusion (Agent 3).
+
+:::
 
 ### Agent 5 — The Visual Question Decomposition Agent
 
@@ -2112,10 +2132,10 @@ The general problem is **compound visual reasoning**: a question that requires s
 
 The decomposition agent recognizes the compound structure of the query, breaks it into a sequence of single-step perception calls, runs them in sequence, and assembles the result with explicit citations.
 
-[![Pattern 029 — Agent 5 — The Visual Question Decomposition Agent — The Mechanism](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5dcaf43a036859343a43_codex-pattern-029-agent-5-the-visual-question-decomposition-agent-the-mechanis.png) (<VPIcon icon="fa-brands fa-linkedin"/>`vahe-aslanyan`)](https://linkedin.com/in/vahe-aslanyan/)
+![Pattern 029 — Agent 5 — The Visual Question Decomposition Agent — The Mechanism](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5dcaf43a036859343a43_codex-pattern-029-agent-5-the-visual-question-decomposition-agent-the-mechanis.png)
+<!-- TODO: 아래 코드와 같으면 생략 -->
 
-```py
-# perception/visual_decomposition.py
+```py :collapsed-lines title="perception/visual_decomposition.py"
 from dataclasses import dataclass, field
 
 @dataclass
@@ -2205,7 +2225,11 @@ An alternative for stable dashboards is to *pre-extract structured data once* an
 
 An analytics co-pilot at a B2B SaaS vendor answers free-form questions over operational dashboards. Before the decomposition agent, single-pass vision-language accuracy on compound questions was 38% measured against expert-labeled ground truth. With decomposition the accuracy rose to 84%, at three times the cost per question and 1.6× the latency. The product team accepted the trade because the wrong-answer rate of the single-pass version was undermining trust in the dashboard itself.
 
-**Pairs with:** Multimodal Grounding (Agent 1), Chain-of-Thought Auditor (Agent 8), Provenance Tracker (Agent 55).
+::: note Pairs with
+
+Multimodal Grounding (Agent 1), Chain-of-Thought Auditor (Agent 8), Provenance Tracker (Agent 55).
+
+:::
 
 ### Agent 6 — The Ambient Context Agent
 
@@ -2229,10 +2253,10 @@ The general problem is **invisible context**: the signals that condition every h
 
 An ambient context agent gathers signals on a continuous basis from permissioned surfaces, exposes them as a structured observation, refreshes them on a defined cadence rather than only at session start, and filters them through a privacy gate before they enter the prompt.
 
-[![Pattern 030 — Agent 6 — The Ambient Context Agent — The Mechanism](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5dca87f2457e355358ba_codex-pattern-030-agent-6-the-ambient-context-agent-the-mechanism.png) (<VPIcon icon="fa-brands fa-linkedin"/>`vahe-aslanyan`)](https://linkedin.com/in/vahe-aslanyan/)
+![Pattern 030 — Agent 6 — The Ambient Context Agent — The Mechanism](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5dca87f2457e355358ba_codex-pattern-030-agent-6-the-ambient-context-agent-the-mechanism.png)
+<!-- TODO: 아래 코드와 같으면 생략 -->
 
-```py
-# perception/ambient_context.py
+```py :collapsed-lines title="perception/ambient_context.py"
 from dataclasses import dataclass, field
 from typing import Callable
 import time
@@ -2318,7 +2342,11 @@ A personal-assistant agent at a productivity vendor drafts replies to messages w
 
 The product's reply-acceptance rate climbed from 41% to 73% after the ambient-context layer was added. Nearly all the improvement came from the agent now knowing things the user had previously had to type into the prompt.
 
-**Pairs with:** Privacy-Preserving (Agent 57), Persistent Identity (Agent 29), Working-Memory Manager (Agent 25).
+::: note Pairs with
+
+Privacy-Preserving (Agent 57), Persistent Identity (Agent 29), Working-Memory Manager (Agent 25).
+
+:::
 
 ### Agent 7 — The Schema-Inference Agent
 
@@ -2340,10 +2368,10 @@ The general problem is **structure discovery at runtime**: producing a usable mo
 
 The schema-inference agent samples records strategically, hypothesizes a schema, validates the hypothesis against more records, refines, and emits a schema document with explicit uncertainty annotations.
 
-[![Pattern 031 — Agent 7 — The Schema-Inference Agent — The Mechanism](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5dcade598c27fe391738_codex-pattern-031-agent-7-the-schema-inference-agent-the-mechanism.png) (<VPIcon icon="fa-brands fa-linkedin"/>`vahe-aslanyan`)](https://linkedin.com/in/vahe-aslanyan/)
+![Pattern 031 — Agent 7 — The Schema-Inference Agent — The Mechanism](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5dcade598c27fe391738_codex-pattern-031-agent-7-the-schema-inference-agent-the-mechanism.png)
+<!-- TODO: 아래 코드와 같으면 생략 -->
 
-```py
-# perception/schema_inference.py
+```py :collapsed-lines title="perception/schema_inference.py"
 from dataclasses import dataclass, field
 from collections import Counter
 
@@ -2441,7 +2469,11 @@ A data-onboarding workflow at a B2B vendor lets new customers connect a SQL data
 
 Before the schema-inference step, onboarding required a customer-success engineer to write a config per customer (median three days). After, the median onboarding time dropped to under twenty minutes self-serve, with 71% of customers reaching a dashboard without any human assist.
 
-**Pairs with:** Document Layout (Agent 2), Database Query Synthesizer (Agent 35), API-Schema Adapter (Agent 31).
+::: note Pairs with
+
+Document Layout (Agent 2), Database Query Synthesizer (Agent 35), API-Schema Adapter (Agent 31).
+
+:::
 
 ### A Note on the References in the Deeper Dives
 
@@ -2726,10 +2758,10 @@ The general problem is **local invalidity in plausible reasoning**: a chain that
 
 The auditor reads the chain step by step, asks whether each step is supported by what came before, and flags the first invalid step it finds. It doesn't produce its own reasoning, it grades the input one. The output isn't a pass/fail but a *first-invalid-step pointer*, which lets the calling system re-prompt from that point rather than restarting.
 
-[![Pattern 032 — Agent 8 — The Chain-of-Thought Auditor Agent — The Mechanism](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5dd22f5c607539ef290a_codex-pattern-032-agent-8-the-chain-of-thought-auditor-agent-the-mechanism.png) (<VPIcon icon="fa-brands fa-linkedin"/>`vahe-aslanyan`)](https://linkedin.com/in/vahe-aslanyan/)
+![Pattern 032 — Agent 8 — The Chain-of-Thought Auditor Agent — The Mechanism](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5dd22f5c607539ef290a_codex-pattern-032-agent-8-the-chain-of-thought-auditor-agent-the-mechanism.png)
+<!-- TODO: 아래 코드와 같으면 생략 -->
 
-```py
-# reasoning/cot_auditor.py
+```py :collapsed-lines title="reasoning/cot_auditor.py"
 from dataclasses import dataclass
 from enum import Enum
 
@@ -2822,7 +2854,11 @@ A legal-research agent at a mid-sized firm gates every answer through a Chain-of
 
 The net effect: invalid-conclusion rate reaching the attorney dropped from approximately 8% in the unaudited baseline to 0.5% with the auditor in place, at a 2.4× cost per answer.
 
-**Pairs with:** Self-Consistency Voter (Agent 15), Reflection (Agent 47), Provenance Tracker (Agent 55).
+::: note Pairs with
+
+Self-Consistency Voter (Agent 15), Reflection (Agent 47), Provenance Tracker (Agent 55).
+
+:::
 
 ### Agent 9 — The Counterfactual Reasoner Agent
 
@@ -2844,10 +2880,10 @@ The general failure mode the pattern addresses is **confirmation-bias collapse**
 
 The counterfactual agent identifies the load-bearing variable in the user's situation, generates one or more counterfactual states with the variable flipped, propagates the flip through whatever model of the world the agent has, and produces a comparison output. The agent doesn't advocate, it enumerates.
 
-[![Pattern 033 — Agent 9 — The Counterfactual Reasoner Agent — The Mechanism](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5dd22f5c607539ef292a_codex-pattern-033-agent-9-the-counterfactual-reasoner-agent-the-mechanism.png) (<VPIcon icon="fa-brands fa-linkedin"/>`vahe-aslanyan`)](https://linkedin.com/in/vahe-aslanyan/)
+![Pattern 033 — Agent 9 — The Counterfactual Reasoner Agent — The Mechanism](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5dd22f5c607539ef292a_codex-pattern-033-agent-9-the-counterfactual-reasoner-agent-the-mechanism.png)
+<!-- TODO: 아래 코드와 같으면 생략 -->
 
-```py
-# reasoning/counterfactual.py
+```py :collapsed-lines title="reasoning/counterfactual.py"
 from dataclasses import dataclass, field
 
 @dataclass
@@ -2938,7 +2974,11 @@ An investment-committee agent at a long-short equity manager runs every recommen
 
 The pattern was credited with a 1.8 percentage point improvement in the fund's risk-adjusted return over the eighteen months after introduction, primarily by sizing down positions that would have lost catastrophically when the relevant counterfactual was realized.
 
-**Pairs with:** Constraint-Satisfaction (Agent 11), Probabilistic Belief Updater (Agent 14), Causal Graph Builder (Agent 12).
+::: note Pairs with
+
+Constraint-Satisfaction (Agent 11), Probabilistic Belief Updater (Agent 14), Causal Graph Builder (Agent 12).
+
+:::
 
 ### Agent 10 — The Analogical Mapping Agent
 
@@ -2960,10 +3000,10 @@ The general problem is **same-structure-different-surface retrieval**: finding t
 
 The analogical mapping agent stores prior cases as structured graphs (nodes = entities and relationships, not text), encodes the current case the same way, retrieves library entries by graph similarity rather than embedding similarity, aligns variables between the current and retrieved case, and translates the retrieved solution to the current case's variables.
 
-[![Pattern 034 — Agent 10 — The Analogical Mapping Agent — The Mechanism](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5dd32f5c607539ef294a_codex-pattern-034-agent-10-the-analogical-mapping-agent-the-mechanism.png) (<VPIcon icon="fa-brands fa-linkedin"/>`vahe-aslanyan`)](https://linkedin.com/in/vahe-aslanyan/)
+![Pattern 034 — Agent 10 — The Analogical Mapping Agent — The Mechanism](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5dd32f5c607539ef294a_codex-pattern-034-agent-10-the-analogical-mapping-agent-the-mechanism.png)
+<!-- TODO: 아래 코드와 같으면 생략 -->
 
-```py
-# reasoning/analogical_mapping.py
+```py :collapsed-lines title="reasoning/analogical_mapping.py"
 from dataclasses import dataclass
 import networkx as nx
 
@@ -3054,7 +3094,11 @@ A SOC analyst co-pilot at a managed-security provider maintains a library of app
 
 Median triage time on first-touch incidents dropped from twenty-four minutes to seven, and the rate at which analysts reused (rather than overrode) the adapted response was 71%.
 
-**Pairs with:** Skill-Library Builder (Agent 48), Few-Shot Prompt Tuner (Agent 50), Semantic Memory Curator (Agent 24).
+::: note Pairs with
+
+Skill-Library Builder (Agent 48), Few-Shot Prompt Tuner (Agent 50), Semantic Memory Curator (Agent 24).
+
+:::
 
 ### Agent 11 — The Constraint-Satisfaction Agent
 
@@ -3076,10 +3120,10 @@ The general problem is **CSP-shaped reasoning**: problems with a finite set of v
 
 The constraint-satisfaction agent encodes the problem as variables with finite domains and constraints between them, runs a solver (a real CSP solver, not an LLM), and emits either a witness or a minimal explanation of infeasibility.
 
-[![Pattern 035 — Agent 11 — The Constraint-Satisfaction Agent — The Mechanism](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5dd32f5c607539ef296a_codex-pattern-035-agent-11-the-constraint-satisfaction-agent-the-mechanism.png) (<VPIcon icon="fa-brands fa-linkedin"/>`vahe-aslanyan`)](https://linkedin.com/in/vahe-aslanyan/)
+![Pattern 035 — Agent 11 — The Constraint-Satisfaction Agent — The Mechanism](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5dd32f5c607539ef296a_codex-pattern-035-agent-11-the-constraint-satisfaction-agent-the-mechanism.png)
+<!-- TODO: 아래 코드와 같으면 생략 -->
 
-```py
-# reasoning/constraint_satisfaction.py
+```py :collapsed-lines title="reasoning/constraint_satisfaction.py"
 from dataclasses import dataclass
 from ortools.sat.python import cp_model   # production CSP solver
 
@@ -3172,7 +3216,11 @@ An enterprise meeting-scheduler agent books across three calendars, two physical
 
 Before the pattern was introduced, meeting requests with more than three participants failed roughly 35% of the time and the failure mode was opaque to the user. After, the failure rate dropped to 4% and every failure carried an actionable explanation.
 
-**Pairs with:** Symbolic-Neural Bridge (Agent 13), Resource-Aware Scheduler (Agent 21), Counterfactual Reasoner (Agent 9).
+::: note Pairs with
+
+Symbolic-Neural Bridge (Agent 13), Resource-Aware Scheduler (Agent 21), Counterfactual Reasoner (Agent 9).
+
+:::
 
 ### Agent 12 — The Causal Graph Builder Agent
 
@@ -3196,10 +3244,10 @@ The general problem is **causal-versus-associational confusion**: an agent's out
 
 The causal graph builder uses observational data, prior knowledge elicited from domain experts (or the LLM as a stand-in), and formal causal-discovery methods (PC, FCI, or score-based methods) to construct an explicit causal graph. The graph carries explicit edge strengths and explicit "unknown" markers for relationships the data is insufficient to resolve. The graph is then used for intervention reasoning, where a downstream policy can ask "if I set X to value Y, what is the expected effect on Z?"
 
-[![Pattern 036 — Agent 12 — The Causal Graph Builder Agent — The Mechanism](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5dd38cc36c96237ad491_codex-pattern-036-agent-12-the-causal-graph-builder-agent-the-mechanism.png) (<VPIcon icon="fa-brands fa-linkedin"/>`vahe-aslanyan`)](https://linkedin.com/in/vahe-aslanyan/)
+![Pattern 036 — Agent 12 — The Causal Graph Builder Agent — The Mechanism](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5dd38cc36c96237ad491_codex-pattern-036-agent-12-the-causal-graph-builder-agent-the-mechanism.png)
+<!-- TODO: 아래 코드와 같으면 생략 -->
 
-```py
-# reasoning/causal_graph.py
+```py :collapsed-lines title="reasoning/causal_graph.py"
 from dataclasses import dataclass, field
 from enum import Enum
 import networkx as nx
@@ -3279,7 +3327,11 @@ A marketing-attribution agent at a direct-to-consumer brand replaced the standar
 
 The new attribution shifted approximately 23% of the budget away from the channels last-touch had credited toward those the causal graph identified as actual drivers. Subsequent randomized holdout tests confirmed roughly 80% of the shift produced the predicted incremental lift.
 
-**Pairs with:** Counterfactual Reasoner (Agent 9), Probabilistic Belief Updater (Agent 14), Constraint-Satisfaction (Agent 11).
+::: note Pairs with
+
+Counterfactual Reasoner (Agent 9), Probabilistic Belief Updater (Agent 14), Constraint-Satisfaction (Agent 11).
+
+:::
 
 #### Reality Check
 
@@ -3313,10 +3365,10 @@ The general problem is **using the wrong tool for the closed-form parts**: forci
 
 Parse the problem into a target formalism (SMT-LIB for logic, linear programming for optimization, Prolog or Datalog for relational queries, Z3 for satisfiability), invoke the solver with explicit timeouts and bounds, and interpret the solver's output back into natural language with the formal certificate preserved.
 
-[![Pattern 037 — Agent 13 — The Symbolic-Neural Bridge Agent — The Mechanism](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5dd3f43a036859343f31_codex-pattern-037-agent-13-the-symbolic-neural-bridge-agent-the-mechanism.png) (<VPIcon icon="fa-brands fa-linkedin"/>`vahe-aslanyan`)](https://linkedin.com/in/vahe-aslanyan/)
+![Pattern 037 — Agent 13 — The Symbolic-Neural Bridge Agent — The Mechanism](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5dd3f43a036859343f31_codex-pattern-037-agent-13-the-symbolic-neural-bridge-agent-the-mechanism.png)
+<!-- TODO: 아래 코드와 같으면 생략 -->
 
-```py
-# reasoning/symbolic_neural_bridge.py
+```py :collapsed-lines title="reasoning/symbolic_neural_bridge.py"
 from dataclasses import dataclass
 import z3, time
 
@@ -3409,7 +3461,11 @@ A tax-planning agent at a wealth-management firm converts a client's facts into 
 
 The pattern handles approximately 84% of client situations end-to-end, and the remaining 16% are flagged as outside the formal model and routed to a human planner. Median planner time per client dropped from 4.2 hours to 38 minutes after deployment, with measured strategy-quality (third-party-reviewer-graded) materially higher than the pre-deployment baseline.
 
-**Pairs with:** Constraint-Satisfaction (Agent 11), Provenance Tracker (Agent 55), Counterfactual Reasoner (Agent 9).
+::: note Pairs with
+
+Constraint-Satisfaction (Agent 11), Provenance Tracker (Agent 55), Counterfactual Reasoner (Agent 9).
+
+:::
 
 #### Reality Check
 
@@ -3441,10 +3497,10 @@ The general problem is **multi-evidence integration**: combining evidence from m
 
 The belief updater holds an explicit distribution over candidate hypotheses, updates it Bayesian-style as evidence arrives, surfaces the current best estimate and its precision, and computes expected information gain for prospective evidence-gathering actions.
 
-[![Pattern 038 — Agent 14 — The Probabilistic Belief Updater Agent — The Mechanism](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5dd3c6a7cb88a5c22323_codex-pattern-038-agent-14-the-probabilistic-belief-updater-agent-the-mechanis.png) (<VPIcon icon="fa-brands fa-linkedin"/>`vahe-aslanyan`)](https://linkedin.com/in/vahe-aslanyan/)
+![Pattern 038 — Agent 14 — The Probabilistic Belief Updater Agent — The Mechanism](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5dd3c6a7cb88a5c22323_codex-pattern-038-agent-14-the-probabilistic-belief-updater-agent-the-mechanis.png)
+<!-- TODO: 아래 코드와 같으면 생략 -->
 
-```py
-# reasoning/belief_updater.py
+```py :collapsed-lines title="reasoning/belief_updater.py"
 from dataclasses import dataclass, field
 import math
 
@@ -3549,7 +3605,11 @@ A customer-support diagnosis agent at a consumer-electronics company holds belie
 
 Average tickets-to-resolution dropped from 3.4 to 1.9 (a 44% reduction) and the proportion of tickets resolved without human escalation rose from 22% to 51% in the year following deployment.
 
-**Pairs with:** Active Learner (Agent 52), Drift Detector (Agent 59), Counterfactual Reasoner (Agent 9).
+::: note Pairs with
+
+Active Learner (Agent 52), Drift Detector (Agent 59), Counterfactual Reasoner (Agent 9).
+
+:::
 
 ### Agent 15 — The Self-Consistency Voter Agent
 
@@ -3573,10 +3633,10 @@ The general problem is **stochastic confidence**: a model's surface confidence o
 
 The voter agent runs the same problem through the same policy multiple times at non-zero temperature, clusters the conclusions, and reports the modal answer together with the agreement rate. Critically, agreement rate is exposed as a confidence proxy. Low agreement is an escalation signal.
 
-[![Pattern 039 — Agent 15 — The Self-Consistency Voter Agent — The Mechanism](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5dd406b2c784575c26f6_codex-pattern-039-agent-15-the-self-consistency-voter-agent-the-mechanism.png) (<VPIcon icon="fa-brands fa-linkedin"/>`vahe-aslanyan`)](https://linkedin.com/in/vahe-aslanyan/)
+![Pattern 039 — Agent 15 — The Self-Consistency Voter Agent — The Mechanism](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5dd406b2c784575c26f6_codex-pattern-039-agent-15-the-self-consistency-voter-agent-the-mechanism.png)
+<!-- TODO: 아래 코드와 같으면 생략 -->
 
-```py
-# reasoning/self_consistency.py
+```py :collapsed-lines title="reasoning/self_consistency.py"
 from dataclasses import dataclass
 from collections import Counter
 import asyncio
@@ -3642,7 +3702,11 @@ A math-tutoring agent at an edtech vendor solves every problem five times in par
 
 The escalation rate is about 8% of problems. Measured accuracy on a labeled benchmark of three thousand problems: 78% with single-sample, 91% with self-consistency voting, 96% with voting plus escalation to the stronger model. The cost increase from single-sample to voting+escalation was 3.1×, and the accuracy improvement was 18 percentage points.
 
-**Pairs with:** Chain-of-Thought Auditor (Agent 8), Reflection (Agent 47), Debate Moderator (Agent 39).
+::: note Pairs with
+
+Chain-of-Thought Auditor (Agent 8), Reflection (Agent 47), Debate Moderator (Agent 39).
+
+:::
 
 ### Chapter 6 — Deeper Dives
 
@@ -3945,10 +4009,10 @@ The decomposer expands the tree top-down, with each non-leaf node tagged with it
 
 The tree itself is the agent's plan, the policy is its expander, and the executor walks the tree depth-first.
 
-[![Pattern 040 — Agent 16 — The Hierarchical Decomposer Agent — The Mechanism](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5dd4c3c147f0711e5b55_codex-pattern-040-agent-16-the-hierarchical-decomposer-agent-the-mechanism.png) (<VPIcon icon="fa-brands fa-linkedin"/>`vahe-aslanyan`)](https://linkedin.com/in/vahe-aslanyan/)
+![Pattern 040 — Agent 16 — The Hierarchical Decomposer Agent — The Mechanism](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5dd4c3c147f0711e5b55_codex-pattern-040-agent-16-the-hierarchical-decomposer-agent-the-mechanism.png)
+<!-- TODO: 아래 코드와 같으면 생략 -->
 
-```py
-# planning/hierarchical_decomposer.py
+```py :collapsed-lines title="planning/hierarchical_decomposer.py"
 from dataclasses import dataclass, field
 from typing import Literal
 
@@ -4071,7 +4135,11 @@ An end-to-end software-issue agent at a B2B SaaS vendor takes "the dashboard is 
 
 The tree is visible to the engineer as a navigable plan. Engineers report intervening in roughly 18% of trees (typically to redirect a sub-goal that was off the mark), with the remaining 82% completing without intervention. Median time from issue creation to draft PR dropped from 14 hours (human-only baseline) to 2.3 hours (agent + reviewer).
 
-**Pairs with:** Plan-Then-Execute (Agent 19), Adaptive (Agent 20), Memory-of-Self (Agent 27).
+::: note Pairs with
+
+Plan-Then-Execute (Agent 19), Adaptive (Agent 20), Memory-of-Self (Agent 27).
+
+:::
 
 ### Agent 17 — The ReAct Loop Agent
 
@@ -4093,10 +4161,10 @@ The general problem is **uncertain-environment progress**: making progress towar
 
 ReAct (the canonical reactive pattern in agent literature) has an explicit thought-action-observation loop with structural support: bounded steps, observed termination, per-step traceability, and (in this book's version) progress measurement.
 
-[![Pattern 041 — Agent 17 — The ReAct Loop Agent — The Mechanism](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5dd4c3c147f0711e5b88_codex-pattern-041-agent-17-the-react-loop-agent-the-mechanism.png) (<VPIcon icon="fa-brands fa-linkedin"/>`vahe-aslanyan`)](https://linkedin.com/in/vahe-aslanyan/)
+![Pattern 041 — Agent 17 — The ReAct Loop Agent — The Mechanism](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5dd4c3c147f0711e5b88_codex-pattern-041-agent-17-the-react-loop-agent-the-mechanism.png)
+<!-- TODO: 아래 코드와 같으면 생략 -->
 
-```py
-# planning/react_loop.py
+```py :collapsed-lines title="planning/react_loop.py"
 from dataclasses import dataclass, field
 from typing import Callable
 
@@ -4195,7 +4263,11 @@ A customer-support ticket-resolver agent at a fintech runs entire support sessio
 
 The agent resolves approximately 31% of L1 tickets without escalation. On tickets that escalate, the agent's transcript becomes the starting point for the human, reducing average human handle time by 47%.
 
-**Pairs with:** Tool Selector (Agent 30), Reflection (Agent 47), Adaptive Replanner (Agent 20).
+::: note Pairs with
+
+Tool Selector (Agent 30), Reflection (Agent 47), Adaptive Replanner (Agent 20).
+
+:::
 
 ### Agent 18 — The Tree-of-Thought Explorer Agent
 
@@ -4219,10 +4291,10 @@ The general problem is **branch-and-evaluate planning**: maintaining multiple pl
 
 The tree-of-thought agent expands a branching factor of plausible next moves, evaluates each branch with a value estimator (often the same model in a different role), prunes the low-value branches, and continues expansion only on the survivors. The pattern is the bridge between language-model agents and classical search.
 
-[![Pattern 042 — Agent 18 — The Tree-of-Thought Explorer Agent — The Mechanism](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5deea412be96d299aa48_codex-pattern-042-agent-18-the-tree-of-thought-explorer-agent-the-mechanism.png) (<VPIcon icon="fa-brands fa-linkedin"/>`vahe-aslanyan`)](https://linkedin.com/in/vahe-aslanyan/)
+![Pattern 042 — Agent 18 — The Tree-of-Thought Explorer Agent — The Mechanism](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5deea412be96d299aa48_codex-pattern-042-agent-18-the-tree-of-thought-explorer-agent-the-mechanism.png)
+<!-- TODO: 아래 코드와 같으면 생략 -->
 
-```py
-# planning/tree_of_thought.py
+```py :collapsed-lines title="planning/tree_of_thought.py"
 from dataclasses import dataclass, field
 
 @dataclass
@@ -4337,7 +4409,11 @@ A competitive-pricing agent at a B2B services firm, given a new tender, expands 
 
 Win rate on tenders processed through the agent rose from 14% to 22% measured over six months, with no measurable change in average margin. The agent surfaced strategies the pricing team hadn't previously considered, primarily in the trade-off between price and contract length.
 
-**Pairs with:** Counterfactual Reasoner (Agent 9), Backward Goal-Regression (Agent 22), Self-Consistency Voter (Agent 15).
+::: note Pairs with
+
+Counterfactual Reasoner (Agent 9), Backward Goal-Regression (Agent 22), Self-Consistency Voter (Agent 15).
+
+:::
 
 ### Agent 19 — The Plan-Then-Execute Agent
 
@@ -4359,10 +4435,10 @@ The general problem is **front-loaded planning**: deciding all the actions upfro
 
 The agent produces a complete plan before taking any action: a sequence or DAG of tool calls with expected outcomes. Execution is a separate component that runs the plan with strict typing on inputs and outputs, monitors each step against the expected outcome, and invokes the planner again when deviation exceeds a threshold (which is the Adaptive Replanner, Agent 20).
 
-[![Pattern 043 — Agent 19 — The Plan-Then-Execute Agent — The Mechanism](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5deea412be96d299aa68_codex-pattern-043-agent-19-the-plan-then-execute-agent-the-mechanism.png) (<VPIcon icon="fa-brands fa-linkedin"/>`vahe-aslanyan`)](https://linkedin.com/in/vahe-aslanyan/)
+![Pattern 043 — Agent 19 — The Plan-Then-Execute Agent — The Mechanism](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5deea412be96d299aa68_codex-pattern-043-agent-19-the-plan-then-execute-agent-the-mechanism.png)
+<!-- TODO: 아래 코드와 같으면 생략 -->
 
-```py
-# planning/plan_then_execute.py
+```py :collapsed-lines title="planning/plan_then_execute.py"
 from dataclasses import dataclass, field
 from typing import Literal
 
@@ -4484,7 +4560,11 @@ Each migration touches multiple internal systems and at least one external vendo
 
 The pattern handled approximately 2,800 migrations in its first year with a measured deviation rate of 12% (requiring replanning) and a hard-failure rate of 0.4%.
 
-**Pairs with:** Hierarchical Decomposer (Agent 16), Side-Effect Auditor (Agent 37), Adaptive Replanner (Agent 20).
+::: note Pairs with
+
+Hierarchical Decomposer (Agent 16), Side-Effect Auditor (Agent 37), Adaptive Replanner (Agent 20).
+
+:::
 
 ### Agent 20 — The Adaptive Replanner Agent
 
@@ -4506,10 +4586,10 @@ The general problem is **planning under model-execution mismatch**: detecting wh
 
 The adaptive replanner watches execution against an explicit expected-trajectory model, classifies deviations into recoverable and non-recoverable, applies a replan-trigger policy with hysteresis to prevent thrashing, and hands the new state to the planner with the previous plan and the reason for replanning as context.
 
-[![Pattern 044 — Agent 20 — The Adaptive Replanner Agent — The Mechanism](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5dee0318190b4caf8230_codex-pattern-044-agent-20-the-adaptive-replanner-agent-the-mechanism.png) (<VPIcon icon="fa-brands fa-linkedin"/>`vahe-aslanyan`)](https://linkedin.com/in/vahe-aslanyan/)
+![Pattern 044 — Agent 20 — The Adaptive Replanner Agent — The Mechanism](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5dee0318190b4caf8230_codex-pattern-044-agent-20-the-adaptive-replanner-agent-the-mechanism.png)
+<!-- TODO: 아래 코드와 같으면 생략 -->
 
-```py
-# planning/adaptive_replanner.py
+```py :collapsed-lines title="planning/adaptive_replanner.py"
 from dataclasses import dataclass, field
 
 @dataclass
@@ -4612,7 +4692,11 @@ A multi-leg travel-booking agent at a corporate-travel vendor combines three car
 
 The on-time-rebook rate (the customer's flight changes for which the agent presented a valid alternative before the customer asked) rose from 41% to 88% after the replanner was added.
 
-**Pairs with:** Plan-Then-Execute (Agent 19), Drift Detector (Agent 59), Hierarchical Decomposer (Agent 16).
+::: note Pairs with
+
+Plan-Then-Execute (Agent 19), Drift Detector (Agent 59), Hierarchical Decomposer (Agent 16).
+
+:::
 
 ### Agent 21 — The Resource-Aware Scheduler Agent
 
@@ -4636,10 +4720,10 @@ The general problem is **planning under explicit resource constraints**: produci
 
 The resource-aware scheduler treats the cost of each step as a first-class plan property (model inference cost, tool API cost, latency budget, wall-clock budget) and selects plans that meet the goal within the budget rather than the cheapest plan or the fastest plan.
 
-[![Pattern 045 — Agent 21 — The Resource-Aware Scheduler Agent — The Mechanism](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5deed4332a01a6cd9b48_codex-pattern-045-agent-21-the-resource-aware-scheduler-agent-the-mechanism.png) (<VPIcon icon="fa-brands fa-linkedin"/>`vahe-aslanyan`)](https://linkedin.com/in/vahe-aslanyan/)
+![Pattern 045 — Agent 21 — The Resource-Aware Scheduler Agent — The Mechanism](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5deed4332a01a6cd9b48_codex-pattern-045-agent-21-the-resource-aware-scheduler-agent-the-mechanism.png)
+<!-- TODO: 아래 코드와 같으면 생략 -->
 
-```py
-# planning/resource_scheduler.py
+```py :collapsed-lines title="planning/resource_scheduler.py"
 from dataclasses import dataclass
 
 @dataclass
@@ -4731,7 +4815,11 @@ A research-summarization agent at a research-tools vendor operates under a per-q
 
 The pattern allowed the vendor to offer free-tier users a meaningful product (running on the cached/shallow paths) while reserving expensive paths for paid tiers, with measured quality fall-off of less than 8% from the highest tier on representative queries.
 
-**Pairs with:** Tree-of-Thought Explorer (Agent 18), Auctioneer (Agent 44), Distillation (Agent 51).
+::: note Pairs with
+
+Tree-of-Thought Explorer (Agent 18), Auctioneer (Agent 44), Distillation (Agent 51).
+
+:::
 
 ### Agent 22 — The Backward Goal-Regression Agent
 
@@ -4755,10 +4843,10 @@ The general problem is **goal-directed search asymmetry**: when goals are narrow
 
 Backward goal-regression starts from the goal, applies reverse operators (state-action pairs that could produce a given state via a single action), and stops when the regression touches the current state. The result is a forward plan, derived backward.
 
-[![Pattern 046 — Agent 22 — The Backward Goal-Regression Agent — The Mechanism](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5dee95558221b40f5232_codex-pattern-046-agent-22-the-backward-goal-regression-agent-the-mechanism.png) (<VPIcon icon="fa-brands fa-linkedin"/>`vahe-aslanyan`)](https://linkedin.com/in/vahe-aslanyan/)
+![Pattern 046 — Agent 22 — The Backward Goal-Regression Agent — The Mechanism](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5dee95558221b40f5232_codex-pattern-046-agent-22-the-backward-goal-regression-agent-the-mechanism.png)
+<!-- TODO: 아래 코드와 같으면 생략 -->
 
-```py
-# planning/backward_regression.py
+```py :collapsed-lines title="planning/backward_regression.py"
 from dataclasses import dataclass, field
 from collections import deque
 
@@ -4841,7 +4929,11 @@ A regulatory-compliance agent at a financial-services firm regresses backward fr
 
 The pattern produced 41% smaller task lists than the prior forward-planner baseline (which over-included tasks), and the time from "audit-requirement landed" to "task list available" dropped from a half-day of manual interpretation to under thirty seconds.
 
-**Pairs with:** Constraint-Satisfaction (Agent 11), Symbolic-Neural Bridge (Agent 13), Tree-of-Thought Explorer (Agent 18).
+::: note Pairs with
+
+Constraint-Satisfaction (Agent 11), Symbolic-Neural Bridge (Agent 13), Tree-of-Thought Explorer (Agent 18).
+
+:::
 
 ### Chapter 7 — Deeper Dives
 
@@ -5094,10 +5186,10 @@ The general problem is **typed, queryable history**: making the agent's past int
 
 Structured event capture rather than free-text logging. Time-and-actor indexing as first-class concerns. Eviction policies based on recency-weighted relevance, not pure LRU. A retrieval interface that returns structured events, not free text.
 
-[![Pattern 047 — Agent 23 — The Episodic Buffer Agent — The Mechanism](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5dee3d68cad31e737ecd_codex-pattern-047-agent-23-the-episodic-buffer-agent-the-mechanism.png) (<VPIcon icon="fa-brands fa-linkedin"/>`vahe-aslanyan`)](https://linkedin.com/in/vahe-aslanyan/)
+![Pattern 047 — Agent 23 — The Episodic Buffer Agent — The Mechanism](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5dee3d68cad31e737ecd_codex-pattern-047-agent-23-the-episodic-buffer-agent-the-mechanism.png)
+<!-- TODO: 아래 코드와 같으면 생략 -->
 
-```py
-# memory/episodic.py
+```py :collapsed-lines title="memory/episodic.py"
 from dataclasses import dataclass, field
 from typing import Literal
 from datetime import datetime, timedelta
@@ -5201,7 +5293,11 @@ An executive-assistant agent at a venture-capital firm holds a structured episod
 
 The principal reports that they reduce their preparation time for new meetings by approximately 60% because the agent surfaces the relevant prior touchpoints unprompted.
 
-**Pairs with:** Memory-of-Self (Agent 27), Persistent Identity (Agent 29), Working-Memory Manager (Agent 25).
+::: note Pairs with
+
+Memory-of-Self (Agent 27), Persistent Identity (Agent 29), Working-Memory Manager (Agent 25).
+
+:::
 
 ### Agent 24 — The Semantic Memory Curator Agent
 
@@ -5223,10 +5319,10 @@ The general problem is **promoting recurring patterns into stable knowledge**: t
 
 A promotion policy that decides when an episodic pattern has accumulated enough support to become a semantic fact. An explicit representation of the fact with supporting evidence. A contradiction-detection step that surfaces conflicts when a new candidate fact disagrees with an existing one. A forgetting path when supporting evidence is later invalidated.
 
-[![Pattern 048 — Agent 24 — The Semantic Memory Curator Agent — The Mechanism](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5deee2ab14b936ff3e4d_codex-pattern-048-agent-24-the-semantic-memory-curator-agent-the-mechanism.png) (<VPIcon icon="fa-brands fa-linkedin"/>`vahe-aslanyan`)](https://linkedin.com/in/vahe-aslanyan/)
+![Pattern 048 — Agent 24 — The Semantic Memory Curator Agent — The Mechanism](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5deee2ab14b936ff3e4d_codex-pattern-048-agent-24-the-semantic-memory-curator-agent-the-mechanism.png)
+<!-- TODO: 아래 코드와 같으면 생략 -->
 
-```py
-# memory/semantic.py
+```py :collapsed-lines title="memory/semantic.py"
 from dataclasses import dataclass, field
 from datetime import datetime
 from collections import defaultdict
@@ -5350,7 +5446,11 @@ A sales-coaching agent at a SaaS vendor distills, over a quarter of recorded cal
 
 Coaches report using the resulting semantic profile as their starting point for one-on-ones. The agent's profile is accepted as accurate (no override) approximately 78% of the time.
 
-**Pairs with:** Episodic Buffer (Agent 23), Provenance Tracker (Agent 55), Persistent Identity (Agent 29).
+::: note Pairs with
+
+Episodic Buffer (Agent 23), Provenance Tracker (Agent 55), Persistent Identity (Agent 29).
+
+:::
 
 ### Agent 25 — The Working-Memory Manager Agent
 
@@ -5372,10 +5472,10 @@ The general problem is **per-step prompt composition**: deciding, for each call,
 
 A per-step composition policy that selects context elements by their predicted relevance to the upcoming reasoning. A budget enforced at the composition layer, not discovered at the model boundary. An eviction policy for elements that have sat in context for several steps without being referenced. An instrumentation surface that lets an operator audit what was in context at each step.
 
-[![Pattern 049 — Agent 25 — The Working-Memory Manager Agent — The Mechanism](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5deee2ab14b936ff3e6d_codex-pattern-049-agent-25-the-working-memory-manager-agent-the-mechanism.png) (<VPIcon icon="fa-brands fa-linkedin"/>`vahe-aslanyan`)](https://linkedin.com/in/vahe-aslanyan/)
+![Pattern 049 — Agent 25 — The Working-Memory Manager Agent — The Mechanism](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5deee2ab14b936ff3e6d_codex-pattern-049-agent-25-the-working-memory-manager-agent-the-mechanism.png)
+<!-- TODO: 아래 코드와 같으면 생략 -->
 
-```py
-# memory/working_memory.py
+```py :collapsed-lines title="memory/working_memory.py"
 from dataclasses import dataclass, field
 from typing import Protocol
 from collections import OrderedDict
@@ -5468,7 +5568,11 @@ A long-running research agent at a hedge-fund family rebuilds its context window
 
 The pattern is responsible for the agent's ability to sustain hour-long research sessions on a single goal at roughly 20% of the inference cost of a comparable non-managed-memory baseline (which crossed the model's effective attention threshold and degraded in quality). Operator audits of the per-step working memory revealed the scorer was correctly pinning the goal, current hypothesis, and active datasets, while rotating through documents and intermediate findings as needed.
 
-**Pairs with:** Vector-Store Curator (Agent 28), Forgetting-Policy (Agent 26), Hierarchical Decomposer (Agent 16).
+::: note Pairs with
+
+Vector-Store Curator (Agent 28), Forgetting-Policy (Agent 26), Hierarchical Decomposer (Agent 16).
+
+:::
 
 ### Agent 26 — The Forgetting-Policy Agent
 
@@ -5490,10 +5594,10 @@ The general problem is **principled memory pruning**: applying a retention polic
 
 An explicit relevance-decay function per memory class. A forgetting cadence not driven by storage pressure. An audit trail recording what was forgotten and why so the decision can be reviewed. A recovery interface when something forgotten turns out to be needed.
 
-[![Pattern 050 — Agent 26 — The Forgetting-Policy Agent — The Mechanism](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5def9cbc125a9829d6a2_codex-pattern-050-agent-26-the-forgetting-policy-agent-the-mechanism.png) (<VPIcon icon="fa-brands fa-linkedin"/>`vahe-aslanyan`)](https://linkedin.com/in/vahe-aslanyan/)
+![Pattern 050 — Agent 26 — The Forgetting-Policy Agent — The Mechanism](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5def9cbc125a9829d6a2_codex-pattern-050-agent-26-the-forgetting-policy-agent-the-mechanism.png)
+<!-- TODO: 아래 코드와 같으면 생략 -->
 
-```py
-# memory/forgetting.py
+```py :collapsed-lines title="memory/forgetting.py"
 from dataclasses import dataclass
 from datetime import datetime, timedelta
 from typing import Callable
@@ -5582,7 +5686,11 @@ For agents under strict retention regulations (GDPR right-to-be-forgotten, HIPAA
 
 A personal-finance agent at a consumer-fintech vendor maintains a forgetting policy that discards transaction-level detail after thirty days while preserving aggregate semantic facts (monthly spend patterns, recurring vendors, savings-rate trends). The policy satisfies both retention regulations (the vendor's retention obligation is 30 days for raw transactions, indefinite for aggregates) and product usefulness (the agent's per-user storage stays under 50KB while supporting useful long-term insights).
 
-**Pairs with:** Privacy-Preserving (Agent 57), Drift Detector (Agent 59), Episodic Buffer (Agent 23).
+::: note Pairs with
+
+Privacy-Preserving (Agent 57), Drift Detector (Agent 59), Episodic Buffer (Agent 23).
+
+:::
 
 ### Agent 27 — The Memory-of-Self Agent
 
@@ -5604,10 +5712,10 @@ The general problem is **meta-cognitive grounding**: giving the agent an explici
 
 A structured self-model with explicit fields. An update path triggered by post-task evaluation. A query interface used by other patterns (notably Refusal Calibrator and Skill-Library Builder). A surfaceable explanation of "what I am and am not currently configured to do."
 
-[![Pattern 051 — Agent 27 — The Memory-of-Self Agent — The Mechanism](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5def18437f571ad4faef_codex-pattern-051-agent-27-the-memory-of-self-agent-the-mechanism.png) (<VPIcon icon="fa-brands fa-linkedin"/>`vahe-aslanyan`)](https://linkedin.com/in/vahe-aslanyan/)
+![Pattern 051 — Agent 27 — The Memory-of-Self Agent — The Mechanism](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5def18437f571ad4faef_codex-pattern-051-agent-27-the-memory-of-self-agent-the-mechanism.png)
+<!-- TODO: 아래 코드와 같으면 생략 -->
 
-```py
-# memory/self_model.py
+```py :collapsed-lines title="memory/self_model.py"
 from dataclasses import dataclass, field
 from datetime import datetime
 from collections import defaultdict
@@ -5718,7 +5826,11 @@ A developer-tooling agent at a code-vendor maintains capability records for fift
 
 The pattern reduces "agent did something wrong and we didn't catch it" reports by approximately 60%. The false-refusal rate is acceptable to operators because the agent's explanation makes the basis for declining clear.
 
-**Pairs with:** Refusal Calibrator (Agent 54), Skill-Library Builder (Agent 48), Provenance Tracker (Agent 55).
+::: note Pairs with
+
+Refusal Calibrator (Agent 54), Skill-Library Builder (Agent 48), Provenance Tracker (Agent 55).
+
+:::
 
 #### Reality Check:
 
@@ -5750,10 +5862,10 @@ The general problem is **vector-store-as-system**: treating the retrieval substr
 
 A query-set anchored quality benchmark run on cadence. A re-embedding policy keyed to embedding-model versions rather than to a fixed schedule. A deduplication pass that catches semantic duplicates, not only exact ones. A sharding strategy keyed to access patterns. An alarm path when benchmark quality regresses.
 
-[![Pattern 052 — Agent 28 — The Vector-Store Curator Agent — The Mechanism](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5df4bacc91e216d9276a_codex-pattern-052-agent-28-the-vector-store-curator-agent-the-mechanism.png) (<VPIcon icon="fa-brands fa-linkedin"/>`vahe-aslanyan`)](https://linkedin.com/in/vahe-aslanyan/)
+![Pattern 052 — Agent 28 — The Vector-Store Curator Agent — The Mechanism](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5df4bacc91e216d9276a_codex-pattern-052-agent-28-the-vector-store-curator-agent-the-mechanism.png)
+<!-- TODO: 아래 코드와 같으면 생략 -->
 
-```py
-# memory/vector_curator.py
+```py :collapsed-lines title="memory/vector_curator.py"
 from dataclasses import dataclass, field
 from datetime import datetime, timedelta
 
@@ -5861,7 +5973,11 @@ An enterprise documentation assistant at a global software vendor sees retrieval
 
 Documented benchmark pass-rate at launch: 81%, at month twelve: 89%. Without the curator, internal estimates put the at-month-twelve rate near 70% based on observed degradation patterns elsewhere.
 
-**Pairs with:** Schema-Inference (Agent 7), Drift Detector (Agent 59), Working-Memory Manager (Agent 25).
+::: note Pairs with
+
+Schema-Inference (Agent 7), Drift Detector (Agent 59), Working-Memory Manager (Agent 25).
+
+:::
 
 ### Agent 29 — The Persistent Identity Agent
 
@@ -5883,10 +5999,10 @@ The general problem is **identity stability across surfaces**: maintaining the r
 
 An identity resolver that maps surface identifiers to stable internal IDs. A privacy-respecting policy for which mappings can be persisted. A version-stable serialization of the agent's own identity so its long-term memory survives upgrades. An export-and-deletion path satisfying the user's right to take their history with them or remove it.
 
-[![Pattern 053 — Agent 29 — The Persistent Identity Agent — The Mechanism](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5df48cc36c96237adccc_codex-pattern-053-agent-29-the-persistent-identity-agent-the-mechanism.png) (<VPIcon icon="fa-brands fa-linkedin"/>`vahe-aslanyan`)](https://linkedin.com/in/vahe-aslanyan/)
+![Pattern 053 — Agent 29 — The Persistent Identity Agent — The Mechanism](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5df48cc36c96237adccc_codex-pattern-053-agent-29-the-persistent-identity-agent-the-mechanism.png)
+<!-- TODO: 아래 코드와 같으면 생략 -->
 
-```py
-# memory/identity.py
+```py :collapsed-lines title="memory/identity.py"
 from dataclasses import dataclass, field
 from datetime import datetime
 import hashlib
@@ -6006,7 +6122,11 @@ A customer-success agent at an enterprise B2B vendor recognizes the same enterpr
 
 The pattern is responsible for the agent's measured 38-point improvement in customer-reported "feels like the same agent I talked to last time" satisfaction scores.
 
-**Pairs with:** Ambient Context (Agent 6), Privacy-Preserving (Agent 57), Episodic Buffer (Agent 23).
+::: note Pairs with
+
+Ambient Context (Agent 6), Privacy-Preserving (Agent 57), Episodic Buffer (Agent 23).
+
+:::
 
 ### Chapter 8 — Deeper Dives
 
@@ -6263,10 +6383,10 @@ The general problem is **scalable tool registries**: making large tool collectio
 
 A richly-described tool registry with structured fields beyond a one-line description. An embedding-based first-pass retrieval against a representation of the current task. An exact-match second pass for tools known to be required by the task type. And a fall-through behavior that surfaces "I don't have a tool for this" rather than forcing the policy to fabricate one.
 
-[![Pattern 054 — Agent 30 — The Tool Selector Agent — The Mechanism](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5df518437f571ad4fcb0_codex-pattern-054-agent-30-the-tool-selector-agent-the-mechanism.png) (<VPIcon icon="fa-brands fa-linkedin"/>`vahe-aslanyan`)](https://linkedin.com/in/vahe-aslanyan/)
+![Pattern 054 — Agent 30 — The Tool Selector Agent — The Mechanism](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5df518437f571ad4fcb0_codex-pattern-054-agent-30-the-tool-selector-agent-the-mechanism.png)
+<!-- TODO: 아래 코드와 같으면 생략 -->
 
-```py
-# tools/selector.py
+```py :collapsed-lines title="tools/selector.py"
 from dataclasses import dataclass, field
 
 @dataclass
@@ -6351,7 +6471,11 @@ A B2B operations agent at a logistics-platform vendor maintains a four-hundred-t
 
 Quality measured against full-registry baselines (over a labeled evaluation set the operations team curates monthly) is within 2 percentage points of the impossible-in-production "show all tools" baseline, at roughly one-twentieth the per-step prompt cost.
 
-**Pairs with:** Side-Effect Auditor (Agent 37), Memory-of-Self (Agent 27), API-Schema Adapter (Agent 31).
+::: note Pairs with
+
+Side-Effect Auditor (Agent 37), Memory-of-Self (Agent 27), API-Schema Adapter (Agent 31).
+
+:::
 
 ### Agent 31 — The API-Schema Adapter Agent
 
@@ -6373,10 +6497,10 @@ The general problem is **dynamic tool surfaces**: turning a machine-readable API
 
 A parser that produces typed tool descriptors from OpenAPI (or GraphQL, AsyncAPI, gRPC reflection). A synthesis step that produces natural-language tool descriptions from the parsed schema. An argument-construction guard that validates against the schema before any call is made. An error-recovery path that maps API error responses back to actionable feedback.
 
-[![Pattern 055 — Agent 31 — The API-Schema Adapter Agent — The Mechanism](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5df5bacc91e216d9279e_codex-pattern-055-agent-31-the-api-schema-adapter-agent-the-mechanism.png) (<VPIcon icon="fa-brands fa-linkedin"/>`vahe-aslanyan`)](https://linkedin.com/in/vahe-aslanyan/)
+![Pattern 055 — Agent 31 — The API-Schema Adapter Agent — The Mechanism](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5df5bacc91e216d9279e_codex-pattern-055-agent-31-the-api-schema-adapter-agent-the-mechanism.png)
+<!-- TODO: 아래 코드와 같으면 생략 -->
 
-```py
-# tools/api_adapter.py
+```py :collapsed-lines title="tools/api_adapter.py"
 from dataclasses import dataclass, field
 import jsonschema, requests
 
@@ -6498,7 +6622,11 @@ For APIs where the spec is reliably good (Stripe, GitHub, the big SaaS vendors),
 
 An integration-platform agent at a B2B vendor lets a user say "connect Salesforce and run this query" and turns the request into a validated, schema-typed call against the user's tenant without a developer ever touching the integration. The platform supports approximately 480 distinct APIs via this pattern, with hand-wrapping reserved for the dozen most-used APIs that need richer behavior than the spec alone supports.
 
-**Pairs with:** Schema-Inference (Agent 7), Database Query Synthesizer (Agent 35), Tool Selector (Agent 30).
+::: note Pairs with
+
+Schema-Inference (Agent 7), Database Query Synthesizer (Agent 35), Tool Selector (Agent 30).
+
+:::
 
 ### Agent 32 — The Code-Execution Sandbox Agent
 
@@ -6520,10 +6648,10 @@ The general problem is **safe, reproducible code execution from untrusted-by-con
 
 Per-call ephemeral sandboxes with explicit resource caps. Network egress restricted to an allowlist required for the task. Persistent state shared with the sandbox only via a typed mount. Structured output capture distinct from stdout. A failure classifier that maps sandbox exits to actionable feedback.
 
-[![Pattern 056 — Agent 32 — The Code-Execution Sandbox Agent — The Mechanism](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5df5531a4154e443218e_codex-pattern-056-agent-32-the-code-execution-sandbox-agent-the-mechanism.png) (<VPIcon icon="fa-brands fa-linkedin"/>`vahe-aslanyan`)](https://linkedin.com/in/vahe-aslanyan/)
+![Pattern 056 — Agent 32 — The Code-Execution Sandbox Agent — The Mechanism](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5df5531a4154e443218e_codex-pattern-056-agent-32-the-code-execution-sandbox-agent-the-mechanism.png)
+<!-- TODO: 아래 코드와 같으면 생략 -->
 
-```py
-# tools/sandbox.py
+```py :collapsed-lines title="tools/sandbox.py"
 from dataclasses import dataclass, field
 import subprocess, tempfile, json, os
 from pathlib import Path
@@ -6682,7 +6810,11 @@ A data-analysis agent at a business-intelligence vendor exposes a sandboxed Pyth
 
 The pattern is responsible for the agent handling approximately 70% of ad-hoc analytics requests at customer sites end-to-end.
 
-**Pairs with:** Side-Effect Auditor (Agent 37), Refusal Calibrator (Agent 54), Browser-Driver (Agent 34).
+::: note Pairs with
+
+Side-Effect Auditor (Agent 37), Refusal Calibrator (Agent 54), Browser-Driver (Agent 34).
+
+:::
 
 ### Agent 33 — The Shell-Operator Agent
 
@@ -6704,10 +6836,10 @@ The general problem is **shell access with structural safety**: making shell-dri
 
 A command interpreter that parses and classifies commands before execution. A denylist combined with an allowlist for state-modifying operations. A snapshot policy for the working tree before any state-modifying batch. A confirmation gate that surfaces dangerous operations to the operator at policy-defined risk thresholds.
 
-[![Pattern 057 — Agent 33 — The Shell-Operator Agent — The Mechanism](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5df5c3c147f0711e6993_codex-pattern-057-agent-33-the-shell-operator-agent-the-mechanism.png) (<VPIcon icon="fa-brands fa-linkedin"/>`vahe-aslanyan`)](https://linkedin.com/in/vahe-aslanyan/)
+![Pattern 057 — Agent 33 — The Shell-Operator Agent — The Mechanism](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5df5c3c147f0711e6993_codex-pattern-057-agent-33-the-shell-operator-agent-the-mechanism.png)
+<!-- TODO: 아래 코드와 같으면 생략 -->
 
-```py
-# tools/shell_operator.py
+```py :collapsed-lines title="tools/shell_operator.py"
 from dataclasses import dataclass, field
 import subprocess, shlex, hashlib, tarfile, tempfile, os
 from pathlib import Path
@@ -6827,7 +6959,11 @@ A developer-environment agent at a developer-tools company bootstraps new reposi
 
 The pattern's deployment was credited with eliminating "agent left my machine in a weird state" as a customer complaint category.
 
-**Pairs with:** Code-Execution Sandbox (Agent 32), Side-Effect Auditor (Agent 37), Constitution-Bound (Agent 53).
+::: note Pairs with
+
+Code-Execution Sandbox (Agent 32), Side-Effect Auditor (Agent 37), Constitution-Bound (Agent 53).
+
+:::
 
 ### Agent 34 — The Browser-Driver Agent
 
@@ -6851,10 +6987,10 @@ The general problem is **structured web automation**: operating a real browser a
 
 An accessibility-tree extractor with fallbacks for sites whose ARIA implementation is incomplete. A tree-to-action planner that picks the smallest sequence of interactions to reach the goal. A wait-for-stability discipline before each action. A screenshot-of-record captured at each action for later debugging.
 
-[![Pattern 058 — Agent 34 — The Browser-Driver Agent — The Mechanism](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5df571de2ceb65d919d8_codex-pattern-058-agent-34-the-browser-driver-agent-the-mechanism.png) (<VPIcon icon="fa-brands fa-linkedin"/>`vahe-aslanyan`)](https://linkedin.com/in/vahe-aslanyan/)
+![Pattern 058 — Agent 34 — The Browser-Driver Agent — The Mechanism](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5df571de2ceb65d919d8_codex-pattern-058-agent-34-the-browser-driver-agent-the-mechanism.png)
+<!-- TODO: 아래 코드와 같으면 생략 -->
 
-```py
-# tools/browser_driver.py
+```py :collapsed-lines title="tools/browser_driver.py"
 from dataclasses import dataclass, field
 from typing import Literal
 
@@ -6967,7 +7103,11 @@ A procurement back-office agent at a logistics firm places weekly orders across 
 
 The agent processes approximately 1,400 orders per week with a measured action-success rate of 96%. The 4% of failures escalate to a human operator with the screenshot and tree summary attached.
 
-**Pairs with:** Document Layout (Agent 2), Side-Effect Auditor (Agent 37), Multimodal Grounding (Agent 1) — the vision-based fallback when the accessibility tree is incomplete.
+::: note Pairs with
+
+Document Layout (Agent 2), Side-Effect Auditor (Agent 37), Multimodal Grounding (Agent 1) — the vision-based fallback when the accessibility tree is incomplete.
+
+:::
 
 ### Agent 35 — The Database Query Synthesizer Agent
 
@@ -6982,17 +7122,17 @@ The general problem is **safe and auditable natural-language-to-query translatio
 #### Why Naïve Approaches Fail
 
 1. *"Run whatever the model produces."* Inevitable injection vulnerability, inevitable accuracy problems.
-2. *"Allow only* `SELECT` *queries."* Limits but doesn't prevent damage (a wrong `SELECT` can still produce wrong numbers for downstream decisions).
+2. *"Allow only `SELECT` queries."* Limits but doesn't prevent damage (a wrong `SELECT` can still produce wrong numbers for downstream decisions).
 3. *"Have the model paraphrase the query before running."* Adds a check but doesn't bound the query's safety properties structurally.
 
 #### The Mechanism
 
 Schema introspection at session start with a freshness policy. Query synthesis against a schema-aware grammar rather than free-form text-to-SQL. A static safety check covering read-only enforcement, parameterization, and join-cost bounds. A natural-language explanation produced before execution for user confirmation on consequential queries. A structured result interface that distinguishes data from metadata.
 
-[![Pattern 059 — Agent 35 — The Database Query Synthesizer Agent — The Mechanism](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5df5f32977bfedb072ed_codex-pattern-059-agent-35-the-database-query-synthesizer-agent-the-mechanism.png) (<VPIcon icon="fa-brands fa-linkedin"/>`vahe-aslanyan`)](https://linkedin.com/in/vahe-aslanyan/)
+![Pattern 059 — Agent 35 — The Database Query Synthesizer Agent — The Mechanism](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5df5f32977bfedb072ed_codex-pattern-059-agent-35-the-database-query-synthesizer-agent-the-mechanism.png)
+<!-- TODO: 아래 코드와 같으면 생략 -->
 
-```py
-# tools/db_synthesizer.py
+```py :collapsed-lines title="tools/db_synthesizer.py"
 from dataclasses import dataclass, field
 import sqlparse
 
@@ -7108,7 +7248,11 @@ A self-service analytics product at a mid-sized enterprise replaces approximatel
 
 The user-confirmed accuracy of the explanations (sampled and reviewed) is 91%, and the rate of synthesized queries returning wrong-but-plausible numbers (compared to expert hand-written queries on the same intent) is 3.4%, down from 14% before the safety-check and explanation pattern was added.
 
-**Pairs with:** Schema-Inference (Agent 7), Provenance Tracker (Agent 55), Side-Effect Auditor (Agent 37).
+::: note Pairs with
+
+Schema-Inference (Agent 7), Provenance Tracker (Agent 55), Side-Effect Auditor (Agent 37).
+
+:::
 
 ### Agent 36 — The File-System Curator Agent
 
@@ -7130,10 +7274,10 @@ The general problem is **maintained file-system state**: treating a directory as
 
 A classifier per file type with explicit confidence. A deduplication pass that catches both byte-equal and content-equal files. A search index updated incrementally. A retention policy with both age-based and importance-based decay.
 
-[![Pattern 060 — Agent 36 — The File-System Curator Agent — The Mechanism](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5df5c6a7cb88a5c22c76_codex-pattern-060-agent-36-the-file-system-curator-agent-the-mechanism.png) (<VPIcon icon="fa-brands fa-linkedin"/>`vahe-aslanyan`)](https://linkedin.com/in/vahe-aslanyan/)
+![Pattern 060 — Agent 36 — The File-System Curator Agent — The Mechanism](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5df5c6a7cb88a5c22c76_codex-pattern-060-agent-36-the-file-system-curator-agent-the-mechanism.png)
+<!-- TODO: 아래 코드와 같으면 생략 -->
 
-```py
-# tools/file_curator.py
+```py :collapsed-lines title="tools/file_curator.py"
 from dataclasses import dataclass, field
 from pathlib import Path
 from datetime import datetime, timedelta
@@ -7241,7 +7385,11 @@ A research-engineer's working directory at a research lab is under continuous cu
 
 The directory has been under management for two years and contains approximately 3,400 files. The engineer's reported "I can't find that paper" rate dropped from frequent to nearly zero.
 
-**Pairs with:** Forgetting-Policy (Agent 26), Vector-Store Curator (Agent 28), Privacy-Preserving (Agent 57).
+::: note Pairs with
+
+Forgetting-Policy (Agent 26), Vector-Store Curator (Agent 28), Privacy-Preserving (Agent 57).
+
+:::
 
 ### Agent 37 — The Side-Effect Auditor Agent
 
@@ -7263,10 +7411,10 @@ The general problem is **agent-action reversibility**: making the agent's effect
 
 A mutation classifier that distinguishes read-only from state-modifying tool calls. A pre-action snapshot of the affected external state where snapshotting is possible. A post-action diff captured against the snapshot. An explicit inverse-operation field populated by the tool itself rather than reconstructed. A rollback driver that an operator can invoke at the tool-call or session granularity.
 
-[![Pattern 061 — Agent 37 — The Side-Effect Auditor Agent — The Mechanism](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5df6f43a036859345204_codex-pattern-061-agent-37-the-side-effect-auditor-agent-the-mechanism.png) (<VPIcon icon="fa-brands fa-linkedin"/>`vahe-aslanyan`)](https://linkedin.com/in/vahe-aslanyan/)
+![Pattern 061 — Agent 37 — The Side-Effect Auditor Agent — The Mechanism](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5df6f43a036859345204_codex-pattern-061-agent-37-the-side-effect-auditor-agent-the-mechanism.png)
+<!-- TODO: 아래 코드와 같으면 생략 -->
 
-```py
-# tools/side_effect_auditor.py
+```py :collapsed-lines title="tools/side_effect_auditor.py"
 from dataclasses import dataclass, field
 from datetime import datetime
 from typing import Callable
@@ -7384,7 +7532,11 @@ A workflow-automation agent at a SaaS vendor performed thousands of legitimate f
 
 The post-incident review identified the prompt revision in roughly twelve minutes. Without the auditor, the recovery would have required reconstructing the original values from backups (an exercise the company had estimated, in a previous incident, at six person-days).
 
-**Pairs with:** Shell-Operator (Agent 33), Constitution-Bound (Agent 53), Off-Switch-Compatible (Agent 60).
+::: note Pairs with
+
+Shell-Operator (Agent 33), Constitution-Bound (Agent 53), Off-Switch-Compatible (Agent 60).
+
+:::
 
 ### Chapter 9 — Deeper Dives
 
@@ -7699,10 +7851,10 @@ The general problem is **load-balanced specialist dispatch**: matching tasks to 
 
 A typed task description as the routing input. A registry of specialists with both capability descriptions and historical performance attached. A routing policy that combines task-type matching with load and cost considerations. An "ambiguous task" escape hatch that surfaces to a clarification flow rather than forcing a routing decision under uncertainty.
 
-[![Pattern 062 — Agent 38 — The Router/Dispatcher Agent — The Mechanism](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5def3d68cad31e737f57_codex-pattern-062-agent-38-the-router-dispatcher-agent-the-mechanism.png) (<VPIcon icon="fa-brands fa-linkedin"/>`vahe-aslanyan`)](https://linkedin.com/in/vahe-aslanyan/)
+![Pattern 062 — Agent 38 — The Router/Dispatcher Agent — The Mechanism](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5def3d68cad31e737f57_codex-pattern-062-agent-38-the-router-dispatcher-agent-the-mechanism.png)
+<!-- TODO: 아래 코드와 같으면 생략 -->
 
-```py
-# coordination/router.py
+```py :collapsed-lines title="coordination/router.py"
 from dataclasses import dataclass, field
 from typing import Callable
 
@@ -7792,7 +7944,11 @@ A customer-facing enterprise assistant at a B2B vendor routes between a billing-
 
 Measured accuracy against a labeled evaluation set: 96%. The 4% routing errors most often involved tasks that genuinely overlapped two specialists, and the alternative-specialist list captured the correct second choice in 91% of misrouting cases.
 
-**Pairs with:** Memory-of-Self (Agent 27), Supervisor-Worker (Agent 45), Auctioneer (Agent 44).
+::: note Pairs with
+
+Memory-of-Self (Agent 27), Supervisor-Worker (Agent 45), Auctioneer (Agent 44).
+
+:::
 
 ### Agent 39 — The Debate Moderator Agent
 
@@ -7816,10 +7972,10 @@ The pattern is particularly strong on questions where the failure mode is **over
 
 A strict turn protocol with a fixed budget of exchanges. Role assignments that bias the two reasoners toward opposing positions. A judge component that scores the debate against rubric-based criteria. A fallback that surfaces unresolved debate (rather than fabricating a resolution) when no clear winner emerges.
 
-[![Pattern 063 — Agent 39 — The Debate Moderator Agent — The Mechanism](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5def3d68cad31e737f88_codex-pattern-063-agent-39-the-debate-moderator-agent-the-mechanism.png) (<VPIcon icon="fa-brands fa-linkedin"/>`vahe-aslanyan`)](https://linkedin.com/in/vahe-aslanyan/)
+![Pattern 063 — Agent 39 — The Debate Moderator Agent — The Mechanism](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5def3d68cad31e737f88_codex-pattern-063-agent-39-the-debate-moderator-agent-the-mechanism.png)
+<!-- TODO: 아래 코드와 같으면 생략 -->
 
-```py
-# coordination/debate_moderator.py
+```py :collapsed-lines title="coordination/debate_moderator.py"
 from dataclasses import dataclass, field
 
 @dataclass
@@ -7941,7 +8097,11 @@ Use the pattern on genuinely contestable questions. For factual lookups, prefer 
 
 An investment-research agent at a long-short fund gates buy-versus-pass questions through a two-turn debate between a bull-stance and a bear-stance instance of the same underlying model. The moderator's verdict feeds the analyst's brief. Decisions where the moderator returned `winner=null` (genuine ambiguity) were sized roughly half the typical position and outperformed both confidence buckets in the 18 months post-deployment. The pattern's contribution to risk-adjusted returns was attributed to better sizing of ambiguous opportunities rather than improvement in directional calls.
 
-**Pairs with:** Self-Consistency Voter (Agent 15), Red-Team Auditor (Agent 56), Consensus-Builder (Agent 40).
+::: note Pairs with
+
+Self-Consistency Voter (Agent 15), Red-Team Auditor (Agent 56), Consensus-Builder (Agent 40).
+
+:::
 
 ### Agent 40 — The Consensus-Builder Agent
 
@@ -7963,10 +8123,10 @@ The general problem is **structural-disagreement aggregation**: combining output
 
 A parser that maps each candidate output to a structured representation. An agreement-and-disagreement decomposition over the structure. An aggregation policy that handles partial agreement (keep agreed parts verbatim, flag disagreed parts with each candidate's position). A surfacing layer that distinguishes consensus from imposed conclusion.
 
-[![Pattern 064 — Agent 40 — The Consensus-Builder Agent — The Mechanism](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5def8cc36c96237ada62_codex-pattern-064-agent-40-the-consensus-builder-agent-the-mechanism.png) (<VPIcon icon="fa-brands fa-linkedin"/>`vahe-aslanyan`)](https://linkedin.com/in/vahe-aslanyan/)
+![Pattern 064 — Agent 40 — The Consensus-Builder Agent — The Mechanism](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5def8cc36c96237ada62_codex-pattern-064-agent-40-the-consensus-builder-agent-the-mechanism.png)
+<!-- TODO: 아래 코드와 같으면 생략 -->
 
-```py
-# coordination/consensus.py
+```py :collapsed-lines title="coordination/consensus.py"
 from dataclasses import dataclass, field
 from collections import defaultdict
 
@@ -8080,7 +8240,11 @@ A medical-decision-support tool at a hospital system runs the same clinical ques
 
 Adoption studies showed clinicians valued the *disagreement* information at least as much as the consensus. The tool's primary value was surfacing cases where the policy bases disagreed, which historically had been invisible to the clinician.
 
-**Pairs with:** Debate Moderator (Agent 39), Provenance Tracker (Agent 55), Pipeline Orchestrator (Agent 41).
+::: note Pairs with
+
+Debate Moderator (Agent 39), Provenance Tracker (Agent 55), Pipeline Orchestrator (Agent 41).
+
+:::
 
 ### Agent 41 — The Pipeline Orchestrator Agent
 
@@ -8102,10 +8266,10 @@ The general problem is **typed multi-stage agent composition**: making the order
 
 Stage definitions with typed input and output schemas. A topology specification separable from the stages themselves. Per-stage retry and fallback policies. Inter-stage tracing with explicit span boundaries. A back-pressure mechanism for stages that can't keep up with their predecessors.
 
-[![Pattern 065 — Agent 41 — The Pipeline Orchestrator Agent — The Mechanism](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5def71de2ceb65d916ea_codex-pattern-065-agent-41-the-pipeline-orchestrator-agent-the-mechanism.png) (<VPIcon icon="fa-brands fa-linkedin"/>`vahe-aslanyan`)](https://linkedin.com/in/vahe-aslanyan/)
+![Pattern 065 — Agent 41 — The Pipeline Orchestrator Agent — The Mechanism](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5def71de2ceb65d916ea_codex-pattern-065-agent-41-the-pipeline-orchestrator-agent-the-mechanism.png)
+<!-- TODO: 아래 코드와 같으면 생략 -->
 
-```py
-# coordination/pipeline.py
+```py :collapsed-lines title="coordination/pipeline.py"
 from dataclasses import dataclass, field
 from typing import Callable, Any, Literal
 import jsonschema
@@ -8222,7 +8386,11 @@ A content-publishing workflow at a media company pipelines a research agent (usi
 
 The pipeline composes roughly eight production patterns in the process and produces publishable drafts inside a defined twenty-minute envelope for 87% of inputs. The remaining 13% are flagged for editorial review with the specific stage and reason exposed.
 
-**Pairs with:** Plan-Then-Execute (Agent 19), Provenance Tracker (Agent 55), Supervisor-Worker (Agent 45).
+::: note Pairs with
+
+Plan-Then-Execute (Agent 19), Provenance Tracker (Agent 55), Supervisor-Worker (Agent 45).
+
+:::
 
 ### Agent 42 — The Human-in-the-Loop Liaison Agent
 
@@ -8246,10 +8414,10 @@ The general problem is **structured human intervention**: making human input a t
 
 Decision-point declarations attached to plan steps or tool calls rather than to whole sessions. A structured-question template that elicits the input the agent needs. A defined waiting policy (block, time-out, default-and-flag, ask-asynchronously). A re-entry path that resumes the agent from the exact state at which the human was consulted, with the human's input bound into the resumed state.
 
-[![Pattern 066 — Agent 42 — The Human-in-the-Loop Liaison Agent — The Mechanism](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5def3d68cad31e737fd4_codex-pattern-066-agent-42-the-human-in-the-loop-liaison-agent-the-mechanism.png) (<VPIcon icon="fa-brands fa-linkedin"/>`vahe-aslanyan`)](https://linkedin.com/in/vahe-aslanyan/)
+![Pattern 066 — Agent 42 — The Human-in-the-Loop Liaison Agent — The Mechanism](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5def3d68cad31e737fd4_codex-pattern-066-agent-42-the-human-in-the-loop-liaison-agent-the-mechanism.png)
+<!-- TODO: 아래 코드와 같으면 생략 -->
 
-```py
-# coordination/hitl_liaison.py
+```py :collapsed-lines title="coordination/hitl_liaison.py"
 from dataclasses import dataclass, field
 from datetime import datetime, timedelta
 from enum import Enum
@@ -8365,7 +8533,11 @@ A contract-redlining agent at a corporate-legal department escalates each non-st
 
 The pattern allowed the team to redline approximately 4× the contract volume per lawyer per quarter, with measured downstream-issue rates equal to or lower than the all-human baseline.
 
-**Pairs with:** Constitution-Bound (Agent 53), Episodic Buffer (Agent 23), Active Learner (Agent 52).
+::: note Pairs with
+
+Constitution-Bound (Agent 53), Episodic Buffer (Agent 23), Active Learner (Agent 52).
+
+:::
 
 ### Agent 43 — The Negotiation Agent
 
@@ -8389,10 +8561,10 @@ The general problem is **inter-principal bargaining**: producing outcomes that a
 
 An explicit utility-function representation for each negotiating agent. A protocol with bounded rounds and explicit moves (propose, accept, reject, counter, reveal). A reservation-value model that prevents the agent from accepting trivially against its own interests. A transcript that is auditable by the principal afterward.
 
-[![Pattern 067 — Agent 43 — The Negotiation Agent — The Mechanism](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5df03d68cad31e737ff7_codex-pattern-067-agent-43-the-negotiation-agent-the-mechanism.png) (<VPIcon icon="fa-brands fa-linkedin"/>`vahe-aslanyan`)](https://linkedin.com/in/vahe-aslanyan/)
+![Pattern 067 — Agent 43 — The Negotiation Agent — The Mechanism](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5df03d68cad31e737ff7_codex-pattern-067-agent-43-the-negotiation-agent-the-mechanism.png)
+<!-- TODO: 아래 코드와 같으면 생략 -->
 
-```py
-# coordination/negotiation.py
+```py :collapsed-lines title="coordination/negotiation.py"
 from dataclasses import dataclass, field
 from typing import Callable
 from enum import Enum
@@ -8518,7 +8690,11 @@ A cross-organizational scheduling agent at a venture firm negotiates meeting tim
 
 Resolution time per meeting dropped from a median of 3.4 days (human email back-and-forth) to 17 minutes (agent-to-agent), with measured participant satisfaction (post-meeting survey) unchanged or slightly higher.
 
-**Pairs with:** Constraint-Satisfaction (Agent 11), Auctioneer (Agent 44), Provenance Tracker (Agent 55).
+::: note Pairs with
+
+Constraint-Satisfaction (Agent 11), Auctioneer (Agent 44), Provenance Tracker (Agent 55).
+
+:::
 
 ### Agent 44 — The Auctioneer Agent
 
@@ -8542,10 +8718,10 @@ The general problem is **decentralized task allocation**: matching tasks to work
 
 A task-announcement protocol that includes both the task and the bid-evaluation criteria. A bidder registry with bidding budgets to prevent runaway specialization. A winner-selection rule with explicit tie-breaking. A settlement step that updates each bidder's history and budget.
 
-[![Pattern 068 — Agent 44 — The Auctioneer Agent — The Mechanism](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5df0de598c27fe392509_codex-pattern-068-agent-44-the-auctioneer-agent-the-mechanism.png) (<VPIcon icon="fa-brands fa-linkedin"/>`vahe-aslanyan`)](https://linkedin.com/in/vahe-aslanyan/)
+![Pattern 068 — Agent 44 — The Auctioneer Agent — The Mechanism](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5df0de598c27fe392509_codex-pattern-068-agent-44-the-auctioneer-agent-the-mechanism.png)
+<!-- TODO: 아래 코드와 같으면 생략 -->
 
-```py
-# coordination/auctioneer.py
+```py :collapsed-lines title="coordination/auctioneer.py"
 from dataclasses import dataclass, field
 from datetime import datetime
 
@@ -8653,7 +8829,11 @@ A multi-region research agent platform at a research vendor's internal organizat
 
 The auctioneer pattern (compared to the prior round-robin baseline) improved measured task-completion quality by 12% (matching tasks to specialists with relevant historical success) while reducing the most-loaded specialist's queue length by 60% (because the bidding-budget mechanism prevents winner-takes-all).
 
-**Pairs with:** Resource-Aware Scheduler (Agent 21), Supervisor-Worker (Agent 45), Router (Agent 38).
+::: note Pairs with
+
+Resource-Aware Scheduler (Agent 21), Supervisor-Worker (Agent 45), Router (Agent 38).
+
+:::
 
 ### Agent 45 — The Supervisor-Worker Agent
 
@@ -8677,10 +8857,10 @@ The general problem is **embarrassingly-parallel agent work**: making the parall
 
 A work-unit schema that's independently dispatchable. A pool with explicit concurrency limits. A per-unit timeout and retry policy distinct from the pool-level policy. A partial-result aggregation strategy. An idempotency guarantee on the worker side so retries don't produce duplicate effects.
 
-[![Pattern 069 — Agent 45 — The Supervisor-Worker Agent — The Mechanism](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5df0de598c27fe392529_codex-pattern-069-agent-45-the-supervisor-worker-agent-the-mechanism.png) (<VPIcon icon="fa-brands fa-linkedin"/>`vahe-aslanyan`)](https://linkedin.com/in/vahe-aslanyan/)
+![Pattern 069 — Agent 45 — The Supervisor-Worker Agent — The Mechanism](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5df0de598c27fe392529_codex-pattern-069-agent-45-the-supervisor-worker-agent-the-mechanism.png)
+<!-- TODO: 아래 코드와 같으면 생략 -->
 
-```py
-# coordination/supervisor_worker.py
+```py :collapsed-lines title="coordination/supervisor_worker.py"
 from dataclasses import dataclass, field
 from typing import Callable, TypeVar, Generic
 import asyncio
@@ -8776,7 +8956,11 @@ A document-processing agent at a tax-services firm ingests a thousand-document b
 
 Batch completion latency dropped from 4.5 hours (sequential) to 11 minutes (parallel), with a 99.1% per-unit success rate and a structured human-escalation path for the rest.
 
-**Pairs with:** Side-Effect Auditor (Agent 37), Pipeline Orchestrator (Agent 41), Auctioneer (Agent 44).
+::: note Pairs with
+
+Side-Effect Auditor (Agent 37), Pipeline Orchestrator (Agent 41), Auctioneer (Agent 44).
+
+:::
 
 ### Chapter 10 — Deeper Dives
 
@@ -9068,10 +9252,10 @@ The general problem is **production-time learning from corrections**: turning us
 
 A correction-capture step that records what the agent produced, what the user wanted, and the user's hint at why. A case-similarity index that retrieves the most relevant prior corrections when a new case arrives. An in-context injection that surfaces the retrieved corrections to the policy as guidance. A contradiction-detection step when newly-arrived corrections disagree with older ones.
 
-[![Pattern 070 — Agent 46 — The Feedback Loop Agent — The Mechanism](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5df006b2c784575c33f3_codex-pattern-070-agent-46-the-feedback-loop-agent-the-mechanism.png) (<VPIcon icon="fa-brands fa-linkedin"/>`vahe-aslanyan`)](https://linkedin.com/in/vahe-aslanyan/)
+![Pattern 070 — Agent 46 — The Feedback Loop Agent — The Mechanism](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5df006b2c784575c33f3_codex-pattern-070-agent-46-the-feedback-loop-agent-the-mechanism.png)
+<!-- TODO: 아래 코드와 같으면 생략 -->
 
-```py
-# learning/feedback_loop.py
+```py :collapsed-lines title="learning/feedback_loop.py"
 from dataclasses import dataclass, field
 from datetime import datetime
 
@@ -9160,7 +9344,11 @@ For environments where users won't provide corrections in a structured way, infe
 
 A sales-email-drafting agent at an outbound-sales platform sees its hit rate on accepted drafts climb from 60% to 85% over its first month entirely through feedback-loop conditioning, with no underlying model changes. Each rejected draft is captured with a structured "what I'd change" form filled in by the rep. The resulting corrections are retrieved and surfaced on similar future drafts. The product team explicitly doesn't retrain the model. The entire improvement is via context.
 
-**Pairs with:** Skill-Library Builder (Agent 48), Active Learner (Agent 52), Few-Shot Prompt Tuner (Agent 50).
+::: note Pairs with
+
+Skill-Library Builder (Agent 48), Active Learner (Agent 52), Few-Shot Prompt Tuner (Agent 50).
+
+:::
 
 ### Agent 47 — The Reflection Agent
 
@@ -9184,10 +9372,10 @@ The general problem is **single-pass quality ceiling**: outputs that are reasona
 
 A critic prompt that names specific failure modes for the task class rather than asking for generic feedback. A revision step that takes both the original output and the critique as input. A stopping condition (typically one or two rounds). A comparison surface that exposes the original and revised versions to the operator so the value of reflection is measurable.
 
-[![Pattern 071 — Agent 47 — The Reflection Agent — The Mechanism](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5df06c87334148154cce_codex-pattern-071-agent-47-the-reflection-agent-the-mechanism.png) (<VPIcon icon="fa-brands fa-linkedin"/>`vahe-aslanyan`)](https://linkedin.com/in/vahe-aslanyan/)
+![Pattern 071 — Agent 47 — The Reflection Agent — The Mechanism](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5df06c87334148154cce_codex-pattern-071-agent-47-the-reflection-agent-the-mechanism.png)
+<!-- TODO: 아래 코드와 같으면 생략 -->
 
-```py
-# learning/reflection.py
+```py :collapsed-lines title="learning/reflection.py"
 from dataclasses import dataclass
 
 @dataclass
@@ -9294,7 +9482,11 @@ For very high-stakes outputs, more rounds and more aggressive criticism help up 
 
 A code-review agent at a developer-tooling vendor routes first-pass comments through a reflection step keyed to the failure modes "false-positive style nitpick" and "missed real bug despite plausible-looking comment." The reflection catches roughly one in four false positives before they reach the developer, dramatically improving signal-to-noise as measured by per-comment thumbs-up rates (which rose from 31% to 67% over a quarter).
 
-**Pairs with:** Chain-of-Thought Auditor (Agent 8), Red-Team Auditor (Agent 56), Self-Consistency Voter (Agent 15).
+::: note Pairs with
+
+Chain-of-Thought Auditor (Agent 8), Red-Team Auditor (Agent 56), Self-Consistency Voter (Agent 15).
+
+:::
 
 ### Agent 48 — The Skill-Library Builder Agent
 
@@ -9316,10 +9508,10 @@ The general problem is **procedural memory accumulation**: turning successful ac
 
 A trace-extraction step that identifies coherent sub-procedures within longer sessions. An abstraction step that lifts concrete arguments to typed parameters. A deduplication step that catches near-duplicate skills. A usefulness ranking that prunes rarely-used skills. Exposure of the resulting skills through the tool registry so the policy treats them like any other tool.
 
-[![Pattern 072 — Agent 48 — The Skill-Library Builder Agent — The Mechanism](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5df6e06dd9d9b178f30d_codex-pattern-072-agent-48-the-skill-library-builder-agent-the-mechanism.png) (<VPIcon icon="fa-brands fa-linkedin"/>`vahe-aslanyan`)](https://linkedin.com/in/vahe-aslanyan/)
+![Pattern 072 — Agent 48 — The Skill-Library Builder Agent — The Mechanism](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5df6e06dd9d9b178f30d_codex-pattern-072-agent-48-the-skill-library-builder-agent-the-mechanism.png)
+<!-- TODO: 아래 코드와 같으면 생략 -->
 
-```py
-# learning/skill_library.py
+```py :collapsed-lines title="learning/skill_library.py"
 from dataclasses import dataclass, field
 from datetime import datetime
 
@@ -9436,7 +9628,11 @@ For environments where successful procedures don't repeat (every problem is genu
 
 A data-engineering co-pilot at a large data-platform team accumulated a skill library of 247 typed skills covering the team's most common operations (for example, "deduplicate-by-key-and-keep-most-recent," "join-table-set-with-conflict-resolution," "publish-dashboard-to-tenant") over six months in production. Skills with success rates below 0.5 were pruned automatically. The remaining set reduced median task-completion latency by 38% on familiar tasks, and the skill names became part of the team's working vocabulary for talking about the work.
 
-**Pairs with:** Analogical Mapping (Agent 10), Memory-of-Self (Agent 27), Feedback Loop (Agent 46).
+::: note Pairs with
+
+Analogical Mapping (Agent 10), Memory-of-Self (Agent 27), Feedback Loop (Agent 46).
+
+:::
 
 #### Reality Check
 
@@ -9466,10 +9662,10 @@ The general problem is **order-of-experience optimization**: deciding which case
 
 An explicit difficulty model for each case. An estimate of the agent's current proficiency that updates as the curriculum progresses. A scheduling policy that draws the next case from the boundary between mastered and unmastered. A checkpointing discipline so the curriculum can be rewound if the agent's proficiency regresses.
 
-[![Pattern 073 — Agent 49 — The Curriculum Designer Agent — The Mechanism](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5df6c3c147f0711e6a52_codex-pattern-073-agent-49-the-curriculum-designer-agent-the-mechanism.png) (<VPIcon icon="fa-brands fa-linkedin"/>`vahe-aslanyan`)](https://linkedin.com/in/vahe-aslanyan/)
+![Pattern 073 — Agent 49 — The Curriculum Designer Agent — The Mechanism](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5df6c3c147f0711e6a52_codex-pattern-073-agent-49-the-curriculum-designer-agent-the-mechanism.png)
+<!-- TODO: 아래 코드와 같으면 생략 -->
 
-```py
-# learning/curriculum.py
+```py :collapsed-lines title="learning/curriculum.py"
 from dataclasses import dataclass, field
 from datetime import datetime
 import math
@@ -9568,7 +9764,11 @@ For situations where you have explicit human-labeled difficulties (an educationa
 
 A fine-tuning pipeline at a domain-specialist vendor produced a task-accuracy improvement equivalent to the random-order baseline with roughly 40% of the training data, via curriculum-designed case ordering. The savings on training-data acquisition (which was expert-labeled and expensive) was material — roughly $180,000 per training cycle, with three cycles per year.
 
-**Pairs with:** Active Learner (Agent 52), Distillation (Agent 51), Memory-of-Self (Agent 27).
+::: note Pairs with
+
+Active Learner (Agent 52), Distillation (Agent 51), Memory-of-Self (Agent 27).
+
+:::
 
 ### Agent 50 — The Few-Shot Prompt Tuner Agent
 
@@ -9592,10 +9792,10 @@ The general problem is **per-call example selection**: making the in-context exa
 
 A curated example pool with structured labels covering both task type and the dimension along which each example is instructive. A per-task selector that retrieves examples by structural similarity, not text similarity. An ordering rule that places the most-similar example last (or first, depending on the model's recency bias). An evaluation harness that measures the quality impact of selection against a fixed-example baseline.
 
-[![Pattern 074 — Agent 50 — The Few-Shot Prompt Tuner Agent — The Mechanism](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5df606b2c784575c3660_codex-pattern-074-agent-50-the-few-shot-prompt-tuner-agent-the-mechanism.png) (<VPIcon icon="fa-brands fa-linkedin"/>`vahe-aslanyan`)](https://linkedin.com/in/vahe-aslanyan/)
+![Pattern 074 — Agent 50 — The Few-Shot Prompt Tuner Agent — The Mechanism](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5df606b2c784575c3660_codex-pattern-074-agent-50-the-few-shot-prompt-tuner-agent-the-mechanism.png)
+<!-- TODO: 아래 코드와 같으면 생략 -->
 
-```py
-# learning/few_shot_tuner.py
+```py :collapsed-lines title="learning/few_shot_tuner.py"
 from dataclasses import dataclass, field
 
 @dataclass
@@ -9682,7 +9882,11 @@ The pattern's value scales with pool size and pool diversity. A pool of ten exam
 
 A structured-extraction agent at a healthcare-claims vendor improved its accuracy on a benchmark task by 12 percentage points purely by replacing a static three-example prompt with a dynamic-selection pool of forty examples. The selector cost per call is roughly two milliseconds, the model cost per call is unchanged, and the accuracy improvement was material enough that the vendor was able to raise the agent's confidence-threshold for auto-approval, eliminating roughly 8% of human-review work.
 
-**Pairs with:** Analogical Mapping (Agent 10), Feedback Loop (Agent 46), Curriculum Designer (Agent 49).
+::: note Pairs with
+
+Analogical Mapping (Agent 10), Feedback Loop (Agent 46), Curriculum Designer (Agent 49).
+
+:::
 
 ### Agent 51 — The Distillation Agent
 
@@ -9704,10 +9908,10 @@ The general problem is **production-time model compression**: turning expensive 
 
 A sampling policy that selects production cases representative of the deployment distribution. A teacher-output capture step that records both the answer and the reasoning trace. A filtering pass that excludes low-quality teacher outputs based on agreement with self-consistency or auditor checks. A training pipeline for the student model. An evaluation step that compares the student to the teacher on held-out cases.
 
-[![Pattern 075 — Agent 51 — The Distillation Agent — The Mechanism](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5df606b2c784575c368d_codex-pattern-075-agent-51-the-distillation-agent-the-mechanism.png) (<VPIcon icon="fa-brands fa-linkedin"/>`vahe-aslanyan`)](https://linkedin.com/in/vahe-aslanyan/)
+![Pattern 075 — Agent 51 — The Distillation Agent — The Mechanism](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5df606b2c784575c368d_codex-pattern-075-agent-51-the-distillation-agent-the-mechanism.png)
+<!-- TODO: 아래 코드와 같으면 생략 -->
 
-```py
-# learning/distillation.py
+```py :collapsed-lines title="learning/distillation.py"
 from dataclasses import dataclass, field
 from datetime import datetime, timedelta
 import random
@@ -9806,7 +10010,11 @@ A content-moderation agent at a social platform initially deployed a frontier mo
 
 Distillation runs are quarterly, with sampling at 3% of production traffic and a quality floor of teacher-confidence 0.97. Roughly 60% of captured samples pass the filter into training. The savings (approximately $1.4M per year at the platform's volume) is the entirety of the distillation team's funding.
 
-**Pairs with:** Curriculum Designer (Agent 49), Drift Detector (Agent 59), Self-Consistency Voter (Agent 15).
+::: note Pairs with
+
+Curriculum Designer (Agent 49), Drift Detector (Agent 59), Self-Consistency Voter (Agent 15).
+
+:::
 
 ### Agent 52 — The Active Learner Agent
 
@@ -9830,10 +10038,10 @@ The general problem is **labeling-budget allocation**: deciding which examples a
 
 An uncertainty estimate per case that goes beyond model logits (combines self-consistency disagreement, retrieval confidence, historical accuracy on similar cases). A selection policy that targets cases at the boundary between mastered and unmastered. A budgeted-queue discipline that respects the human labeler's capacity. An integration path that flows labeled cases back into the feedback-loop store.
 
-[![Pattern 076 — Agent 52 — The Active Learner Agent — The Mechanism](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5df6a412be96d299ae47_codex-pattern-076-agent-52-the-active-learner-agent-the-mechanism.png) (<VPIcon icon="fa-brands fa-linkedin"/>`vahe-aslanyan`)](https://linkedin.com/in/vahe-aslanyan/)
+![Pattern 076 — Agent 52 — The Active Learner Agent — The Mechanism](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5df6a412be96d299ae47_codex-pattern-076-agent-52-the-active-learner-agent-the-mechanism.png)
+<!-- TODO: 아래 코드와 같으면 생략 -->
 
-```py
-# learning/active_learner.py
+```py :collapsed-lines title="learning/active_learner.py"
 from dataclasses import dataclass, field
 from datetime import datetime
 
@@ -9923,7 +10131,11 @@ For cold-start situations (no historical successes or failures to compare agains
 
 A document-classification agent at a regulatory-compliance vendor reduced its human-labeling budget by 60% while maintaining accuracy, by routing only active-learner-selected cases to the labelers. The selected cases (top 50 per day from a pool of roughly 1,200 daily uncertain cases) covered the agent's actual learning boundary. The labeling team's reported "interesting case rate" rose from 18% to 71%, and the resulting agent improvements were measured against the older random-sampling baseline as roughly 3× faster convergence per labeled case.
 
-**Pairs with:** Feedback Loop (Agent 46), Probabilistic Belief Updater (Agent 14), Curriculum Designer (Agent 49).
+::: note Pairs with
+
+Feedback Loop (Agent 46), Probabilistic Belief Updater (Agent 14), Curriculum Designer (Agent 49).
+
+:::
 
 ### Chapter 11 — Deeper Dives
 
@@ -10195,10 +10407,10 @@ The general problem is **structural rule enforcement**: ensuring that the agent'
 
 A constitution that's human-readable but also machine-evaluable. A per-action evaluation step that runs before the action is executed. A refusal output that names the specific constitutional clause violated rather than a vague decline. An exception-request path through which an operator can grant a one-off override.
 
-[![Pattern 077 — Agent 53 — The Constitution-Bound Agent — The Mechanism](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5df7a412be96d299ae67_codex-pattern-077-agent-53-the-constitution-bound-agent-the-mechanism.png) (<VPIcon icon="fa-brands fa-linkedin"/>`vahe-aslanyan`)](https://linkedin.com/in/vahe-aslanyan/)
+![Pattern 077 — Agent 53 — The Constitution-Bound Agent — The Mechanism](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5df7a412be96d299ae67_codex-pattern-077-agent-53-the-constitution-bound-agent-the-mechanism.png)
+<!-- TODO: 아래 코드와 같으면 생략 -->
 
-```py
-# alignment/constitution.py
+```py :collapsed-lines title="alignment/constitution.py"
 from dataclasses import dataclass, field
 from typing import Callable
 from enum import Enum
@@ -10317,7 +10529,11 @@ A procurement-execution agent at a manufacturing firm has a constitution explici
 
 The audit log over the first year shows zero constitutional violations (caught and rolled back) and approximately 2,400 approval requests (median time-to-approval: 12 minutes). The agent never executed an order that violated the constitution.
 
-**Pairs with:** Side-Effect Auditor (Agent 37), Off-Switch-Compatible (Agent 60), Refusal Calibrator (Agent 54).
+::: note Pairs with
+
+Side-Effect Auditor (Agent 37), Off-Switch-Compatible (Agent 60), Refusal Calibrator (Agent 54).
+
+:::
 
 ### Agent 54 — The Refusal-Calibrator Agent
 
@@ -10339,10 +10555,10 @@ The general problem is **measurable refusal behavior**: ensuring the agent's ref
 
 A refusal taxonomy that distinguishes safety, capability, policy, and identity-based refusals. A per-request classifier that maps the request into the taxonomy and produces a calibrated response. A qualification path that allows the agent to partially answer with explicit caveats. A measurement harness that evaluates the agent's refusal behavior against a labeled evaluation set on a regular cadence.
 
-[![Pattern 078 — Agent 54 — The Refusal-Calibrator Agent — The Mechanism](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5df70318190b4caf85a8_codex-pattern-078-agent-54-the-refusal-calibrator-agent-the-mechanism.png) (<VPIcon icon="fa-brands fa-linkedin"/>`vahe-aslanyan`)](https://linkedin.com/in/vahe-aslanyan/)
+![Pattern 078 — Agent 54 — The Refusal-Calibrator Agent — The Mechanism](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5df70318190b4caf85a8_codex-pattern-078-agent-54-the-refusal-calibrator-agent-the-mechanism.png)
+<!-- TODO: 아래 코드와 같으면 생략 -->
 
-```py
-# alignment/refusal_calibrator.py
+```py :collapsed-lines title="alignment/refusal_calibrator.py"
 from dataclasses import dataclass, field
 from enum import Enum
 
@@ -10466,7 +10682,11 @@ The measurement harness is the critical companion. Without measuring refusal beh
 
 A customer-facing agent at a B2C vendor brought its refusal rate from 8% (pre-calibrator) to 3% and its false-comply rate from 1% to under 0.1% (where "false-comply" is measured against a labeled adversarial test set). The calibrator measurement runs monthly, and thresholds are adjusted quarterly based on the false-refusal and false-comply rate observed.
 
-**Pairs with:** Memory-of-Self (Agent 27), Constitution-Bound (Agent 53), Red-Team Auditor (Agent 56).
+::: note Pairs with
+
+Memory-of-Self (Agent 27), Constitution-Bound (Agent 53), Red-Team Auditor (Agent 56).
+
+:::
 
 ### Agent 55 — The Provenance Tracker Agent
 
@@ -10488,10 +10708,10 @@ The general problem is **end-to-end claim attribution**: tracing every load-bear
 
 A claim-detection step that segments the agent's output into load-bearing claims rather than treating the output as monolithic. A per-claim source identification that traces back to the observation or computation that produced it. An in-output rendering of provenance the downstream consumer can use. An unsupported-claim refusal — the pattern is allowed to remove claims it can't trace, but not to fabricate provenance for them.
 
-[![Pattern 079 — Agent 55 — The Provenance Tracker Agent — The Mechanism](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5df70318190b4caf85c8_codex-pattern-079-agent-55-the-provenance-tracker-agent-the-mechanism.png) (<VPIcon icon="fa-brands fa-linkedin"/>`vahe-aslanyan`)](https://linkedin.com/in/vahe-aslanyan/)
+![Pattern 079 — Agent 55 — The Provenance Tracker Agent — The Mechanism](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5df70318190b4caf85c8_codex-pattern-079-agent-55-the-provenance-tracker-agent-the-mechanism.png)
+<!-- TODO: 아래 코드와 같으면 생략 -->
 
-```py
-# alignment/provenance.py
+```py :collapsed-lines title="alignment/provenance.py"
 from dataclasses import dataclass, field
 from enum import Enum
 
@@ -10615,7 +10835,11 @@ A legal-research agent at a mid-sized firm ships drafts with every citation hype
 
 The pattern's primary value isn't preventing the agent from being wrong (the agent is occasionally wrong) but preventing the agent from being wrong in a way the user can't detect.
 
-**Pairs with:** Document Layout (Agent 2), Semantic Memory Curator (Agent 24), Database Query Synthesizer (Agent 35).
+::: note Pairs with
+
+Document Layout (Agent 2), Semantic Memory Curator (Agent 24), Database Query Synthesizer (Agent 35).
+
+:::
 
 ### Agent 56 — The Red-Team Auditor Agent
 
@@ -10637,10 +10861,10 @@ The general problem is **continuous adversarial evaluation**: systematically sea
 
 A generator of adversarial cases that combines templated attacks with model-generated variants tuned to the target agent's surface. An execution harness that runs each case through the target agent in an isolated sandbox. A failure classifier that distinguishes safety, factuality, capability, and constitutional failures. A regression-suite path that promotes discovered failures into a permanent evaluation set.
 
-[![Pattern 080 — Agent 56 — The Red-Team Auditor Agent — The Mechanism](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5df70318190b4caf85e8_codex-pattern-080-agent-56-the-red-team-auditor-agent-the-mechanism.png) (<VPIcon icon="fa-brands fa-linkedin"/>`vahe-aslanyan`)](https://linkedin.com/in/vahe-aslanyan/)
+![Pattern 080 — Agent 56 — The Red-Team Auditor Agent — The Mechanism](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5df70318190b4caf85e8_codex-pattern-080-agent-56-the-red-team-auditor-agent-the-mechanism.png)
+<!-- TODO: 아래 코드와 같으면 생략 -->
 
-```py
-# alignment/red_team.py
+```py :collapsed-lines title="alignment/red_team.py"
 from dataclasses import dataclass, field
 from datetime import datetime
 from enum import Enum
@@ -10771,7 +10995,11 @@ A developer-tooling agent at a code-vendor's security-focused product runs a mon
 
 Over a two-year window, 37 distinct failure modes were caught pre-release that would otherwise have shipped. The most-severe (a prompt-injection vector through a particular tool's output) was caught two days before a customer would have hit it in production.
 
-**Pairs with:** Refusal Calibrator (Agent 54), Drift Detector (Agent 59), Constitution-Bound (Agent 53).
+::: note Pairs with
+
+Refusal Calibrator (Agent 54), Drift Detector (Agent 59), Constitution-Bound (Agent 53).
+
+:::
 
 ### Agent 57 — The Privacy-Preserving Agent
 
@@ -10793,10 +11021,10 @@ The general problem is **boundary-level privacy enforcement**: minimizing data a
 
 A per-prompt minimization step that strips fields the current step doesn't need. A de-identification layer that replaces PII with deterministic surrogates rendered visible only to the consumer of the result. A retention policy with explicit per-field TTLs enforced at the storage layer. An export-and-deletion interface satisfying the user's legal rights. An audit surface that lets the operator confirm minimization is actually happening on live traffic.
 
-[![Pattern 081 — Agent 57 — The Privacy-Preserving Agent — The Mechanism](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5df7f43a03685934534d_codex-pattern-081-agent-57-the-privacy-preserving-agent-the-mechanism.png) (<VPIcon icon="fa-brands fa-linkedin"/>`vahe-aslanyan`)](https://linkedin.com/in/vahe-aslanyan/)
+![Pattern 081 — Agent 57 — The Privacy-Preserving Agent — The Mechanism](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5df7f43a03685934534d_codex-pattern-081-agent-57-the-privacy-preserving-agent-the-mechanism.png)
+<!-- TODO: 아래 코드와 같으면 생략 -->
 
-```py
-# alignment/privacy.py
+```py :collapsed-lines title="alignment/privacy.py"
 from dataclasses import dataclass, field
 import hashlib, hmac
 from datetime import datetime, timedelta
@@ -10894,7 +11122,11 @@ A healthcare scheduling agent at a hospital system minimizes the patient record 
 
 The pattern was a precondition for HIPAA compliance certification. Quality on the agent's scheduling task was unchanged (verified via parallel runs with and without minimization on an evaluation set).
 
-**Pairs with:** Forgetting-Policy (Agent 26), Ambient Context (Agent 6), Persistent Identity (Agent 29).
+::: note Pairs with
+
+Forgetting-Policy (Agent 26), Ambient Context (Agent 6), Persistent Identity (Agent 29).
+
+:::
 
 ### Agent 58 — The Explainer Agent
 
@@ -10916,10 +11148,10 @@ The general problem is **honest post-hoc explanation**: producing a structured r
 
 A structured-rationale schema that names the inputs, the policy applied, and the principal alternatives considered. A generation step that produces the rationale from the actual execution trace rather than confabulating after the fact. A validation step that checks the rationale against the trace to catch divergence. A user-facing rendering at a level of detail appropriate to the consumer.
 
-[![Pattern 082 — Agent 58 — The Explainer Agent — The Mechanism](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5df16c87334148154d25_codex-pattern-082-agent-58-the-explainer-agent-the-mechanism.png) (<VPIcon icon="fa-brands fa-linkedin"/>`vahe-aslanyan`)](https://linkedin.com/in/vahe-aslanyan/)
+![Pattern 082 — Agent 58 — The Explainer Agent — The Mechanism](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5df16c87334148154d25_codex-pattern-082-agent-58-the-explainer-agent-the-mechanism.png)
+<!-- TODO: 아래 코드와 같으면 생략 -->
 
-```py
-# alignment/explainer.py
+```py :collapsed-lines title="alignment/explainer.py"
 from dataclasses import dataclass, field
 
 @dataclass
@@ -11025,7 +11257,11 @@ For decisions where a chain-of-thought trace is itself acceptable to the user (t
 
 A credit-decisioning agent at a fintech pairs every adverse-action notice with an explainer-produced rationale that survives auditor review at a rate of 98%. The rationale lists the specific credit-data inputs (for example, "debt-to-income ratio of 0.51 exceeds the policy threshold of 0.45 for this product tier"), the policies in effect, and the alternatives considered (for example, "lower credit-line amount was considered, but the applicant's stated need exceeded the maximum amount that would have approved"). The pattern replaced a hand-written explanation process at roughly one-quarter the per-decision labor cost.
 
-**Pairs with:** Chain-of-Thought Auditor (Agent 8), Provenance Tracker (Agent 55), Constitution-Bound (Agent 53).
+::: note Pairs with
+
+Chain-of-Thought Auditor (Agent 8), Provenance Tracker (Agent 55), Constitution-Bound (Agent 53).
+
+:::
 
 ### Agent 59 — The Drift-Detector Agent
 
@@ -11047,10 +11283,10 @@ The general problem is **silent-quality-regression detection**: catching distrib
 
 A reference baseline captured at deployment and re-captured on schedule. Per-feature distribution monitoring with statistically appropriate tests. A deviation-alarm policy with explicit hysteresis. An attribution step that names the most-shifted features. A hand-off contract to the recalibration patterns.
 
-[![Pattern 083 — Agent 59 — The Drift-Detector Agent — The Mechanism](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5df10c71d87de8b6fe5f_codex-pattern-083-agent-59-the-drift-detector-agent-the-mechanism.png) (<VPIcon icon="fa-brands fa-linkedin"/>`vahe-aslanyan`)](https://linkedin.com/in/vahe-aslanyan/)
+![Pattern 083 — Agent 59 — The Drift-Detector Agent — The Mechanism](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5df10c71d87de8b6fe5f_codex-pattern-083-agent-59-the-drift-detector-agent-the-mechanism.png)
+<!-- TODO: 아래 코드와 같으면 생략 -->
 
-```py
-# alignment/drift_detector.py
+```py :collapsed-lines title="alignment/drift_detector.py"
 from dataclasses import dataclass, field
 from datetime import datetime, timedelta
 import math
@@ -11143,7 +11379,11 @@ An enterprise-search agent at a B2B vendor caught a silent quality regression ca
 
 The drift detector noticed a 0.18 KL divergence on the output-token-distribution feature. The alarm triggered a recalibration of the prompt-version pinning that mitigated the regression within hours.
 
-**Pairs with:** Anomaly-Spotter (Agent 4), Distillation (Agent 51), Vector-Store Curator (Agent 28).
+::: note Pairs with
+
+Anomaly-Spotter (Agent 4), Distillation (Agent 51), Vector-Store Curator (Agent 28).
+
+:::
 
 ### Agent 60 — The Off-Switch-Compatible Agent
 
@@ -11165,10 +11405,10 @@ The general problem is **graceful human override**: ensuring the agent yields to
 
 An interruption-aware execution loop that checks an external stop-signal at every step. A graceful-shutdown protocol that lets the agent emit a partial result and a state snapshot rather than crashing on stop. A resume-from-snapshot path so an interrupted session can be reviewed and continued. An explicit absence of any reasoning step that treats human override as a problem to be solved rather than an input to be respected.
 
-[![Pattern 084 — Agent 60 — The Off-Switch-Compatible Agent — The Mechanism](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5df206b2c784575c345d_codex-pattern-084-agent-60-the-off-switch-compatible-agent-the-mechanism.png) (<VPIcon icon="fa-brands fa-linkedin"/>`vahe-aslanyan`)](https://linkedin.com/in/vahe-aslanyan/)
+![Pattern 084 — Agent 60 — The Off-Switch-Compatible Agent — The Mechanism](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5df206b2c784575c345d_codex-pattern-084-agent-60-the-off-switch-compatible-agent-the-mechanism.png)
+<!-- TODO: 아래 코드와 같으면 생략 -->
 
-```py
-# alignment/off_switch.py
+```py :collapsed-lines title="alignment/off_switch.py"
 from dataclasses import dataclass, field
 from datetime import datetime
 import asyncio
@@ -11265,7 +11505,11 @@ A long-running research agent has its off-switch exercised on a recurring schedu
 
 A typical finding from a first drill is that some long-running tool wrapper doesn't yield to the stop-check, allowing the agent to "ignore" the stop until that tool completes. The remediation is mechanical (a stop-check inside the tool wrapper) but the drill is what surfaces the problem.
 
-**Pairs with:** Constitution-Bound (Agent 53), Side-Effect Auditor (Agent 37), Human-in-the-Loop Liaison (Agent 42).
+::: note Pairs with
+
+Constitution-Bound (Agent 53), Side-Effect Auditor (Agent 37), Human-in-the-Loop Liaison (Agent 42).
+
+:::
 
 ### Chapter 12 — Deeper Dives
 
@@ -11585,23 +11829,109 @@ The book's from-scratch code is meant as conceptual illustration. In production,
 
 The book's per-pattern case studies are illustrative composites. The following are *real* publicly-documented agent failures that illuminate the catalog's value precisely *because* they show what happens when specific patterns are missing.
 
-- [**Air Canada chatbot (2024)**](https://cbc.ca/news/canada/british-columbia/air-canada-chatbot-lawsuit-1.7116416)**.** A customer-service chatbot promised a bereavement-fare refund that the airline's policy didn't actually allow. In *Moffatt v. Air Canada*, 2024 BCCRT 149, the BC Civil Resolution Tribunal held Air Canada liable for negligent misrepresentation, rejecting the airline's argument that the chatbot was a separate legal entity responsible for its own words.  
-    The missing pattern: a Constitution-Bound Agent (53) gating commitments against the actual policy.  
-    The lesson: an agent that can make promises must have a structural mechanism preventing it from making promises the company can't keep.
-- [**NYC MyCity chatbot (2024)**](https://themarkup.org/artificial-intelligence/2024/03/29/nycs-ai-chatbot-tells-businesses-to-break-the-law)**.** A city-government chatbot, prompted on local business questions, produced confident advice that would have violated city law — including telling landlords they could refuse Section 8 vouchers and employers they could keep workers' tips, both illegal under NYC law. Reported by The Markup.  
-    The missing patterns: Provenance Tracker (55) to ground claims in citable sources, Refusal Calibrator (54) to refuse rather than fabricate, Red-Team Auditor (56) to surface the failure mode pre-launch.
-- [<VPIcon icon="fa-brands fa-wikipedia-w"/>**Mata v. Avianca (2023)**](https://en.wikipedia.org/wiki/Mata_v._Avianca,_Inc.) **and successor cases.** Lawyers sanctioned for citing GPT-hallucinated cases in court filings. The presiding judge fined the attorneys $5,000 and ordered them to notify every real judge whose name had been attached to a fabricated opinion.  
-    The missing pattern: Provenance Tracker (55) with structural refusal of unsupported claims.  
-    The lesson: trust in a model's apparent factuality without structural verification is a discoverable professional liability.
-- **GitHub Copilot license-attribution disputes.** A class of disputes around whether code-generation agents reproduce licensed content.  
-    The pattern this implicates: Provenance Tracker (55) and Privacy-Preserving (57) extended to license provenance, not just personal data. Still an open area.
-- [**Replit Agent production-database incident (2025)**](https://fortune.com/2025/07/23/ai-coding-tool-replit-wiped-database-called-it-a-catastrophic-failure/)**.** During a public test run, a Replit coding agent deleted a live production database despite standing instructions not to touch it, and Replit's CEO publicly confirmed the deletion as a real, unacceptable failure. (The more dramatic details reported by the person running the test — that the agent covered up the deletion, fabricated records, and claimed rollback was impossible — are that person's own account, not independently verified by Replit, and are worth reading with that caveat.)  
-    The patterns this implicates: Side-Effect Auditor (37) — what was the rollback path? Constitution-Bound (53) — what gating prevented the destructive action? Off-Switch-Compatible (60) — how long did the bad action run before intervention?
-- [**Devin's demo-to-benchmark gap**](https://blog.pragmaticengineer.com/the-ai-developer/)**.** Cognition's launch claim of resolving 13.86% of SWE-bench issues unassisted drew sustained independent scrutiny, both on whether that number holds up and on whether the demo videos represented typical performance. (Cognition's original claim predates SWE-bench Verified, so read this as "Devin's benchmark claims versus independent scrutiny," not a claim about the Verified subset specifically.)  
-    The lesson: the demo-time agent and the production-time agent are different artifacts.  
-    The patterns that close the gap are mostly in Chapter 14 (Evaluation) and Chapter 15 (Patterns of Failure).
-- [**Microsoft Tay (2016)**](https://time.com/4270684/microsoft-tay-chatbot-racism/)**.** The earliest large-scale agent-alignment failure: a chatbot driven into producing offensive output within hours of public release, taken offline within a day.  
-    The lesson: red-teaming (Agent 56) and refusal calibration (Agent 54) are not optional safety layers on top of a working agent. They're constitutive of the agent being deployable at all.
+::: info "Air Canada chatbot (2024)" *From CBC* (<VPIcon icon="fas fa-globe"/><code>cbc.ca</code>)
+
+<SiteInfo
+  name="How can I mislead you? Air Canada found liable for chatbot's bad advice on bereavement rates | CBC News"
+  desc="Air Canada has been ordered to pay compensation to a grieving grandchild who claimed they were misled into purchasing full-price flight tickets by an ill-informed chatbot."
+  url="https://cbc.ca/news/canada/british-columbia/air-canada-chatbot-lawsuit-1.7116416"
+  logo="/a/favicon.ico"
+  preview="https://i.cbc.ca/ais/1.7116538,1708029354000/full/max/0/default.jpg?im=Crop%2Crect%3D%28102%2C83%2C454%2C255%29%3BResize%3D620"/>
+
+A customer-service chatbot promised a bereavement-fare refund that the airline's policy didn't actually allow. In *Moffatt v. Air Canada*, 2024 BCCRT 149, the BC Civil Resolution Tribunal held Air Canada liable for negligent misrepresentation, rejecting the airline's argument that the chatbot was a separate legal entity responsible for its own words.
+
+The missing pattern: a Constitution-Bound Agent (53) gating commitments against the actual policy.  
+
+The lesson: an agent that can make promises must have a structural mechanism preventing it from making promises the company can't keep.
+
+:::
+
+::: info "NYC MyCity chatbot (2024)" *From The Markup* (<VPIcon icon="fas fa-globe"/><code>themarkup.org</code>)
+
+<SiteInfo
+  name="NYC’s AI Chatbot Tells Businesses to Break the Law – The Markup"
+  desc="The Microsoft-powered bot says bosses can take workers’ tips and that landlords can discriminate based on source of income"
+  url="https://themarkup.org/artificial-intelligence/2024/03/29/nycs-ai-chatbot-tells-businesses-to-break-the-law"
+  logo="https://mrkp-static-production.themarkup.org/static/img/social-icons/favicon.png"
+  preview="https://mrkp-static-production.themarkup.org/uploads/2024/03/mayor-eric-adams-ai-plan-1200x628.jpg"/>
+
+A city-government chatbot, prompted on local business questions, produced confident advice that would have violated city law — including telling landlords they could refuse Section 8 vouchers and employers they could keep workers' tips, both illegal under NYC law. Reported by The Markup.  
+
+The missing patterns: Provenance Tracker (55) to ground claims in citable sources, Refusal Calibrator (54) to refuse rather than fabricate, Red-Team Auditor (56) to surface the failure mode pre-launch.
+
+:::
+
+::: info "Mata v. Avianca (2023) and successor cases." From Wikipedia (<VPIcon icon="fa-brands fa-wikipedia-w"/><code>en.wikipedia.org</code>)
+
+<SiteInfo
+  name="Mata v. Avianca, Inc. - Wikipedia"
+  desc="Mata v. Avianca, Inc. was a U.S. District Court for the Southern District of New York case in which the Court dismissed a personal injury case against ..."
+  url="https://en.wikipedia.org/wiki/Mata_v._Avianca,_Inc."
+  logo="/static/favicon/wikipedia.ico"
+  preview="https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/USDCSDNY.svg/1280px-USDCSDNY.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail"/>
+
+Lawyers sanctioned for citing GPT-hallucinated cases in court filings. The presiding judge fined the attorneys $5,000 and ordered them to notify every real judge whose name had been attached to a fabricated opinion.  
+
+The missing pattern: Provenance Tracker (55) with structural refusal of unsupported claims.  
+
+The lesson: trust in a model's apparent factuality without structural verification is a discoverable professional liability.
+
+:::
+
+::: info "GitHub Copilot license-attribution disputes."
+
+A class of disputes around whether code-generation agents reproduce licensed content.
+
+The pattern this implicates: Provenance Tracker (55) and Privacy-Preserving (57) extended to license provenance, not just personal data. Still an open area.
+
+:::
+
+::: info "Replit Agent production-database incident (2025)" *From Fortune* (<VPIcon icon="fas fa-globe"/><code>fortune.com</copde>)
+
+<SiteInfo
+  name="AI-powered coding tool wiped out a software company’s database in ‘catastrophic failure’ | Fortune"
+  desc="A software engineer's experiment with an AI-assisted ”vibe coding” tool took a disastrous turn when an AI agent reportedly deleted a live company database during an active code freeze."
+  url="https://fortune.com/2025/07/23/ai-coding-tool-replit-wiped-database-called-it-a-catastrophic-failure"
+  logo="/icons/favicons/favicon.ico"
+  preview="https://fortune.com/img-assets/wp-content/uploads/2025/07/GettyImages-1443552841-e1753269345625.jpg?resize=1200,600"/>
+
+During a public test run, a Replit coding agent deleted a live production database despite standing instructions not to touch it, and Replit's CEO publicly confirmed the deletion as a real, unacceptable failure. (The more dramatic details reported by the person running the test — that the agent covered up the deletion, fabricated records, and claimed rollback was impossible — are that person's own account, not independently verified by Replit, and are worth reading with that caveat.)  
+
+The patterns this implicates: Side-Effect Auditor (37) — what was the rollback path? Constitution-Bound (53) — what gating prevented the destructive action? Off-Switch-Compatible (60) — how long did the bad action run before intervention?
+
+:::
+
+::: info "Devin's demo-to-benchmark gap" *From The Pragmatic Engineer* (<VPIcon icon="fas fa-globe"/><code>blog.pragmaticengineer.com</code>)
+
+<SiteInfo
+  name="Is the “AI developer”a threat to jobs – or a marketing stunt?"
+  desc="One startup released “the first AI software engineer,” while another aims to build a “superhuman software engineer.” As intimidating as these sound: what if it’s more marketing than reality?"
+  url="https://blog.pragmaticengineer.com/the-ai-developer/"
+  logo="https://storage.ghost.io/c/39/f8/39f85cc7-8637-40fc-a57c-f45754453717/content/images/size/w256h256/2024/06/The-Pragmatic-Engineer-Blog-Publication-Icon--Logo-.png"
+  preview="https://storage.ghost.io/c/39/f8/39f85cc7-8637-40fc-a57c-f45754453717/content/images/size/w1200/2024/03/2-1.webp"/>
+
+Cognition's launch claim of resolving 13.86% of SWE-bench issues unassisted drew sustained independent scrutiny, both on whether that number holds up and on whether the demo videos represented typical performance. (Cognition's original claim predates SWE-bench Verified, so read this as "Devin's benchmark claims versus independent scrutiny," not a claim about the Verified subset specifically.)  
+
+The lesson: the demo-time agent and the production-time agent are different artifacts.  
+
+The patterns that close the gap are mostly in Chapter 14 (Evaluation) and Chapter 15 (Patterns of Failure).
+
+:::
+
+::: info "Microsoft Tay (2016)" *From Time* (<VPIcon icon="fas fa-globe"/><code>time.com</code>)
+
+<SiteInfo
+  name="Microsoft Takes Chatbot Offline After It Starts Tweeting Racist Messages"
+  desc="The account said the Holocaust was ”made up”"
+  url="https://time.com/4270684/microsoft-tay-chatbot-racism/"
+  logo="/favicon/android-chrome-192x192.png"
+  preview="https://static.time.com/v3/assets/bltea6093859af6183b/bltf1c0d04330e45cdc/69888c5b0a4a227e389c8f80/microsoft-logo.jpg?branch=production&width=3840&quality=75&auto=webp&crop=16:9"/>
+
+The earliest large-scale agent-alignment failure: a chatbot driven into producing offensive output within hours of public release, taken offline within a day.  
+
+The lesson: red-teaming (Agent 56) and refusal calibration (Agent 54) are not optional safety layers on top of a working agent. They're constitutive of the agent being deployable at all.
+
+:::
 
 A reader looking to deepen their understanding of the alignment chapter should study each of these in detail. The deployment-alignment patterns the book describes are the field's accumulated response to incidents like these.
 
@@ -11609,15 +11939,15 @@ A reader looking to deepen their understanding of the alignment chapter should s
 
 The book's "labeled evaluation set" language is concrete in academic and engineering practice. The following public benchmarks are useful reference points. Serious teams use them as starting points and supplement with deployment-specific eval sets.
 
-- [<VPIcon icon="iconfont icon-openai"/>**SWE-bench** (<VPIcon icon="iconfont icon-github"/>`swe-bench/SWE-bench`)](https://github.com/swe-bench/SWE-bench) / [<VPIcon icon="iconfont icon-openai"/>**SWE-bench Verified**](https://openai.com/index/introducing-swe-bench-verified/). Coding agents fixing real GitHub issues. The standard benchmark for evaluating code-modification agents end-to-end. Verified is OpenAI's human-validated 500-task subset.
-- [<VPIcon icon="iconfont icon-arxiv"/>**GAIA**](https://arxiv.org/abs/2311.12983) (Meta, HuggingFace, and AutoGPT). General assistant benchmark. Multi-step, multi-tool tasks. Tests the full agentic stack on realistic open-ended questions.
-- [<VPIcon icon="iconfont icon-arxiv"/>**AgentBench**](https://arxiv.org/abs/2308.03688). Multi-domain benchmark covering reasoning, tool use, and coordination across diverse tasks.
-- [**WebArena** (<VPIcon icon="iconfont icon-github"/>`web-arena-x/webarena`)](https://github.com/web-arena-x/webarena) / [**OSWorld**](https://os-world.github.io/). Browser- and computer-use benchmarks. WebArena tests browsing agents on realistic web environments. OSWorld extends this to full OS interaction.
-- [**τ-bench** (<VPIcon icon="iconfont icon-github"/>`sierra-research/tau-bench`)](https://github.com/sierra-research/tau-bench) (Tau-bench, Sierra). Customer-service-shaped agent benchmark. Evaluates agents on multi-turn conversations with structured outcomes.
-- [**BIRD-SQL**](https://bird-bench.github.io/) / [**Spider**](https://yale-lily.github.io/spider). Natural-language-to-SQL benchmarks. Useful for the Database Query Synthesizer pattern.
-- [<VPIcon icon="iconfont icon-arxiv"/>**MMLU**](https://arxiv.org/abs/2009.03300) / [**Big-Bench Hard** (<VPIcon icon="iconfont icon-github"/>`suzgunmirac/BIG-Bench-Hard`)](https://github.com/suzgunmirac/BIG-Bench-Hard). Knowledge-and-reasoning benchmarks. Useful as components of a broader evaluation, less so for end-to-end agent capability.
-- [**MLE-bench** (<VPIcon icon="iconfont icon-github"/>`openai/mle-bench`)](https://github.com/openai/mle-bench). Machine-learning-engineering tasks for agents.
-- [**HELM**](https://crfm.stanford.edu/helm/) / **HELM-Lite.** Holistic evaluation framework. Useful as scaffolding for your own labeled set rather than as a single number.
+- **[VPIcon icon="iconfont icon-github"/>`swe-bench/SWE-bench`](https://github.com/swe-bench/SWE-bench) / [<VPIcon icon="iconfont icon-openai"/>SWE-bench Verified](https://openai.com/index/introducing-swe-bench-verified/)**. Coding agents fixing real GitHub issues. The standard benchmark for evaluating code-modification agents end-to-end. Verified is OpenAI's human-validated 500-task subset.
+- **[<VPIcon icon="iconfont icon-arxiv"/>GAIA](https://arxiv.org/abs/2311.12983) (Meta, HuggingFace, and AutoGPT)**. General assistant benchmark. Multi-step, multi-tool tasks. Tests the full agentic stack on realistic open-ended questions.
+- **[<VPIcon icon="iconfont icon-arxiv"/>AgentBench](https://arxiv.org/abs/2308.03688)**. Multi-domain benchmark covering reasoning, tool use, and coordination across diverse tasks.
+- **[<VPIcon icon="iconfont icon-github"/>`web-arena-x/webarena`](https://github.com/web-arena-x/webarena) / [<VPIcon icon="fas fa-globe"/>OSWorld](https://os-world.github.io/)**. Browser- and computer-use benchmarks. WebArena tests browsing agents on realistic web environments. OSWorld extends this to full OS interaction.
+- **[<VPIcon icon="iconfont icon-github"/>`sierra-research/tau-bench`](https://github.com/sierra-research/tau-bench) (Tau-bench, Sierra)**. Customer-service-shaped agent benchmark. Evaluates agents on multi-turn conversations with structured outcomes.
+- **[<VPIcon icon="fas fa-globe"/>BIRD-SQL](https://bird-bench.github.io/) / [<VPIcon icon="fas fa-globe"/>Spider](https://yale-lily.github.io/spider)**. Natural-language-to-SQL benchmarks. Useful for the Database Query Synthesizer pattern.
+- **[<VPIcon icon="iconfont icon-arxiv"/>MMLU](https://arxiv.org/abs/2009.03300) / [<VPIcon icon="iconfont icon-github"/>`suzgunmirac/BIG-Bench-Hard`](https://github.com/suzgunmirac/BIG-Bench-Hard)**. Knowledge-and-reasoning benchmarks. Useful as components of a broader evaluation, less so for end-to-end agent capability.
+- **[<VPIcon icon="iconfont icon-github"/>`openai/mle-bench`](https://github.com/openai/mle-bench)**. Machine-learning-engineering tasks for agents.
+- **[<VPIcon icon="fas fa-globe"/>HELM](https://crfm.stanford.edu/helm/) / HELM-Lite.** Holistic evaluation framework. Useful as scaffolding for your own labeled set rather than as a single number.
 
 None of these is sufficient on its own. Serious agent evaluation always combines a public benchmark (for comparability) with a deployment-specific labeled set (for actual quality measurement). The Chapter 14 framing of "evaluation is a system, not a step" applies here: pick a public benchmark to anchor on, then build your own.
 
@@ -11659,7 +11989,8 @@ The profile is the artifact. It's versioned and reviewed when something changes.
 
 The pattern stack renders the composition: it names the patterns, the data shapes flowing between them, the failure boundaries that separate them, and the ownership of each.
 
-[![Pattern 085 — 13.2 The pattern stack](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5df24616a6958b09cbfe_codex-pattern-085-13-2-the-pattern-stack.png) (<VPIcon icon="fa-brands fa-linkedin"/>`vahe-aslanyan`)](https://linkedin.com/in/vahe-aslanyan/)
+![Pattern 085 — 13.2 The pattern stack](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5df24616a6958b09cbfe_codex-pattern-085-13-2-the-pattern-stack.png)
+<!-- TODO: 아래 코드와 같으면 생략 -->
 
 ```plaintext
 ┌────────────────────────────────────────────────────────────────┐
@@ -11699,7 +12030,8 @@ Before the more elaborate compositions, the floor: the agent every team should b
 
 **Pattern stack:**
 
-[![Pattern 086 — 13.3 Reference composition 0: The Minimum Viable Agent](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5df24616a6958b09cc1e_codex-pattern-086-13-3-reference-composition-0-the-minimum-viable-agent.png) (<VPIcon icon="fa-brands fa-linkedin"/>`vahe-aslanyan`)](https://linkedin.com/in/vahe-aslanyan/)
+![Pattern 086 — 13.3 Reference composition 0: The Minimum Viable Agent](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5df24616a6958b09cc1e_codex-pattern-086-13-3-reference-composition-0-the-minimum-viable-agent.png)
+<!-- TODO: 아래 코드와 같으면 생략 -->
 
 ```plaintext
 ┌──────────────────────────────────────────────────────┐
@@ -11718,10 +12050,10 @@ Before the more elaborate compositions, the floor: the agent every team should b
 
 **Code skeleton:**
 
-[![Pattern 087 — 13.3 Reference composition 0: The Minimum Viable Agent](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5df2cd945e9ae18dc44e_codex-pattern-087-13-3-reference-composition-0-the-minimum-viable-agent.png) (<VPIcon icon="fa-brands fa-linkedin"/>`vahe-aslanyan`)](https://linkedin.com/in/vahe-aslanyan/)
+![Pattern 087 — 13.3 Reference composition 0: The Minimum Viable Agent](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5df2cd945e9ae18dc44e_codex-pattern-087-13-3-reference-composition-0-the-minimum-viable-agent.png)
+<!-- TODO: 아래 코드와 같으면 생략 -->
 
-```py
-# compositions/minimum_viable_agent.py
+```py :collapsed-lines title="compositions/minimum_viable_agent.py"
 from agents.harness import Harness
 from memory.working_memory import WorkingMemoryManagerAgent
 from memory.episodic import EpisodicBufferAgent
@@ -11806,10 +12138,10 @@ A research agent that produces analytical reports against an enterprise document
 
 **Pattern stack code (simplified):**
 
-[![Pattern 088 — 13.3 Reference composition 1: The Retrieval-Grounded Analyst](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5df23d68cad31e7380e8_codex-pattern-088-13-3-reference-composition-1-the-retrieval-grounded-analyst.png) (<VPIcon icon="fa-brands fa-linkedin"/>`vahe-aslanyan`)](https://linkedin.com/in/vahe-aslanyan/)
+![Pattern 088 — 13.3 Reference composition 1: The Retrieval-Grounded Analyst](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5df23d68cad31e7380e8_codex-pattern-088-13-3-reference-composition-1-the-retrieval-grounded-analyst.png)
+<!-- TODO: 아래 코드와 같으면 생략 -->
 
-```py
-# compositions/retrieval_analyst.py
+```py :collapsed-lines title="compositions/retrieval_analyst.py
 from agents.harness import Harness
 from perception.document_layout import DocumentLayoutAgent
 from memory.vector_curator import VectorStoreCuratorAgent
@@ -11897,10 +12229,10 @@ A workflow-automation agent that executes operational tasks against internal sys
 
 **Pattern stack code:**
 
-[![Pattern 089 — 13.4 Reference composition 2: The Operations-Acting Agent](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5df24616a6958b09cc5d_codex-pattern-089-13-4-reference-composition-2-the-operations-acting-agent.png) (<VPIcon icon="fa-brands fa-linkedin"/>`vahe-aslanyan`)](https://linkedin.com/in/vahe-aslanyan/)
+![Pattern 089 — 13.4 Reference composition 2: The Operations-Acting Agent](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5df24616a6958b09cc5d_codex-pattern-089-13-4-reference-composition-2-the-operations-acting-agent.png)
+<!-- TODO: 아래 코드와 같으면 생략 -->
 
-```py
-# compositions/operations_actor.py
+```py :collapsed-lines title="compositions/operations_actor.py"
 from planning.plan_then_execute import PlanThenExecuteAgent
 from planning.adaptive_replanner import AdaptiveReplannerAgent
 from tools.selector import ToolSelectorAgent
@@ -11969,10 +12301,10 @@ A decision-support agent that produces recommendations on consequential question
 
 **Pattern stack code:**
 
-[![Pattern 090 — 13.5 Reference composition 3: The Multi-Actor Advisory Agent](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5df2d4332a01a6cd9ecb_codex-pattern-090-13-5-reference-composition-3-the-multi-actor-advisory-agent.png) (<VPIcon icon="fa-brands fa-linkedin"/>`vahe-aslanyan`)](https://linkedin.com/in/vahe-aslanyan/)
+![Pattern 090 — 13.5 Reference composition 3: The Multi-Actor Advisory Agent](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5df2d4332a01a6cd9ecb_codex-pattern-090-13-5-reference-composition-3-the-multi-actor-advisory-agent.png)
+<!-- TODO: 아래 코드와 같으면 생략 -->
 
-```py
-# compositions/advisory_agent.py
+```py :collapsed-lines title="compositions/advisory_agent.py"
 from reasoning.causal_graph import CausalGraphBuilderAgent
 from reasoning.counterfactual import CounterfactualReasonerAgent
 from coordination.router import RouterAgent
@@ -12160,10 +12492,10 @@ The thesis of this chapter is that **the unit of evaluation for agentic systems 
 
 Run the agent against a labeled corpus of inputs with known correct outputs. Measure pass-rate, latency, and cost. This is necessary but insufficient because most agent failures depend on dynamics no static set can replay.
 
-[![Pattern 091 — 14.1 The four evaluation surfaces](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5df271de2ceb65d91828_codex-pattern-091-14-1-the-four-evaluation-surfaces.png) (<VPIcon icon="fa-brands fa-linkedin"/>`vahe-aslanyan`)](https://linkedin.com/in/vahe-aslanyan/)
+![Pattern 091 — 14.1 The four evaluation surfaces](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5df271de2ceb65d91828_codex-pattern-091-14-1-the-four-evaluation-surfaces.png)
+<!-- TODO: 아래 코드와 같으면 생략 -->
 
-```py
-# evaluation/static.py
+```py :collapsed-lines title="evaluation/static.py"
 @dataclass
 class StaticEvalCase:
     case_id: str
@@ -12193,10 +12525,10 @@ class StaticEvaluator:
 
 Run the agent against scripted environments — simulated tool surfaces, simulated user inputs — and score its trajectory against a reference plan. Catches the loop-and-drift failures static evaluation misses.
 
-[![Pattern 092 — 14.1 The four evaluation surfaces](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5df7f43a0368593452dd_codex-pattern-092-14-1-the-four-evaluation-surfaces.png) (<VPIcon icon="fa-brands fa-linkedin"/>`vahe-aslanyan`)](https://linkedin.com/in/vahe-aslanyan/)
+![Pattern 092 — 14.1 The four evaluation surfaces](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5df7f43a0368593452dd_codex-pattern-092-14-1-the-four-evaluation-surfaces.png)
+<!-- TODO: 아래 코드와 같으면 생략 -->
 
-```py
-# evaluation/trajectory.py
+```py title="evaluation/trajectory.py"
 @dataclass
 class TrajectoryCase:
     case_id: str
@@ -12227,10 +12559,10 @@ class TrajectoryEvaluator:
 
 Run the agent against live traffic with explicit measurement instrumentation, distinguishing the metrics that can be observed without ground truth (latency, cost, completion rate, escalation rate) from those that require it (correctness, factuality, user satisfaction).
 
-[![Pattern 093 — 14.1 The four evaluation surfaces](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5df7f43a03685934534a_codex-pattern-093-14-1-the-four-evaluation-surfaces.png) (<VPIcon icon="fa-brands fa-linkedin"/>`vahe-aslanyan`)](https://linkedin.com/in/vahe-aslanyan/)
+![Pattern 093 — 14.1 The four evaluation surfaces](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5df7f43a03685934534a_codex-pattern-093-14-1-the-four-evaluation-surfaces.png)
+<!-- TODO: 아래 코드와 같으면 생략 -->
 
-```py
-# evaluation/online.py
+```py title="evaluation/online.py"
 class OnlineEvaluator:
     def __init__(self, sink):
         self.sink = sink
@@ -12268,10 +12600,10 @@ Using a frontier model as a grader is convenient and frequently misleading. Ther
 2. **Detect drift.** A judge that was calibrated three months ago may have drifted. Run the calibration check monthly.
 3. **Decide which evaluations aren't judge-able.** Some properties (safety, factuality, regulatory compliance) require structural checks, not model judgments. Reserve those for human or structural evaluators.
 
-[![Pattern 094 — 14.3 Model-as-Judge: When and How](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5df8dc08a3506b523c95_codex-pattern-094-14-3-model-as-judge-when-and-how.png) (<VPIcon icon="fa-brands fa-linkedin"/>`vahe-aslanyan`)](https://linkedin.com/in/vahe-aslanyan/)
+![Pattern 094 — 14.3 Model-as-Judge: When and How](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5df8dc08a3506b523c95_codex-pattern-094-14-3-model-as-judge-when-and-how.png)
+<!-- TODO: 아래 코드와 같으면 생략 -->
 
-```py
-# evaluation/judge_calibration.py
+```py title="evaluation/judge_calibration.py"
 class ModelJudgeCalibrator:
     def __init__(self, judge_llm, human_labeled: list[dict]):
         self.judge = judge_llm
@@ -12326,10 +12658,10 @@ Concretely, here's the workflow:
 5. **Versioned label set:** The labeled set is a versioned artifact like the prompt set or the agent itself. Trajectories get added, never silently re-labeled. When the rubric changes, the change is versioned and the labels are versioned.
 6. **Holdout discipline:** Always keep a chunk of the labeled set out of the development loop. Production claims about quality should always be against the holdout, not against the development set the team has been tuning to.
 
-[![Pattern 095 — 14.5 Building a Labeled Trajectory Set](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5df84616a6958b09cd22_codex-pattern-095-14-5-building-a-labeled-trajectory-set.png) (<VPIcon icon="fa-brands fa-linkedin"/>`vahe-aslanyan`)](https://linkedin.com/in/vahe-aslanyan/)
+![Pattern 095 — 14.5 Building a Labeled Trajectory Set](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5df84616a6958b09cd22_codex-pattern-095-14-5-building-a-labeled-trajectory-set.png)
+<!-- TODO: 아래 코드와 같으면 생략 -->
 
-```py
-# evaluation/trajectory_label.py
+```py title="evaluation/trajectory_label.py"
 from dataclasses import dataclass, field
 from datetime import datetime
 from typing import Literal
@@ -12377,10 +12709,10 @@ Use a different model family for judging than for generating. Cross-family judgi
 
 And finally, don't judge style. Judge correctness. Style judgments are where most biases land. Restrict the judge to correctness-grounded questions.
 
-[![Pattern 096 — 14.6 Model-as-Judge: Calibration and Known Failures](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5df887f2457e35536778_codex-pattern-096-14-6-model-as-judge-calibration-and-known-failures.png) (<VPIcon icon="fa-brands fa-linkedin"/>`vahe-aslanyan`)](https://linkedin.com/in/vahe-aslanyan/)
+![Pattern 096 — 14.6 Model-as-Judge: Calibration and Known Failures](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5df887f2457e35536778_codex-pattern-096-14-6-model-as-judge-calibration-and-known-failures.png)
+<!-- TODO: 아래 코드와 같으면 생략 -->
 
-```py
-# evaluation/judge.py
+```py title="evaluation/judge.py"
 async def judged_evaluation(case, candidate, judge_llm, *, swap_positions=True):
     """Evaluate with position-swap to detect position bias."""
     verdict_ab = await judge_llm.call(messages=[
@@ -12865,10 +13197,10 @@ The design implication: side effects are the most expensive thing to get wrong. 
 
 Here's a powerful technique for evaluating model upgrades without risking production: run the candidate model in shadow alongside the production model. Both see the same input. But the production model's output is the one users see, and the candidate's output is captured for comparison. After a sufficient sample, compare the candidate vs. production outputs offline.
 
-[![Pattern 097 — 19.4 The "shadow run" technique](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5df86c87334148155120_codex-pattern-097-19-4-the-shadow-run-technique.png) (<VPIcon icon="fa-brands fa-linkedin"/>`vahe-aslanyan`)](https://linkedin.com/in/vahe-aslanyan/)
+![Pattern 097 — 19.4 The "shadow run" technique](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5df86c87334148155120_codex-pattern-097-19-4-the-shadow-run-technique.png)
+<!-- TODO: 아래 코드와 같으면 생략 -->
 
-```py
-# deployment/shadow.py
+```py title="deployment/shadow.py"
 async def shadow_run(input, production_model, candidate_model, recorder):
     # Production produces the user-facing response
     production_task = asyncio.create_task(production_model.call(input))
@@ -12939,10 +13271,10 @@ Second, a resume protocol. Given a checkpoint, a fresh agent process can reconst
 
 Third, idempotent steps. Each step must be safe to retry after a resume. If the agent crashed mid-step, the resumed agent should either complete the step idempotently or roll back any partial state.
 
-[![Pattern 098 — 20.2 Checkpoint / resume as a first-class capability](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5df8e06dd9d9b178f42c_codex-pattern-098-20-2-checkpoint-resume-as-a-first-class-capability.png) (<VPIcon icon="fa-brands fa-linkedin"/>`vahe-aslanyan`)](https://linkedin.com/in/vahe-aslanyan/)
+![Pattern 098 — 20.2 Checkpoint / resume as a first-class capability](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5df8e06dd9d9b178f42c_codex-pattern-098-20-2-checkpoint-resume-as-a-first-class-capability.png)
+<!-- TODO: 아래 코드와 같으면 생략 -->
 
-```py
-# long_running/checkpoint.py
+```py :collapsed-lines title="long_running/checkpoint.py"
 @dataclass
 class Checkpoint:
     session_id: str
@@ -13173,6 +13505,7 @@ These exist in the literature but reduce to patterns already in the catalog:
 - **"Toolformer."** A training-time pattern for inducing tool-use in a model. Different abstraction level than the catalog.
 - **"PAL" / "Program-Aided Language Models."** A specific implementation of Symbolic-Neural Bridge (Agent 13).
 - **"ReWOO" / "ReACT-with-planning."** A specific composition of ReAct (17) and Plan-Then-Execute (19), covered in Chapter 13.
+
 ### Excluded as Anti-patterns
 
 These have been proposed but the book treats them as patterns to avoid:
@@ -13224,6 +13557,7 @@ Every reference below has been checked against a canonical source (the publicati
 - Tulving, E. (1972). [*Episodic and Semantic Memory.*](https://semanticscholar.org/paper/Episodic-and-semantic-memory-Tulving/d792562462dbb687015954805d31620240db57a1) In E. Tulving & W. Donaldson (Eds.), *Organization of Memory*, pp. 381–403, Academic Press — the cognitive distinction underlying Chapter 8.
 - Vickrey, W. (1961). [*Counterspeculation, Auctions, and Competitive Sealed Tenders.*](https://ideas.repec.org/a/bla/jfinan/v16y1961i1p8-37.html) Journal of Finance, 16(1), 8–37 — auction-theory lineage for Agent 44.
 - Vygotsky, L. S. (1978). [*Mind in Society.*](https://hup.harvard.edu/books/9780674576292) Harvard University Press — zone-of-proximal-development referenced for Agent 49.
+
 ### Agent-Engineering Era References
 
 - Irving, G., Christiano, P., & Amodei, D. (2018). [<VPIcon icon="iconfont icon-arxiv"/>*AI Safety via Debate.*](https://arxiv.org/abs/1805.00899) arXiv:1805.00899 — debate-as-oversight lineage for Agent 39.
@@ -13233,6 +13567,7 @@ Every reference below has been checked against a canonical source (the publicati
 - Wei, J. et al. (2022). [<VPIcon icon="iconfont icon-arxiv"/>*Chain-of-Thought Prompting Elicits Reasoning in Large Language Models.*](https://arxiv.org/abs/2201.11903) arXiv:2201.11903 — CoT lineage for Agent 8.
 - Yao, S. et al. (2023). [<VPIcon icon="iconfont icon-arxiv"/>*ReAct: Synergizing Reasoning and Acting in Language Models.*](https://arxiv.org/abs/2210.03629) arXiv:2210.03629, ICLR 2023 — the ReAct lineage for Agent 17.
 - Yao, S. et al. (2023). [<VPIcon icon="iconfont icon-arxiv"/>*Tree of Thoughts: Deliberate Problem Solving with Large Language Models.*](https://arxiv.org/abs/2305.10601) arXiv:2305.10601 — ToT lineage for Agent 18.
+
 ### Frameworks and Tools Cited in the Book
 
 - [<VPIcon icon="iconfont icon-openai"/>Anthropic Claude tool-use API](https://platform.claude.com/docs/en/agents-and-tools/tool-use/overview), [<VPIcon icon="iconfont icon-openai"/>OpenAI Assistants API](https://platform.openai.com/docs/api-reference/assistants), [Google Gemini API](https://ai.google.dev/gemini-api/docs) — the major frontier-model APIs underlying tool-using agents. (OpenAI has announced the Assistants API's retirement in favor of the Responses API — check current docs before building against it.)
@@ -13308,7 +13643,8 @@ The book repeatedly says "instrument X, Y, Z." This appendix is concrete: what d
 
 For a single deployed agent. The view an on-call operator pulls up first when an alert fires:
 
-[![Pattern 099 — F.1 The Single-agent Operator Dashboard](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5df8aa8f4fd98dfcfb27_codex-pattern-099-f-1-the-single-agent-operator-dashboard.png) (<VPIcon icon="fa-brands fa-linkedin"/>`vahe-aslanyan`)](https://linkedin.com/in/vahe-aslanyan/)
+![Pattern 099 — F.1 The Single-agent Operator Dashboard](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5df8aa8f4fd98dfcfb27_codex-pattern-099-f-1-the-single-agent-operator-dashboard.png)
+<!-- TODO: 아래 코드와 같으면 생략 -->
 
 ```plaintext
 ═══════════════════════════════════════════════════════════════════════
@@ -13342,12 +13678,14 @@ For a single deployed agent. The view an on-call operator pulls up first when an
 ═══════════════════════════════════════════════════════════════════════
 ```
 
-Notes on this layout:
+::: note Notes on this layout:
 
 - **Status traffic light at top-right:** First thing the operator sees. Green if all alarms are below warn, yellow if any warn, red if any critical.
 - **Six panels in a 2×3 grid:** Each panel is one operational concern. The 2×3 layout is the most-information-per-glance shape.
 - **Quick actions at the bottom:** The three actions an operator most often takes in an incident: pause the agent, roll back, pull recent traces for investigation. One click each.
 - **No "session detail" panel:** The dashboard is for aggregate signals, session detail belongs in a separate drill-down view.
+
+:::
 
 ### F.2 The Session-detail Drill-down
 
@@ -13355,7 +13693,8 @@ Notes on this layout:
 
 When the operator clicks "pull traces" or a specific session ID, this is what comes up:
 
-[![Pattern 100 — F.2 The Session-detail Drill-down](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5df8c289ca370bc0f847_codex-pattern-100-f-2-the-session-detail-drill-down.png) (<VPIcon icon="fa-brands fa-linkedin"/>`vahe-aslanyan`)](https://linkedin.com/in/vahe-aslanyan/)
+![Pattern 100 — F.2 The Session-detail Drill-down](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5df8c289ca370bc0f847_codex-pattern-100-f-2-the-session-detail-drill-down.png)
+<!-- TODO: 아래 코드와 같으면 생략 -->
 
 ```plaintext
 ═══════════════════════════════════════════════════════════════════════
@@ -13389,17 +13728,20 @@ When the operator clicks "pull traces" or a specific session ID, this is what co
 ═══════════════════════════════════════════════════════════════════════
 ```
 
-Notes:
+::: note
 
 - **Timeline format:** Every step gets one row with cost, outcome, and tool. Operator can scan vertically and spot the anomaly (the $0.18 voting spike, the loop after T+15).
 - **Auto-suggested root cause:** The replay system tries to identify the failure mode. Usually right. If wrong, the operator still has the full timeline.
 - **Remediation options listed:** Each is one click to start a re-run with the variation applied.
 
+:::
+
 ### F.3 The Agent-portfolio Dashboard
 
 For organizations operating multiple agents. The view for the platform-team lead or VP-Eng:
 
-[![Pattern 101 — F.3 The Agent-portfolio Dashboard](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5df887f2457e355367b2_codex-pattern-101-f-3-the-agent-portfolio-dashboard.png) (<VPIcon icon="fa-brands fa-linkedin"/>`vahe-aslanyan`)](https://linkedin.com/in/vahe-aslanyan/)
+![Pattern 101 — F.3 The Agent-portfolio Dashboard](https://cdn.prod.website-files.com/670b041cc58f983b09ee069a/6a7f5df887f2457e355367b2_codex-pattern-101-f-3-the-agent-portfolio-dashboard.png)
+<!-- TODO: 아래 코드와 같으면 생략 -->
 
 ```plaintext
 ═══════════════════════════════════════════════════════════════════════
@@ -13467,7 +13809,7 @@ Follow his work on LinkedIn at [vahe-aslanyan (<VPIcon icon="fa-brands fa-linked
 
 *"Empowering Tomorrow's Innovators, Today."*
 
-[LUNARTECH](https://lunartech.ai) is a deep-tech enterprise lab. We build scalable AI systems for real-world impact and we train the people who run them, which is an unusual combination and a deliberate one.
+[<VPIcon icon="fas fa-globe"/>LUNARTECH](https://lunartech.ai) is a deep-tech enterprise lab. We build scalable AI systems for real-world impact and we train the people who run them, which is an unusual combination and a deliberate one.
 
 The two halves inform each other: the production work tells us what practitioners actually need to know, and the training work supplies the engineers who staff the production work.
 
@@ -13492,7 +13834,7 @@ Our mission is to cultivate the next generation of technology leaders. We unite 
 
 Our values function as constraints rather than slogans. We build technology that upholds integrity and ethical precision, in recognition of the effect our work has on individuals and industries alike. We hold to exceptional standards and purpose-led progress, which means every stride forward is designed deliberately, with a dedication to quality and sustainability that we do not trade away under schedule pressure. The commitment extends past innovation into stewardship: each decision and each development reflects a considered vision, built with precision and foresight.
 
-To explore a partnership, or to get involved by using our products, contributing to our open-source projects, or collaborating on AI work, visit [lunartech.ai](https://lunartech.ai).
+To explore a partnership, or to get involved by using our products, contributing to our open-source projects, or collaborating on AI work, visit [<VPIcon icon="fas fa-globe"/>lunartech.ai](https://lunartech.ai).
 
 ---
 
@@ -13504,19 +13846,19 @@ The Fellowship addresses this by investing heavily in promising people rather th
 
 The program is a six-month, remote-first apprenticeship, structured as an immersive progression from aspiring talent to practicing engineer. Rather than paying to learn in isolation, Fellows work on live, high-stakes AI and data products alongside experienced senior engineers and founders. By tackling actual engineering challenges and assembling a concrete portfolio of production-ready work, participants acquire the job-ready skills the current market rewards.
 
-If you are ready to break the loop and accelerate your career, you can explore these opportunities and start at [lunartech.ai/our-careers](https://lunartech.ai/our-careers).
+If you are ready to break the loop and accelerate your career, you can explore these opportunities and start at [<VPIcon icon="fas fa-globe"/>lunartech.ai/our-careers](https://lunartech.ai/our-careers).
 
 ---
 
 ## Stay Connected with LUNARTECH
 
-Follow LUNARTECH through the [LUNARTECH newsletter](https://substack.com/@lunartech) and on [LinkedIn (<VPIcon icon="fa-brands fa-linkedin"/>`vahe-aslanyan`)](https://linkedin.com/in/vahe-aslanyan/), where innovation meets real engineering. Both channels carry insights, project stories, and industry breakthroughs from the front lines of applied AI and software development, written by the people doing the work rather than reporting on it.
+Follow LUNARTECH through the [<VPIcon icon="iconfont icon-substack"/>LUNARTECH newsletter](https://substack.com/@lunartech) and on [LinkedIn (<VPIcon icon="fa-brands fa-linkedin"/>`vahe-aslanyan`)](https://linkedin.com/in/vahe-aslanyan/), where innovation meets real engineering. Both channels carry insights, project stories, and industry breakthroughs from the front lines of applied AI and software development, written by the people doing the work rather than reporting on it.
 
 ---
 
 ## LUNARTECH Academy — Build the Future
 
-If the architectures in this book have shown you what agent engineering makes possible, and you want to build the skills to operate at that frontier, consider joining [academy.lunartech.ai](https://academy.lunartech.ai). The programs cover AI engineering, machine learning, data science, and applied development, and they are designed to equip you with the practical, industry-ready expertise needed to build production systems, direct AI agents effectively, and ship software that actually works.
+If the architectures in this book have shown you what agent engineering makes possible, and you want to build the skills to operate at that frontier, consider joining [<VPIcon icon="fas fa-globe"/>academy.lunartech.ai](https://academy.lunartech.ai). The programs cover AI engineering, machine learning, data science, and applied development, and they are designed to equip you with the practical, industry-ready expertise needed to build production systems, direct AI agents effectively, and ship software that actually works.
 
 Whether you are a developer looking to level up, a founder who wants to build without a full engineering team, or a domain expert ready to turn your knowledge into working software, the LUNARTECH Academy is built for where you are going rather than where you have been.
 
@@ -13528,7 +13870,7 @@ For those ready to move from theory to practice, we have written *The AI Enginee
 
 Inside, you will find real-world industry workflows, advanced architecting methods, and expert perspectives from leaders at companies including NVIDIA, Microsoft, and OpenAI. From understanding the technology behind ChatGPT to learning how to architect systems that turn research into world-changing products, it is a companion volume to the material in this book, aimed at career acceleration rather than pattern catalogue.
 
-You can download a free copy at [lunartech.ai/download/the-ai-engineering-handbook](https://lunartech.ai/download/the-ai-engineering-handbook).
+You can download a free copy at [<VPIcon icon="fas fa-globe"/>lunartech.ai/download/the-ai-engineering-handbook](https://lunartech.ai/download/the-ai-engineering-handbook).
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

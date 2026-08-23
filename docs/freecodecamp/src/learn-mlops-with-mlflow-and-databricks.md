@@ -2,7 +2,7 @@
 lang: en-US
 title: "Learn MLOps with MLflow and Databricks"
 description: "Article(s) > Learn MLOps with MLflow and Databricks"
-icon: 
+icon: iconfont icon-jupyter
 category:
   - Python
   - Jupyter Notbook
@@ -37,7 +37,7 @@ head:
       content: "Learn MLOps with MLflow and Databricks"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-mlops-with-mlflow-and-databricks.html
-prev: /articles/README.md
+prev: /programming/py-jupyter/articles/README.md
 date: 2026-03-05
 isOriginal: false
 author:

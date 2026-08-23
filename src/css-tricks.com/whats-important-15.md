@@ -56,7 +56,7 @@ Similar to [**last time**](/css-tricks.com/whats-important-14.md), **What’s !i
 
 ## Using `view()` for boundary-aware CSS
 
-[<VPIcon icon="iconfont icon-css-tricks"/>Preethi Sam](https://css-tricks.com/author/preethi/) very expertly walked us through [**the concept of boundary-aware CSS**](/master.dev/boundary-aware-styling-in-css.md). Using `view()`, Preethi was able to create a range of really useful effects, some of which I’ll share below:
+[<VPIcon icon="iconfont icon-css-tricks"/>Preethi Sam](https://css-tricks.com/author/preethi/) very expertly walked us through [**the concept of boundary-aware CSS**](/blog.master.dev/boundary-aware-styling-in-css.md). Using `view()`, Preethi was able to create a range of really useful effects, some of which I’ll share below:
 
 <CodePen
   user="anon"
@@ -79,7 +79,7 @@ Similar to [**last time**](/css-tricks.com/whats-important-14.md), **What’s !i
   :default-tab="['css','result']"
   :theme="dark"/>
 
-I *also* wrote a little something for the Master.dev blog, about [**making interactive elements invisible but accessible**](/master.dev/how-to-make-an-interactive-element-invisible-but-accessible.md). It sounds like more work is needed to make it *fully* accessible, and that a new value for the `hidden` attribute could be the answer.
+I *also* wrote a little something for the Master.dev blog, about [**making interactive elements invisible but accessible**](/blog.master.dev/how-to-make-an-interactive-element-invisible-but-accessible.md). It sounds like more work is needed to make it *fully* accessible, and that a new value for the `hidden` attribute could be the answer.
 
 ---
 

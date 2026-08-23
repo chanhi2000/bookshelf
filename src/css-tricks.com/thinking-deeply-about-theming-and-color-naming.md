@@ -119,7 +119,7 @@ Color is one of these things — one of the most important ones — but other im
 
 So, if you don’t wanna drown in the sea of sameness — looking like everyone else — **creating your own color palettes is a first step forward**.
 
-Now, you may be anxious about creating color palettes because there’s been lots of writing about the amount of work that goes into creating [<VPIcon icon="fas fa-globe"/>accessible](https://stephaniewalter.design/blog/tips-create-accessible-color-palette/) color [<VPIcon icon="fa-brands fa-paypal"/>palettes](https://stripe.com/blog/accessible-color-systems), so that might sound like a daunting task.
+Now, you may be anxious about creating color palettes because there’s been lots of writing about the amount of work that goes into creating [<VPIcon icon="fas fa-globe"/>accessible](https://stephaniewalter.design/blog/tips-create-accessible-color-palette/) color [<VPIcon icon="fa-brands fa-stripe"/>palettes](https://stripe.com/blog/accessible-color-systems), so that might sound like a daunting task.
 
 Plus, anything related to accessibility carries “Big Potential Consequences” and “Highly Shameful When Done Incorrectly,” so that can add extra pressure on you.
 

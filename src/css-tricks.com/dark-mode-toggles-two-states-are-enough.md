@@ -60,7 +60,7 @@ Lea’s pushing back on light/dark mode implementations that display three state
 
 Why show a System option at all when:
 
-> […] a [good two state control](https://lea.verou.me/blog/2026/dark-mode-toggles/#good-two-state-ux) can actually express all three states — users just need to apply the override the first time it becomes relevant.
+> […] a [<VPIcon icon="fas fa-globe"/>good two state control](https://lea.verou.me/blog/2026/dark-mode-toggles/#good-two-state-ux) can actually express all three states — users just need to apply the override the first time it becomes relevant.
 
 The first figure succinctly illustrates the point:
 

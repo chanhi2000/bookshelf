@@ -547,7 +547,7 @@ What you can do instead is some sort of hybrid approach by setting the view tran
 
 Or maybe just use CSS animations/transitions for both states! I’m not sure there’s any real added value in using a view transition on one state for the sake of using a view transition.
 
-Anyway, if you’re looking to get more creative with in-n-out animations, [**Chris Coyier has a pretty cool one**](/master.dev/blog/move-modal-in-on-a-shape.md) where the modal follows a `shape()` path. His demonstrates a dialog configured as a popover, so I forked it and used a modal instead:
+Anyway, if you’re looking to get more creative with in-n-out animations, [**Chris Coyier has a pretty cool one**](/blog.master.dev/blog/move-modal-in-on-a-shape.md) where the modal follows a `shape()` path. His demonstrates a dialog configured as a popover, so I forked it and used a modal instead:
 
 <CodePen
   user="anon"

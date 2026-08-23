@@ -1,0 +1,1 @@
+https://smashingmagazine.com/2023/07/define-array-colors-css/#what-are-the-limitations

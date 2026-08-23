@@ -6,12 +6,15 @@ icon: fa-brands fa-js
 category: 
   - JavaScript
   - Lisp
+  - RegEx
   - Article(s)
 tag: 
   - blog
   - freecodecamp.org
   - js
   - lisp
+  - regex
+  - regular-expression
 head:
   - - meta:
     - property: og:title
@@ -46,6 +49,16 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723400046627/d6cdb4d
   "title": "Lisp > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/lisp/articles/README.md",
+  "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
+  "background": "rgba(10,10,10,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "RegEx > Article(s)",
+  "desc": "Article(s)",
+  "link": "/programming/regex/articles/README.md",
   "logo": "https://chanhi2000.github.io/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }

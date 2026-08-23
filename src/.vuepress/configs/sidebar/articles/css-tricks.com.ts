@@ -37,6 +37,12 @@ const Y2026: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2026
+    "css-random-function-polyfill", // 2026-08-31
+    "whats-important-18", // 2026-08-31
+    "creating-web-widgets-using-the-document-picture-in-picture-api", // 2026-08-27
+    "microlighter-syntax-highlighter", // 2026-08-25
+    "wordpress-php-block-registration", // 2026-08-24
+    "resolved-css-class-prefix-selector", // 2026-08-21
     "css-navigation-matching-early-days", // 2026-08-19
     "dark-mode-toggles-two-states-are-enough", // 2026-08-17
     "whats-important-17", // 2026-08-14
@@ -639,6 +645,10 @@ export const template: SidebarInfoTemplate = {
       "whats-important-17", // 2026-08-14
       "dark-mode-toggles-two-states-are-enough", // 2026-08-17
       "css-navigation-matching-early-days", // 2026-08-19
+      "resolved-css-class-prefix-selector", // 2026-08-21
+      "microlighter-syntax-highlighter", // 2026-08-25
+      "whats-important-18", // 2026-08-31
+      "css-random-function-polyfill", // 2026-08-31
       // END: 2026css
       // END: css
     ]],[
@@ -671,6 +681,7 @@ export const template: SidebarInfoTemplate = {
       "a-primer-on-focus-trapping", // 2025-07-22
       // END: 2025js-node
       "the-javascript-module-system-architecture", // 2026-04-16
+      "css-random-function-polyfill", // 2026-08-31
       // END: 2026js-node
       // END: js-node
     ]],[
@@ -700,6 +711,7 @@ export const template: SidebarInfoTemplate = {
       "the-siren-song-of-arianotify", // 2026-06-17
       "css-states-and-javascript-events", // 2026-06-29
       "using-and-styling-the-dialog-element", // 2026-08-07
+      "creating-web-widgets-using-the-document-picture-in-picture-api", // 2026-08-27
       // END: 2026js
       // END: js
     ]],[
@@ -727,7 +739,12 @@ export const template: SidebarInfoTemplate = {
       // END: 2025php
       // END: php
     ]],[
-    "security", [
+    "php-wordpress",[
+      "wordpress-php-block-registration", // 2026-08-24
+      // END: 2025php-wordpress
+      // END: php-wordpress
+    ]],[
+    "security",[
       // END: 2025security
       "an-exploit-in-css", // 2026-02-25
       // END: 2026security
