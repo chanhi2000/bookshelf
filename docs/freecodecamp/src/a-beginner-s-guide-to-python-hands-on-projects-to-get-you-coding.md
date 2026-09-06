@@ -60,7 +60,7 @@ In this course, you will learn the fundamentals of Python programming in a logic
 
 Once you have a firm grasp on the fundamentals, you will apply your new skills by building several hands-on projects from scratch. You will write a dynamic calculator, create a secure random password generator, build a MAC address generator, and even explore networking by writing a script to check your internet connectivity using Python's socket module.
 
-You can watch the full course on [<VPIcon icon="fa-brands fa-youtube"/>the freeCodeCamp.org YouTube channel](https://youtube.com/watch?v=oDOw5tB3Udw) (9-hour watch).
+You can watch the full course on [<VPIcon icon="fa-brands fa-youtube"/>the freeCodeCamp.org YouTube channel](https://youtu.be/oDOw5tB3Udw) (9-hour watch).
 
 <VidStack src="youtube/oDOw5tB3Udw" />
 

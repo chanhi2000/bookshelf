@@ -11,7 +11,7 @@ category:
   - Article(s)
 tag:
   - blog
-  - master.dev
+  - blog.master.dev
   - node
   - nodejs
   - node-js

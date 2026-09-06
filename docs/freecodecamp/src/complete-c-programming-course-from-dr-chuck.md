@@ -11,6 +11,7 @@ tag:
   - blog
   - freecodecamp.org
   - c
+  - clang
   - youtube
   - crashcourse
 head:

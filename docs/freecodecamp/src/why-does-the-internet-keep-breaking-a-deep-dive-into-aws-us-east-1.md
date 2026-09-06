@@ -66,7 +66,7 @@ When the internet goes down, it often feels like a mysterious, singular event. B
 
 This is a story about how systems this large don't fail in the ways we predict, they fail in the ways we forget to protect against.
 
-Watch the full video [<VPIcon icon="fa-brands fa-youtube"/>on the freeCodeCamp.org YouTube channel](https://youtube.com/watch?v=6C14E9sQ_-w) (16-minute watch).
+Watch the full video [<VPIcon icon="fa-brands fa-youtube"/>on the freeCodeCamp.org YouTube channel](https://youtu.be/6C14E9sQ_-w) (16-minute watch).
 
 <VidStack src="youtube/6C14E9sQ_-w" />
 

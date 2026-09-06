@@ -10,7 +10,7 @@ category:
   - Article(s)
 tag:
   - blog
-  - master.dev
+  - blog.master.dev
   - devops
   - cloudflare
   - netlify

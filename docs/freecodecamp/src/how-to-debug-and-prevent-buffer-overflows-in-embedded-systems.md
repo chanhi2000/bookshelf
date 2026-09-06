@@ -10,6 +10,7 @@ tag:
   - blog
   - freecodecamp.org
   - c
+  - clang
 head:
   - - meta:
     - property: og:title

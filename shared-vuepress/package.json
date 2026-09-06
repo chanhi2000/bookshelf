@@ -1,6 +1,6 @@
 {
   "name": "@bookshelf/shared-vuepress",
-  "version": "0.2.36",
+  "version": "0.2.37",
   "private": true,
   "description": "Common stuff required from Vuepress",
   "license": "MIT",

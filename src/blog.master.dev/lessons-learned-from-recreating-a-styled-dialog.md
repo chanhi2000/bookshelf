@@ -8,7 +8,7 @@ category:
   - Article(s)
 tag:
   - blog
-  - master.dev
+  - blog.master.dev
   - css
 head:
   - - meta:
@@ -299,7 +299,6 @@ Feel free to [peak at the demo (<VPIcon icon="fa-brands fa-codepen"/>`chriscoyie
   title="Terms & Conditions Dialog Element"
   :default-tab="['css','result']"
   :theme="dark"/>
-
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard

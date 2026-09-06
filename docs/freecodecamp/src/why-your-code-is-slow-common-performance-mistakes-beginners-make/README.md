@@ -24,6 +24,7 @@ tag:
   - c++
   - cpp
   - c
+  - clang
 head:
   - - meta:
     - property: og:title

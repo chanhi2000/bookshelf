@@ -2,7 +2,7 @@
 lang: en-US
 title: "How to Protect Your Privacy While Browsing the Web"
 description: "Article(s) > How to Protect Your Privacy While Browsing the Web"
-icon: 
+icon: fas fas-shield-halved
 category:
   - DevOps
   - Security

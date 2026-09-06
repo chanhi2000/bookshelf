@@ -2,7 +2,7 @@
 lang: en-US
 title: "The Builder Design Pattern: A Better Approach to Complex Object Construction"
 description: "Article(s) > The Builder Design Pattern: A Better Approach to Complex Object Construction"
-icon: fas fa-database
+icon: fas fa-pen-ruler
 category:
   - Dart
   - Flutter
@@ -29,7 +29,7 @@ head:
       content: "The Builder Design Pattern: A Better Approach to Complex Object Construction"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/the-builder-design-pattern-a-better-approach-to-complex-object-construction.html
-prev: /articles/README.md
+prev: /academics/system-design/articles/README.md
 date: 2026-09-03
 isOriginal: false
 author:

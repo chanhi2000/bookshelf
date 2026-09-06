@@ -5,6 +5,9 @@ const Y2026: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2026
+    "building-a-reliable-postgresql-queue-concurrency-crashes-retries-and-scale", // 2026-09-09
+    "custom-scrollbar-component-in-2026", // 2026-09-07
+    "react-now-rusted-all-the-way-out", // 2026-09-04
     "new-things-you-should-know-about-html-here-in-mid-2026", // 2026-09-02
     "having-fun-with-vercels-ai-sdk-and-ai-gateway", // 2026-08-31
     "background-image-refraction-in-css", // 2026-08-28
@@ -330,9 +333,14 @@ const Y2024: SidebarYeargroupTemplate = {
     "things-that-can-break-aspect-ratio-in-css", // 2024-04-16
     "a-css-powered-add-remove-tags-ui", // 2024-04-11
     "drawing-a-line-to-connect-elements-with-css-anchor-positioning", // 2024-04-02
+    "menus-toasts-and-more", // 2024-03-04
     "creating-flower-shapes-using-css-mask-trigonometric-functions", // 2024-02-29
-   
+    "scroll-locked-dialogs", // 2024-02-19
+    "basic-dialog-usage-and-gotchas-to-watch-for", // 2024-02-05
+
+    "heads-up-on-custom-scrollbars-chrome-is-supporting-the-standard-now-which-overrides-the-old-pseudo-elements", // 2024-01-31
     "the-color-input-the-color-picker", // 2024-01-18
+    "million-js-3-0", // 2024-01-15
     "console-delight", // 2024-01-11
     "we-can-has-it-all", // 2024-01-10
   ]
@@ -364,6 +372,8 @@ export const template: SidebarInfoTemplate = {
       // END: 2023js
       "console-delight", // 2024-01-11
       "the-color-input-the-color-picker", // 2024-01-18
+      "basic-dialog-usage-and-gotchas-to-watch-for", // 2024-02-05
+      "menus-toasts-and-more", // 2024-03-04
       "5-things-designers-can-do-with-javascript", // 2024-05-08
       "control-javascript-promises-from-anywhere-using-promise-withresolvers", // 2024-06-05
       "playing-with-the-speculation-rules-api-in-the-console", // 2024-06-07
@@ -403,6 +413,7 @@ export const template: SidebarInfoTemplate = {
       "view-transitions-careful-not-to-make-stuff-unclickable", // 2026-08-07
       "tooltips-need-a-delay-and-then-they-need-to-skip-it", // 2026-08-13
       "new-things-you-should-know-about-html-here-in-mid-2026", // 2026-09-02
+      "custom-scrollbar-component-in-2026", // 2026-09-07
       // END: 2026js
       // END: js
     ]],[
@@ -415,6 +426,7 @@ export const template: SidebarInfoTemplate = {
       "custom-elements-with-lit-html", // 2025-12-29
       // END: 2025ts
       "fun-with-typescript-generics", // 2026-02-13
+      "building-a-reliable-postgresql-queue-concurrency-crashes-retries-and-scale", // 2026-09-09
       // END: 2026ts
       // END: ts
     ]],[
@@ -437,6 +449,7 @@ export const template: SidebarInfoTemplate = {
       // END: js-node
     ]],[
     "js-react", [
+      "million-js-3-0", // 2024-01-15
       "prefetching-when-server-loading-wont-do", // 2024-05-15
       "combining-react-server-components-with-react-query-for-easy-data-management", // 2024-05-24
       "what-does-hydration-mean", // 2024-09-09
@@ -466,6 +479,7 @@ export const template: SidebarInfoTemplate = {
       "durable-objects-on-cloudflare", // 2026-07-20
       "react-compiler-linting-just-got-a-rust-native-speedup-in-oxlint", // 2026-08-17
       "keyboard-shortcuts-that-display-the-correct-modifier-key-per-os", // 2026-08-21
+      "react-now-rusted-all-the-way-out", // 2026-09-04
       // END: 2026js-react
       // END: js-react
     ]],[
@@ -504,12 +518,12 @@ export const template: SidebarInfoTemplate = {
       // END: 2026js-lit
       // END: js-lit
     ]],[
-      "js-deno", [
+    "js-deno", [
       "when-deno-or-bun-is-a-better-solution-than-node-js", // 2026-03-16
       // END: 2026js-deno
       // END: js-deno
     ]],[
-      "js-bun", [
+    "js-bun", [
       "when-deno-or-bun-is-a-better-solution-than-node-js", // 2026-03-16
       // END: 2026js-bun
       // END: js-bun
@@ -518,7 +532,9 @@ export const template: SidebarInfoTemplate = {
       "light-dom-only", // 2023-12-08
       // END: 2023css
       "we-can-has-it-all", // 2024-01-10
-
+      "heads-up-on-custom-scrollbars-chrome-is-supporting-the-standard-now-which-overrides-the-old-pseudo-elements", // 2024-01-31
+      "basic-dialog-usage-and-gotchas-to-watch-for", // 2024-02-05
+      "scroll-locked-dialogs", // 2024-02-19
       "creating-flower-shapes-using-css-mask-trigonometric-functions", // 2024-02-29
       "drawing-a-line-to-connect-elements-with-css-anchor-positioning", // 2024-04-02
       "a-css-powered-add-remove-tags-ui", // 2024-04-11 
@@ -720,9 +736,15 @@ export const template: SidebarInfoTemplate = {
       "devhover-proximity-using-modern-css", // 2026-08-26
       "background-image-refraction-in-css", // 2026-08-28
       "new-things-you-should-know-about-html-here-in-mid-2026", // 2026-09-02
+      "custom-scrollbar-component-in-2026", // 2026-09-07
       // END: 2026css
       // END: css
     ]],[
+    "rust", [
+      "react-now-rusted-all-the-way-out", // 2026-09-04
+      // END: 2026rust
+      // END: rust
+    ]], [
     "devops", [
       "exactly-how-to-deploy-local-files-to-make-a-live-website", // 2024-05-17
       // END: 2024devops
@@ -839,6 +861,7 @@ export const template: SidebarInfoTemplate = {
       // END: 2025postgres
       "your-databases-isolation-levels-dont-mean-what-you-think", // 2026-06-22
       "cloudflare-workers-and-hyperdrive-with-tanstack-start", // 2026-07-02
+      "building-a-reliable-postgresql-queue-concurrency-crashes-retries-and-scale", // 2026-09-09
       // END: 2026postgres
       // END: postgres
     ]],[

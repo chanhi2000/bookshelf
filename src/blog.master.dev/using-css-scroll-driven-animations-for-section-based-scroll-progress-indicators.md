@@ -9,7 +9,7 @@ category:
   - Article(s)
 tag: 
   - blog
-  - master.dev
+  - blog.master.dev
   - html
   - css
 head:

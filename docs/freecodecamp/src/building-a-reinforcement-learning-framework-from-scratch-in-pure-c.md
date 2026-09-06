@@ -63,7 +63,7 @@ Here is what the course covers:
 
 Writing reinforcement learning algorithms in C strips away high-level abstractions, forcing a precise understanding of memory layout, computational complexity, and the mathematical foundations of backpropagation. By seeing how every node in a computational graph is allocated and traversed, you gain a deeper, intuitive grasp of how modern neural network architectures execute beneath their high-level wrappers.
 
-This course provides a practical, step-by-step guide in building AI systems from first principles. Watch the full course [<VPIcon icon="fa-brands fa-youtube"/>on the freeCodeCamp.org YouTube](https://youtube.com/watch?v=R5fPn6W8m6k) channel (2-hour watch).
+This course provides a practical, step-by-step guide in building AI systems from first principles. Watch the full course [<VPIcon icon="fa-brands fa-youtube"/>on the freeCodeCamp.org YouTube](https://youtu.be/R5fPn6W8m6k) channel (2-hour watch).
 
 <VidStack src="youtube/R5fPn6W8m6k" />
 

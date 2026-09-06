@@ -11868,7 +11868,7 @@ The missing patterns: Provenance Tracker (55) to ground claims in citable source
   desc="Mata v. Avianca, Inc. was a U.S. District Court for the Southern District of New York case in which the Court dismissed a personal injury case against ..."
   url="https://en.wikipedia.org/wiki/Mata_v._Avianca,_Inc."
   logo="/static/favicon/wikipedia.ico"
-  preview="https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/USDCSDNY.svg/1280px-USDCSDNY.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail"/>
+  preview="https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/USDCSDNY.svg/1280px-USDCSDNY.svg.png?"/>
 
 Lawyers sanctioned for citing GPT-hallucinated cases in court filings. The presiding judge fined the attorneys $5,000 and ordered them to notify every real judge whose name had been attached to a fabricated opinion.  
 

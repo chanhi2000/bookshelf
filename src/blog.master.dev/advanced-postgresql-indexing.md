@@ -9,7 +9,7 @@ category:
   - Article(s)
 tag:
   - blog
-  - master.dev
+  - blog.master.dev
   - data-science
   - sql
   - db
@@ -492,7 +492,7 @@ Hopefully, these posts have taught you a few things about querying, query tuning
 
 ::: note Editor’s note
 
-our [The Complete Course for Building Backend Web Apps with Go](https://master.dev/courses/complete-go/) includes setting up a PostgreSQL database and running it in Docker, all from scratch.
+Our [<VPIcon icon="fas fa-globe"/>The Complete Course for Building Backend Web Apps with Go](https://master.dev/courses/complete-go/) includes setting up a PostgreSQL database and running it in Docker, all from scratch.
 
 :::
 

@@ -87,7 +87,7 @@ The course focuses heavily on practical implementation rather than just theory. 
 
 Whether you are looking to adopt Claude as a primary AI driver within your organization or simply want to master advanced agentic design patterns that are transferable across any AI stack, this course offers the deep technical foundation you need.
 
-Watch the full course on [<VPIcon icon="fa-brands fa-youtube"/>the freeCodeCamp.org YouTube channel](https://youtube.com/watch?v=reDRM0tqhNs) (13-hour watch).
+Watch the full course on [<VPIcon icon="fa-brands fa-youtube"/>the freeCodeCamp.org YouTube channel](https://youtu.be/reDRM0tqhNs) (13-hour watch).
 
 <VidStack src="youtube/reDRM0tqhNs" />
 
