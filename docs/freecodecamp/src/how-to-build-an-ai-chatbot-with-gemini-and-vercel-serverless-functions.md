@@ -22,6 +22,8 @@ tag:
   - react
   - reactjs
   - react-js
+  - devops
+  - vercel
   - ai
   - artificial-intelligence
   - llm

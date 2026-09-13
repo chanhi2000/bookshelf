@@ -6,6 +6,7 @@ icon: iconfont icon-gradio
 category:
   - Python
   - Gradio
+  - Pandas
   - Article(s)
 tag:
   - blog
@@ -14,6 +15,8 @@ tag:
   - python
   - gradio
   - py-gradio
+  - pandas
+  - py-pandas
 head:
   - - meta:
     - property: og:title
@@ -38,6 +41,16 @@ cover: https://cdn.hashnode.com/uploads/covers/5e1e335a7a1d3fcc59028c64/06bee29b
   "title": "Gradio > Article(s)",
   "desc": "Article(s)",
   "link": "/programming/py-gradio/articles/README.md",
+  "logo": "/images/ico-wind.svg",
+  "background": "rgba(10,10,10,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "Pandas > Article(s)",
+  "desc": "Article(s)",
+  "link": "/programming/py-pandas/articles/README.md",
   "logo": "/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
@@ -106,8 +119,6 @@ By the end, you won't just know how to use individual Gradio components. You'll 
 - [22. Environment Variables, Secrets, and API Keys](#heading-22-environment-variables-secrets-and-api-keys)
 - [23. Performance, Errors, Security, and Production Tips](#heading-23-performance-errors-security-and-production-tips)
 - [24. Build a Complete AI-Powered Gradio Application](#heading-24-build-a-complete-ai-powered-gradio-application)
-- [25. Where to Go After Gradio](#heading-25-where-to-go-after-gradio)
-- [Final Perspective](#heading-final-perspective)
 
 Let's get started.
 
@@ -162,7 +173,6 @@ You provide the Python logic, and Gradio provides a way for users to interact wi
 
 :::
 
-<!-- TODO: 여기서 시작 -->
 For example, suppose you have this function:
 
 ```py
@@ -205,7 +215,7 @@ Gradio provides the interface through which someone can provide the input and se
 
 This separation is useful because the underlying Python logic doesn't have to be an AI model. It could be almost anything.
 
-For example:
+::: tip For example:
 
 ```py
 def calculate_area(width, height):
@@ -239,6 +249,8 @@ Or:
 def generate_response(message, history):
     ...
 ```
+
+:::
 
 Gradio can sit around all of these kinds of Python functionality.
 
@@ -532,7 +544,7 @@ On systems where `python3` is the command used to run Python:
 python3 -m venv .venv
 ```
 
-The `.venv` folder contains the environment.
+The <VPIcon icon="fas fa-folder-open"/>`.venv` folder contains the environment.
 
 You generally don't need to edit anything inside it manually.
 
@@ -604,15 +616,15 @@ Your project might now look roughly like this:
 
 ```text
 gradio-course/
-    .venv/
-    app.py
+  .venv/
+  app.py
 ```
 
-You don't need to manually create `.venv` if you used the virtual environment command. Python created it for you.
+You don't need to manually create <VPIcon icon="fas fa-folder-open"/>`.venv` if you used the virtual environment command. Python created it for you.
 
 ### Your First Import
 
-Open `app.py` and write:
+Open <VPIcon icon="fa-brands fa-python"/>`app.py` and write:
 
 ```py
 import gradio as gr
@@ -698,7 +710,7 @@ That can prevent a surprisingly annoying class of dependency problems.
 
 ### Running Your Gradio Application
 
-Once `app.py` contains an application, you'll run it from the terminal.
+Once <VPIcon icon="fa-brands fa-python"/>`app.py` contains an application, you'll run it from the terminal.
 
 For example:
 
@@ -1220,7 +1232,7 @@ This pattern becomes extremely important. If your Python function accepts multip
 
 Let's build another application.
 
-```py
+```py :collapsed-lines
 import gradio as gr
 
 def analyze_text(text):
@@ -1474,25 +1486,10 @@ Examples include:
 
 ```py
 gr.Textbox()
-```
-
-```py
 gr.Number()
-```
-
-```py
 gr.Slider()
-```
-
-```py
 gr.Dropdown()
-```
-
-```py
 gr.File()
-```
-
-```py
 gr.Image()
 ```
 
@@ -1526,17 +1523,7 @@ Suppose you have:
 
 ```py
 button = gr.Button("Analyze")
-```
-
-and:
-
-```py
 text = gr.Textbox()
-```
-
-and:
-
-```py
 result = gr.Textbox()
 ```
 
@@ -2164,7 +2151,7 @@ def analyze_text(text):
 
 The function returns two values, so we provide two outputs:
 
-```py
+```py :collapsed-lines
 import gradio as gr
 
 def analyze_text(text):
@@ -2277,7 +2264,7 @@ This is useful when your function produces structured information.
 
 You can provide an initial value.
 
-For example:
+::: tips For example:
 
 ```py
 gr.Textbox(
@@ -2304,6 +2291,8 @@ gr.Slider(
 ```
 
 This can make applications easier to understand because users immediately see what kind of value the component expects.
+
+:::
 
 ### Labels Help Users Understand Your Interface
 
@@ -2447,17 +2436,12 @@ We'll explore events in much greater depth in Chapter 7. ### Understanding Data 
 
 Different components naturally represent different kinds of information.
 
-A `Textbox` generally deals with strings.
-
-A `Number` deals with numerical values.
-
-An `Image` deals with image data.
-
-A `Checkbox` represents a Boolean value.
-
-A `Dropdown` returns the selected option.
-
-A `Slider` returns a numerical value.
+- A `Textbox` generally deals with strings.
+- A `Number` deals with numerical values.
+- An `Image` deals with image data.
+- A `Checkbox` represents a Boolean value.
+- A `Dropdown` returns the selected option.
+- A `Slider` returns a numerical value.
 
 This matters because your Python function should expect the type of data the component provides.
 
@@ -2536,7 +2520,7 @@ As applications become more complex, validation becomes increasingly important.
 
 Let's build a small profile generator.
 
-```py
+```py :collapsed-lines
 import gradio as gr
 
 def create_profile(name, age, occupation):
@@ -2671,7 +2655,7 @@ Then create the Gradio interface yourself.
 
 Once that works, modify it so the user can choose between Celsius and Fahrenheit.
 
-### Key Takeaways
+::: important Key Takeaways
 
 - Inputs are values supplied to your Python functions.
 - Outputs are values returned to the user.
@@ -2682,6 +2666,8 @@ Once that works, modify it so the user can choose between Celsius and Fahrenheit
 - Labels and placeholders make interfaces easier to understand.
 - Validation prevents invalid user input from causing failures.
 - Components can be used as both inputs and outputs depending on how they're connected.
+
+:::
 
 ---
 
@@ -2783,17 +2769,13 @@ gr.Slider(
     value=0.5,
     step=0.1
 )
-```
-
-This gives values such as:
-
-```text
-0.0
-0.1
-0.2
-0.3
-...
-1.0
+#
+# 0.0
+# 0.1
+# 0.2
+# 0.3
+# ...
+# 1.0
 ```
 
 This can be useful for parameters that should have predictable increments.
@@ -2996,7 +2978,7 @@ You can use dataframes for:
 
 For example:
 
-```py
+```py :collapsed-lines
 import gradio as gr
 
 def create_data():
@@ -3305,7 +3287,7 @@ Real applications rarely contain only one component.
 
 Consider a sentiment analyzer:
 
-```py
+```py :collapsed-lines
 import gradio as gr
 
 def analyze_sentiment(text):
@@ -3357,7 +3339,7 @@ The function should generate a short profile based on the selected values.
 
 Focus on understanding how the components connect rather than making the interface visually perfect.
 
-### Key takeaways
+::: important Key takeaways
 
 Gradio provides components for many types of user interaction.
 
@@ -3370,6 +3352,8 @@ Gradio provides components for many types of user interaction.
 Components can be configured with labels, defaults, placeholders, visibility, and other properties.
 
 And you should choose components based on the data and interaction your application actually needs.
+
+:::
 
 ---
 
@@ -3688,14 +3672,11 @@ This is useful for multi-stage workflows.
 
 For example:
 
-```text
-Input
-↓
-Clean
-↓
-Analyze
-↓
-Display
+```mermaid
+flowchart TD
+  A[Input] --> B[Clean]
+  B --> C[Analyze]
+  C --> D[Display]
 ```
 
 The exact event-chain syntax should be checked against the Gradio version you're using, but the underlying concept is straightforward: one event can lead into another.
@@ -3731,9 +3712,9 @@ inputs=[name, tone, length]
 
 This lets users control multiple aspects of the function.
 
-### Example: a Writing Assistant
+::: tip Example: a Writing Assistant
 
-```py
+```py :collapsed-lines
 import gradio as gr
 
 def write_message(topic, tone):
@@ -3766,6 +3747,8 @@ demo.launch()
 ```
 
 The user controls two inputs. The event collects both, and the function receives both. Then the output updates.
+
+:::
 
 ### Event Listeners Are Configuration
 
@@ -3896,7 +3879,7 @@ Instead of using a button, experiment with an event that updates the results as 
 
 Compare the two experiences. Think about when automatic updates are useful and when a button gives the user better control.
 
-### Key Takeaways
+::: important Key Takeaways
 
 Events make Gradio interfaces interactive.
 
@@ -3909,6 +3892,8 @@ Events make Gradio interfaces interactive.
 - Event design affects both usability and performance.
 
 A good interface responds to real user behavior, including invalid input and slow operations.
+
+:::
 
 ---
 
@@ -3938,7 +3923,7 @@ There are two inputs and two outputs.
 
 We can represent that directly:
 
-```py
+```py :collapsed-lines
 import gradio as gr
 
 def calculate_rectangle(length, width):
@@ -4163,7 +4148,7 @@ This is a reminder that interface design and Python validation work together.
 
 Let's create a small application that collects information about a book.
 
-```py
+```py :collapsed-lines
 import gradio as gr
 
 def create_book_summary(title, author, genre, rating):
@@ -4323,8 +4308,10 @@ demo.launch()
 
 If you only need:
 
-```text
-inputs → function → outputs
+```mermaid
+flowchart LR
+  A[inputs] --> B[function]
+  B --> C[outputs]
 ```
 
 `Interface` may be enough.
@@ -4347,7 +4334,7 @@ Let's build a small AI writing configuration interface.
 
 The user provides a topic, a tone, a length, whether to include examples, and a language.
 
-```py
+```py :collapsed-lines
 import gradio as gr
 
 def generate_article(
@@ -4482,7 +4469,7 @@ Don't worry about calling an AI model yet. Just use ordinary Python logic.
 
 The goal is to practice managing several inputs and outputs.
 
-### Key Takeaways
+::: important Key Takeaways
 
 - Functions can receive many inputs.
 - Events can connect multiple components to one function.
@@ -4491,6 +4478,8 @@ The goal is to practice managing several inputs and outputs.
 - Inputs can be completely different component types.
 - Structured results can be displayed with components such as `JSON` or `Dataframe`.
 - Complex applications benefit from separating interface code from business logic.
+
+:::
 
 ---
 
@@ -4558,7 +4547,7 @@ This allows the two textboxes to appear next to one another when the layout perm
 
 Rows are particularly useful for related controls.
 
-### Example: Two-Number Calculator
+::: tip Example: Two-Number Calculator
 
 ```py
 import gradio as gr
@@ -4588,6 +4577,8 @@ demo.launch()
 
 The two inputs are logically related, so placing them in a row makes sense.
 
+:::
+
 ### Columns
 
 A column stacks components vertically.
@@ -4605,7 +4596,7 @@ A `Blocks` application already follows a vertical flow by default, but explicit 
 
 This is where layout design becomes powerful. You can have a row containing two columns.
 
-For example:
+::: tip For example:
 
 ```py
 with gr.Row():
@@ -4622,11 +4613,13 @@ This creates a common application pattern:
 - controls on one side
 - results on the other
 
+:::
+
 ### Building a Two-Panel Interface
 
 Let's create a simple text analyzer.
 
-```py
+```py :collapsed-lines
 import gradio as gr
 
 def analyze(text):
@@ -4687,7 +4680,7 @@ For example, a large document input may need more space than a small settings pa
 
 Tabs are useful when your application contains multiple related workflows.
 
-For example:
+::: tip For example:
 
 ```py
 with gr.Blocks() as demo:
@@ -4701,6 +4694,8 @@ demo.launch()
 ```
 
 The user can switch between the two tools without seeing every control simultaneously.
+
+:::
 
 #### When Should You Use Tabs?
 
@@ -4804,14 +4799,11 @@ We could respond to a change in selection by showing the appropriate component.
 
 The exact update syntax should be matched to the Gradio version you're using, but the design pattern is:
 
-```text
-User chooses mode
-        ↓
-Event fires
-        ↓
-Interface updates
-        ↓
-Relevant component becomes available
+```mermaid
+flowchart TD
+  A[User chooses mode] --> B[Event fires]
+  B --> C[Interface updates]
+  C --> D[Relevant component becomes available]
 ```
 
 This is useful for applications that support multiple input modes.
@@ -4860,7 +4852,7 @@ This creates a visual hierarchy without requiring custom frontend code.
 
 Let's combine several layout concepts.
 
-```py
+```py :collapsed-lines
 import gradio as gr
 
 def analyze(text):
@@ -5010,7 +5002,7 @@ Use:
 
 Don't add layout elements just to satisfy the checklist. Think about why each one belongs there.
 
-### Key Takeaways
+::: important Key Takeaways
 
 - `Blocks` gives you control over the structure of a Gradio application.
 - Rows arrange components horizontally.
@@ -5021,6 +5013,8 @@ Don't add layout elements just to satisfy the checklist. Think about why each on
 - Good layout makes applications easier to understand and use.
 - Responsive design matters because users won't all have the same screen size.
 - The simplest interface that clearly supports the user's task is often the best interface.
+
+:::
 
 ---
 
@@ -5193,7 +5187,7 @@ This makes state useful for information that needs to persist but doesn't need t
 
 Let's make the counter slightly more useful.
 
-```py
+```py :collapsed-lines
 import gradio as gr
 
 def increment(count):
@@ -5331,9 +5325,9 @@ settings = gr.State({
 
 A function can modify the settings and return the updated dictionary. This can be useful for applications with multiple related settings.
 
-### Example: Storing Application Settings
+::: tip Example: Storing Application Settings
 
-```py
+```py :collapsed-lines
 import gradio as gr
 
 def update_settings(language, temperature):
@@ -5375,22 +5369,20 @@ The state contains the current configuration. The JSON component makes it visibl
 
 In a real application, you might use the state internally instead.
 
+:::
+
 ### State in Multi-Step Workflows
 
 State becomes particularly useful when an application consists of several stages.
 
 Imagine a document workflow:
 
-```text
-Upload document
-↓
-Extract text
-↓
-Clean text
-↓
-Analyze text
-↓
-Generate summary
+```mermaid
+flowchart TD
+  A[Upload document] --> B[Extract text]
+  B --> C[Clean text]
+  C --> D[Analyze text]
+  D --> E[Generate summary]
 ```
 
 You don't necessarily want every stage to repeat the earlier work. The extracted text can be stored in state.
@@ -5411,9 +5403,9 @@ def extract_document(file):
 
 The text can then become available to the next operation.
 
-### Example: Document Processing State
+::: tip Example: Document Processing State
 
-```py
+```py :collapsed-lines
 import gradio as gr
 
 def extract_text(file):
@@ -5462,6 +5454,8 @@ demo.launch()
 ```
 
 The extracted text is stored separately from the visible preview. This means later operations can use it.
+
+:::
 
 ### State and Chatbots
 
@@ -5536,7 +5530,7 @@ Then add a reset button.
 
 The goal is to practice storing information between interactions rather than recomputing everything from visible components.
 
-### Key Takeaways
+::: important Key Takeaways
 
 - State stores information between interactions.
 - `gr.State` is useful for temporary per-session data.
@@ -5545,6 +5539,8 @@ The goal is to practice storing information between interactions rather than rec
 - State isn't the same as permanent storage.
 - Use a database or persistent storage when information must survive beyond a session.
 - Avoid relying on global variables for user-specific application state.
+
+:::
 
 ---
 
@@ -5667,7 +5663,7 @@ The file could be corrupted, use an unexpected encoding, have an unsupported str
 
 Don't assume every uploaded file is valid.
 
-For example:
+::: tip For example:
 
 ```py
 def read_text_file(file):
@@ -5686,6 +5682,8 @@ def read_text_file(file):
 ```
 
 For production applications, avoid exposing internal error details directly to users.
+
+:::
 
 ### CSV Files
 
@@ -5707,7 +5705,7 @@ def analyze_csv(file):
 
 You can display the result using `gr.Dataframe`.
 
-```py
+```py :collapsed-lines
 import gradio as gr
 import pandas as pd
 
@@ -5744,7 +5742,7 @@ This is already a useful mini-application.
 
 Let's make the CSV application more interesting.
 
-```py
+```py :collapsed-lines
 import gradio as gr
 import pandas as pd
 
@@ -5822,11 +5820,11 @@ You might use a library such as PyMuPDF, depending on your requirements.
 
 The important Gradio concept remains unchanged:
 
-```text
-File component
-→ Python function
-→ extracted content
-→ output component
+```mermaid
+flowchart TD
+  A[File component] --> B[Python function]
+  B --> C[extracted content]
+  C --> D[output component]
 ```
 
 ### DOCX Processing
@@ -5888,22 +5886,22 @@ can display the structured data.
 
 A useful application often follows a pipeline:
 
-```text
-Upload
-→ Validate
-→ Extract
-→ Transform
-→ Analyze
-→ Display
+```mermaid
+flowchart TD
+  A[Upload] --> B[Validate]
+  B --> C[Extract]
+  C --> D[Transform]
+  D --> E[Analyze]
+  E --> F[Display]
 ```
 
 Don't put every operation into one enormous block if the workflow becomes difficult to maintain.
 
 Separate functions can make the application easier to test.
 
-### Example: CSV Cleaning Tool
+::: tip Example: CSV Cleaning Tool
 
-```py
+```py :collapsed-lines
 import gradio as gr
 import pandas as pd
 
@@ -5956,6 +5954,8 @@ demo.launch()
 ```
 
 This is a practical tool rather than merely a demonstration.
+
+:::
 
 ### File Downloads
 
@@ -6055,7 +6055,7 @@ This is excellent practice because it combines:
 - validation
 - Gradio events
 
-### Key Takeaways
+::: important Key Takeaways
 
 - `gr.File` allows users to upload files.
 - Restrict accepted file types when possible.
@@ -6066,6 +6066,8 @@ This is excellent practice because it combines:
 - Large files can create performance problems.
 - Uploaded files should be treated as untrusted input.
 - Never execute uploaded code without a very deliberate security model.
+
+:::
 
 ---
 
@@ -6147,7 +6149,7 @@ If you're passing an image to a library that expects a file, a filepath may be e
 
 Let's create a grayscale converter.
 
-```py
+```py :collapsed-lines
 from PIL import Image, ImageOps
 import gradio as gr
 
@@ -6181,10 +6183,10 @@ demo.launch()
 
 This demonstrates a powerful pattern:
 
-```text
-Image input
-→ Python image processing
-→ Image output
+```mermaid
+flowchart LR
+  A[Image input] --> B[Python image processing]
+  B --> C[Image output]
 ```
 
 ### Image Classification
@@ -6250,7 +6252,7 @@ audio = gr.Audio(
 
 A transcription application might look like:
 
-```py
+```py :collapsed-lines
 import gradio as gr
 
 def transcribe(audio):
@@ -6288,13 +6290,13 @@ Your model or processing library may expect a particular representation. Or you 
 
 For example, an audio processing pipeline might:
 
-```text
-Audio upload
-→ Decode audio
-→ Resample
-→ Normalize
-→ Model
-→ Transcript
+```mermaid
+flowchart TD
+  A[Audio upload] --> B[Decode audio]
+  B --> C[Resample]
+  C --> D[Normalize]
+  D --> E[Model]
+  E --> F[Transcript]
 ```
 
 Gradio handles the interface layer, while your Python code handles these transformations.
@@ -6360,17 +6362,9 @@ For example:
 
 ```py
 output_image = gr.Image()
-```
-
-or:
-
-```py
+# or
 output_audio = gr.Audio()
-```
-
-or:
-
-```py
+# or
 output_video = gr.Video()
 ```
 
@@ -6397,9 +6391,9 @@ return prediction, confidence, annotated_image
 
 and your interface can display them in separate components.
 
-### Example: Image Analysis Interface
+::: tip Example: Image Analysis Interface
 
-```py
+```py :collapsed-lines
 import gradio as gr
 
 def analyze(image):
@@ -6446,6 +6440,8 @@ with gr.Blocks() as demo:
 demo.launch()
 ```
 
+:::
+
 ### Media Input Validation
 
 Users may:
@@ -6489,11 +6485,11 @@ button.click(
 
 This pattern is the foundation for visual question-answering applications.
 
-### Example: Visual Question Answering
+::: tip Example: Visual Question Answering
 
 Even without a real model, we can demonstrate the structure:
 
-```py
+```py :collapsed-lines
 import gradio as gr
 
 def answer_question(image, question):
@@ -6535,6 +6531,8 @@ demo.launch()
 
 Later, the placeholder logic can be replaced by an actual multimodal model.
 
+:::
+
 ### Media and Machine Learning
 
 Gradio doesn't care whether your model comes from:
@@ -6562,7 +6560,7 @@ Then add a text prompt so the user can ask a question about the image.
 
 You don't need a real vision model yet. Return a placeholder response while practicing the interface design.
 
-### Key Takeaways
+::: important Key Takeaways
 
 - `gr.Image` supports image-based applications.
 - `gr.Audio` supports recorded and uploaded audio.
@@ -6572,6 +6570,8 @@ You don't need a real vision model yet. Return a placeholder response while prac
 - Media processing often requires validation and format conversion.
 - Videos can be significantly more computationally expensive than individual images.
 - Multimodal applications can combine media and text inputs.
+
+:::
 
 ---
 
@@ -6834,9 +6834,9 @@ Sometimes `ChatInterface` isn't flexible enough. You may need custom components 
 
 In that situation, you can build the interface manually.
 
-For example:
+::: tip For example:
 
-```py
+```py :collapsed-lines
 import gradio as gr
 
 def respond(message, history):
@@ -6868,6 +6868,8 @@ demo.launch()
 ```
 
 The exact chat-history representation supported by your Gradio version should be checked in the current documentation.
+
+:::
 
 The key idea is that you have complete control.
 
@@ -6977,7 +6979,7 @@ Then modify the chatbot function so its response style changes based on the sele
 
 You can initially use simple Python responses rather than a real AI model.
 
-### Key Takeaways
+::: tip Key Takeaways
 
 - `gr.ChatInterface` provides a high-level way to build chatbots.
 - Chatbot functions receive a user message and conversation context.
@@ -6987,6 +6989,8 @@ You can initially use simple Python responses rather than a real AI model.
 - Streaming can make generated responses feel faster.
 - Long conversations require context management.
 - Public chatbots need thoughtful security, privacy, and resource controls.
+
+:::
 
 ---
 
@@ -7146,13 +7150,15 @@ If every button is visually emphasized, none of them is clearly the main action.
 
 Use stronger emphasis for the most important action.
 
-### Examples
+::: tip Examples
 
 Gradio interfaces can provide example inputs.
 
 For an image classifier, examples can show users what kinds of images are appropriate. For a text generator, examples can demonstrate useful prompts.
 
 Examples reduce the learning curve.
+
+:::
 
 ### Accessibility
 
@@ -7306,7 +7312,7 @@ Upload a document to begin.
 
 instead of presenting a completely blank results panel.
 
-### Example: Polished Document Analyzer
+::: tip Example: Polished Document Analyzer
 
 ```py
 import gradio as gr
@@ -7357,6 +7363,8 @@ demo.launch()
 
 The code isn't dramatically more complicated than our earlier examples. The difference is that the interface communicates its purpose more clearly.
 
+:::
+
 ### Keep Visual Consistency
 
 If you use:
@@ -7400,7 +7408,7 @@ Add:
 
 Don't add custom CSS unless you actually need it. The goal is to make the application feel intentional rather than merely functional.
 
-### Key Takeaways
+::: important Key Takeaways
 
 - Good UI starts with clear language and structure.
 - Themes provide an easy visual foundation.
@@ -7411,6 +7419,8 @@ Don't add custom CSS unless you actually need it. The goal is to make the applic
 - Responsive layouts matter.
 - Advanced settings can be hidden until users need them.
 - Good design improves usability rather than simply adding decoration.
+
+:::
 
 ---
 
@@ -7449,14 +7459,14 @@ Gradio isn't the machine learning model. Gradio is the interface.
 
 Your architecture might look conceptually like:
 
-```text
-User input
-→ Gradio
-→ Python function
-→ Machine learning model
-→ Python function
-→ Gradio
-→ User
+```mrmaid
+flowchart TD
+  A[User input] --> B[Gradio]
+  B --> C[Python function]
+  C --> D[Machine learning model]
+  D --> E[Python function]
+  E --> F[Gradio]
+  F --> GUser
 ```
 
 You can replace the model without completely redesigning the interface.
@@ -7587,15 +7597,15 @@ A text model may require:
 
 A typical inference pipeline looks like:
 
-```text
-Raw input
-→ Preprocessing
-→ Model
-→ Postprocessing
-→ User-friendly result
+```mermaid
+flowchart TD
+  A[Raw input] --> B[Preprocessing]
+  B --> C[Model]
+  C --> D[Postprocessing]
+  D --> E[User-friendly result]
 ```
 
-### Example: Image Preprocessing
+::: tip Example: Image Preprocessing
 
 ```py
 from PIL import Image
@@ -7617,6 +7627,8 @@ def classify(image):
 
     return prediction
 ```
+
+:::
 
 ### Postprocessing
 
@@ -7698,7 +7710,7 @@ A typical application may load a pretrained model, create an inference function,
 
 The exact model-loading code depends on the model and library.
 
-### Example Architecture
+::: tip Example Architecture
 
 ```py
 import gradio as gr
@@ -7740,6 +7752,8 @@ demo.launch()
 
 The important part isn't the particular model. It's the separation between model logic and interface logic.
 
+:::
+
 ### Model Errors
 
 Models can fail. Possible causes include:
@@ -7773,13 +7787,17 @@ While `generate_text()` is running, Gradio can display progress feedback to let 
 
 For example, imagine a user clicks a button to generate an AI response. Instead of leaving the interface unchanged for several seconds, the application can communicate something like:
 
-`Generating your response... This may take a few seconds.`
+```plaintext
+Generating your response... This may take a few seconds.
+```
 
 This small piece of feedback makes a significant difference. The user knows that the application received their request and that the model is still working.
 
 For longer-running tasks, you can make the message more descriptive:
 
-`Analyzing your file... Please wait while the AI processes your document.`
+```plaintext
+Analyzing your file... Please wait while the AI processes your document.
+```
 
 The exact message should match what the application is doing. A text-generation application might say `Generating response...`, while an image-processing application could say `Processing image....`
 
@@ -7822,7 +7840,7 @@ Then replace the fake prediction logic with a real model if you have one availab
 
 The important part is keeping the interface independent from the model implementation.
 
-### Key Takeaways
+::: important Key Takeaways
 
 - Gradio is an interface layer, not a machine learning framework.
 - Your Python function can call local models or external APIs.
@@ -7832,6 +7850,8 @@ The important part is keeping the interface independent from the model implement
 - Consider model latency and hardware requirements.
 - Handle inference failures gracefully.
 - Keeping model logic separate from UI code makes applications easier to maintain.
+
+:::
 
 ---
 
@@ -7847,19 +7867,19 @@ But a good implementation involves more than putting a textbox and a button toge
 
 The application can follow:
 
-```text
-Prompt
-→ Validation
-→ Model
-→ Generated text
-→ Output
+```mermaid
+flowchart TD
+  A[Prompt] --> B[Validation]
+  B --> C[Model]
+  C --> D[Generated text]
+  D --> E[Output]
 ```
 
 ### Start with a Placeholder
 
 Before connecting a real model, create the interface.
 
-```py
+```py :collapsed-lines
 import gradio as gr
 
 def generate(prompt):
@@ -7996,9 +8016,9 @@ Then send the resulting prompt to the model.
 
 This makes the application easier for non-technical users.
 
-### Example: Article Generator
+::: tip Example: Article Generator
 
-```py
+```py :collapsed-lines
 import gradio as gr
 
 def generate_article(topic, tone, length):
@@ -8056,6 +8076,8 @@ demo.launch()
 ```
 
 Replace the placeholder output with a real model call when you're ready.
+
+:::
 
 ### Streaming Generation
 
@@ -8118,7 +8140,7 @@ Return a generated response.
 
 If you don't have a model available, first implement the complete interface using a placeholder function. Then connect your model.
 
-### Key Takeaways
+::: important Key Takeaways
 
 - Text generation applications usually combine a prompt, model, and output component.
 - Generation settings can be exposed through Gradio controls.
@@ -8126,6 +8148,8 @@ If you don't have a model available, first implement the complete interface usin
 - Streaming can improve perceived responsiveness.
 - Validate prompts before sending them to a model.
 - Generated text shouldn't automatically be treated as factual or authoritative.
+
+:::
 
 ---
 
@@ -8139,17 +8163,17 @@ Upload an image, click a button, and receive a prediction.
 
 A classification application follows:
 
-```text
-Image
-→ Preprocessing
-→ Model inference
-→ Class probabilities
-→ User-friendly prediction
+```mermaid
+flowchart TD
+  A[Image] --> B[Preprocessing]
+  B --> C[Model inference]
+  C --> D[Class probabilities]
+  D --> E[User-friendly prediction]
 ```
 
 ### Building the Interface First
 
-```py
+```py :collapsed-lines
 import gradio as gr
 
 def classify(image):
@@ -8257,13 +8281,13 @@ Suppose the highest confidence is only:
 
 Your application could say:
 
-```text
+```plaintext
 The model is not confident enough to make a prediction.
 ```
 
 rather than presenting the result as certain.
 
-Here's an example:
+::: tip Here's an example:
 
 ```py
 def classify(image):
@@ -8285,6 +8309,8 @@ def classify(image):
 ```
 
 The threshold should be selected based on the model and application rather than arbitrarily.
+
+:::
 
 ### Displaying Top Predictions
 
@@ -8308,7 +8334,7 @@ The input component already provides a preview.
 
 You can also return a processed image.
 
-For example:
+::: tip For example:
 
 ```py
 def classify(image):
@@ -8324,6 +8350,8 @@ Then display:
 result = gr.Label()
 preview = gr.Image()
 ```
+
+:::
 
 ### Handling Invalid Images
 
@@ -8348,13 +8376,15 @@ Build an image classifier interface with:
 
 Then add an option to display the uploaded image next to the results.
 
-### Key Takeaways
+::: important Key Takeaways
 
 - Image classification combines preprocessing, inference, and postprocessing.
 - Model labels must correspond to the model's output indices.
 - Confidence scores provide useful context.
 - Low-confidence predictions should not automatically be presented as certain.
 - Gradio handles the interface while your model performs classification.
+
+:::
 
 ---
 
@@ -8517,7 +8547,7 @@ Possible strategies include:
 - use a rolling window
 - store important information separately
 
-### Example: Limiting History
+::: tip Example: Limiting History
 
 A simple strategy might be:
 
@@ -8529,6 +8559,8 @@ def trim_history(history):
 ```
 
 The appropriate limit depends on the model and your application.
+
+:::
 
 ### User Experience
 
@@ -8563,7 +8595,7 @@ Give it:
 
 Then add a subject selector. The selected subject should be included in the system instructions.
 
-### Key Takeaways
+::: important Key Takeaways
 
 - A real AI chatbot combines UI, conversation history, prompts, and model inference.
 - System instructions help establish behavior.
@@ -8572,6 +8604,8 @@ Then add a subject selector. The selected subject should be included in the syst
 - Never hard-code API keys.
 - Streaming can improve chatbot responsiveness.
 - Long conversations require context management.
+
+:::
 
 ---
 
@@ -8719,7 +8753,7 @@ Otherwise, the model might answer based on its general knowledge, which can crea
 
 A stronger instruction might be:
 
-```text
+```md
 Use only the provided document.
 If the answer cannot be found, say that the document does not contain enough information.
 ```
@@ -8730,7 +8764,7 @@ Sending an entire large document to a model for every question may be inefficien
 
 Imagine a 300-page PDF. You probably don't want to send all 300 pages every time the user asks:
 
-```text
+```md
 What was the conclusion?
 ```
 
@@ -8831,7 +8865,7 @@ A file analysis agent becomes much more useful when users can ask follow-up ques
 
 For example:
 
-```text
+```md
 User:
 What is this report about?
 
@@ -8857,7 +8891,7 @@ The chatbot needs both document context and conversation context.
 
 A simplified application might look like:
 
-```py
+```py :collapsed-lines
 import gradio as gr
 
 def process_document(file):
@@ -9023,7 +9057,7 @@ Then upgrade it to support PDFs.
 
 After that, add retrieval so large documents aren't sent to the model in their entirety.
 
-### Key Takeaways
+::: important Key Takeaways
 
 - A file analysis agent combines multiple Gradio concepts.
 - State can store extracted document information.
@@ -9033,6 +9067,8 @@ After that, add retrieval so large documents aren't sent to the model in their e
 - Deterministic tools should be used for tasks like exact calculations.
 - Separate functions make agent architectures easier to maintain.
 - File-processing applications require careful security and privacy considerations.
+
+:::
 
 ---
 
@@ -9056,7 +9092,7 @@ Gradio typically starts a local server. You can use the application from your ow
 
 A development application might be accessible through a local address such as:
 
-```text
+```plaintext
 http://127.0.0.1:7860
 ```
 
@@ -9112,9 +9148,9 @@ demo.launch(share=True)
 
 When you run the application, Gradio will create a temporary public URL and display it in your terminal. It will look similar to:
 
-```py
- Running on local URL:  http://127.0.0.1:7860
- Running on public URL: https://xxxxxxxxxxxx.gradio.live
+```plaintext
+Running on local URL:  http://127.0.0.1:7860
+Running on public URL: https://xxxxxxxxxxxx.gradio.live
 ```
 
 You can copy the gradio.live URL and send it to your teammate. They can open the link in their browser and interact with your application even though the app is running on your computer.
@@ -9125,7 +9161,7 @@ Keep in mind that this is intended for temporary sharing and testing, not perman
 
 You may also configure the server to listen on an appropriate host address when deploying within a network or container.
 
-For example:
+::: tip For example:
 
 ```py
 demo.launch(
@@ -9136,6 +9172,8 @@ demo.launch(
 This is different from making an application publicly available on the internet.
 
 It tells the server which network interfaces to listen on.
+
+:::
 
 #### Be careful with `0.0.0.0`
 
@@ -9157,13 +9195,15 @@ Ask someone you trust to use the application. Don't explain how it works. Instea
 
 This is a useful usability test.
 
-### Key Takeaways
+::: important Key Takeaways
 
 - Local Gradio applications are ideal for development.
 - `share=True` can create temporary public sharing links.
 - Temporary sharing isn't the same as production deployment.
 - Network binding settings affect who can access your application.
 - Permanent public applications need appropriate hosting.
+
+:::
 
 ---
 
@@ -9203,7 +9243,7 @@ and then deploy the same general application to a Space.
 
 A simple Gradio Space may contain:
 
-```text
+```plaintext
 app.py
 requirements.txt
 README.md
@@ -9211,13 +9251,13 @@ README.md
 
 The main application is often:
 
-```py
+```plaintext
 app.py
 ```
 
-### Example `app.py`
+### Example <VPIcon icon="fa-brands fa-python"/>`app.py`
 
-```py
+```py title="app.py"
 import gradio as gr
 
 def greet(name):
@@ -9232,13 +9272,13 @@ demo = gr.Interface(
 demo.launch()
 ```
 
-### `requirements.txt`
+### <VPIcon icon="fas fa-file-lines"/>`requirements.txt`
 
 If your application uses packages that aren't already available, specify them.
 
 For example:
 
-```text
+```plaintext title="requirements.txt"
 gradio
 pandas
 numpy
@@ -9250,7 +9290,7 @@ If you're using additional machine learning libraries, include those too.
 
 Your local computer might already have `gradio`, `pandas`, `transformers`, and `torch` installed.
 
-The deployment environment doesn't necessarily know that. `requirements.txt` tells the environment what it needs to install.
+The deployment environment doesn't necessarily know that. <VPIcon icon="fas fa-file-lines"/>`requirements.txt` tells the environment what it needs to install.
 
 ### Keep Dependencies Minimal
 
@@ -9264,7 +9304,7 @@ A good README should tell someone what your project does, how to install it, how
 
 For example, imagine you built a Gradio application that uses an AI model to summarize text. A README for that project could look like this:
 
-````plaintext
+````md :collapsed-lines title="README.md"
 # AI Text Summarizer
 
 A simple Gradio application that uses an AI model to summarize text. Enter a block of text, click **Summarize**, and the application generates a shorter version of the content.
@@ -9319,13 +9359,13 @@ pip install -r requirements.txt
 
 ## Environment Variables
 
-If your application requires an API key, create a `.env` file in the project directory:
+If your application requires an API key, create a <VPIcon icon="iconfont icon-dotenv"/>`.env` file in the project directory:
 
 ```text
 MODEL_API_KEY=your-api-key-here
 ```
 
-Do not commit your `.env` file to Git. Add it to `.gitignore` instead:
+Do not commit your <VPIcon icon="iconfont icon-dotenv"/>`.env` file to Git. Add it to `.gitignore` instead:
 
 ```text
 .env
@@ -9420,7 +9460,7 @@ The exact Hugging Face interface may change over time, but the general workflow 
 
 A simple project might look like this:
 
-```text
+```sh title="file structure"
 my-gradio-app/
 ├── app.py
 ├── requirements.txt
@@ -9429,7 +9469,7 @@ my-gradio-app/
 
 A more complex application might contain:
 
-```text
+```sh title="file structure"
 my-gradio-app/
 ├── app.py
 ├── requirements.txt
@@ -9454,13 +9494,13 @@ Don't put:
 API_KEY = "your-secret-key"
 ```
 
-in `app.py`.
+in <VPIcon icon="fa-brands fa-python"/>`app.py`.
 
 Instead, use an environment variable.
 
 For example:
 
-```py
+```py title="app.py"
 import os
 
 api_key = os.environ["API_KEY"]
@@ -9570,15 +9610,17 @@ Once that works, deploy a model-powered application.
 
 This separates deployment problems from model problems.
 
-### Key Takeaways
+::: important Key Takeaways
 
 - Hugging Face Spaces is a convenient deployment option for Gradio applications.
-- `app.py` commonly contains the main application.
-- `requirements.txt` declares dependencies.
+- <VPIcon icon="fa-brands fa-python"/>`app.py` commonly contains the main application.
+- <VPIcon icon="fas fa-file-lines"/>`requirements.txt` declares dependencies.
 - Secrets should never be hard-coded.
 - Deployment environments have resource limits.
 - Local success doesn't guarantee deployment success.
 - Start with a simple application before deploying a large AI system.
+
+:::
 
 ---
 
@@ -9620,9 +9662,9 @@ api_key = os.getenv("API_KEY")
 
 Your code reads the value from the environment. The secret itself isn't stored in your source file.
 
-### `.env` Files
+### <VPIcon icon="iconfont icon-dotenv"/>`.env` Files
 
-During local development, you may use a `.env` file.
+During local development, you may use a <VPIcon icon="iconfont icon-dotenv"/>`.env` file.
 
 For example:
 
@@ -9641,11 +9683,11 @@ load_dotenv()
 api_key = os.getenv("API_KEY")
 ```
 
-### Never Commit `.env`
+### Never Commit <VPIcon icon="iconfont icon-dotenv"/>`.env`
 
-Add it to `.gitignore`.
+Add it to <VPIcon icon="iconfont icon-git"/>`.gitignore`.
 
-```text
+```gitignore title=".gitignore"
 .env
 ```
 
@@ -9659,13 +9701,13 @@ An environment variable is a configuration value provided to your application. A
 
 Examples:
 
-```text
+```sh title=".env"
 PORT=7860
 ```
 
 is configuration.
 
-```text
+```sh title=".env"
 API_KEY=...
 ```
 
@@ -9763,15 +9805,17 @@ API key configured: No
 
 This helps you practice secret handling without exposing credentials.
 
-### Key Takeaways
+::: important Key Takeaways
 
 - Never hard-code API keys into source code.
 - Use environment variables for configuration.
-- Use `.env` locally when appropriate, and never commit it.
+- Use <VPIcon icon="iconfont icon-dotenv"/>`.env` locally when appropriate, and never commit it.
 - Store production secrets using your hosting platform's secret-management tools.
 - Don't print secrets.
 - Rotate credentials if they're accidentally exposed.
 - Never assume client-side code can safely contain private credentials.
+
+:::
 
 ---
 
@@ -10267,7 +10311,7 @@ Can your application still provide something useful?
 
 Maybe a message:
 
-```text
+```plaintext
 The AI service is temporarily unavailable.
 Please try again later.
 ```
@@ -10306,7 +10350,7 @@ Test:
 
 Then improve your application until each case produces a useful response. This is one of the best ways to learn production thinking.
 
-### Key Takeaways
+::: important Key Takeaways
 
 - Production applications need more than functionality.
 - Optimize expensive operations rather than blindly optimizing UI code.
@@ -10317,6 +10361,8 @@ Then improve your application until each case produces a useful response. This i
 - Treat uploaded files and external content as untrusted.
 - Never expose secrets or sensitive logs.
 - AI output should be validated when accuracy matters.
+
+:::
 
 ---
 
@@ -10381,33 +10427,33 @@ Before writing code, identify your data flow.
 
 We need:
 
-```text
-Uploaded file
-→ Extracted text
-→ Stored document
-→ User question
-→ AI response
+```mermaid
+flowchart TD
+  A[Uploaded file] --> B[Extracted text]
+  B --> C[Stored document]
+  C --> D[User question]
+  D --> E[AI response]
 ```
 
 We'll also need:
 
-```text
-Document
-→ Summary
+```mermaid
+flowchart LR
+  A[Document] --> B[Summary]
 ```
 
 and:
 
-```text
-Document
-→ Statistics
+```mermaid
+flowchart LR
+  A[Document] --> B[Statistics]
 ```
 
 ### Step 2: Create the Project
 
 A simple project can start with:
 
-```text
+```sh title="file structure"
 document-assistant/
 ├── app.py
 ├── requirements.txt
@@ -10613,7 +10659,7 @@ An alternative is to have one processing function return all initial document ou
 
 A cleaner function might be:
 
-```py
+```py :collapsed-lines
 def process_document(file):
     if file is None:
         return "", "", "Please upload a document."
@@ -10675,7 +10721,7 @@ ask_button = gr.Button(
 
 Start without an AI model.
 
-```py
+```py :collapsed-lines
 def answer_question(document, question, history):
     if not document:
         return history + [
@@ -10829,7 +10875,7 @@ This is a simplistic approach. Real retrieval systems often split text based on 
 
 A simple keyword-based retrieval system can be used for learning purposes.
 
-```py
+```py :collapsed-lines
 def retrieve(chunks, question, top_k=3):
     question_words = set(
         question.lower().split()
@@ -10898,7 +10944,7 @@ outputs=[
 
 Now:
 
-```py
+```py :collapsed-lines
 def answer_question(chunks, question):
     relevant = retrieve(
         chunks,
@@ -11098,7 +11144,7 @@ These aren't optional questions for serious applications.
 
 Your final application might have:
 
-```py
+```py :collapsed-lines
 import gradio as gr
 
 def process_document(file):
@@ -11284,8 +11330,8 @@ For each scenario, decide what the user should see.
 Once the application works locally:
 
 1. create the Space
-2. add `app.py`
-3. add `requirements.txt`
+2. add <VPIcon icon="fa-brands fa-python"/>`app.py`
+3. add <VPIcon icon="fas fa-file-lines"/>`requirements.txt`
 4. configure secrets
 5. deploy
 6. inspect logs
@@ -11351,7 +11397,7 @@ But Gradio isn't the final destination for every project.
 
 ### Learn Python Deeply
 
-If Gradio is your first serious Python framework, keep strengthening your [Python fundamentals](https://freecodecamp.org/learn/learn-python-for-beginners/).
+If Gradio is your first serious Python framework, keep strengthening your [<VPIcon icon="fa-brands fa-free-code-camp"/>Python fundamentals](https://freecodecamp.org/learn/learn-python-for-beginners/).
 
 Learn:
 
@@ -11372,7 +11418,7 @@ The better your Python becomes, the more powerful your Gradio applications becom
 
 Many AI applications depend on APIs.
 
-[**Understanding the basics**](/freecodecamp.org/apis-for-beginners.md#) will help you out a lot. Things like:
+[**Understanding the basics**](/freecodecamp.org/apis-for-beginners.md) will help you out a lot. Things like:
 
 - HTTP
 - REST
@@ -11388,7 +11434,7 @@ will make it much easier to connect external services.
 
 If your goal is AI development, Gradio is only the interface layer.
 
-You should [**learn how models actually work**](/freecodecamp.org/learn-the-foundations-of-machine-learning-and-artificial-intelligence.md#).
+You should [**learn how models actually work**](/freecodecamp.org/learn-the-foundations-of-machine-learning-and-artificial-intelligence.md).
 
 Study:
 
@@ -11404,7 +11450,7 @@ Then Gradio becomes the way you turn those models into usable applications.
 
 ### Learn Retrieval-Augmented Generation
 
-If you enjoyed the file-analysis project, explore [**retrieval-augmented generation**](/freecodecamp.org/retrieval-augmented-generation-rag-handbook.md#).
+If you enjoyed the file-analysis project, explore [**retrieval-augmented generation**](/freecodecamp.org/retrieval-augmented-generation-rag-handbook.md).
 
 Learn:
 
@@ -11420,7 +11466,7 @@ This opens the door to document assistants, research tools, knowledge bases, and
 
 ### Learn Web Development
 
-Gradio can take you surprisingly far. Eventually, however, you may need [**more control over the frontend**](/freecodecamp.org/learn-web-development-from-harvard-university-cs50.md#).
+Gradio can take you surprisingly far. Eventually, however, you may need [**more control over the frontend**](/freecodecamp.org/learn-web-development-from-harvard-university-cs50.md).
 
 That's when technologies such as HTML, CSS, JavaScript, and React, become valuable.
 
@@ -11428,7 +11474,7 @@ You don't need to abandon Gradio. Instead, understand when each tool makes sense
 
 ### Learn Backend Development
 
-For larger applications, explore [**backend frameworks and architecture**](/freecodecamp.org/backend-web-development-three-projects.md#).
+For larger applications, explore [**backend frameworks and architecture**](/freecodecamp.org/backend-web-development-three-projects.md).
 
 Learn concepts such as:
 
@@ -11451,7 +11497,7 @@ Don't stop at:
 demo.launch()
 ```
 
-Learn [**how applications operate in the real world.**](/freecodecamp.org/how-to-deploy-a-web-app.md#)
+Learn [**how applications operate in the real world.**](/freecodecamp.org/how-to-deploy-a-web-app.md)
 
 Explore:
 
@@ -11471,7 +11517,7 @@ The best Gradio developer isn't someone who has memorized every parameter. They'
 
 When something doesn't work, check:
 
-1. the official documentation ([https://gradio.app/docs](https://gradio.app/docs))
+1. [<VPIcon icon="iconfont icon-gradio"/>the official documentation](https://gradio.app/docs)
 2. the installed Gradio version
 3. the error message
 4. a minimal reproduction
@@ -11519,32 +11565,32 @@ The most important thing you learned in this book isn't a particular Gradio clas
 
 It's a pattern:
 
-```text
-Input
-→ Function
-→ Output
+```mermaid
+flowchart TD
+  A[Input] --> B[Function]
+  B --> C[Output]
 ```
 
 Then:
 
-```text
-Input
-→ Event
-→ Function
-→ State
-→ Model
-→ Output
+```mermaid
+flowchart TD
+  A[Input] --> B[Event]
+  B --> C[Function]
+  C --> D[State]
+  D --> E[Model]
+  E --> F[Output]
 ```
 
 And eventually:
 
-```text
-User
-→ Interface
-→ Application Logic
-→ Models and Tools
-→ Data
-→ Results
+```mermaid
+flowchart TD
+  A[User] --> B[Interface]
+  B --> C[Application Logic]
+  C --> D[Models and Tools]
+  D --> E[Data]
+  E --> F[Results]
 ```
 
 Once you understand those relationships, Gradio stops feeling like a collection of APIs and becomes a way to turn Python ideas into applications.

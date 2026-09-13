@@ -50,9 +50,9 @@ cover: https://cdn.hashnode.com/uploads/covers/5e1e335a7a1d3fcc59028c64/9118bd52
 
 ```component VPCard
 {
-  "title": " > Article(s)",
+  "title": "Linux - Debian > Article(s)",
   "desc": "Article(s)",
-  "link": "/articles/README.md",
+  "link": "/devops/linux-debian/articles/README.md",
   "logo": "/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }

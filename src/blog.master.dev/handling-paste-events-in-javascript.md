@@ -55,10 +55,35 @@ Welcome to the third and final post in the series. In the[**first article**](/bl
 
 ::: info Article Series
 
-1. [**Reading from the Clipboard in JavaScript**](/blog.master.dev/reading-from-the-clipboard-in-javascript.md)
-2. [**Writing to the Clipboard in JavaScript**](/blog.master.dev/writing-to-the-clipboard-in-javascript.md)
-3. [**Handling Paste Events in JavaScript**](/blog.master.dev/handling-paste-events-in-javascript.md)
-<!-- TODO: ... -->
+```component VPCard
+{
+  "title": "Reading from the Clipboard in JavaScript",
+  "desc": "While it's a bit more common to *write* to the clipboard, JavaScript can also read from it. Plain text is pretty simple, while multimedia content is a bit more complex.",
+  "link": "/blog.master.dev/reading-from-the-clipboard-in-javascript.md",
+  "logo": "https://blog.master.dev/favicon.ico",
+  "background": "rgba(188,75,52,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "Writing to the Clipboard in JavaScript",
+  "desc": "The most basic use case, writing a bit of text to the user's clipboard, is mercifully easy. But there is plenty more to know. Did you know writing image data to the clipboard ONLY works with PNG?",
+  "link": "/blog.master.dev/writing-to-the-clipboard-in-javascript.md",
+  "logo": "https://blog.master.dev/favicon.ico",
+  "background": "rgba(188,75,52,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "Handling Paste Events in JavaScript",
+  "desc": "This concludes our three-part series on working with clipboard data. With pasting, we have some control over the type of data we want to use.",
+  "link": "/blog.master.dev/handling-paste-events-in-javascript.md",
+  "logo": "https://blog.master.dev/favicon.ico",
+  "background": "rgba(188,75,52,0.2)"
+}
+```
 
 :::
 
@@ -262,10 +287,35 @@ Just as when we were [**_writing_ to the clipboard**](/blog.master.dev/writing-t
 
 ::: info Article Series
 
-1. [**Reading from the Clipboard in JavaScript**](/blog.master.dev/reading-from-the-clipboard-in-javascript.md)
-2. [**Writing to the Clipboard in JavaScript**](/blog.master.dev/writing-to-the-clipboard-in-javascript.md)
-3. [**Handling Paste Events in JavaScript**](/blog.master.dev/handling-paste-events-in-javascript.md)
-<!-- TODO: ... -->
+```component VPCard
+{
+  "title": "Reading from the Clipboard in JavaScript",
+  "desc": "While it's a bit more common to *write* to the clipboard, JavaScript can also read from it. Plain text is pretty simple, while multimedia content is a bit more complex.",
+  "link": "/blog.master.dev/reading-from-the-clipboard-in-javascript.md",
+  "logo": "https://blog.master.dev/favicon.ico",
+  "background": "rgba(188,75,52,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "Writing to the Clipboard in JavaScript",
+  "desc": "The most basic use case, writing a bit of text to the user's clipboard, is mercifully easy. But there is plenty more to know. Did you know writing image data to the clipboard ONLY works with PNG?",
+  "link": "/blog.master.dev/writing-to-the-clipboard-in-javascript.md",
+  "logo": "https://blog.master.dev/favicon.ico",
+  "background": "rgba(188,75,52,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "Handling Paste Events in JavaScript",
+  "desc": "This concludes our three-part series on working with clipboard data. With pasting, we have some control over the type of data we want to use.",
+  "link": "/blog.master.dev/handling-paste-events-in-javascript.md",
+  "logo": "https://blog.master.dev/favicon.ico",
+  "background": "rgba(188,75,52,0.2)"
+}
+```
 
 :::
 

@@ -10,8 +10,8 @@ category:
 tag:
   - blog
   - milanjovanovic.tech
-  - devops
   - design
+  - system
 head:
   - - meta:
     - property: og:title

@@ -20,7 +20,7 @@ head:
       content: "The Real Infrastructure Behind Remote Work (It’s Not Just Wi-Fi)"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/the-real-infrastructure-behind-remote-work-it-s-not-just-wi-fi.html
-prev: /projects/careerarticles/README.md
+prev: /projects/career/articles/README.md
 date: 2026-05-07
 isOriginal: false
 author:
@@ -35,7 +35,7 @@ cover: https://cdn.hashnode.com/uploads/covers/5e1e335a7a1d3fcc59028c64/7e9364c2
 {
   "title": "Career > Article(s)",
   "desc": "Article(s)",
-  "link": "/projects/careerarticles/README.md",
+  "link": "/projects/career/articles/README.md",
   "logo": "/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }

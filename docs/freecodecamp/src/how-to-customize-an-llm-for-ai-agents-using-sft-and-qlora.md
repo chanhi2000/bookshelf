@@ -5,7 +5,7 @@ description: "Article(s) > How to Customize an LLM for AI Agents using SFT and Q
 icon: iconfont icon-pytorch
 category:
   - Python
-  - Pytorch
+  - PyTorch
   - AI
   - LLM
   - Article(s)

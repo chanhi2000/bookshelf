@@ -12,6 +12,8 @@ category:
   - MongoDB
   - AI
   - LLM
+  - Anthropic
+  - Claude
   - MCP
   - Article(s)
 tag:

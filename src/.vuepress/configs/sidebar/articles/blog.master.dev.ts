@@ -5,6 +5,11 @@ const Y2026: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2026
+    "dark-mode-very-much-matters-to-me", // 2026-09-21
+    "custom-glow-rings-inside-of-elements", // 2026-09-18
+    "extracting-grid-information-using-css", // 2026-09-16
+    "comparing-values-with-css-progress", // 2026-09-14
+    "its-all-about-the-permissions-recovery", // 2026-09-11
     "building-a-reliable-postgresql-queue-concurrency-crashes-retries-and-scale", // 2026-09-09
     "custom-scrollbar-component-in-2026", // 2026-09-07
     "react-now-rusted-all-the-way-out", // 2026-09-04
@@ -737,6 +742,9 @@ export const template: SidebarInfoTemplate = {
       "background-image-refraction-in-css", // 2026-08-28
       "new-things-you-should-know-about-html-here-in-mid-2026", // 2026-09-02
       "custom-scrollbar-component-in-2026", // 2026-09-07
+      "extracting-grid-information-using-css", // 2026-09-16
+      "custom-glow-rings-inside-of-elements", // 2026-09-18
+      "dark-mode-very-much-matters-to-me", // 2026-09-21
       // END: 2026css
       // END: css
     ]],[

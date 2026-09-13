@@ -46,7 +46,7 @@ cover: https://static.toss.im/assets/tech-blog/og-image/techblog-og.png
 {
   "title": "Career > Article(s)",
   "desc": "Article(s)",
-  "link": "/projects/careerarticles/README.md",
+  "link": "/projects/career/articles/README.md",
   "logo": "/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }

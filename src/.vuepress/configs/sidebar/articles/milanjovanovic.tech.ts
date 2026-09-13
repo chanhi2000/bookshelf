@@ -15,6 +15,9 @@ const Y2026: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2026
+    "when-postgres-picks-the-wrong-index", // 2026-09-19
+    "postgres-row-level-security-with-ef-core", // 2026-09-12
+    "four-years-of-writing-every-week", // 20265-09-05
     "your-aspnetcore-endpoints-dont-have-a-timeout", // 2026-08-29
     "how-to-design-the-right-sql-index", // 2026-08-22
     "how-do-you-build-a-social-media-feed-system-design", // 2026-08-15
@@ -437,6 +440,7 @@ export const template: SidebarInfoTemplate = {
       "getting-started-with-nats-jetstream-in-dotnet", // 2026-06-27
       "how-to-test-vertical-slice-architecture", // 2026-07-11
       "persisting-a-rich-domain-model-with-ef-core", // 2026-08-08
+      "postgres-row-level-security-with-ef-core", // 2026-09-12
       // END: 2026cs
       // END: cs
     ]],[
@@ -494,6 +498,7 @@ export const template: SidebarInfoTemplate = {
       "getting-started-with-nats-jetstream-in-dotnet", // 2026-06-27
       "build-your-own-vpn-with-tailscale", // 2026-07-04
       "how-i-migrated-my-website-to-cloudflare-and-saved-228-dollars", // 2026-07-18
+      "postgres-row-level-security-with-ef-core", // 2026-09-12
       // END: 2026docker
       // END: docker
     ]],[
@@ -565,6 +570,8 @@ export const template: SidebarInfoTemplate = {
       "implementing-the-saga-pattern-with-wolverine", // 2026-04-11
       "build-your-own-vpn-with-tailscale", // 2026-07-04
       "how-to-design-the-right-sql-index", // 2026-08-22
+      "postgres-row-level-security-with-ef-core", // 2026-09-12
+      "when-postgres-picks-the-wrong-index", // 2026-09-19
       // END: 2026postgres
       // END: postgres
     ]],[
@@ -611,6 +618,7 @@ export const template: SidebarInfoTemplate = {
       "the-system-design-behind-my-new-saas", // 2026-07-25
       "should-you-split-that-into-microservices-ask-these-5-questions-first", // 2026-08-01
       "how-do-you-build-a-social-media-feed-system-design", // 2026-08-15
+      "four-years-of-writing-every-week", // 20265-09-05
       // END: 2026system-design
       // END: system-design
     ]],[

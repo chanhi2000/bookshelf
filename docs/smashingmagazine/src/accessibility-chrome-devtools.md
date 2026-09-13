@@ -229,8 +229,8 @@ This is a DevTools feature to apply vision deficiencies, such as blurred vision,
   "title": "Accessibility Requirements for People with Low Vision",
   "desc": "",
   "link": "https://w3.org/TR/low-vision-needs/",
-  "logo": "",
-  "background": "rgba(244,245,255,0.2)"
+  "logo": "https://w3.org/favicon.ico",
+  "background": "rgba(0,90,156,0.2)"
 }
 ```
 
@@ -247,8 +247,8 @@ You’ll want to use this feature to help ensure your website meets the needs of
   "title": "Accessibility Requirements for People with Low Vision",
   "desc": "",
   "link": "https://w3.org/TR/low-vision-needs/",
-  "logo": "",
-  "background": "rgba(244,245,255,0.2)"
+  "logo": "https://w3.org/favicon.ico",
+  "background": "rgba(0,90,156,0.2)"
 }
 ```
 

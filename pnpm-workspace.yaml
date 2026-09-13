@@ -21,14 +21,14 @@ catalog:
 catalogs:
 
   bookshelf:
-    "@bookshelf/css-tricks": 0.2.9
-    "@bookshelf/freecodecamp": 0.2.9
-    "@bookshelf/hackingwithswfit": 0.2.9
-    "@bookshelf/realpython": 0.2.9
-    "@bookshelf/root": 0.2.9
-    "@bookshelf/shared-vuepress": 0.2.9
-    "@bookshelf/smashingmagazine": 0.2.9
-    "@bookshelf/yozm": 0.2.9
+    "@bookshelf/css-tricks": 0.2.38
+    "@bookshelf/freecodecamp": 0.2.38
+    "@bookshelf/hackingwithswfit": 0.2.38
+    "@bookshelf/realpython": 0.2.38
+    "@bookshelf/root": 0.2.38
+    "@bookshelf/shared-vuepress": 0.2.38
+    "@bookshelf/smashingmagazine": 0.2.38
+    "@bookshelf/yozm": 0.2.38
   range:
     baseline-status: ^1.1.1
     chart.js: ^4.4.3

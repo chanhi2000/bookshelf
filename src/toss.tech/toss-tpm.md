@@ -46,7 +46,7 @@ cover: https://static.toss.im/illusts/tpgm_thumbnail.png
 {
   "title": "Career > Article(s)",
   "desc": "Article(s)",
-  "link": "/projects/careerarticles/README.md",
+  "link": "/projects/career/articles/README.md",
   "logo": "/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }

@@ -51,7 +51,7 @@ cover: https://cdn.hashnode.com/uploads/covers/5fc16e412cae9c5b190b6cdd/2c176eb4
 {
   "title": "Career > Article(s)",
   "desc": "Article(s)",
-  "link": "/projects/careerarticles/README.md",
+  "link": "/projects/career/articles/README.md",
   "logo": "/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
