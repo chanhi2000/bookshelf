@@ -800,10 +800,34 @@ The common thread across every stage in this guide is the same one METR's task-d
 
 ::: info What to Explore Next
 
-- [<VPIcon icon="iconfont icon-claude"/>Anthropic's AI-native SDLC playbook](https://claude.com/blog/the-ai-native-sdlc-playbook), the primary source for the six-stage framework this guide implements
-- [<VPIcon icon="iconfont icon-gcp"/>DORA's 2025 State of AI-assisted Software Development Report](https://cloud.google.com/blog/products/ai-machine-learning/announcing-the-2025-dora-report), for the adoption and trust data behind the opening hook
-- [<VPIcon icon="fas fa-globe"/>METR's research on AI task-length doubling](https://metr.org/blog/2025-03-19-measuring-ai-ability-to-complete-long-tasks/), for the full methodology behind the seven-month doubling curve
-- [<VPIcon icon="iconfont icon-claude"/>Claude Code's documentation hub](https://code.claude.com/docs/en/memory), starting from the memory file page and branching out to permission modes, hooks, and subagents
+<SiteInfo
+  name="The AI-Native SDLC playbook | Claude by Anthropic"
+  desc="Anthropic's stage-by-stage playbook for the AI-native SDLC: how teams plan, design, build, test, deploy, and maintain software with Claude."
+  url="https://claude.com/blog/the-ai-native-sdlc-playbook/"
+  logo="https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6a74d3f8403574bbefffca2e_favicon.ico"
+  preview="https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a885727631521d0c3cd0a1b_og_the-ai-native-sdlc-playbook.jpg"/>
+
+> the primary source for the six-stage framework this guide implements
+
+<SiteInfo
+  name="Announcing the 2025 DORA Report | Google Cloud Blog"
+  desc="The 2025 DORA Report, State of AI-Assisted Software Development, is now available to download."
+  url="https://cloud.google.com/blog/products/ai-machine-learning/announcing-the-2025-dora-report/"
+  logo="https://gstatic.com/cgc/supercloud_favicon.ico"
+  preview="https://storage.googleapis.com/gweb-cloudblog-publish/images/dora_2025.max-2500x2500.jpg"/>
+
+> for the adoption and trust data behind the opening hook
+
+<SiteInfo
+  name="Measuring AI Ability to Complete Long Software Tasks"
+  desc="We propose measuring AI performance in terms of the *length* of tasks AI agents can complete. We show that this metric has been consistently exponentially increasing over the past 6 years, with a doubling time of around 7 months. Extrapolating this trend predicts that, in under a decade, we will see AI agents that can independently complete a large fraction of software tasks that currently take humans days or weeks."
+  url="https://metr.org/blog/2025-03-19-measuring-ai-ability-to-complete-long-tasks//"
+  logo="https://metr.org/assets/images/favicon/favicon.png"
+  preview="https://metr.org/assets/images/measuring-ai-ability-to-complete-long-tasks/length-of-tasks-log.png"/>
+
+> for the full methodology behind the seven-month doubling curve
+
+- [<VPIcon icon="iconfont icon-claude"/>Claude  Code's documentation hub](https://code.claude.com/docs/en/memory), starting from the memory file page and branching out to permission modes, hooks, and subagents
 - [<VPIcon icon="iconfont icon-openai"/>OpenAI's Codex documentation on agent approvals and security](https://learn.chatgpt.com/docs/agent-approvals-security), for the full detail on the sandbox and approval-policy split
 - [Gemini CLI's configuration reference (<VPIcon icon="iconfont icon-github"/>`google-gemini/gemini-cli`)](https://github.com/google-gemini/gemini-cli/blob/main/docs/reference/configuration.md), for the current state of its approval modes and extension system
 

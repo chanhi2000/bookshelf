@@ -4,6 +4,7 @@ title: "Quick Dark Mode Toggles"
 description: "Article(s) > Quick Dark Mode Toggles"
 icon: fa-brands fa-chrome
 category:
+  - Browser
   - Google
   - Google Chrome
   - Firefox
@@ -14,8 +15,9 @@ category:
 tag:
   - blog
   - blog.master.dev
+  - browser
   - google
-  - chrome
+  - googlechrome
   - google-chrome
   - firefox
   - apple

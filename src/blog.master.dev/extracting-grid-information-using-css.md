@@ -265,11 +265,11 @@ Let’s move to the interesting part: getting the item position.
 
 Let’s start with a basic demo to illustrate the technique we will use:
 
-<CodePen
+<!-- <CodePen
   link="https://codepen.io/editor/t_afif/pen/01a08aea-08a7-735d-910b-b16a1b579f53/ed940cab9360b0f4d4a95ebd9deb3d29"
   title="Untitled"
   :default-tab="['css','result']"
-  :theme="dark"/>
+  :theme="dark"/> -->
 
 ```css
 .container {
@@ -321,11 +321,11 @@ animation-range: entry-crossing var(--c) exit-crossing 0%;
 
 Which gives us “red” and “green”:
 
-<CodePen
+<!-- <CodePen
   link="https://codepen.io/editor/t_afif/pen/01a08ba7-a12c-77de-8e97-78d6b7a71422/b619c974803ef4a3c95baea52cc72bef"
   title="Untitled"
   :default-tab="['css','result']"
-  :theme="dark"/>
+  :theme="dark"/> -->
 
 Now, instead of a color, let’s animate a variable from `1` to `0`.
 
@@ -355,19 +355,19 @@ Let’s update the previous demo and show the value inside each item:
 }
 ```
 
-<CodePen
+<!-- <CodePen
   link="https://codepen.io/editor/t_afif/pen/01a08bc4-a7f0-7032-8513-685c64019b8e/b9b7554f3bf48b7037cb41847a938965"
   title="Untitled"
   :default-tab="['css','result']"
-  :theme="dark"/>
+  :theme="dark"/> -->
 
 You can add as many items as you want and span as many columns as you want. The value will always be equal to the column start:
 
-<CodePen
+<!-- <CodePen
   link="https://codepen.io/editor/t_afif/pen/01a08bc9-0fec-70a6-a62e-b1f1a0781a79/2531dd2cbebc63bbced02a323f768f83"
   title="Untitled"
   :default-tab="['css','result']"
-  :theme="dark"/>
+  :theme="dark"/> -->
 
 Clever, right? The left side of the item controls an animation that animates a variable, and we use that variable to calculate the position.
 
@@ -422,12 +422,11 @@ And you know the rest of the story: a new animation, a new variable, and the for
 
 Now, we have two values that we can display within the element.
 
-<CodePen
-  user="editor/anon"
-  slug-hash="01a08ccf-c0ef-70e9-8b15-23e97e49526e/8dab94b0f1f6dc7f2735d927c85d6df4"
-  title="N/A"
+<!-- <CodePen
+  link="https://codepen.io/editor/t_afif/pen/01a08ccf-c0ef-70e9-8b15-23e97e49526e/8dab94b0f1f6dc7f2735d927c85d6df4"
+  title="Untitled"
   :default-tab="['css','result']"
-  :theme="dark"/>
+  :theme="dark"/> -->
 
 ::: note
 

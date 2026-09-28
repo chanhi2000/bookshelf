@@ -5,6 +5,8 @@ const Y2026: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2026
+    "randomly-place-an-element-along-edge-of-another-element", // 2026-09-25
+    "introducing-solo", // 2026-09-23
     "dark-mode-very-much-matters-to-me", // 2026-09-21
     "custom-glow-rings-inside-of-elements", // 2026-09-18
     "extracting-grid-information-using-css", // 2026-09-16
@@ -141,6 +143,7 @@ const Y2025: SidebarYeargroupTemplate = {
     "perfectly-pointed-tooltips-all-four-sides", // 2025-11-03
     "super-simple-full-bleed-breakout-styles", // 2025-10-31
     "perfectly-pointed-tooltips-a-foundation", // 2025-10-28
+    "devchrome-devtools-mcp", // 2025-10-27
     "introducing-tanstack-start-middleware", // 2025-10-24
     "the-two-button-problem", // 2025-10-21
     "modern-css-round-out-tabs", // 2025-10-13
@@ -745,6 +748,7 @@ export const template: SidebarInfoTemplate = {
       "extracting-grid-information-using-css", // 2026-09-16
       "custom-glow-rings-inside-of-elements", // 2026-09-18
       "dark-mode-very-much-matters-to-me", // 2026-09-21
+      "randomly-place-an-element-along-edge-of-another-element", // 2026-09-25
       // END: 2026css
       // END: css
     ]],[
@@ -826,6 +830,7 @@ export const template: SidebarInfoTemplate = {
       // END: 2024chrome
       "newfangled-browser-alternatives", // 2025-04-22
       "quick-dark-mode-toggles", // 2025-08-22
+      "devchrome-devtools-mcp", // 2025-10-27
       // END: 2025chrome
       // END: chrome
     ]],[
@@ -905,8 +910,16 @@ export const template: SidebarInfoTemplate = {
       "totally-free-course-claude-code", // 2026-07-01
       "tooltips-need-a-delay-and-then-they-need-to-skip-it", // 2026-08-13
       "introducing-ai-skills-for-real-engineers", // 2026-08-18
+      "introducing-solo", // 2026-09-23
       // END: 2026claude
       // END: claude
+    ]],[
+    "mcp", [
+      "devchrome-devtools-mcp", // 2025-10-27
+      // END: 2025mcp
+      "introducing-solo", // 2026-09-23
+      // END: 2026mcp
+      // END: mcp
     ]],[
     "system-design", [
       "web-design-what-is-the-web-capable-of-that-is-hard-to-express-in-design-software", // 2025-08-18

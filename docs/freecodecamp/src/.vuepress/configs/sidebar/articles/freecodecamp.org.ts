@@ -2272,11 +2272,44 @@ const HOW_TO_BUILD_A_GRAPHRAG_SYSTEM_WITH_PYTHON_NEO4J_AND_SERVICENOW: SidebarIn
   ]
 }
 
+const NODEJS_AND_EXPRESSJS_HANDBOOK_FOR_BEGINNERS: SidebarInfoSubgroupTemplate = { // 2026-10-01
+  text: "The Node.js and Express.js Handbook for Beginners – Servers, Routes, Routers, and Views Explained",
+  collapsible: true,
+  icon: 'iconfont icon-gradio',
+  subPath: 'nodejs-and-expressjs-handbook-for-beginners',
+  children: [
+    'README',
+    // TODO: 페이지 생성
+  ]
+}
+
 const Y2026: SidebarYeargroupTemplate = {
   text: '2026',
   collapsible: true,
   children: [
     // END: 2026
+    "how-to-add-shadcn-ui-charts-to-nextjs", // 2026-10-02
+    "build-and-publish-a-full-stack-mobile-app-with-ai", // 2026-10-02
+    "how-to-stop-your-android-app-from-draining-the-battery-with-wake-locks", // 2026-10-01
+    "how-to-debug-a-stuck-kubernetes-rollout-with-a-hands-on-lab", // 2026-10-01
+    "how-to-build-a-code-graph-in-typescript-using-vs-code-language-apis", // 2026-10-01
+    NODEJS_AND_EXPRESSJS_HANDBOOK_FOR_BEGINNERS, // 2026-10-01
+    "healthcare-ai-won-t-work-until-you-fix-your-data", // 2026-10-01
+    "are-screenless-wearables-better-for-health-tracking", // 2026-10-01
+    "css-content-visibility-rendering-performance", // 2026-10-01
+    "how-to-build-a-real-time-word-counter-tool-with-html-css-and-javascript", // 2026-09-30
+    "how-to-diagnose-and-fix-ai-inference-latency-on-kubernetes", // 2026-09-30
+    "python-algorithmic-trading-with-snaptrade-massive-alpaca", // 2026-09-29
+    "how-to-build-a-reliable-ai-assistant-with-the-claude-api", // 2026-09-29
+    "fullscreen-api-javascript-wake-lock", // 2026-09-29
+    "how-orms-still-let-sql-injection-through-and-how-to-close-the-gaps", // 2026-09-29
+    "build-an-ai-resume-screening-tool-with-next-js-supabase-and-typesafe-jev", // 2026-09-29
+    "how-to-govern-ai-generated-infrastructure-with-policy-as-code-and-opa-full-handbook", // 2026-09-29
+    "how-to-level-up-your-portfolio-in-the-ai-era-from-technical-writer-to-developer-educator", // 2026-09-27
+    "executable-operational-specifications-software-automation", // 2026-09-25
+    "timescaledb-course-postgresql-for-time-series-data", // 2026-09-24
+    "unlock-the-power-of-ai-agents-with-the-new-claude-certified-developer-foundations-course", // 2026-09-24
+    "build-a-dart-package-analytics-tool-with-the-pub-dev-api", // 2026-09-24
     "how-to-build-a-reading-focused-blog-with-python-markdown-and-github-pages-for-free", // 2026-09-22
     "why-you-should-never-embed-your-gemini-api-key-in-client-code-and-how-firebase-ai-logic-fixes-it", // 2026-09-20
     HOW_TO_BUILD_A_GRAPHRAG_SYSTEM_WITH_PYTHON_NEO4J_AND_SERVICENOW, // 2026-09-20
@@ -4436,6 +4469,7 @@ export const template: SidebarInfoTemplate = {
         "a-deep-dive-into-gabeldorsche-the-bluetooth-stack-android-rebuilt-on-purpose", // 2026-07-15
         "accessibility-in-jetpack-compose-comprehensive-tutorial", // 2026-09-02
         "the-ios-nfc-handbook-how-to-read-write-and-lock-nfc-tags-with-react-native", // 2026-09-20
+        "how-to-stop-your-android-app-from-draining-the-battery-with-wake-locks", // 2026-10-01
         // END: 2026java-android
         // END: java-android
       ]], [
@@ -4644,6 +4678,9 @@ export const template: SidebarInfoTemplate = {
         "build-pdf-to-grayscale-converter-javascript", // 2026-08-15
         "gamepad-api-javascript-guide", // 2026-09-08
         "how-to-build-a-bulk-image-compressor-tool-with-html-css-and-javascript", // 2026-09-19
+        "fullscreen-api-javascript-wake-lock", // 2026-09-29
+        "how-to-build-a-real-time-word-counter-tool-with-html-css-and-javascript", // 2026-09-30
+        "css-content-visibility-rendering-performance", // 2026-10-01
         // END: 2026js
         // END: js
       ]], [
@@ -4694,6 +4731,8 @@ export const template: SidebarInfoTemplate = {
         "how-to-implement-feature-flags-for-safe-and-gradual-rollouts", // 2026-09-14
         "differential-testing-legacy-migration", // 2026-09-15
         "migrate-legacy-monolith-incrementally", // 2026-09-18
+        "executable-operational-specifications-software-automation", // 2026-09-25
+        "how-to-build-a-code-graph-in-typescript-using-vs-code-language-apis", // 2026-10-01
         // END: 2026ts
         // END: ts
       ]], [
@@ -5007,6 +5046,7 @@ export const template: SidebarInfoTemplate = {
         "high-frequency-real-time-data-in-react-from-ring-buffers-to-offscreencanvas", // 2026-08-19
         "how-to-build-an-ai-chatbot-with-gemini-and-vercel-serverless-functions", // 2026-09-08
         "the-ios-nfc-handbook-how-to-read-write-and-lock-nfc-tags-with-react-native", // 2026-09-20
+        "build-and-publish-a-full-stack-mobile-app-with-ai", // 2026-10-02
         // END: 2026js-react
         // END: js-react
       ]], [
@@ -5025,6 +5065,7 @@ export const template: SidebarInfoTemplate = {
         "how-to-build-landing-page-nextjs-shadcn", // 2026-08-04
         "how-to-create-a-kyc-onboarding-flow-with-shadcn-ui", // 2026-08-14
         "how-to-build-an-ai-chat-app-interface-with-the-ai-sdk", // 2026-09-12
+        "how-to-add-shadcn-ui-charts-to-nextjs", // 2026-10-02
         // END: 2026js-shadcn
         // END: js-shadcn
       ]], [
@@ -5108,6 +5149,8 @@ export const template: SidebarInfoTemplate = {
         HOW_TO_BUILD_YOUR_OWN_MCP_SERVER_AND_PUBLISH_YOUR_CHATGPT_APP, // 2026-07-10
         "what-to-do-if-your-site-is-about-to-hit-vercels-free-image-optimization-cap", // 2026-08-19
         "how-to-build-a-flashcard-study-app-with-next-js-and-mongodb", // 2026-08-27
+        "build-an-ai-resume-screening-tool-with-next-js-supabase-and-typesafe-jev", // 2026-09-29
+        "how-to-add-shadcn-ui-charts-to-nextjs", // 2026-10-02
         // END: 2026js-next
         // END: js-next
       ]], [
@@ -5173,6 +5216,8 @@ export const template: SidebarInfoTemplate = {
         "how-to-fix-the-dual-write-problem-in-node-js-with-the-outbox-pattern", // 2026-08-06
         "how-to-automate-your-tests-in-express-using-vitest", // 2026-08-29
         "how-to-build-a-scholarship-research-mcp-server-with-node-js-express-and-mongodb", // 2026-09-05
+        "how-orms-still-let-sql-injection-through-and-how-to-close-the-gaps", // 2026-09-29
+        NODEJS_AND_EXPRESSJS_HANDBOOK_FOR_BEGINNERS, // 2026-10-01
         // END: 2026js-express
         // END: js-express
       ]], [
@@ -5259,6 +5304,7 @@ export const template: SidebarInfoTemplate = {
         "technical-design-decisions-educational-app-llms", // 2026-06-04
         HOW_TO_BUILD_YOUR_OWN_MCP_SERVER_AND_PUBLISH_YOUR_CHATGPT_APP, // 2026-07-10
         REACT_NATIVE_LIVE_ACTIVITIES_HANDBOOK, // 2026-07-15
+        "build-an-ai-resume-screening-tool-with-next-js-supabase-and-typesafe-jev", // 2026-09-29
         // END: 2026js-supabase
         // END: js-supabase
       ]], [
@@ -5408,6 +5454,9 @@ export const template: SidebarInfoTemplate = {
         "how-to-make-a-static-html-page-editable-in-the-browser-with-vanilla-javascript", // 2026-07-23
         "how-to-build-more-accessible-websites-with-wcag-2-2", // 2026-08-19
         "how-to-build-a-bulk-image-compressor-tool-with-html-css-and-javascript", // 2026-09-19
+        "fullscreen-api-javascript-wake-lock", // 2026-09-29
+        "how-to-build-a-real-time-word-counter-tool-with-html-css-and-javascript", // 2026-09-30
+        "css-content-visibility-rendering-performance", // 2026-10-01
         // END: 2026css
         // END`: css
       ]], [
@@ -5684,6 +5733,10 @@ export const template: SidebarInfoTemplate = {
         "catch-security-vulnerabilities-code-pull-requests", // 2026-09-15
         "how-ai-coding-assistants-can-help-you-debug-without-writing-the-code-for-you", // 2026-09-19
         "how-to-build-a-reading-focused-blog-with-python-markdown-and-github-pages-for-free", // 2026-09-22
+        "timescaledb-course-postgresql-for-time-series-data", // 2026-09-24
+        "how-to-govern-ai-generated-infrastructure-with-policy-as-code-and-opa-full-handbook", // 2026-09-29
+        "how-to-build-a-reliable-ai-assistant-with-the-claude-api", // 2026-09-29
+        "how-to-debug-a-stuck-kubernetes-rollout-with-a-hands-on-lab", // 2026-10-01
         // END: 2026py
         // END: py
       ]], [
@@ -5727,6 +5780,7 @@ export const template: SidebarInfoTemplate = {
         "how-to-build-a-scoped-note-taking-api-with-django-rest-framework-and-simplejwt", // 2026-05-06
         "how-to-build-referral-aware-split-payment-flows-in-django", // 2026-08-25
         "how-to-prevent-race-conditions-in-django", // 2026-09-12
+        "python-algorithmic-trading-with-snaptrade-massive-alpaca", // 2026-09-29
         // END: 2026py-django
         // END: py-django
       ]], [
@@ -6162,6 +6216,7 @@ export const template: SidebarInfoTemplate = {
         "the-builder-design-pattern-a-better-approach-to-complex-object-construction", // 2026-09-03
         "the-composite-design-pattern-work-with-individual-objects-and-groups-through-the-same-interface", // 2026-09-10
         "how-to-implement-lego-architecture-in-flutter-handbook", // 2026-09-12
+        "build-a-dart-package-analytics-tool-with-the-pub-dev-api", // 2026-09-24
         // END: 2026dart
         // END: dart
       ]], [
@@ -6611,6 +6666,7 @@ export const template: SidebarInfoTemplate = {
         "how-to-add-dynamic-features-to-a-static-site-without-a-server", // 2026-08-10
         "cdn-cache-made-my-site-slower", // 2026-08-28
         "how-to-build-api-documentation-from-scratch-roadmap", // 2026-08-31
+        "executable-operational-specifications-software-automation", // 2026-09-25
         // END: 2026devops
         // END: devops
       ]], [
@@ -6968,6 +7024,10 @@ export const template: SidebarInfoTemplate = {
         HOW_TO_BUILD_A_PRODUCTION_READY_DEVSECOPS_PLATFORM_FROM_HOMELAB_TO_AWS_FULL_BOOK, // 2026-07-28
         "how-to-build-kubernetes-operators-a-handbook-for-devs", // 2026-07-29
         "kubernetes-networking-explained-from-clusterip-to-cilium-service-mesh", // 2026-08-22
+        "executable-operational-specifications-software-automation", // 2026-09-25
+        "how-to-govern-ai-generated-infrastructure-with-policy-as-code-and-opa-full-handbook", // 2026-09-29
+        "how-to-diagnose-and-fix-ai-inference-latency-on-kubernetes", // 2026-09-30
+        "how-to-debug-a-stuck-kubernetes-rollout-with-a-hands-on-lab", // 2026-10-01
         // END: 2026k8s
         // END: k8s
       ]], [
@@ -7073,6 +7133,7 @@ export const template: SidebarInfoTemplate = {
         "how-to-implement-hipaa-technical-safeguards-on-aws-full-handbook", // 2026-08-04
         HOW_TO_BUILD_A_KNOWLEDGE_GRAPH_WITH_PYTHON_AND_NEO4J_HANDBOOK, // 2026-08-21
         "aws-cloud-cost-monitoring-alerting-and-optimization-a-guide-for-devs", // 2026-09-08
+        "how-to-govern-ai-generated-infrastructure-with-policy-as-code-and-opa-full-handbook", // 2026-09-29
         // END: 2026aws
         // END: aws
       ]], [
@@ -7292,6 +7353,7 @@ export const template: SidebarInfoTemplate = {
         "how-enterprise-teams-manage-infrastructure-at-scale-with-terraform", // 2026-06-24
         "how-to-implement-hipaa-technical-safeguards-on-aws-full-handbook", // 2026-08-04
         "aws-cloud-cost-monitoring-alerting-and-optimization-a-guide-for-devs", // 2026-09-08
+        "how-to-govern-ai-generated-infrastructure-with-policy-as-code-and-opa-full-handbook", // 2026-09-29
         // END: 2026terraform
         // END: terraform
       ]], [
@@ -7451,6 +7513,7 @@ export const template: SidebarInfoTemplate = {
         "how-ai-is-breaking-traditional-patch-management", // 2026-09-05
         "how-ai-is-changing-malware-detection", // 2026-09-12
         "catch-security-vulnerabilities-code-pull-requests", // 2026-09-15
+        "how-orms-still-let-sql-injection-through-and-how-to-close-the-gaps", // 2026-09-29
         // END: 2026security
         // END: security
       ]], [
@@ -7642,6 +7705,7 @@ export const template: SidebarInfoTemplate = {
         "how-to-build-rag-chatbot-nodejs-gemini-pgvector", // 2026-07-16
         "how-to-build-a-multi-tenant-saas-api-with-nodejs-rbac-and-audit-logging", // 2026-07-21
         "how-to-fix-the-dual-write-problem-in-node-js-with-the-outbox-pattern", // 2026-08-06
+        "timescaledb-course-postgresql-for-time-series-data", // 2026-09-24
         // END: 2026postgresql
         // END: postgresql
       ]], [
@@ -8002,6 +8066,7 @@ export const template: SidebarInfoTemplate = {
         "how-ai-chips-are-made", // 2026-09-04
         "how-ai-is-breaking-traditional-patch-management", // 2026-09-05
         "how-ai-is-changing-malware-detection", // 2026-09-12
+        "healthcare-ai-won-t-work-until-you-fix-your-data", // 2026-10-01
         // END: 2026ai
         // END: ai
       ]], [
@@ -8143,6 +8208,7 @@ export const template: SidebarInfoTemplate = {
         "hands-on-evolution-of-deep-learning-geoffrey-hinton-s-ai-legacy", // 2026-09-18
         "migrate-legacy-monolith-incrementally", // 2026-09-18
         "how-ai-coding-assistants-can-help-you-debug-without-writing-the-code-for-you", // 2026-09-19
+        "how-to-govern-ai-generated-infrastructure-with-policy-as-code-and-opa-full-handbook", // 2026-09-29
         // END: 2026llm
         // END: llm
       ]], [
@@ -8191,6 +8257,7 @@ export const template: SidebarInfoTemplate = {
         "agentic-ai-engineering-in-practice-how-to-build-with-claude-code-codex-and-gemini", // 2026-09-05
         "openai-codex-crash-course", // 2026-09-11
         "build-a-self-evaluating-ai-system-automated-testing-and-evaluation-pipelines-for-llm-apps", // 2026-09-12
+        "build-and-publish-a-full-stack-mobile-app-with-ai", // 2026-10-02
         // END: 2026openai
         // END: openai
       ]], [
@@ -8299,6 +8366,8 @@ export const template: SidebarInfoTemplate = {
         "how-to-build-a-scholarship-research-mcp-server-with-node-js-express-and-mongodb", // 2026-09-05
         "what-is-an-agent-harness", // 2026-09-12
         "how-to-build-an-ai-chat-app-interface-with-the-ai-sdk", // 2026-09-12
+        "unlock-the-power-of-ai-agents-with-the-new-claude-certified-developer-foundations-course", // 2026-09-24
+        "how-to-build-a-reliable-ai-assistant-with-the-claude-api", // 2026-09-29
         // END: 2026claude
         // END: claude
       ]], [
@@ -8497,6 +8566,11 @@ export const template: SidebarInfoTemplate = {
         "how-to-build-a-scholarship-research-mcp-server-with-node-js-express-and-mongodb", // 2026-09-05
         // END: 2026mcp
         // END: mcp
+      ]], [
+      "jev", [
+        "build-an-ai-resume-screening-tool-with-next-js-supabase-and-typesafe-jev", // 2026-09-29
+        // END: 2026jev
+        // END: jev
       ]], [
       "firecrawl", [
         "how-to-turn-websites-into-llm-ready-data-using-firecrawl", // 2025-10-23
@@ -8724,6 +8798,7 @@ export const template: SidebarInfoTemplate = {
         "how-ai-chips-are-made", // 2026-09-04
         "apple-watch-health-age-whats-it-actually-measuring", // 2026-09-12
         "apple-watch-vo2-max-test-cardiorespiratory-fitness", // 2026-09-12
+        "are-screenless-wearables-better-for-health-tracking", // 2026-10-01
         // END: 2026hw
         // END: hw
       ]], [

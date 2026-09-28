@@ -15,6 +15,7 @@ const Y2026: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2026
+    "speech-to-text-in-dotnet-with-assemblyai", // 2026-09-26
     "when-postgres-picks-the-wrong-index", // 2026-09-19
     "postgres-row-level-security-with-ef-core", // 2026-09-12
     "four-years-of-writing-every-week", // 20265-09-05
@@ -441,6 +442,7 @@ export const template: SidebarInfoTemplate = {
       "how-to-test-vertical-slice-architecture", // 2026-07-11
       "persisting-a-rich-domain-model-with-ef-core", // 2026-08-08
       "postgres-row-level-security-with-ef-core", // 2026-09-12
+      "speech-to-text-in-dotnet-with-assemblyai", // 2026-09-26
       // END: 2026cs
       // END: cs
     ]],[
@@ -552,6 +554,11 @@ export const template: SidebarInfoTemplate = {
       // END: 2026security-oauth
       // END: security-oauth
     ]],[
+    "nginx", [
+      "yarp-vs-nginx-a-quick-performance-comparison", // 2025-05-31
+      // END: 2025nginx
+      // END: nginx
+    ]],[
     "data-science", [
       "debunking-the-filter-early-join-later-sql-performance-myth", // 2025-06-07
       // END: 2025data-science
@@ -584,11 +591,6 @@ export const template: SidebarInfoTemplate = {
       "solving-the-distributed-cache-invalidation-problem-with-redis-and-hybridcache", // 2026-01-17
       // END: 2026redis
       // END: redis
-    ]],[
-    "nginx", [
-      "yarp-vs-nginx-a-quick-performance-comparison", // 2025-05-31
-      // END: 2025nginx
-      // END: nginx
     ]],[
     "system-design", [
       "clean-architecture-folder-structure", // 2022-09-24
@@ -631,6 +633,12 @@ export const template: SidebarInfoTemplate = {
       // END: 2025llm
       // END: 2026llm
       // END: llm
+    ]],[
+    "claude", [
+      // END: 2025claude
+      "speech-to-text-in-dotnet-with-assemblyai", // 2026-09-26
+      // END: 2026claude
+      // END: claude
     ]],[
     "llama", [
       "working-with-llms-in-dotnet-using-microsoft-extensions-ai", // 2025-01-11

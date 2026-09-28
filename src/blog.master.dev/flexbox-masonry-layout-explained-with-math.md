@@ -165,7 +165,7 @@ $$
 Initial free space is:
 
 $$
-IFS=\text{Container Width}-\sum_{i=1}^{n}FB_i–\text{Gap Width}\cdot(n–1)
+IFS=\text{Container Width}-\sum_{i=1}^{n}FB_i-\text{Gap Width}\cdot(n-1)
 $$
 
 If initial free space is positive, the item width is:
@@ -177,7 +177,7 @@ $$
 If initial free space is negative, the item width is:
 
 $$
-w_i=FB_i+IFS\cdot\frac{FSH_i\cdot{FB_i}}{\sum_{k=1}^{n}FSH_k\cdot{FB_k}}\cdot \min\left(1,\sum_{k=1}^{n}FSH_k\\right)
+w_i=FB_i+IFS\cdot\frac{FSH_i\cdot{FB_i}}{\sum_{k=1}^{n}FSH_k\cdot{FB_k}}\cdot\min\left(1,\sum_{k=1}^{n}FSH_k\right)
 $$
 
 ### Again, what about Wrapping?
@@ -185,7 +185,7 @@ $$
 Without wrapping, *n* is just the number of items. With wrapping enabled, the number of items in a row is the maximum *n* such that:
 
 $$
-\sum_{i=1}^{n}FB_i+\text{Gap Width}\cdot(n–1)\leq\text{Container Width}
+\sum_{i=1}^{n}FB_i+\text{Gap Width}\cdot(n-1)\leq\text{Container Width}
 $$
 
 And that’s a wrap! Now we can more or less grasp how flexbox actually works.
@@ -208,7 +208,7 @@ Which can be rewritten as:
 
 $$
 \begin{align*}
-w_i=AR_i\cdo{h_i}&\text{or}&h_i=\frac{w_i}{AR_i}
+w_i=AR_i\cdot{h_i}&\text{or}&h_i=\frac{w_i}{AR_i}
 \end{align*}
 $$
 
@@ -367,8 +367,8 @@ $$
 \begin{align*}
 h_i&=H=CB+\frac{IFS}{\sum_{k=1}^{n}AR_k}\\
 w_i&=FB_i+IFS\cdot\frac{AR_i}{\sum_{k=1}^{n}AR_k}\\
-FG_i&=AR_i\cdot\beta&\text{such that}&FG_i\geq{1}\text{ for every } i\\
-FSH_i&=1
+FG_i&=AR_i\cdot\beta&\text{such that}&&FG_i\geq{1}\text{ for every } i\\
+FSH_i&=1\\
 FB_i=&AR_i\cdot{CB}
 \end{align*}
 $$

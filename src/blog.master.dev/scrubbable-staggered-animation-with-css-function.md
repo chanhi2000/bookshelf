@@ -143,14 +143,14 @@ Since $O_{k+1}=0$, this set of $k$ objects is already at its minimal valid confi
 So we define $d$ to be equal to the gap between OkO_k and $O_{k+1}$, which is:
 
 $$
-d=\left(1–\left(k-1\right)d\right)–0
+d=\left(1-\left(k-1\right)d\right)-0
 $$
 
 We can now easily find dd‘s actual value:
 
 $$
 \begin{align*}
-d&=1–kd+d\\
+d&=1-kd+d\\
 kd&=1\\
 d&=\frac{1}{k}
 \end{align*}
@@ -170,16 +170,16 @@ Let $i$ represent the animation order of the objects in *infinite ordered object
 
 Let $p_i$ represent the animation progress of $i$th object. This is what we want to find out for a given $m$ (the overall staggered animation progress).
 
-We know that the difference between the animation progress of any two adjacent objects in the currently animating $k$ objects is $\frac{1}{k}$. So let’s create a new sequence p’_i:
+We know that the difference between the animation progress of any two adjacent objects in the currently animating $k$ objects is $\frac{1}{k}$. So let’s create a new sequence p'_i:
 
 $$
-\cdots,\:p’_{-2},\:p’_{-1},\:p’_{0},\:p’_{1},\:p’_{2},\:\cdots
+\cdots,\:p'_{-2},\:p'_{-1},\:p'_{0},\:p'_{1},\:p'_{2},\:\cdots
 $$
 
-where $p’_{i + 1}–p’_i=\frac{1}{k}$. We can get that by multiplying $i$ by $\tfrac{1}{k}$:
+where $p'_{i + 1}-p'_i=\frac{1}{k}$. We can get that by multiplying $i$ by $\tfrac{1}{k}$:
 
 $$
-p’_{i}=\frac{i}{k}
+p'_{i}=\frac{i}{k}
 $$
 
 Which is:
@@ -188,10 +188,10 @@ $$
 \cdots,\:\frac{-2}{k},\:\frac{-1}{k},\:\frac{0}{k},\:\frac{1}{k},\:\frac{2}{k},\:\cdots
 $$
 
-We have also seen that the objects in the currently animating $k$ objects are in descending order. Our pi′p’_i sequence is ascending. So let them descend in a new sequence pi′′p”_i by subtracting pi′p’_i from some unknown number $q$ which we will figure out soon:
+We have also seen that the objects in the currently animating $k$ objects are in descending order. Our pi′p'_i sequence is ascending. So let them descend in a new sequence pi′′p"_i by subtracting pi′p'_i from some unknown number $q$ which we will figure out soon:
 
 $$
-p”_i=q–p’_i
+p"_i=q-p'_i
 $$
 
 ::: note
@@ -212,29 +212,29 @@ Note that the numbers can be different from original set of numbers.
 
 :::
 
-Now, if we replace pi′p’_i with its value, we get
+Now, if we replace $p'_{i}$ with its value, we get
 
 $$
-p”_i=q–\frac{i}{k}
+p"_{i}=q-\frac{i}{k}
 $$
 
-So $p”_i$ looks like this for each of $i$th object in our infinite ordered objects:
+So $p"_i$ looks like this for each of $i$th object in our infinite ordered objects:
 
 \cdots,\:q-\frac{-2}{k},\:q-\frac{-1}{k},\:q-\frac{0}{k},\:q-\frac{1}{k},\:q-\frac{2}{k},\:\cdots
 
-Note that the difference between two adjacent $p”_i$ is still $\tfrac{1}{k}$.
+Note that the difference between two adjacent $p"_i$ is still $\tfrac{1}{k}$.
 
 ::: note
 
 Can you see that somewhere among our infinitely ordered objects, there are progress values within the valid range $[0,1]$, each separated by a gap of $\frac{1}{k}$, in this sea of out of range animation progress values?
 
-Let’s look at a concrete example with real values. Let $k=3$ and $q=1$. Then a subset of the values of $p”_i$ become:
+Let’s look at a concrete example with real values. Let $k=3$ and $q=1$. Then a subset of the values of $p"_i$ become:
 
 ![](https://i0.wp.com/master.dev/blog/wp-content/uploads/2026/05/ex2g0RZ1.jpeg?resize=894%2C1024&ssl=1)
 
-> A table highlighting $p”_i$ values that intersect with $p_i$ values
+> A table highlighting $p"_i$ values that intersect with $p_i$ values
 
-We can see that the progress values within the $[0,1]$ range start at $i=0$ and end at $i=3$. We can also see that objects to the left of this range have $p”_i>1$, while objects to the right have $p”_i<0$. We can eliminate this issue using `clamp()` to flatten the values on each of these two sides to $1$ and $0$ respectively.
+We can see that the progress values within the $[0,1]$ range start at $i=0$ and end at $i=3$. We can also see that objects to the left of this range have $p"_i>1$, while objects to the right have $p"_i<0$. We can eliminate this issue using `clamp()` to flatten the values on each of these two sides to $1$ and $0$ respectively.
 
 :::
 
@@ -248,19 +248,19 @@ To figure out $q$ we need to know to exactly where to start and end our animatio
 Now, when $m=0$, the following must hold:
 
 $$
-p”_u=x
+p"_u=x
 $$
 
-Now we can easily figure out $q$ by replacing $p”_u$ with its value:
+Now we can easily figure out $q$ by replacing $p"_u$ with its value:
 
 $$
 \begin{align*}
-q–\frac{u}{k}&=x\\
+q-\frac{u}{k}&=x\\
 q&=x+\frac{u}{k}\\
 \end{align*}
 $$
 
-Similarly when $m=1$, $q=y+\frac{v}{k}$ because $p”_v=y$.
+Similarly when $m=1$, $q=y+\frac{v}{k}$ because $p"_v=y$.
 
 ::: note
 
@@ -280,16 +280,16 @@ We will later define $\text{lerp()}$ using the CSS `@function` rule. What it doe
 
 How $q$ is found using $\text{lerp()}$
 
-So for any $m$ in its range, $p”_i$ becomes
+So for any $m$ in its range, $p"_i$ becomes
 
 $$
-kp”_i=\text{lerp}(x+\frac{u}{k},\:y+\frac{v}{k},\:m)–\frac{i}{k}
+kp"_i=\text{lerp}(x+\frac{u}{k},\:y+\frac{v}{k},\:m)-\frac{i}{k}
 $$
 
-But since we do not want the out of range animation progress values on either side, we will apply $\text{clamp}()$ (the same [<VPIcon icon="fa-brands fa-firefox"/>`clamp()`](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/clamp) function from CSS) to the $p”_i$ values and obtain our final formula!
+But since we do not want the out of range animation progress values on either side, we will apply $\text{clamp}()$ (the same [<VPIcon icon="fa-brands fa-firefox"/>`clamp()`](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/clamp) function from CSS) to the $p"_i$ values and obtain our final formula!
 
 $$
-p_i=\text{clamp}(0,\:\text{lerp}(x+\frac{u}{k},\:y+\frac{v}{k},\:m)–\frac{i}{k},\:1)
+p_i=\text{clamp}(0,\:\text{lerp}(x+\frac{u}{k},\:y+\frac{v}{k},\:m)-\frac{i}{k},\:1)
 $$
 
 ---
