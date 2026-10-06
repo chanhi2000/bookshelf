@@ -5,6 +5,9 @@ const Y2026: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2026
+    "stop-buttons-triggering-zoom-when-theyre-double-tapped", // 2026-09-23
+    "a-decent-custom-checkbox-for-until-checkmark-is-ready", // 2026-09-17
+    "a-look-at-the-geolocation-html-element-and-how-it-works", // 2026-08-20
     "working-with-highlight-using-progressive-enhancement", // 2026-08-06
     "use-cases-for-aria-expanded", // 2026-07-16
     "publishing-on-the-atmosphere-with-standardsite", // 2026-06-25
@@ -241,6 +244,7 @@ export const template: SidebarInfoTemplate = {
       "navigating-the-age-old-problem-of-checkmarks-in-ui-with-progressive-enhancement", // 2026-05-28
 
       "working-with-highlight-using-progressive-enhancement", // 2026-08-06
+      "a-look-at-the-geolocation-html-element-and-how-it-works", // 2026-08-20
       // END: 2026js
       // END: js
     ]],[
@@ -279,6 +283,10 @@ export const template: SidebarInfoTemplate = {
 
       "use-cases-for-aria-expanded", // 2026-07-16
       "working-with-highlight-using-progressive-enhancement", // 2026-08-06
+
+      "a-look-at-the-geolocation-html-element-and-how-it-works", // 2026-08-20
+      "a-decent-custom-checkbox-for-until-checkmark-is-ready", // 2026-09-17
+      "stop-buttons-triggering-zoom-when-theyre-double-tapped", // 2026-09-23
       // END: 2026css
       // END: css
     ]],[

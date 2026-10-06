@@ -15,6 +15,8 @@ const Y2026: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2026
+    "test-time-dependent-code-without-waiting", // 2026-10-10
+    "github-copilot-rust-migration-hype-vs-reality", // 2026-10-03
     "speech-to-text-in-dotnet-with-assemblyai", // 2026-09-26
     "when-postgres-picks-the-wrong-index", // 2026-09-19
     "postgres-row-level-security-with-ef-core", // 2026-09-12
@@ -443,6 +445,7 @@ export const template: SidebarInfoTemplate = {
       "persisting-a-rich-domain-model-with-ef-core", // 2026-08-08
       "postgres-row-level-security-with-ef-core", // 2026-09-12
       "speech-to-text-in-dotnet-with-assemblyai", // 2026-09-26
+      "test-time-dependent-code-without-waiting", // 2026-10-10
       // END: 2026cs
       // END: cs
     ]],[
@@ -470,6 +473,12 @@ export const template: SidebarInfoTemplate = {
       "standalone-aspire-dashboard-setup-for-distributed-dotnet-applications", // 2025-08-30
       // END: 2025go-prometheus
       // END: go-prometheus
+    ]],[
+    "rust", [
+      // END: 2025rust
+      "github-copilot-rust-migration-hype-vs-reality", // 2026-10-03
+      // END: 2026rust
+      // END: rust
     ]],[
     "erl-rabbitmq", [
       "implementing-the-saga-pattern-with-rebus-and-rabbitmq", // 202404-01
@@ -646,6 +655,12 @@ export const template: SidebarInfoTemplate = {
       "how-to-extract-structured-data-from-images-using-ollama-in-dotnet", // 2026-02-14
       // END: 2025ollama
       // END: ollama
+    ]],[
+    "github-copilot", [
+      // END: 2025github-copilot
+      "github-copilot-rust-migration-hype-vs-reality", // 2026-10-03
+      // END: 2026github-copilot
+      // END: github-copilot
     ]],[
     "all", [
       Y2026,

@@ -42,7 +42,7 @@ author:
 cover: https://cdn.hashnode.com/uploads/covers/5e1e335a7a1d3fcc59028c64/6e470b44-a02d-440b-a576-e12de96a3b68.png
 ---
 
-# {{ $frontmatter.title }} 
+# {{ $frontmatter.title }} 관련
 
 ```component VPCard
 {

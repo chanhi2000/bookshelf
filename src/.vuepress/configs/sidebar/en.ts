@@ -3,7 +3,7 @@ import { articleSidebars as asb } from './articles'
 
 export const sidebarEn = sidebar({
   '/hackingwithswift.com/':       [asb.hackingwithswift()],
-  '/fcc/':                        [asb.freecodecamp()],
+  '/freecodecamp.org/':           [asb.freecodecamp()],
   '/kodeco.com/':                 [asb.kodeco()],
   '/blog.kotzilla.io/':           [asb.kotzilla()],
   '/kt.academy/':                 [asb.ktAcademy()],

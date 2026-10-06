@@ -31,7 +31,7 @@ author:
 cover: https://dbushell.com/images/articles/2023-09-26-adios-netlify-hola-cloudflare-pages.png
 ---
 
-# {{ $frontmatter.title }} 
+# {{ $frontmatter.title }} 관련
 
 ```component VPCard
 {

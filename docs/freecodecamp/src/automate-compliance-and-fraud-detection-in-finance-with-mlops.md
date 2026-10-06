@@ -34,7 +34,7 @@ author:
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1747064311601/923284fd-8584-4ef3-8591-f717b9807148.png
 ---
 
-# {{ $frontmatter.title }} 
+# {{ $frontmatter.title }} 관련
 
 ```component VPCard
 {
