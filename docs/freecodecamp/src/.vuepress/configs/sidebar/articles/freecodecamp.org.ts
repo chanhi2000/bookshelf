@@ -2288,6 +2288,18 @@ const Y2026: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2026
+    "api-authentication-authorization-mechanisms-trade-offs-and-failure-modes", // 2026-10-05
+    "how-to-break-the-ai-coding-agent-fix-loop", // 2026-10-05
+    "how-to-use-nestjs-observe-an-observability-handbook-for-devs", // 2026-10-05
+    "ai-email-deliverability-explained", // 2026-10-05
+    "engineering-anatomy-of-api-vulnerabilities-owasp-api-security-top-10", // 2026-10-05
+    "how-to-avoid-jni-crashes-by-managing-local-and-global-references-correctly", // 2026-10-04
+    "how-to-submit-a-quarterly-update-to-hmrc-making-tax-digital-api", // 2026-10-04
+    "separate-operational-intent-from-executor", // 2026-10-04
+    "learn-modern-kotlin", // 2026-10-03
+    "build-an-ai-support-system-that-automatically-routes-bugs-to-github", // 2026-10-02
+    "build-an-ai-support-system-that-automatically-routes-bugs-to-github", // 2026-60-02
+    "build-your-own-ai-app-builder-with-next-js-aws-and-sandboxes", // 2026-10-02
     "how-to-add-shadcn-ui-charts-to-nextjs", // 2026-10-02
     "build-and-publish-a-full-stack-mobile-app-with-ai", // 2026-10-02
     "how-to-stop-your-android-app-from-draining-the-battery-with-wake-locks", // 2026-10-01
@@ -4424,6 +4436,8 @@ export const template: SidebarInfoTemplate = {
         "object-oriented-design-patterns-with-java", // 2025-07-29
         "master-technical-interviews-by-learning-data-structures-and-algorithms", // 2025-10-22
         // END: 2025java
+        "learn-modern-kotlin", // 2026-10-03
+        // END: 2026java
         // END: java
       ]], [
       "java-spring", [
@@ -4470,6 +4484,7 @@ export const template: SidebarInfoTemplate = {
         "accessibility-in-jetpack-compose-comprehensive-tutorial", // 2026-09-02
         "the-ios-nfc-handbook-how-to-read-write-and-lock-nfc-tags-with-react-native", // 2026-09-20
         "how-to-stop-your-android-app-from-draining-the-battery-with-wake-locks", // 2026-10-01
+        "how-to-avoid-jni-crashes-by-managing-local-and-global-references-correctly", // 2026-10-04
         // END: 2026java-android
         // END: java-android
       ]], [
@@ -4681,6 +4696,7 @@ export const template: SidebarInfoTemplate = {
         "fullscreen-api-javascript-wake-lock", // 2026-09-29
         "how-to-build-a-real-time-word-counter-tool-with-html-css-and-javascript", // 2026-09-30
         "css-content-visibility-rendering-performance", // 2026-10-01
+        "how-to-submit-a-quarterly-update-to-hmrc-making-tax-digital-api", // 2026-10-04
         // END: 2026js
         // END: js
       ]], [
@@ -4733,6 +4749,7 @@ export const template: SidebarInfoTemplate = {
         "migrate-legacy-monolith-incrementally", // 2026-09-18
         "executable-operational-specifications-software-automation", // 2026-09-25
         "how-to-build-a-code-graph-in-typescript-using-vs-code-language-apis", // 2026-10-01
+        "separate-operational-intent-from-executor", // 2026-10-04
         // END: 2026ts
         // END: ts
       ]], [
@@ -4858,6 +4875,7 @@ export const template: SidebarInfoTemplate = {
         "how-ai-receptionists-work-the-architecture-behind-ai-phone-agents", // 2026-09-05
         "how-webrtc-scales-signaling-nat-traversal-and-the-mesh-sfu-mcu-tradeoff", // 2026-09-16
         "why-you-should-never-embed-your-gemini-api-key-in-client-code-and-how-firebase-ai-logic-fixes-it", // 2026-09-20
+        "how-to-break-the-ai-coding-agent-fix-loop", // 2026-10-05
         // END: 2026js-node
         // END: js-node
       ]], [
@@ -5151,6 +5169,8 @@ export const template: SidebarInfoTemplate = {
         "how-to-build-a-flashcard-study-app-with-next-js-and-mongodb", // 2026-08-27
         "build-an-ai-resume-screening-tool-with-next-js-supabase-and-typesafe-jev", // 2026-09-29
         "how-to-add-shadcn-ui-charts-to-nextjs", // 2026-10-02
+        "build-your-own-ai-app-builder-with-next-js-aws-and-sandboxes", // 2026-10-02
+        "build-an-ai-support-system-that-automatically-routes-bugs-to-github", // 2026-10-02
         // END: 2026js-next
         // END: js-next
       ]], [
@@ -5246,6 +5266,7 @@ export const template: SidebarInfoTemplate = {
         "rest-api-documentation-with-scalar", // 2026-02-26
         "the-saga-pattern-in-node-js-roll-back-distributed-transactions-across-microservices", // 2026-06-13
         "how-to-implement-paypal-in-a-microservice-architecture-using-nestjs-grpc-and-docker", // 2026-07-17
+        "how-to-use-nestjs-observe-an-observability-handbook-for-devs", // 2026-10-05
         // END: 2026js-nest
         // END: js-nest
       ]], [
@@ -6217,6 +6238,8 @@ export const template: SidebarInfoTemplate = {
         "the-composite-design-pattern-work-with-individual-objects-and-groups-through-the-same-interface", // 2026-09-10
         "how-to-implement-lego-architecture-in-flutter-handbook", // 2026-09-12
         "build-a-dart-package-analytics-tool-with-the-pub-dev-api", // 2026-09-24
+        "engineering-anatomy-of-api-vulnerabilities-owasp-api-security-top-10", // 2026-10-05
+        "api-authentication-authorization-mechanisms-trade-offs-and-failure-modes", // 2026-10-05
         // END: 2026dart
         // END: dart
       ]], [
@@ -6356,6 +6379,8 @@ export const template: SidebarInfoTemplate = {
         "the-builder-design-pattern-a-better-approach-to-complex-object-construction", // 2026-09-03
         THE_DESIGN_PATTERNS_HANDBOOK_LEARN_POPULAR_DESIGN_PATTERNS_WITH_C_CODE_EXAMPLES, // 2026-09-08
         "the-composite-design-pattern-work-with-individual-objects-and-groups-through-the-same-interface", // 2026-09-10
+        "engineering-anatomy-of-api-vulnerabilities-owasp-api-security-top-10", // 2026-10-05
+        "api-authentication-authorization-mechanisms-trade-offs-and-failure-modes", // 2026-10-05
         // END: 2026cs
         // END: cs
       ]], [
@@ -6429,6 +6454,7 @@ export const template: SidebarInfoTemplate = {
         HOW_TO_USE_SCONS_TO_BUILD_SOFTWARE_PROJECTS_FULL_HANDBOOK, // 2026-05-08
         "a-deep-dive-into-gabeldorsche-the-bluetooth-stack-android-rebuilt-on-purpose", // 2026-07-15
         THE_SANITIZERS_HANDBOOK, // 2026-08-22
+        "how-to-avoid-jni-crashes-by-managing-local-and-global-references-correctly", // 2026-10-04
         // END: 2026cpp
         // END: cpp
       ]], [
@@ -6752,6 +6778,7 @@ export const template: SidebarInfoTemplate = {
         "learn-how-to-deploy-secure-and-automate-full-stack-web-apps", // 2026-09-17
         "how-to-prevent-poisoned-github-actions-dependencies", // 2026-09-19
         "how-to-build-a-reading-focused-blog-with-python-markdown-and-github-pages-for-free", // 2026-09-22
+        "build-an-ai-support-system-that-automatically-routes-bugs-to-github", // 2026-10-02
         // END: 2026github
         // END: github
       ]], [
@@ -7134,6 +7161,7 @@ export const template: SidebarInfoTemplate = {
         HOW_TO_BUILD_A_KNOWLEDGE_GRAPH_WITH_PYTHON_AND_NEO4J_HANDBOOK, // 2026-08-21
         "aws-cloud-cost-monitoring-alerting-and-optimization-a-guide-for-devs", // 2026-09-08
         "how-to-govern-ai-generated-infrastructure-with-policy-as-code-and-opa-full-handbook", // 2026-09-29
+        "build-your-own-ai-app-builder-with-next-js-aws-and-sandboxes", // 2026-10-02
         // END: 2026aws
         // END: aws
       ]], [
@@ -7514,6 +7542,8 @@ export const template: SidebarInfoTemplate = {
         "how-ai-is-changing-malware-detection", // 2026-09-12
         "catch-security-vulnerabilities-code-pull-requests", // 2026-09-15
         "how-orms-still-let-sql-injection-through-and-how-to-close-the-gaps", // 2026-09-29
+        "engineering-anatomy-of-api-vulnerabilities-owasp-api-security-top-10", // 2026-10-05
+        "api-authentication-authorization-mechanisms-trade-offs-and-failure-modes", // 2026-10-05
         // END: 2026security
         // END: security
       ]], [
@@ -8007,6 +8037,7 @@ export const template: SidebarInfoTemplate = {
         THE_DESIGN_PATTERNS_HANDBOOK_LEARN_POPULAR_DESIGN_PATTERNS_WITH_C_CODE_EXAMPLES, // 2026-09-08
         "how-to-implement-lego-architecture-in-flutter-handbook", // 2026-09-12
         "how-to-design-gifting-features-people-actually-use-evidence-from-58-apps", // 2026-09-14
+        "how-to-use-nestjs-observe-an-observability-handbook-for-devs", // 2026-10-05
         // END: 2026system-design
         // END: system-design
       ]], [
@@ -8067,6 +8098,7 @@ export const template: SidebarInfoTemplate = {
         "how-ai-is-breaking-traditional-patch-management", // 2026-09-05
         "how-ai-is-changing-malware-detection", // 2026-09-12
         "healthcare-ai-won-t-work-until-you-fix-your-data", // 2026-10-01
+        "ai-email-deliverability-explained", // 2026-10-05
         // END: 2026ai
         // END: ai
       ]], [
@@ -8209,6 +8241,8 @@ export const template: SidebarInfoTemplate = {
         "migrate-legacy-monolith-incrementally", // 2026-09-18
         "how-ai-coding-assistants-can-help-you-debug-without-writing-the-code-for-you", // 2026-09-19
         "how-to-govern-ai-generated-infrastructure-with-policy-as-code-and-opa-full-handbook", // 2026-09-29
+        "separate-operational-intent-from-executor", // 2026-10-04
+        "how-to-break-the-ai-coding-agent-fix-loop", // 2026-10-05
         // END: 2026llm
         // END: llm
       ]], [
@@ -8258,6 +8292,7 @@ export const template: SidebarInfoTemplate = {
         "openai-codex-crash-course", // 2026-09-11
         "build-a-self-evaluating-ai-system-automated-testing-and-evaluation-pipelines-for-llm-apps", // 2026-09-12
         "build-and-publish-a-full-stack-mobile-app-with-ai", // 2026-10-02
+        "build-your-own-ai-app-builder-with-next-js-aws-and-sandboxes", // 2026-10-02
         // END: 2026openai
         // END: openai
       ]], [
@@ -8368,6 +8403,7 @@ export const template: SidebarInfoTemplate = {
         "how-to-build-an-ai-chat-app-interface-with-the-ai-sdk", // 2026-09-12
         "unlock-the-power-of-ai-agents-with-the-new-claude-certified-developer-foundations-course", // 2026-09-24
         "how-to-build-a-reliable-ai-assistant-with-the-claude-api", // 2026-09-29
+        "build-your-own-ai-app-builder-with-next-js-aws-and-sandboxes", // 2026-10-02
         // END: 2026claude
         // END: claude
       ]], [
@@ -8569,6 +8605,7 @@ export const template: SidebarInfoTemplate = {
       ]], [
       "jev", [
         "build-an-ai-resume-screening-tool-with-next-js-supabase-and-typesafe-jev", // 2026-09-29
+        "build-an-ai-support-system-that-automatically-routes-bugs-to-github", // 2026-10-02
         // END: 2026jev
         // END: jev
       ]], [
@@ -8725,6 +8762,7 @@ export const template: SidebarInfoTemplate = {
         "what-devs-should-know-about-tracking-product-data", // 2026-09-01
         "the-7-essential-parts-of-your-online-presence", // 2026-09-16
         "migrate-legacy-monolith-incrementally", // 2026-09-18
+        "ai-email-deliverability-explained", // 2026-10-05
         // END: 2026coen
         // END: coen
       ]], [

@@ -45,7 +45,7 @@ cover: https://blog.master.dev/wp-json/social-image-generator/v1/image/4365
 
 <SiteInfo
   name="(Up-) Scoped Scroll Timelines"
-  desc="You can give a name ("
+  desc="You can give a name (“custom ident”) to any scrolling element's “timeline”, have a parent element pick it up, then have any other element use it for their own animation timeline. It's a trip!"
   url="https://blog.master.dev/scoped-scroll-timelines/"
   logo="https://blog.master.dev/favicon.ico"
   preview="https://blog.master.dev/wp-json/social-image-generator/v1/image/4365"/>
@@ -128,7 +128,7 @@ Phew. It all kinda leads up to that very last step where we can react to a value
 ```component VPCard
 {
   "title": "(Up-) Scoped Scroll Timelines",
-  "desc": "You can give a name (",
+  "desc": "You can give a name (“custom ident”) to any scrolling element's “timeline”, have a parent element pick it up, then have any other element use it for their own animation timeline. It's a trip!",
   "link": "https://chanhi2000.github.io/bookshelf/blog.master.dev/scoped-scroll-timelines.html",
   "logo": "https://blog.master.dev/favicon.ico",
   "background": "rgba(188,75,52,0.2)"

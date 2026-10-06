@@ -5,6 +5,10 @@ const Y2026: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2026
+    "transferring-sibling-count-to-a-parent-element", // 2026-10-05
+    "fallbacks-for-css-progress", // 2026-10-02
+    "you-dont-know-bidi-and-neither-does-chatgpt", // 2026-09-30
+    "making-the-most-of-vercels-ai-sdk-with-cloudflare-durable-objects", // 2026-09-28
     "randomly-place-an-element-along-edge-of-another-element", // 2026-09-25
     "introducing-solo", // 2026-09-23
     "dark-mode-very-much-matters-to-me", // 2026-09-21
@@ -488,6 +492,7 @@ export const template: SidebarInfoTemplate = {
       "react-compiler-linting-just-got-a-rust-native-speedup-in-oxlint", // 2026-08-17
       "keyboard-shortcuts-that-display-the-correct-modifier-key-per-os", // 2026-08-21
       "react-now-rusted-all-the-way-out", // 2026-09-04
+      "making-the-most-of-vercels-ai-sdk-with-cloudflare-durable-objects", // 2026-09-28
       // END: 2026js-react
       // END: js-react
     ]],[
@@ -749,6 +754,9 @@ export const template: SidebarInfoTemplate = {
       "custom-glow-rings-inside-of-elements", // 2026-09-18
       "dark-mode-very-much-matters-to-me", // 2026-09-21
       "randomly-place-an-element-along-edge-of-another-element", // 2026-09-25
+      "you-dont-know-bidi-and-neither-does-chatgpt", // 2026-09-30
+      "fallbacks-for-css-progress", // 2026-10-02
+      "transferring-sibling-count-to-a-parent-element", // 2026-10-05
       // END: 2026css
       // END: css
     ]],[
@@ -797,11 +805,13 @@ export const template: SidebarInfoTemplate = {
       "cloudflare-workers-and-hyperdrive-with-tanstack-start", // 2026-07-02
       "durable-objects-on-cloudflare", // 2026-07-20
       "cloudflare-workers-and-hyperdrive-with-sveltekit", // 2026-07-27
+      "making-the-most-of-vercels-ai-sdk-with-cloudflare-durable-objects", // 2026-09-28
       // END: 2026cloudflare
       // END: cloudflare
     ]],[
     "vercel", [
       "having-fun-with-vercels-ai-sdk-and-ai-gateway", // 2026-08-31
+      "making-the-most-of-vercels-ai-sdk-with-cloudflare-durable-objects", // 2026-09-28
       // END: 2026vercel
       // END: vercel
     ]],[
@@ -896,6 +906,8 @@ export const template: SidebarInfoTemplate = {
       "keyboard-shortcuts-that-display-the-correct-modifier-key-per-os", // 2026-08-21
       "introducing-sandcastle", // 2026-08-24
       "having-fun-with-vercels-ai-sdk-and-ai-gateway", // 2026-08-31
+      "making-the-most-of-vercels-ai-sdk-with-cloudflare-durable-objects", // 2026-09-28
+      "you-dont-know-bidi-and-neither-does-chatgpt", // 2026-09-30
       // END: 2026llm
       // END: llm
     ]],[

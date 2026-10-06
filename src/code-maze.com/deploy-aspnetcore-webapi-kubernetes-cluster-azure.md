@@ -37,7 +37,7 @@ isOriginal: false
 cover: /assets/image/code-maze.com/deploy-aspnetcore-webapi-kubernetes-cluster-azure/banner.png
 ---
 
-# {{ $frontmatter.title }} 
+# {{ $frontmatter.title }} 관련
 
 ```component VPCard
 {

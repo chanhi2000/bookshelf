@@ -61,6 +61,16 @@ cover: https://blog.master.dev/wp-json/social-image-generator/v1/image/10841
 }
 ```
 
+```component VPCard
+{
+  "title": "LLM > Article(s)",
+  "desc": "Article(s)",
+  "link": "/ai/llm/articles/README.md",
+  "logo": "/images/ico-wind.svg",
+  "background": "rgba(10,10,10,0.2)"
+}
+```
+
 [[toc]]
 
 ---
