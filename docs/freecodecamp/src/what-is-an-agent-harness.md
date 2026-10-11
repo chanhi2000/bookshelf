@@ -2,7 +2,7 @@
 lang: en-US
 title: "What Is an Agent Harness? The Architecture Behind Claude Code, DeepSeek Harness, and Hermes Agent"
 description: "Article(s) > What Is an Agent Harness? The Architecture Behind Claude Code, DeepSeek Harness, and Hermes Agent"
-icon: iconfont icon-claude
+icon: fa-brands fa-claude
 category:
   - Python
   - AI
@@ -327,7 +327,7 @@ A harness doesn't run alone. Three adjacent layers show up in almost every produ
 
 ### The Protocol Layer: MCP
 
-The Model Context Protocol is an open standard, originally introduced by Anthropic in November 2024, for connecting a model to external tools, files, and data sources in one consistent way ([<VPIcon icon="iconfont icon-claude"/>Anthropic](https://anthropic.com/news/model-context-protocol)). By late 2025, it had moved to the Agentic AI Foundation under the Linux Foundation, backed by Anthropic, OpenAI, and Block ([<VPIcon icon="fa-brands fa-wikipedia-w"/>Wikipedia](https://en.wikipedia.org/wiki/Model_Context_Protocol)).
+The Model Context Protocol is an open standard, originally introduced by Anthropic in November 2024, for connecting a model to external tools, files, and data sources in one consistent way ([<VPIcon icon="fa-brands fa-claude"/>Anthropic](https://anthropic.com/news/model-context-protocol)). By late 2025, it had moved to the Agentic AI Foundation under the Linux Foundation, backed by Anthropic, OpenAI, and Block ([<VPIcon icon="fa-brands fa-wikipedia-w"/>Wikipedia](https://en.wikipedia.org/wiki/Model_Context_Protocol)).
 
 A harness typically loads its tool list from an MCP config, not from code you write by hand:
 

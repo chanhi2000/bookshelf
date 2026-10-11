@@ -21,6 +21,8 @@ tag:
   - node-js
   - devops
   - google
+  - gcp
+  - google-cloud-platform
 head:
   - - meta:
     - property: og:title

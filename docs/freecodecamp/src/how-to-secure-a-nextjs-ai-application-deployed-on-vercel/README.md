@@ -114,7 +114,7 @@ Before you begin this tutorial, here are some of the things you need to have:
 - A code editor (like VSCode) for writing and editing the project’s source code.
 - [<VPIcon icon="iconfont icon-git"/>Git](https://git-scm.com) and [<VPIcon icon="iconfont icon-github"/>GitHub](https://github.com) account for version control, continuous integration, and authentication.
 - A [<VPIcon icon="iconfont icon-vercel"/>Vercel](https://vercel.com) account to host the project.
-- An [<VPIcon icon="iconfont icon-openai"/>OpenAI Developer](https://platform.openai.com) account to get your API key.
+- An [<VPIcon icon="fa-brands fa-openai"/>OpenAI Developer](https://platform.openai.com) account to get your API key.
 
 :::
 
@@ -511,7 +511,7 @@ The development dependencies will only be used while developing the project. The
 
 To make the project work as intended, you need to add the OpenAI secret key to the project. This key will allow the app to successfully integrate with the OpenAI API, allowing users to send prompt requests from the client side and receive AI responses.
 
-To get your OpenAI secret keys, you first need to sign up (or sign in) on the [<VPIcon icon="iconfont icon-openai"/>platforms.openai.com](https://platforms.openai.com) site. Next, you must set up your payment card details if you haven’t. Without them, the API won’t work.
+To get your OpenAI secret keys, you first need to sign up (or sign in) on the [<VPIcon icon="fa-brands fa-openai"/>platforms.openai.com](https://platforms.openai.com) site. Next, you must set up your payment card details if you haven’t. Without them, the API won’t work.
 
 After that, go to the API keys section to create your API key. Make sure you copy it immediately.
 

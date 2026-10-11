@@ -218,7 +218,7 @@ I heard from Peter Herbert over email:
 
 ::: info
 
-> I found a somewhat more accurate version of the iOS squircle. Apparently the Apple squircle uses three cubic beziers in each corner. The original research that figured out the curves I found[<VPIcon icon="fas fa-globe"/>here](https://liamrosenfeld.com/posts/apple_icon_quest/),and I used[<VPIcon icon="iconfont icon-claude"/>Claude](https://claude.ai/public/artifacts/26954731-6fcd-40ac-9bd1-a6dd85b97a71)to find the points.
+> I found a somewhat more accurate version of the iOS squircle. Apparently the Apple squircle uses three cubic beziers in each corner. The original research that figured out the curves I found[<VPIcon icon="fas fa-globe"/>here](https://liamrosenfeld.com/posts/apple_icon_quest/),and I used[<VPIcon icon="fa-brands fa-claude"/>Claude](https://claude.ai/public/artifacts/26954731-6fcd-40ac-9bd1-a6dd85b97a71)to find the points.
 
 :::
 

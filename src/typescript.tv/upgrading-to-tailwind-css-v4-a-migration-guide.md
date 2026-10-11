@@ -10,8 +10,8 @@ category:
 tag:
   - blog
   - typescript.tv
-  - css
-  - tailwindcss
+  - CSS
+  - Tailwind CSS
   - tailwind-css
 head:
   - - meta:

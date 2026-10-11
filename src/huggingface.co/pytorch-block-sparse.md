@@ -74,7 +74,7 @@ In previous [blog posts (<VPIcon icon="fa-brands fa-medium" />`huggingface`)](ht
 
 The basic assumption is that full dense layers are often overkill and can be pruned without a significant loss in precision. In some cases sparse linear layers can even *improve precision or/and generalization*.
 
-The main issue is that currently available code that supports sparse algebra computation is severely lacking efficiency. We are also [<VPIcon icon="iconfont icon-openai"/>still waiting](https://openai.com/blog/openai-pytorch/) for official PyTorch support.
+The main issue is that currently available code that supports sparse algebra computation is severely lacking efficiency. We are also [<VPIcon icon="fa-brands fa-openai"/>still waiting](https://openai.com/blog/openai-pytorch/) for official PyTorch support.
 
 That's why we ran out of patience and took some time this summer to address this "lacuna". Today, we are excited to **release the extension [<VPIcon icon="iconfont icon-github"/>`huggingface/pytorch_block_sparse`](https://github.com/huggingface/pytorch_block_sparse)**.
 

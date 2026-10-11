@@ -584,7 +584,7 @@ arb_translate
 
 The tool scans existing ARB files, generates missing translations, and writes them back to disk.
 
-@tab <VPIcon icon="iconfont icon-openai"/>OpenAI/ChatGPT Support
+@tab <VPIcon icon="fa-brands fa-openai"/>OpenAI/ChatGPT Support
 
 As of version **1.0.0**, `arb_translate` also supports OpenAI ChatGPT models. This allows teams to standardize on OpenAI infrastructure or switch providers without changing their localization workflow.
 

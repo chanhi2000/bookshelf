@@ -111,7 +111,7 @@ I’ve also created a video to go along with this handbook. If you’re the type
 
 Let's start from the very beginning: what exactly is the MCP? MCP stands for **Model Context Protocol**. And if we break it down word by word - "model", "context", and "protocol" - it actually becomes quite easy to understand.
 
-But before diving in, here's a quick background: Model Context Protocol was developed by a company called [<VPIcon icon="iconfont icon-claude"/>Anthropic](https://anthropic.com). You've probably heard of them. They're the ones who built [<VPIcon icon="iconfont icon-claude"/>Claude](https://claude.ai), the popular AI assistant. They first introduced MCP in November of 2024, and in a short time it’s become a standard adopted by tons of other companies as well, including Microsoft.
+But before diving in, here's a quick background: Model Context Protocol was developed by a company called [<VPIcon icon="fa-brands fa-claude"/>Anthropic](https://anthropic.com). You've probably heard of them. They're the ones who built [<VPIcon icon="fa-brands fa-claude"/>Claude](https://claude.ai), the popular AI assistant. They first introduced MCP in November of 2024, and in a short time it’s become a standard adopted by tons of other companies as well, including Microsoft.
 
 Now, let's explore what MCP really means by understanding each term.
 
@@ -199,7 +199,7 @@ This is one reason AI won’t replace developers just yet
 
 ### Beyond Built-in Integrations
 
-Let's compare that with what used to happen before. For example, today, ChatGPT lets you do web searches - you can just ask it to find something online, and it'll fetch the result. But this feature is only there because [<VPIcon icon="iconfont icon-openai"/>OpenAI](https://openai.com), the makers of ChatGPT, built it into the app.
+Let's compare that with what used to happen before. For example, today, ChatGPT lets you do web searches - you can just ask it to find something online, and it'll fetch the result. But this feature is only there because [<VPIcon icon="fa-brands fa-openai"/>OpenAI](https://openai.com), the makers of ChatGPT, built it into the app.
 
 Now imagine your own product - like my logicBase Labs website. Let's say students come to the site and ask questions through a chat box you’ve built. That AI assistant belongs to you - it's part of your software. You can connect it to any model, like GPT, Claude, whatever, that understands natural language. But you still need to feed it the right information so it can respond meaningfully.
 

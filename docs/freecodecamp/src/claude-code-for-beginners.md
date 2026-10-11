@@ -2,7 +2,7 @@
 lang: en-US
 title: "Claude Code for Beginners"
 description: "Article(s) > Claude Code for Beginners"
-icon: iconfont icon-claude
+icon: fa-brands fa-claude
 category:
   - AI
   - LLM

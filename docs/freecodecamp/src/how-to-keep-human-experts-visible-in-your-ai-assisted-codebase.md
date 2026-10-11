@@ -2,7 +2,7 @@
 lang: en-US
 title: "How to Keep Human Experts Visible in Your AI-Assisted Codebase"
 description: "Article(s) > How to Keep Human Experts Visible in Your AI-Assisted Codebase"
-icon: iconfont icon-claude
+icon: fa-brands fa-claude
 category:
   - Python
   - AI

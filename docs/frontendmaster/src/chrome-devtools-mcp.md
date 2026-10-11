@@ -33,7 +33,7 @@ head:
     - property: og:description
       content: "chrome-devtools-mcp"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/master.dev/blog.master.devchrome-devtools-mcp.html
+      content: https://chanhi2000.github.io/bookshelf/blog.master.dev/chrome-devtools-mcp.html
 prev: /programming/css/articles/README.md
 date: 2025-10-27
 isOriginal: false
@@ -101,7 +101,7 @@ If your project uses web components of your own making, you could be auto-genera
 {
   "title": "chrome-devtools-mcp",
   "desc": "I'm no expert here, but I understand an ”MCP server” as a way to make an AI system a bit ”smarter” by having more context and capabilities. I find AI coding agents pretty darn smart already particularly when they have your entire codebase and your instruction for context. But if you're using it to build…",
-  "link": "https://chanhi2000.github.io/bookshelf/master.dev/blog.master.devchrome-devtools-mcp.html",
+  "link": "https://chanhi2000.github.io/bookshelf/blog.master.dev/chrome-devtools-mcp.html",
   "logo": "https://master.dev/favicon.ico",
   "background": "rgba(188,75,52,0.2)"
 }

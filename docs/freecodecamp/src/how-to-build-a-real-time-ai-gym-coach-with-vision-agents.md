@@ -89,7 +89,7 @@ Here is a [<VPIcon icon="fa-brands fa-youtube"/>demo video](https://youtu.be/etq
 - API keys for:
   - [<VPIcon icon="iconfont icon-gemini"/>Gemini](https://ai.google.dev/) (for real-time LLM with vision)
   - [<VPIcon icon="fas fa-globe"/>Stream](https://getstream.io/video/) (for video/audio infrastructure)
-  - Alternatively: [<VPIcon icon="iconfont icon-openai"/>OpenAI](https://openai.com) (if using [<VPIcon icon="iconfont icon-openai"/>OpenAI Realtime](https://platform.openai.com/docs/guides/realtime) instead)
+  - Alternatively: [<VPIcon icon="fa-brands fa-openai"/>OpenAI](https://openai.com) (if using [<VPIcon icon="fa-brands fa-openai"/>OpenAI Realtime](https://platform.openai.com/docs/guides/realtime) instead)
 - Code editor like VS Code or Windsurf
 
 ---

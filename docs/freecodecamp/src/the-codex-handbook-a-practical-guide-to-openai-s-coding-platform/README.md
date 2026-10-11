@@ -2,7 +2,7 @@
 lang: en-US
 title: "The Codex Handbook: A Practical Guide to OpenAI's Coding Platform"
 description: "Article(s) > The Codex Handbook: A Practical Guide to OpenAI's Coding Platform"
-icon: iconfont icon-openai
+icon: fa-brands fa-openai
 category:
   - Node.js
   - Python
@@ -175,7 +175,7 @@ Before starting [Section 4](#section-4-getting-started-install-set-up-and-your-f
 
 | Tool / Account | Why you need it | Where to get it |
 | --- | --- | --- |
-| A ChatGPT account on Plus, Pro, Business, or Enterprise/Edu | Codex is included with these plans. Free and Go work for now but with stricter rate limits | [<VPIcon icon="iconfont icon-openai"/>chatgpt.com](https://chatgpt.com) |
+| A ChatGPT account on Plus, Pro, Business, or Enterprise/Edu | Codex is included with these plans. Free and Go work for now but with stricter rate limits | [<VPIcon icon="fa-brands fa-openai"/>chatgpt.com](https://chatgpt.com) |
 | **Node.js 18+ and npm** | The Codex CLI is installed via npm (`npm i -g @openai/codex`) | [nodejs.org](https://nodejs.org) |
 | **Git 2.30+** | Required to clone the demo repo and produce diffs Codex can review | [git-scm.com](https://git-scm.com) |
 | **A code editor** | VS Code is the recommended baseline. Cursor and Windsurf also work | [code.visualstudio.com](https://code.visualstudio.com) |
@@ -267,7 +267,7 @@ Codex currently shows up in a few places, and each one is optimized for a slight
 
 ### Codex CLI
 
-- [<VPIcon icon="iconfont icon-openai"/>Official docs: developers.openai.com/codex/cli](https://developers.openai.com/codex/cli)
+- [<VPIcon icon="fa-brands fa-openai"/>Official docs: developers.openai.com/codex/cli](https://developers.openai.com/codex/cli)
 - [npm package: <VPIcon icon="fa-brands fa-npm"/>`@openai/codex`](https://npmjs.com/package/@openai/codex)
 - [GitHub repo: <VPIcon icon="iconfont icon-github"/>`openai/codex`](https://github.com/openai/codex)
 
@@ -282,7 +282,7 @@ Use the CLI when you want:
 
 ### IDE Extension
 
-- [<VPIcon icon="iconfont icon-openai"/>Official docs: developers.openai.com/codex/ide](https://developers.openai.com/codex/ide)
+- [<VPIcon icon="fa-brands fa-openai"/>Official docs: developers.openai.com/codex/ide](https://developers.openai.com/codex/ide)
 - [VS Code Marketplace listing (`openai.chatgpt`)](https://marketplace.visualstudio.com/items?itemName=openai.chatgpt)
 
 The CLI docs and Help Center articles point to the IDE extension for VS Code, Cursor, Windsurf, and other VS Code forks. This is the natural fit when your team lives in an editor and wants Codex embedded in the normal coding flow.
@@ -295,7 +295,7 @@ Use the IDE extension when you want:
 
 ### Codex App
 
-- [<VPIcon icon="iconfont icon-openai"/>Help Center: Using Codex with your ChatGPT plan](https://help.openai.com/en/articles/11369540-codex-in-chatgpt-faq)
+- [<VPIcon icon="fa-brands fa-openai"/>Help Center: Using Codex with your ChatGPT plan](https://help.openai.com/en/articles/11369540-codex-in-chatgpt-faq)
 - [Download from chatgpt.com/codex](https://chatgpt.com/codex)
 
 OpenAI's Help Center says the Codex app is available on macOS and Windows. It is designed for parallel work across projects, with built-in worktree support, skills, automations, and git functionality.
@@ -308,7 +308,7 @@ Use the app when you want:
 
 ### Codex Cloud
 
-- [<VPIcon icon="iconfont icon-openai"/>Official docs: developers.openai.com/codex/cloud](https://developers.openai.com/codex/cloud)
+- [<VPIcon icon="fa-brands fa-openai"/>Official docs: developers.openai.com/codex/cloud](https://developers.openai.com/codex/cloud)
 - [Web interface: chatgpt.com/codex](https://chatgpt.com/codex)
 
 Codex cloud is the background execution mode. It runs each task in an isolated sandbox with the repository and environment, and it is intended for reviewable code output rather than direct interactive sessions.
@@ -321,8 +321,8 @@ Use Codex cloud when you want:
 
 ### Code Review
 
-- [<VPIcon icon="iconfont icon-openai"/>Help Center: Codex for code review](https://help.openai.com/en/articles/11369540-codex-in-chatgpt-faq)
-- [<VPIcon icon="iconfont icon-openai"/>Codex use cases](https://developers.openai.com/codex/use-cases)
+- [<VPIcon icon="fa-brands fa-openai"/>Help Center: Codex for code review](https://help.openai.com/en/articles/11369540-codex-in-chatgpt-faq)
+- [<VPIcon icon="fa-brands fa-openai"/>Codex use cases](https://developers.openai.com/codex/use-cases)
 
 Codex can also review code inside GitHub. OpenAI describes this as a way to automatically review your personal pull requests or configure reviews at the team level.
 
@@ -348,7 +348,7 @@ If you have existing code you would rather use, skip ahead to [Step 4](#step-4-l
 
 Codex is included with ChatGPT Plus, Pro, Business, and Enterprise/Edu plans. For a limited time, it is also included with Free and Go, with stricter rate limits.
 
-If you are in a team or enterprise workspace, access may also depend on workspace settings and role-based controls. Do not assume that a ChatGPT subscription alone guarantees access in a managed environment — confirm with your admin or look in Codex Cloud settings at [<VPIcon icon="iconfont icon-openai"/>chatgpt.com/codex](https://chatgpt.com/codex).
+If you are in a team or enterprise workspace, access may also depend on workspace settings and role-based controls. Do not assume that a ChatGPT subscription alone guarantees access in a managed environment — confirm with your admin or look in Codex Cloud settings at [<VPIcon icon="fa-brands fa-openai"/>chatgpt.com/codex](https://chatgpt.com/codex).
 
 ### Step 1: Install Codex
 
@@ -377,7 +377,7 @@ The Codex panel will appear in the right sidebar after install.
 
 #### Option C: The Codex App
 
-Download the Codex app for macOS or Windows from [<VPIcon icon="iconfont icon-openai"/>chatgpt.com/codex](https://chatgpt.com/codex). The app shines when you want parallel tasks, built-in git worktrees, and a project-centric UI. For your very first task it is overkill — start with the CLI or extension.
+Download the Codex app for macOS or Windows from [<VPIcon icon="fa-brands fa-openai"/>chatgpt.com/codex](https://chatgpt.com/codex). The app shines when you want parallel tasks, built-in git worktrees, and a project-centric UI. For your very first task it is overkill — start with the CLI or extension.
 
 **VS Code users:** For a step-by-step guide covering all three VS Code entry points (extension, CLI in the integrated terminal, and browser Codex), see **Appendix E: Working with Codex in VS Code**.
 
@@ -539,7 +539,7 @@ Cloud tasks let Codex run in the background while you do other work. They requir
 To enable Codex Cloud against the demo repo:
 
 1. Push `codex-demo` to a private GitHub repo: `gh repo create codex-demo --private --source=. --push` (requires the `gh` CLI).
-2. Visit [<VPIcon icon="iconfont icon-openai"/>chatgpt.com/codex](https://chatgpt.com/codex) and connect the **ChatGPT GitHub Connector**.
+2. Visit [<VPIcon icon="fa-brands fa-openai"/>chatgpt.com/codex](https://chatgpt.com/codex) and connect the **ChatGPT GitHub Connector**.
 3. Allow the `codex-demo` repository in the connector. **Do not grant org-wide access by default** — see [Appendix C](#appendix-c-admin-security-checklist).
 4. From the web interface, pick the repo and prompt: *"Add type hints to every function in* <VPIcon icon="fa-brands fa-python"/>`pricing.py` *and add a CI-style summary of what changed."*
 5. Wait for the sandbox to finish, review the diff in the browser, and either accept it or open a PR.
@@ -1671,26 +1671,26 @@ Inside, you will explore real-world industry workflows, advanced architecting me
 
 Official OpenAI sources used for this handbook:
 
-- [<VPIcon icon="iconfont icon-openai"/>Introducing GPT-5.5 (OpenAI)](https://openai.com/index/introducing-gpt-5-5/)
-- [<VPIcon icon="iconfont icon-openai"/>Using Codex with your ChatGPT plan](https://help.openai.com/en/articles/11369540-codex-in-chatgpt-faq)
-- [<VPIcon icon="iconfont icon-openai"/>Flexible pricing for the Enterprise, Edu, and Business plans](https://help.openai.com/en/articles/11487671-flexible-pricing-for-the-enterprise-edu-and-team-plans)
-- [<VPIcon icon="iconfont icon-openai"/>All models](https://developers.openai.com/api/docs/models/all)
-- [<VPIcon icon="iconfont icon-openai"/>OpenAI API models overview](https://developers.openai.com/api/docs/models)
-- [<VPIcon icon="iconfont icon-openai"/>GPT-5-Codex model](https://developers.openai.com/api/docs/models/gpt-5-codex)
-- [<VPIcon icon="iconfont icon-openai"/>GPT-5.2-Codex model](https://developers.openai.com/api/docs/models/gpt-5.2-codex)
-- [<VPIcon icon="iconfont icon-openai"/>codex-mini-latest model](https://developers.openai.com/api/docs/models/codex-mini-latest)
-- [<VPIcon icon="iconfont icon-openai"/>Codex use cases](https://developers.openai.com/codex/use-cases)
+- [<VPIcon icon="fa-brands fa-openai"/>Introducing GPT-5.5 (OpenAI)](https://openai.com/index/introducing-gpt-5-5/)
+- [<VPIcon icon="fa-brands fa-openai"/>Using Codex with your ChatGPT plan](https://help.openai.com/en/articles/11369540-codex-in-chatgpt-faq)
+- [<VPIcon icon="fa-brands fa-openai"/>Flexible pricing for the Enterprise, Edu, and Business plans](https://help.openai.com/en/articles/11487671-flexible-pricing-for-the-enterprise-edu-and-team-plans)
+- [<VPIcon icon="fa-brands fa-openai"/>All models](https://developers.openai.com/api/docs/models/all)
+- [<VPIcon icon="fa-brands fa-openai"/>OpenAI API models overview](https://developers.openai.com/api/docs/models)
+- [<VPIcon icon="fa-brands fa-openai"/>GPT-5-Codex model](https://developers.openai.com/api/docs/models/gpt-5-codex)
+- [<VPIcon icon="fa-brands fa-openai"/>GPT-5.2-Codex model](https://developers.openai.com/api/docs/models/gpt-5.2-codex)
+- [<VPIcon icon="fa-brands fa-openai"/>codex-mini-latest model](https://developers.openai.com/api/docs/models/codex-mini-latest)
+- [<VPIcon icon="fa-brands fa-openai"/>Codex use cases](https://developers.openai.com/codex/use-cases)
 - [Claude overview](https://docs.anthropic.com/en/docs/overview)
 - [GitHub Copilot documentation](https://docs.github.com/en/copilot/)
-- [<VPIcon icon="iconfont icon-openai"/>Codex enterprise admin setup](https://developers.openai.com/codex/enterprise/admin-setup)
-- [<VPIcon icon="iconfont icon-openai"/>Codex IDE extension docs](https://developers.openai.com/codex/ide)
+- [<VPIcon icon="fa-brands fa-openai"/>Codex enterprise admin setup](https://developers.openai.com/codex/enterprise/admin-setup)
+- [<VPIcon icon="fa-brands fa-openai"/>Codex IDE extension docs](https://developers.openai.com/codex/ide)
 - [Codex – OpenAI's coding agent (VS Code Marketplace listing)](https://marketplace.visualstudio.com/items?itemName=openai.chatgpt)
-- [<VPIcon icon="iconfont icon-openai"/>Codex web (cloud) docs](https://developers.openai.com/codex/cloud)
-- [<VPIcon icon="iconfont icon-openai"/>Codex CLI docs](https://developers.openai.com/codex/cli)
-- [<VPIcon icon="iconfont icon-openai"/>Codex CLI command-line reference](https://developers.openai.com/codex/cli/reference)
-- [<VPIcon icon="iconfont icon-openai"/>Codex CLI features](https://developers.openai.com/codex/cli/features)
-- [<VPIcon icon="iconfont icon-openai"/>Codex quickstart](https://developers.openai.com/codex/quickstart)
-- [<VPIcon icon="iconfont icon-openai"/>Using Codex with your ChatGPT plan (Help Center)](https://help.openai.com/en/articles/11369540-using-codex-with-your-chatgpt-plan)
+- [<VPIcon icon="fa-brands fa-openai"/>Codex web (cloud) docs](https://developers.openai.com/codex/cloud)
+- [<VPIcon icon="fa-brands fa-openai"/>Codex CLI docs](https://developers.openai.com/codex/cli)
+- [<VPIcon icon="fa-brands fa-openai"/>Codex CLI command-line reference](https://developers.openai.com/codex/cli/reference)
+- [<VPIcon icon="fa-brands fa-openai"/>Codex CLI features](https://developers.openai.com/codex/cli/features)
+- [<VPIcon icon="fa-brands fa-openai"/>Codex quickstart](https://developers.openai.com/codex/quickstart)
+- [<VPIcon icon="fa-brands fa-openai"/>Using Codex with your ChatGPT plan (Help Center)](https://help.openai.com/en/articles/11369540-using-codex-with-your-chatgpt-plan)
 
 Press coverage of the GPT-5.5 release referenced in [Section 2](#section-2-where-codex-fits-in-the-openai-ecosystem) and [Section 11](#section-11-model-specs-and-benchmarks-gpt-55-deep-dive):
 

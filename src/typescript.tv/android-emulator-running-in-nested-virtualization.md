@@ -87,13 +87,13 @@ This usually means your GPU driver isn't compatible with the emulator’s prefer
 
 ## The Solution: Run Emulator on Windows, Connect via ADB in WSL2
 
-The correct and recommended approach is to run the emulator directly from Windows, and then connect to it from WSL2 using `adb connect`. In order for it to work, you must have the same version of the [<VPIcon icon="fa-brands fa-anddroid"/>Android Debug Bridge](https://developer.android.com/tools/adb) (adb) installed in Windows and Ubuntu (WSL2). Your Windows system will then host the emulator and your Linux Subsystem (Ubuntu/WSL2) will connect through it. Here is a step-by-step setup guide.
+The correct and recommended approach is to run the emulator directly from Windows, and then connect to it from WSL2 using `adb connect`. In order for it to work, you must have the same version of the [<VPIcon icon="fa-brands fa-android"/>Android Debug Bridge](https://developer.android.com/tools/adb) (adb) installed in Windows and Ubuntu (WSL2). Your Windows system will then host the emulator and your Linux Subsystem (Ubuntu/WSL2) will connect through it. Here is a step-by-step setup guide.
 
 ---
 
 ## Install Android Studio in Windows
 
-The simplest way to install the Android Build Tools, Device Manager, Emulator, and essential platform tools like ADB on Windows is by installing [<VPIcon icon="fa-brands fa-anddroid"/>Android Studio](https://developer.android.com/studio). It includes everything you need out of the box.
+The simplest way to install the Android Build Tools, Device Manager, Emulator, and essential platform tools like ADB on Windows is by installing [<VPIcon icon="fa-brands fa-android"/>Android Studio](https://developer.android.com/studio). It includes everything you need out of the box.
 
 However, to use tools like `adb` from the "Terminal" in Windows, you'll need to update your "Environment Variables". If you skip this step, you’ll likely run into the following error:
 
@@ -135,7 +135,7 @@ sudo apt install android-sdk
 
 This installs the Android SDK along with platform tools, which include `adb`. However, this method doesn't guarantee a specific version of `adb`, and the version installed might be different from what you installed on your Windows host system.
 
-To ensure both environments (Windows + Ubuntu) use the same version, you can manually [<VPIcon icon="fa-brands fa-anddroid"/>download the latest platform-tools](https://developer.android.com/tools/releases/platform-tools#downloads), extract them, and replace the ones installed from the universe repository:
+To ensure both environments (Windows + Ubuntu) use the same version, you can manually [<VPIcon icon="fa-brands fa-android"/>download the latest platform-tools](https://developer.android.com/tools/releases/platform-tools#downloads), extract them, and replace the ones installed from the universe repository:
 
 ```sh
 # Unzip "platform-tools"

@@ -109,7 +109,7 @@ Before we begin, make sure you have the following tools and accounts set up:
 1. Node.js v22+ and npm (check with `node --version`)
 2. Basic JavaScript knowledge for the scripts
 3. Familiarity with React and TypeScript for the web app
-4. An OpenAI API key with billing enabled (get one at [<VPIcon icon="iconfont icon-openai"/>platform.openai.com/docs/overview](https://platform.openai.com/docs/overview))
+4. An OpenAI API key with billing enabled (get one at [<VPIcon icon="fa-brands fa-openai"/>platform.openai.com/docs/overview](https://platform.openai.com/docs/overview))
 5. A code editor
 
 You'll also need some content to train your model on. This could be blog posts, documentation, transcripts, or any text that represents the knowledge and style you want to impart to your AI.
@@ -190,8 +190,8 @@ OPENAI_ORG_ID=org-...your-org-id...
 
 Update the ENV variables with a valid API Key and Org ID from OpenAI.
 
-1. Generate an API Key using this guide: [<VPIcon icon="iconfont icon-openai"/>Where do I find my OpenAI API Key?](https://help.openai.com/en/articles/4936850-where-do-i-find-my-openai-api-key). Here are the best practices to keep your API Key safe: [<VPIcon icon="iconfont icon-openai"/>Best Practices for API Key Safety](https://help.openai.com/en/articles/5112595-best-practices-for-api-key-safety).
-2. You can find your OpenAI Org ID here: [<VPIcon icon="iconfont icon-openai"/>OpenAI Organization Settings](https://platform.openai.com/settings/organization/general).
+1. Generate an API Key using this guide: [<VPIcon icon="fa-brands fa-openai"/>Where do I find my OpenAI API Key?](https://help.openai.com/en/articles/4936850-where-do-i-find-my-openai-api-key). Here are the best practices to keep your API Key safe: [<VPIcon icon="fa-brands fa-openai"/>Best Practices for API Key Safety](https://help.openai.com/en/articles/5112595-best-practices-for-api-key-safety).
+2. You can find your OpenAI Org ID here: [<VPIcon icon="fa-brands fa-openai"/>OpenAI Organization Settings](https://platform.openai.com/settings/organization/general).
 
 Add the following code to the <VPIcon icon="iconfont icon-git"/>`.gitignore` file:
 

@@ -15,8 +15,8 @@ tag:
   - nodejs
   - node-js
   - electron
-  - css
-  - tailwindcss
+  - CSS
+  - Tailwind CSS
   - tailwind-css
 head:
   - - meta:

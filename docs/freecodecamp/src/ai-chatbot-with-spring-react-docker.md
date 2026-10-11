@@ -99,7 +99,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/6UDansS-rPI/up
 
 Hey Java developers, I’ve got good news: Spring now has official support for building AI applications using the [<VPIcon icon="iconfont icon-spring"/>Spring AI](https://spring.io/projects/spring-ai) module.
 
-In this tutorial, we’ll build a chatbot application using [<VPIcon icon="iconfont icon-spring"/>**Spring Boot**](https://spring.io/projects/spring-boot), [<VPIcon icon="fa-brands fa-react"/>**React**](https://react.dev/), [<VPIcon icon="fa-brands fa-docker"/>**Docker**](https://docker.com/), and [<VPIcon icon="iconfont icon-openai "/>**OpenAI**](https://openai.com/). This app will let users interact with an AI-powered chatbot, ask questions, and receive responses in real time.
+In this tutorial, we’ll build a chatbot application using [<VPIcon icon="iconfont icon-spring"/>**Spring Boot**](https://spring.io/projects/spring-boot), [<VPIcon icon="fa-brands fa-react"/>**React**](https://react.dev/), [<VPIcon icon="fa-brands fa-docker"/>**Docker**](https://docker.com/), and [<VPIcon icon="fa-brands fa-openai "/>**OpenAI**](https://openai.com/). This app will let users interact with an AI-powered chatbot, ask questions, and receive responses in real time.
 
 The entire source code mentioned in this article is already available on the [GitHub repository (<VPIcon icon="iconfont icon-github"/>`vikasrajputin/springboot-react-docker-chatbot`)](https://github.com/vikasrajputin/springboot-react-docker-chatbot). Feel free to give it a star and fork it to play around.
 
@@ -123,7 +123,7 @@ Before we dive into building the chatbot, here are a few things you’ll need to
 
 ## Get Your OpenAI key
 
-First, you’ll need to sign up for an [<VPIcon icon="iconfont icon-openai"/>OpenAI](https://platform.openai.com/) account if you don’t have one. Once signed in, you’ll be taken to the homepage.
+First, you’ll need to sign up for an [<VPIcon icon="fa-brands fa-openai"/>OpenAI](https://platform.openai.com/) account if you don’t have one. Once signed in, you’ll be taken to the homepage.
 
 In the top right corner, click the “Dashboard” menu. On the sidebar, click "API Keys," then click the "Create new secret key" button to generate your secret key:
 
@@ -131,7 +131,7 @@ In the top right corner, click the “Dashboard” menu. On the sidebar, click "
 
 Copy the secret key and save it somewhere safe, as you’ll need it later to connect your app to the OpenAI API.
 
-You can go through the OpenAI [<VPIcon icon="iconfont icon-openai"/>API reference guide](https://platform.openai.com/docs/api-reference/authentication) to learn more about how to call the APIs, what requests it accepts, and the responses it gives.
+You can go through the OpenAI [<VPIcon icon="fa-brands fa-openai"/>API reference guide](https://platform.openai.com/docs/api-reference/authentication) to learn more about how to call the APIs, what requests it accepts, and the responses it gives.
 
 ---
 

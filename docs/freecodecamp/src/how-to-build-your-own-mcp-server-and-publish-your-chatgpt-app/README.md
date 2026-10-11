@@ -2067,7 +2067,7 @@ At this point, you can test the server with your DigitalOcean by using the follo
 
 ## How to Publish Your ChatGPT App
 
-After running your app, you need to host it. You can simply upload it to GitHub and host it on DigitalOcean as a JavaScript app. You can get the URL from DigitalOcean, then go to your OpenAI [<VPIcon icon="iconfont icon-openai"/>dashboard](https://platform.openai.com/apps-manage), verify yourself as a company or a solo developer, and upload the file there.
+After running your app, you need to host it. You can simply upload it to GitHub and host it on DigitalOcean as a JavaScript app. You can get the URL from DigitalOcean, then go to your OpenAI [<VPIcon icon="fa-brands fa-openai"/>dashboard](https://platform.openai.com/apps-manage), verify yourself as a company or a solo developer, and upload the file there.
 
 To publish your app to ChatGPT, you'll need to provide the following information:
 

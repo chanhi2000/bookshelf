@@ -210,7 +210,7 @@ We're going to use [<VPIcon icon="iconfont icon-gemini"/>Google's Gemini API](ht
 
 ### Tokens
 
-You can think of tokens as the currency of LLMs. They are the way that LLMs measure how much text they have to process. Tokens are [<VPIcon icon="iconfont icon-openai"/>_roughly_ 4 characters](https://help.openai.com/en/articles/4936856-what-are-tokens-and-how-to-count-them) for most models. It's important when working with LLM APIs to understand how many tokens you're using.
+You can think of tokens as the currency of LLMs. They are the way that LLMs measure how much text they have to process. Tokens are [<VPIcon icon="fa-brands fa-openai"/>_roughly_ 4 characters](https://help.openai.com/en/articles/4936856-what-are-tokens-and-how-to-count-them) for most models. It's important when working with LLM APIs to understand how many tokens you're using.
 
 We'll be staying well within the free tier limits of the Gemini API, but we'll still monitor our token usage!
 

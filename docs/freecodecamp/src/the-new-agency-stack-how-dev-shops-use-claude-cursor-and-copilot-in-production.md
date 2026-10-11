@@ -2,7 +2,7 @@
 lang: en-US
 title: "The New Agency Stack: How Dev Shops Use Claude, Cursor, and Copilot in Production"
 description: "Article(s) > The New Agency Stack: How Dev Shops Use Claude, Cursor, and Copilot in Production"
-icon: iconfont icon-claude
+icon: fa-brands fa-claude
 category:
   - AI
   - LLM
@@ -84,7 +84,7 @@ The shift shows up in how agencies now describe themselves. "AI-accelerated deve
 
 Most agency stacks now have three layers. Each tool plays a different role.
 
-The first layer is the chat assistant. This is where [<VPIcon icon="iconfont icon-claude"/>Claude](https://anthropic.com/claude) and ChatGPT live. Engineers use them for planning, architecture questions, and debugging. A senior dev might paste in an error log and get three likely causes in seconds. Or they might describe a feature and ask for edge cases they haven't thought of. This layer is about thinking, not typing.
+The first layer is the chat assistant. This is where [<VPIcon icon="fa-brands fa-claude"/>Claude](https://anthropic.com/claude) and ChatGPT live. Engineers use them for planning, architecture questions, and debugging. A senior dev might paste in an error log and get three likely causes in seconds. Or they might describe a feature and ask for edge cases they haven't thought of. This layer is about thinking, not typing.
 
 The second layer is the AI-native editor. [<VPIcon icon="iconfont icon-cursor"/>Cursor](https://cursor.com/) leads here. It wraps a full code editor around a language model. The model sees your whole codebase, not just one file. Engineers use it to write new features, refactor old code, and generate tests. Agentic modes can now take a task and work through it across many files while the engineer reviews each step.
 

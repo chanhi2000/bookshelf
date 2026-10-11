@@ -2,7 +2,7 @@
 lang: en-US
 title: "The Claude Code Handbook: A Professional Introduction to Building with AI-Assisted Development"
 description: "Article(s) > The Claude Code Handbook: A Professional Introduction to Building with AI-Assisted Development"
-icon: iconfont icon-claude
+icon: fa-brands fa-claude
 category:
   - AI
   - LLM

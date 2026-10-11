@@ -2,7 +2,7 @@
 lang: en-US
 title: "Agentic AI Engineering in Practice: How AI Engineers and Forward-Deployed Engineers Build with Claude Code, Codex, and Gemini"
 description: "Article(s) > Agentic AI Engineering in Practice: How AI Engineers and Forward-Deployed Engineers Build with Claude Code, Codex, and Gemini"
-icon: iconfont icon-claude
+icon: fa-brands fa-claude
 category:
   - Node.js
   - DevOps
@@ -175,7 +175,7 @@ A traditional SDLC diagram is usually drawn as a waterfall or a horizontal pipel
 
 Engineers built the traditional six-stage software development lifecycle of plan, design, build, test, deploy, and maintain around an assumption that held for fifty years: writing and implementing code was the most expensive, most time-consuming part of the process.
 
-Anthropic's Applied AI team named this assumption explicitly when it published its AI-native SDLC framework in 2026, and framed the entire model around what happens when that assumption stops being true ([<VPIcon icon="iconfont icon-claude"/>Anthropic](https://claude.com/blog/the-ai-native-sdlc-playbook)). The framework keeps the same six stage names software engineers already know. What's different is how each stage produces and consumes work.
+Anthropic's Applied AI team named this assumption explicitly when it published its AI-native SDLC framework in 2026, and framed the entire model around what happens when that assumption stops being true ([<VPIcon icon="fa-brands fa-claude"/>Anthropic](https://claude.com/blog/the-ai-native-sdlc-playbook)). The framework keeps the same six stage names software engineers already know. What's different is how each stage produces and consumes work.
 
 Anthropic calls the mechanism artifact-driven development. Every stage commits a durable, version-controlled, machine-readable document that the next stage reads: no meeting, no Slack thread, and no shared understanding that lives only in someone's head.
 
@@ -187,7 +187,7 @@ Anthropic calls the mechanism artifact-driven development. Every stage commits a
 
 Anthropic's own phrasing captures the design intent well:
 
-::: info "The AI-Native SDLC playbook" *From Claude* (<VPIcon icon="iconfont icon-claude"/><code>claude.com</code>)
+::: info "The AI-Native SDLC playbook" *From Claude* (<VPIcon icon="fa-brands fa-claude"/><code>claude.com</code>)
 
 > "Every stage commits an artifact the next stage can read. Together, the intent, the spec, the plan, the diff and the review findings are the audit trail."
 
@@ -210,7 +210,7 @@ Artifacts make that checking possible without slowing the agent down: a spec doc
 
 Anthropic titles the relevant section of its framework, "Code is no longer the bottleneck," then explains why in the next line:
 
-::: info "The AI-Native SDLC playbook" *From Claude* (<VPIcon icon="iconfont icon-claude"/><code>claude.com</code>)
+::: info "The AI-Native SDLC playbook" *From Claude* (<VPIcon icon="fa-brands fa-claude"/><code>claude.com</code>)
 
 > "Organizations have started using AI to write code at a speed unthinkable one year ago, yet the processes around the code haven't changed at the same pace."
 
@@ -231,7 +231,7 @@ The diagram above shows the traditional SDLC's time allocation next to the AI-na
 
 Anthropic's own framing names the same three stages:
 
-::: info "The AI-Native SDLC playbook" *From Claude* (<VPIcon icon="iconfont icon-claude"/><code>claude.com</code>)
+::: info "The AI-Native SDLC playbook" *From Claude* (<VPIcon icon="fa-brands fa-claude"/><code>claude.com</code>)
 
 > "The bottleneck moves to the steps to the left and right of the build phase. This is mainly plan, review/test, and deploy, which still run at human speed."
 
@@ -262,12 +262,12 @@ The table below is the reference to come back to while reading the stage-by-stag
 
 | Capability | Claude Code | OpenAI Codex | Gemini CLI |
 | --- | --- | --- | --- |
-| Memory/context file | `CLAUDE.md`, at the project root, `~/.claude/`, or <VPIcon icon="fas fa-folder-open"/>`.claude/` ([<VPIcon icon="iconfont icon-claude"/>Anthropic](https://code.claude.com/docs/en/memory)) | <VPIcon icon="fa-brands fa-markdown"/>`AGENTS.md`, walked from the Codex home directory down to the project root ([<VPIcon icon="iconfont icon-openai"/>OpenAI](https title=".claude/settings.json"://learn.chatgpt.com/docs/agent-configuration/agents-md)) | <VPIcon icon="fa-brands fa-markdown"/>`GEMINI.md`, concatenated across global, project, and subdirectory levels ([<VPIcon icon="iconfont icon-gemini"/>Google](https://geminicli.com/docs/cli/gemini-md/)) |
-| Reusable prompt/extension system | Subagents (own context window, restricted tools) plus Skills, folder-based and auto-invoked ([<VPIcon icon="iconfont icon-claude"/>Anthropic](https://code.claude.com/docs/en/sub-agents), [<VPIcon icon="iconfont icon-claude"/>Anthropic](https://code.claude.com/docs/en/skills)) | Skills, which supersede the now-deprecated custom prompts. MCP servers handle external tool access separately.([<VPIcon icon="iconfont icon-openai"/>OpenAI](https://learn.chatgpt.com/docs/custom-prompts)) | Extensions bundle prompts, MCP servers, slash commands, hooks, and subagents into one installable unit ([<VPIcon icon="iconfont icon-gemini"/>Google](https://geminicli.com/docs/extensions/)) |
-| Approval/sandbox model | Permission modes: Manual, Auto, and Plan mode, switched with Shift+Tab ([<VPIcon icon="iconfont icon-claude"/>Anthropic](https://code.claude.com/docs/en/permission-modes)) | Two independent axes: sandbox mode (read-only, workspace-write, danger-full-access) and approval policy (untrusted, on-request, never) ([<VPIcon icon="iconfont icon-openai"/>OpenAI](https://learn.chatgpt.com/docs/agent-approvals-security)) | Approval modes: default, auto_edit, yolo (`--yolo` or Ctrl+Y), and a still-maturing plan mode ([Google (<VPIcon icon="iconfont icon-github"/>`google-gemini/gemini-cli`)](https://github.com/google-gemini/gemini-cli/blob/main/docs/reference/configuration.md)) |
-| First-party CI action | `anthropics/claude-code-action`, triggered by `@claude` mentions or scheduled events ([<VPIcon icon="iconfont icon-claude"/>Anthropic](https://code.claude.com/docs/en/github-actions)) | `openai/codex-action`, runs `codex exec` inside a CI job and can apply patches or post reviews ([<VPIcon icon="iconfont icon-openai"/>OpenAI](https://learn.chatgpt.com/docs/github-action)) | `google-github-actions/run-gemini-cli`, triggered by PR and issue events ([Google (<VPIcon icon="iconfont icon-github"/>`google-github-actions/run-gemini-cli`)](https://github.com/google-github-actions/run-gemini-cli)) |
+| Memory/context file | `CLAUDE.md`, at the project root, `~/.claude/`, or <VPIcon icon="fas fa-folder-open"/>`.claude/` ([<VPIcon icon="fa-brands fa-claude"/>Anthropic](https://code.claude.com/docs/en/memory)) | <VPIcon icon="fa-brands fa-markdown"/>`AGENTS.md`, walked from the Codex home directory down to the project root ([<VPIcon icon="fa-brands fa-openai"/>OpenAI](https title=".claude/settings.json"://learn.chatgpt.com/docs/agent-configuration/agents-md)) | <VPIcon icon="fa-brands fa-markdown"/>`GEMINI.md`, concatenated across global, project, and subdirectory levels ([<VPIcon icon="iconfont icon-gemini"/>Google](https://geminicli.com/docs/cli/gemini-md/)) |
+| Reusable prompt/extension system | Subagents (own context window, restricted tools) plus Skills, folder-based and auto-invoked ([<VPIcon icon="fa-brands fa-claude"/>Anthropic](https://code.claude.com/docs/en/sub-agents), [<VPIcon icon="fa-brands fa-claude"/>Anthropic](https://code.claude.com/docs/en/skills)) | Skills, which supersede the now-deprecated custom prompts. MCP servers handle external tool access separately.([<VPIcon icon="fa-brands fa-openai"/>OpenAI](https://learn.chatgpt.com/docs/custom-prompts)) | Extensions bundle prompts, MCP servers, slash commands, hooks, and subagents into one installable unit ([<VPIcon icon="iconfont icon-gemini"/>Google](https://geminicli.com/docs/extensions/)) |
+| Approval/sandbox model | Permission modes: Manual, Auto, and Plan mode, switched with Shift+Tab ([<VPIcon icon="fa-brands fa-claude"/>Anthropic](https://code.claude.com/docs/en/permission-modes)) | Two independent axes: sandbox mode (read-only, workspace-write, danger-full-access) and approval policy (untrusted, on-request, never) ([<VPIcon icon="fa-brands fa-openai"/>OpenAI](https://learn.chatgpt.com/docs/agent-approvals-security)) | Approval modes: default, auto_edit, yolo (`--yolo` or Ctrl+Y), and a still-maturing plan mode ([Google (<VPIcon icon="iconfont icon-github"/>`google-gemini/gemini-cli`)](https://github.com/google-gemini/gemini-cli/blob/main/docs/reference/configuration.md)) |
+| First-party CI action | `anthropics/claude-code-action`, triggered by `@claude` mentions or scheduled events ([<VPIcon icon="fa-brands fa-claude"/>Anthropic](https://code.claude.com/docs/en/github-actions)) | `openai/codex-action`, runs `codex exec` inside a CI job and can apply patches or post reviews ([<VPIcon icon="fa-brands fa-openai"/>OpenAI](https://learn.chatgpt.com/docs/github-action)) | `google-github-actions/run-gemini-cli`, triggered by PR and issue events ([Google (<VPIcon icon="iconfont icon-github"/>`google-github-actions/run-gemini-cli`)](https://github.com/google-github-actions/run-gemini-cli)) |
 | Native PR code review | Code Review: a managed, multi-agent service with a local`/code-review` command and severity-tagged inline comments ([<VPIcon icon="fa-brands fa-google"/>Anthropic](https://code.claude.com/docs/en/code-review)) | `/review` in the CLI, `@codex review` on GitHub, or an "automatic reviews" setting that flags P0/P1 issues on every new PR ([<VPIcon icon="fa-brands fa-google"/>OpenAI](https://learn.chatgpt.com/docs/third-party/github)) | Gemini Code Assist for GitHub, configurable through a checked-in <VPIcon icon="fas fa-folder-open"/>`.gemini/config.yaml` file across five review dimensions ([<VPIcon icon="fa-brands fa-google"/>Google](https://docs.cloud.google.com/gemini/docs/code-review/style-guide)) |
-| Always-on chat surface | Claude Tag in Slack, a shared org identity that routes coding intent to Claude Code on the web ([<VPIcon icon="iconfont icon-claude"/>Anthropic](https://code.claude.com/docs/en/slack)) | An official Codex Slack app:`@Codex` in a channel, creates a cloud task and posts results back ([<VPIcon icon="fa-brands fa-slack"/>Slack](https://slack.com/marketplace/A09F5C369E3-openai-codex)) | No confirmed first-party Slack-native identity as of this writing. Only third-party bridges exist. |
+| Always-on chat surface | Claude Tag in Slack, a shared org identity that routes coding intent to Claude Code on the web ([<VPIcon icon="fa-brands fa-claude"/>Anthropic](https://code.claude.com/docs/en/slack)) | An official Codex Slack app:`@Codex` in a channel, creates a cloud task and posts results back ([<VPIcon icon="fa-brands fa-slack"/>Slack](https://slack.com/marketplace/A09F5C369E3-openai-codex)) | No confirmed first-party Slack-native identity as of this writing. Only third-party bridges exist. |
 
 A few things stand out when you lay the mechanisms side by side. All three tools now converge on the same core idea: a plain-text memory file the agent reads before doing anything else, a packaging system for reusable prompts and tools, an approval layer that decides how much autonomy the agent gets, and a first-party GitHub Action for running the agent in CI.
 
@@ -277,9 +277,9 @@ The one place the three tools are not symmetric is the last row. Claude Code and
 
 If your Maintain-stage workflow depends on an agent picking up an incident directly from a chat mention, that's a capability gap to plan around rather than a preference.
 
-Because it undercuts the idea that you have to pick a tool and live with it forever, one more piece of interoperability is worth calling out: Claude Code's own memory documentation describes importing an existing <VPIcon icon="fa-brands fa-markdown"/>`AGENTS.md` file with an <VPIcon icon="fa-brands fa-markdown"/>`@AGENTS.md` reference or a symlink, so a Claude Code session can read the same conventions file a Codex session already uses ([<VPIcon icon="iconfont icon-claude"/>Anthropic](https://code.claude.com/docs/en/memory)).
+Because it undercuts the idea that you have to pick a tool and live with it forever, one more piece of interoperability is worth calling out: Claude Code's own memory documentation describes importing an existing <VPIcon icon="fa-brands fa-markdown"/>`AGENTS.md` file with an <VPIcon icon="fa-brands fa-markdown"/>`@AGENTS.md` reference or a symlink, so a Claude Code session can read the same conventions file a Codex session already uses ([<VPIcon icon="fa-brands fa-claude"/>Anthropic](https://code.claude.com/docs/en/memory)).
 
-.<VPIcon icon="fa-brands fa-markdown"/>`AGENTS.md` itself has become a cross-vendor open standard, adopted well beyond Codex, and stewarded outside any single company ([<VPIcon icon="iconfont icon-openai"/>OpenAI](https://learn.chatgpt.com/docs/agent-configuration/agents-md)). A team that standardizes its conventions file on <VPIcon icon="fa-brands fa-markdown"/>`AGENTS.md` and has Claude Code import it gets most of the benefit of a single shared memory file, regardless of which tool an individual engineer prefers that day.
+.<VPIcon icon="fa-brands fa-markdown"/>`AGENTS.md` itself has become a cross-vendor open standard, adopted well beyond Codex, and stewarded outside any single company ([<VPIcon icon="fa-brands fa-openai"/>OpenAI](https://learn.chatgpt.com/docs/agent-configuration/agents-md)). A team that standardizes its conventions file on <VPIcon icon="fa-brands fa-markdown"/>`AGENTS.md` and has Claude Code import it gets most of the benefit of a single shared memory file, regardless of which tool an individual engineer prefers that day.
 
 ---
 
@@ -377,9 +377,9 @@ Two-way sync or write access to any client's calendar. Read-only overlay only, f
 
 A spec written from this intent would name the technical shape: which calendar providers to support first, how the overlay handles conflicting time zones, and what happens when a provider's API is unavailable. Notice how little interpretation is left for Build to improvise. That's the entire point of writing the intent down before touching a design document, let alone code.
 
-Each tool gives you a different mechanism for working through this stage without letting an agent jump straight to code. Claude Code's Plan mode is a dedicated, read-only permission mode built for this scenario: the agent can research the codebase and propose an approach, but it can't edit files or run commands until you switch out of it, toggled with Shift+Tab ([<VPIcon icon="iconfont icon-claude"/>Anthropic](https://code.claude.com/docs/en/permission-modes)).
+Each tool gives you a different mechanism for working through this stage without letting an agent jump straight to code. Claude Code's Plan mode is a dedicated, read-only permission mode built for this scenario: the agent can research the codebase and propose an approach, but it can't edit files or run commands until you switch out of it, toggled with Shift+Tab ([<VPIcon icon="fa-brands fa-claude"/>Anthropic](https://code.claude.com/docs/en/permission-modes)).
 
-Codex separates the same idea into two independent settings rather than one mode switch: a sandbox setting that controls what the agent is technically capable of touching (read-only, workspace-write, or danger-full-access) and an approval policy that controls when it has to stop and ask (untrusted, on-request, or never) ([<VPIcon icon="iconfont icon-openai"/>OpenAI](https://learn.chatgpt.com/docs/agent-approvals-security)).
+Codex separates the same idea into two independent settings rather than one mode switch: a sandbox setting that controls what the agent is technically capable of touching (read-only, workspace-write, or danger-full-access) and an approval policy that controls when it has to stop and ask (untrusted, on-request, or never) ([<VPIcon icon="fa-brands fa-openai"/>OpenAI](https://learn.chatgpt.com/docs/agent-approvals-security)).
 
 Setting the sandbox to read-only during Plan gets you the same guarantee Claude Code's Plan mode gives you, enforced at a different layer. Gemini CLI has a `plan` approval mode with the same read-only intent, though Google's own documentation flags it as still maturing relative to its other approval modes ([Google (<VPIcon icon="iconfont icon-github"/>`google-gemini/gemini-cli`)](https://github.com/google-gemini/gemini-cli/blob/main/docs/reference/configuration.md)), so treat it as directionally useful rather than a hard guarantee until you've verified its behavior against your own repository.
 
@@ -391,7 +391,7 @@ The output of a Plan-stage session, regardless of which tool ran it, should be t
 
 Design is where <VPIcon icon="fa-brands fa-markdown"/>`intent.md` becomes <VPIcon icon="fa-brands fa-markdown"/>`spec.md`, a document that names the technical shape of the solution, the interfaces it touches, and the tradeoffs someone has to sign off on before an agent starts writing implementation code.
 
-Anthropic's framework describes this stage as one where "requirements and design collapse into one session" ([<VPIcon icon="iconfont icon-claude"/>Anthropic](https://claude.com/blog/the-ai-native-sdlc-playbook)), which is a meaningful change from a traditional process where a product spec and a technical design document are often written by different people, days apart, with a meeting in between to reconcile them.
+Anthropic's framework describes this stage as one where "requirements and design collapse into one session" ([<VPIcon icon="fa-brands fa-claude"/>Anthropic](https://claude.com/blog/the-ai-native-sdlc-playbook)), which is a meaningful change from a traditional process where a product spec and a technical design document are often written by different people, days apart, with a meeting in between to reconcile them.
 
 A useful <VPIcon icon="fa-brands fa-markdown"/>`spec.md` template keeps that collapse explicit rather than accidental:
 
@@ -513,21 +513,21 @@ Every new function in `src/services/` needs a corresponding test in
 `tests/services/`. Coverage below 85% fails CI.
 ```
 
-If your project already standardized on <VPIcon icon="fa-brands fa-markdown"/>`AGENTS.md` because it's the cross-vendor format, the file above is nearly a direct port: same structure, same content, different filename, and Codex will read it automatically as it walks from the Codex home directory down to your project root ([<VPIcon icon="iconfont icon-openai"/>OpenAI](https://learn.chatgpt.com/docs/agent-configuration/agents-md)).
+If your project already standardized on <VPIcon icon="fa-brands fa-markdown"/>`AGENTS.md` because it's the cross-vendor format, the file above is nearly a direct port: same structure, same content, different filename, and Codex will read it automatically as it walks from the Codex home directory down to your project root ([<VPIcon icon="fa-brands fa-openai"/>OpenAI](https://learn.chatgpt.com/docs/agent-configuration/agents-md)).
 
 A <VPIcon icon="fa-brands fa-markdown"/>`GEMINI.md` version is the same content again, and Gemini CLI concatenates it with any global <VPIcon icon="fas fa-flder-open"/>`~/.gemini/`<VPIcon icon="fa-brands fa-markdown"/>`GEMINI.md` and subdirectory-level files it finds, so a monorepo can layer a company-wide convention file with per-service overrides ([<VPIcon icon="iconfont icon-gemini"/>Google](https://geminicli.com/docs/cli/gemini-md/)).
 
 Whichever filename you commit to, the content (commands, architecture, conventions, testing rules) is the part that determines whether the agent's output looks like your codebase or like a generic tutorial.
 
-Reusable behavior beyond a single memory file is where the three tools diverge more visibly. Claude Code splits this into two mechanisms: Subagents, which run in their own context window with restricted tool access for a narrow job like "review this diff for SQL injection," and Skills, folder-based packages that Claude invokes automatically when they're relevant, which absorbed what used to be custom slash commands ([<VPIcon icon="iconfont icon-claude"/>Anthropic](https://code.claude.com/docs/en/sub-agents), [<VPIcon icon="iconfont icon-claude"/>Anthropic](https://code.claude.com/docs/en/skills)).
+Reusable behavior beyond a single memory file is where the three tools diverge more visibly. Claude Code splits this into two mechanisms: Subagents, which run in their own context window with restricted tool access for a narrow job like "review this diff for SQL injection," and Skills, folder-based packages that Claude invokes automatically when they're relevant, which absorbed what used to be custom slash commands ([<VPIcon icon="fa-brands fa-claude"/>Anthropic](https://code.claude.com/docs/en/sub-agents), [<VPIcon icon="fa-brands fa-claude"/>Anthropic](https://code.claude.com/docs/en/skills)).
 
-Codex is mid-migration on the same idea: its older custom prompts mechanism is now explicitly deprecated in favor of Skills, which Codex can invoke implicitly and share across a team through the repository ([<VPIcon icon="iconfont icon-openai"/>OpenAI](https://learn.chatgpt.com/docs/custom-prompts)).
+Codex is mid-migration on the same idea: its older custom prompts mechanism is now explicitly deprecated in favor of Skills, which Codex can invoke implicitly and share across a team through the repository ([<VPIcon icon="fa-brands fa-openai"/>OpenAI](https://learn.chatgpt.com/docs/custom-prompts)).
 
 Gemini CLI takes the broadest approach of the three, packaging prompts, MCP servers, custom slash commands, hooks, and subagents into a single installable Extension, rather than keeping each mechanism as a separately configured feature ([<VPIcon icon="iconfont icon-gemini"/>Google](https://geminicli.com/docs/extensions/)).
 
 None of these are strictly better than the others. Claude Code and Codex give you finer-grained control over which mechanism does what. Gemini CLI gives you one bundle to install and share, which matters when your team's problem is getting five engineers onto the same conventions, since juggling five separately configured features invites drift.
 
-Every one of the three tools also connects to external systems, databases, ticket trackers, and design tools, through the Model Context Protocol, which Anthropic created and open-sourced as a native, first-class part of Claude Code ([<VPIcon icon="iconfont icon-claude"/>Anthropic](https://anthropic.com/news/model-context-protocol)) and which has since become a genuinely cross-vendor standard. Codex supports it through its own MCP client, and Gemini CLI supports it with OAuth 2.0 for remote servers.
+Every one of the three tools also connects to external systems, databases, ticket trackers, and design tools, through the Model Context Protocol, which Anthropic created and open-sourced as a native, first-class part of Claude Code ([<VPIcon icon="fa-brands fa-claude"/>Anthropic](https://anthropic.com/news/model-context-protocol)) and which has since become a genuinely cross-vendor standard. Codex supports it through its own MCP client, and Gemini CLI supports it with OAuth 2.0 for remote servers.
 
 MCP is worth treating as infrastructure you configure once per project rather than a tool-specific feature, precisely because all three tools now speak it.
 
@@ -541,7 +541,7 @@ When an agent can produce a diff in minutes, waiting for a separate testing phas
 
 This is also the stage where the DORA report's less flattering finding becomes relevant: alongside the 90 percent adoption number, roughly three in ten developers still say they have low trust in AI-generated code ([<VPIcon icon="fa-brands fa-google"/>DORA](https://cloud.google.com/blog/products/ai-machine-learning/announcing-the-2025-dora-report)). That distrust is rational when testing is a separate phase bolted on after a fast Build stage, because nobody has verified the code yet when someone has to trust it. But it becomes a solvable engineering problem rather than a standing risk once verification runs on every commit instead of waiting for a human to schedule it.
 
-Claude Code implements this with Hooks: shell commands that fire automatically at specific lifecycle events, like right before or right after the agent edits a file or runs a command ([<VPIcon icon="iconfont icon-claude"/>Anthropic](https://code.claude.com/docs/en/hooks-guide)). A hook that runs your test suite after every file edit and blocks the agent from proceeding on failure looks like this in <VPIcon icon="fas fa-folder-open"/>`.claude/`<VPIcon icon="iconfont icon-json"/>`settings.json`:
+Claude Code implements this with Hooks: shell commands that fire automatically at specific lifecycle events, like right before or right after the agent edits a file or runs a command ([<VPIcon icon="fa-brands fa-claude"/>Anthropic](https://code.claude.com/docs/en/hooks-guide)). A hook that runs your test suite after every file edit and blocks the agent from proceeding on failure looks like this in <VPIcon icon="fas fa-folder-open"/>`.claude/`<VPIcon icon="iconfont icon-json"/>`settings.json`:
 
 ```json title=".claude/settings.json"
 {
@@ -579,11 +579,11 @@ The artifact this stage should leave behind, regardless of tool, is a test resul
 
 ## How to Run the Deploy Stage
 
-Anthropic describes this stage as "layers of agentic review with human review reserved for regulated and critical code," where "governance is enforced as the AI acts, with hooks as approval gates." ([<VPIcon icon="iconfont icon-claude"/>Anthropic](https://claude.com/blog/the-ai-native-sdlc-playbook))
+Anthropic describes this stage as "layers of agentic review with human review reserved for regulated and critical code," where "governance is enforced as the AI acts, with hooks as approval gates." ([<VPIcon icon="fa-brands fa-claude"/>Anthropic](https://claude.com/blog/the-ai-native-sdlc-playbook))
 
 The word layers does work: the framework doesn't propose replacing human review with agent review. It proposes stacking automated review as an earlier, cheaper layer, so humans focus on findings that survived automated scrutiny rather than catching everything from scratch.
 
-All three vendors now ship a first-party GitHub Action, so you don't have to hand-build a CI integration from scratch. Claude Code's `anthropics/claude-code-action` responds to `@claude` mentions in a PR or issue, or runs on any GitHub event or schedule you configure ([<VPIcon icon="iconfont icon-claude"/>Anthropic](https://code.claude.com/docs/en/github-actions)):
+All three vendors now ship a first-party GitHub Action, so you don't have to hand-build a CI integration from scratch. Claude Code's `anthropics/claude-code-action` responds to `@claude` mentions in a PR or issue, or runs on any GitHub event or schedule you configure ([<VPIcon icon="fa-brands fa-claude"/>Anthropic](https://code.claude.com/docs/en/github-actions)):
 
 ```yaml
 name: Claude Code Review
@@ -602,7 +602,7 @@ jobs:
           prompt: "Review this diff against spec.md and plan.md for this PR."
 ```
 
-Codex's equivalent, `openai/codex-action`, runs `codex exec` inside the CI job itself, which means the agent has the full CLI's capability, not a stripped-down review-only mode, and can apply patches or post a review comment depending on how you configure the step ([<VPIcon icon="iconfont icon-openai"/>OpenAI](https://learn.chatgpt.com/docs/github-action)):
+Codex's equivalent, `openai/codex-action`, runs `codex exec` inside the CI job itself, which means the agent has the full CLI's capability, not a stripped-down review-only mode, and can apply patches or post a review comment depending on how you configure the step ([<VPIcon icon="fa-brands fa-openai"/>OpenAI](https://learn.chatgpt.com/docs/github-action)):
 
 ```yaml
 name: Codex Review
@@ -640,15 +640,15 @@ jobs:
           prompt: "Review this pull request for correctness, efficiency, and maintainability."
 ```
 
-Beyond the raw CI action, each vendor also ships a dedicated code review product with its own configuration surface. Claude Code's Code Review is a managed service that runs multiple specialized agents against a diff in parallel. It includes a separate verification step to filter out false positives before anything reaches a human as an inline PR comment, triggered by `@claude review` or the local `/code-review` command ([<VPIcon icon="iconfont icon-claude"/>Anthropic](https://code.claude.com/docs/en/code-review)).
+Beyond the raw CI action, each vendor also ships a dedicated code review product with its own configuration surface. Claude Code's Code Review is a managed service that runs multiple specialized agents against a diff in parallel. It includes a separate verification step to filter out false positives before anything reaches a human as an inline PR comment, triggered by `@claude review` or the local `/code-review` command ([<VPIcon icon="fa-brands fa-claude"/>Anthropic](https://code.claude.com/docs/en/code-review)).
 
-Codex's review surface is the `/review` command in the CLI composer, an `@codex review` mention on a GitHub PR, or an "automatic reviews" setting that runs on every new PR without a mention. In GitHub mode, it deliberately restricts itself to flagging only the most severe P0 and P1 issues rather than every stylistic nit ([<VPIcon icon="iconfont icon-openai"/>OpenAI](https://learn.chatgpt.com/docs/third-party/github)).
+Codex's review surface is the `/review` command in the CLI composer, an `@codex review` mention on a GitHub PR, or an "automatic reviews" setting that runs on every new PR without a mention. In GitHub mode, it deliberately restricts itself to flagging only the most severe P0 and P1 issues rather than every stylistic nit ([<VPIcon icon="fa-brands fa-openai"/>OpenAI](https://learn.chatgpt.com/docs/third-party/github)).
 
 Unlike the other two, Gemini Code Assist for GitHub is configured primarily through a checked-in file, <VPIcon icon="fas fa-folder-open"/>`.gemini/config.yaml`, a separate surface from the memory file that governs Build. It posts a summary comment plus inline comments across five review dimensions: correctness, efficiency, maintainability, security, and a miscellaneous catch-all covering testing, scalability, and error logging ([<VPIcon icon="fa-brands fa-google"/>Google](https://docs.cloud.google.com/gemini/docs/code-review/style-guide)).
 
 The human gate belongs where these automated layers hand off to a person, and where that point sits should depend on the blast radius of the change, and is not a blanket rule. A change to a database migration, an auth flow, or anything touching payments should require human approval, no matter how clean the automated review looks.
 
-A documentation fix or a config value bump that passed every automated layer is a reasonable candidate for auto-merge. Anthropic frames the diff itself as part of the audit trail: "the chain of commits is also the audit trail: who asked for what, what the agent produced, and who approved it" ([<VPIcon icon="iconfont icon-claude"/>Anthropic](https://claude.com/blog/the-ai-native-sdlc-playbook)).
+A documentation fix or a config value bump that passed every automated layer is a reasonable candidate for auto-merge. Anthropic frames the diff itself as part of the audit trail: "the chain of commits is also the audit trail: who asked for what, what the agent produced, and who approved it" ([<VPIcon icon="fa-brands fa-claude"/>Anthropic](https://claude.com/blog/the-ai-native-sdlc-playbook)).
 
 That's the useful mental model: the diff isn't done when the agent stops writing code. It's done when it has accumulated the review evidence a human needs to make a fast, informed approval decision.
 
@@ -694,7 +694,7 @@ Here's what's happening:
 - `write_intent: true` is the mechanism that turns a breach into the start of a new Plan-stage cycle automatically, generating a draft <VPIcon icon="fa-brands fa-markdown"/>`intent.md` that names the breached metric, the service, and links to the incident.
 - Not every breach should open a new intent. A dip in daily active users on a low-severity service might warrant an incident for visibility without spinning up new planning work, which is why that flag is explicit rather than assumed.
 
-Where an agent receives the page or the mention matters here: this is the one place the three tools aren't equivalent. Claude Tag gives an organization a shared `@Claude` identity in Slack that works asynchronously in a channel and routes a mentioned coding task to Claude Code on the web. This makes "someone tags the bot in the incident channel with the failing metric" a workable Maintain-stage pattern out of the box ([<VPIcon icon="iconfont icon-claude"/>Anthropic](https://code.claude.com/docs/en/slack)).
+Where an agent receives the page or the mention matters here: this is the one place the three tools aren't equivalent. Claude Tag gives an organization a shared `@Claude` identity in Slack that works asynchronously in a channel and routes a mentioned coding task to Claude Code on the web. This makes "someone tags the bot in the incident channel with the failing metric" a workable Maintain-stage pattern out of the box ([<VPIcon icon="fa-brands fa-claude"/>Anthropic](https://code.claude.com/docs/en/slack)).
 
 OpenAI ships the direct equivalent: an official Codex Slack app where `@Codex` in a channel or thread creates a cloud task, works in the relevant repository, and posts results back into the same thread it was mentioned in ([<VPIcon icon="fa-brands fa-slack"/>Slack](https://slack.com/marketplace/A09F5C369E3-openai-codex)).
 
@@ -827,8 +827,8 @@ The common thread across every stage in this guide is the same one METR's task-d
 
 > for the full methodology behind the seven-month doubling curve
 
-- [<VPIcon icon="iconfont icon-claude"/>Claude  Code's documentation hub](https://code.claude.com/docs/en/memory), starting from the memory file page and branching out to permission modes, hooks, and subagents
-- [<VPIcon icon="iconfont icon-openai"/>OpenAI's Codex documentation on agent approvals and security](https://learn.chatgpt.com/docs/agent-approvals-security), for the full detail on the sandbox and approval-policy split
+- [<VPIcon icon="fa-brands fa-claude"/>Claude  Code's documentation hub](https://code.claude.com/docs/en/memory), starting from the memory file page and branching out to permission modes, hooks, and subagents
+- [<VPIcon icon="fa-brands fa-openai"/>OpenAI's Codex documentation on agent approvals and security](https://learn.chatgpt.com/docs/agent-approvals-security), for the full detail on the sandbox and approval-policy split
 - [Gemini CLI's configuration reference (<VPIcon icon="iconfont icon-github"/>`google-gemini/gemini-cli`)](https://github.com/google-gemini/gemini-cli/blob/main/docs/reference/configuration.md), for the current state of its approval modes and extension system
 
 ::: info About Author

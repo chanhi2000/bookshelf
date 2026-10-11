@@ -111,7 +111,7 @@ Instead of manually wiring integrations, developers can rely on a shared protoco
 
 To understand MCP, it helps to look back at how OpenAI handled this problem before.
 
-When [<VPIcon icon="iconfont icon-openai"/>ChatGPT Plugins](https://openai.com/index/chatgpt-plugins/) were introduced, they allowed GPT models to access external APIs, for example, to book a flight, get weather updates, or search the web. Each plugin had its own schema that described what data it could handle and what actions it could perform.
+When [<VPIcon icon="fa-brands fa-openai"/>ChatGPT Plugins](https://openai.com/index/chatgpt-plugins/) were introduced, they allowed GPT models to access external APIs, for example, to book a flight, get weather updates, or search the web. Each plugin had its own schema that described what data it could handle and what actions it could perform.
 
 MCP takes that idea further. Instead of plugins designed only for ChatGPT, MCP defines a universal language that any AI system can use. It’s like moving from private integrations to an open standard.
 

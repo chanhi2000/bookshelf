@@ -2,7 +2,7 @@
 lang: en-US
 title: "Claude Code Full Course"
 description: "Article(s) > Claude Code Full Course"
-icon: iconfont icon-claude
+icon: fa-brands fa-claude
 category:
   - AI
   - LLM

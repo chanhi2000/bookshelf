@@ -88,7 +88,7 @@ Should I walk or drive to the car wash? Solve as follows:
 
 With that structure, the model restates the goal (get the car cleaned), notices the unknown (am I bringing the car or not), reasons through it, and lands on the correct answer. You almost certainly need to drive, unless you happen to work at the car wash or you just feel like taking a walk. Same model, same question, completely different quality, because I told it how to reason instead of hoping it would.
 
-This is exactly the gap between a junior and a senior when working with AI on TypeScript. The model is not the bottleneck. Your instructions are. The rest of this article walks through eleven prompting techniques, what the research actually says about each one, and how to apply them when you write TypeScript with an assistant like [<VPIcon icon="iconfont icon-claude"/>Claude](https://anthropic.com/claude) or [<VPIcon icon="iconfont icon-openai"/>ChatGPT](https://chatgpt.com/).
+This is exactly the gap between a junior and a senior when working with AI on TypeScript. The model is not the bottleneck. Your instructions are. The rest of this article walks through eleven prompting techniques, what the research actually says about each one, and how to apply them when you write TypeScript with an assistant like [<VPIcon icon="fa-brands fa-claude"/>Claude](https://anthropic.com/claude) or [<VPIcon icon="fa-brands fa-openai"/>ChatGPT](https://chatgpt.com/).
 
 ---
 

@@ -7,7 +7,7 @@ category:
   - Node.js
   - Next.js
   - CSS
-  - TailwindCSS
+  - Tailwind CSS
   - DevOps
   - Docker
   - Data Science

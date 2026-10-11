@@ -300,7 +300,7 @@ if (!apiKey) {
 const client = new Anthropic({ apiKey });
 ```
 
-You can collect the Anthropic API Key from [<VPIcon icon="iconfont icon-claude"/>Claude Console](https://platform.claude.com/).
+You can collect the Anthropic API Key from [<VPIcon icon="fa-brands fa-claude"/>Claude Console](https://platform.claude.com/).
 
 Now create the review function:
 

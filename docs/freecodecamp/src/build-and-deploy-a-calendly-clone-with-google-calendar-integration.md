@@ -18,8 +18,8 @@ tag:
   - next
   - nextjs
   - next-js
-  - css
-  - tailwindcss
+  - CSS
+  - Tailwind CSS
   - tailwind-css
   - youtube
   - crashcourse

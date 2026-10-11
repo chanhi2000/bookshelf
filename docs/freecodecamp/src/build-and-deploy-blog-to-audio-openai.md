@@ -88,7 +88,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1768359861591/69bc827
 
 Turning written blog posts into audio is a simple way to reach more people. Many users prefer listening during travel or workouts. Others enjoy having both reading and listening options.
 
-With OpenAI’s [<VPIcon icon="iconfont icon-openai"/>text-to-speech](https://platform.openai.com/docs/guides/text-to-speech) models, you can build a clean service that takes a blog URL or pasted text and produces a natural-sounding audio file.
+With OpenAI’s [<VPIcon icon="fa-brands fa-openai"/>text-to-speech](https://platform.openai.com/docs/guides/text-to-speech) models, you can build a clean service that takes a blog URL or pasted text and produces a natural-sounding audio file.
 
 In this article, you’ll learn how to build this system end-to-end. You will learn how to fetch blog content, send it to OpenAI’s audio API, save the output as an MP3 file, and serve everything through a small [<VPIcon icon="iconfont icon-fastapi"/>FastAPI](https://fastapi.tiangolo.com/) app.
 

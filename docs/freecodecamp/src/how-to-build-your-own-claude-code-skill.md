@@ -2,7 +2,7 @@
 lang: en-US
 title: "How to Build Your Own Claude Code Skill"
 description: "Article(s) > How to Build Your Own Claude Code Skill"
-icon: iconfont icon-claude
+icon: fa-brands fa-claude
 category:
   - AI
   - LLM

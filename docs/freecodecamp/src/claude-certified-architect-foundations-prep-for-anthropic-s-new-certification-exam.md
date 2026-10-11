@@ -2,7 +2,7 @@
 lang: en-US
 title: "Claude Certified Architect – Foundations: Prep for Anthropic's New Certification Exam"
 description: "Article(s) > Claude Certified Architect – Foundations: Prep for Anthropic's New Certification Exam"
-icon: iconfont icon-claude
+icon: fa-brands fa-claude
 category:
   - AI
   - LLM

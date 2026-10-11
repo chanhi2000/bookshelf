@@ -173,7 +173,7 @@ If you’re curious about using the ai-sdk directly against providers, without u
 
 Let’s take a very brief look at [<VPIcon icon="iconfont icon-vercel"/>using Anthropic](https://ai-sdk.dev/providers/ai-sdk-providers/anthropic).
 
-We’ll go to the [<VPIcon icon="iconfont icon-claude"/>Anthropic’s console](https://platform.claude.com/settings/keys), hit the Create Key button (tell the modal you do in fact need an API key), and create it
+We’ll go to the [<VPIcon icon="fa-brands fa-claude"/>Anthropic’s console](https://platform.claude.com/settings/keys), hit the Create Key button (tell the modal you do in fact need an API key), and create it
 
 ![](https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/08/img-02-anthropic-key.jpg?resize=1024%2C671&ssl=1)
 
@@ -228,7 +228,7 @@ Simple as that, and it still works!
 
 ![](https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/08/img-03-anthropic-result.jpg?resize=1024%2C830&ssl=1)
 
-Of course, we’re not using Vercel’s AI Gateway anymore, so if you want to track costs, head over to [<VPIcon icon="iconfont icon-claude"/>Anthropic’s console](https://platform.claude.com/settings/keys) to see what your API key is being billed for.
+Of course, we’re not using Vercel’s AI Gateway anymore, so if you want to track costs, head over to [<VPIcon icon="fa-brands fa-claude"/>Anthropic’s console](https://platform.claude.com/settings/keys) to see what your API key is being billed for.
 
 ![](https://i0.wp.com/blog.master.dev/wp-content/uploads/2026/08/img-04-anthropic-console.jpg?resize=1024%2C674&ssl=1)
 

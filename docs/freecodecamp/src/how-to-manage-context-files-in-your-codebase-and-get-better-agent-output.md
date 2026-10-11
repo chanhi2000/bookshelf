@@ -132,7 +132,7 @@ Everything an agent knows while it works on your task lives in one buffer called
 
 But it's important to know that it's finite, and it fills up faster than most people expect. A single debugging session, for example, can burn tens of thousands of tokens before the agent has written a line of code.
 
-The part that matters for this tutorial is what happens as that buffer fills. Anthropic's engineering team describes an effect they call [<VPIcon icon="iconfont icon-claude"/>context rot](https://anthropic.com/engineering/effective-context-engineering-for-ai-agents), where a model's ability to retrieve a specific instruction degrades as the token count climbs. The model isn't ignoring you out of stubbornness, it's working with an attention budget that gets thinner as more material competes for it.
+The part that matters for this tutorial is what happens as that buffer fills. Anthropic's engineering team describes an effect they call [<VPIcon icon="fa-brands fa-claude"/>context rot](https://anthropic.com/engineering/effective-context-engineering-for-ai-agents), where a model's ability to retrieve a specific instruction degrades as the token count climbs. The model isn't ignoring you out of stubbornness, it's working with an attention budget that gets thinner as more material competes for it.
 
 That single fact overturns the intuition most people bring to context files. Writing more feels safer, because you've covered more cases and left less to chance. But every line you add competes with every other line for a finite amount of attention.
 

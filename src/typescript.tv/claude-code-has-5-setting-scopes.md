@@ -2,7 +2,7 @@
 lang: en-US
 title: "Claude Code Settings That Scale With Your TypeScript Team"
 description: "Article(s) > Claude Code Settings That Scale With Your TypeScript Team"
-icon: iconfont icon-claude
+icon: fa-brands fa-claude
 category:
   - AI
   - LLM
@@ -60,7 +60,7 @@ cover: https://typescript.tv/_astro/default.1vUQK0zJ_Z1JxPnr.webp
 
 Learn the configuration scopes in Claude Code, their precedence order, and how to use each one to streamline your TypeScript development workflow.
 
-[<VPIcon icon="iconfont icon-claude"/>Claude Code](https://docs.anthropic.com/en/docs/claude-code/overview) reads configuration from multiple scopes. Each scope has a different file, a different audience, and a different level of authority. If you don't know which one wins when they conflict, you'll spend time debugging settings that silently get overridden. This guide walks through all scopes, explains the precedence order, and shows practical examples for TypeScript projects.
+[<VPIcon icon="fa-brands fa-claude"/>Claude Code](https://docs.anthropic.com/en/docs/claude-code/overview) reads configuration from multiple scopes. Each scope has a different file, a different audience, and a different level of authority. If you don't know which one wins when they conflict, you'll spend time debugging settings that silently get overridden. This guide walks through all scopes, explains the precedence order, and shows practical examples for TypeScript projects.
 
 ---
 
@@ -86,7 +86,7 @@ The managed scope is deployed by an organization's IT or DevOps team. It lives o
 
 ## CLI Flags
 
-CLI flags are temporary overrides that last for a single session. They take precedence over everything except managed settings. Examples include `claude --permission-mode auto` to enable [<VPIcon icon="iconfont icon-claude"/>auto mode](https://docs.anthropic.com/en/docs/claude-code/security#auto-accept-mode) or `claude --model claude-sonnet-4-5` to switch models. CLI flags are not persisted anywhere.
+CLI flags are temporary overrides that last for a single session. They take precedence over everything except managed settings. Examples include `claude --permission-mode auto` to enable [<VPIcon icon="fa-brands fa-claude"/>auto mode](https://docs.anthropic.com/en/docs/claude-code/security#auto-accept-mode) or `claude --model claude-sonnet-4-5` to switch models. CLI flags are not persisted anywhere.
 
 ---
 

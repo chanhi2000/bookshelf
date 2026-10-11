@@ -2,7 +2,7 @@
 lang: en-US
 title: "How to Make LLMs Better at Math Using AI Agents, MathJS, and BaseAI Tool Calls"
 description: "Article(s) > How to Make LLMs Better at Math Using AI Agents, MathJS, and BaseAI Tool Calls"
-icon: iconfont icon-openai
+icon: fa-brands fa-openai
 category:
   - AI
   - LLM
@@ -97,14 +97,14 @@ In this tutorial, I’ll be using the following tech stack:
 - [<VPIcon icon="fas fa-globe"/>MathJS](https://mathjs.org/) — an extensive math library for JavaScript and Node.js.
 - [<VPIcon icon="fas fa-globe"/>BaseAI](https://baseai.dev) — the web framework for building AI agents locally.
 - [<VPIcon icon="fas fa-globe"/>Langbase](https://langbase.com) — the platform to build and deploy your serverless AI agents.
-- [<VPIcon icon="iconfont icon-openai"/>OpenAI](https://openai.com) — to get the LLM key for the preferred model.
+- [<VPIcon icon="fa-brands fa-openai"/>OpenAI](https://openai.com) — to get the LLM key for the preferred model.
 
 :::
 
 You’ll also need to:
 
 - Sign up on [<VPIcon icon="fas fa-globe"/>Langbase](http://langbase.com/signup) to get access to the API key.
-- Sign up on [<VPIcon icon="iconfont icon-openai"/>OpenAI](https://platform.openai.com/signup) to generate the LLM key for the model you want to use (for this demo, I’ll be using GPT-4o mini). You can generate the key [<VPIcon icon="iconfont icon-openai"/>here](https://platform.openai.com/api-keys).
+- Sign up on [<VPIcon icon="fa-brands fa-openai"/>OpenAI](https://platform.openai.com/signup) to generate the LLM key for the model you want to use (for this demo, I’ll be using GPT-4o mini). You can generate the key [<VPIcon icon="fa-brands fa-openai"/>here](https://platform.openai.com/api-keys).
 
 Let’s get started!
 
@@ -163,7 +163,7 @@ Pipe is a serverless AI agent. It has agentic memory and tools. More details [<V
 
 ## Step 3: Add a .env File
 
-Create a <VPIcon icon="iconfont icon-doitenv" />`.env` file in the root directory of your project and add the [<VPIcon icon="iconfont icon-openai"/>OpenAI](https://platform.openai.com/api-keys) and Langbase API key in it. You can access your Langbase API key from [<VPIcon icon="fas fa-globe"/>here](https://langbase.com/docs/api-reference/api-keys).
+Create a <VPIcon icon="iconfont icon-doitenv" />`.env` file in the root directory of your project and add the [<VPIcon icon="fa-brands fa-openai"/>OpenAI](https://platform.openai.com/api-keys) and Langbase API key in it. You can access your Langbase API key from [<VPIcon icon="fas fa-globe"/>here](https://langbase.com/docs/api-reference/api-keys).
 
 ---
 

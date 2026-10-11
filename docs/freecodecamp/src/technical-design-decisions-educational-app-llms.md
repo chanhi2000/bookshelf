@@ -83,7 +83,7 @@ cover: https://cdn.hashnode.com/uploads/covers/5e1e335a7a1d3fcc59028c64/004bd995
   logo="https://cdn.freecodecamp.org/universal/favicons/favicon.ico"
   preview="https://cdn.hashnode.com/uploads/covers/5e1e335a7a1d3fcc59028c64/004bd995-d90e-4589-be82-e66e0be110f5.png"/>
 
-Recently, I spent time prototyping an educational app using [<VPIcon icon="iconfont icon-claude"/>Claude Code](https://anthropic.com/claude-code). The project is an open-source mobile app for educators to share, discover, and facilitate low-cost creative learning activities.
+Recently, I spent time prototyping an educational app using [<VPIcon icon="fa-brands fa-claude"/>Claude Code](https://anthropic.com/claude-code). The project is an open-source mobile app for educators to share, discover, and facilitate low-cost creative learning activities.
 
 One of the core features of the app is AI-assisted activity creation. Activity creation has always been a key aspect of the project, and in the earlier desktop version, this was handled through manual long-form activity submission forms.
 
@@ -115,7 +115,7 @@ It also helps to be comfortable making decisions along the way around tradeoffs,
 
 ## Which Model to Choose
 
-When it comes to choosing the model to build the app itself, it was a straightforward choice. I picked [<VPIcon icon="iconfont icon-claude"/>Opus 4.7](https://anthropic.com/news/claude-opus-4-7) for its advanced capabilities because I needed the model to help architect the app from scratch.
+When it comes to choosing the model to build the app itself, it was a straightforward choice. I picked [<VPIcon icon="fa-brands fa-claude"/>Opus 4.7](https://anthropic.com/news/claude-opus-4-7) for its advanced capabilities because I needed the model to help architect the app from scratch.
 
 But when it came to choosing the model inside the app, the decision required more consideration.
 
@@ -129,7 +129,7 @@ The activity generation workflow is the key AI feature in the app. Since it's an
 
 ## Choosing For Geography and Cost
 
-Latency and network reliability were also important considerations. The app is designed to support educators working in underserved contexts and slower network environments. Although Claude’s [<VPIcon icon="iconfont icon-claude"/>Haiku](https://anthropic.com/claude/haiku) model would have offered lower latency, it might not be as reliable on slower networks compared to other models.
+Latency and network reliability were also important considerations. The app is designed to support educators working in underserved contexts and slower network environments. Although Claude’s [<VPIcon icon="fa-brands fa-claude"/>Haiku](https://anthropic.com/claude/haiku) model would have offered lower latency, it might not be as reliable on slower networks compared to other models.
 
 At the same time, I plan to keep the app free and open source, and I'm not currently planning to market it aggressively. Using Opus for end-user generation would therefore have been expensive, even though it may have produced richer outputs.
 

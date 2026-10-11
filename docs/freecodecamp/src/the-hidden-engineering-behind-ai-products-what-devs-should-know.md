@@ -134,7 +134,7 @@ Before blaming the model, inspect the surrounding system: data, prompts, permiss
 
 ## Why Prompt Engineering Is Not Enough
 
-Prompt engineering means writing instructions that help a model produce better output. It matters. Official docs from providers such as [<VPIcon icon="iconfont icon-openai"/>OpenAI](https://developers.openai.com/api/docs/guides/prompt-engineering) and [<VPIcon icon="iconfont icon-calude"/>Anthropic](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/overview) include guidance on writing clear instructions, giving examples, and defining expected formats.
+Prompt engineering means writing instructions that help a model produce better output. It matters. Official docs from providers such as [<VPIcon icon="fa-brands fa-openai"/>OpenAI](https://developers.openai.com/api/docs/guides/prompt-engineering) and [<VPIcon icon="iconfont icon-calude"/>Anthropic](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/overview) include guidance on writing clear instructions, giving examples, and defining expected formats.
 
 But prompt engineering by itself isn't enough for production.
 
@@ -475,7 +475,7 @@ This code doesn't trust the model blindly. It treats the model's output as input
 
 Sensitive information needs special care. You may need to remove or mask personally identifiable information, such as names, email addresses, phone numbers, account numbers, national IDs, or medical details. Depending on your domain, you may also need compliance controls for data retention, consent, audit trails, and regional storage.
 
-Some systems add safety classifiers before and after generation. Others rely on provider moderation tools, custom rules, or human review. OpenAI's [<VPIcon icon="iconfont icon-openai"/>safety best practices](https://developers.openai.com/api/docs/guides/safety-best-practices) are a useful starting point.
+Some systems add safety classifiers before and after generation. Others rely on provider moderation tools, custom rules, or human review. OpenAI's [<VPIcon icon="fa-brands fa-openai"/>safety best practices](https://developers.openai.com/api/docs/guides/safety-best-practices) are a useful starting point.
 
 Practical takeaway: treat the model as an untrusted component. Validate inputs, validate outputs, enforce permissions, and log important decisions.
 
@@ -491,7 +491,7 @@ AI systems are different. The same prompt may produce slightly different outputs
 
 That is why evaluation is essential.
 
-An evaluation pipeline measures whether your AI feature is doing the job you designed it to do. OpenAI's [<VPIcon icon="iconfont icon-openai"/>evals documentation](https://developers.openai.com/api/docs/guides/evals) is a useful reference.
+An evaluation pipeline measures whether your AI feature is doing the job you designed it to do. OpenAI's [<VPIcon icon="fa-brands fa-openai"/>evals documentation](https://developers.openai.com/api/docs/guides/evals) is a useful reference.
 
 A simple evaluation dataset might look like this:
 

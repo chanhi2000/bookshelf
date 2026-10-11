@@ -2,7 +2,7 @@
 lang: en-US
 title: "AI Paper Review: GPT-4 Technical Report (GPT-4)"
 description: "Article(s) > AI Paper Review: GPT-4 Technical Report (GPT-4)"
-icon: iconfont icon-openai
+icon: fa-brands fa-openai
 category:
   - Python
   - AI
@@ -77,13 +77,13 @@ But GPT-4 felt different.
 
 GPT-3 still felt like a research breakthrough: powerful, experimental, and sometimes unpredictable. GPT-4, on the other hand, felt like the beginning of a real AI platform. The focus was no longer just on scaling language models to achieve better benchmarks. Instead, the conversation shifted toward reliability, multimodal understanding, alignment, safety, and real-world deployment.
 
-This change is visible throughout the GPT-4 Technical Report released by [<VPIcon icon="iconfont icon-openai"/>OpenAI](https://openai.com).
+This change is visible throughout the GPT-4 Technical Report released by [<VPIcon icon="fa-brands fa-openai"/>OpenAI](https://openai.com).
 
 Unlike the earlier GPT papers, OpenAI didn't publish a traditional research paper with detailed architecture diagrams, parameter counts, datasets, or training configurations. Instead, they released a more limited technical report focused primarily on capabilities, evaluations, safety work, and deployment considerations.
 
 That decision itself reflects how much the field had changed.
 
-By the time GPT-4 arrived, large language models were no longer just research projects used inside labs. They had become globally deployed systems used by millions of people through products like [<VPIcon icon="iconfont icon-openai"/>ChatGPT](https://chatgpt.com). Questions about misuse, hallucinations, bias, cybersecurity risks, and alignment were now just as important as raw model performance.
+By the time GPT-4 arrived, large language models were no longer just research projects used inside labs. They had become globally deployed systems used by millions of people through products like [<VPIcon icon="fa-brands fa-openai"/>ChatGPT](https://chatgpt.com). Questions about misuse, hallucinations, bias, cybersecurity risks, and alignment were now just as important as raw model performance.
 
 GPT-4 also introduced another major shift: multimodality.
 

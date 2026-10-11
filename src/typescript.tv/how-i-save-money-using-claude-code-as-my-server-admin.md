@@ -112,7 +112,7 @@ cover: https://typescript.tv/_astro/default.1vUQK0zJ_Z1JxPnr.webp
 
 A step-by-step guide to migrating Node.js apps written in TypeScript from Heroku to a Hetzner dedicated server with Dokku, saving hundreds of dollars per year while keeping GitHub auto-deploy and managed Postgres.
 
-Heroku was great when I started. Push code, get a URL, done. Platform-as-a-Service won the last decade because it took operational complexity away for a surcharge, and that trade-off made sense when managing servers meant writing Ansible playbooks and debugging iptables rules. But the landscape has changed. With AI coding tools like [<VPIcon icon="iconfont icon-claude"/>Claude Code](https://docs.anthropic.com/en/docs/claude-code/overview), the complexity of managing your own server largely goes away. You describe what you want in plain English, and the tool SSHs in and runs the commands. That shifts the equation: owning your servers becomes very attractive again when the operational overhead drops to near zero.
+Heroku was great when I started. Push code, get a URL, done. Platform-as-a-Service won the last decade because it took operational complexity away for a surcharge, and that trade-off made sense when managing servers meant writing Ansible playbooks and debugging iptables rules. But the landscape has changed. With AI coding tools like [<VPIcon icon="fa-brands fa-claude"/>Claude Code](https://docs.anthropic.com/en/docs/claude-code/overview), the complexity of managing your own server largely goes away. You describe what you want in plain English, and the tool SSHs in and runs the commands. That shifts the equation: owning your servers becomes very attractive again when the operational overhead drops to near zero.
 
 I run several Node.js services built on TypeScript: web apps, APIs, and background workers like Telegram bots. Over time, the Heroku bills kept climbing. A basic dyno, a Postgres add-on, and a couple of worker processes added up to hundreds of dollars per year for apps that could run on a single server. I decided to migrate everything to a [<VPIcon icon="fas fa-globe"/>Hetzner](https://hetzner.com/) dedicated server running [<VPIcon icon="fas fa-globe"/>Dokku](https://dokku.com/), and the entire setup happened in the background through Claude Code's CLI while I was busy building new TypeScript projects. Here is exactly how it was done, so you can use it as a blueprint for your own migration.
 
@@ -130,7 +130,7 @@ I considered other tools like [<VPIcon icon="fas fa-globe"/>Coolify](https://coo
 
 ## The Plot Twist: I Didn't Write a Single Command
 
-Before I walk you through the setup, I should confess something. Every command you see in this article, every `dokku` call, every `gh api` invocation, every `ssh` session, I did not type any of them. Not most of them. None of them. The entire migration was done through [<VPIcon icon="iconfont icon-claude"/>Claude Code](https://docs.anthropic.com/en/docs/claude-code/overview) running in my terminal. I described what I wanted in plain English, and Claude Code SSHed into the server and executed everything.
+Before I walk you through the setup, I should confess something. Every command you see in this article, every `dokku` call, every `gh api` invocation, every `ssh` session, I did not type any of them. Not most of them. None of them. The entire migration was done through [<VPIcon icon="fa-brands fa-claude"/>Claude Code](https://docs.anthropic.com/en/docs/claude-code/overview) running in my terminal. I described what I wanted in plain English, and Claude Code SSHed into the server and executed everything.
 
 The workflow is simple: I created a private GitHub repo called `hetzner-server` and told Claude Code to use it as "infrastructure as docs", a place where every server configuration, domain change, and deployment setup gets documented in a `README.md`. When I start a new Claude Code session from that repo, it reads the existing notes and knows the full setup: which apps are deployed, which domains point where, which env vars are set, and how the webhook pipeline works.
 
@@ -171,7 +171,7 @@ The entire server setup, from ordering to a running Dokku instance, took Claude 
 
 Dokku assigns apps a subdomain automatically using [<VPIcon icon="fas fa-globe"/>sslip.io](https://sslip.io/), a free service that resolves any IP embedded in a hostname back to that IP. For example, `95.217.148.47.sslip.io` resolves to `95.217.148.47`. This is great for testing, but for production you want a real domain.
 
-I bought my domain on [<VPIcon icon="fa-brands fa-cloudflare"/>Cloudflare](https://cloudflare.com/) because they offer an [<VPIcon icon="fa-brands fa-cloudflare"/>official MCP server](https://developers.cloudflare.com/agents/model-context-protocol/mcp-servers-for-cloudflare/) and API tokens with fine-grained permissions. Cloudflare provides an "Edit zone DNS" token template that grants only DNS access, nothing else. This means AI coding tools like [<VPIcon icon="iconfont icon-claude"/>Claude Code](https://docs.anthropic.com/en/docs/claude-code/overview) can manage DNS records programmatically without having access to your billing, account settings, or other services. If you already have domains on another registrar like [<VPIcon icon="fas fa-globe"/>Gandi](https://gandi.net/), that works too since they have a REST API with Personal Access Tokens.
+I bought my domain on [<VPIcon icon="fa-brands fa-cloudflare"/>Cloudflare](https://cloudflare.com/) because they offer an [<VPIcon icon="fa-brands fa-cloudflare"/>official MCP server](https://developers.cloudflare.com/agents/model-context-protocol/mcp-servers-for-cloudflare/) and API tokens with fine-grained permissions. Cloudflare provides an "Edit zone DNS" token template that grants only DNS access, nothing else. This means AI coding tools like [<VPIcon icon="fa-brands fa-claude"/>Claude Code](https://docs.anthropic.com/en/docs/claude-code/overview) can manage DNS records programmatically without having access to your billing, account settings, or other services. If you already have domains on another registrar like [<VPIcon icon="fas fa-globe"/>Gandi](https://gandi.net/), that works too since they have a REST API with Personal Access Tokens.
 
 Set up DNS by pointing your domain to the server:
 
@@ -458,7 +458,7 @@ Here is a summary of everything used in this migration:
 | [<VPIcon icon="iconfont icon-heroku"/>Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli) | Database export and app management |
 | [<VPIcon icon="iconfont icon-github"/>GitHub CLI](https://cli.github.com/) | Webhook setup and repo management |
 | [<VPIcon icon="fas fa-globe"/>sslip.io](https://sslip.io/) | Free wildcard DNS for testing |
-| [<VPIcon icon="iconfont icon-claude"/>Claude Code](https://docs.anthropic.com/en/docs/claude-code/overview) | CLI-based AI assistant for server management |
+| [<VPIcon icon="fa-brands fa-claude"/>Claude Code](https://docs.anthropic.com/en/docs/claude-code/overview) | CLI-based AI assistant for server management |
 | [<VPIcon icon="fa-brands fa-cloudflare"/>Cloudflare](https://cloudflare.com/) | Domain registration and DNS with API/MCP |
 
 The entire migration was done over SSH with bash commands. No special server API or MCP integration was needed for the Hetzner server itself. You SSH in, run commands, and you are done. The only APIs I used were Cloudflare (for DNS), Gandi (for DNS on other domains), GitHub (for webhooks and deploy keys), and Heroku (for database export).
@@ -480,7 +480,7 @@ dpkg-reconfigure -f noninteractive unattended-upgrades
 
 For everything beyond OS-level patches, like updating Dokku plugins, checking app health, and keeping dependencies current, you can automate with Claude Code.
 
-[<VPIcon icon="iconfont icon-claude"/>Claude Code Scheduled Tasks](https://docs.anthropic.com/en/docs/claude-code/scheduled-tasks) solve this nicely. They allow you to automate workflows by running prompts on a recurring basis, daily, weekly, or hourly. You can set up a scheduled task that SSHes into your server, runs `apt update && apt upgrade`, checks for Dokku plugin updates, verifies that all apps are healthy, and commits the results to your infrastructure-as-docs repo. It turns server maintenance into a background process that runs on autopilot, just like the initial setup.
+[<VPIcon icon="fa-brands fa-claude"/>Claude Code Scheduled Tasks](https://docs.anthropic.com/en/docs/claude-code/scheduled-tasks) solve this nicely. They allow you to automate workflows by running prompts on a recurring basis, daily, weekly, or hourly. You can set up a scheduled task that SSHes into your server, runs `apt update && apt upgrade`, checks for Dokku plugin updates, verifies that all apps are healthy, and commits the results to your infrastructure-as-docs repo. It turns server maintenance into a background process that runs on autopilot, just like the initial setup.
 
 ---
 

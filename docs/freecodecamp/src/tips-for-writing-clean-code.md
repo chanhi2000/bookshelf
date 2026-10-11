@@ -121,7 +121,7 @@ Now it’s clear just from looking at the code what’s going on.
 
 AI is evolving quickly and is being used in almost every industry.
 
-Well, as a developer, you can use AI to help you write clean and readable code — all thanks to AI tools like [<VPIcon icon="iconfont icon-openai"/>ChatGPT](https://chatgpt.com/), [<VPIcon icon="iconfont icon-claude"/>Claude](https://claude.ai/), and [<VPIcon icon="iconfont icon-github"/>GitHub Copilot](https://github.com/features/copilot).
+Well, as a developer, you can use AI to help you write clean and readable code — all thanks to AI tools like [<VPIcon icon="fa-brands fa-openai"/>ChatGPT](https://chatgpt.com/), [<VPIcon icon="fa-brands fa-claude"/>Claude](https://claude.ai/), and [<VPIcon icon="iconfont icon-github"/>GitHub Copilot](https://github.com/features/copilot).
 
 For starters, you can copy and paste your code into an LLM and ask it to review your code.
 

@@ -2,7 +2,7 @@
 lang: en-US
 title: "Unlock the Power of AI Agents with the New Claude Certified Developer Foundations Course"
 description: "Article(s) > Unlock the Power of AI Agents with the New Claude Certified Developer Foundations Course"
-icon: iconfont icon-claude
+icon: fa-brands fa-claude
 category:
   - AI
   - LLM

@@ -110,7 +110,7 @@ Before getting into the build, it helps to know what each tool I used is and why
 
 For agent orchestration specifically, the relevant piece is **LangGraph**, which is LangChain's graph-based execution layer. Instead of a workflow with typed step contracts, you build a directed graph: nodes are plain async functions, state is a single shared object that every node reads from and writes to, and the flow between nodes is controlled by edges.
 
-[<VPIcon icon="iconfont icon-claude"/>Claude Haiku 4.5](https://anthropic.com/claude/haiku) is the model powering all agents. It is Anthropic's fastest and most cost-efficient model, which makes it the right choice here.
+[<VPIcon icon="fa-brands fa-claude"/>Claude Haiku 4.5](https://anthropic.com/claude/haiku) is the model powering all agents. It is Anthropic's fastest and most cost-efficient model, which makes it the right choice here.
 
 [<VPIcon icon="fas fa-globe"/>Tavily](https://tavily.com) is a web search API built specifically for AI agents. Unlike a general search API, it returns structured results with relevance scores and content snippets that are ready to pass directly into a model prompt. The free tier is generous enough to run this benchmark without paying anything.
 

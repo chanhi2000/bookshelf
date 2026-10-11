@@ -431,7 +431,7 @@ This demo only logs feedback. In true RLHF, a second phase fine-tunes the model 
 
 :::
 
-A real-world example of this is [<VPIcon icon="iconfont icon-openai"/>InstructGPT](https://openai.com/index/instruction-following/). This is a version of OpenAI’s GPT models that’s trained to follow instructions written by people. Instead of just predicting the next word, it tries to really figure out and then do what you’ve asked, the way you asked it.
+A real-world example of this is [<VPIcon icon="fa-brands fa-openai"/>InstructGPT](https://openai.com/index/instruction-following/). This is a version of OpenAI’s GPT models that’s trained to follow instructions written by people. Instead of just predicting the next word, it tries to really figure out and then do what you’ve asked, the way you asked it.
 
 Despite being over 100× smaller than GPT-3, InstructGPT was preferred by humans in **85%** of blind comparisons. And one of the key reasons was that is uses RLHF. This made it safer, more truthful, and better at following complex instructions, showing how reward signals like the one simulated here can greatly improve real-world model performance.
 

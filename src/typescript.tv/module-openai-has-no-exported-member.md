@@ -61,7 +61,7 @@ cover: https://typescript.tv/_astro/default.1vUQK0zJ_Zqutxx.webp
 
 OpenAI's Node.js API Library has updated from Version 3 to Version 4. Changes include updating imports adjusting method calls.
 
-There has been a major upgrade in OpenAI's Node.js API Library. When switchting from Version 3 to Version 4 you have to take into account some breaking API changes. You may also run into "insufficient_quota" errors if you don't upgrade legacy User API keys to to Project API keys ([<VPIcon icon="iconfont icon-openai"/>read more](https://platform.openai.com/docs/api-reference/api-keys)).
+There has been a major upgrade in OpenAI's Node.js API Library. When switchting from Version 3 to Version 4 you have to take into account some breaking API changes. You may also run into "insufficient_quota" errors if you don't upgrade legacy User API keys to to Project API keys ([<VPIcon icon="fa-brands fa-openai"/>read more](https://platform.openai.com/docs/api-reference/api-keys)).
 
 ---
 

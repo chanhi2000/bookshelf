@@ -5,6 +5,12 @@ const Y2026: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2026
+    "building-an-isolated-preview-for-ai-generated-html", // 2026-10-2
+    "structured-output-with-tanstack-ai", // 2026-10-19
+    "unlocking-ai-in-your-apps-with-tanstack-ai", // 2026-10-16
+    "svg-linked-parameters-will-change-how-we-do-icon-systems", // 2026-10-15
+    "building-a-fancy-scrollspy-using-modern-css", // 2026-10-14
+    "tips-and-tricks-for-using-tanstack-start-with-cloudflare-durable-objects", // 2026-10-12
     "5-good-choices-for-html-containers", // 2026-10-09
     "testing-an-iframes-postmessage-handler", // 2026-10-07
     "transferring-sibling-count-to-a-parent-element", // 2026-10-05
@@ -116,6 +122,7 @@ const Y2026: SidebarYeargroupTemplate = {
     "single-flight-mutations-in-tanstack-start-part-2", // 2026-01-28
     "single-flight-mutations-in-tanstack-start-part-1", // 2026-01-23
     "view-transitions-playing-video", // 2026-01-20
+    "firefox-goes-css-modules", // 2026-01-21
     "the-missing-link-for-web-components", // 2026-01-15
     "simulating-crop-marks", // 2026-01-13
     "beyond-the-mouse-animating-with-mobile-accelerometers", // 2026-01-09
@@ -335,6 +342,7 @@ const Y2024: SidebarYeargroupTemplate = {
     "exactly-how-to-deploy-local-files-to-make-a-live-website", // 2024-05-17
     "prefetching-when-server-loading-wont-do", // 2024-05-15
     "the-classic-border-radius-advice-plus-an-unusual-trick", // 2024-05-13
+    "frontend-to-fullstack-13", // 2024-05-13
     "using-css-scroll-driven-animations-for-section-based-scroll-progress-indicators", // 2024-05-10
     "5-things-designers-can-do-with-javascript", // 2024-05-08
     "using-the-popover-api-for-html-tooltips", // 2024-05-06
@@ -366,6 +374,7 @@ const Y2023: SidebarYeargroupTemplate = {
   children: [
     // END: 2023
     "container-queries-and-units", // 2023-12-21
+    "media-scripting-enabled", // 2023-12-14
     "light-dom-only", // 2023-12-08
     "vanilla-javascript-reactivity", // 2023-08-21
     "what-is-sql-database-definition-for-beginners", // 2023-01-13
@@ -382,7 +391,9 @@ export const template: SidebarInfoTemplate = {
       // END: java
     ]],[
     "js", [
+      // END: 2022js
       "vanilla-javascript-reactivity", // 2023-08-21
+      "media-scripting-enabled", // 2023-12-14
       // END: 2023js
       "console-delight", // 2024-01-11
       "the-color-input-the-color-picker", // 2024-01-18
@@ -415,6 +426,7 @@ export const template: SidebarInfoTemplate = {
       "using-the-custom-highlight-api", // 2025-08-07
       "a-progressive-enhancement-challenge", // 2025-10-03
       // END: 2025js
+      "firefox-goes-css-modules", // 2026-01-21
       "view-transitions-playing-video", // 2026-01-20
       "the-browser-hates-surprises", // 2026-02-06
       "virtual-scroll-driven-3d-scenes", // 2026-02-23
@@ -490,7 +502,6 @@ export const template: SidebarInfoTemplate = {
       "building-a-blog-in-tanstack-part-2-of-2", // 2026-04-20
       "introducing-tanstack-form", // 2026-05-01
       "react-server-components-in-tanstack", // 2026-05-18
-      "cloudflare-workers-and-hyperdrive-with-tanstack-start", // 2026-07-02
       "durable-objects-on-cloudflare", // 2026-07-20
       "react-compiler-linting-just-got-a-rust-native-speedup-in-oxlint", // 2026-08-17
       "keyboard-shortcuts-that-display-the-correct-modifier-key-per-os", // 2026-08-21
@@ -504,6 +515,14 @@ export const template: SidebarInfoTemplate = {
       // END: 2024js-react
       // END: 2025js-react
       // END: js-next
+    ]],[
+    "js-tanstack", [
+      "cloudflare-workers-and-hyperdrive-with-tanstack-start", // 2026-07-02
+      "tips-and-tricks-for-using-tanstack-start-with-cloudflare-durable-objects", // 2026-10-12
+      "unlocking-ai-in-your-apps-with-tanstack-ai", // 2026-10-16
+      "structured-output-with-tanstack-ai", // 2026-10-19
+      // END: 2026js-tanstack
+      // END: js-tanstack
     ]],[
     "js-vue", [
       "exploring-multi-brand-systems-with-tokens-and-composability", // 2025-12-19
@@ -545,7 +564,9 @@ export const template: SidebarInfoTemplate = {
       // END: js-bun
     ]],[
     "css", [
+      // END: 2022css
       "light-dom-only", // 2023-12-08
+      "media-scripting-enabled", // 2023-12-14
       // END: 2023css
       "we-can-has-it-all", // 2024-01-10
       "heads-up-on-custom-scrollbars-chrome-is-supporting-the-standard-now-which-overrides-the-old-pseudo-elements", // 2024-01-31
@@ -694,6 +715,7 @@ export const template: SidebarInfoTemplate = {
       "how-to-scope-css-now-that-its-baseline", // 2026-01-05
       "popover-context-menus-with-anchor-positioning", // 2026-01-08
       "simulating-crop-marks", // 2026-01-13
+      "firefox-goes-css-modules", // 2026-01-21
       "view-transitions-playing-video", // 2026-01-20
       "performance-optimized-video-embeds-with-zero-javascript", // 2026-02-02
       "an-over-the-top-spoiler-design-with-the-details-element", // 2026-02-04
@@ -762,6 +784,8 @@ export const template: SidebarInfoTemplate = {
       "transferring-sibling-count-to-a-parent-element", // 2026-10-05
       "testing-an-iframes-postmessage-handler", // 2026-10-07
       "5-good-choices-for-html-containers", // 2026-10-09
+      "building-a-fancy-scrollspy-using-modern-css", // 2026-10-14
+    "svg-linked-parameters-will-change-how-we-do-icon-systems", // 2026-10-15
       // END: 2026css
       // END: css
     ]],[
@@ -811,6 +835,7 @@ export const template: SidebarInfoTemplate = {
       "durable-objects-on-cloudflare", // 2026-07-20
       "cloudflare-workers-and-hyperdrive-with-sveltekit", // 2026-07-27
       "making-the-most-of-vercels-ai-sdk-with-cloudflare-durable-objects", // 2026-09-28
+      "tips-and-tricks-for-using-tanstack-start-with-cloudflare-durable-objects", // 2026-10-12
       // END: 2026cloudflare
       // END: cloudflare
     ]],[
@@ -913,6 +938,8 @@ export const template: SidebarInfoTemplate = {
       "having-fun-with-vercels-ai-sdk-and-ai-gateway", // 2026-08-31
       "making-the-most-of-vercels-ai-sdk-with-cloudflare-durable-objects", // 2026-09-28
       "you-dont-know-bidi-and-neither-does-chatgpt", // 2026-09-30
+      "unlocking-ai-in-your-apps-with-tanstack-ai", // 2026-10-16
+      "structured-output-with-tanstack-ai", // 2026-10-19
       // END: 2026llm
       // END: llm
     ]],[

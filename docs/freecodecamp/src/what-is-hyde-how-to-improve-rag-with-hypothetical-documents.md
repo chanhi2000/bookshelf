@@ -111,7 +111,7 @@ What you need to know:
 What you need to have:
 
 - A local Python environment with numpy, sentence-transformers, and Anthropic installed
-- An Anthropic API key if you want to run the HyDE code sample (available at [<VPIcon icon="iconfont icon-claude"/>console.anthropic.com](http://console.anthropic.com))
+- An Anthropic API key if you want to run the HyDE code sample (available at [<VPIcon icon="fa-brands fa-claude"/>console.anthropic.com](http://console.anthropic.com))
 
 :::
 

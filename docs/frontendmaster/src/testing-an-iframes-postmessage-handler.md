@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: "Testing an iframe’s postMessage Handler"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/master.dev/blog.master.devtesting-an-iframes-postmessage-handler.html
+      content: https://chanhi2000.github.io/bookshelf/blog.master.dev/testing-an-iframes-postmessage-handler.html
 prev: /programming/css/articles/README.md
 date: 2026-10-07
 isOriginal: false
@@ -349,7 +349,7 @@ There is a pleasing recursion in reading about this on a blog, because the demo 
 {
   "title": "Testing an iframe’s postMessage Handler",
   "desc": "There are some real complexities using iframes and the postMessage API for communication between a widget and its parent. Security vulnerabilities like cross-origin scripting risks being one.",
-  "link": "https://chanhi2000.github.io/bookshelf/master.dev/blog.master.devtesting-an-iframes-postmessage-handler.html",
+  "link": "https://chanhi2000.github.io/bookshelf/blog.master.dev/testing-an-iframes-postmessage-handler.html",
   "logo": "https://master.dev/favicon.ico",
   "background": "rgba(188,75,52,0.2)"
 }

@@ -272,7 +272,7 @@ Why does it lean toward answering at all, instead of saying “I don’t know”
 
 Under that scoring, guessing strictly dominates abstaining. If you don’t know, you should *always* take a shot. Train a model against millions of such items and it internalizes exactly that: a confident answer is worth more than “I can’t tell.” We rewarded hallucination, then act surprised when we get it. [^10]
 
-[^10]: Kalai, Nachum, Vempala & Zhang, [<VPIcon icon="iconfont icon-openai"/>“Why Language Models Hallucinate”](https://openai.com/index/why-language-models-hallucinate/) (OpenAI, 2025). [<VPIcon icon="iconfont icon-arxiv"/>arXiv:2509.04664](https://arxiv.org/abs/2509.04664).
+[^10]: Kalai, Nachum, Vempala & Zhang, [<VPIcon icon="fa-brands fa-openai"/>“Why Language Models Hallucinate”](https://openai.com/index/why-language-models-hallucinate/) (OpenAI, 2025). [<VPIcon icon="iconfont icon-arxiv"/>arXiv:2509.04664](https://arxiv.org/abs/2509.04664).
 
 And it’s not only the benchmarks: the raw pretrained model is fairly well-calibrated, then human-feedback fine-tuning flattens that calibration. We literally train the hedging out. [^11]
 
@@ -326,7 +326,7 @@ That's the same move Anthropic described when they took the *Golden Gate Bridge*
 
 Turning a feature up *changed the output*, so these internal representations aren’t passive read-outs. They steer generation. [^14]
 
-[^14]: Anthropic, [<VPIcon icon="iconfont icon-claude"/>“Golden Gate Claude”](https://anthropic.com/news/golden-gate-claude) (2024) — feature steering made public.
+[^14]: Anthropic, [<VPIcon icon="fa-brands fa-claude"/>“Golden Gate Claude”](https://anthropic.com/news/golden-gate-claude) (2024) — feature steering made public.
 
 The same was shown with a clean causal swap. Give the model *“The capital of the state containing Dallas is…”* and internally a **Texas** feature fires, leading to the output **Austin**. How do we know Texas was really the hidden step? We reach in and force that feature from Texas to **California**, and the output changes to **Sacramento.** The wiring is real: context fires features, and features guide what comes out.
 
@@ -336,7 +336,7 @@ The same was shown with a clean causal swap. Give the model *“The capital of t
 
 Now everything comes together. Anthropic’s interpretability work surfaced something like two interacting circuits [^15]:
 
-[^15]: Anthropic, [<VPIcon icon="fas fa-globe"/>“On the Biology of a Large Language Model”](https://transformer-circuits.pub/2025/attribution-graphs/biology.html) (2025) — the known-entity feature that suppresses the “I can’t tell” circuit, the Dallas→Austin swap, and the Michael Batkin misfire. Readable companion: [<VPIcon icon="iconfont icon-claude"/>“Tracing the thoughts of a language model”](https://anthropic.com/research/tracing-thoughts-language-model).
+[^15]: Anthropic, [<VPIcon icon="fas fa-globe"/>“On the Biology of a Large Language Model”](https://transformer-circuits.pub/2025/attribution-graphs/biology.html) (2025) — the known-entity feature that suppresses the “I can’t tell” circuit, the Dallas→Austin swap, and the Michael Batkin misfire. Readable companion: [<VPIcon icon="fa-brands fa-claude"/>“Tracing the thoughts of a language model”](https://anthropic.com/research/tracing-thoughts-language-model).
 
 - A **default “I can’t tell” reflex** that is *on* by default. You can think of it as a brake – guiding the model not to make stuff up.
 - A **“do I know this?” feature** that, when it fires, *suppresses* that brake so the model provides an answer.

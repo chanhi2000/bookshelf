@@ -2,7 +2,7 @@
 lang: en-US
 title: "Build and Publish a Full-Stack Mobile App with AI"
 description: "Article(s) > Build and Publish a Full-Stack Mobile App with AI"
-icon: iconfont icon-openai
+icon: fa-brands fa-openai
 category:
   - Node.js
   - React.js

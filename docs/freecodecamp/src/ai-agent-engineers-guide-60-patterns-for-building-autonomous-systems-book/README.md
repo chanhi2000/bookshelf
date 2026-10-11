@@ -11939,7 +11939,7 @@ A reader looking to deepen their understanding of the alignment chapter should s
 
 The book's "labeled evaluation set" language is concrete in academic and engineering practice. The following public benchmarks are useful reference points. Serious teams use them as starting points and supplement with deployment-specific eval sets.
 
-- **[VPIcon icon="iconfont icon-github"/>`swe-bench/SWE-bench`](https://github.com/swe-bench/SWE-bench) / [<VPIcon icon="iconfont icon-openai"/>SWE-bench Verified](https://openai.com/index/introducing-swe-bench-verified/)**. Coding agents fixing real GitHub issues. The standard benchmark for evaluating code-modification agents end-to-end. Verified is OpenAI's human-validated 500-task subset.
+- **[VPIcon icon="iconfont icon-github"/>`swe-bench/SWE-bench`](https://github.com/swe-bench/SWE-bench) / [<VPIcon icon="fa-brands fa-openai"/>SWE-bench Verified](https://openai.com/index/introducing-swe-bench-verified/)**. Coding agents fixing real GitHub issues. The standard benchmark for evaluating code-modification agents end-to-end. Verified is OpenAI's human-validated 500-task subset.
 - **[<VPIcon icon="iconfont icon-arxiv"/>GAIA](https://arxiv.org/abs/2311.12983) (Meta, HuggingFace, and AutoGPT)**. General assistant benchmark. Multi-step, multi-tool tasks. Tests the full agentic stack on realistic open-ended questions.
 - **[<VPIcon icon="iconfont icon-arxiv"/>AgentBench](https://arxiv.org/abs/2308.03688)**. Multi-domain benchmark covering reasoning, tool use, and coordination across diverse tasks.
 - **[<VPIcon icon="iconfont icon-github"/>`web-arena-x/webarena`](https://github.com/web-arena-x/webarena) / [<VPIcon icon="fas fa-globe"/>OSWorld](https://os-world.github.io/)**. Browser- and computer-use benchmarks. WebArena tests browsing agents on realistic web environments. OSWorld extends this to full OS interaction.
@@ -13570,7 +13570,7 @@ Every reference below has been checked against a canonical source (the publicati
 
 ### Frameworks and Tools Cited in the Book
 
-- [<VPIcon icon="iconfont icon-openai"/>Anthropic Claude tool-use API](https://platform.claude.com/docs/en/agents-and-tools/tool-use/overview), [<VPIcon icon="iconfont icon-openai"/>OpenAI Assistants API](https://platform.openai.com/docs/api-reference/assistants), [Google Gemini API](https://ai.google.dev/gemini-api/docs) — the major frontier-model APIs underlying tool-using agents. (OpenAI has announced the Assistants API's retirement in favor of the Responses API — check current docs before building against it.)
+- [<VPIcon icon="fa-brands fa-openai"/>Anthropic Claude tool-use API](https://platform.claude.com/docs/en/agents-and-tools/tool-use/overview), [<VPIcon icon="fa-brands fa-openai"/>OpenAI Assistants API](https://platform.openai.com/docs/api-reference/assistants), [Google Gemini API](https://ai.google.dev/gemini-api/docs) — the major frontier-model APIs underlying tool-using agents. (OpenAI has announced the Assistants API's retirement in favor of the Responses API — check current docs before building against it.)
 - [LangChain](https://langchain.com/) / [LangGraph (<VPIcon icon="iconfont icon-github"/>`langchain-ai/langgraph`)](https://github.com/langchain-ai/langgraph) — coordination-heavy framework.
 - [AutoGen (<VPIcon icon="iconfont icon-github"/>`microsoft/autogen`)](https://github.com/microsoft/autogen) (Microsoft) — multi-agent coordination framework. Now in maintenance mode, superseded by [Microsoft Agent Framework (<VPIcon icon="iconfont icon-github"/>`microsoft/agent-framework`)](https://github.com/microsoft/agent-framework) for new projects.
 - [DSPy (<VPIcon icon="iconfont icon-github"/>`stanfordnlp/dspy`)](https://github.com/stanfordnlp/dspy) (Stanford, led by Omar Khattab) — prompts-as-compiled-programs framework.
@@ -13581,7 +13581,7 @@ Every reference below has been checked against a canonical source (the publicati
 
 ### Benchmarks Cited
 
-- [<VPIcon icon="iconfont icon-openai"/>SWE-bench (<VPIcon icon="iconfont icon-github"/>`swe-bench/SWE-bench`)](https://github.com/swe-bench/SWE-bench) / [<VPIcon icon="iconfont icon-openai"/>SWE-bench Verified](https://openai.com/index/introducing-swe-bench-verified/) (Jimenez et al., 2023; Verified subset released by OpenAI, 2024)
+- [<VPIcon icon="fa-brands fa-openai"/>SWE-bench (<VPIcon icon="iconfont icon-github"/>`swe-bench/SWE-bench`)](https://github.com/swe-bench/SWE-bench) / [<VPIcon icon="fa-brands fa-openai"/>SWE-bench Verified](https://openai.com/index/introducing-swe-bench-verified/) (Jimenez et al., 2023; Verified subset released by OpenAI, 2024)
 - [<VPIcon icon="iconfont icon-arxiv"/>GAIA](https://arxiv.org/abs/2311.12983) (Mialon et al., 2023, Meta / HuggingFace / AutoGPT)
 - [<VPIcon icon="iconfont icon-arxiv"/>AgentBench](https://arxiv.org/abs/2308.03688) (Liu et al., 2023)
 - [WebArena (<VPIcon icon="iconfont icon-github"/>`web-arena-x/webarena`)](https://github.com/web-arena-x/webarena) (Zhou et al., 2023)

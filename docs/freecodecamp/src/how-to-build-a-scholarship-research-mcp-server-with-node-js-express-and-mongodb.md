@@ -143,7 +143,7 @@ Install:
 
 - [<VPIcon icon="fa-brands fa-node"/>Node.js 20](https://nodejs.org/) or later
 - [<VPIcon icon="iconfont icon-mongodb"/>MongoDB](https://mongodb.com/docs/manual/installation/) running locally, or a free [<VPIcon icon="iconfont icon-mongodb"/>MongoDB Atlas](https://mongodb.com/atlas) cluster
-- An MCP client if you want to try the last section. [<VPIcon icon="iconfont icon-cursor"/>Cursor](https://cursor.com/) and [<VPIcon icon="iconfont icon-claude"/>Claude Desktop](https://claude.ai/download) both work.
+- An MCP client if you want to try the last section. [<VPIcon icon="iconfont icon-cursor"/>Cursor](https://cursor.com/) and [<VPIcon icon="fa-brands fa-claude"/>Claude Desktop](https://claude.ai/download) both work.
 
 Docker is enough for MongoDB:
 
@@ -157,7 +157,7 @@ docker run -d --name mongo -p 27017:27017 mongo:7
 
 MCP is an open protocol that lets an AI application talk to external tools and data sources through a shared contract. Anthropic introduced it in 2024, and it's now maintained as an open standard.
 
-Anthropic described MCP as "a USB-C port for AI applications": one connector, many hosts. (Source: [<VPIcon icon="iconfont icon-claude"/>Introducing the Model Context Protocol](https://anthropic.com/news/model-context-protocol)) Instead of writing one integration for Cursor, another for Claude Desktop, and a third for a custom agent, you implement the protocol once.
+Anthropic described MCP as "a USB-C port for AI applications": one connector, many hosts. (Source: [<VPIcon icon="fa-brands fa-claude"/>Introducing the Model Context Protocol](https://anthropic.com/news/model-context-protocol)) Instead of writing one integration for Cursor, another for Claude Desktop, and a third for a custom agent, you implement the protocol once.
 
 The [<VPIcon icon="iconfont icon-mcp"/>official architecture overview](https://modelcontextprotocol.io/docs/learn/architecture) splits MCP into two layers:
 

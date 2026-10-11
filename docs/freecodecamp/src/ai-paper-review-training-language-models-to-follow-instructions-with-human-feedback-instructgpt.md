@@ -2,7 +2,7 @@
 lang: en-US
 title: "AI Paper Review: Training Language Models to Follow Instructions with Human Feedback (InstructGPT)"
 description: "Article(s) > AI Paper Review: Training Language Models to Follow Instructions with Human Feedback (InstructGPT)"
-icon: iconfont icon-openai
+icon: fa-brands fa-openai
 category:
   - AI
   - LLM
@@ -220,9 +220,9 @@ Despite its impressive capabilities, GPT-3 often struggled to behave like a reli
 
 Here are some examples that highlight the differences between GPT-3 and InstructGPT in how they respond to user prompts:
 
-![Source: [<VPIcon icon="iconfont icon-openai"/>Aligning language models to follow instructions](https://openai.com/index/instruction-following/)](https://cdn.hashnode.com/uploads/covers/69ce92860ff860b6de01ed93/22cfce35-8c0e-4560-9419-15c6e33123ce.png)
+![Source: [<VPIcon icon="fa-brands fa-openai"/>Aligning language models to follow instructions](https://openai.com/index/instruction-following/)](https://cdn.hashnode.com/uploads/covers/69ce92860ff860b6de01ed93/22cfce35-8c0e-4560-9419-15c6e33123ce.png)
 
-![Source: [<VPIcon icon="iconfont icon-openai"/>Aligning language models to follow instructions](https://openai.com/index/instruction-following/)](https://cdn.hashnode.com/uploads/covers/5e1e335a7a1d3fcc59028c64/cd366a10-f872-4468-bff3-64d05d0597d6.png)
+![Source: [<VPIcon icon="fa-brands fa-openai"/>Aligning language models to follow instructions](https://openai.com/index/instruction-following/)](https://cdn.hashnode.com/uploads/covers/5e1e335a7a1d3fcc59028c64/cd366a10-f872-4468-bff3-64d05d0597d6.png)
 
 These examples reveal the central weakness of early GPT systems. GPT-3 often continued the pattern of the prompt rather than completing the requested task. InstructGPT, by contrast, responded directly to the user's instruction. The difference wasn't a matter of raw intelligence. It was a difference in training objectives.
 

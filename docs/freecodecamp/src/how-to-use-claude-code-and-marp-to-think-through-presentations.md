@@ -2,7 +2,7 @@
 lang: en-US
 title: "Stop Staring at a Blank Deck: How I Use Claude Code + Marp to Think Through Presentations"
 description: "Article(s) > Stop Staring at a Blank Deck: How I Use Claude Code + Marp to Think Through Presentations"
-icon: iconfont icon-claude
+icon: fa-brands fa-claude
 category:
   - Node.js
   - Markdown

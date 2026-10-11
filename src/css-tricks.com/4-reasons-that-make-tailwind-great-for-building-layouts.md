@@ -5,13 +5,13 @@ description: "Article(s) > 4 Reasons That Make Tailwind Great for Building Layou
 icon: iconfont icon-tailwindcss
 category:
   - CSS
-  - TailwindCSS
+  - Tailwind CSS
   - Article(s)
 tag:
   - blog
   - css-tricks.com
-  - css
-  - tailwindcss
+  - CSS
+  - Tailwind CSS
   - tailwind-css
 head:
   - - meta:

@@ -137,7 +137,7 @@ This node is the “brain” of the workflow. The AI Agent node can understand n
 
 Click the `+` icon after the trigger node and add the `AI Agent` node. The AI Agent needs a model to power its reasoning. Click `+` below `Chat Model` and select `OpenAI Chat Model` node.
 
-Then select `n8n free OpenAI API credits` as your credential for now. In the future, you can sign up on the [<VPIcon icon="iconfont icon-openai"/>OpenAI Platform](https://platform.openai.com/) website and navigate to the "API keys" section to create a new secret key
+Then select `n8n free OpenAI API credits` as your credential for now. In the future, you can sign up on the [<VPIcon icon="fa-brands fa-openai"/>OpenAI Platform](https://platform.openai.com/) website and navigate to the "API keys" section to create a new secret key
 
 ![Click "AI agent" node and select the OpenAI chat model ](https://cdn.hashnode.com/res/hashnode/image/upload/v1759692503994/ac37a0bf-1d39-4fbe-9393-94fda82ea7a8.gif)
 

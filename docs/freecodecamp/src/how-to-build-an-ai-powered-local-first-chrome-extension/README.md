@@ -137,7 +137,7 @@ To follow along, you'll need:
 
 Two parts of this build are optional and require your own API key, each with a free tier:
 
-- An **Anthropic API key** (from [<VPIcon icon="iconfont icon-claude"/>platform.claude.com](https://platform.claude.com/settings/keys)) for AI labeling and the chat assistant
+- An **Anthropic API key** (from [<VPIcon icon="fa-brands fa-claude"/>platform.claude.com](https://platform.claude.com/settings/keys)) for AI labeling and the chat assistant
 - A **context.dev API key** (from [<VPIcon icon="fas fa-globe"/>context.dev](https://context.dev/login)) for the brand-grounding step
 
 You can build and use the entire core pipeline, capture, clustering, scoring, without either key, since both are additive layers on top of it.
@@ -975,7 +975,7 @@ Two files do this work. <VPIcon icon="fas fa-folder-open"/>`src/pipeline/`<VPIco
 
 ### Detecting Ambient Domains
 
-Some domains show up in almost every session regardless of what you're doing: [<VPIcon icon="fa-brands fa-youtube"/>youtube.com](https://youtube.com) as background noise, [<VPIcon icon="iconfont icon-github"/>github.com](https://github.com) if you're a developer who commits daily, or [<VPIcon icon="iconfont icon-claude"/>claude.ai](https://claude.ai) if you use it as a general assistant. If clustering compared sessions on these domains the same way it compares them on anything else, two completely unrelated sessions would look similar just because they both touched [<VPIcon icon="fa-brands fa-youtube"/>youtube.com](https://youtube.com), and everything would eventually merge into one enormous thread.
+Some domains show up in almost every session regardless of what you're doing: [<VPIcon icon="fa-brands fa-youtube"/>youtube.com](https://youtube.com) as background noise, [<VPIcon icon="iconfont icon-github"/>github.com](https://github.com) if you're a developer who commits daily, or [<VPIcon icon="fa-brands fa-claude"/>claude.ai](https://claude.ai) if you use it as a general assistant. If clustering compared sessions on these domains the same way it compares them on anything else, two completely unrelated sessions would look similar just because they both touched [<VPIcon icon="fa-brands fa-youtube"/>youtube.com](https://youtube.com), and everything would eventually merge into one enormous thread.
 
 .<VPIcon icon="iconfont icon-typescript"/>`ambient.ts` solves this with a frequency check: a domain is ambient if it shows up on a large enough fraction of your active days, regardless of topic.
 
@@ -2548,11 +2548,11 @@ The engineering underneath – time-gap segmentation, weighted Jaccard clusterin
 - [<VPIcon icon="fa-brands fa-chrome"/>`chrome.history API`](https://developer.chrome.com/docs/extensions/reference/api/history): the `search` and `getVisits` methods the backfill relies on
 - [<VPIcon icon="fa-brands fa-chrome"/>`chrome.tabs API`](https://developer.chrome.com/docs/extensions/reference/api/tabs): `onUpdated` for live capture and `create` for Resume
 - [<VPIcon icon="fa-brands fa-chrome"/>`chrome.storage` API](https://developer.chrome.com/docs/extensions/reference/api/storage): where API keys and preferences live, locally
-- [<VPIcon icon="iconfont icon-claude"/>Anthropic API reference](https://docs.claude.com/en/api/messages): the Messages endpoint used for labeling and the assistant
+- [<VPIcon icon="fa-brands fa-claude"/>Anthropic API reference](https://docs.claude.com/en/api/messages): the Messages endpoint used for labeling and the assistant
 
 ### Services used
 
-- [<VPIcon icon="iconfont icon-claude"/>Anthropic Console](https://console.anthropic.com/settings/keys): create the API key for AI labeling and the assistant
+- [<VPIcon icon="fa-brands fa-claude"/>Anthropic Console](https://console.anthropic.com/settings/keys): create the API key for AI labeling and the assistant
 - [<VPIcon icon="fas fa-globe"/>context.dev](http://context.dev) [<VPIcon icon="fas fa-globe"/>documentation](https://docs.context.dev): the brand-intelligence API used for grounding
 - [<VPIcon icon="fa-brands fa-firefox"/>IndexedDB (MDN)](https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API): the local database every pipeline stage reads and writes
 

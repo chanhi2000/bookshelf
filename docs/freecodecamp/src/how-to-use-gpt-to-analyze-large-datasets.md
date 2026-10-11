@@ -2,7 +2,7 @@
 lang: en-US
 title: "How to Use GPT to Analyze Large Datasets"
 description: "Article(s) > How to Use GPT to Analyze Large Datasets"
-icon: iconfont icon-openai
+icon: fa-brands fa-openai
 category: 
   - AI
   - LLM

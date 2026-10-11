@@ -1758,7 +1758,7 @@ const HOW_TO_SECURE_A_KUBERNETES_CLUSTER_HANDBOOK: SidebarInfoSubgroupTemplate =
 const CLAUDE_CODE_HANDBOOK: SidebarInfoSubgroupTemplate = { // 2026-03-26
   text: "The Claude Code Handbook: A Professional Introduction to Building with AI-Assisted Development",
   collapsible: true,
-  icon: 'iconfont icon-claude',
+  icon: 'fa-brands fa-claude',
   subPath: 'claude-code-handbook',
   children: [
     'README',
@@ -1934,7 +1934,7 @@ const LEARN_COMMAND_LINE_INTERFACE_CLI_DEVELOPMENT_WITH_DART_FROM_ZERO_TO_A_FULL
 const THE_CODEX_HANDBOOK_A_PRACTICAL_GUIDE_TO_OPENAI_S_CODING_PLATFORM: SidebarInfoSubgroupTemplate = { // 2026-05-09
   text: "The Codex Handbook: A Practical Guide to OpenAI's Coding Platform",
   collapsible: true,
-  icon: 'iconfont icon-openai',
+  icon: 'fa-brands fa-openai',
   subPath: 'the-codex-handbook-a-practical-guide-to-openai-s-coding-platform',
   children: [
     'README',
@@ -1967,7 +1967,7 @@ const HOW_TO_BUILD_PRODUCTION_READY_AI_FEATURES_WITH_FLUTTER_HANDBOOK_FOR_DEVS: 
 const HOW_TO_BUILD_SOFTWARE_FACTORY_WITH_CLAUDE_CODE: SidebarInfoSubgroupTemplate = { // 2026-05-22
   text: "How to Build a Software Factory with Claude Code: From Vibe Coding to Agentic Development",
   collapsible: true,
-  icon: 'iconfont icon-claude',
+  icon: 'fa-brands fa-claude',
   subPath: 'how-to-build-software-factory-with-claude-code',
   children: [
     'README',
@@ -2220,7 +2220,7 @@ const BUILD_A_MARKET_TIME_MACHINE_REPLAY_TRADING_SESSIONS_WITH_PYTHON_AND_WEBSOC
 const BUILD_AN_AI_ANALYSIS_AGENT: SidebarInfoSubgroupTemplate = { // 2026-09-02
   text: "How to Build an AI File Analysis Agent with Python",
   collapsible: true,
-  icon: 'iconfont icon-openai',
+  icon: 'fa-brands fa-openai',
   subPath: 'build-an-ai-analysis-agent',
   children: [
     'README',
@@ -2283,11 +2283,102 @@ const NODEJS_AND_EXPRESSJS_HANDBOOK_FOR_BEGINNERS: SidebarInfoSubgroupTemplate =
   ]
 }
 
+const THE_STATE_OF_AI_AND_SOFTWARE_ENGINEERING_BOOK: SidebarInfoSubgroupTemplate = { // 2026-10-12
+  text: "The State of AI and Software Engineering: Code is Cheaper but Expertise are More Valuable [Full Book]",
+  collapsible: true,
+  icon: 'fas fa-brain',
+  subPath: 'the-state-of-ai-and-software-engineering-book',
+  children: [
+    'README',
+    // TODO: 페이지 생성
+  ]
+}
+
+const DISASTER_SIMULATION_REAL_MAP_MAPBOX_THREE_JS: SidebarInfoSubgroupTemplate = { // 2026-10-15
+  text: "How to Build Disaster Simulations on a Real Map: Animated Canvas Layers and Collapsing 3D Buildings with Mapbox GL JS and Three.js",
+  collapsible: true,
+  icon: 'iconfont icon-threejs',
+  subPath: 'disaster-simulation-real-map-mapbox-three-js',
+  children: [
+    'README',
+    // TODO: 페이지 생성
+  ]
+}
+
+const BUILD_EPHEMERAL_PR_PREVIEW_ENVIRONMENTS_ON_GKE_WITH_GITHUB_ACTIONS_INGRESS_AUTOMATIC_TLS: SidebarInfoSubgroupTemplate = { // 2026-10-15
+  text: "How to Build Ephemeral PR Preview Environments on GKE with GitHub Actions, Ingress, and Automatic TLS",
+  collapsible: true,
+  icon: 'iconfont icon-gcp',
+  subPath: 'build-ephemeral-pr-preview-environments-on-gke-with-github-actions-ingress-automatic-tls',
+  children: [
+    'README',
+    // TODO: 페이지 생성
+  ]
+}
+
+const AGENTIC_AI_RELIABILITY_BOOK_BUILD_A_TESTING_HARNESS: SidebarInfoSubgroupTemplate = { // 2026-10-17
+  text: "Agentic AI Reliability: Build a Testing Harness for Tool Use, Guardrails, Loops, & Workflow Outcomes [Full Book]",
+  collapsible: true,
+  icon: 'fas fa-language',
+  subPath: 'agentic-ai-reliability-book-build-a-testing-harness',
+  children: [
+    'README',
+    // TODO: 페이지 생성
+  ]
+}
+
+const HOW_TO_MIGRATE_AN_APPLICATION_FROM_AWS_TO_GKE_FULL_BOOK: SidebarInfoSubgroupTemplate = { // 2026-10-17
+  text: "How to Migrate an Application from AWS to GKE [Full Book]",
+  collapsible: true,
+  icon: 'iconfont icon-gcp',
+  subPath: 'how-to-migrate-an-application-from-aws-to-gke-full-book',
+  children: [
+    'README',
+    // TODO: 페이지 생성
+  ]
+}
+
+const BUILD_PUBLISH_NATIVE_ANDROID_APP_FROM_JETPACK_COMPOSE_TO_GOOGLE_PLAY_STORE_HANDBOOK: SidebarInfoSubgroupTemplate = { // 2026-10-19
+  text: "How to Build and Publish a Native Android App in 2026: From Jetpack Compose to the Google Play Store",
+  collapsible: true,
+  icon: 'fa-brands fa-android',
+  subPath: 'build-publish-native-android-app-from-jetpack-compose-to-google-play-store-handbook',
+  children: [
+    'README',
+    // TODO: 페이지 생성
+  ]
+}
+
 const Y2026: SidebarYeargroupTemplate = {
   text: '2026',
   collapsible: true,
   children: [
     // END: 2026
+    "learn-model-context-protocol-mcp-security", // 2026-10-23
+    "what-is-model-distillation-a-guide-for-developers", // 2026-10-22
+    "diagnose-vite-not-found-npm-ci-container-build", // 2026-10-22
+    "build-a-hybrid-search-engine-in-postgresql-bm25-vector-retrieval", // 2026-10-21
+    "how-neural-networks-work-why-straight-lines-aren-t-enough", // 2026-10-21
+    "how-wearables-can-adapt-when-pregnancy-changes-a-user-s-regular-baseline", // 2026-10-21
+    "how-to-build-an-ai-agent-harness-from-scratch-in-typescript", // 2026-10-20 
+    "how-to-make-your-coding-agent-check-its-work-in-the-browser", // 2026-10-20
+    BUILD_PUBLISH_NATIVE_ANDROID_APP_FROM_JETPACK_COMPOSE_TO_GOOGLE_PLAY_STORE_HANDBOOK, // 2026-10-19
+    "detect-operational-drift-before-incident", // 2026-10-19
+    "how-to-build-a-website-user-interface-faster-using-ai-prompts", // 2026-10-19
+    HOW_TO_MIGRATE_AN_APPLICATION_FROM_AWS_TO_GKE_FULL_BOOK, // 2026-10-17
+    AGENTIC_AI_RELIABILITY_BOOK_BUILD_A_TESTING_HARNESS, // 2026-10-17
+    "the-anatomy-of-an-ai-data-center", // 2026-10-16
+    "learn-how-to-design-software-systems-like-a-senior-engineer-in-our-new-course", // 2026-10-16
+    BUILD_EPHEMERAL_PR_PREVIEW_ENVIRONMENTS_ON_GKE_WITH_GITHUB_ACTIONS_INGRESS_AUTOMATIC_TLS, // 2026-10-15
+    "how-to-give-ai-agent-safe-access-internal-api-mcp", // 2026-10-15
+    "secure-by-design-engineer-security-into-architecture-before-writing-code", // 2026-10-15
+    DISASTER_SIMULATION_REAL_MAP_MAPBOX_THREE_JS, // 2026-10-15
+    "how-to-stop-an-ai-agent-from-inventing-nigerian-postcodes", // 2026-10-15
+    "how-to-keep-a-file-for-minutes-not-years-on-cloud-run", // 2026-10-14
+    THE_STATE_OF_AI_AND_SOFTWARE_ENGINEERING_BOOK, // 2026-10-12
+    "what-to-do-when-your-constants-are-someone-else-s-law", // 2026-10-11
+    "measure-conformance-operational-specification-execution", // 2026-10-11
+    "nextjs-json-ld-structured-data", // 2026-10-11
     "create-scalable-ai-automations-with-n8n", // 2026-10-10
     "master-modern-react-routing-tanstack-router-crash-course", // 2026-10-09
     "how-to-create-system-design-diagrams-using-python", // 2026-10-08
@@ -4491,6 +4582,7 @@ export const template: SidebarInfoTemplate = {
         "the-ios-nfc-handbook-how-to-read-write-and-lock-nfc-tags-with-react-native", // 2026-09-20
         "how-to-stop-your-android-app-from-draining-the-battery-with-wake-locks", // 2026-10-01
         "how-to-avoid-jni-crashes-by-managing-local-and-global-references-correctly", // 2026-10-04
+        BUILD_PUBLISH_NATIVE_ANDROID_APP_FROM_JETPACK_COMPOSE_TO_GOOGLE_PLAY_STORE_HANDBOOK, // 2026-10-19
         // END: 2026java-android
         // END: java-android
       ]], [
@@ -4756,6 +4848,8 @@ export const template: SidebarInfoTemplate = {
         "executable-operational-specifications-software-automation", // 2026-09-25
         "how-to-build-a-code-graph-in-typescript-using-vs-code-language-apis", // 2026-10-01
         "separate-operational-intent-from-executor", // 2026-10-04
+        "measure-conformance-operational-specification-execution", // 2026-10-11
+        "how-to-build-an-ai-agent-harness-from-scratch-in-typescript", // 2026-10-20 
         // END: 2026ts
         // END: ts
       ]], [
@@ -4882,6 +4976,8 @@ export const template: SidebarInfoTemplate = {
         "how-webrtc-scales-signaling-nat-traversal-and-the-mesh-sfu-mcu-tradeoff", // 2026-09-16
         "why-you-should-never-embed-your-gemini-api-key-in-client-code-and-how-firebase-ai-logic-fixes-it", // 2026-09-20
         "how-to-break-the-ai-coding-agent-fix-loop", // 2026-10-05
+        "how-to-make-your-coding-agent-check-its-work-in-the-browser", // 2026-10-20
+        "diagnose-vite-not-found-npm-ci-container-build", // 2026-10-22
         // END: 2026js-node
         // END: js-node
       ]], [
@@ -5090,6 +5186,7 @@ export const template: SidebarInfoTemplate = {
         "how-to-create-a-kyc-onboarding-flow-with-shadcn-ui", // 2026-08-14
         "how-to-build-an-ai-chat-app-interface-with-the-ai-sdk", // 2026-09-12
         "how-to-add-shadcn-ui-charts-to-nextjs", // 2026-10-02
+        "how-to-build-a-website-user-interface-faster-using-ai-prompts", // 2026-10-19
         // END: 2026js-shadcn
         // END: js-shadcn
       ]], [
@@ -5178,8 +5275,10 @@ export const template: SidebarInfoTemplate = {
         "how-to-add-shadcn-ui-charts-to-nextjs", // 2026-10-02
         "build-your-own-ai-app-builder-with-next-js-aws-and-sandboxes", // 2026-10-02
         "build-an-ai-support-system-that-automatically-routes-bugs-to-github", // 2026-10-02
+        "nextjs-json-ld-structured-data", // 2026-10-11
+        "how-to-build-a-website-user-interface-faster-using-ai-prompts", // 2026-10-19
         // END: 2026js-next
-        // END: js-next
+        // END:t
       ]], [
       "js-nuxt", [
         "rbac-community-dashboard-with-nuxt", // 2024-11-23
@@ -5510,6 +5609,7 @@ export const template: SidebarInfoTemplate = {
         "how-to-deploy-a-full-stack-next-js-app-on-cloudflare-workers-with-github-actions-ci-cd", // 2026-04-29
         "master-full-stack-mobile-development-with-react-native", // 2026-07-16
         "how-to-build-a-flashcard-study-app-with-next-js-and-mongodb", // 2026-08-27
+        "how-to-build-a-website-user-interface-faster-using-ai-prompts", // 2026-10-19
         // END: 2026css-tailwind
         // END: css-tailwind
       ]], [
@@ -5768,6 +5868,8 @@ export const template: SidebarInfoTemplate = {
         "how-to-build-a-reliable-ai-assistant-with-the-claude-api", // 2026-09-29
         "how-to-debug-a-stuck-kubernetes-rollout-with-a-hands-on-lab", // 2026-10-01
         "how-to-create-system-design-diagrams-using-python", // 2026-10-08
+        AGENTIC_AI_RELIABILITY_BOOK_BUILD_A_TESTING_HARNESS, // 2026-10-17
+        "build-a-hybrid-search-engine-in-postgresql-bm25-vector-retrieval", // 2026-10-21
         // END: 2026py
         // END: py
       ]], [
@@ -5957,6 +6059,7 @@ export const template: SidebarInfoTemplate = {
         "how-to-train-a-tumor-segmentation-model-on-ultrasound-data-with-monai", // 2026-07-23
         "how-to-customize-an-llm-for-ai-agents-using-sft-and-qlora", // 2026-08-07
         "how-to-turn-a-recist-line-into-a-3d-tumor-segmentation-mask", // 2026-09-19
+        "what-is-model-distillation-a-guide-for-developers", // 2026-10-22
         // END: 2026py-torch
         // END: py-torch
       ]], [
@@ -6330,6 +6433,7 @@ export const template: SidebarInfoTemplate = {
         "how-to-build-a-postgresql-backed-job-queue-in-go", // 2026-06-10
         REMOTE_PROCEDURE_CALLS_PROTOCOL_BUFFERS_AND_MODERN_DISTRIBUTED_SYSTEMS_COMMUNICATION, // 2026-07-23
         "how-to-build-kubernetes-operators-a-handbook-for-devs", // 2026-07-29
+        "what-to-do-when-your-constants-are-someone-else-s-law", // 2026-10-11
         // END: 2026go
         // END: go
       ]], [
@@ -7003,6 +7107,8 @@ export const template: SidebarInfoTemplate = {
         "how-to-prevent-race-conditions-in-django", // 2026-09-12
         "build-an-endpoint-data-loss-prevention-strategy-for-your-dev-team", // 2026-09-16
         "claude-code-in-a-docker-sandbox", // 2026-10-06
+        HOW_TO_MIGRATE_AN_APPLICATION_FROM_AWS_TO_GKE_FULL_BOOK, // 2026-10-17
+        "diagnose-vite-not-found-npm-ci-container-build", // 2026-10-22
         // END: 2026docker
         // END: docker
       ]], [
@@ -7066,6 +7172,7 @@ export const template: SidebarInfoTemplate = {
         "how-to-govern-ai-generated-infrastructure-with-policy-as-code-and-opa-full-handbook", // 2026-09-29
         "how-to-diagnose-and-fix-ai-inference-latency-on-kubernetes", // 2026-09-30
         "how-to-debug-a-stuck-kubernetes-rollout-with-a-hands-on-lab", // 2026-10-01
+        HOW_TO_MIGRATE_AN_APPLICATION_FROM_AWS_TO_GKE_FULL_BOOK, // 2026-10-17
         // END: 2026k8s
         // END: k8s
       ]], [
@@ -7173,6 +7280,8 @@ export const template: SidebarInfoTemplate = {
         "aws-cloud-cost-monitoring-alerting-and-optimization-a-guide-for-devs", // 2026-09-08
         "how-to-govern-ai-generated-infrastructure-with-policy-as-code-and-opa-full-handbook", // 2026-09-29
         "build-your-own-ai-app-builder-with-next-js-aws-and-sandboxes", // 2026-10-02
+        "learn-how-to-design-software-systems-like-a-senior-engineer-in-our-new-course", // 2026-10-16
+        HOW_TO_MIGRATE_AN_APPLICATION_FROM_AWS_TO_GKE_FULL_BOOK, // 2026-10-17
         // END: 2026aws
         // END: aws
       ]], [
@@ -7222,6 +7331,7 @@ export const template: SidebarInfoTemplate = {
         "how-to-automate-flutter-releases-with-fastlane-and-github-actions", // 2026-08-12
         "how-firestore-structures-data-and-how-to-perform-crud-operations-with-it", // 2026-09-01
         "why-you-should-never-embed-your-gemini-api-key-in-client-code-and-how-firebase-ai-logic-fixes-it", // 2026-09-20
+        HOW_TO_MIGRATE_AN_APPLICATION_FROM_AWS_TO_GKE_FULL_BOOK, // 2026-10-17
         // END: 2026gcp
         // END: gcp
       ]], [
@@ -7393,6 +7503,7 @@ export const template: SidebarInfoTemplate = {
         "how-to-implement-hipaa-technical-safeguards-on-aws-full-handbook", // 2026-08-04
         "aws-cloud-cost-monitoring-alerting-and-optimization-a-guide-for-devs", // 2026-09-08
         "how-to-govern-ai-generated-infrastructure-with-policy-as-code-and-opa-full-handbook", // 2026-09-29
+        HOW_TO_MIGRATE_AN_APPLICATION_FROM_AWS_TO_GKE_FULL_BOOK, // 2026-10-17
         // END: 2026terraform
         // END: terraform
       ]], [
@@ -7748,6 +7859,7 @@ export const template: SidebarInfoTemplate = {
         "how-to-build-a-multi-tenant-saas-api-with-nodejs-rbac-and-audit-logging", // 2026-07-21
         "how-to-fix-the-dual-write-problem-in-node-js-with-the-outbox-pattern", // 2026-08-06
         "timescaledb-course-postgresql-for-time-series-data", // 2026-09-24
+        "build-a-hybrid-search-engine-in-postgresql-bm25-vector-retrieval", // 2026-10-21
         // END: 2026postgresql
         // END: postgresql
       ]], [
@@ -8050,6 +8162,7 @@ export const template: SidebarInfoTemplate = {
         "how-to-implement-lego-architecture-in-flutter-handbook", // 2026-09-12
         "how-to-design-gifting-features-people-actually-use-evidence-from-58-apps", // 2026-09-14
         "how-to-use-nestjs-observe-an-observability-handbook-for-devs", // 2026-10-05
+        "learn-how-to-design-software-systems-like-a-senior-engineer-in-our-new-course", // 2026-10-16
         // END: 2026system-design
         // END: system-design
       ]], [
@@ -8111,6 +8224,7 @@ export const template: SidebarInfoTemplate = {
         "how-ai-is-changing-malware-detection", // 2026-09-12
         "healthcare-ai-won-t-work-until-you-fix-your-data", // 2026-10-01
         "ai-email-deliverability-explained", // 2026-10-05
+        "the-anatomy-of-an-ai-data-center", // 2026-10-16
         // END: 2026ai
         // END: ai
       ]], [
@@ -8256,6 +8370,11 @@ export const template: SidebarInfoTemplate = {
         "separate-operational-intent-from-executor", // 2026-10-04
         "how-to-break-the-ai-coding-agent-fix-loop", // 2026-10-05
         "build-and-train-a-25m-parameter-llm-from-scratch-on-your-cpu", // 2026-10-08
+        AGENTIC_AI_RELIABILITY_BOOK_BUILD_A_TESTING_HARNESS, // 2026-10-17
+        "how-to-build-a-website-user-interface-faster-using-ai-prompts", // 2026-10-19
+        "detect-operational-drift-before-incident", // 2026-10-19
+        "how-neural-networks-work-why-straight-lines-aren-t-enough", // 2026-10-21
+        "what-is-model-distillation-a-guide-for-developers", // 2026-10-22
         // END: 2026llm
         // END: llm
       ]], [
@@ -8306,6 +8425,8 @@ export const template: SidebarInfoTemplate = {
         "build-a-self-evaluating-ai-system-automated-testing-and-evaluation-pipelines-for-llm-apps", // 2026-09-12
         "build-and-publish-a-full-stack-mobile-app-with-ai", // 2026-10-02
         "build-your-own-ai-app-builder-with-next-js-aws-and-sandboxes", // 2026-10-02
+        "how-to-make-your-coding-agent-check-its-work-in-the-browser", // 2026-10-20
+        "how-to-build-an-ai-agent-harness-from-scratch-in-typescript", // 2026-10-20 
         // END: 2026openai
         // END: openai
       ]], [
@@ -8418,6 +8539,7 @@ export const template: SidebarInfoTemplate = {
         "how-to-build-a-reliable-ai-assistant-with-the-claude-api", // 2026-09-29
         "build-your-own-ai-app-builder-with-next-js-aws-and-sandboxes", // 2026-10-02
         "claude-code-in-a-docker-sandbox", // 2026-10-06
+        "how-to-make-your-coding-agent-check-its-work-in-the-browser", // 2026-10-20
         // END: 2026claude
         // END: claude
       ]], [
@@ -8661,6 +8783,7 @@ export const template: SidebarInfoTemplate = {
         THE_MATH_BEHIND_ARTIFICIAL_INTELLIGENCE_BOOK, // 2026-01-07
         "neural-networks-explained-using-y-ax-b", // 2026-01-08
         "data-science-insights-why-the-mean-lies-when-handling-messy-retail-data", // 2026-05-06
+        "how-neural-networks-work-why-straight-lines-aren-t-enough", // 2026-10-21
         // END: 2026math
         // END: math
       ]], [
@@ -8851,6 +8974,8 @@ export const template: SidebarInfoTemplate = {
         "apple-watch-health-age-whats-it-actually-measuring", // 2026-09-12
         "apple-watch-vo2-max-test-cardiorespiratory-fitness", // 2026-09-12
         "are-screenless-wearables-better-for-health-tracking", // 2026-10-01
+        "the-anatomy-of-an-ai-data-center", // 2026-10-16
+        "how-wearables-can-adapt-when-pregnancy-changes-a-user-s-regular-baseline", // 2026-10-21
         // END: 2026hw
         // END: hw
       ]], [

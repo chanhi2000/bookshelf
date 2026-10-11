@@ -194,7 +194,7 @@ I deploy it with [<VPIcon icon="fas fa-globe"/>Dokploy](https://dokploy.com) on 
 
 Maintenance is harder to price. If the API changes or a deployment fails, that's my time to spend. A stable API helps, but backups, dependency updates, and deployment problems still need attention.
 
-My [<VPIcon icon="iconfont icon-claude"/>Claude Max 20x plan](https://support.claude.com/en/articles/11049741-what-is-the-max-plan), which I use for Claude Code, costs $200 a month. Avoiding the next $120 annual TurboScribe renewal covers **60% of the Claude bill for the month I built this**, before the app's running costs. After a year's estimated base transcription costs, that's still about **56% of one month's Claude subscription**, before hosting, maintenance, and other usage.
+My [<VPIcon icon="fa-brands fa-claude"/>Claude Max 20x plan](https://support.claude.com/en/articles/11049741-what-is-the-max-plan), which I use for Claude Code, costs $200 a month. Avoiding the next $120 annual TurboScribe renewal covers **60% of the Claude bill for the month I built this**, before the app's running costs. After a year's estimated base transcription costs, that's still about **56% of one month's Claude subscription**, before hosting, maintenance, and other usage.
 
 ---
 

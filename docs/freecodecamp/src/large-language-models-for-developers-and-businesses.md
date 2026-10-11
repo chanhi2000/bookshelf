@@ -96,7 +96,7 @@ When you’re deciding which LLM to use, keep these key factors in mind:
 
 Now it’s time to dive into the LLMs that I think are making the biggest impact right now:
 
-### <VPIcon icon="iconfont icon-openai"/>GPT-4
+### <VPIcon icon="fa-brands fa-openai"/>GPT-4
 
 OpenAI's GPT-4 is still one of the most powerful models available. It's known for its creativity and accuracy in many different applications. With over a trillion parameters, GPT-4 is great at natural conversations, answering complex questions, and generating creative content.
 
@@ -207,7 +207,7 @@ Falcon is also affordable and doesn't compromise on quality, plus it focuses on 
 
 :::
 
-### <VPIcon icon="iconfont icon-claude"/>Claude
+### <VPIcon icon="fa-brands fa-claude"/>Claude
 
 Anthropic’s Claude is focused on safety and ethics. It’s built to generate helpful and safe responses, making it ideal for companies that care about ethical AI use.
 

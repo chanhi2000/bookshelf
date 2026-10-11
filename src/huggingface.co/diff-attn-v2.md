@@ -278,7 +278,7 @@ $$
 \text{RMS}(\mathbf{c}_i) \in \left(0, 1\right
 $$
 
-- In [<VPIcon icon="iconfont icon-openai"/>gpt-oss](https://openai.com/index/introducing-gpt-oss/), a learnable scalar sss is introduced for each head:
+- In [<VPIcon icon="fa-brands fa-openai"/>gpt-oss](https://openai.com/index/introducing-gpt-oss/), a learnable scalar sss is introduced for each head:
 
 $$
 \begin{align*}

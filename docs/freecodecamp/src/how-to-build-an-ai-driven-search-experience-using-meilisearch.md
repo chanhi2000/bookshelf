@@ -2,7 +2,7 @@
 lang: en-US
 title: "How to Build an AI-Driven Search Experience using Meilisearch"
 description: "Article(s) > How to Build an AI-Driven Search Experience using Meilisearch"
-icon: iconfont icon-openai
+icon: fa-brands fa-openai
 category:
   - AI
   - LLM

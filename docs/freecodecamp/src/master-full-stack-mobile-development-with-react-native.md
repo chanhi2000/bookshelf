@@ -7,7 +7,7 @@ category:
   - Node.js
   - React.js
   - CSS
-  - TailwindCSS
+  - Tailwind CSS
   - Youtube
   - Article(s)
 tag:

@@ -2,7 +2,7 @@
 lang: en-US
 title: "How to Stop Letting AI Agents Guess Your Requirements"
 description: "Article(s) > How to Stop Letting AI Agents Guess Your Requirements"
-icon: iconfont icon-claude
+icon: fa-brands fa-claude
 category:
   - AI
   - LLM

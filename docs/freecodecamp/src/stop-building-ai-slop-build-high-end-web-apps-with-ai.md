@@ -2,7 +2,7 @@
 lang: en-US
 title: "Stop Building AI Slop: Build High-End Web Apps with AI"
 description: "Article(s) > Stop Building AI Slop: Build High-End Web Apps with AI"
-icon: iconfont icon-claude
+icon: fa-brands fa-claude
 category:
   - AI
   - LLM

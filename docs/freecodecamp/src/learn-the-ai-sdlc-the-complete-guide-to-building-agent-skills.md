@@ -108,7 +108,7 @@ That's the problem **Agent Skills** solves.
 
 A skill is a folder with one Skill.md file in it. The agent reads a one-line summary at startup, and opens the full instructions only when a task actually needs them. Write the explanation once, commit it next to your code, and every agent on your team can access it now and automate any boring task.
 
-The format started at [<VPIcon icon="iconfont icon-claude"/>Anthropic](https://anthropic.com/), was released as an open standard, and now it supports more than 45 tools that work with it, including Claude Code, VS Code, GitHub Copilot, Cursor, Gemini CLI, Codex, Goose, and JetBrains Junie. Google Antigravity supports it too. One folder, every tool.
+The format started at [<VPIcon icon="fa-brands fa-claude"/>Anthropic](https://anthropic.com/), was released as an open standard, and now it supports more than 45 tools that work with it, including Claude Code, VS Code, GitHub Copilot, Cursor, Gemini CLI, Codex, Goose, and JetBrains Junie. Google Antigravity supports it too. One folder, every tool.
 
 ---
 

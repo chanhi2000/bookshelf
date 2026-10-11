@@ -190,7 +190,7 @@ Think of it like this: naïve chunking is like ripping pages out of a book at ra
 
 ### Anthropic’s Contextual Embeddings Approach
 
-Anthropic published a technique called [<VPIcon icon="iconfont icon-claude"/>**Contextual Retrieval** in late 2024](https://platform.claude.com/cookbook/capabilities-contextual-embeddings-guide) that aims at improving RAG accuracy. The approach is that before embedding a chunk, you prepend it with a brief context summary that explains what this chunk is about and where it sits in the document.
+Anthropic published a technique called [<VPIcon icon="fa-brands fa-claude"/>**Contextual Retrieval** in late 2024](https://platform.claude.com/cookbook/capabilities-contextual-embeddings-guide) that aims at improving RAG accuracy. The approach is that before embedding a chunk, you prepend it with a brief context summary that explains what this chunk is about and where it sits in the document.
 
 Here’s how it works in practice:
 
@@ -243,7 +243,7 @@ The LLM reads the full document and the specific chunk, then generates a summary
 
 ### Hybrid Retrieval: BM25 + Contextual Embeddings
 
-Anthropic’s research also found that [<VPIcon icon="iconfont icon-claude"/>combining contextual embeddings with traditional BM25 (keyword search)](https://platform.claude.com/cookbook/capabilities-contextual-embeddings-guide#contextual-bm-25-hybrid-search) dramatically outperforms either method (as above) alone. The reason is that embeddings capture semantic meaning, while BM25 captures exact keyword matches.
+Anthropic’s research also found that [<VPIcon icon="fa-brands fa-claude"/>combining contextual embeddings with traditional BM25 (keyword search)](https://platform.claude.com/cookbook/capabilities-contextual-embeddings-guide#contextual-bm-25-hybrid-search) dramatically outperforms either method (as above) alone. The reason is that embeddings capture semantic meaning, while BM25 captures exact keyword matches.
 
 Here’s a realistic scenario where hybrid search would work efficiently:
 

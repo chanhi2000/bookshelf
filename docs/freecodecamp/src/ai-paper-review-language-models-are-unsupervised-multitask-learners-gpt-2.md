@@ -2,7 +2,7 @@
 lang: en-US
 title: "AI Paper Review: Language Models are Unsupervised Multitask Learners (GPT-2)"
 description: "Article(s) > AI Paper Review: Language Models are Unsupervised Multitask Learners (GPT-2)"
-icon: iconfont icon-openai
+icon: fa-brands fa-openai
 category:
   - AI
   - LLM
@@ -413,7 +413,7 @@ This idea directly sets the stage for what comes next: models like GPT-3, ChatGP
 
 - [Pytorch Projects for GPT series (<VPIcon icon="iconfont icon-github"/>`MOHAMMEDFAHD/Pytorch-Collections`)](https://github.com/MOHAMMEDFAHD/Pytorch-Collections/tree/main/GPT)
 - [<VPIcon icon="iconfont icon-arxiv"/>Attention Is All You Need](https://arxiv.org/pdf/1706.03762)
-- [<VPIcon icon="iconfont icon-openai"/>Improving Language Understanding by Generative Pre-Training](https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf)
+- [<VPIcon icon="fa-brands fa-openai"/>Improving Language Understanding by Generative Pre-Training](https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf)
 - [<VPIcon icon="iconfont icon-arxiv"/>BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/pdf/1810.04805)
 - [Semi-supervised Sequence Learning](https://papers.nips.cc/paper_files/paper/2015/file/7137debd45ae4d0ab9aa953017286b20-Paper.pdf)
 - [Universal Language Model Fine-tuning for Text Classification](https://aclanthology.org/P18-1031.pdf?)

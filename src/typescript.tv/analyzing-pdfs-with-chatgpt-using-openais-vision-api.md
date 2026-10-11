@@ -61,9 +61,9 @@ cover: https://typescript.tv/_astro/default.1vUQK0zJ_Zqutxx.webp
 
 Learn how to convert PDFs to images using Node.js and analyze them with OpenAI's Vision API. This process ensures privacy as images are deleted after analysis.
 
-ChatGPT's web interface enables users to upload files from their computer, Google Drive, or Microsoft's OneDrive. This functionality allows you to upload PDFs and ask questions related to these documents. For instance, you can upload your insurance documents and inquire if you are covered in specific situations. Using the OpenAI API, you can [<VPIcon icon="iconfont icon-openai"/>upload files](https://platform.openai.com/docs/api-reference/files) but you'll need to manage file retrieval and deletion.
+ChatGPT's web interface enables users to upload files from their computer, Google Drive, or Microsoft's OneDrive. This functionality allows you to upload PDFs and ask questions related to these documents. For instance, you can upload your insurance documents and inquire if you are covered in specific situations. Using the OpenAI API, you can [<VPIcon icon="fa-brands fa-openai"/>upload files](https://platform.openai.com/docs/api-reference/files) but you'll need to manage file retrieval and deletion.
 
-In this tutorial, I will present an alternative approach: converting a PDF to an image that can be analyzed using [<VPIcon icon="iconfont icon-openai"/>OpenAI's Vision API](https://platform.openai.com/docs/guides/vision?lang=node). The main advantage is that once the image is processed by the model, it is deleted from OpenAI servers and not retained.
+In this tutorial, I will present an alternative approach: converting a PDF to an image that can be analyzed using [<VPIcon icon="fa-brands fa-openai"/>OpenAI's Vision API](https://platform.openai.com/docs/guides/vision?lang=node). The main advantage is that once the image is processed by the model, it is deleted from OpenAI servers and not retained.
 
 ---
 
@@ -126,13 +126,13 @@ const response = await openai.chat.completions.create({
 console.log(response.choices[0]?.message.content);
 ```
 
-Be sure to phrase your questions to inquire about the image's content. According to the "[<VPIcon icon="iconfont icon-openai"/>Managing images](https://platform.openai.com/docs/guides/vision/managing-images)" documentation, images uploaded via the OpenAI API are not used to train global models. Once an image has been processed, it is deleted from OpenAI servers.
+Be sure to phrase your questions to inquire about the image's content. According to the "[<VPIcon icon="fa-brands fa-openai"/>Managing images](https://platform.openai.com/docs/guides/vision/managing-images)" documentation, images uploaded via the OpenAI API are not used to train global models. Once an image has been processed, it is deleted from OpenAI servers.
 
 ---
 
 ## Combine PDF Conversion and Image Analysis
 
-Let's combine the previous steps to create a tool that converts PDFs to images and then uses the [<VPIcon icon="iconfont icon-openai"/>chat completion functionality](https://platform.openai.com/docs/api-reference/chat/create) to analyze them. Since we don't have public URLs for our images, we'll encode them into Base64. We'll also ensure the images are [<VPIcon icon="iconfont icon-openai"/>high-resolution](https://platform.openai.com/docs/guides/vision/low-or-high-fidelity-image-understanding) to improve analysis accuracy.
+Let's combine the previous steps to create a tool that converts PDFs to images and then uses the [<VPIcon icon="fa-brands fa-openai"/>chat completion functionality](https://platform.openai.com/docs/api-reference/chat/create) to analyze them. Since we don't have public URLs for our images, we'll encode them into Base64. We'll also ensure the images are [<VPIcon icon="fa-brands fa-openai"/>high-resolution](https://platform.openai.com/docs/guides/vision/low-or-high-fidelity-image-understanding) to improve analysis accuracy.
 
 ::: info Game Plan
 

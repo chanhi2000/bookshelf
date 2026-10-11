@@ -2,7 +2,7 @@
 lang: en-US
 title: "How to Build an AI File Analysis Agent with Python"
 description: "Article(s) > How to Build an AI File Analysis Agent with Python"
-icon: iconfont icon-openai
+icon: fa-brands fa-openai
 category:
   - Python
   - AI

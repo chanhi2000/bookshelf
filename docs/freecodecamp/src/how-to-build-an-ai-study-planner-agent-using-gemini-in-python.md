@@ -7,7 +7,7 @@ category:
   - Python
   - Flask
   - CSS
-  - TailwindCSS
+  - Tailwind CSS
   - AI
   - LLM
   - Google 
@@ -20,8 +20,8 @@ tag:
   - python
   - flask
   - py-flask
-  - css
-  - tailwindcss
+  - CSS
+  - Tailwind CSS
   - tailwind-css
   - ai
   - artificial-intelligence
@@ -215,7 +215,7 @@ Go to [<VPIcon icon="fa-brands fa-google"/>Google AI Studio](https://aistudio.go
 
 ![Google AI Studio Landing Page](https://cdn.hashnode.com/res/hashnode/image/upload/v1756829119333/fd2f68f8-2d15-491e-9b9d-a5563f3d926b.png)
 
-Next, get yourself a new API key by clicking the **Create API Key** from the [<VPIcon icon="iconfont icon-openai"/>API Keys](https://platform.openai.com/api-keys) section.
+Next, get yourself a new API key by clicking the **Create API Key** from the [<VPIcon icon="fa-brands fa-openai"/>API Keys](https://platform.openai.com/api-keys) section.
 
 ![Google AI Studio API Keys dashboard](https://cdn.hashnode.com/res/hashnode/image/upload/v1756829166748/a79ec404-2267-42f3-8185-a88903f5bcaf.png)
 

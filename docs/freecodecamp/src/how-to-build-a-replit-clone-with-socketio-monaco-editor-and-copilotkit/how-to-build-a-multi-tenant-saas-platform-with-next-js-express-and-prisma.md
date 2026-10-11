@@ -8,7 +8,7 @@ category:
   - Next.js
   - Express.js
   - CSS
-  - TailwindCSS
+  - Tailwind CSS
   - Data Science
   - PostgreSQL
   - Article(s)

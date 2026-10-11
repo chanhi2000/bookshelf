@@ -2,7 +2,7 @@
 lang: en-US
 title: "OpenAI Codex Crash Course"
 description: "Article(s) > OpenAI Codex Crash Course"
-icon: iconfont icon-openai
+icon: fa-brands fa-openai
 category:
   - AI
   - LLM

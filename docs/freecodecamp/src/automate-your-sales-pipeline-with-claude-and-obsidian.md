@@ -2,7 +2,7 @@
 lang: en-US
 title: "Automate Your Sales Pipeline with Claude and Obsidian"
 description: "Article(s) > Automate Your Sales Pipeline with Claude and Obsidian"
-icon: iconfont icon-claude
+icon: fa-brands fa-claude
 category:
   - AI
   - LLM

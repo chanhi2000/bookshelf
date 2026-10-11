@@ -2,7 +2,7 @@
 lang: en-US
 title: "Introducing AI Skills for Real Engineers"
 description: "Article(s) > Introducing AI Skills for Real Engineers"
-icon: iconfont icon-claude
+icon: fa-brands fa-claude
 category:
   - AI
   - LLM

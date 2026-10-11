@@ -2,7 +2,7 @@
 lang: en-US
 title: "OpenAI Codex Essentials – AI Assisted Agentic Development Course"
 description: "Article(s) > OpenAI Codex Essentials – AI Assisted Agentic Development Course"
-icon: iconfont icon-openai
+icon: fa-brands fa-openai
 category:
   - AI
   - LLM

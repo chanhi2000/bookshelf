@@ -114,7 +114,7 @@ And here's what you need before you start:
 - Node v24.21.0 and npm.
 - Docker, running. The Supabase CLI uses it to run Postgres, auth, and storage on your machine.
 - The [<VPIcon icon="iconfont icon-supabase"/>Supabase CLI](https://supabase.com/docs/guides/local-development). Everything runs locally, so you don't need a cloud project until the final deploy step.
-- [<VPIcon icon="iconfont icon-claude"/>Claude Code](https://claude.com/claude-code). The build is nine prompts, each run in a fresh Claude Code session. They'll work in other coding agents with small adjustments, but the TypeSafe skill install in the build section is Claude Code-specific.
+- [<VPIcon icon="fa-brands fa-claude"/>Claude Code](https://claude.com/claude-code). The build is nine prompts, each run in a fresh Claude Code session. They'll work in other coding agents with small adjustments, but the TypeSafe skill install in the build section is Claude Code-specific.
 - A TypeSafe API key from [<VPIcon icon="iconfont icon-typesafe-ai"/>console.typesafe.ai](https://console.typesafe.ai/). Jev is billed per input token, and building and testing this costs cents.
 - A [<VPIcon icon="iconfont icon-vercel"/>Vercel AI Gateway](https://vercel.com/docs/ai-gateway) key. Optional. It's used once to pull the candidate's name and email out of the résumé text, and you can skip it and type those in by hand.
 - A Vercel account, only if you deploy at the end.

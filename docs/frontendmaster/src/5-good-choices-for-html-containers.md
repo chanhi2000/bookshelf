@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: "5 Good Choices for HTML Containers"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/master.dev/blog.master.dev5-good-choices-for-html-containers.html
+      content: https://chanhi2000.github.io/bookshelf/blog.master.dev/5-good-choices-for-html-containers.html
 prev: /programming/css/articles/README.md
 date: 2026-10-09
 isOriginal: false
@@ -334,7 +334,7 @@ Wrapping up, I hope that through this article, we were able to see that, from ag
 {
   "title": "5 Good Choices for HTML Containers",
   "desc": "Divs and spans are fine, but purposefully meaningless. Often the meaning actually matters, so let's look at some of those situations.",
-  "link": "https://chanhi2000.github.io/bookshelf/master.dev/blog.master.dev5-good-choices-for-html-containers.html",
+  "link": "https://chanhi2000.github.io/bookshelf/blog.master.dev/5-good-choices-for-html-containers.html",
   "logo": "https://master.dev/favicon.ico",
   "background": "rgba(188,75,52,0.2)"
 }

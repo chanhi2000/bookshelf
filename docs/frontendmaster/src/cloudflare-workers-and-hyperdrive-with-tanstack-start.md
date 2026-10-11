@@ -37,7 +37,7 @@ head:
       content: "Cloudflare Workers and Hyperdrive with TanStack Start"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/blog.master.dev/cloudflare-workers-and-hyperdrive-with-tanstack-start.html
-prev: /programming/js-react/articles/README.md
+prev: /programming/js-tanstack/articles/README.md
 date: 2026-07-02
 isOriginal: false
 author:
@@ -50,9 +50,9 @@ cover: https://blog.master.dev/wp-json/social-image-generator/v1/image/10270
 
 ```component VPCard
 {
-  "title": "React.js > Article(s)",
+  "title": "TanStack > Article(s)",
   "desc": "Article(s)",
-  "link": "/programming/js-react/articles/README.md",
+  "link": "/programming/js-tanstack/articles/README.md",
   "logo": "/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }

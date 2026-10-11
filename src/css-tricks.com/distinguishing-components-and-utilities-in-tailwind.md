@@ -5,13 +5,13 @@ description: "Article(s) > Distinguishing “Components” and “Utilities” i
 icon: iconfont icon-tailwindcss
 category:
   - CSS
-  - TailwindCSS
+  - Tailwind CSS
   - Article(s)
 tag:
   - blog
   - css-tricks.com
-  - css
-  - tailwindcss
+  - CSS
+  - Tailwind CSS
   - tailwind-css
 head:
   - - meta:

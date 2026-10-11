@@ -14,8 +14,8 @@ tag:
   - node
   - nodejs
   - node-js
-  - css
-  - tailwindcss
+  - CSS
+  - Tailwind CSS
   - tailwind-css
   - react
   - reactjs

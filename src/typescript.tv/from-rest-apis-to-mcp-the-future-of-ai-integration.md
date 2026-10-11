@@ -88,7 +88,7 @@ REST APIs changed how applications talk to each other. Now MCP (Model Context Pr
 
 REST APIs revolutionized how applications communicate. You make an HTTP request, get JSON back, and build features on top of that data. Simple, standard, universal. But AI assistants need something different. They don't just fetch data, they need to understand what's available, execute actions, and maintain context across conversations. That's where [<VPIcon icon="iconfont icon-mcp"/>Model Context Protocol (MCP)](https://modelcontextprotocol.io/) comes in.
 
-MCP is [<VPIcon icon="iconfont icon-claude"/>Anthropic's new open protocol](https://anthropic.com/news/model-context-protocol) for connecting AI assistants to data sources and tools. Think of it as REST for the AI era, designed specifically for how AI models work. Here's why TypeScript developers should pay attention.
+MCP is [<VPIcon icon="fa-brands fa-claude"/>Anthropic's new open protocol](https://anthropic.com/news/model-context-protocol) for connecting AI assistants to data sources and tools. Think of it as REST for the AI era, designed specifically for how AI models work. Here's why TypeScript developers should pay attention.
 
 ---
 
@@ -287,7 +287,7 @@ const transport = new StdioServerTransport();
 await server.connect(transport);
 ```
 
-Now when you connect this to [<VPIcon icon="iconfont icon-claude"/>Claude Desktop](https://claude.com/download) or another MCP client, the AI can:
+Now when you connect this to [<VPIcon icon="fa-brands fa-claude"/>Claude Desktop](https://claude.com/download) or another MCP client, the AI can:
 
 The AI can see what tables exist in your database, understand the schema, run queries when you ask questions, and remember previous query results.
 
@@ -362,7 +362,7 @@ You could theoretically use OpenAPI specs to generate MCP servers, and some tool
 
 ## Getting Started with MCP
 
-The fastest way to try MCP is with [<VPIcon icon="iconfont icon-claude"/>Claude Desktop](https://claude.ai/download):
+The fastest way to try MCP is with [<VPIcon icon="fa-brands fa-claude"/>Claude Desktop](https://claude.ai/download):
 
 1. Install the [MCP SDK (<VPIcon icon="fa-brands fa-npm"/>`@modelcontextprotocol/sdk`)](https://npmjs.com/package/@modelcontextprotocol/sdk):
 
@@ -426,7 +426,7 @@ REST APIs aren't going anywhere. They're still perfect for traditional applicati
 
 MCP provides that foundation. It lets AI discover capabilities, execute tools safely, and maintain context, all through a standard protocol. And because it's built with TypeScript, we get type safety and excellent developer experience.
 
-The momentum behind MCP is significant. While Anthropic created the protocol, OpenAI has also adopted it as the foundation for their [<VPIcon icon="iconfont icon-openai"/>ChatGPT Apps SDK](https://openai.com/index/introducing-apps-in-chatgpt/), making MCP a cross-platform standard rather than a vendor-specific solution. When both major AI platforms standardize on the same protocol, it's a strong signal that this is the direction the industry is heading.
+The momentum behind MCP is significant. While Anthropic created the protocol, OpenAI has also adopted it as the foundation for their [<VPIcon icon="fa-brands fa-openai"/>ChatGPT Apps SDK](https://openai.com/index/introducing-apps-in-chatgpt/), making MCP a cross-platform standard rather than a vendor-specific solution. When both major AI platforms standardize on the same protocol, it's a strong signal that this is the direction the industry is heading.
 
 ::: info
 

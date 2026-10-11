@@ -2,7 +2,7 @@
 lang: en-US
 title: "Learn to Use Claude AI to Build Text Summarizers, Image Describers, and More"
 description: "Article(s) > Learn to Use Claude AI to Build Text Summarizers, Image Describers, and More"
-icon: iconfont icon-claude
+icon: fa-brands fa-claude
 category: 
   - AI
   - LLM

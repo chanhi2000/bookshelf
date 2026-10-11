@@ -185,7 +185,7 @@ Qwen3 fits teams that value control and can support it operationally. Platform t
 
 ## GPT-5.2: Reliability at Scale
 
-[<VPIcon icon="iconfont icon-openai"/>GPT-5.2](https://openai.com/index/introducing-gpt-5-2/) is built for consistency. It is a proprietary frontier model optimized to behave predictably across a wide range of production workloads. For many teams, this predictability outweighs the need for deep customization.
+[<VPIcon icon="fa-brands fa-openai"/>GPT-5.2](https://openai.com/index/introducing-gpt-5-2/) is built for consistency. It is a proprietary frontier model optimized to behave predictably across a wide range of production workloads. For many teams, this predictability outweighs the need for deep customization.
 
 The platform emphasizes:
 
@@ -253,7 +253,7 @@ In practice:
 
 All three models can generate usable code. The differences appear in consistency and workflow integration.
 
-[<VPIcon icon="iconfont icon-openai"/>GPT-5.2](https://openai.com/index/introducing-gpt-5-2-codex/) performs strongly in production coding tasks. It produces consistent code style, handles refactoring well, and integrates cleanly with agent-based development workflows. Debugging tasks are reliable, especially when combined with tools. This makes it suitable for teams building features quickly with minimal oversight.
+[<VPIcon icon="fa-brands fa-openai"/>GPT-5.2](https://openai.com/index/introducing-gpt-5-2-codex/) performs strongly in production coding tasks. It produces consistent code style, handles refactoring well, and integrates cleanly with agent-based development workflows. Debugging tasks are reliable, especially when combined with tools. This makes it suitable for teams building features quickly with minimal oversight.
 
 [<VPIcon icon="fas fa-globe"/>Qwen3](https://qwenlm.github.io/blog/qwen3-coder/) performs well in code generation and refactoring when tuned correctly. It is effective for internal tooling and automation where teams want control over prompts, tools, and execution logic. Repo-level understanding is possible but requires more scaffolding. The burden of orchestration sits with the team.
 

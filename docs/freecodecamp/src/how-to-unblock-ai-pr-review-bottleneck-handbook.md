@@ -2,7 +2,7 @@
 lang: en-US
 title: "How to Unblock Your AI PR Review Bottleneck: A Tech Lead’s Guide to Building a Codebase-Aware Reviewer"
 description: "Article(s) > How to Unblock Your AI PR Review Bottleneck: A Tech Lead’s Guide to Building a Codebase-Aware Reviewer"
-icon: iconfont icon-claude
+icon: fa-brands fa-claude
 category:
   - AI
   - LLM

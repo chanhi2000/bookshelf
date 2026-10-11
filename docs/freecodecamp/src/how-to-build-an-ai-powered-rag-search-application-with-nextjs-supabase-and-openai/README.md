@@ -438,7 +438,7 @@ OPENAI_API_KEY=your_openai_api_key
 Replace the placeholder values with your actual credentials:
 
 - Get Supabase values from **Settings** → **API** in your Supabase dashboard
-- Get your OpenAI API key from [<VPIcon icon="iconfont icon-openai"/>`platform.openai.com/api-keys`](https://platform.openai.com/api-keys)
+- Get your OpenAI API key from [<VPIcon icon="fa-brands fa-openai"/>`platform.openai.com/api-keys`](https://platform.openai.com/api-keys)
 
 ::: note Security Note
 

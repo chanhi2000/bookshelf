@@ -2,7 +2,7 @@
 lang: en-US
 title: "Totally Free Course: Claude Code"
 description: "Article(s) > Totally Free Course: Claude Code"
-icon: iconfont icon-claude
+icon: fa-brands fa-claude
 category:
   - AI
   - LLM
@@ -58,7 +58,7 @@ cover: https://blog.master.dev/wp-json/social-image-generator/v1/image/10286
   logo="https://blog.master.dev/favicon.ico"
   preview="https://blog.master.dev/wp-json/social-image-generator/v1/image/10286"/>
 
-Lydia Hallie from Anthropic [<VPIcon icon="fas fa-globe"/>spends a couple of hours with us](https://master.dev/courses/claude-code/), helping us level up what we’re doing with [<VPIcon icon="iconfont icon-claude"/>Claude Code](https://claude.com/product/claude-code). Learn to customize Claude Code for your codebase, using CLAUDE.md, plan mode, and permissions that adhere to your team’s standards. Build reusable skills tailored to your processes and wire up hooks so Claude behaves consistently across the whole team.
+Lydia Hallie from Anthropic [<VPIcon icon="fas fa-globe"/>spends a couple of hours with us](https://master.dev/courses/claude-code/), helping us level up what we’re doing with [<VPIcon icon="fa-brands fa-claude"/>Claude Code](https://claude.com/product/claude-code). Learn to customize Claude Code for your codebase, using CLAUDE.md, plan mode, and permissions that adhere to your team’s standards. Build reusable skills tailored to your processes and wire up hooks so Claude behaves consistently across the whole team.
 
 ::: info Go to Course
 

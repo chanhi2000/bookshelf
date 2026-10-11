@@ -422,7 +422,7 @@ This is where Agentic AI shines: it acts autonomously, reasons, and uses tools j
 ### Prerequisites - What You Need
 
 1. Python 3.10 or higher
-2. An OpenAI API key ([<VPIcon icon="iconfont icon-openai"/>https://platform.openai.com/api-keys](https://platform.openai.com/api-keys))
+2. An OpenAI API key ([<VPIcon icon="fa-brands fa-openai"/>https://platform.openai.com/api-keys](https://platform.openai.com/api-keys))
 3. Install the required Python libraries:
 
 ```sh

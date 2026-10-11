@@ -2,7 +2,7 @@
 lang: en-US
 title: "Codex vs Claude Code: Which AI Coding Assistant to Choose"
 description: "Article(s) > Codex vs Claude Code: Which AI Coding Assistant to Choose"
-icon: iconfont icon-claude
+icon: fa-brands fa-claude
 category:
   - AI
   - LLM
@@ -74,7 +74,7 @@ cover: https://cdn.hashnode.com/uploads/covers/5e1e335a7a1d3fcc59028c64/4ecd4fdb
 
 AI coding assistants have evolved from simple autocomplete tools into capable development agents that can write code, debug applications, refactor projects, and even execute complex workflows.
 
-Among the newest generation of tools, [<VPIcon icon="iconfont icon-openai"/>OpenAI's Codex](https://chatgpt.com/codex/) and [<VPIcon icon="iconfont icon-claude"/>Anthropic's Claude Code](https://claude.com/product/claude-code) have emerged as two of the strongest options for developers.
+Among the newest generation of tools, [<VPIcon icon="fa-brands fa-openai"/>OpenAI's Codex](https://chatgpt.com/codex/) and [<VPIcon icon="fa-brands fa-claude"/>Anthropic's Claude Code](https://claude.com/product/claude-code) have emerged as two of the strongest options for developers.
 
 Both platforms promise to improve productivity, reduce repetitive work, and help teams ship software faster. But they approach software development differently.
 

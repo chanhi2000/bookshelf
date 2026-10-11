@@ -191,7 +191,7 @@ But I do think I’d add to that piece as the landscape continues to shift. My a
 
 ### Um, maybe don’t use AI
 
-For one, we know [<VPIcon icon="iconfont icon-openai"/>it’s not always accurate](https://openai.com/index/why-language-models-hallucinate/). Two, [<VPIcon icon="fa-brands fa-google"/>it dilutes your personal voice](https://sites.google.com/view/llmwritingdistortion/home). Both are very detrimental to the discipline of writing. And what’s the point of giving people an AI explanation of something they can already get way more easily in their IDE? That’s exactly what leads to AI slop.
+For one, we know [<VPIcon icon="fa-brands fa-openai"/>it’s not always accurate](https://openai.com/index/why-language-models-hallucinate/). Two, [<VPIcon icon="fa-brands fa-google"/>it dilutes your personal voice](https://sites.google.com/view/llmwritingdistortion/home). Both are very detrimental to the discipline of writing. And what’s the point of giving people an AI explanation of something they can already get way more easily in their IDE? That’s exactly what leads to AI slop.
 
 But I won’t dismiss AI usage wholesale. I’ll actually caveat the whole “don’t use AI thing” to pin it specifically to writing. Because a tool like Grammarly has always been helpful, even before it was marketed as a complete AI writing suite. You don’t have to use the beefier features that practically do the writing for you to get something out of it.
 

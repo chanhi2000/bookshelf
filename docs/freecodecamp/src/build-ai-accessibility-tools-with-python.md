@@ -582,7 +582,7 @@ Instead of running Whisper locally, you can call the **OpenAI Whisper API** (`wh
 
 #### How to get an API key
 
-1. Go to [<VPIcon icon="iconfont icon-openai"/>OpenAI’s API Keys page.](https://auth.openai.com/log-in)
+1. Go to [<VPIcon icon="fa-brands fa-openai"/>OpenAI’s API Keys page.](https://auth.openai.com/log-in)
 2. Log in with your OpenAI account (or create one).
 3. Click **“Create new secret key”**.
 4. Copy the key — it looks like `sk-xxxxxxxx...`. Treat this like a password: don’t share it publicly or push it to GitHub.

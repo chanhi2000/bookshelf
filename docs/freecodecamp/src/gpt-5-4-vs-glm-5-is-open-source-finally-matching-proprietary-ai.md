@@ -2,7 +2,7 @@
 lang: en-US
 title: "GPT-5.4 vs GLM-5: Is Open Source Finally Matching Proprietary AI?"
 description: "Article(s) > GPT-5.4 vs GLM-5: Is Open Source Finally Matching Proprietary AI?"
-icon: iconfont icon-openai
+icon: fa-brands fa-openai
 category:
   - AI
   - LLM
@@ -66,7 +66,7 @@ The gap between open and proprietary AI has closed on benchmarks, but "open" and
 
 What follows is a look at the benchmarks that matter, the infrastructure reality the press releases leave out, and a decision framework for teams that need to ship something.
 
-The two models at the center of this comparison are [<VPIcon icon="iconfont icon-openai"/>GPT-5.4](https://developers.openai.com/api/docs/models/gpt-5.4), OpenAI's most capable, frontier model for professional work, released on March 5, 2026, and [<VPIcon icon="fas fa-globe"/>GLM-5](https://artificialanalysis.ai/articles/glm-5-everything-you-need-to-know), the 744-billion-parameter open-weight model from China's Zhipu AI, released on February 11. GPT-5.4 represents the current ceiling of proprietary AI: a model that unifies coding and reasoning into a single system with a one-million token context window, native computer use, and the full weight of OpenAI's platform behind it.
+The two models at the center of this comparison are [<VPIcon icon="fa-brands fa-openai"/>GPT-5.4](https://developers.openai.com/api/docs/models/gpt-5.4), OpenAI's most capable, frontier model for professional work, released on March 5, 2026, and [<VPIcon icon="fas fa-globe"/>GLM-5](https://artificialanalysis.ai/articles/glm-5-everything-you-need-to-know), the 744-billion-parameter open-weight model from China's Zhipu AI, released on February 11. GPT-5.4 represents the current ceiling of proprietary AI: a model that unifies coding and reasoning into a single system with a one-million token context window, native computer use, and the full weight of OpenAI's platform behind it.
 
 GLM-5 represents something different: the first open-weight model to crack the Intelligence Index score of 50, trained entirely on domestic Chinese hardware, available for free under an MIT license.
 
@@ -106,7 +106,7 @@ Terminal-Bench is where the gap is most evident. It measures how well a model pe
 
 Unlike benchmarks that test whether a model can write code in isolation, Terminal-Bench evaluates whether it can operate a computer the way a developer does.
 
-According to [<VPIcon icon="iconfont icon-openai"/>OpenAI's API documentation](https://developers.openai.com/api/docs/models/gpt-5.4), GPT-5.4 scores 75.1%, a 9.7-point lead over the next proprietary model. If your team does DevOps, infrastructure-as-code, or CI/CD debugging, this benchmark maps directly to your actual job.
+According to [<VPIcon icon="fa-brands fa-openai"/>OpenAI's API documentation](https://developers.openai.com/api/docs/models/gpt-5.4), GPT-5.4 scores 75.1%, a 9.7-point lead over the next proprietary model. If your team does DevOps, infrastructure-as-code, or CI/CD debugging, this benchmark maps directly to your actual job.
 
 Context window is another differentiator. GPT-5.4 handles 1.05 million tokens, while GLM-5 caps at 200,000. For agentic workflows that need to plan across large codebases or synthesize multi-document research, this is not a spec difference but a capability difference.
 

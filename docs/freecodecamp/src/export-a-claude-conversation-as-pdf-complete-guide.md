@@ -2,7 +2,7 @@
 lang: en-US
 title: "How to Export a Claude Conversation as a PDF"
 description: "Article(s) > How to Export a Claude Conversation as a PDF"
-icon: iconfont icon-claude
+icon: fa-brands fa-claude
 category:
   - AI
   - LLM
@@ -195,7 +195,7 @@ If you don't need to edit the response, you can also convert the copied Markdown
 
 ## How to Convert Claude Share Links into PDFs
 
-Claude lets you create a [<VPIcon icon="iconfont icon-claude"/>public Share Link](https://support.claude.com/en/articles/10593882-share-and-unshare-chats) for any conversation. Once a conversation is shared, anyone with the link can view it in a web browser without signing in to your account.
+Claude lets you create a [<VPIcon icon="fa-brands fa-claude"/>public Share Link](https://support.claude.com/en/articles/10593882-share-and-unshare-chats) for any conversation. Once a conversation is shared, anyone with the link can view it in a web browser without signing in to your account.
 
 Share Links are a convenient way to convert conversations into PDFs using free online tools, such as a [<VPIcon icon="fas fa-globe"/>Claude to PDF converter](https://claudetopdf.vercel.app/) that accept a Claude Share Link and generate a downloadable PDF. They automate the conversion process and produce cleaner page layouts with fewer manual adjustments.
 
@@ -221,7 +221,7 @@ Because Share Links are **publicly accessible**, avoid using this method for con
 
 ## How to Export Claude Artifacts as PDFs
 
-[<VPIcon icon="iconfont icon-claude"/>Claude Artifacts](https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them) are standalone outputs that Claude generates alongside a conversation. Unlike regular chat messages, Artifacts open in a dedicated panel and are designed for working with larger pieces of content such as documents, code, web pages, and diagrams.
+[<VPIcon icon="fa-brands fa-claude"/>Claude Artifacts](https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them) are standalone outputs that Claude generates alongside a conversation. Unlike regular chat messages, Artifacts open in a dedicated panel and are designed for working with larger pieces of content such as documents, code, web pages, and diagrams.
 
 Common Artifact types include:
 
@@ -253,7 +253,7 @@ If your goal is to preserve the conversation itself, including prompts, response
 
 ## How to Download All Claude Conversations from Settings
 
-If you want to archive your entire Claude account instead of exporting individual conversations, Claude's [<VPIcon icon="iconfont icon-claude"/>Export Data](https://support.claude.com/en/articles/9450526-export-your-claude-data) feature is the most comprehensive option. Rather than generating PDFs, Claude exports your account as a ZIP archive containing JSON files that preserve your complete conversation history.
+If you want to archive your entire Claude account instead of exporting individual conversations, Claude's [<VPIcon icon="fa-brands fa-claude"/>Export Data](https://support.claude.com/en/articles/9450526-export-your-claude-data) feature is the most comprehensive option. Rather than generating PDFs, Claude exports your account as a ZIP archive containing JSON files that preserve your complete conversation history.
 
 To request an export:
 

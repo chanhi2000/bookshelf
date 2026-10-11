@@ -2,7 +2,7 @@
 lang: en-US
 title: "AI Paper Review: Chain-of-Thought Prompting Elicits Reasoning in Large Language Models"
 description: "Article(s) > AI Paper Review: Chain-of-Thought Prompting Elicits Reasoning in Large Language Models"
-icon: iconfont icon-openai
+icon: fa-brands fa-openai
 category:
   - AI
   - LLM

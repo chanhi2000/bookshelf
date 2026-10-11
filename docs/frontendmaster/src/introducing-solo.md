@@ -2,7 +2,7 @@
 lang: en-US
 title: "Discover Solo: The Ultimate AI-Integrated Control Panel"
 description: "Article(s) > Discover Solo: The Ultimate AI-Integrated Control Panel"
-icon: iconfont icon-claude
+icon: fa-brands fa-claude
 category:
   - AI
   - LLM
@@ -28,7 +28,7 @@ head:
     - property: og:description
       content: "Discover Solo: The Ultimate AI-Integrated Control Panel"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/master.dev/blog.master.devintroducing-solo.html
+      content: https://chanhi2000.github.io/bookshelf/blog.master.dev/introducing-solo.html
 prev: /ai/claude/articles/README.md
 date: 2026-09-23
 isOriginal: false
@@ -230,7 +230,7 @@ I'm no expert here, but I understand an "MCP server" as a way to make an AI syst
 {
   "title": "Discover Solo: The Ultimate AI-Integrated Control Panel",
   "desc": "Discover Solo: the ultimate tool for streamlining coding projects with AI integration, terminal management, and powerful debugging features.",
-  "link": "https://chanhi2000.github.io/bookshelf/master.dev/blog.master.devintroducing-solo.html",
+  "link": "https://chanhi2000.github.io/bookshelf/blog.master.dev/introducing-solo.html",
   "logo": "https://master.dev/favicon.ico",
   "background": "rgba(188,75,52,0.2)"
 }

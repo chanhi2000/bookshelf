@@ -225,7 +225,7 @@ Gemini CLI and Claude Code are AI-powered command-line interfaces that let you c
 
 To get started, install the CLI via your terminal, authenticate, and then type commands like `gemini "analyze the logs in /var/log and summarize errors"` or `claude "scaffold a new Next.js project with Tailwind"` to let AI handle the work directly in your terminal.
 
-To learn more, you can read more about [<VPIcon icon="iconfont icon-gemini"/>Gemini CLI](https://geminicli.com/), and [<VPIcon icon="iconfont icon-claude"/>Claude Code](https://claude.com/product/claude-code) here.
+To learn more, you can read more about [<VPIcon icon="iconfont icon-gemini"/>Gemini CLI](https://geminicli.com/), and [<VPIcon icon="fa-brands fa-claude"/>Claude Code](https://claude.com/product/claude-code) here.
 
 ![GIF of Google's Gemini CLI](https://miro.medium.com/v2/resize:fit:1400/1*QzLbvBK4Y0NUpa2mJIBHEA.gif)
 

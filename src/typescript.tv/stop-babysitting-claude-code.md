@@ -78,7 +78,7 @@ Compare three ways to run Claude Code without manual confirmations: the `--dange
 
 :::
 
-[<VPIcon icon="iconfont icon-claude"/>Claude Code](https://docs.anthropic.com/en/docs/claude-code/overview) is Anthropic's agentic coding tool that lives in your terminal. By default, it asks for your confirmation before running shell commands, writing files, or making other potentially destructive changes. That's a good safety net, but it slows down fully autonomous workflows. If you want Claude Code to run `tsc`, fix type errors, and refactor your TypeScript project without you clicking "allow" every ten seconds, there are currently three ways to remove that friction: the `--dangerously-skip-permissions` flag (equivalent to `codex --yolo`), Docker-based sandboxes, and Claude's auto mode on the web.
+[<VPIcon icon="fa-brands fa-claude"/>Claude Code](https://docs.anthropic.com/en/docs/claude-code/overview) is Anthropic's agentic coding tool that lives in your terminal. By default, it asks for your confirmation before running shell commands, writing files, or making other potentially destructive changes. That's a good safety net, but it slows down fully autonomous workflows. If you want Claude Code to run `tsc`, fix type errors, and refactor your TypeScript project without you clicking "allow" every ten seconds, there are currently three ways to remove that friction: the `--dangerously-skip-permissions` flag (equivalent to `codex --yolo`), Docker-based sandboxes, and Claude's auto mode on the web.
 
 ---
 
@@ -104,7 +104,7 @@ This flag disables all permission prompts. Claude Code will execute shell comman
 
 Once the flag is set, every tool call (file writes, shell commands, web requests) runs immediately without confirmation. There is no safety classifier or isolation layer. The agent operates with the same permissions as your user account, so it can read, write, and delete anything you can.
 
-To add some guardrails, you can use an `allowedTools` list in your [<VPIcon icon="iconfont icon-claude"/>Claude Code settings](https://docs.anthropic.com/en/docs/claude-code/settings) to restrict which tools the agent can invoke. This gives you a middle ground: autonomous execution, but only for a defined set of operations.
+To add some guardrails, you can use an `allowedTools` list in your [<VPIcon icon="fa-brands fa-claude"/>Claude Code settings](https://docs.anthropic.com/en/docs/claude-code/settings) to restrict which tools the agent can invoke. This gives you a middle ground: autonomous execution, but only for a defined set of operations.
 
 :::
 
@@ -144,7 +144,7 @@ Docker sandboxes are ideal when you want fully autonomous operation with strong 
 
 ## Claude Auto Mode
 
-[<VPIcon icon="iconfont icon-claude"/>Auto mode](https://claude.com/blog/auto-mode) is a middle path built into Claude Code itself. It lets you run longer tasks with fewer interruptions while introducing less risk than skipping all permissions. You can enable it with:
+[<VPIcon icon="fa-brands fa-claude"/>Auto mode](https://claude.com/blog/auto-mode) is a middle path built into Claude Code itself. It lets you run longer tasks with fewer interruptions while introducing less risk than skipping all permissions. You can enable it with:
 
 ```sh
 claude --enable-auto-mode

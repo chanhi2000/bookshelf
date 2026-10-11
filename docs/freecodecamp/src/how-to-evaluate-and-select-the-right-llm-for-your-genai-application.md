@@ -73,7 +73,7 @@ Different LLMs can behave very differently for the same prompt. Some excel at co
 
 This highlights a key idea that there is no single “best” model.
 
-[<VPIcon icon="iconfont icon-claude"/>Here’s an example](https://platform.claude.com/docs/en/about-claude/models/choosing-a-model) where Claude explains which Claude model should be used for specific use cases.
+[<VPIcon icon="fa-brands fa-claude"/>Here’s an example](https://platform.claude.com/docs/en/about-claude/models/choosing-a-model) where Claude explains which Claude model should be used for specific use cases.
 
 In this article, I’ll walk you through a practical and repeatable methodology to evaluate and select an LLM for a real-world GenAI application, based on techniques used in enterprises.
 
@@ -228,7 +228,7 @@ When evaluating LLMs, ask yourself the following questions:
 - What is the cost per request or per token?
 - Is the model viable for your expected traffic, especially in early-stage or proof-of-concept phases?
 
-Here’s a reference for [<VPIcon icon="iconfont icon-openai"/>pricing from OpenAI](https://openai.com/api/pricing/) as an example.
+Here’s a reference for [<VPIcon icon="fa-brands fa-openai"/>pricing from OpenAI](https://openai.com/api/pricing/) as an example.
 
 ### 4. Ethical and Responsible AI Considerations
 

@@ -2,7 +2,7 @@
 lang: en-US
 title: "AI Paper Review: Self-Consistency Improves Chain of Thought Reasoning in Language Models"
 description: "Article(s) > AI Paper Review: Self-Consistency Improves Chain of Thought Reasoning in Language Models"
-icon: iconfont icon-openai
+icon: fa-brands fa-openai
 category:
   - AI
   - LLM

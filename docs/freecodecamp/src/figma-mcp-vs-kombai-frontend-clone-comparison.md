@@ -15,7 +15,7 @@ category:
   - Node.js
   - React.js
   - CSS
-  - TailwindCSS
+  - Tailwind CSS
   - Article(s)
 tag:
   - blog
@@ -37,8 +37,8 @@ tag:
   - react
   - reactjs
   - react-js
-  - css
-  - tailwindcss
+  - CSS
+  - Tailwind CSS
   - tailwind-css
 head:
   - - meta:

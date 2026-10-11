@@ -91,7 +91,7 @@ The competitive moment is the stage before that: when an agent assembles a short
 
 Enterprise buyers and their deployed agents have specific parameters, pricing limits, and capability requirements structured in formats that software can query. The vendors that agents pass over have websites. What makes this structurally uncomfortable is the investment timeline: the brand spend has already happened, and it won't retroactively become machine-readable.
 
-[<VPIcon icon="iconfont icon-openai"/>OpenAI](https://openai.com/index/the-state-of-enterprise-ai-2025-report/)'s State of Enterprise AI report, published in late 2025, found that the use of structured agent workflows within enterprise organizations grew 19 times over the prior year, with roughly 20% of all enterprise interactions now flowing through tailored, repeatable agent processes. Each of those processes is a potential vendor evaluation engine.
+[<VPIcon icon="fa-brands fa-openai"/>OpenAI](https://openai.com/index/the-state-of-enterprise-ai-2025-report/)'s State of Enterprise AI report, published in late 2025, found that the use of structured agent workflows within enterprise organizations grew 19 times over the prior year, with roughly 20% of all enterprise interactions now flowing through tailored, repeatable agent processes. Each of those processes is a potential vendor evaluation engine.
 
 Because agent evaluation criteria are derived from the principal's parameters and applied at query time, no amount of brand familiarity can compensate for the absence of structured data. For commercial leaders, the practical consequence is simple: the pipeline stage that used to belong to awareness now belongs to data architecture.
 

@@ -74,7 +74,7 @@ It was a lovely day on the internet when someone asked how to CSS animated gradi
 
 <VidStack src="https://videopress.com/a6d5e9a3-67f7-4e11-b01f-715e618a5273" />
 
-Both the question and this answer have since been deleted. But we still have[<VPIcon icon="iconfont icon-openai"/>the chat link](https://chatgpt.com/share/68109ae9-9068-8000-8b23-eef6e849d296)that got posted in the answer and we’re going to look into it.
+Both the question and this answer have since been deleted. But we still have[<VPIcon icon="fa-brands fa-openai"/>the chat link](https://chatgpt.com/share/68109ae9-9068-8000-8b23-eef6e849d296)that got posted in the answer and we’re going to look into it.
 
 ::: details Screenshot of ChatGPT Generated Code
 

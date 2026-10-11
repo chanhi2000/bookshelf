@@ -82,9 +82,9 @@ cover: https://cdn.hashnode.com/uploads/covers/5e1e335a7a1d3fcc59028c64/4208eef0
 
 ```component VPCard
 {
-  "title": "Kubernetes > Article(s)",
+  "title": "Terraform > Article(s)",
   "desc": "Article(s)",
-  "link": "/devops/k8s/articles/README.md",
+  "link": "/devops/terraform/articles/README.md",
   "logo": "/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }

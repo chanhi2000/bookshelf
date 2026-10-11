@@ -2,7 +2,7 @@
 lang: en-US
 title: "AI Paper Review: Language Models are Few-Shot Learners (GPT-3)"
 description: "Article(s) > AI Paper Review: Language Models are Few-Shot Learners (GPT-3)"
-icon: iconfont icon-openai
+icon: fa-brands fa-openai
 category:
   - Python
   - AI

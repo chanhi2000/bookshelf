@@ -129,7 +129,7 @@ In this tutorial, I’ll be using this tech stack:
 You’ll also need to:
 
 - Sign up on [<VPIcon icon="fas fa-globe"/>Langbase](https://langbase.com/signup) to get access to the API key.
-- Sign up on [<VPIcon icon="iconfont icon-openai"/>OpenAI](https://platform.openai.com/signup) to generate the LLM key for the model you want to use (for this demo, I’ll be using GPT-4o mini). You can generate the key [<VPIcon icon="iconfont icon-openai"/>here](https://platform.openai.com/api-keys).
+- Sign up on [<VPIcon icon="fa-brands fa-openai"/>OpenAI](https://platform.openai.com/signup) to generate the LLM key for the model you want to use (for this demo, I’ll be using GPT-4o mini). You can generate the key [<VPIcon icon="fa-brands fa-openai"/>here](https://platform.openai.com/api-keys).
 
 :::
 
@@ -185,7 +185,7 @@ Once you are done with the name, description, and status of the AI agent pipe, e
 
 ## Step 3: Add a .env File
 
-Create a `.env` file in the root directory of your project and add the [<VPIcon icon="iconfont icon-openai"/>OpenAI](https://platform.openai.com/api-keys) and Langbase API keys in it. You can access your Langbase API key from [<VPIcon icon="fas fa-globe"/>here](https://langbase.com/docs/api-reference/api-keys).
+Create a `.env` file in the root directory of your project and add the [<VPIcon icon="fa-brands fa-openai"/>OpenAI](https://platform.openai.com/api-keys) and Langbase API keys in it. You can access your Langbase API key from [<VPIcon icon="fas fa-globe"/>here](https://langbase.com/docs/api-reference/api-keys).
 
 ---
 

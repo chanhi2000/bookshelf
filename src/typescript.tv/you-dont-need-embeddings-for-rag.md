@@ -2,7 +2,7 @@
 lang: en-US
 title: "You Don't Need Embeddings for RAG"
 description: "Article(s) > You Don't Need Embeddings for RAG"
-icon: iconfont icon-claude
+icon: fa-brands fa-claude
 category:
   - TypeScript
   - DevOps

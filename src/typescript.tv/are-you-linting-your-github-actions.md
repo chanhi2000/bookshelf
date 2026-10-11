@@ -85,7 +85,7 @@ Invalid workflow file: .github/workflows/claude.yml#L1
 (Line: 27, Col: 7): Unexpected value 'workflows'
 ```
 
-The workflow in question triggers [<VPIcon icon="iconfont icon-claude"/>Claude Code](https://claude.com/claude-code) whenever someone mentions `@claude` in an issue or pull request. Line 27 sits in its `permissions` block, which looked perfectly reasonable.
+The workflow in question triggers [<VPIcon icon="fa-brands fa-claude"/>Claude Code](https://claude.com/claude-code) whenever someone mentions `@claude` in an issue or pull request. Line 27 sits in its `permissions` block, which looked perfectly reasonable.
 
 ```yaml title=".github/workflows/claude.yml"
 permissions:

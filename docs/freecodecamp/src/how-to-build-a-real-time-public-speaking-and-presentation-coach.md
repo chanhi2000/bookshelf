@@ -118,7 +118,7 @@ Before we begin, ensure you have:
 
 - A [<VPIcon icon="fas fa-globe"/>free Stream account](https://getstream.io/accounts/login/).
 - [<VPIcon icon="fa-brands fa-python"/>Python](https://python.org/downloads/) installed on your PC.
-- An [<VPIcon icon="iconfont icon-openai"/>OpenAI API Key](https://platform.openai.com/).
+- An [<VPIcon icon="fa-brands fa-openai"/>OpenAI API Key](https://platform.openai.com/).
 - Basic knowledge of Python.
 
 :::

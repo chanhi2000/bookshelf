@@ -2,7 +2,7 @@
 lang: en-US
 title: "How to Build an MCP Server with Python, Docker, and Claude Code"
 description: "Article(s) > How to Build an MCP Server with Python, Docker, and Claude Code"
-icon: iconfont icon-claude
+icon: fa-brands fa-claude
 category: 
   - Python
   - DevOps

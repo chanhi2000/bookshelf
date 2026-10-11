@@ -169,7 +169,7 @@ To follow this tutorial, you'll need:
 
 - Python 3.10 or later installed on your machine
 - Basic familiarity with the command line
-- An [<VPIcon icon="iconfont icon-claude"/>Anthropic API key](https://console.anthropic.com/) — only required for the AI REPL, not for the CLI or MCP server
+- An [<VPIcon icon="fa-brands fa-claude"/>Anthropic API key](https://console.anthropic.com/) — only required for the AI REPL, not for the CLI or MCP server
 - Git installed
 
 You don't need prior experience with OSINT tools or the Anthropic SDK.

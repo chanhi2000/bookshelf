@@ -62,7 +62,7 @@ When large language models like ChatGPT first became widely available, a lot of 
 
 LLMs were like a tireless, super knowledgeable pair programmer that could conjure code out of thin air. We’d type a quick, messy request, and out would pop something that...kind of worked. It was amazing, but also a little frustrating. The code might be buggy, inefficient, or completely miss the subtle context of our project.
 
-But with [<VPIcon icon="iconfont icon-openai"/>GPT-5](https://platform.openai.com/docs/models/gpt-5), the game has changed quite a bit. This model doesn’t just spit out code – it reasons, adapts, and understands context like never before. Still, here’s the catch: you need to speak its language to be able to generate the best output. But how? That’s where **prompt engineering** comes in.
+But with [<VPIcon icon="fa-brands fa-openai"/>GPT-5](https://platform.openai.com/docs/models/gpt-5), the game has changed quite a bit. This model doesn’t just spit out code – it reasons, adapts, and understands context like never before. Still, here’s the catch: you need to speak its language to be able to generate the best output. But how? That’s where **prompt engineering** comes in.
 
 In this article, I’ll share 10 proven patterns that will help you transform GPT-5 from a helpful tool into a rock-solid coding partner you can trust for accuracy and speed. Let’s get started!
 

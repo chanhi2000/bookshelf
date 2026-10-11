@@ -8,7 +8,7 @@ category:
   - Next.js
   - Supabase
   - CSS
-  - TailwindCSS
+  - Tailwind CSS
   - DevOps
   - Cloudflare
   - Github

@@ -2,7 +2,7 @@
 lang: en-US
 title: "How to Measure Your AI Citation Rate Across ChatGPT, Perplexity, and Claude"
 description: "Article(s) > How to Measure Your AI Citation Rate Across ChatGPT, Perplexity, and Claude"
-icon: iconfont icon-claude
+icon: fa-brands fa-claude
 category:
   - AI
   - LLM

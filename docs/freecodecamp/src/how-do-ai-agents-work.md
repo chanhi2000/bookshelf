@@ -57,7 +57,7 @@ But the truth is, AI agents are already here. And they are working quietly in th
 
 The reason they can do all this comes down to one idea: they can sense their environment, reason about what to do, and then act.
 
-In this article, we will explore how AI agents actually work and look at a real-world example using the [<VPIcon icon="iconfont icon-openai"/>OpenAI API](https://openai.com/index/openai-api/). You will see how an agent can use information, make choices, and take action to complete a task without needing constant human help.
+In this article, we will explore how AI agents actually work and look at a real-world example using the [<VPIcon icon="fa-brands fa-openai"/>OpenAI API](https://openai.com/index/openai-api/). You will see how an agent can use information, make choices, and take action to complete a task without needing constant human help.
 
 ---
 

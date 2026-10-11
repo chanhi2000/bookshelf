@@ -229,7 +229,7 @@ Before you start, make sure you have the following installed:
 - pnpm
 - Docker (for Postgres and MinIO if you plan to test it locally first)
 
-You'll also need API keys for your sandbox provider and for an LLM ([<VPIcon icon="iconfont icon-claude"/>Anthropic](https://console.anthropic.com) or [<VPIcon icon="iconfont icon-openai"/>OpenAI](https://platform.openai.com), whichever you like).
+You'll also need API keys for your sandbox provider and for an LLM ([<VPIcon icon="fa-brands fa-claude"/>Anthropic](https://console.anthropic.com) or [<VPIcon icon="fa-brands fa-openai"/>OpenAI](https://platform.openai.com), whichever you like).
 
 Start by cloning the repository and installing the dependencies:
 

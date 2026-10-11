@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: "Randomly Place an Element Along Edge of Another Element"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/master.dev/blog.master.devrandomly-place-an-element-along-edge-of-another-element.html
+      content: https://chanhi2000.github.io/bookshelf/blog.master.dev/randomly-place-an-element-along-edge-of-another-element.html
 prev: /programming/css/articles/README.md
 date: 2026-09-25
 isOriginal: false
@@ -259,7 +259,7 @@ A box-shadow is an obvious choice for an inner glow of an element to highlight i
 {
   "title": "Randomly Place an Element Along Edge of Another Element",
   "desc": "We can animate an element along the border edge of another element to random positions... pretty easily? Might as well be a cute dog.",
-  "link": "https://chanhi2000.github.io/bookshelf/master.dev/blog.master.devrandomly-place-an-element-along-edge-of-another-element.html",
+  "link": "https://chanhi2000.github.io/bookshelf/blog.master.dev/randomly-place-an-element-along-edge-of-another-element.html",
   "logo": "https://master.dev/favicon.ico",
   "background": "rgba(188,75,52,0.2)"
 }

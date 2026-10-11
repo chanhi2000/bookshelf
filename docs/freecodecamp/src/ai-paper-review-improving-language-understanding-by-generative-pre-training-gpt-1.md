@@ -2,7 +2,7 @@
 lang: en-US
 title: "AI Paper Review: Improving Language Understanding by Generative Pre-Training (GPT-1)"
 description: "Article(s) > AI Paper Review: Improving Language Understanding by Generative Pre-Training (GPT-1)"
-icon: iconfont icon-openai
+icon: fa-brands fa-openai
 category:
   - AI
   - LLM
@@ -70,7 +70,7 @@ In each article, you’ll get a simple breakdown of the paper, how it works, and
 
 The first paper I'll be reviewing is "Improving Language Understanding by Generative Pre-Training", by Alec Radford, Karthik Narasimhan, Tim Salimans, and Ilya Sutskever.
 
-Here's the actual paper if you want to read it yourself: [<VPIcon icon="iconfont icon-openai"/>Read the paper](https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf).
+Here's the actual paper if you want to read it yourself: [<VPIcon icon="fa-brands fa-openai"/>Read the paper](https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf).
 
 And here's a little infographic of what we'll cover here:
 

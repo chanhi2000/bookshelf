@@ -89,7 +89,7 @@ Here's the usual way people use an AI coding agent. You ask for code, it writes 
 
 Harness engineering flips the job. Instead of reviewing every line, you build the environment the agent works in.
 
-The term comes from OpenAI. In a post called [<VPIcon icon="iconfont icon-openai"/>Harness engineering](https://openai.com/index/harness-engineering/), their team describes a five-month experiment where Codex agents wrote roughly a million lines of a production product with no code written by hand.
+The term comes from OpenAI. In a post called [<VPIcon icon="fa-brands fa-openai"/>Harness engineering](https://openai.com/index/harness-engineering/), their team describes a five-month experiment where Codex agents wrote roughly a million lines of a production product with no code written by hand.
 
 They define the harness as "the full environment of scaffolding, constraints, and feedback loops" that surrounds an agent and lets it do stable work. In their setup that meant repository structure, CI configuration, formatting rules, project instructions, and tool integrations. The engineer's job shifts from writing the code to designing that environment.
 
