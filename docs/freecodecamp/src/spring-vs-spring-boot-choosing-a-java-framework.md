@@ -22,7 +22,7 @@ head:
     - property: og:description
       content: "Spring vs Spring Boot: How to Choose the Right Java Framework"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/spring-vs-spring-boot-choosing-a-java-framework.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/spring-vs-spring-boot-choosing-a-java-framework.html
 prev: /programming/java-spring/articles/README.md
 date: 2025-07-22
 isOriginal: false
@@ -559,7 +559,7 @@ The next time you are faced with a project requiring you to choose a similar fra
 {
   "title": "Spring vs Spring Boot: How to Choose the Right Java Framework",
   "desc": "The Java programming language is a favourite among solo devs and large teams alike. It’s popular for many reasons and use cases, including its mature ecosystem, stable support, efficiency, and reliability. If you’re learning Java with the end goal of...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/spring-vs-spring-boot-choosing-a-java-framework.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/spring-vs-spring-boot-choosing-a-java-framework.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

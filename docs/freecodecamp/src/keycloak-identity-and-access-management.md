@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "How to Use Keycloak for Identity and Access Management"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/keycloak-identity-and-access-management.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/keycloak-identity-and-access-management.html
 prev: /devops/security/articles/README.md
 date: 2025-01-23
 isOriginal: false
@@ -155,7 +155,7 @@ I’m no stranger to Keycloak myself, having taught a <VPIcon icon="fas fa-globe
 {
   "title": "How to Use Keycloak for Identity and Access Management",
   "desc": "Whether your deployment requires logins from hundreds of thousands of end users or just a few remote admins, there's no escaping the need to properly control access to your infrastructure. And integrating those logins with industry-standard tools lik...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/keycloak-identity-and-access-management.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/keycloak-identity-and-access-management.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

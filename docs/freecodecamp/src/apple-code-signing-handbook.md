@@ -32,7 +32,7 @@ head:
     - property: og:description
       content: "The Apple Code Signing Handbook"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/apple-code-signing-handbook.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/apple-code-signing-handbook.html
 prev: /tool/xcode/articles/README.md
 date: 2025-06-11
 isOriginal: false
@@ -570,7 +570,7 @@ You can follow me at [<VPIcon icon="fas fa-globe"/>Sravan Karuturi](https://hash
 {
   "title": "The Apple Code Signing Handbook",
   "desc": "In this handbook, I’ll demystify the Apple app code signing process. Apple's ecosystem is powerful, but its distribution mechanisms - with various identifiers, certificates, and profiles - can appear complex. This guide attempts to make that journey ...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/apple-code-signing-handbook.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/apple-code-signing-handbook.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

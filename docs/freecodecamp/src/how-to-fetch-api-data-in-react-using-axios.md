@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to Fetch API Data in React Using Axios"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-fetch-api-data-in-react-using-axios.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-fetch-api-data-in-react-using-axios.html
 prev: /programming/js-react/articles/README.md
 date: 2025-07-02
 isOriginal: false
@@ -466,7 +466,7 @@ As you continue to grow as a developer, the patterns you practiced here will sho
 {
   "title": "How to Fetch API Data in React Using Axios",
   "desc": "Learning how to fetch data from APIs is a must-have skill for any developer. Whether you're building a simple portfolio site or working on real-world applications, you'll often need to connect to external data sources. Being comfortable with API call...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-fetch-api-data-in-react-using-axios.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-fetch-api-data-in-react-using-axios.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: "How to Self-host a Container Registry"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-self-host-a-container-registry.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-self-host-a-container-registry.html
 prev: /devops/docker/articles/README.md
 date: 2024-10-16
 isOriginal: false
@@ -315,7 +315,7 @@ You can find the full source code for this demo on [GitHub (<VPIcon icon="iconfo
 {
   "title": "How to Self-host a Container Registry",
   "desc": "A container registry is a storage catalog from where you can push and pull container images. There are many public and private registries available to developers such as Docker Hub, Amazon ECR, and Google Cloud Artifact Registry. But sometimes, inste...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-self-host-a-container-registry.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-self-host-a-container-registry.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to Use the Mermaid JavaScript Library to Create Flowcharts"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/use-mermaid-javascript-library-to-create-flowcharts.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/use-mermaid-javascript-library-to-create-flowcharts.html
 prev: /programmnig/js-mermaid/articles/README.md
 date: 2025-01-13
 isOriginal: false
@@ -1198,7 +1198,7 @@ To explore further, consider diving deeper into Mermaid's library for other diag
 {
   "title": "How to Use the Mermaid JavaScript Library to Create Flowcharts",
   "desc": "If you’ve recently searched for an online diagramming tool, you might have noticed that most of them rely on drag-and-drop functionality. While this is helpful for people who can’t code, it can be hard to maintain. It can also be a bit difficult to m...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/use-mermaid-javascript-library-to-create-flowcharts.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/use-mermaid-javascript-library-to-create-flowcharts.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: "How to Handle Permissions in Flutter: A Comprehensive Guide"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-handle-permissions-in-flutter-for-beginners.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-handle-permissions-in-flutter-for-beginners.html
 prev: /programming/dart/articles/README.md
 date: 2025-08-28
 isOriginal: false
@@ -771,7 +771,7 @@ By combining correct permission logic with proper AndroidManifest and Info.plist
 {
   "title": "How to Handle Permissions in Flutter: A Comprehensive Guide",
   "desc": "Permissions are crucial when building mobile applications that require access to device features such as location, camera, contacts, microphone, storage, and more. And handling permissions effectively ensures that your app provides a seamless user ex...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-handle-permissions-in-flutter-for-beginners.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-handle-permissions-in-flutter-for-beginners.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

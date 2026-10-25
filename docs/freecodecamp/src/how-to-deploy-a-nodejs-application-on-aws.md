@@ -24,7 +24,7 @@ head:
     - property: og:description
       content: "How to Deploy a Node.js Application on AWS"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-deploy-a-nodejs-application-on-aws.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-deploy-a-nodejs-application-on-aws.html
 prev: /devops/aws/articles/README.md
 date: 2025-04-03
 isOriginal: false
@@ -254,7 +254,7 @@ With this, we have come to the end of the tutorial. I hope you’ve learned abou
 {
   "title": "How to Deploy a Node.js Application on AWS",
   "desc": "Cloud platforms and infrastructure allow you to easily deploy and host backend services and applications. In this article, you’ll learn how to run a Node.js/Express application away from the confines of your local personal computer to make it accessi...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-deploy-a-nodejs-application-on-aws.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-deploy-a-nodejs-application-on-aws.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

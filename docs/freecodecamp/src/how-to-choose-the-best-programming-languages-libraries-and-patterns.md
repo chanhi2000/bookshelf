@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "How to Choose the Best Programming Languages, Libraries, and Patterns"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-choose-the-best-programming-languages-libraries-and-patterns.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-choose-the-best-programming-languages-libraries-and-patterns.html
 prev: /articles/README.md
 date: 2025-08-11
 isOriginal: false
@@ -382,7 +382,7 @@ In closing, I encourage you to think about other areas where you might be able t
 {
   "title": "How to Choose the Best Programming Languages, Libraries, and Patterns",
   "desc": "In my first few years learning software development and building applications, I was quite interested in finding the best programming language, platform, libraries, frameworks, patterns, and architectures available. I thought that by finding the best...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-choose-the-best-programming-languages-libraries-and-patterns.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-choose-the-best-programming-languages-libraries-and-patterns.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

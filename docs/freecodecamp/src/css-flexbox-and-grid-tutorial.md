@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: "CSS Flexbox and Grid Tutorial - How to Build a Responsive Landing Page with HTML and CSS"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/css-flexbox-and-grid-tutorial.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/css-flexbox-and-grid-tutorial.html
 prev: /programming/css/articles/README.md
 date: 2021-09-09
 isOriginal: false
@@ -882,7 +882,7 @@ Thanks for following along and see you soon.
 {
   "title": "CSS Flexbox and Grid Tutorial - How to Build a Responsive Landing Page with HTML and CSS",
   "desc": "In this tutorial, we are going to build a simple landing page for an online education platform called Skilllz. This tutorial will teach you how to use and implement CSS Flexbox and CSS Grid alignment. We'll also cover many other CSS concepts. And fin...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/css-flexbox-and-grid-tutorial.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/css-flexbox-and-grid-tutorial.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

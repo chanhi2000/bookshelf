@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Load Balancing with Azure Application Gateway and Azure Load Balancer - When to Use Each One"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/load-balancing-with-azure-application-gateway-and-azure-load-balancer/
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/load-balancing-with-azure-application-gateway-and-azure-load-balancer/
 prev: /devops/azure/articles/README.md
 date: 2025-05-15
 isOriginal: false
@@ -224,7 +224,7 @@ If you enjoyed this article, you can learn more about me by exploring more of my
 {
   "title": "Load Balancing with Azure Application Gateway and Azure Load Balancer - When to Use Each One",
   "desc": "You’ve probably heard someone mention load balancing when talking about cloud apps. Maybe even names like Azure Load Balancer, Azure Application Gateway, or something about Virtual Machines and Scale Sets. 😵‍💫 It all sounds important...but also a l...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/load-balancing-with-azure-application-gateway-and-azure-load-balancer.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/load-balancing-with-azure-application-gateway-and-azure-load-balancer.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

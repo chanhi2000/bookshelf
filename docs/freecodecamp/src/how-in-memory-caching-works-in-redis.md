@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: "How In-Memory Caching Works in Redis"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-in-memory-caching-works-in-redis.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-in-memory-caching-works-in-redis.html
 prev: /data-science/redis/articles/README.md
 date: 2025-07-17
 isOriginal: false
@@ -255,7 +255,7 @@ Enjoyed this article? [Connect with me on Linkedin (<VPIcon icon="fa-brands fa-l
 {
   "title": "How In-Memory Caching Works in Redis",
   "desc": "When you’re building a web app or API that needs to respond quickly, caching is often the secret sauce. Without it, your server can waste time fetching the same data over and over again - from a database, a third-party API, or a slow storage system. ...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-in-memory-caching-works-in-redis.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-in-memory-caching-works-in-redis.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

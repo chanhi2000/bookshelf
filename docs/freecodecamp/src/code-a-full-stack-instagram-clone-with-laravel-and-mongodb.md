@@ -24,7 +24,7 @@ head:
     - property: og:description
       content: "Code a full stack Instagram Clone with Laravel and MongoDB"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/code-a-full-stack-instagram-clone-with-laravel-and-mongodb.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/code-a-full-stack-instagram-clone-with-laravel-and-mongodb.html
 prev: /programming/php-laravel/articles/README.md
 date: 2025-04-02
 isOriginal: false
@@ -123,7 +123,7 @@ Ready to build your own Instagram clone and significantly boost your web develop
 {
   "title": "Code a full stack Instagram Clone with Laravel and MongoDB",
   "desc": "Are you ready to transform your web development skills by building a complex, real-world application? We just posted a course on the freeCodeCamp.org YouTube channel that will teach you how to use Laravel and MongoDB to create a full stack Instagram ...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/code-a-full-stack-instagram-clone-with-laravel-and-mongodb.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/code-a-full-stack-instagram-clone-with-laravel-and-mongodb.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

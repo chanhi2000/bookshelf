@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: "How to Launch an EC2 Instance and Set Up a Web Server Using HTTPD"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-launch-an-ec2-instance-and-a-web-server-using-httpd.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-launch-an-ec2-instance-and-a-web-server-using-httpd.html
 prev: /devops/aws/articles/README.md
 date: 2024-11-05
 isOriginal: false
@@ -223,7 +223,7 @@ You can follow me on
 {
   "title": "How to Launch an EC2 Instance and Set Up a Web Server Using HTTPD",
   "desc": "Hey there! Have you ever thought about creating your own web server on the cloud? Well, you’re in for a treat because in this article, we’re going to explore how you can launch an EC2 instance and use HTTPD to host a simple web server. Don’t worry - ...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-launch-an-ec2-instance-and-a-web-server-using-httpd.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-launch-an-ec2-instance-and-a-web-server-using-httpd.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

@@ -22,7 +22,7 @@ head:
     - property: og:description
       content: "How to Visualize the results"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/empire-state-building-run-up-analysis-with-python/how-to-visualize-the-results.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/empire-state-building-run-up-analysis-with-python/how-to-visualize-the-results.html
 date: 2024-12-03
 isOriginal: false
 author:

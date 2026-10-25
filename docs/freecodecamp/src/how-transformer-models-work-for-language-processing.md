@@ -27,7 +27,7 @@ head:
     - property: og:description
       content: "How Transformer Models Work for Language Processing"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-transformer-models-work-for-language-processing.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-transformer-models-work-for-language-processing.html
 prev: /programming/py-torch/articles/README.md
 date: 2025-09-13
 isOriginal: false
@@ -467,7 +467,7 @@ If you’re exploring transformers further, try experimenting with small models,
 {
   "title": "How Transformer Models Work for Language Processing",
   "desc": "If you’ve ever used Google Translate, skimmed through a quick summary, or asked a chatbot for help, then you’ve definitely seen Transformers at work. They’re considered the architects behind today’s biggest advances in natural language processing (NL...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-transformer-models-work-for-language-processing.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-transformer-models-work-for-language-processing.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

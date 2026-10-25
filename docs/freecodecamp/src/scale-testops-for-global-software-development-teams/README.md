@@ -45,7 +45,7 @@ head:
     - property: og:description
       content: "How to Scale TestOps for Global Software Development Teams"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/scale-testops-for-global-software-development-teams/
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/scale-testops-for-global-software-development-teams/
 prev: /academics/coen/articles/README.md
 date: 2025-04-18
 isOriginal: false
@@ -240,7 +240,7 @@ The future of TestOps looks even more promising with smarter tools, better colla
 {
   "title": "How to Scale TestOps for Global Software Development Teams",
   "desc": "Imagine that your software team is spread across the globe—developers in the US, testers in Asia, and managers in Europe. Exciting, right? But managing this setup is no walk in the park. Coordinating testing across time zones, tools, and workflows ca...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/scale-testops-for-global-software-development-teams.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/scale-testops-for-global-software-development-teams.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

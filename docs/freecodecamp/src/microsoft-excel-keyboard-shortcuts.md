@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Microsoft Excel: 14 Time-Saving Keyboard Shortcuts"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/microsoft-excel-keyboard-shortcuts.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/microsoft-excel-keyboard-shortcuts.html
 prev: /tool/xls/articles/README.md
 date: 2024-10-16
 isOriginal: false
@@ -340,7 +340,7 @@ You can find me over on [YouTube (<VPIcon icon="fa-brands fa-youtube"/>`@eamonnc
 {
   "title": "Microsoft Excel: 14 Time-Saving Keyboard Shortcuts",
   "desc": "Microsoft Excel is the quintessential spreadsheet software used everywhere from universities to small businesses to enterprises. It’s a lifesaver for countless financial professionals, data analysts, and teachers. But it’s also one of those programs ...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/microsoft-excel-keyboard-shortcuts.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/microsoft-excel-keyboard-shortcuts.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

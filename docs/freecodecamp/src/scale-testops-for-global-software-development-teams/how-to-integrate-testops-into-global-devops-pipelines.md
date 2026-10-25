@@ -44,7 +44,7 @@ head:
     - property: og:description
       content: "How to Integrate TestOps into Global DevOps Pipelines"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/scale-testops-for-global-software-development-teams/how-to-integrate-testops-into-global-devops-pipelines.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/scale-testops-for-global-software-development-teams/how-to-integrate-testops-into-global-devops-pipelines.html
 date: 2025-04-18
 isOriginal: false
 author:

@@ -26,7 +26,7 @@ head:
     - property: og:description
       content: "How to Build a Realtime Chat Application with Angular 20 and Supabase"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-build-a-realtime-chat-app-with-angular-20-and-supabase.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-build-a-realtime-chat-app-with-angular-20-and-supabase.html
 prev: /programming/js-angular/articles/README.md
 date: 2025-06-17
 isOriginal: false
@@ -1533,7 +1533,7 @@ If you found this article helpful, consider subscribing to my [YouTube channel (
 {
   "title": "How to Build a Realtime Chat Application with Angular 20 and Supabase",
   "desc": "Chat applications let you talk in real-time with your friends, family, or coworkers, and help you quickly, effectively, and efficiently transfer of information. When you’re building modern web applications, chat applications are now pretty much a req...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-build-a-realtime-chat-app-with-angular-20-and-supabase.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-build-a-realtime-chat-app-with-angular-20-and-supabase.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

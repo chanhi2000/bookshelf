@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: "How to Create Filling CSS Loaders Using One Element"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/filling-css-loaders.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/filling-css-loaders.html
 prev: /programming/css/articles/README.md
 date: 2024-10-24
 isOriginal: false
@@ -237,7 +237,7 @@ Don’t forget to check my [<VPIcon icon="fas fa-globe"/>CSS Tip blog](https://c
 {
   "title": "How to Create Filling CSS Loaders Using One Element",
   "desc": "In a previous article, I showed you how to create two types of CSS loaders: a spinner and a progress bar. In this article, you’ll learn about another variation called a filling CSS loader. I think a demo is worth thousands of words, so check out this...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/filling-css-loaders.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/filling-css-loaders.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

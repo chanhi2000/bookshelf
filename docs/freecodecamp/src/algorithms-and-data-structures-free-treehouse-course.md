@@ -27,7 +27,7 @@ head:
     - property: og:description
       content: "Learn About Algorithms and Data Structures in this Free 6-hour  Course"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/algorithms-and-data-structures-free-treehouse-course.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/algorithms-and-data-structures-free-treehouse-course.html
 prev: /programming/py/articles/README.md
 date: 2021-03-19
 isOriginal: false
@@ -99,7 +99,7 @@ Watch the full course below or [<VPIcon icon="fa-brands fa-youtube"/>on the free
 {
   "title": "Learn About Algorithms and Data Structures in this Free 6-hour  Course",
   "desc": "Algorithms and data structures are two of the fundamental topics in computer science. All programmers will encounter them, and they often come up in job interviews. We just published a length course on the freeCodeCamp.org YouTube channel that will g...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/algorithms-and-data-structures-free-treehouse-course.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/algorithms-and-data-structures-free-treehouse-course.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

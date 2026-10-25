@@ -28,7 +28,7 @@ head:
     - property: og:description
       content: "Beginner’s Guide to Cloud Data Analytics"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/beginners-guide-to-cloud-data-analytics.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/beginners-guide-to-cloud-data-analytics.html
 prev: /devops/gcp/articles/README.md
 date: 2025-06-17
 isOriginal: false
@@ -124,7 +124,7 @@ Watch the [<VPIcon icon="fa-brands fa-youtube"/>full course on the freeCodeCamp.
 {
   "title": "Beginner’s Guide to Cloud Data Analytics",
   "desc": "Are you ready to transform your career and become a data-driven decision maker? We’re excited to announce that freeCodeCamp.org has just published a comprehensive Google Cloud Data Analytics course on our YouTube channel. The course was developed by ...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/beginners-guide-to-cloud-data-analytics.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/beginners-guide-to-cloud-data-analytics.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: "AWS EC2: How to Quickly Host Your Website with User Data Scripts"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/aws-ec2-how-to-host-a-website-with-user-data-scripts.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/aws-ec2-how-to-host-a-website-with-user-data-scripts.html
 prev: /devops/aws/articles/README.md
 date: 2024-11-27
 isOriginal: false
@@ -170,7 +170,7 @@ You can follow me on
 {
   "title": "AWS EC2: How to Quickly Host Your Website with User Data Scripts",
   "desc": "If you want to practice and improve your web hosting skills, this tutorial is for you. With AWS EC2 and a little magic called user data scripts, you’ll be running a stunning website with a CSS template in no time. And the best part? You don’t need to...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/aws-ec2-how-to-host-a-website-with-user-data-scripts.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/aws-ec2-how-to-host-a-website-with-user-data-scripts.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

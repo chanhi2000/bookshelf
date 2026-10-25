@@ -25,7 +25,7 @@ head:
     - property: og:description
       content: "How to Develop with CodeIgniter on Ubuntu - Step-by-Step Environment Setup"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-develop-with-codeigniter-on-ubuntu-environment-setup.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-develop-with-codeigniter-on-ubuntu-environment-setup.html
 prev: /devops/linux-debian/articles/README.md
 date: 2025-01-24
 isOriginal: false
@@ -405,7 +405,7 @@ By carefully following the outlined steps—from installing prerequisites, confi
 {
   "title": "How to Develop with CodeIgniter on Ubuntu - Step-by-Step Environment Setup",
   "desc": "CodeIgniter is a popular open-source PHP framework you can use to build dynamic and robust web applications. It’s simple to use, fast, and flexible. This makes it a good option for any developer who wants to have a light yet powerful framework that w...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-develop-with-codeigniter-on-ubuntu-environment-setup.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-develop-with-codeigniter-on-ubuntu-environment-setup.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

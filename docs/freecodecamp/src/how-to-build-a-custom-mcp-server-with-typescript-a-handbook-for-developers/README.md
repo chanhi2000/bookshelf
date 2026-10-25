@@ -27,7 +27,7 @@ head:
     - property: og:description
       content: "How to Build a Custom MCP Server with TypeScript - A Handbook for Developers"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-build-a-custom-mcp-server-with-typescript-a-handbook-for-developers/
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-build-a-custom-mcp-server-with-typescript-a-handbook-for-developers/
 prev: /programming/ts/articles/README.md
 date: 2025-06-26
 isOriginal: false
@@ -934,7 +934,7 @@ Also, if you found the handbook valuable, feel free to share it with others who 
 {
   "title": "How to Build a Custom MCP Server with TypeScript - A Handbook for Developers",
   "desc": "MCP (Model Context Protocol) lets you connect your code, data, and tools to AI applications like Claude and Cursor. This handbook explains how it works with real-world analogies, and shows you how to build a custom MCP server using TypeScript that fe...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-build-a-custom-mcp-server-with-typescript-a-handbook-for-developers.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-build-a-custom-mcp-server-with-typescript-a-handbook-for-developers.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

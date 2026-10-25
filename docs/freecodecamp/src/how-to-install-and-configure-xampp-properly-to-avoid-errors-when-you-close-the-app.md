@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: "How to Install and Configure XAMPP Properly to Avoid Errors When You Close the App"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-install-and-configure-xampp-properly-to-avoid-errors-when-you-close-the-app.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-install-and-configure-xampp-properly-to-avoid-errors-when-you-close-the-app.html
 prev: /devops/win/articles/README.md
 date: 2024-11-14
 isOriginal: false
@@ -125,7 +125,7 @@ You can follow me on [GitHub (<VPIcon icon="iconfont icon-github"/>`FahimFBA`)](
 {
   "title": "How to Install and Configure XAMPP Properly to Avoid Errors When You Close the App",
   "desc": "XAMPP is popular software for those who use MySQL databases and PHP. It’s free software, and it supports Windows, Linux OS, and MacOS. This makes it quite popular among developers even though it can also present us with many challenges. One common is...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-install-and-configure-xampp-properly-to-avoid-errors-when-you-close-the-app.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-install-and-configure-xampp-properly-to-avoid-errors-when-you-close-the-app.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

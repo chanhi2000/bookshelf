@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: "Test Yourself"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-ipv4-works-a-handbook-for-developers/test-yourself.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-ipv4-works-a-handbook-for-developers/test-yourself.html
 date: 2025-05-01
 isOriginal: false
 author:

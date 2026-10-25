@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: "How to Create a Meme Generator Using HTML Canvas"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/create-meme-generator-using-html-canvas.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/create-meme-generator-using-html-canvas.html
 prev: /programming/css/articles/README.md
 date: 2024-11-19
 isOriginal: false
@@ -402,7 +402,7 @@ See you in the next one!
 {
   "title": "How to Create a Meme Generator Using HTML Canvas",
   "desc": "We all come across memes almost every day on the internet. Whether you're scrolling through social media or chatting with friends, there's a good chance you'll stumble on a meme, or even share one yourself. A meme can be an image, a video, or gif tha...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/create-meme-generator-using-html-canvas.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/create-meme-generator-using-html-canvas.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "Learn the Basics of API Security"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/learn-the-basics-of-api-security.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-the-basics-of-api-security.html
 prev: /devops/security/articles/README.md
 date: 2025-01-31
 isOriginal: false
@@ -78,7 +78,7 @@ If you're looking to **strengthen your API security knowledge** and learn from a
 {
   "title": "Learn the Basics of API Security",
   "desc": "APIs (Application Programming Interfaces) are the backbone of modern software applications, enabling seamless communication between different systems and services. However, this interconnectedness also makes them a prime target for cyberattacks. API ...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/learn-the-basics-of-api-security.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-the-basics-of-api-security.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

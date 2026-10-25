@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: "How to Discover Hidden Subdomains as an Ethical Hacker"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-discover-hidden-subdomains-as-an-ethical-hacker.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-discover-hidden-subdomains-as-an-ethical-hacker.html
 prev: /devops/security/articles/README.md
 date: 2025-01-08
 isOriginal: false
@@ -237,7 +237,7 @@ For more practical tutorials on cybersecurity, join our [<VPIcon icon="fas fa-gl
 {
   "title": "How to Discover Hidden Subdomains as an Ethical Hacker",
   "desc": "Subdomains are an essential part of a website’s infrastructure. They provide additional functions in a web application, such as APIs, admin portals, and staging environments. As an ethical hacker, discovering subdomains is a critical step in learning...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-discover-hidden-subdomains-as-an-ethical-hacker.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-discover-hidden-subdomains-as-an-ethical-hacker.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

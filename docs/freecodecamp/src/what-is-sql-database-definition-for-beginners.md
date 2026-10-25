@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: "What is SQL? Database Definition for Beginners"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/what-is-sql-database-definition-for-beginners.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/what-is-sql-database-definition-for-beginners.html
 prev: /data-science/articles/README.md
 date: 2023-01-13
 isOriginal: false
@@ -133,7 +133,7 @@ You can access over 150 of my articles by [<VPIcon icon="fas fa-globe"/>visiting
 {
   "title": "What is SQL? Database Definition for Beginners",
   "desc": "Data is a powerful tool that drives everything you see and interact with on the internet. It facilitates research and powers today's technology. It is the driving force behind today's artificial intelligence and robotics. And so much more. Previously...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/what-is-sql-database-definition-for-beginners.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/what-is-sql-database-definition-for-beginners.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

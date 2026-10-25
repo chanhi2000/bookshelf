@@ -25,7 +25,7 @@ head:
     - property: og:description
       content: "What Are Scripts and How Do They Work? Improve Your Productivity with Scripting"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/what-are-scripts-and-how-do-they-work.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/what-are-scripts-and-how-do-they-work.html
 prev: /programming/sh/articles/README.md
 date: 2025-01-27
 isOriginal: false
@@ -394,7 +394,7 @@ Happy scripting!
 {
   "title": "What Are Scripts and How Do They Work? Improve Your Productivity with Scripting",
   "desc": "Developers who have a lot of experience building rigid, quality software tend to automate most of their work by writing scripts. These scripts range from simple alias bash commands to repetitive cron triggers that run on a server. In this tutorial, y...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/what-are-scripts-and-how-do-they-work.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/what-are-scripts-and-how-do-they-work.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

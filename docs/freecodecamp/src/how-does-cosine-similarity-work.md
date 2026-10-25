@@ -29,7 +29,7 @@ head:
     - property: og:description
       content: "How Does Cosine Similarity Work? The Math Behind LLMs Explained"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-does-cosine-similarity-work.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-does-cosine-similarity-work.html
 prev: /ai/llm/articles/README.md
 date: 2025-09-18
 isOriginal: false
@@ -226,7 +226,7 @@ Hope you enjoyed this article. Signup for my free AI newsletter [<VPIcon icon="f
 {
   "title": "How Does Cosine Similarity Work? The Math Behind LLMs Explained",
   "desc": "When you talk to a large language model (LLM), it feels like the model understands meaning. But under the hood, the system relies on numbers, vectors, and math to find the relationships between words and sentences. One of the most important tools tha...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-does-cosine-similarity-work.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-does-cosine-similarity-work.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

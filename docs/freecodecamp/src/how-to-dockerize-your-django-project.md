@@ -25,7 +25,7 @@ head:
     - property: og:description
       content: "How to Dockerize Your Django Project"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-dockerize-your-django-project.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-dockerize-your-django-project.html
 prev: /programming/py/articles/README.md
 date: 2025-04-19
 isOriginal: false
@@ -354,7 +354,7 @@ You’ll spend less time debugging setup issues and more time coding your app.
 {
   "title": "How to Dockerize Your Django Project",
   "desc": "If you're working on a Django project and you want to make your life easier - especially when it comes to running your app across different environments - Docker is your new best friend. Docker makes it possible to package your Django app, along with...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-dockerize-your-django-project.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-dockerize-your-django-project.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

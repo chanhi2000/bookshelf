@@ -22,7 +22,7 @@ head:
     - property: og:description
       content: "Create a Developer Portfolio as a 2D Game"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/create-a-developer-portfolio-as-a-2d-game.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/create-a-developer-portfolio-as-a-2d-game.html
 prev: /programming/js-node/articles/README.md
 date: 2024-04-04
 isOriginal: false
@@ -87,7 +87,7 @@ By the end of this course, you'll not only have a unique developer portfolio but
 {
   "title": "Create a Developer Portfolio as a 2D Game",
   "desc": "Are you tired of the same old developer portfolios? Want to stand out to potential employers or clients? We just posted a course on the freeCodeCamp.org YouTube channel that will teach you how to use Kaboom.js to craft a 2D game that doubles as your ...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/create-a-developer-portfolio-as-a-2d-game.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/create-a-developer-portfolio-as-a-2d-game.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "What is ECS Monitoring? Explained With Examples"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/ecs-monitoring-explained-with-examples.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/ecs-monitoring-explained-with-examples.html
 prev: /devops/aws/articles/README.md
 date: 2024-09-23
 isOriginal: false
@@ -160,7 +160,7 @@ Thanks for reading. You can connect with me on [LinkedIn (<VPIcon icon="fa-brand
 {
   "title": "What is ECS Monitoring? Explained With Examples",
   "desc": "Amazon Elastic Container Service (ECS) is a container orchestration service provided by Amazon Web Services (AWS). It is a solution developed by AWS to take care of the problem of managing large clusters of containers. Why Use ECS? There are other co...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/ecs-monitoring-explained-with-examples.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/ecs-monitoring-explained-with-examples.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

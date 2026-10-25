@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "Learn React - A Guide to the Key Concepts"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/learn-react-key-concepts.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-react-key-concepts.html
 prev: /programming/js-react/articles/README.md
 date: 2024-01-06
 isOriginal: false
@@ -1115,7 +1115,7 @@ Now it’s time to take the next step by subscribing to my [**newsletter**](http
 {
   "title": "Learn React - A Guide to the Key Concepts",
   "desc": "Welcome to this comprehensive guide to learning React. If you're looking for an efficient and well-thought-out approach to understanding React fundamentals, you've just hit the jackpot. This guide follows the 80/20 rule - we'll focus on a few key Rea...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/learn-react-key-concepts.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-react-key-concepts.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

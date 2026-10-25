@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "Chapter 7: Normalization"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-design-structured-database-systems-using-sql-full-book/chapter-7-normalization.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-design-structured-database-systems-using-sql-full-book/chapter-7-normalization.html
 date: 2025-08-14
 isOriginal: false
 author:

@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "Clerk vs Kinde vs Better Auth: How to Choose the Right Next.js Authentication Library"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-choose-the-right-nextjs-authentication-library.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-choose-the-right-nextjs-authentication-library.html
 prev: /programming/js-next/articles/README.md
 date: 2025-09-23
 isOriginal: false
@@ -811,7 +811,7 @@ Better Auth is a great platform, but the setup requires a bit more work because 
 {
   "title": "Clerk vs Kinde vs Better Auth: How to Choose the Right Next.js Authentication Library",
   "desc": "Authentication is an important aspect when building applications, especially if they hold financial information or require users to sign into accounts. Building an auth library can be a lot of work, and there is no need to reinvent the wheel when so ...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-choose-the-right-nextjs-authentication-library.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-choose-the-right-nextjs-authentication-library.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

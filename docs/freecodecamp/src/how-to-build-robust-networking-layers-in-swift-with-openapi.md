@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: "How to Build Robust Networking Layers in Swift with OpenAPI"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-build-robust-networking-layers-in-swift-with-openapi.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-build-robust-networking-layers-in-swift-with-openapi.html
 prev: /programming/swift/articles/README.md
 date: 2025-07-23
 isOriginal: false
@@ -539,7 +539,7 @@ You can follow me on [GitHub (<VPIcon icon="iconfont icon-github"/>`sravankarutu
 {
   "title": "How to Build Robust Networking Layers in Swift with OpenAPI",
   "desc": "What is the Problem We’re Solving? For many app developers, including me, writing the networking layer of an application is a familiar and tedious process. You write and test your first call and after that, it involves a repetitive cycle of tasks. Th...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-build-robust-networking-layers-in-swift-with-openapi.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-build-robust-networking-layers-in-swift-with-openapi.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

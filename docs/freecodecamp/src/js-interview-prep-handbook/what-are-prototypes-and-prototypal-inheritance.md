@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: "What are Prototypes and Prototypal Inheritance?"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/js-interview-prep-handbook/what-are-prototypes-and-prototypal-inheritance.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/js-interview-prep-handbook/what-are-prototypes-and-prototypal-inheritance.html
 date: 2024-09-10
 isOriginal: false
 author:

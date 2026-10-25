@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: How to Build an MVP for Your Project - and Why You Should Do It
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/minimum-viable-product-between-an-idea-and-the-product.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/minimum-viable-product-between-an-idea-and-the-product.html
 prev: /academics/system-design/articles/README.md
 date: 2024-05-24
 isOriginal: false

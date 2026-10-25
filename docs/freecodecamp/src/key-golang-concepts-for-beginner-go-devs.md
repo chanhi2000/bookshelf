@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "Key Golang Concepts You Should Learn as a Beginner Go Developer"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/key-golang-concepts-for-beginner-go-devs.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/key-golang-concepts-for-beginner-go-devs.html
 prev: /programming/go/articles/README.md
 date: 2024-11-13
 isOriginal: false
@@ -570,7 +570,7 @@ If you think I missed a key concept, I’d love it if you’d share it with me s
 {
   "title": "Key Golang Concepts You Should Learn as a Beginner Go Developer",
   "desc": "Learning new programming concepts can be hard. So you'll need a guide or a roadmap to help you navigate through the process. Learning Golang is no exception. And as a beginner, you'll need to work diligently to learn the fundamental building blocks o...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/key-golang-concepts-for-beginner-go-devs.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/key-golang-concepts-for-beginner-go-devs.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

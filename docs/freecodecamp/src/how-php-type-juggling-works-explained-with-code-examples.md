@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: "How PHP Type Juggling Works - Explained with Code Examples"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-php-type-juggling-works-explained-with-code-examples.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-php-type-juggling-works-explained-with-code-examples.html
 prev: /programming/php/articles/README.md
 date: 2025-04-16
 isOriginal: false
@@ -249,7 +249,7 @@ Stay tuned for my next article. You can explore more helpful PHP tutorials on my
 {
   "title": "How PHP Type Juggling Works - Explained with Code Examples",
   "desc": "PHP is a dynamically typed language. This means that variable types are determined at runtime, and you don’t need to explicitly define types when declaring variables. One of PHP’s unique features is type juggling, a concept that can be both fascinati...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-php-type-juggling-works-explained-with-code-examples.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-php-type-juggling-works-explained-with-code-examples.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "How to Handle MongoDB Migrations with ts-migrate-mongoose"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/handle-mongodb-migrations-with-ts-migrate-mongoose.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/handle-mongodb-migrations-with-ts-migrate-mongoose.html
 prev: /data-science/mongodb/articles/README.md
 date: 2024-11-27
 isOriginal: false
@@ -316,7 +316,7 @@ ts-migrate-mongoose can help provide a framework for running migrations for your
 {
   "title": "How to Handle MongoDB Migrations with ts-migrate-mongoose",
   "desc": "Database migrations are modifications made to a database. These modifications may include changing the schema of a table, updating the data in a set of records, seeding data or deleting a range of records. Database migrations are usually run before a...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/handle-mongodb-migrations-with-ts-migrate-mongoose.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/handle-mongodb-migrations-with-ts-migrate-mongoose.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

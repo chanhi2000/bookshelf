@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to Use RxStomp with React: Build A Chat App"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/build-chat-app-with-stomp-and-react.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-chat-app-with-stomp-and-react.html
 prev: /programming/js-react/articles/README.md
 date: 2024-10-23
 isOriginal: false
@@ -546,7 +546,7 @@ Feel free to use it as a starter template too and report any issues that may com
 {
   "title": "How to Use RxStomp with React: Build A Chat App",
   "desc": "STOMP is an amazingly simple yet powerful protocol for sending messages implemented by popular servers like RabbitMQ, ActiveMQ, and Apollo. Using STOMP over WebSocket is a straightforward protocol, making it a popular choice for sending messages from...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/build-chat-app-with-stomp-and-react.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-chat-app-with-stomp-and-react.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

@@ -24,7 +24,7 @@ head:
     - property: og:description
       content: "The Open Source LLM Agent Handbook: How to Automate Complex Tasks with LangGraph and CrewAI"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/the-open-source-llm-agent-handbook/
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/the-open-source-llm-agent-handbook/
 prev: /ai/llm/articles/README.md
 date: 2025-06-03
 isOriginal: false
@@ -770,7 +770,7 @@ Here are some helpful resources if you want to dive deeper into building LLM age
 {
   "title": "The Open Source LLM Agent Handbook: How to Automate Complex Tasks with LangGraph and CrewAI",
   "desc": "Ever feel like your AI tools are a bit...well, passive? Like they just sit there, waiting for your next command? Imagine if they could take initiative, break down big problems, and even work together to get things done. That's exactly what LLM agents...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/the-open-source-llm-agent-handbook.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/the-open-source-llm-agent-handbook.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

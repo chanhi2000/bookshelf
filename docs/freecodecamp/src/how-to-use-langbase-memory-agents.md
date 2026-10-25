@@ -25,7 +25,7 @@ head:
     - property: og:description
       content: "How to Use Langbase Memory Agents to Make Any LLM a Conversational AI for Your Docs"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-use-langbase-memory-agents.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-use-langbase-memory-agents.html
 prev: /ai/llm/articles/README.md
 date: 2025-01-18
 isOriginal: false
@@ -445,7 +445,7 @@ Thank you for reading!
 {
   "title": "How to Use Langbase Memory Agents to Make Any LLM a Conversational AI for Your Docs",
   "desc": "It’s 2025, and Large Language Models (LLMs) still can’t access your private data. Ask them something personal, and they’ll either guess or give you the wrong answer. That’s the limitation—they’re trained on public information and don’t have access to...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-use-langbase-memory-agents.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-use-langbase-memory-agents.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

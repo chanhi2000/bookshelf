@@ -22,7 +22,7 @@ head:
     - property: og:description
       content: "How IPv4 Works - A Handbook for Developers"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-ipv4-works-a-handbook-for-developers/
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-ipv4-works-a-handbook-for-developers/
 prev: /academics/coen/articles/README.md
 date: 2025-05-01
 isOriginal: false
@@ -300,7 +300,7 @@ While IPv4 has limitations, particularly its address space constraints, its eleg
 {
   "title": "How IPv4 Works - A Handbook for Developers",
   "desc": "The Internet Protocol version 4 (IPv4) is one of the core protocols of standards-based internetworking methods in the Internet and other packet-switched networks. IPv4 is still the most widely deployed Internet protocol. Google’s IPv6 Statistics show...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-ipv4-works-a-handbook-for-developers.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-ipv4-works-a-handbook-for-developers.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

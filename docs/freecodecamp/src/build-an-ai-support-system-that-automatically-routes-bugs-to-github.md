@@ -2,7 +2,7 @@
 lang: en-US
 title: "How to Build an AI Support System That Automatically Routes Bugs to GitHub with Next.js and Jev"
 description: "Article(s) > How to Build an AI Support System That Automatically Routes Bugs to GitHub with Next.js and Jev"
-icon: 
+icon: iconfont icon-jev
 category:
   - Node.js
   - Next.js
@@ -39,7 +39,7 @@ head:
       content: "How to Build an AI Support System That Automatically Routes Bugs to GitHub with Next.js and Jev"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-an-ai-support-system-that-automatically-routes-bugs-to-github.html
-prev: /devops/github/articles/README.md
+prev: /ai/jev/articles/README.md
 date: 2026-10-02
 isOriginal: false
 author:

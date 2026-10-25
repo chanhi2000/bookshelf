@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "AI in Finance: Transforming Investments and Banking in the Digital Age"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/ai-in-finance-handbook/
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/ai-in-finance-handbook/
 prev: /ai/articles/README.md
 date: 2025-08-02
 isOriginal: false
@@ -921,7 +921,7 @@ Managers love us for the built-in LMS integration, progress analytics, and team 
 {
   "title": "AI in Finance: Transforming Investments and Banking in the Digital Age",
   "desc": "Artificial Intelligence (AI) is rapidly reshaping the financial sector. As models become more powerful and infrastructure more scalable, AI has evolved from an emerging technology into a fundamental force driving competitive advantage. From fraud pre...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/ai-in-finance-handbook.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/ai-in-finance-handbook.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "The Micro-Frontend Architecture Handbook"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/complete-micro-frontends-guide/
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/complete-micro-frontends-guide/
 prev: /programming/js-react/articles/README.md
 date: 2025-06-06
 isOriginal: false
@@ -1343,7 +1343,7 @@ Let’s build the IT future we could be proud of! 💪🏼 Thanks for reading �
 {
   "title": "The Micro-Frontend Architecture Handbook",
   "desc": "Over the years, in my role as a lead full-stack developer, solutions architect, and mentor, I’ve been immersed in the world of micro frontend architecture, working across different large-scale frontend projects where multiple teams, stacks, and deplo...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/complete-micro-frontends-guide.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/complete-micro-frontends-guide.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

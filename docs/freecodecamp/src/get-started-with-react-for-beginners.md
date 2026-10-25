@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to Get Started With React - A Beginner's Guide"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/get-started-with-react-for-beginners.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/get-started-with-react-for-beginners.html
 prev: /programming/js-react/articles/README.md
 date: 2022-04-13
 isOriginal: false
@@ -339,7 +339,7 @@ Thanks for reading!
 {
   "title": "How to Get Started With React - A Beginner's Guide",
   "desc": "By Joel Olawanle React (also known as React.js or ReactJS) is a free and open-source front-end JavaScript library for creating UI component-based user interfaces.  React is maintained by Meta (previously Facebook) along with a community of individual...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/get-started-with-react-for-beginners.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/get-started-with-react-for-beginners.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

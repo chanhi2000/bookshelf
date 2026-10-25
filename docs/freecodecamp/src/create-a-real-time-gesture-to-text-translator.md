@@ -26,7 +26,7 @@ head:
     - property: og:description
       content: "Creating a Real-Time Gesture-to-Text Translator Using Python and Mediapipe"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/create-a-real-time-gesture-to-text-translator.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/create-a-real-time-gesture-to-text-translator.html
 prev: /programming/py-numpy/articles/README.md
 date: 2025-08-18
 isOriginal: false
@@ -458,7 +458,7 @@ You can find the full code and resources here:
 {
   "title": "Creating a Real-Time Gesture-to-Text Translator Using Python and Mediapipe",
   "desc": "Sign and symbol languages, like Makaton and American Sign Language (ASL), are powerful communication tools. However, they can create challenges when communicating with people who don't understand them. As a researcher working on AI for accessibility,...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/create-a-real-time-gesture-to-text-translator.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/create-a-real-time-gesture-to-text-translator.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

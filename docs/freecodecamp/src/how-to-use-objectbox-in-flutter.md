@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: "How to Use ObjectBox in Flutter"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-use-objectbox-in-flutter.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-use-objectbox-in-flutter.html
 prev: /programming/dart/articles/README.md
 date: 2025-09-17
 isOriginal: false
@@ -434,7 +434,7 @@ For official documentation and further learning:
 {
   "title": "How to Use ObjectBox in Flutter",
   "desc": "ObjectBox is a high-performance, lightweight, NoSQL embedded database built specifically for Flutter and Dart applications. It provides reactive APIs, indexes, relationships, and migrations, all designed to make local data management smooth and effic...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-use-objectbox-in-flutter.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-use-objectbox-in-flutter.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

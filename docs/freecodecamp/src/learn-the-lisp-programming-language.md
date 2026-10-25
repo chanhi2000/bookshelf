@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: "Learn the Lisp Programming Language"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/learn-the-lisp-programming-language.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-the-lisp-programming-language.html
 prev: /programming/lisp/articles/README.md
 date: 2025-01-15
 isOriginal: false
@@ -92,7 +92,7 @@ Check out the [<VPIcon icon="fa-brands fa-youtube"/>Lisp for Beginners](https://
 {
   "title": "Learn the Lisp Programming Language",
   "desc": "If you’ve ever wanted to explore a programming language that combines elegance, flexibility, and a rich history of innovation, Lisp is a perfect choice. With over six decades of influence on computer science, Lisp has played a foundational role in sh...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/learn-the-lisp-programming-language.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-the-lisp-programming-language.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

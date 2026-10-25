@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "Implementing Promises In JavaScript"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-implement-promises-in-javascript.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-implement-promises-in-javascript.html
 prev: /programming/js/articles/README.md
 date: 2018-08-05
 isOriginal: false
@@ -1064,7 +1064,7 @@ Check out my [<VPIcon icon="fas fa-globe"/>social media](https://maciejcieslar.c
 {
   "title": "Implementing Promises In JavaScript",
   "desc": "By Maciej Cieślar The thing I love most about programming is the aha! moment when you start to fully understand a concept. Even though it might take a long time and no small amount of effort to get there, it sure is worth it. I think that the most ef...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-implement-promises-in-javascript.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-implement-promises-in-javascript.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

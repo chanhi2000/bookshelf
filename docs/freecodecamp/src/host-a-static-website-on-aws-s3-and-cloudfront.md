@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: "How to Host a Static Website on AWS S3 and CloudFront"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/host-a-static-website-on-aws-s3-and-cloudfront.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/host-a-static-website-on-aws-s3-and-cloudfront.html
 prev: /devops/aws/articles/README.md
 date: 2025-03-26
 isOriginal: false
@@ -519,7 +519,7 @@ This is just the beginning, and you’re off to a great start. Keep experimentin
 {
   "title": "How to Host a Static Website on AWS S3 and CloudFront",
   "desc": "DevOps might seem like a complex field with various specializations and tools. In this article, I’ll simplify one key aspect by demonstrating how to host a static website using Amazon S3 (Simple Storage Service) and CloudFront, AWS’s Content Delivery...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/host-a-static-website-on-aws-s3-and-cloudfront.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/host-a-static-website-on-aws-s3-and-cloudfront.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

@@ -27,7 +27,7 @@ head:
     - property: og:description
       content: "How to Use Medusa for Fast, Multi-Protocol Brute-Force Attacks - Security Tutorial"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-use-medusa-for-fast-multi-protocol-brute-force-attacks-security-tutorial.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-use-medusa-for-fast-multi-protocol-brute-force-attacks-security-tutorial.html
 prev: /devops/linux-debian/articles/README.md
 date: 2024-10-02
 isOriginal: false

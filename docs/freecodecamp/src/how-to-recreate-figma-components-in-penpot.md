@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "How to Move Figma Components to Penpot"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-recreate-figma-components-in-penpot.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-recreate-figma-components-in-penpot.html
 prev: /tool/figma/articles/README.md
 date: 2025-03-27
 isOriginal: false
@@ -214,7 +214,7 @@ Using Penpot has a learning curve, even if you are familiar with other design to
 {
   "title": "How to Move Figma Components to Penpot",
   "desc": "Penpot is an open-source design tool for creating complete design systems. It is free, self-hostable, and allows multiple projects. Penpot supports reusable components and assets and allows files and libraries to be shared across projects. Penpot fil...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-recreate-figma-components-in-penpot.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-recreate-figma-components-in-penpot.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

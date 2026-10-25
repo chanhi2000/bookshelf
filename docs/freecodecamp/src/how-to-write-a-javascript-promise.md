@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "How to Write a JavaScript Promise"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-write-a-javascript-promise.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-write-a-javascript-promise.html
 prev: /programming/js/articles/README.md
 date: 2019-02-06
 isOriginal: false
@@ -310,7 +310,7 @@ Most likely, you’ll consume promises more than you will create them. In either
 {
   "title": "How to Write a JavaScript Promise",
   "desc": "What is a promise? A JavaScript promise is an object that represents the completion or failure of an asynchronous task and its resulting value.¹ The end. I’m kidding of course. So, what does that definition even mean? First of all, many things in Jav...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-write-a-javascript-promise-4ed8d44292b8.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-write-a-javascript-promise-4ed8d44292b8.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

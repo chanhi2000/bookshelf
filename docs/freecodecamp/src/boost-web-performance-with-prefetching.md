@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to Boost Web Performance with Prefetching - Improve User Experience by Reducing Load Time"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/boost-web-performance-with-prefetching.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/boost-web-performance-with-prefetching.html
 prev: /programming/js-react/articles/README.md
 date: 2024-09-24
 isOriginal: false
@@ -466,7 +466,7 @@ For more content, you can follow me on [Twitter (<VPIcon icon="fa-brands fa-x-tw
 {
   "title": "How to Boost Web Performance with Prefetching - Improve User Experience by Reducing Load Time",
   "desc": "We've all encountered the frustration of waiting through long loading screens, only to find ourselves stuck with unresponsive pages. You see loading spinners everywhere, but nothing seems to move forward. Let me paint a clearer picture for you: This...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/boost-web-performance-with-prefetching.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/boost-web-performance-with-prefetching.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

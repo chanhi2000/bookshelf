@@ -16,7 +16,7 @@ head:
     - property: og:description
       content: "Git Objects — blob, tree and commit"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/git-internals-objects-branches-create-repo/git-objects-blob-tree-and-commit.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/git-internals-objects-branches-create-repo/git-objects-blob-tree-and-commit.html
 date: 2020-12-15
 isOriginal: false
 author:

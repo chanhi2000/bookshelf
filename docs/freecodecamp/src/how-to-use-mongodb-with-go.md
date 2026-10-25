@@ -22,7 +22,7 @@ head:
     - property: og:description
       content: "How to Use MongoDB with Go"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-use-mongodb-with-go.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-use-mongodb-with-go.html
 prev: /programming/go/articles/README.md
 date: 2025-07-31
 isOriginal: false
@@ -909,7 +909,7 @@ Cheers to building more with Go and MongoDB!
 {
   "title": "How to Use MongoDB with Go",
   "desc": "Working with databases is a fundamental part of backend development, particularly when you’re building applications that require persisting, querying, and updating data. In Go, the official MongoDB driver provides a robust way to connect to and inter...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-use-mongodb-with-go.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-use-mongodb-with-go.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

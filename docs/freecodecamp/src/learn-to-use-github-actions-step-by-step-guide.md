@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: "Learn to Use GitHub Actions: a Step-by-Step Guide"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/learn-to-use-github-actions-step-by-step-guide.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-to-use-github-actions-step-by-step-guide.html
 prev: /programming/git/articles/README.md
 date: 2025-01-16
 isOriginal: false
@@ -524,7 +524,7 @@ Thanks for reading!
 {
   "title": "Learn to Use GitHub Actions: a Step-by-Step Guide",
   "desc": "GitHub Actions are one of the most helpful features of GitHub. Actions help you automate, build, test, and deploy your app from your GitHub. They also help you perform code reviews and tests, manage branches, triage issues, and more. In simple terms,...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/learn-to-use-github-actions-step-by-step-guide.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-to-use-github-actions-step-by-step-guide.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

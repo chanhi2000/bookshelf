@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: "How to Reverse Engineer a Website - a Guide for Developers"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-reverse-engineer-a-website.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-reverse-engineer-a-website.html
 prev: /devops/security/articles/README.md
 date: 2024-11-14
 isOriginal: false
@@ -378,7 +378,7 @@ If you like this article, subscribe to my [newsletter](https://hadithtechen.subs
 {
   "title": "How to Reverse Engineer a Website - a Guide for Developers",
   "desc": "While using one of your favorite websites, you might have often thought, ”What if this website had this particular functionality? That would be great!” If you have ever had such thoughts, this article is for you. In it, you'll learn how websites comm...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-reverse-engineer-a-website.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-reverse-engineer-a-website.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

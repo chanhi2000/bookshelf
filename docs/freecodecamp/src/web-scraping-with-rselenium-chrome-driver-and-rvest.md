@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: "Web Scraping With RSelenium (Chrome Driver) and Rvest"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/web-scraping-with-rselenium-chrome-driver-and-rvest.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/web-scraping-with-rselenium-chrome-driver-and-rvest.html
 prev: /data-science/r/articles/README.md
 date: 2025-03-17
 isOriginal: false
@@ -612,7 +612,7 @@ This approach provides a powerful and flexible method for web scraping, enabling
 {
   "title": "Web Scraping With RSelenium (Chrome Driver) and Rvest",
   "desc": "Web scraping lets you automatically extract data from websites, so you can store it in a structured format for later use. In this article, you'll explore how to use popular R libraries for web scraping to extract data from a website. The target websi...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/web-scraping-with-rselenium-chrome-driver-and-rvest.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/web-scraping-with-rselenium-chrome-driver-and-rvest.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

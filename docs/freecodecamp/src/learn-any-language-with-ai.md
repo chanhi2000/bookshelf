@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: "Learn ANY Language with AI"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/learn-any-language-with-ai.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-any-language-with-ai.html
 prev: /ai/llm/articles/README.md
 date: 2025-03-21
 isOriginal: false
@@ -96,7 +96,7 @@ If you're serious about improving your language skills, check out the course now
 {
   "title": "Learn ANY Language with AI",
   "desc": "Learning a new language can feel overwhelming, but what if you had an intelligent, always-available language tutor to help? With AI-powered tools like ChatGPT and DeepSeek, you can improve your fluency, enhance your vocabulary, and practice real-worl...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/learn-any-language-with-ai.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-any-language-with-ai.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

@@ -24,7 +24,7 @@ head:
     - property: og:description
       content: "How To Deploy To Vercel With GitHub Actions"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/deploy-to-vercel-with-github-actions.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/deploy-to-vercel-with-github-actions.html
 prev: /devops/github/articles/README.md
 date: 2025-06-11
 isOriginal: false
@@ -287,7 +287,7 @@ With your basic GitHub workflow in place, you can now make changes to your code,
 {
   "title": "How To Deploy To Vercel With GitHub Actions",
   "desc": "Vercel is a cloud platform or Platform-as-a-Service (PaaS) designed to help frontend developers create, preview, and deploy web applications swiftly and efficiently. In this tutorial, we’ll focus on deploying a Next.js application to Vercel using Git...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/deploy-to-vercel-with-github-actions.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/deploy-to-vercel-with-github-actions.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

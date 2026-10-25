@@ -24,7 +24,7 @@ head:
     - property: og:description
       content: "A Beginner's Guide to Terraform - Infrastructure-as-Code in Practice"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/a-beginners-guide-to-terraform-infrastructure-as-code-in-practice.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/a-beginners-guide-to-terraform-infrastructure-as-code-in-practice.html
 prev: /devops/terraform/articles/README.md
 date: 2025-01-04
 isOriginal: false
@@ -280,7 +280,7 @@ Feel free to message me with any comments or questions. You can also check out m
 {
   "title": "A Beginner's Guide to Terraform - Infrastructure-as-Code in Practice",
   "desc": "Over the years, cloud development has seen a major paradigm shift. Newer and more complex applications are deployed rapidly to the cloud to minimize downtime. And through all of this, the concept of Infrastructure-as-Code and various tools have emerg...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/a-beginners-guide-to-terraform-infrastructure-as-code-in-practice.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/a-beginners-guide-to-terraform-infrastructure-as-code-in-practice.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

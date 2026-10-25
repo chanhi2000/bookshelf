@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: "How to Address Common Accessibility Challenges in iOS Mobile Apps Using SwiftUI"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-address-ios-accessibility-challenges-using-swiftui.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-address-ios-accessibility-challenges-using-swiftui.html
 prev: /programming/swift/articles/README.md
 date: 2024-11-20
 isOriginal: false
@@ -363,7 +363,7 @@ Adjust text size in iOS Accessibility settings, and ensure the app’s text scal
 {
   "title": "How to Address Common Accessibility Challenges in iOS Mobile Apps Using SwiftUI",
   "desc": "Mobile apps are essential tools in daily life, making accessibility a top priority. However, many apps still do not provide inclusive experiences for people with disabilities. This article highlights nine common accessibility challenges in mobile app...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-address-ios-accessibility-challenges-using-swiftui.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-address-ios-accessibility-challenges-using-swiftui.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

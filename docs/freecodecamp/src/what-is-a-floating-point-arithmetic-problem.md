@@ -24,7 +24,7 @@ head:
     - property: og:description
       content: "What is a Floating-Point Arithmetic Problem?"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/what-is-a-floating-point-arithmetic-problem.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/what-is-a-floating-point-arithmetic-problem.html
 prev: /academics/coen/articles/README.md
 date: 2024-10-24
 isOriginal: false
@@ -240,7 +240,7 @@ let result = bigNumber + BigInt(5); // Now it works!
 {
   "title": "What is a Floating-Point Arithmetic Problem?",
   "desc": "Have you ever worked with numbers like 1/3, where the result is 0.33333… and continues forever? As humans, we naturally round off such numbers, but have you ever wondered how computers handle them? In this article, you’ll explore how computers manage...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/what-is-a-floating-point-arithmetic-problem.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/what-is-a-floating-point-arithmetic-problem.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

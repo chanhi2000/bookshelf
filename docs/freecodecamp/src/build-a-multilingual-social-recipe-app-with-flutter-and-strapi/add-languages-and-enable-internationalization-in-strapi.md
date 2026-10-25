@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "Add Languages and Enable Internationalization in Strapi"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/build-a-multilingual-social-recipe-app-with-flutter-and-strapi/add-languages-and-enable-internationalization-in-strapi.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-a-multilingual-social-recipe-app-with-flutter-and-strapi/add-languages-and-enable-internationalization-in-strapi.html
 date: 2025-04-09
 isOriginal: false
 author:

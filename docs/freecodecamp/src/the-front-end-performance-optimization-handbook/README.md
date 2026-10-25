@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "The Front-End Performance Optimization Handbook - Tips and Strategies for Devs"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/the-front-end-performance-optimization-handbook/
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/the-front-end-performance-optimization-handbook/
 prev: /programming/js-node/articles/README.md
 date: 2025-05-07
 isOriginal: false
@@ -351,7 +351,7 @@ Remember that web performance is a continuous journey, not a destination. Browse
 {
   "title": "The Front-End Performance Optimization Handbook - Tips and Strategies for Devs",
   "desc": "When you’re building a website, you’ll want it to be responsive, fast, and efficient. This means making sure the site loads quickly, runs smoothly, and provides a seamless experience for your users, among other things. So as you build, you’ll want to...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/the-front-end-performance-optimization-handbook.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/the-front-end-performance-optimization-handbook.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

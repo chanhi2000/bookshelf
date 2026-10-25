@@ -27,7 +27,7 @@ head:
     - property: og:description
       content: "How to Run Open Source LLMs on Your Own Computer Using Ollama"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-run-open-source-llms-on-your-own-computer-using-ollama.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-run-open-source-llms-on-your-own-computer-using-ollama.html
 prev: /ai/llama/articles/README.md
 date: 2024-12-21
 isOriginal: false
@@ -302,7 +302,7 @@ Thanks for reading this article!
 {
   "title": "How to Run Open Source LLMs on Your Own Computer Using Ollama",
   "desc": "AI tools have become commonplace these days, and you may use them daily. One of the key ways to secure your confidential data - both personal and business-related - is by running your own AI on your own infrastructure. This guide will explain how to ...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-run-open-source-llms-on-your-own-computer-using-ollama.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-run-open-source-llms-on-your-own-computer-using-ollama.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

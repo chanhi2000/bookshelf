@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: "How to Deploy an Application on Your Kubernetes Cluster"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/learn-kubernetes-handbook-devs-startups-businesses/how-to-deploy-your-application-on-a-kubernetes-cluster.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-kubernetes-handbook-devs-startups-businesses/how-to-deploy-your-application-on-a-kubernetes-cluster.html
 date: 2025-05-03
 isOriginal: false
 author:

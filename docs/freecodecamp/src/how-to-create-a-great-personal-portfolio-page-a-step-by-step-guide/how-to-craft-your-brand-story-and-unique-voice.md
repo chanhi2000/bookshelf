@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: "How to Craft Your Brand Story and Unique Voice"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-create-a-great-personal-portfolio-page-a-step-by-step-guide/how-to-craft-your-brand-story-and-unique-voice.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-create-a-great-personal-portfolio-page-a-step-by-step-guide/how-to-craft-your-brand-story-and-unique-voice.html
 date: 2024-03-23
 isOriginal: false
 author:

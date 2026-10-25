@@ -27,7 +27,7 @@ head:
     - property: og:description
       content: "How to Perform Sentence Similarity Check Using Sentence Transformers"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-perform-sentence-similarity-check-using-sentence-transformers.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-perform-sentence-similarity-check-using-sentence-transformers.html
 prev: /programming/py-torch/articles/README.md
 date: 2025-09-04
 isOriginal: false
@@ -263,7 +263,7 @@ Hope you enjoyed this article. Signup for my free newsletter [<VPIcon icon="fas 
 {
   "title": "How to Perform Sentence Similarity Check Using Sentence Transformers",
   "desc": "Sentence similarity plays an important role in many natural language processing (NLP) applications.  Whether you build chatbots, recommendation systems, or search engines, understanding how close two sentences are in meaning can improve user experien...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-perform-sentence-similarity-check-using-sentence-transformers.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-perform-sentence-similarity-check-using-sentence-transformers.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

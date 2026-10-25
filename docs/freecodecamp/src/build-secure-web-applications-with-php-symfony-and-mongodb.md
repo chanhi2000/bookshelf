@@ -24,7 +24,7 @@ head:
     - property: og:description
       content: "Build Secure Web Applications with PHP, Symfony, and MongoDB"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/build-secure-web-applications-with-php-symfony-and-mongodb.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-secure-web-applications-with-php-symfony-and-mongodb.html
 prev: /programming/php-symphony/articles/README.md
 date: 2025-09-11
 isOriginal: false
@@ -90,7 +90,7 @@ Watch the full course now [<VPIcon icon="fa-brands fa-youtube"/>on the freeCodeC
 {
   "title": "Build Secure Web Applications with PHP, Symfony, and MongoDB",
   "desc": "Data breaches are a constant threat, and traditional encryption practices often aren't enough to protect sensitive information throughout its entire lifecycle. We just posted a course on the freeCodeCamp.org YouTube channel that will teach you how to...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/build-secure-web-applications-with-php-symfony-and-mongodb.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-secure-web-applications-with-php-symfony-and-mongodb.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

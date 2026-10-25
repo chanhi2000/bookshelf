@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "What is Mocking? Mocking in .NET Explained With Examples"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/explore-mocking-in-net.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/explore-mocking-in-net.html
 prev: /programming/cs/articles/README.md
 date: 2024-04-13
 isOriginal: false
@@ -452,7 +452,7 @@ As always, don't hesitate to reach out (links in bio).
 {
   "title": "What is Mocking? Mocking in .NET Explained With Examples",
   "desc": "Let's go on a journey to demystify the concept of mocking in .NET software development. Let's delve into how straightforward and accessible mocking truly is. Join me as we navigate through this subject, as I cover: Understanding mocking: Why it's ne...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/explore-mocking-in-net.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/explore-mocking-in-net.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

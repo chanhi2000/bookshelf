@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "How to Work with OpenAPI in Go"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-work-with-openapi-in-go.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-work-with-openapi-in-go.html
 prev: /programming/go/articles/README.md
 date: 2025-02-19
 isOriginal: false
@@ -531,7 +531,7 @@ I hope this article has provided a useful introduction to the OpenAPI Specificat
 {
   "title": "How to Work with OpenAPI in Go",
   "desc": "Well-structured and well-documented APIs are a pleasure to work with. And nowadays the standard is OpenAPI, which comes with a good methodology for defining an API interface first, and only then constructing everything around it. This makes it easier...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-work-with-openapi-in-go.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-work-with-openapi-in-go.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to Create a ML Model with Azure Machine Learning Designer"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/create-an-ml-model-with-azure-machine-learning-designer.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/create-an-ml-model-with-azure-machine-learning-designer.html
 prev: /devops/azure/articles/README.md
 date: 2024-06-25
 isOriginal: false
@@ -415,7 +415,7 @@ Remember to clean up your resources to avoid unnecessary charges. With these ski
 {
   "title": "How to Create a ML Model with Azure Machine Learning Designer",
   "desc": "Did you know that you can create machine learning models without writing any code? If you’re here, you’re probably curious about how to achieve this. In this article, I will guide you through building a regression model that predicts automobile price...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/create-an-ml-model-with-azure-machine-learning-designer.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/create-an-ml-model-with-azure-machine-learning-designer.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

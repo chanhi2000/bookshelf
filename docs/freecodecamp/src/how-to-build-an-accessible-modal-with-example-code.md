@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: "How to Build an Accessible Modal – with Example Code"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-build-an-accessible-modal-with-example-code.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-build-an-accessible-modal-with-example-code.html
 prev: /programming/css/articles/README.md
 date: 2024-08-28
 isOriginal: false

@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: "How to Maintain SOC 2 Compliance: A Step-by-Step Guide"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-maintain-soc-2-compliance.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-maintain-soc-2-compliance.html
 prev: /academics/system-design/articles/README.md
 date: 2024-10-16
 isOriginal: false
@@ -176,7 +176,7 @@ This way, the client is protected from inside threats, and the organization acti
 {
   "title": "How to Maintain SOC 2 Compliance: A Step-by-Step Guide",
   "desc": "While it might seem challenging to remain SOC 2 compliant, it is a critical process that helps earn your client’s trust and also ensures the security of your systems. SOC 2 assesses how well a company protects its data based on five trust service cri...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-maintain-soc-2-compliance.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-maintain-soc-2-compliance.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

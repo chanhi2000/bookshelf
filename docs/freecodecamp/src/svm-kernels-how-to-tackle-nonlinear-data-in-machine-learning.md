@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "SVM Kernels Explained: How to Tackle Nonlinear Data in Machine Learning"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/svm-kernels-how-to-tackle-nonlinear-data-in-machine-learning.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/svm-kernels-how-to-tackle-nonlinear-data-in-machine-learning.html
 prev: /programming/py/articles/README.md
 date: 2025-01-07
 isOriginal: false
@@ -741,7 +741,7 @@ SVM can be used in a variety of classification tasks, including image and text c
 {
   "title": "SVM Kernels Explained: How to Tackle Nonlinear Data in Machine Learning",
   "desc": "Have you ever considered how your phone can recognize handwritten text and convert it into regular computer text? Or how your email can separate messages automatically into spam and non-spam categories? Both of these examples work based on classifica...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/svm-kernels-how-to-tackle-nonlinear-data-in-machine-learning.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/svm-kernels-how-to-tackle-nonlinear-data-in-machine-learning.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

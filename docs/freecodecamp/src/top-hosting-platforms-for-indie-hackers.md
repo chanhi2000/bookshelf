@@ -27,7 +27,7 @@ head:
     - property: og:description
       content: "Top Hosting Platforms for Indie Hackers"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/top-hosting-platforms-for-indie-hackers.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/top-hosting-platforms-for-indie-hackers.html
 prev: /devops/articles/README.md
 date: 2025-06-26
 isOriginal: false
@@ -287,7 +287,7 @@ Hope you enjoyed this article. You can [<VPIcon icon="fas fa-globe"/>learn more 
 {
   "title": "Top Hosting Platforms for Indie Hackers",
   "desc": "If you’re an indie hacker - that is, someone building your own side project, startup, or digital product solo or with a small team - you know that hosting matters.  You’re juggling product development, community-building, marketing, support, and ever...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/top-hosting-platforms-for-indie-hackers.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/top-hosting-platforms-for-indie-hackers.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

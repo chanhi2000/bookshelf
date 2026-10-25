@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "The React Router Cheatsheet - Everything You Need to Know"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/react-router-cheatsheet.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/react-router-cheatsheet.html
 prev: /programming/js-react/articles/README.md
 date: 2021-04-19
 isOriginal: false
@@ -646,7 +646,7 @@ Click below to try the React Bootcamp for yourself:
 {
   "title": "The React Router Cheatsheet - Everything You Need to Know",
   "desc": "If you're building React applications for the web, you're going to need to use a dedicated router to display pages and navigate your user around them.  That's why today we're going to go over the most popular and most powerful router for React applic...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/react-router-cheatsheet.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/react-router-cheatsheet.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

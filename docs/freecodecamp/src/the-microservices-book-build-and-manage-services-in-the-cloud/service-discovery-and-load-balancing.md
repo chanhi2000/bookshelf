@@ -26,7 +26,7 @@ head:
     - property: og:description
       content: "Service Discovery and Load Balancing"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/the-microservices-book-build-and-manage-services-in-the-cloud/service-discovery-and-load-balancing.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/the-microservices-book-build-and-manage-services-in-the-cloud/service-discovery-and-load-balancing.html
 date: 2024-11-29
 isOriginal: false
 author: Adekola Olawale

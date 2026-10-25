@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "Entering into the World of Concurrency with Python"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/concurrency-in-python.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/concurrency-in-python.html
 prev: /programming/py/articles/README.md
 date: 2024-02-21
 isOriginal: false
@@ -618,7 +618,7 @@ For more courses, you can visit my personal [<VPIcon icon="fas fa-globe"/>websit
 {
   "title": "Entering into the World of Concurrency with Python",
   "desc": "In this tutorial, we will explore concurrency in Python. We'll discuss Threads and Processes and how they're similar and different. You'll also learn about Multi-threading, Multi-processing, Asynchronous Programming, and Concurrency in general in Pyt...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/concurrency-in-python.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/concurrency-in-python.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

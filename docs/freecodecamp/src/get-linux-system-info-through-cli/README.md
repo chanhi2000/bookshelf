@@ -26,7 +26,7 @@ head:
     - property: og:description
       content: "How to Get Information About Your Linux System Through the Command Line"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/get-linux-system-info-through-cli.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/get-linux-system-info-through-cli.html
 prev: /devops/linux-debian/articles/README.md
 date: 2025-06-11
 isOriginal: false
@@ -1275,7 +1275,7 @@ Thank you once again and happy learning!
 {
   "title": "How to Get Information About Your Linux System Through the Command Line",
   "desc": "Whether you’ve just gained access to a new Linux system, ethically hacked into one as part of a security test, or you’re just curious to know more about your current machine, this article will guide you through the process. You’ll learn how you can g...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/get-linux-system-info-through-cli.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/get-linux-system-info-through-cli.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

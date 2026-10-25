@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Large Language Models for Developers and Businesses"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/large-language-models-for-developers-and-businesses.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/large-language-models-for-developers-and-businesses.html
 prev: /ai/llm/articles/README.md
 date: 2024-10-12
 isOriginal: false
@@ -250,7 +250,7 @@ As AI continues to grow, it’s all about finding the model that best suits your
 {
   "title": "Large Language Models for Developers and Businesses",
   "desc": "Language learning models (LLMs) are evolving rapidly, reshaping AI in various industries. In this article, we’ll go over five LLMs that are currently making an impact with their advanced features and wide-ranging use cases. LLM Basics Before looking ...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/large-language-models-for-developers-and-businesses.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/large-language-models-for-developers-and-businesses.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

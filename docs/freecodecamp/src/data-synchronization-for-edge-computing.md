@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: "Data Synchronization for Edge Computing with SymmetricDS"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/data-synchronization-for-edge-computing.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/data-synchronization-for-edge-computing.html
 prev: /data-science/articles/README.md
 date: 2025-03-13
 isOriginal: false
@@ -315,7 +315,7 @@ By using the methods we’ve discussed here, edge devices can still operate auto
 {
   "title": "Data Synchronization for Edge Computing with SymmetricDS",
   "desc": "Edge computing is a distributed system design that moves computation and data storage to where it’s most required - at the ‘edge’ of the network. Moving these tasks to the edge of the network enables computing in real time, which reduces the cost of ...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/data-synchronization-for-edge-computing.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/data-synchronization-for-edge-computing.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

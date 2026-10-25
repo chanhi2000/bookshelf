@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: What is a Component Library? When to Build Your Own and When to Use Someone Else's
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/what-is-a-component-library-when-to-build-your-own.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/what-is-a-component-library-when-to-build-your-own.html
 prev: /programming/js/articles/README.md
 date: 2024-08-13
 isOriginal: false
@@ -490,14 +490,14 @@ Depending on what your answers are, you can make the right call for your project
 
 Thanks for learning about component libraries with me. If you're interested in building your own web component library, then consider checking out my course [<VPIcon icon="fas fa-globe"/>Component Odyssey](https://component-odyssey.com/). You'll learn how to build and publish a component library that works in any frontend framework.
 
-💡 I want to give a special shoutout to stephband ([Mastodon (<VPIcon icon="iconfont icon-mastodon"/>`@stephband`)](https://front-end.social/@stephband), [<VPIcon icon="fa-brands fa-bluesky"/>Bluesky](https://bsky.app/profile/stephen.band)) for proofreading and providing feedback.
+💡 I want to give a special shoutout to stephband ([Mastodon (<VPIcon icon="fa-brands fa-mastodon"/>`@stephband`)](https://front-end.social/@stephband), [<VPIcon icon="fa-brands fa-bluesky"/>Bluesky](https://bsky.app/profile/stephen.band)) for proofreading and providing feedback.
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
   "title": "What is a Component Library? When to Build Your Own and When to Use Someone Else's",
   "desc": "If you've built a frontend project in the last five years, you will have likely written some components, and maybe even used a component library. Components and libraries have been an important part of the web development landscape for multiple decad...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/what-is-a-component-library-when-to-build-your-own.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/what-is-a-component-library-when-to-build-your-own.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

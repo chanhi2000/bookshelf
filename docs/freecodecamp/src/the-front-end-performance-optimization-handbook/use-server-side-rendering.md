@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: "Use Server-Side Rendering"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/the-front-end-performance-optimization-handbook/use-server-side-rendering.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/the-front-end-performance-optimization-handbook/use-server-side-rendering.html
 date: 2025-05-07
 isOriginal: false
 author:

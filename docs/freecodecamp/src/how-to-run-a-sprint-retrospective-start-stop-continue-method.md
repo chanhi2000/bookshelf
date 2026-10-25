@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: "How to Run a Sprint Retrospective Using the Start, Stop, Continue Method"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-run-a-sprint-retrospective-start-stop-continue-method.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-run-a-sprint-retrospective-start-stop-continue-method.html
 prev: /projects/career/articles/README.md
 date: 2025-03-13
 isOriginal: false
@@ -201,7 +201,7 @@ For more content, follow me on my personal Blog, [<VPIcon icon="fas fa-globe"/>J
 {
   "title": "How to Run a Sprint Retrospective Using the Start, Stop, Continue Method",
   "desc": "I’ve been writing a lot of articles lately on Agile methodologies. And for this one, I wanted to cover how to get the most out of a Sprint Retrospective. I’ve been participating and running Sprint Retrospectives now for 15 years and I truly believe t...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-run-a-sprint-retrospective-start-stop-continue-method.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-run-a-sprint-retrospective-start-stop-continue-method.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

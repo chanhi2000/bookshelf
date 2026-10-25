@@ -26,7 +26,7 @@ head:
     - property: og:description
       content: "How to Make a Dropdown Menu with shadcn/ui"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/shadcn-ui-dropdown-menu.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/shadcn-ui-dropdown-menu.html
 prev: /programming/js-react/articles/README.md
 date: 2025-07-18
 isOriginal: false
@@ -274,7 +274,7 @@ I hope you found this article helpful! If you're building a SaaS product or any 
 {
   "title": "How to Make a Dropdown Menu with shadcn/ui",
   "desc": "Dropdown menus are little pop-up menus that help you show more options without cluttering your screen. They’re super helpful in websites and apps. In this guide, you’ll learn how to build a dropdown menu using shadcn/ui. It’s a tool that works well w...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/shadcn-ui-dropdown-menu.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/shadcn-ui-dropdown-menu.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

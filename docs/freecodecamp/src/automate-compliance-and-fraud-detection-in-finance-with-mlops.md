@@ -24,7 +24,7 @@ head:
     - property: og:description
       content: "How to Automate Compliance and Fraud Detection in Finance with MLOps"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/automate-compliance-and-fraud-detection-in-finance-with-mlops.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/automate-compliance-and-fraud-detection-in-finance-with-mlops.html
 prev: /programming/py-numpy/articles/README.md
 date: 2025-05-13
 isOriginal: false
@@ -368,7 +368,7 @@ By integrating real-time monitoring and continuous updates, financial institutio
 {
   "title": "How to Automate Compliance and Fraud Detection in Finance with MLOps",
   "desc": "These days, businesses are under increasing pressure to comply with stringent regulations while also combating fraudulent activities. The high volume of data and the intricate requirements of real-time fraud detection and compliance reporting are fre...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/automate-compliance-and-fraud-detection-in-finance-with-mlops.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/automate-compliance-and-fraud-detection-in-finance-with-mlops.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

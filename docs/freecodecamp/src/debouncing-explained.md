@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "Debouncing in React - How to Delay a JS Function"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/debouncing-explained.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/debouncing-explained.html
 prev: /programming/js-react/articles/README.md
 date: 2022-06-15
 isOriginal: false
@@ -196,7 +196,7 @@ Happy learning.
 {
   "title": "Debouncing in React - How to Delay a JS Function",
   "desc": "By Nishant Kumar There are some heavy tasks in software development. Take calling an API, for example. Suppose we have an API that searches a list of users, and we can't afford to fire it too often. We want to search only when we have typed the whole...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/debouncing-explained.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/debouncing-explained.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

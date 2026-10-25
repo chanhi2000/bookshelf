@@ -25,7 +25,7 @@ head:
     - property: og:description
       content: "Prepare for the Google Professional Cloud Architect Certification Exam - And Pass!"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/prepare-for-the-google-professional-cloud-architect-certification-exam-and-pass.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/prepare-for-the-google-professional-cloud-architect-certification-exam-and-pass.html
 prev: /devops/gcp/articles/README.md
 date: 2025-08-27
 isOriginal: false
@@ -86,7 +86,7 @@ Watch the full course on [<VPIcon icon="fa-brands fa-youtube"/>the freeCodeCamp.
 {
   "title": "Prepare for the Google Professional Cloud Architect Certification Exam - And Pass!",
   "desc": "We just released a full course on the freeCodeCamp.org YouTube channel to help you prepare for the Google Cloud Professional Cloud Architect (GCP-PCA) certification exam. The Professional Cloud Architect certification is one of Google Cloud’s top cre...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/prepare-for-the-google-professional-cloud-architect-certification-exam-and-pass.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/prepare-for-the-google-professional-cloud-architect-certification-exam-and-pass.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

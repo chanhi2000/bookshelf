@@ -30,7 +30,7 @@ head:
     - property: og:description
       content: "How to Make IT Operations More Efficient with AIOps: Build Smarter, Faster Systems"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/make-it-operations-more-efficient-with-aiops.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/make-it-operations-more-efficient-with-aiops.html
 prev: /programming/py-numpy/articles/README.md
 date: 2025-05-10
 isOriginal: false
@@ -513,7 +513,7 @@ AIOps is the most effective tool for increasing system speed, reducing downtime,
 {
   "title": "How to Make IT Operations More Efficient with AIOps: Build Smarter, Faster Systems",
   "desc": "In the rapidly evolving IT landscape, development teams have to operate at their best and manage complex systems while minimizing downtime. And having to do many routine tasks manually can really slow down operations and reduce efficiency. These days...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/make-it-operations-more-efficient-with-aiops.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/make-it-operations-more-efficient-with-aiops.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

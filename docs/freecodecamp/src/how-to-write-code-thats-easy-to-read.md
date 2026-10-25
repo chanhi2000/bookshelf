@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "How to Write Code That's Easy to Read - Tips for Developers"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-write-code-thats-easy-to-read.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-write-code-thats-easy-to-read.html
 prev: /programming/js/articles/README.md
 date: 2024-12-05
 isOriginal: false
@@ -236,7 +236,7 @@ Image credit: [<VPIcon icon="fas fa-globe"/>Work illustrations by Storyset](http
 {
   "title": "How to Write Code That's Easy to Read - Tips for Developers",
   "desc": "Programs are meant to be read by humans and only incidentally for computers to execute. - Donald Knuth Have you ever heard that programmers spend more time reading code than writing it? Well, I’ve found that this is often true: as a developer, you’l...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-write-code-thats-easy-to-read.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-write-code-thats-easy-to-read.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

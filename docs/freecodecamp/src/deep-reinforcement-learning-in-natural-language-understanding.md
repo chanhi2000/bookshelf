@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "Deep Reinforcement Learning in Natural Language Understanding"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/deep-reinforcement-learning-in-natural-language-understanding.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/deep-reinforcement-learning-in-natural-language-understanding.html
 prev: /ai/llm/articles/README.md
 date: 2025-08-16
 isOriginal: false
@@ -466,7 +466,7 @@ I hope this was helpful!
 {
   "title": "Deep Reinforcement Learning in Natural Language Understanding",
   "desc": "Language is messy, subtle, and full of meaning that shifts with context. Teaching machines to truly understand it is one of the hardest problems in artificial intelligence. That challenge is what natural language understanding (NLU) sets out to solve...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/deep-reinforcement-learning-in-natural-language-understanding.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/deep-reinforcement-learning-in-natural-language-understanding.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

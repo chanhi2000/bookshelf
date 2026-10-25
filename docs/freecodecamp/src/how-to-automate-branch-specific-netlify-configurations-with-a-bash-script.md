@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: "How to Automate Branch-Specific Netlify Configurations with a Bash Script: A Step-by-Step Guide"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-automate-branch-specific-netlify-configurations-with-a-bash-script.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-automate-branch-specific-netlify-configurations-with-a-bash-script.html
 prev: /programming/sh/articles/README.md
 date: 2024-12-17
 isOriginal: false
@@ -311,7 +311,7 @@ Feel free to connect with me on [X (<VPIcon icon="fa-brands fa-x-twitter"/>`fran
 {
   "title": "How to Automate Branch-Specific Netlify Configurations with a Bash Script: A Step-by-Step Guide",
   "desc": "When you’re working on a project with multiple environments - like staging and production - for your backend APIs and frontend deployments, you’ll want to make sure you have the correct configuration and commands for each branch in your repository. T...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-automate-branch-specific-netlify-configurations-with-a-bash-script.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-automate-branch-specific-netlify-configurations-with-a-bash-script.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

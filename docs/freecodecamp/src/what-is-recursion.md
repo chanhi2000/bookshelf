@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "How Does Recursion Work? Explained with Code Examples"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/what-is-recursion.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/what-is-recursion.html
 prev: /programming/py/articles/README.md
 date: 2024-07-26
 isOriginal: false
@@ -329,7 +329,7 @@ No matter where you learn from, don't spend too much time searching for the perf
 {
   "title": "How Does Recursion Work? Explained with Code Examples",
   "desc": "By Palistha In this article, you will learn about recursion and how it works. You need a good understanding of how functions work before learning recursion. I have used Python code for examples in this article because of its simple syntax, but the co...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/what-is-recursion.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/what-is-recursion.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

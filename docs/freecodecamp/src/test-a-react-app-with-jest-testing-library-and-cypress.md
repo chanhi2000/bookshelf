@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to Test Your Apps using Jest, Testing Library, Cypress, and Supertest"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/test-a-react-app-with-jest-testing-library-and-cypress.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/test-a-react-app-with-jest-testing-library-and-cypress.html
 prev: /programming/js-react/articles/README.md
 date: 2022-04-26
 isOriginal: false
@@ -1142,7 +1142,7 @@ Cheers and see you in the next one!
 {
   "title": "How to Test Your Apps using Jest, Testing Library, Cypress, and Supertest",
   "desc": "Hi everyone! In this article we're going to talk about testing. I'll give you a good overview of what testing is and an introduction of how you can implement it on your JavaScript projects. We'll use four very popular tools - Jest, Testing library, C...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/test-a-react-app-with-jest-testing-library-and-cypress.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/test-a-react-app-with-jest-testing-library-and-cypress.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

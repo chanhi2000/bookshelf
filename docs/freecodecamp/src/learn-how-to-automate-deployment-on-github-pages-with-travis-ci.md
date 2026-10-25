@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "How to automate deployment on GitHub-pages with TravisCI"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/learn-how-to-automate-deployment-on-github-pages-with-travis-ci.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-how-to-automate-deployment-on-github-pages-with-travis-ci.html
 prev: /devops/travis-ci/articles/README.md
 date: 2019-06-22
 isOriginal: false
@@ -242,7 +242,7 @@ I would like to take a moment to acknowledge the work of the people who gave me 
 {
   "title": "How to automate deployment on GitHub-pages with TravisCI",
   "desc": "By Dhruv Barochiya Disclaimer: This story is not sponsored by any of the tools that has been described into the article (Travis-CI, Github, Github-Pages) You have created a project in React.js and deployed it on the GitHub-pages (not yet ?? — creat...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/learn-how-to-automate-deployment-on-github-pages-with-travis-ci.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-how-to-automate-deployment-on-github-pages-with-travis-ci.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

@@ -16,7 +16,7 @@ head:
     - property: og:description
       content: "One More Powerful Tool 🪛"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/the-definitive-guide-to-git-merge/one-more-powerful-tool.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/the-definitive-guide-to-git-merge/one-more-powerful-tool.html
 date: 2023-04-28
 isOriginal: false
 author:

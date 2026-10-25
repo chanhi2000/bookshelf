@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "How to Write Documentation That Increases Sign-ups"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-write-documentation-that-increases-sign-ups.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-write-documentation-that-increases-sign-ups.html
 prev: /academics/coen/articles/README.md
 date: 2025-06-20
 isOriginal: false
@@ -260,7 +260,7 @@ Liked what you read? I help SaaS companies clarify their messaging and build aut
 {
   "title": "How to Write Documentation That Increases Sign-ups",
   "desc": "Writing documentation looks easy, but it is one of the most critical parts of your customer support and growth strategy. Too often, teams treat it as an afterthought - just add a few code snippets and move on. But if you’re serious about product adop...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-write-documentation-that-increases-sign-ups.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-write-documentation-that-increases-sign-ups.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

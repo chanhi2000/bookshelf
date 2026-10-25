@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "Learn Laravel by Building a Medium Clone"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/learn-laravel-by-building-a-medium-clone.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-laravel-by-building-a-medium-clone.html
 prev: /programming/php-laravel/articles/README.md
 date: 2025-04-18
 isOriginal: false
@@ -110,7 +110,7 @@ Check out the full course for free on the [<VPIcon icon="fa-brands fa-youtube"/>
 {
   "title": "Learn Laravel by Building a Medium Clone",
   "desc": "Laravel is a popular PHP web development framework known for its elegant syntax, developer-friendly tools, and built-in features for routing, authentication, and database interactions. It's an excellent choice for both beginners and experienced devel...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/learn-laravel-by-building-a-medium-clone.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-laravel-by-building-a-medium-clone.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

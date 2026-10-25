@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: "How to Run a Great Sprint Review - Actionable Tips for Developers and Teams"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-run-a-great-sprint-review-actionable-insights.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-run-a-great-sprint-review-actionable-insights.html
 prev: /projects/career/articles/README.md
 date: 2025-01-30
 isOriginal: false
@@ -190,7 +190,7 @@ If you focus on showing real progress, inviting open dialogue, and keeping thing
 {
   "title": "How to Run a Great Sprint Review - Actionable Tips for Developers and Teams",
   "desc": "In my twenty years of being in the Software Engineer game, I’ve been through lots of Sprint Reviews. I’ve seen them done well, and I’ve seen them used as no more than a few hours every sprint for people to take a nice break in a meeting room. When do...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-run-a-great-sprint-review-actionable-insights.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-run-a-great-sprint-review-actionable-insights.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

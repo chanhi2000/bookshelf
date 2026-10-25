@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "How to Fuzz Test Golang HTTP Services"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-fuzz-test-golang-http-services.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-fuzz-test-golang-http-services.html
 prev: /programming/go/articles/README.md
 date: 2024-11-05
 isOriginal: false
@@ -352,7 +352,7 @@ It’s amazing to see that fuzzing is a part of Go’s built-in testing library,
 {
   "title": "How to Fuzz Test Golang HTTP Services",
   "desc": "As a developer, you can’t always envision all of the possible inputs your programs or functions might receive. Even though you can define the major edge cases, you still can’t predict how your program will behave in the case of some weird unexpected ...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-fuzz-test-golang-http-services.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-fuzz-test-golang-http-services.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to Code a Crossy Road Game Clone with React Three Fiber"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-code-a-crossy-road-game-clone-with-react-three-fiber.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-code-a-crossy-road-game-clone-with-react-three-fiber.html
 prev: /programming/js-react/articles/README.md
 date: 2025-02-27
 isOriginal: false
@@ -1179,7 +1179,7 @@ Alternatively, you can find the extended tutorial on [<VPIcon icon="fa-brands fa
 {
   "title": "How to Code a Crossy Road Game Clone with React Three Fiber",
   "desc": "In this tutorial, you’ll learn how to create a clone of the mobile game Crossy Road with React Three Fiber. In a previous tutorial, I taught you how to build this game using Three.js and vanilla JavaScript. And here, you’ll learn how to make the same...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-code-a-crossy-road-game-clone-with-react-three-fiber.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-code-a-crossy-road-game-clone-with-react-three-fiber.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

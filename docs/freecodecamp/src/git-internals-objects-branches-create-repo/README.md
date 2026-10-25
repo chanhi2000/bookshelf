@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: "A Visual Guide to Git Internals — Objects, Branches, and How to Create a Repo From Scratch"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/git-internals-objects-branches-create-repo/
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/git-internals-objects-branches-create-repo/
 prev: /programming/git/articles/README.md
 date: 2020-12-15
 isOriginal: false
@@ -248,7 +248,7 @@ A lot has been written and said about `git`. Specifically, I found these referen
 {
   "title": "A Visual Guide to Git Internals — Objects, Branches, and How to Create a Repo From Scratch",
   "desc": "Many of us use git on a daily basis. But how many of us know what goes on under the hood?  For example, what happens when we use git commit? What is stored between commits? Is it just a diff between the current and previous commit? If so, how",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/git-internals-objects-branches-create-repo/",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/git-internals-objects-branches-create-repo/",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

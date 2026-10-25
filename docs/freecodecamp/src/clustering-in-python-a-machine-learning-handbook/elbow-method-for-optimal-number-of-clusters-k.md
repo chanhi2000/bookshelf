@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: "Elbow Method for Optimal Number of Clusters (K)"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/clustering-in-python-a-machine-learning-handbook/elbow-method-for-optimal-number-of-clusters-k.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/clustering-in-python-a-machine-learning-handbook/elbow-method-for-optimal-number-of-clusters-k.html
 date: 2025-02-06
 isOriginal: false
 author:

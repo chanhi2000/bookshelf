@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: How to Build and Deploy a Smart Contract With Rust and the Gear Protocol
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/build-and-deploy-smart-contract-rust-gear-protocol/
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-and-deploy-smart-contract-rust-gear-protocol/
 prev: /programming/rs/articles/README.md
 date: 2024-06-04
 isOriginal: false
@@ -181,7 +181,7 @@ For now, you can explore the repository of the project we built together: [Battl
 {
   "title": "How to Build and Deploy a Smart Contract With Rust and the Gear Protocol",
   "desc": "Smart contracts are like digital agreements that run on blockchain technology, making transactions automatic and secure. While many people use Ethereum and Solidity to create these contracts, there are other options that can be just as powerful.  One...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/build-and-deploy-smart-contract-rust-gear-protocol.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-and-deploy-smart-contract-rust-gear-protocol.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

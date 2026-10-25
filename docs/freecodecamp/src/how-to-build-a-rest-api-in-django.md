@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "How to Build a REST API in Django"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-build-a-rest-api-in-django.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-build-a-rest-api-in-django.html
 prev: /programming/py-django/articles/README.md
 date: 2025-04-16
 isOriginal: false
@@ -488,7 +488,7 @@ Want to keep learning? Here are a few solid places to dig deeper:
 {
   "title": "How to Build a REST API in Django",
   "desc": "If you’re building a web or mobile app, chances are you’re going to need a way to send and receive data between your app and a server. That’s where REST APIs come in. They help apps talk to each other - kind of like a waiter taking your order and",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-build-a-rest-api-in-django.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-build-a-rest-api-in-django.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

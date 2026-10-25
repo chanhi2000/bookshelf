@@ -29,7 +29,7 @@ head:
     - property: og:description
       content: "How to Export Your Database in Django"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-export-your-database-in-django.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-export-your-database-in-django.html
 prev: /programming/py-django/articles/README.md
 date: 2025-04-22
 isOriginal: false
@@ -344,7 +344,7 @@ Exporting your database in Django doesn’t have to be a big deal. With built-in
 {
   "title": "How to Export Your Database in Django",
   "desc": "When you're working on a Django project - whether it's a small side project or a growing web app - there comes a point where you need to export your database. Maybe you’re switching hosting providers. Maybe you're backing things up or sharing data wi...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-export-your-database-in-django.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-export-your-database-in-django.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

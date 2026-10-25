@@ -22,7 +22,7 @@ head:
     - property: og:description
       content: "“Rock Paper Scissors OOP” by Damian: A project written in OOP"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-become-an-analytical-programmer-compare-five-projects/4-rock-paper-scissors-oop-by-damian-a-project-written-in-oop.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-become-an-analytical-programmer-compare-five-projects/4-rock-paper-scissors-oop-by-damian-a-project-written-in-oop.html
 date: 2025-05-12
 isOriginal: false
 author:

@@ -22,7 +22,7 @@ head:
     - property: og:description
       content: "Let’s Summarize"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-build-scalable-access-control-for-your-web-app/lets-summarize.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-build-scalable-access-control-for-your-web-app/lets-summarize.html
 next: /freecodecamp.org/how-to-build-scalable-access-control-for-your-web-app/README.md#conclusion
 date: 2025-02-05
 isOriginal: false

@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to Build a Dropbox-like Distributed File Storage System Using MinIO and gRPC"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-build-a-dropbox-like-distributed-file-storage-system-using-minio-and-grpc.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-build-a-dropbox-like-distributed-file-storage-system-using-minio-and-grpc.html
 prev: /programming/js-node/articles/README.md
 date: 2024-11-13
 isOriginal: false
@@ -358,7 +358,7 @@ Happy coding!
 {
   "title": "How to Build a Dropbox-like Distributed File Storage System Using MinIO and gRPC",
   "desc": "In this tutorial, I’ll guide you through building a distributed file storage system inspired by Dropbox, using MinIO (an open-source, S3-compatible object storage server) and gRPC. The goal is to create a system that can store, replicate, and manage ...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-build-a-dropbox-like-distributed-file-storage-system-using-minio-and-grpc.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-build-a-dropbox-like-distributed-file-storage-system-using-minio-and-grpc.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

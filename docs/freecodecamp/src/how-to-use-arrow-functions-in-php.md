@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: "How to Use Arrow Functions in PHP 7.4+"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-use-arrow-functions-in-php.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-use-arrow-functions-in-php.html
 prev: /programming/php/articles/README.md
 date: 2025-05-09
 isOriginal: false
@@ -343,7 +343,7 @@ Here are some key takeaways:
 {
   "title": "How to Use Arrow Functions in PHP 7.4+",
   "desc": "Arrow functions were introduced in PHP 7.4 to allow devs to write short, anonymous functions. They offer a compact alternative to traditional closures, especially when the function body is small and focused. In this article, you will learn how to use...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-use-arrow-functions-in-php.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-use-arrow-functions-in-php.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

@@ -26,7 +26,7 @@ head:
     - property: og:description
       content: "How to Create a DeepSeek R1 API in R with Plumber"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-create-a-deepseek-r1-api-in-r-with-plumber.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-create-a-deepseek-r1-api-in-r-with-plumber.html
 prev: /programming/r/articles/README.md
 date: 2025-02-21
 isOriginal: false
@@ -236,7 +236,7 @@ If you find this article interesting, please check my other articles on [<VPIcon
 {
   "title": "How to Create a DeepSeek R1 API in R with Plumber",
   "desc": "To create an AI chatbot and integrate it with another platform, you have to communicate with large language model using an API. This API receives prompts from the client and sends them to the model to generate answers. In this tutorial, you will lear...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-create-a-deepseek-r1-api-in-r-with-plumber.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-create-a-deepseek-r1-api-in-r-with-plumber.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

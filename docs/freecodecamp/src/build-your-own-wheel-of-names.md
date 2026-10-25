@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to Build Your Own Wheel of Names with React and TypeScript"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/build-your-own-wheel-of-names.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-your-own-wheel-of-names.html
 prev: /programming/js-react/articles/README.md
 date: 2024-10-24
 isOriginal: false
@@ -386,7 +386,7 @@ Thanks for reading! 🙏
 {
   "title": "How to Build Your Own Wheel of Names with React and TypeScript",
   "desc": "A while ago, I stumbled upon a website listing various coding challenges, and I decided to give some a try. Last week, I came across one that involved building a ”Wheel of Names.” It reminded me of a similar project I built years ago using Flash and ...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/build-your-own-wheel-of-names.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-your-own-wheel-of-names.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

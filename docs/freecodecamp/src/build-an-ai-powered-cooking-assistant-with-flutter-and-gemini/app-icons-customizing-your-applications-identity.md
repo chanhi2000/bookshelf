@@ -28,7 +28,7 @@ head:
     - property: og:description
       content: "App Icons: Customizing Your Application's Identity"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/build-an-ai-powered-cooking-assistant-with-flutter-and-gemini/app-icons-customizing-your-applications-identity.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-an-ai-powered-cooking-assistant-with-flutter-and-gemini/app-icons-customizing-your-applications-identity.html
 date: 2025-05-30
 isOriginal: false
 author:

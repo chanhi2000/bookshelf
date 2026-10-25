@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "JavaScript Optional Chaining `?.` Explained - How it Works and When to Use it"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/javascript-optional-chaining-explained.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/javascript-optional-chaining-explained.html
 prev: /programming/js/articles/README.md
 date: 2020-08-26
 isOriginal: false
@@ -226,7 +226,7 @@ Interested in more tutorials and JSBytes from me? [<VPIcon icon="fas fa-globe"/>
 {
   "title": "JavaScript Optional Chaining `?.` Explained - How it Works and When to Use it",
   "desc": "What is optional chaining? Optional chaining, represented by ?. in JavaScript, is a new feature introduced in ES2020.  Optional chaining changes the way properties are accessed from deeply nested objects. It fixes the problem of having to do multiple...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/javascript-optional-chaining-explained.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/javascript-optional-chaining-explained.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

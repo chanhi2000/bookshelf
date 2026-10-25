@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to Use React 19 in Power Apps PCF Components"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-use-react-19-in-pcf-components.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-use-react-19-in-pcf-components.html
 prev: /programming/js-react/articles/README.md
 date: 2025-05-23
 isOriginal: false
@@ -294,7 +294,7 @@ _**Enjoyed this article?**_ I write regularly about low-code, development patter
 {
   "title": "How to Use React 19 in Power Apps PCF Components",
   "desc": "The Power Apps Component Framework - PCF for short - lets you create complex custom components using traditional web development tools like HTML, CSS, and JavaScript. When creating a new PCF project, you can choose from two types of controls: standar...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-use-react-19-in-pcf-components.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-use-react-19-in-pcf-components.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

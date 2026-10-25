@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: "How to Build an Application with AWS Lambda"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-build-an-application-with-aws-lambda.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-build-an-application-with-aws-lambda.html
 prev: /devops/aws/articles/README.md
 date: 2025-01-29
 isOriginal: false
@@ -554,7 +554,7 @@ The resources shown in this article, including the S3 bucket and its ARN, have b
 {
   "title": "How to Build an Application with AWS Lambda",
   "desc": "AWS Lambda is a service from Amazon Web Services (AWS) that lets you run your code in response to events without managing servers. It’s a simple and scalable way to build applications. In this tutorial, I’ll show you how to use AWS Lambda with three ...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-build-an-application-with-aws-lambda.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-build-an-application-with-aws-lambda.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

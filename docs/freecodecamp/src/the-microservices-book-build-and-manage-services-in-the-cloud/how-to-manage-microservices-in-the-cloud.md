@@ -26,7 +26,7 @@ head:
     - property: og:description
       content: "How to Manage Microservices in the Cloud"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/the-microservices-book-build-and-manage-services-in-the-cloud/how-to-manage-microservices-in-the-cloud.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/the-microservices-book-build-and-manage-services-in-the-cloud/how-to-manage-microservices-in-the-cloud.html
 date: 2024-11-29
 isOriginal: false
 author: Adekola Olawale

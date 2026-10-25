@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: "Learn Flutter Hooks – Common Hooks Explained with Code Examples"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/learn-flutter-hooks-with-code-examples.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-flutter-hooks-with-code-examples.html
 prev: /programming/dart/articles/README.md
 date: 2025-09-26
 isOriginal: false
@@ -655,7 +655,7 @@ Stateful widgets are the *classic way* to manage state in Flutter. They’re str
 {
   "title": "Learn Flutter Hooks – Common Hooks Explained with Code Examples",
   "desc": "Flutter hooks are powerful functions that streamline state management, side effects handling, and code organization in Flutter applications. Inspired by React hooks, they provide a more concise and modular approach compared to traditional StatefulWid...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/learn-flutter-hooks-with-code-examples.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-flutter-hooks-with-code-examples.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

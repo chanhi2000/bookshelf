@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "What is Shadow AI? The Hidden Risks and Challenges in Modern Organizations"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/shadow-ai-hidden-risks-and-challenges.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/shadow-ai-hidden-risks-and-challenges.html
 prev: /ai/articles/README.md
 date: 2025-02-18
 isOriginal: false
@@ -238,7 +238,7 @@ You can follow me on [Twitter (<VPIcon icon="fa-brands fa-x-twitter"/>`SonyaMois
 {
   "title": "What is Shadow AI? The Hidden Risks and Challenges in Modern Organizations",
   "desc": "Imagine this: a marketing manager uses ChatGPT to draft a personalized email campaign. Meanwhile, a developer experiments with a machine learning model trained on customer data, and an HR team integrates an artificial intelligence (AI) tool to screen...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/shadow-ai-hidden-risks-and-challenges.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/shadow-ai-hidden-risks-and-challenges.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

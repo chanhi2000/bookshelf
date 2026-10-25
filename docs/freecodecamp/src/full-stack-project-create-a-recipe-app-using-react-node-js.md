@@ -27,7 +27,7 @@ head:
     - property: og:description
       content: "Full Stack Project Tutorial - Create a Recipe App Using React, Node.js and PostgreSQL"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/full-stack-project-create-a-recipe-app-using-react-node-js.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/full-stack-project-create-a-recipe-app-using-react-node-js.html
 prev: /programming/js-react/articles/README.md
 date: 2023-10-20
 isOriginal: false
@@ -1704,7 +1704,7 @@ Thanks for reading, see you in the next one!
 {
   "title": "Full Stack Project Tutorial - Create a Recipe App Using React, Node.js and PostgreSQL",
   "desc": "In this in-depth tutorial, we'll build a full stack recipe app from scratch, using React, Node.js, Postgres and the Spoonacular API. We'll cover features such as: Building an API server in Node Integrating securely with a 3rd party API Interacting w...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/full-stack-project-create-a-recipe-app-using-react-node-js.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/full-stack-project-create-a-recipe-app-using-react-node-js.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

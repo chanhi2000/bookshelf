@@ -26,7 +26,7 @@ head:
     - property: og:description
       content: "Master Kotlin & Android 60-Hour Course"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/master-kotlin-and-android-60-hour-course.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/master-kotlin-and-android-60-hour-course.html
 prev: /programming/java-android/articles/README.md
 date: 2025-05-14
 isOriginal: false
@@ -106,7 +106,7 @@ Watch the full course on [<VPIcon icon="fa-brands fa-youtube"/>the freeCodeCamp.
 {
   "title": "Master Kotlin & Android 60-Hour Course",
   "desc": "Do you want to create the next groundbreaking mobile app? Kotlin, a modern and powerful language officially backed by Google, not only makes Android development more efficient and enjoyable but also opens doors to diverse programming opportunities be...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/master-kotlin-and-android-60-hour-course.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/master-kotlin-and-android-60-hour-course.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

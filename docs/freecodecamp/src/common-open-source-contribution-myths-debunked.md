@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: "Common Open Source Contribution Myths – Debunked"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/common-open-source-contribution-myths-debunked.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/common-open-source-contribution-myths-debunked.html
 prev: /devops/github/articles/README.md
 date: 2025-09-02
 isOriginal: false
@@ -219,7 +219,7 @@ Good luck on your open source journey!
 {
   "title": "Common Open Source Contribution Myths – Debunked",
   "desc": "Many developers shy away from contributing to open source, as it can be intimidating and hard to get started. Even though your contributions might seem inconsequential at first, they can potentially have a huge impact on your career. In this article,...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/common-open-source-contribution-myths-debunked.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/common-open-source-contribution-myths-debunked.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

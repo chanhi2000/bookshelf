@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to Deploy a Next.js Blog on Sevalla"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-deploy-a-nextjs-blog-on-sevalla.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-deploy-a-nextjs-blog-on-sevalla.html
 prev: /programming/js-next/articles/README.md
 date: 2025-07-10
 isOriginal: false
@@ -223,7 +223,7 @@ Hope you enjoyed this article! I’ll be back soon with more tutorials on buildi
 {
   "title": "How to Deploy a Next.js Blog on Sevalla",
   "desc": "In this tutorial, I’ll teach you how to use Next.js and Sevalla to build and deploy your own Next.js blog. But first, let me answer your likely question: “Why host a blog yourself when there are hundreds of blogging platforms available? “ One answer:...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-deploy-a-nextjs-blog-on-sevalla.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-deploy-a-nextjs-blog-on-sevalla.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

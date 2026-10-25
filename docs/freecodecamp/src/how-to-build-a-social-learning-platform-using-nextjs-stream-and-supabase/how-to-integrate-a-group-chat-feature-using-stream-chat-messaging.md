@@ -24,7 +24,7 @@ head:
     - property: og:description
       content: "How to Integrate a Group Chat Feature Using Stream Chat Messaging"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-build-a-social-learning-platform-using-nextjs-stream-and-supabase/how-to-integrate-a-group-chat-feature-using-stream-chat-messaging.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-build-a-social-learning-platform-using-nextjs-stream-and-supabase/how-to-integrate-a-group-chat-feature-using-stream-chat-messaging.html
 next: /freecodecamp.org/how-to-build-a-social-learning-platform-using-nextjs-stream-and-supabase/README.md#next-steps
 date: 2025-03-04
 isOriginal: false

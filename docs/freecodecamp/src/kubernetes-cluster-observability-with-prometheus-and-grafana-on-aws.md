@@ -30,7 +30,7 @@ head:
     - property: og:description
       content: "How to Monitor Your Kubernetes Clusters with Prometheus and Grafana on AWS"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/kubernetes-cluster-observability-with-prometheus-and-grafana-on-aws.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/kubernetes-cluster-observability-with-prometheus-and-grafana-on-aws.html
 prev: /devops/k8s/articles/README.md
 date: 2025-01-22
 isOriginal: false
@@ -573,7 +573,7 @@ By leveraging these tools, administrators can enjoy real-time visibility into th
 {
   "title": "How to Monitor Your Kubernetes Clusters with Prometheus and Grafana on AWS",
   "desc": "Creating a solid application monitoring and observability strategy is a critical foundational step when deploying infrastructure or software in any environment. Monitoring ensures that your systems are running smoothly, while observability provides i...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/kubernetes-cluster-observability-with-prometheus-and-grafana-on-aws.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/kubernetes-cluster-observability-with-prometheus-and-grafana-on-aws.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

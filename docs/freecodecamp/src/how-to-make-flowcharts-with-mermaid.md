@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to Make Flowcharts with Mermaid and Bring Joy to your Coding"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-make-flowcharts-with-mermaid.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-make-flowcharts-with-mermaid.html
 prev: /programmnig/js-mermaid/articles/README.md
 date: 2025-01-13
 isOriginal: false
@@ -887,7 +887,7 @@ So give flowcharts a try — you might be surprised at how much they can help yo
 {
   "title": "How to Make Flowcharts with Mermaid and Bring Joy to your Coding",
   "desc": "Coding can be intense. Especially when you are knee-deep in debugging or trying to map complex projects. For many developers — novice and pros alike — it is not uncommon to spend hours staring at code, looking for answers that won't come. You may hav...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-make-flowcharts-with-mermaid.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-make-flowcharts-with-mermaid.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

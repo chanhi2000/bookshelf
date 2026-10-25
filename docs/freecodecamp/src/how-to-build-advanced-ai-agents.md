@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to Build Advanced AI Agents"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-build-advanced-ai-agents.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-build-advanced-ai-agents.html
 prev: /ai/cerebras/articles/README.md
 date: 2025-09-22
 isOriginal: false
@@ -157,7 +157,7 @@ Watch the full course on [<VPIcon icon="fa-brands fa-youtube"/>the freeCodeCamp.
 {
   "title": "How to Build Advanced AI Agents",
   "desc": "Looking to get hands-on with AI? We just posted a comprehensive course on the freeCodeCamp.org YouTube channel designed to help you build powerful AI agent applications. Led by Cerebras growth engineer Sarah Chieng alongside industry experts from Exa...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-build-advanced-ai-agents.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-build-advanced-ai-agents.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

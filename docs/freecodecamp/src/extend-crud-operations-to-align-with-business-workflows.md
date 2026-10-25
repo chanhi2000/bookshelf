@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: "How to Extend CRUD Operations to Align with Business Workflows"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/extend-crud-operations-to-align-with-business-workflows.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/extend-crud-operations-to-align-with-business-workflows.html
 prev: /academics/system-design/articles/README.md
 date: 2025-09-11
 isOriginal: false
@@ -215,7 +215,7 @@ By moving away from CRUD and modeling domain actions instead, our API aligns wit
 {
   "title": "How to Extend CRUD Operations to Align with Business Workflows",
   "desc": "Most developers are introduced to databases and APIs through a simple pattern: CRUD—Create, Read, Update, Delete. It seems like the perfect abstraction. With just four operations, you can model almost anything. Tutorials use it. Frameworks generate i...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/extend-crud-operations-to-align-with-business-workflows.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/extend-crud-operations-to-align-with-business-workflows.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

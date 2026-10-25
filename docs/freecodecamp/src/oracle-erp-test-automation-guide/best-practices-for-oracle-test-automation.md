@@ -30,7 +30,7 @@ head:
     - property: og:description
       content: "Best Practices for Oracle Test Automation"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/oracle-erp-test-automation-guide/best-practices-for-oracle-test-automation.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/oracle-erp-test-automation-guide/best-practices-for-oracle-test-automation.html
 date: 2025-05-01
 isOriginal: false
 author:

@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "Google Dorking: How to Find Hidden Information on the Web"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/google-dorking-how-to-find-hidden-information-on-the-web.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/google-dorking-how-to-find-hidden-information-on-the-web.html
 prev: /devops/security/articles/README.md
 date: 2024-10-26
 isOriginal: false
@@ -179,7 +179,7 @@ To learn how to hack machines in the real world, join our private community [<VP
 {
   "title": "Google Dorking: How to Find Hidden Information on the Web",
   "desc": "Let’s learn how to find hidden information online by using advanced search operators on Google. The internet holds vast amounts of information. Much of this information is accessible through Google. But did you know you can use Google in ways beyond ...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/google-dorking-how-to-find-hidden-information-on-the-web.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/google-dorking-how-to-find-hidden-information-on-the-web.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

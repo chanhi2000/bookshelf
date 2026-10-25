@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "Learn Data Structures and Algorithms - Introduction and Learning Resources"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/learn-data-structures-and-algorithms.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-data-structures-and-algorithms.html
 prev: /programming/py/articles/README.md
 date: 2023-02-03
 isOriginal: false
@@ -412,7 +412,7 @@ Thank you for reading.
 {
   "title": "Learn Data Structures and Algorithms - Introduction and Learning Resources",
   "desc": "Data structures and algorithms (DSA) are an important aspect of any programming language. Every language has its own data structures and its way of handling different types of algorithms. So, as a programmer, no matter what programming language you a...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/learn-data-structures-and-algorithms.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-data-structures-and-algorithms.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

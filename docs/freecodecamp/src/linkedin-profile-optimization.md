@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: "LinkedIn Profile Optimization - A Web Developer's Guide to Attract Opportunity"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/linkedin-profile-optimization.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/linkedin-profile-optimization.html
 prev: /projects/career/articles/README.md
 date: 2023-10-03
 isOriginal: false
@@ -516,7 +516,7 @@ Let's connect! I'm active on [LinkedIn (<VPIcon icon="fa-brands fa-linkedin"/>`m
 {
   "title": "LinkedIn Profile Optimization - A Web Developer's Guide to Attract Opportunity",
   "desc": "As a web developer, an optimized LinkedIn profile can bring numerous opportunities directly to you. After implementing invaluable optimization advice from industry experts who reviewed my profile, I now receive a steady flow of enticing prospects in ...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/linkedin-profile-optimization.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/linkedin-profile-optimization.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

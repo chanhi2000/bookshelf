@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "How to Refactor Complex Codebases - A Practical Guide for Devs"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-refactor-complex-codebases.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-refactor-complex-codebases.html
 prev: /programming/py/articles/README.md
 date: 2025-05-22
 isOriginal: false
@@ -663,7 +663,7 @@ Now it’s time to take the next step by subscribing to my [<VPIcon icon="fas fa
 {
   "title": "How to Refactor Complex Codebases - A Practical Guide for Devs",
   "desc": "Developers often see refactoring as a secondary concern that they can delay indefinitely because it doesn’t immediately contribute to revenue or feature development. And managers frequently view refactoring as ”not a business need” until it boils ove...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-refactor-complex-codebases.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-refactor-complex-codebases.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

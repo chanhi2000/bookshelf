@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: "How to Add Live Chat to Your Applications with Rocket.chat"
     - property: oNode.jsg:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/add-live-chat-to-your-applications-with-rocketchat.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/add-live-chat-to-your-applications-with-rocketchat.html
 prev: /programming/js-node/articles/README.md
 date: 2025-04-07
 isOriginal: false
@@ -327,7 +327,7 @@ Happy coding!
 {
   "title": "How to Add Live Chat to Your Applications with Rocket.chat",
   "desc": "The fastest way to gather valuable information about your site’s users is still by talking to them. And what better way to do this than by adding a chat system to your app? For my case, I just wanted to add a chat system to my portfolio website so I",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/add-live-chat-to-your-applications-with-rocketchat.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/add-live-chat-to-your-applications-with-rocketchat.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

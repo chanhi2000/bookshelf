@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Python for Everybody - Free 14 hour Python course from Dr. Chuck"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/python-for-everybody.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/python-for-everybody.html
 prev: /programming/py/articles/README.md
 date: 2019-05-02
 isOriginal: false
@@ -87,7 +87,7 @@ You can watch the full video course on the [<VPIcon icon="fa-brands fa-youtube"/
 {
   "title": "Python for Everybody - Free 14 hour Python course from Dr. Chuck",
   "desc": "This course aims to teach everyone the basics of programming computers using Python 3. The course has no pre-requisites and anyone with moderate computer experience should be able to master the materials in this course. The course was created by Dr. ...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/python-for-everybody.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/python-for-everybody.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

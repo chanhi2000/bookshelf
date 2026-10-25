@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "If-Else vs Switch Case in JavaScript - Which One is Better?"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/if-else-vs-switch-case-in-javascript.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/if-else-vs-switch-case-in-javascript.html
 prev: /programming/js/articles/README.md
 date: 2025-02-27
 isOriginal: false
@@ -256,7 +256,7 @@ See you soon with my next article. Until then, please take care of yourself, and
 {
   "title": "If-Else vs Switch Case in JavaScript - Which One is Better?",
   "desc": "JavaScript has been a popular programming language for almost 30 years now. Whether you’re using it for web applications, mobile applications, backend services, or even desktop applications, you’ll find that JavaScript has deep roots. Many of the lib...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/if-else-vs-switch-case-in-javascript.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/if-else-vs-switch-case-in-javascript.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: "How CSS Positioning and Flexbox Work - Explained with Examples"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/css-positioning-and-flexbox-explained.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/css-positioning-and-flexbox-explained.html
 prev: /programming/css/articles/README.md
 date: 2021-03-09
 isOriginal: false
@@ -532,7 +532,7 @@ That's all folks - thanks for reading.
 {
   "title": "How CSS Positioning and Flexbox Work - Explained with Examples",
   "desc": "By Nishant Kumar If you have ever used CSS, then you know how hard it is to position elements. But by the end of this tutorial you'll know much more about CSS positioning and Flexbox, and you'll be able to position elements in your dream project like...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/css-positioning-and-flexbox-explained.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/css-positioning-and-flexbox-explained.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

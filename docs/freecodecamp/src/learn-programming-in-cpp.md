@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: "An Animated Introduction to Programming in C++"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/learn-programming-in-cpp.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-programming-in-cpp.html
 prev: /programming/cpp/articles/README.md
 date: 2025-03-27
 isOriginal: false
@@ -766,7 +766,7 @@ Comments and feedback are welcome via email: <VPIcon icon="fas fa-envelope"/>`ma
 {
   "title": "An Animated Introduction to Programming in C++",
   "desc": "In this tutorial, I’ll give you a comprehensive introduction to programming in C++. You don't need to have any previous programming experience in order to begin. Along the way, you will learn about the flow of control, variables, conditional statemen...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/learn-programming-in-cpp.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-programming-in-cpp.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

@@ -28,7 +28,7 @@ head:
     - property: og:description
       content: "Learn Linear Algebra for Machine Learning"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/learn-linear-algebra-for-machine-learning.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-linear-algebra-for-machine-learning.html
 prev: /ai/llm/articles/README.md
 date: 2025-02-27
 isOriginal: false
@@ -120,7 +120,7 @@ Watch the full course now on the [<VPIcon icon="fa-brands fa-youtube"/>freeCodeC
 {
   "title": "Learn Linear Algebra for Machine Learning",
   "desc": "Linear algebra is a fundamental building block of machine learning. Whether you are working with deep learning models, optimization algorithms, or computer vision applications, understanding linear algebra concepts can give you a solid mathematical f...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/learn-linear-algebra-for-machine-learning.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-linear-algebra-for-machine-learning.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

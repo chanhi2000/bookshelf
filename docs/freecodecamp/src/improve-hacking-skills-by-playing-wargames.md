@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: "How to Improve Your Hacking Skills by Playing OverTheWire Wargames"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/improve-hacking-skills-by-playing-wargames.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/improve-hacking-skills-by-playing-wargames.html
 prev: /devops/security/articles/README.md
 date: 2024-10-08
 isOriginal: false

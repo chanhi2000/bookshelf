@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "What is the TCP/IP Model? Layers and Protocols Explained"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/what-is-tcp-ip-layers-and-protocols-explained.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/what-is-tcp-ip-layers-and-protocols-explained.html
 prev: /academics/coen/articles/README.md
 date: 2020-12-01
 isOriginal: false
@@ -162,7 +162,7 @@ If you enjoyed learning from this post, there’s a lot more where this came fro
 {
   "title": "What is the TCP/IP Model? Layers and Protocols Explained",
   "desc": "A significant part of the process of creating something is the ability to imagine things that do not yet exist.  This skill was instrumental to the creation of the Internet. If no one had imagined the underlying technology that most now take for gran...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/what-is-tcp-ip-layers-and-protocols-explained.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/what-is-tcp-ip-layers-and-protocols-explained.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

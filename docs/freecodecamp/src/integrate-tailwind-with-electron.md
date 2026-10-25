@@ -25,7 +25,7 @@ head:
     - property: og:description
       content: "How to Integrate Tailwind with Electron - With Code Examples"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/integrate-tailwind-with-electron.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/integrate-tailwind-with-electron.html
 prev: /programming/js-electron/articles/README.md
 date: 2025-08-14
 isOriginal: false
@@ -488,7 +488,7 @@ I have written this tutorial with the help of [Pruthvi Prajapati (<VPIcon icon="
 {
   "title": "How to Integrate Tailwind with Electron - With Code Examples",
   "desc": "In this article, you’ll learn how to integrate Tailwind CSS with Electron to build stylish, responsive desktop applications. You’ll set up Tailwind in an Electron project, configure your project, style the components, and optimize the development wor...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/integrate-tailwind-with-electron.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/integrate-tailwind-with-electron.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

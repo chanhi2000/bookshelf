@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: "How to Implement Debouncing"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/js-interview-prep-handbook/how-to-implement-debouncing.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/js-interview-prep-handbook/how-to-implement-debouncing.html
 date: 2024-09-10
 isOriginal: false
 author:

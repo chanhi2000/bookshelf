@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: How to Use React Compiler - A Complete Guide
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/react-compiler-complete-guide-react-19.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/react-compiler-complete-guide-react-19.html
 prev: /programming/js-react/articles/README.md
 date: 2024-08-27
 isOriginal: false

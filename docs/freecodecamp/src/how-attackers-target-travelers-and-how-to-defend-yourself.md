@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: "How Attackers Target Travelers - and How to Defend Yourself"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-attackers-target-travelers-and-how-to-defend-yourself.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-attackers-target-travelers-and-how-to-defend-yourself.html
 prev: /devops/security/articles/README.md
 date: 2025-05-29
 isOriginal: false
@@ -171,7 +171,7 @@ Hope you enjoyed this article. Join the [<VPIcon icon="fas fa-globe"/>Stealth Se
 {
   "title": "How Attackers Target Travelers - and How to Defend Yourself",
   "desc": "Traveling is one of life’s greatest joys  -  but it also puts a big target on your back for cybercriminals. Tourists are often rushed, distracted, or unfamiliar with local providers. That’s exactly what hackers count on. From fake Wi-Fi networks to s...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-attackers-target-travelers-and-how-to-defend-yourself.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-attackers-target-travelers-and-how-to-defend-yourself.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

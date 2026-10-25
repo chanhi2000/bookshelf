@@ -24,7 +24,7 @@ head:
     - property: og:description
       content: "A Brief Introduction to Web Components"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/a-brief-introduction-to-web-components.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/a-brief-introduction-to-web-components.html
 prev: /programming/js-react/articles/README.md
 date: 2025-05-09
 isOriginal: false
@@ -230,7 +230,7 @@ If you have feedback about the playbacks I'd love to hear from you. You can reac
 {
   "title": "A Brief Introduction to Web Components",
   "desc": "In a previous article, I gave a brief introduction to React. This tutorial introduces an alternative approach to building a component-based frontend. It covers the fundamentals of Web Components to build modular, reusable elements for your web applic...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/a-brief-introduction-to-web-components.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/a-brief-introduction-to-web-components.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

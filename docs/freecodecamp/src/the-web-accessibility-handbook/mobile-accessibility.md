@@ -16,7 +16,7 @@ head:
     - property: og:description
       content: "Mobile Accessibility"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/the-web-accessibility-handbook/mobile-accessibility.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/the-web-accessibility-handbook/mobile-accessibility.html
 next: /freecodecamp.org/the-web-accessibility-handbook/README.md#testing-accessibility-with-tools
 date: 2025-03-19
 isOriginal: false

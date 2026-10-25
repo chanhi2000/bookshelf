@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "Debouncing in JavaScript - Explained by Building Auto-Complete Functionality in React"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/deboucing-in-react-autocomplete-example.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/deboucing-in-react-autocomplete-example.html
 prev: /programming/js/articles/README.md
 date: 2024-02-13
 isOriginal: false
@@ -430,7 +430,7 @@ If you are unable to understand the content or find the explanation unsatisfacto
 {
   "title": "Debouncing in JavaScript - Explained by Building Auto-Complete Functionality in React",
   "desc": "Hi readers, I hope you are doing great! I am back with another tutorial on web development. If you are someone who enjoys developing web apps with JavaScript and React, then this post is for you. When you roll out a new app into production, you want ...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/deboucing-in-react-autocomplete-example.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/deboucing-in-react-autocomplete-example.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

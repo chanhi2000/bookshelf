@@ -25,7 +25,7 @@ head:
     - property: og:description
       content: "Adding Executables to Home Directory"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-create-an-interactive-terminal-portfolio-website/adding-executables-to-home-directory.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-create-an-interactive-terminal-portfolio-website/adding-executables-to-home-directory.html
 next: /freecodecamp.org/how-to-create-an-interactive-terminal-portfolio-website/README.md#working-terminal-portfolio-demo
 date: 2024-04-29
 isOriginal: false

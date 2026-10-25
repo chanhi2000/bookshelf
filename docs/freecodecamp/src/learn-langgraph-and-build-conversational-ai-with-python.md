@@ -30,7 +30,7 @@ head:
     - property: og:description
       content: "Learn LangGraph and Build Conversational AI with Python"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/learn-langgraph-and-build-conversational-ai-with-python.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-langgraph-and-build-conversational-ai-with-python.html
 prev: /ai/langchain/articles/README.md
 date: 2025-05-21
 isOriginal: false
@@ -88,7 +88,7 @@ Watch it now on the [<VPIcon icon="fa-brands fa-youtube"/>freeCodeCamp.org YouTu
 {
   "title": "Learn LangGraph and Build Conversational AI with Python",
   "desc": "If you're building conversational AI and tired of messy logic or hard-to-scale workflows, LangGraph makes it easier. It uses graphs to manage dialogue flow, so your bots stay organized even as they get more complex. Great for anything from support ag...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/learn-langgraph-and-build-conversational-ai-with-python.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-langgraph-and-build-conversational-ai-with-python.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

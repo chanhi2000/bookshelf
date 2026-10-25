@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to Get Your MongoDB URL to Connect to Your Node.js Application - A Step-by-Step Guide"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/get-mongodb-url-to-connect-to-a-nodejs-application.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/get-mongodb-url-to-connect-to-a-nodejs-application.html
 prev: /programming/js-node/articles/README.md
 date: 2024-08-13
 isOriginal: false
@@ -175,7 +175,7 @@ Thank you for reading💖.
 {
   "title": "How to Get Your MongoDB URL to Connect to Your Node.js Application - A Step-by-Step Guide",
   "desc": "In my previous article about building a Node.js application, I didn’t fully explain how to obtain the MongoDB URL, as I wanted to keep the article concise. However, I realized that this information is essential for saving data to MongoDB. In this art...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/get-mongodb-url-to-connect-to-a-nodejs-application.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/get-mongodb-url-to-connect-to-a-nodejs-application.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

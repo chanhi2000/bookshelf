@@ -22,7 +22,7 @@ head:
     - property: og:description
       content: "How Microfrontends Work: From iframes to Module Federation"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-microfrontends-work-iframes-to-module-federation.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-microfrontends-work-iframes-to-module-federation.html
 prev: /academics/system-design/articles/README.md
 date: 2025-05-30
 isOriginal: false
@@ -309,7 +309,7 @@ This article was more about giving you a birdâ€™s-eye view of the landscape. Iâ€
 {
   "title": "How Microfrontends Work: From iframes to Module Federation",
   "desc": "Microfrontends are transforming how teams build and deploy frontend applications at scale. This tutorial explores the architectural landscape, from traditional approaches to modern Module Federation implementations. By the end, you'll be equipped to ...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-microfrontends-work-iframes-to-module-federation.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-microfrontends-work-iframes-to-module-federation.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

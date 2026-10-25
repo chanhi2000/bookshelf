@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to Talk to Any Database Using AI - Build Your Own SQL Query Data Extractor"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/talk-to-databases-using-ai-build-a-sql-query-data-extractor.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/talk-to-databases-using-ai-build-a-sql-query-data-extractor.html
 prev: /programming/js-next/articles/README.md
 date: 2025-01-09
 isOriginal: false
@@ -934,7 +934,7 @@ So this is the end from my side. If you found this article useful, then do share
 {
   "title": "How to Talk to Any Database Using AI - Build Your Own SQL Query Data Extractor",
   "desc": "Recently, I took a break from writing to focus on my exams. During this time, I had an interesting experience: I had the chance to explain SQL (Structured Query Language) to my peers. While exploring SQL in-depth, I encountered a common frustration: ...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/talk-to-databases-using-ai-build-a-sql-query-data-extractor.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/talk-to-databases-using-ai-build-a-sql-query-data-extractor.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

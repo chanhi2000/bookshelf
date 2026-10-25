@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "Asynchronous Programming in JavaScript - Callbacks, Promises, & Async/Await Examples"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/asynchronous-programming-in-javascript-examples.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/asynchronous-programming-in-javascript-examples.html
 prev: /programming/js/articles/README.md
 date: 2024-02-03
 isOriginal: false
@@ -299,7 +299,7 @@ You can check the [<VPIcon icon="fas fa-globe"/>promises and async/await section
 {
   "title": "Asynchronous Programming in JavaScript - Callbacks, Promises, & Async/Await Examples",
   "desc": "All programming languages have runtime engines that execute their code. In JavaScript, the runtime engine is single-threaded, which means that it runs code line by line or sequentially. The JavaScript runtime engine makes it a synchronous programming...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/asynchronous-programming-in-javascript-examples.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/asynchronous-programming-in-javascript-examples.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

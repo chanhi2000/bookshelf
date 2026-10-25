@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "AWS Security Specialty Certification: How to Prepare for the Exam"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/aws-security-specialty-certification-study-tips.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/aws-security-specialty-certification-study-tips.html
 prev: /devops/aws/articles/README.md
 date: 2024-10-16
 isOriginal: false
@@ -501,7 +501,7 @@ I hope my experiences encourage and help you on your certification path. Keep in
 {
   "title": "AWS Security Specialty Certification: How to Prepare for the Exam",
   "desc": "Welcome to my latest tutorial! After a three-year hiatus from certifications, I'm thrilled to announce that I've successfully obtained the AWS Certified Security Specialty certification. As someone who strongly believes in the power of community lear...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/aws-security-specialty-certification-study-tips.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/aws-security-specialty-certification-study-tips.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: "How to Use Local Notifications in Flutter - A Tutorial for Beginners"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-use-local-notifications-in-flutter.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-use-local-notifications-in-flutter.html
 prev: /programming/dart/articles/README.md
 date: 2025-06-28
 isOriginal: false
@@ -1201,7 +1201,7 @@ By following the detailed steps outlined in this article, and understanding the 
 {
   "title": "How to Use Local Notifications in Flutter - A Tutorial for Beginners",
   "desc": "Mobile applications often need to communicate important information to users, even when the app isn't actively running. Local notifications are an excellent way to achieve this, allowing you to display messages, reminders, or alerts directly on the u...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-use-local-notifications-in-flutter.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-use-local-notifications-in-flutter.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "How to Work with Collections in Go Using the Standard Library Helpers"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-work-with-collections-in-go-using-the-standard-library-helpers/
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-work-with-collections-in-go-using-the-standard-library-helpers/
 prev: /programming/go/articles/README.md
 date: 2025-09-13
 isOriginal: false
@@ -1295,7 +1295,7 @@ How it works:
 {
   "title": "How to Work with Collections in Go Using the Standard Library Helpers",
   "desc": "In a previous article—Arrays, Slices, and Maps in Go: a Quick Guide to Collection Types—we explored Go's three built-in collection types and how they work under the hood. That gave us the foundation for storing and accessing data efficiently. But in ...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-work-with-collections-in-go-using-the-standard-library-helpers/",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-work-with-collections-in-go-using-the-standard-library-helpers/",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

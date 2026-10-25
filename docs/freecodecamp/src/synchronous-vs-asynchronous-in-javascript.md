@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "Synchronous vs Asynchronous JavaScript - Call Stack, Promises, and More"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/synchronous-vs-asynchronous-in-javascript.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/synchronous-vs-asynchronous-in-javascript.html
 prev: /programming/js/articles/README.md
 date: 2021-09-14
 isOriginal: false
@@ -484,7 +484,7 @@ As promised before, here are a few articles you may find useful,
 {
   "title": "Synchronous vs Asynchronous JavaScript - Call Stack, Promises, and More",
   "desc": "Let me start this article by asking, ”What is JavaScript”? Well, here's the most confusing yet to-the-point answer I have found so far: JavaScript is a single-threaded, non-blocking, asynchronous, concurrent programming language with lots of flexibi...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/synchronous-vs-asynchronous-in-javascript.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/synchronous-vs-asynchronous-in-javascript.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "React Hooks Tutorial - How to Use the useReducer Hook"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/usereducer-hook-react.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/usereducer-hook-react.html
 prev: /articles/README.md
 date: 2023-01-31
 isOriginal: false
@@ -248,7 +248,7 @@ If you are unable to understand the content or find the explanation unsatisfacto
 {
   "title": "React Hooks Tutorial - How to Use the useReducer Hook",
   "desc": "State is an important part of a React application. Most functionalities involve making state updates in your component. But as your application grows, state updates become more and more complex. These complex state updates might get overwhelming when...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/usereducer-hook-react.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/usereducer-hook-react.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

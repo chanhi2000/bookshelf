@@ -27,7 +27,7 @@ head:
     - property: og:description
       content: "Learn the Foundations of Machine Learning and Artificial Intelligence"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/learn-the-foundations-of-machine-learning-and-artificial-intelligence.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-the-foundations-of-machine-learning-and-artificial-intelligence.html
 prev: /articles/README.md
 date: 2024-11-08
 isOriginal: false
@@ -109,7 +109,7 @@ Watch the full course on the [<VPIcon icon="fa-brands fa-youtube"/>freeCodeCamp.
 {
   "title": "Learn the Foundations of Machine Learning and Artificial Intelligence",
   "desc": "As you know, machine learning and artificial intelligence (AI) are transforming the world around us. Mastering these tools can open doors to exciting career opportunities. We just published a course on the freeCodeCamp.org YouTube channel that will t...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/learn-the-foundations-of-machine-learning-and-artificial-intelligence.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-the-foundations-of-machine-learning-and-artificial-intelligence.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

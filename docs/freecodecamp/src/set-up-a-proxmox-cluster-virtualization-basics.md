@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "How to Set Up a Proxmox Cluster for Free - Virtualization Basics"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/set-up-a-proxmox-cluster-virtualization-basics.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/set-up-a-proxmox-cluster-virtualization-basics.html
 prev: /devops/proxmox/articles/README.md
 date: 2025-04-14
 isOriginal: false
@@ -237,7 +237,7 @@ You’ve just set up a 3-node Proxmox cluster at no cost. It’s a playground fo
 {
   "title": "How to Set Up a Proxmox Cluster for Free - Virtualization Basics",
   "desc": "Virtualization is a game-changer for developers, hobbyists, and IT enthusiasts. It lets you run multiple operating systems on one machine, which is perfect for testing apps, hosting servers, or learning new tech. If you want to take it further, clust...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/set-up-a-proxmox-cluster-virtualization-basics.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/set-up-a-proxmox-cluster-virtualization-basics.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

@@ -16,7 +16,7 @@ head:
     - property: og:description
       content: "Quick recap on a three-way merge"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/the-definitive-guide-to-git-merge/quick-recap-on-a-three-way-merge.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/the-definitive-guide-to-git-merge/quick-recap-on-a-three-way-merge.html
 date: 2023-04-28
 isOriginal: false
 author:

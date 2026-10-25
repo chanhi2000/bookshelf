@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: "🧭 Use Cases: When to Use Each One"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/load-balancing-with-azure-application-gateway-and-azure-load-balancer/use-cases-when-to-use-each-one.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/load-balancing-with-azure-application-gateway-and-azure-load-balancer/use-cases-when-to-use-each-one.html
 next: /freecodecamp.org/load-balancing-with-azure-application-gateway-and-azure-load-balancer/README.md#conclusion
 date: 2025-05-15
 isOriginal: false

@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "Recursive Types in TypeScript: A Brief Exploration"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/recursive-types-in-typescript-a-brief-exploration.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/recursive-types-in-typescript-a-brief-exploration.html
 prev: /programming/ts/articles/README.md
 date: 2025-05-08
 isOriginal: false
@@ -460,7 +460,7 @@ The answer depends on what you make of it. Recursion is a powerful concept that 
 {
   "title": "Recursive Types in TypeScript: A Brief Exploration",
   "desc": "It is said that there are two different worlds in TypeScript that exist side by side: the type world and the value world. Consider this line of code: const firstName: string = 'Maynard'; While firstName and 'Maynard' live in the value world, string ...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/recursive-types-in-typescript-a-brief-exploration.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/recursive-types-in-typescript-a-brief-exploration.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

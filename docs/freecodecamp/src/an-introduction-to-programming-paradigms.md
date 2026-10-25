@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "Programming Paradigms - Paradigm Examples for Beginners"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/an-introduction-to-programming-paradigms.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/an-introduction-to-programming-paradigms.html
 prev: /programming/js/articles/README.md
 date: 2022-05-03
 isOriginal: false
@@ -344,7 +344,7 @@ Cheers and see you in the next one!
 {
   "title": "Programming Paradigms - Paradigm Examples for Beginners",
   "desc": "Hi everyone! In this article we're going to take a look at programming paradigms, a fancy title to describe popular ways or styles to organize your programming. I'll try to break it down in pieces and give a simple explanation of each paradigm. This ...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/an-introduction-to-programming-paradigms.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/an-introduction-to-programming-paradigms.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

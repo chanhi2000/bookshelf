@@ -26,7 +26,7 @@ head:
     - property: og:description
       content: "Learn how to build security into AI"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/learn-how-to-build-security-into-ai.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-how-to-build-security-into-ai.html
 prev: /devops/security/articles/README.md
 date: 2025-07-17
 isOriginal: false
@@ -90,7 +90,7 @@ As Robert says, "Security must be a foundational layer in AI development, not an
 {
   "title": "Learn how to build security into AI",
   "desc": "Artificial Intelligence is changing how we build software, but it also introduces brand new security risks. If you're a developer or security professional stepping into the world of AI, how do you make sure your applications are safe? We've just publ...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/learn-how-to-build-security-into-ai.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-how-to-build-security-into-ai.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

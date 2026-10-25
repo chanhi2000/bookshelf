@@ -24,7 +24,7 @@ head:
     - property: og:description
       content: "How to Set up Server-Side Authentication with Supabase"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-build-a-social-learning-platform-using-nextjs-stream-and-supabase/how-to-set-up-server-side-authentication-with-supabase.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-build-a-social-learning-platform-using-nextjs-stream-and-supabase/how-to-set-up-server-side-authentication-with-supabase.html
 date: 2025-03-04
 isOriginal: false
 author:

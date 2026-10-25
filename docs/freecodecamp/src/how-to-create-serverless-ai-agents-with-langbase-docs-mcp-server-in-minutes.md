@@ -28,7 +28,7 @@ head:
     - property: og:description
       content: "How to Create Serverless AI Agents with Langbase Docs MCP Server in Minutes"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-create-serverless-ai-agents-with-langbase-docs-mcp-server-in-minutes.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-create-serverless-ai-agents-with-langbase-docs-mcp-server-in-minutes.html
 prev: /programming/js-node/articles/README.md
 date: 2025-05-07
 isOriginal: false
@@ -256,7 +256,7 @@ Happy building! 🚀
 {
   "title": "How to Create Serverless AI Agents with Langbase Docs MCP Server in Minutes",
   "desc": "Building serverless AI agents has recently become a lot simpler. With the Langbase Docs MCP server, you can instantly connect AI models to Langbase documentation - making it easy to build composable, agentic AI systems with memory without complex inf...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-create-serverless-ai-agents-with-langbase-docs-mcp-server-in-minutes.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-create-serverless-ai-agents-with-langbase-docs-mcp-server-in-minutes.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

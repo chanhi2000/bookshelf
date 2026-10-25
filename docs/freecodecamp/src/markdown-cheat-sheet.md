@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "Markdown Cheat Sheet - How to Write in Markdown with Examples"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/markdown-cheat-sheet.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/markdown-cheat-sheet.html
 prev: /programming/md/articles/README.md
 date: 2022-02-11
 isOriginal: false
@@ -221,7 +221,7 @@ Check out my other [blog posts (<VPIcon icon="fa-brands fa-free-code-camp"/>zair
 {
   "title": "Markdown Cheat Sheet - How to Write in Markdown with Examples",
   "desc": "Markdown has gained popularity because it's easy to use and it's widely accepted across platforms.  You can use markdown to write content that can be conveyed in plain text. A good example would be a blog post. In this article, you'll learn what mark...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/markdown-cheat-sheet.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/markdown-cheat-sheet.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

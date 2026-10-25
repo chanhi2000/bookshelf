@@ -24,7 +24,7 @@ head:
     - property: og:description
       content: "How to Run R Programs Directly in Jupyter Notebook Locally"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-run-r-programs-directly-in-jupyter-notebook-locally.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-run-r-programs-directly-in-jupyter-notebook-locally.html
 prev: /programming/py-jupyter/articles/README.md
 date: 2024-10-03
 isOriginal: false

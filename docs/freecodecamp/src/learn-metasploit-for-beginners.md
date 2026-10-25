@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Metasploit for Beginners — A Guide to the Powerful Exploitation Framework"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/learn-metasploit-for-beginners.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-metasploit-for-beginners.html
 prev: /devops/security/articles/README.md
 date: 2025-01-22
 isOriginal: false
@@ -270,7 +270,7 @@ Join our [**Weekly Newsletter**](https://stealthsecurity.sh/) for more tutorials
 {
   "title": "Metasploit for Beginners — A Guide to the Powerful Exploitation Framework",
   "desc": "If you’re starting your journey into penetration testing, you’ve likely heard of Metasploit. Metasploit is one of the most versatile tools in cybersecurity. It helps simplify vulnerability testing and exploitation. Metasploit helps us find and fix we...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/learn-metasploit-for-beginners.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-metasploit-for-beginners.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

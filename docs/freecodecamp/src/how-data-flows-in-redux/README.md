@@ -24,7 +24,7 @@ head:
     - property: og:description
       content: "Data Flow in Redux Explained - A State Management Handbook"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-data-flows-in-redux/
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-data-flows-in-redux/
 prev: /programming/js-react/articles/README.md
 date: 2024-07-03
 isOriginal: false
@@ -1243,7 +1243,7 @@ That's all for this article! If you'd like to continue the conversation or have 
 {
   "title": "Data Flow in Redux Explained - A State Management Handbook",
   "desc": "In complex React applications, managing application state effectively can become a challenge. This is where Redux, a predictable state management library, steps in. By introducing a unidirectional data flow, Redux brings order and clarity to how data...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-data-flows-in-redux.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-data-flows-in-redux.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

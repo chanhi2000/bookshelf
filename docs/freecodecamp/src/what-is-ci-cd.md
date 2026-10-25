@@ -29,7 +29,7 @@ head:
     - property: og:description
       content: "What is CI/CD? Learn Continuous Integration/Continuous Deployment by Building a Project"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/what-is-ci-cd.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/what-is-ci-cd.html
 prev: /devops/github/articles/README.md
 date: 2023-04-08
 isOriginal: false
@@ -441,7 +441,7 @@ If you want, you can also follow me on [LinkedIn (<VPIcon icon="fa-brands fa-lin
 {
   "title": "What is CI/CD? Learn Continuous Integration/Continuous Deployment by Building a Project",
   "desc": "Hi everyone! In this article you're going to learn about CI/CD (continuous integration and continuous deployment). We're going to review what this practice is about, how it compares to the previous approach in the software development industry, and f...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/what-is-ci-cd.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/what-is-ci-cd.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

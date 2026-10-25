@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "Essential JavaScript Concepts to Know Before Learning React - With Code Examples"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/essential-javascript-concepts-before-react.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/essential-javascript-concepts-before-react.html
 prev: /programming/js-react/articles/README.md
 date: 2024-09-10
 isOriginal: false
@@ -725,7 +725,7 @@ Thanks for reading. Let's connect on [X (<VPIcon icon="fa-brands fa-x-twitter"/>
 {
   "title": "Essential JavaScript Concepts to Know Before Learning React - With Code Examples",
   "desc": "You may have seen the shiny technologies like React, Vue, and Angular that promise to revolutionize your front-end development. It's tempting to dive headfirst into these frameworks, eager to build stunning user interfaces. But hold on! Before you em...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/essential-javascript-concepts-before-react.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/essential-javascript-concepts-before-react.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

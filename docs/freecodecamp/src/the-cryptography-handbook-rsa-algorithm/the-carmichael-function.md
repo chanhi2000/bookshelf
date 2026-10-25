@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "The Carmichael Function"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/the-cryptography-handbook-rsa-algorithm/the-carmichael-function.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/the-cryptography-handbook-rsa-algorithm/the-carmichael-function.html
 date: 2025-04-03
 isOriginal: false
 author:

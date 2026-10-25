@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: "How to Handle Complex Use Cases in Your OpenAPI Specifications - API Documentation Guide"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-handle-complex-use-cases-in-api-specs.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-handle-complex-use-cases-in-api-specs.html
 prev: /tool/openapi/articles/README.md
 date: 2024-11-05
 isOriginal: false
@@ -517,7 +517,7 @@ Creating your API reference without an OpenAPI spec file is a manual approach th
 {
   "title": "How to Handle Complex Use Cases in Your OpenAPI Specifications - API Documentation Guide",
   "desc": "When you’re documenting an API reference, there are two main approaches you can follow. You can either use the manual approach of filling in the endpoints via a user interface, or organize a structured document containing all the necessary informatio...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-handle-complex-use-cases-in-api-specs.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-handle-complex-use-cases-in-api-specs.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

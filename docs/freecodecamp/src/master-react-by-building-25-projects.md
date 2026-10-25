@@ -26,7 +26,7 @@ head:
     - property: og:description
       content: "Master React by Building 25 Projects"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/master-react-by-building-25-projects.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/master-react-by-building-25-projects.html
 prev: /programming/js-react/articles/README.md
 date: 2024-02-07
 isOriginal: false
@@ -108,7 +108,7 @@ By the end of this journey, you'll have a portfolio brimming with projects that 
 {
   "title": "Master React by Building 25 Projects",
   "desc": "React is one of the most popular frontend JavaScript frameworks.  We just posted a course on the freeCodeCamp.org YouTube channel that will teach you how to build twenty-five different projects using React. Each project is designed to challenge and e...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/master-react-by-building-25-projects.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/master-react-by-building-25-projects.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: "Minimal API Project Files"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/create-a-minimal-api-in-net-core-handbook/minimal-api-project-files.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/create-a-minimal-api-in-net-core-handbook/minimal-api-project-files.html
 date: 2024-12-03
 isOriginal: false
 author:

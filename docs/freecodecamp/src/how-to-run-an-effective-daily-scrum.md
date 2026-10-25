@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: "How to Run an Effective Daily Scrum - Tips for Team Members and Managers"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-run-an-effective-daily-scrum.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-run-an-effective-daily-scrum.html
 prev: /projects/career/articles/README.md
 date: 2025-01-18
 isOriginal: false
@@ -260,7 +260,7 @@ Follow me on [X (<VPIcon icon="fa-brands fa-x-twitter"/>`jatechlead`)](https://x
 {
   "title": "How to Run an Effective Daily Scrum - Tips for Team Members and Managers",
   "desc": "Let’s start with a simple question: Why do we get together for a short meeting each day?  If you work on a Scrum team, you’ve probably heard of a daily scrum, sometimes called a daily stand-up. It’s one of the key events in scrum. The “daily” usually...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-run-an-effective-daily-scrum.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-run-an-effective-daily-scrum.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

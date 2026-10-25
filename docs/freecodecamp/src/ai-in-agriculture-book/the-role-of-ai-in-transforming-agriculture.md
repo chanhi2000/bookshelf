@@ -26,7 +26,7 @@ head:
     - property: og:description
       content: "The Role of AI in Transforming Agriculture"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/ai-in-agriculture-book/the-role-of-ai-in-transforming-agriculture.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/ai-in-agriculture-book/the-role-of-ai-in-transforming-agriculture.html
 date: 2025-01-15
 isOriginal: false
 author:

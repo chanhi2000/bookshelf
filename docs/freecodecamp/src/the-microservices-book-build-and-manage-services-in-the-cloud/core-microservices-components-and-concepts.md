@@ -26,7 +26,7 @@ head:
     - property: og:description
       content: "Core Microservices Concepts and Components"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/the-microservices-book-build-and-manage-services-in-the-cloud/core-microservices-components-and-concepts.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/the-microservices-book-build-and-manage-services-in-the-cloud/core-microservices-components-and-concepts.html
 date: 2024-11-29
 isOriginal: false
 author: Adekola Olawale

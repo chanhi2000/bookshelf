@@ -24,7 +24,7 @@ head:
     - property: og:description
       content: "What is Semantic Matching? How to Find Words in a Document Using NLP"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/what-is-semantic-matching-find-words-in-a-document-using-nlp.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/what-is-semantic-matching-find-words-in-a-document-using-nlp.html
 prev: /ai/llm/articles/README.md
 date: 2025-01-10
 isOriginal: false
@@ -402,7 +402,7 @@ Thank you for reading this article, and I will see you in the next one.
 {
   "title": "What is Semantic Matching? How to Find Words in a Document Using NLP",
   "desc": "Have you ever found yourself searching a document for a specific word or phrase just to discover that the term you're looking for isn't there? It can be frustrating, right? Sometimes, even though you might not see the exact term you’re looking for, t...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/what-is-semantic-matching-find-words-in-a-document-using-nlp.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/what-is-semantic-matching-find-words-in-a-document-using-nlp.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

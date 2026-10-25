@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to Work with React Forms So They Don't Break Your Brain"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-work-with-react-forms.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-work-with-react-forms.html
 prev: /programming/js-react/articles/README.md
 date: 2025-07-07
 isOriginal: false
@@ -203,7 +203,7 @@ There’s no one-size-fits-all answer for which is better. It depends entirely o
 {
   "title": "How to Work with React Forms So They Don't Break Your Brain",
   "desc": "If you’ve ever built a form in React and felt like the input fields had a mind of their own, you’re not alone. One minute your form is working fine, the next you’re staring at a blank input that won’t update. Or React throws a warning like “A compone...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-work-with-react-forms.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-work-with-react-forms.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

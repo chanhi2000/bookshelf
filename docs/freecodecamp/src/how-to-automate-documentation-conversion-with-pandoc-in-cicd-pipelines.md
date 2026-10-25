@@ -29,7 +29,7 @@ head:
     - property: og:description
       content: "How to Automate Documentation Conversion with Pandoc in CI/CD Pipelines"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-automate-documentation-conversion-with-pandoc-in-cicd-pipelines.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-automate-documentation-conversion-with-pandoc-in-cicd-pipelines.html
 prev: /programming/sh-=make/articles/README.md
 date: 2024-10-24
 isOriginal: false
@@ -438,7 +438,7 @@ Feel free to reach out through the channels above if you have any questions. I w
 {
   "title": "How to Automate Documentation Conversion with Pandoc in CI/CD Pipelines",
   "desc": "In any software project, documentation plays a crucial role in guiding developers, users, and stakeholders through the project's features and functionalities. As projects grow and evolve, managing documentation across various formats—whether it’s mar...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-automate-documentation-conversion-with-pandoc-in-cicd-pipelines.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-automate-documentation-conversion-with-pandoc-in-cicd-pipelines.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

@@ -20,7 +20,7 @@ head:
     - property: og:description`
       content: "What is a Kalman Filter? How to Simplify Noisy Data in Navigation and Finance"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/what-is-a-kalman-filter-with-python-code-examples.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/what-is-a-kalman-filter-with-python-code-examples.html
 prev: /programming/py-numpy/articles/README.md
 date: 2024-08-07
 isOriginal: false
@@ -460,7 +460,7 @@ As technology continues to evolve, the integration of Kalman Filters with other 
 {
   "title": "What is a Kalman Filter? How to Simplify Noisy Data in Navigation and Finance",
   "desc": "In a world where precision is key, handling noisy data effectively is crucial for solving complex problems. Whether you're trying to control a rocket or forecast the stock market, the ability to get good data from an uncertain environment is importan...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/what-is-a-kalman-filter-with-python-code-examples.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/what-is-a-kalman-filter-with-python-code-examples.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

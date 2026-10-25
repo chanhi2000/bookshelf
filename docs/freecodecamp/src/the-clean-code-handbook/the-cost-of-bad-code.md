@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: "The Cost of Bad Code"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/the-clean-code-handbook/the-cost-of-bad-code.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/the-clean-code-handbook/the-cost-of-bad-code.html
 date: 2025-01-30
 isOriginal: false
 author:

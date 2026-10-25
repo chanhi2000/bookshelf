@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Vyper and Python Smart Contracts on Blockchain Course"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/vyper-and-python-smart-contracts-on-blockchain-course.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/vyper-and-python-smart-contracts-on-blockchain-course.html
 prev: /programming/py/articles/README.md
 date: 2025-02-04
 isOriginal: false
@@ -107,7 +107,7 @@ Watch the full course now on the [<VPIcon icon="fa-brands fa-youtube"/>freeCodeC
 {
   "title": "Vyper and Python Smart Contracts on Blockchain Course",
   "desc": "If you've ever wanted to develop software that runs on a blockchain, now is the perfect time to learn. Whether you're a complete beginner or an experienced programmer, mastering blockchain development can open doors to exciting opportunities in decen...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/vyper-and-python-smart-contracts-on-blockchain-course.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/vyper-and-python-smart-contracts-on-blockchain-course.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

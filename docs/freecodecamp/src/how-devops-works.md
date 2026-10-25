@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: "What is DevOps? How Development + Operations Helps Teams Work More Efficiently"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-devops-works.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-devops-works.html
 prev: /devops/articles/README.md
 date: 2023-04-18
 isOriginal: false
@@ -182,7 +182,7 @@ You can follow me on [Twitter (<VPIcon icon="fa-brands fa-x-twitter"/>`triposat`
 {
   "title": "What is DevOps? How Development + Operations Helps Teams Work More Efficiently",
   "desc": "By Satyam Tripathi When developers and operations teams work together, they can identify and solve problems more quickly. This helps them deliver software to users faster and with fewer errors.  This general practice is called DevOps. It involves usi...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-devops-works.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-devops-works.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

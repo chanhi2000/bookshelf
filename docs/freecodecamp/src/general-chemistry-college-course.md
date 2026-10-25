@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "General Chemistry College Course"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/general-chemistry-college-course.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/general-chemistry-college-course.html
 prev: /academics/chem/articles/README.md
 date: 2025-06-04
 isOriginal: false
@@ -93,7 +93,7 @@ You can watch the entire course for free on the [<VPIcon icon="fa-brands fa-yout
 {
   "title": "General Chemistry College Course",
   "desc": "Learning general chemistry is one of the most important steps you can take if you're planning to study science in any serious way. Chemistry is foundational. It connects to biology, physics, environmental science, engineering, medicine, and so much m...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/general-chemistry-college-course.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/general-chemistry-college-course.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

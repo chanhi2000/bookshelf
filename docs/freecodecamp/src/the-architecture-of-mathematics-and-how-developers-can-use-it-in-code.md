@@ -26,7 +26,7 @@ head:
     - property: og:description
       content: "The Architecture of Mathematics - And How Developers Can Use it in Code"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/the-architecture-of-mathematics-and-how-developers-can-use-it-in-code.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/the-architecture-of-mathematics-and-how-developers-can-use-it-in-code.html
 prev: /programming/py-numpy/articles/README.md
 date: 2025-05-24
 isOriginal: false
@@ -359,7 +359,7 @@ Find the full code [here (<VPIcon icon="iconfont icon-github"/>`tiagomonteiro071
 {
   "title": "The Architecture of Mathematics - And How Developers Can Use it in Code",
   "desc": "”To understand is to perceive patterns.” - Isaiah Berlin Math is not just numbers. It is the science of finding complex patterns that shape our world. This means that to truly understand it, we need to see beyond numbers, formulas, and theorems and ...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/the-architecture-of-mathematics-and-how-developers-can-use-it-in-code.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/the-architecture-of-mathematics-and-how-developers-can-use-it-in-code.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

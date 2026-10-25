@@ -30,7 +30,7 @@ head:
     - property: og:description
       content: "How to Vibe Code With Help From n8n"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-vibe-code-with-help-from-n8n.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-vibe-code-with-help-from-n8n.html
 prev: /programming/js-n8n/articles/README.md
 date: 2025-07-09
 isOriginal: false
@@ -114,7 +114,7 @@ By the end of this course, you’ll have the VibeCoding mindset and a production
 {
   "title": "How to Vibe Code With Help From n8n",
   "desc": "Learn the power of vibe coding and how it pairs perfectly with n8n to build full-stack AI-driven apps. We just published a crash course on the freeCodeCamp.org YouTube channel that will teach you the power of VibeCoding and how to automate real-world...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-vibe-code-with-help-from-n8n.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-vibe-code-with-help-from-n8n.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

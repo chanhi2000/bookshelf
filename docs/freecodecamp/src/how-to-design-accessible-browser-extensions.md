@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "How to Design Accessible Browser Extensions"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-design-accessible-browser-extensions.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-design-accessible-browser-extensions.html
 prev: /academics/system-design/articles/README.md
 date: 2025-09-10
 isOriginal: false
@@ -322,7 +322,7 @@ Here are some helpful resources
 {
   "title": "How to Design Accessible Browser Extensions",
   "desc": "Building a browser extension is easy, but ensuring that it’s accessible to everyone takes deliberate care and skill. Your extension might fetch data flawlessly and have a beautiful interface, but if screen reader users or keyboard navigators can’t us...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-design-accessible-browser-extensions.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-design-accessible-browser-extensions.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

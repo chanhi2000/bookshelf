@@ -24,7 +24,7 @@ head:
     - property: og:description
       content: "Learn Event Driven Architecture by Building a SaaS Application"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/learn-event-driven-architecture-by-building-a-saas-application.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-event-driven-architecture-by-building-a-saas-application.html
 prev: /programming/js-next/articles/README.md
 date: 2024-11-28
 isOriginal: false
@@ -108,7 +108,7 @@ Watch the course on [the freeCodeCamp.org YouTube channel](https://youtu.be/Ttvy
 {
   "title": "Learn Event Driven Architecture by Building a SaaS Application",
   "desc": "Building modern, scalable web applications requires mastering the tools and patterns that power dynamic, production-ready platforms. Event-driven architecture is one of these patterns, enabling applications to efficiently handle real-time interaction...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/learn-event-driven-architecture-by-building-a-saas-application.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-event-driven-architecture-by-building-a-saas-application.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

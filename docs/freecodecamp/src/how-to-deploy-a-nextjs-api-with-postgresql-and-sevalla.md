@@ -33,7 +33,7 @@ head:
     - property: og:description
       content: "How to Deploy a Next.js API with PostgreSQL and Sevalla"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-deploy-a-nextjs-api-with-postgresql-and-sevalla.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-deploy-a-nextjs-api-with-postgresql-and-sevalla.html
 prev: /programming/js-next/articles/README.md
 date: 2025-08-18
 isOriginal: false
@@ -430,7 +430,7 @@ Hope you enjoyed this article. I’ll see you soon with another one. You can [<V
 {
   "title": "How to Deploy a Next.js API with PostgreSQL and Sevalla",
   "desc": "When developers think of Next.js, they often associate it with SEO-friendly static websites or React-based frontends. But what many miss is how Next.js can also be used to build full-featured backend APIs - all within the same project. I’ve recently ...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-deploy-a-nextjs-api-with-postgresql-and-sevalla.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-deploy-a-nextjs-api-with-postgresql-and-sevalla.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

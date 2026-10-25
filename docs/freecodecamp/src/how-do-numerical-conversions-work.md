@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: "How Do Numerical Conversions Work in Computer Systems? Explained With Examples"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-do-numerical-conversions-work.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-do-numerical-conversions-work.html
 prev: /academics/math/articles/README.md
 date: 2024-05-30
 isOriginal: false
@@ -495,7 +495,7 @@ See you in the next tutorial, happy coding 😁
 {
   "title": "How Do Numerical Conversions Work in Computer Systems? Explained With Examples",
   "desc": "Computers perform complex calculations when carrying out their assigned tasks. At the very core, the calculations boil down to operations like comparisons, assignments, and addition. Have you ever wondered how they are performed under the hood and wh...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-do-numerical-conversions-work.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-do-numerical-conversions-work.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

@@ -28,7 +28,7 @@ head:
     - property: og:description
       content: "Learn Kubernetes and EKS for Deployment"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/learn-kubernetes-and-eks-for-deployment.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-kubernetes-and-eks-for-deployment.html
 prev: /devops/k8s/articles/README.md
 date: 2025-02-21
 isOriginal: false
@@ -120,7 +120,7 @@ Check out the full course on the [<VPIcon icon="fa-brands fa-youtube"/>freeCodeC
 {
   "title": "Learn Kubernetes and EKS for Deployment",
   "desc": "Kubernetes has become the de facto standard for container orchestration, allowing developers to efficiently deploy, manage, and scale applications. But deploying Kubernetes clusters in the cloud can be complex. That’s where Amazon Elastic Kubernetes ...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/learn-kubernetes-and-eks-for-deployment.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-kubernetes-and-eks-for-deployment.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

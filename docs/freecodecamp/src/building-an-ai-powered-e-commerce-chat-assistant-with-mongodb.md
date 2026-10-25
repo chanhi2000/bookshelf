@@ -39,7 +39,7 @@ head:
     - property: og:description
       content: "Building an AI-Powered E-commerce Chat Assistant with MongoDB"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/building-an-ai-powered-e-commerce-chat-assistant-with-mongodb.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/building-an-ai-powered-e-commerce-chat-assistant-with-mongodb.html
 prev: /programming/js-react/articles/README.md
 date: 2025-08-20
 isOriginal: false
@@ -118,7 +118,7 @@ Watch the full course on [<VPIcon icon="fa-brands fa-youtube"/>the freeCodeCamp.
 {
   "title": "Building an AI-Powered E-commerce Chat Assistant with MongoDB",
   "desc": "Chatbots should do more than just chat. We just published a new course on the freeCodeCamp.org YouTube channel that will teach you how to build a smart AI shopping assistant from the ground up. This comprehensive course, created by Ania Kubow, goes b...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/building-an-ai-powered-e-commerce-chat-assistant-with-mongodb.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/building-an-ai-powered-e-commerce-chat-assistant-with-mongodb.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

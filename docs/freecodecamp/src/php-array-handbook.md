@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: PHP Array Handbook - How to Create, Work with, and Loop Through Arrays
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/php-array-handbook.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/php-array-handbook.html
 prev: /programming/php/articles/README.md
 date: 2024-05-08
 isOriginal: false

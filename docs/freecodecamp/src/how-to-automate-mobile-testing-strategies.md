@@ -25,7 +25,7 @@ head:
     - property: og:description
       content: "How to Automate Mobile Testing: Strategies for Reliable, Scalable Tests"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-automate-mobile-testing-strategies.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-automate-mobile-testing-strategies.html
 prev: /devops/appium/articles/README.md
 date: 2025-04-29
 isOriginal: false
@@ -605,7 +605,7 @@ This mobile testing ebook discusses how mobile test automation makes mobile test
 {
   "title": "How to Automate Mobile Testing: Strategies for Reliable, Scalable Tests",
   "desc": "Mobile test automation uses tools and frameworks to test mobile applications automatically. It replicates user interactions to evaluate the app's functions and detect possible issues early on. This automated approach is helpful since it accelerates t...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-automate-mobile-testing-strategies.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-automate-mobile-testing-strategies.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

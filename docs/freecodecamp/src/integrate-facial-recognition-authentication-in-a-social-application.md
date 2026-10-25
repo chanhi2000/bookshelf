@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to Integrate Facial Recognition Authentication in a Social App with Face API"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/integrate-facial-recognition-authentication-in-a-social-application.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/integrate-facial-recognition-authentication-in-a-social-application.html
 prev: /programming/js-react/articles/README.md
 date: 2025-09-23
 isOriginal: false
@@ -1027,7 +1027,7 @@ So far, we have walked through the process of creating an efficient multi-factor
 {
   "title": "How to Integrate Facial Recognition Authentication in a Social App with Face API",
   "desc": "Social applications have evolved over the years, and there is a major need for secure methods to authenticate users' identities. Integrating multifactor authentication capabilities into applications is crucial for strengthening their integrity. In so...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/integrate-facial-recognition-authentication-in-a-social-application.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/integrate-facial-recognition-authentication-in-a-social-application.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: "How to Create a Section Divider Using CSS"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/section-divider-using-css.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/section-divider-using-css.html
 prev: /programming/css/articles/README.md
 date: 2022-02-26
 isOriginal: false
@@ -290,7 +290,7 @@ Thank you for reading!
 {
   "title": "How to Create a Section Divider Using CSS",
   "desc": "It's always cool to have a fancy section divider on your website. And it's even better if we can make them responsive and easy to adjust. This is what you will learn in this article. We will explore different section dividers made using only CSS and ...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/section-divider-using-css.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/section-divider-using-css.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

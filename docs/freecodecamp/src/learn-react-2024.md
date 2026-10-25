@@ -26,7 +26,7 @@ head:
     - property: og:description
       content: "Learn React from Bob Ziroll"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/learn-react-2024.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-react-2024.html
 prev: /programming/js-react/articles/README.md
 date: 2024-11-28
 isOriginal: false
@@ -106,7 +106,7 @@ Ready to take your first step into the world of modern React? Check out the cour
 {
   "title": "Learn React from Bob Ziroll",
   "desc": "Learning React can feel challenging at first, especially when you're unsure of how to start or find yourself staring at an empty code editor. But the right course can help you understand the core concepts and help you gain practical experience by bui...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/learn-react-2024.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-react-2024.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

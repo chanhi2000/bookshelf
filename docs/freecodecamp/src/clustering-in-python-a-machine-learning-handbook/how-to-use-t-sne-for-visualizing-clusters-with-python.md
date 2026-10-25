@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: "How to Use t-SNE for Visualizing Clusters with Python"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/clustering-in-python-a-machine-learning-handbook/how-to-use-t-sne-for-visualizing-clusters-with-python.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/clustering-in-python-a-machine-learning-handbook/how-to-use-t-sne-for-visualizing-clusters-with-python.html
 date: 2025-02-06
 isOriginal: false
 author:

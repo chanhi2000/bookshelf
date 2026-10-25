@@ -26,7 +26,7 @@ head:
     - property: og:description
       content: "Learn Vue.js in This Beginner's Course"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/learn-vuejs-in-this-beginners-course.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-vuejs-in-this-beginners-course.html
 prev: /programming/js-vue/articles/README.md
 date: 2025-05-23
 isOriginal: false
@@ -86,7 +86,7 @@ Watch the full course on the [<VPIcon icon="fa-brands fa-youtube"/>freeCodeCamp.
 {
   "title": "Learn Vue.js in This Beginner's Course",
   "desc": "If you’ve been meaning to add Vue.js to your front-end toolbelt, today’s your day. We just published a full, 6-hour Vue 3 course on the freeCodeCamp.org YouTube channel. Instructor Bhrugen Patel walks you through everything you need to build modern, ...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/learn-vuejs-in-this-beginners-course.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-vuejs-in-this-beginners-course.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

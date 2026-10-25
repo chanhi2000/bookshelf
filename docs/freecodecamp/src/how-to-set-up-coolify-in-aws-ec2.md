@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: "How to Set Up Coolify in AWS EC2 and Have the Power to Do Anything in the Cloud"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-set-up-coolify-in-aws-ec2.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-set-up-coolify-in-aws-ec2.html
 prev: /devops/aws/articles/README.md
 date: 2025-06-30
 isOriginal: false
@@ -332,7 +332,7 @@ To get more content like this, you can follow me on [GitHub (<VPIcon icon="iconf
 {
   "title": "How to Set Up Coolify in AWS EC2 and Have the Power to Do Anything in the Cloud",
   "desc": "Coolify is an open-source, self-hostable platform that serves as an alternative to services like Heroku, Netlify, and Vercel. It lets developers deploy and manage applications, databases, and services on their own infrastructure, providing greater co...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-set-up-coolify-in-aws-ec2.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-set-up-coolify-in-aws-ec2.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

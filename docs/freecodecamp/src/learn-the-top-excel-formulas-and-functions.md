@@ -28,7 +28,7 @@ head:
     - property: og:description
       content: "Learn the top Excel formulas and functions"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/learn-the-top-excel-formulas-and-functions.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-the-top-excel-formulas-and-functions.html
 prev: /tool/xls/articles/README.md
 date: 2025-03-27
 isOriginal: false
@@ -89,7 +89,7 @@ Whether you're new to Excel or looking to refine your skills, this course is des
 {
   "title": "Learn the top Excel formulas and functions",
   "desc": "Excel is one of the most powerful tools for data analysis, organization, and automation. Whether you're a student, business professional, or data analyst, mastering Excel formulas and functions can significantly boost your productivity. However, with...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/learn-the-top-excel-formulas-and-functions.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-the-top-excel-formulas-and-functions.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

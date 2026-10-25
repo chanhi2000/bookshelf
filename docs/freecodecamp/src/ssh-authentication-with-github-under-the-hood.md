@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How SSH Authentication with GitHub Works Under the Hood"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/ssh-authentication-with-github-under-the-hood.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/ssh-authentication-with-github-under-the-hood.html
 prev: /devops/github/articles/README.md
 date: 2025-02-13
 isOriginal: false
@@ -362,7 +362,7 @@ I put useful ideas and resources on my Twitter. [You should follow me there. (<V
 {
   "title": "How SSH Authentication with GitHub Works Under the Hood",
   "desc": "SSH (Secure Shell) is a client-server protocol for connecting and authenticating to a remote server. Authentication means that the remote server can verify that it’s actually you and not somebody else talking on your behalf. You may already be using ...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/ssh-authentication-with-github-under-the-hood.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/ssh-authentication-with-github-under-the-hood.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

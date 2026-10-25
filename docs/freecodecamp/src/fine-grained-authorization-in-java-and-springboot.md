@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "How to Implement Fine-Grained Authorization in Java and SpringBoot"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/fine-grained-authorization-in-java-and-springboot.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/fine-grained-authorization-in-java-and-springboot.html
 prev: /programming/java-spring/articles/README.md
 date: 2024-10-25
 isOriginal: false
@@ -906,7 +906,7 @@ Happy coding.
 {
   "title": "How to Implement Fine-Grained Authorization in Java and SpringBoot",
   "desc": "Securing your application goes beyond simply granting or denying access at the surface level. As a developer, you need to implement fine-grained authorization (FGA) to manage permissions at a more detailed, granular level. FGA allows you to set up de...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/fine-grained-authorization-in-java-and-springboot.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/fine-grained-authorization-in-java-and-springboot.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

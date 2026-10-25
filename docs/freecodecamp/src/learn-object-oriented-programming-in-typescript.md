@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "Learn Object-Oriented Programming in TypeScript"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/learn-object-oriented-programming-in-typescript.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-object-oriented-programming-in-typescript.html
 prev: /programming/ts/articles/README.md
 date: 2025-05-12
 isOriginal: false
@@ -484,7 +484,7 @@ If you want to keep learning TypeScript and OOP, I highly recommend reading Mart
 {
   "title": "Learn Object-Oriented Programming in TypeScript",
   "desc": "Object-Oriented Programming (OOP) is one of the most widely used programming paradigms in software development. But is also one of the most misunderstood. This article will help you gain a solid grasp of OOP in TypeScript by walking you through the l...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/learn-object-oriented-programming-in-typescript.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-object-oriented-programming-in-typescript.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

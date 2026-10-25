@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: "How is Flutter Platform-Agnostic?"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-is-flutter-platform-agnostic.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-is-flutter-platform-agnostic.html
 prev: /programming/dart/articles/README.md
 date: 2024-05-07
 isOriginal: false
@@ -207,7 +207,7 @@ Cheers!
 {
   "title": "How is Flutter Platform-Agnostic?",
   "desc": "Flutter builds applications for multiple platforms (desktop, mobile, and web) from the same codebase. Flutter does this in a pixel-perfect and platform-agnostic manner.  In this article, we will explore how Flutter is platform-agnostic through how it...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-is-flutter-platform-agnostic.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-is-flutter-platform-agnostic.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

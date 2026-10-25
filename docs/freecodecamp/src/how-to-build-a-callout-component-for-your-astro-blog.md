@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "How to Build a Callout Component for your Astro Blog"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-build-a-callout-component-for-your-astro-blog.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-build-a-callout-component-for-your-astro-blog.html
 prev: /programming/js-astro/articles/README.md
 date: 2024-10-22
 isOriginal: false
@@ -321,7 +321,7 @@ Keep coding…
 {
   "title": "How to Build a Callout Component for your Astro Blog",
   "desc": "Earlier this year, I became really interested in learning about Astro, so I completely rebuilt my blog using it. The results have been amazing since then: I can easily handle automatic sitemap generation and SEO, and integrating other tools became a ...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-build-a-callout-component-for-your-astro-blog.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-build-a-callout-component-for-your-astro-blog.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

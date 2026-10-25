@@ -30,7 +30,7 @@ head:
     - property: og:description
       content: "Challenges and Solutions"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/oracle-erp-test-automation-guide/challenges-and-solutions.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/oracle-erp-test-automation-guide/challenges-and-solutions.html
 next: /freecodecamp.org/oracle-erp-test-automation-guide/README.md#conclusion
 date: 2025-05-01
 isOriginal: false

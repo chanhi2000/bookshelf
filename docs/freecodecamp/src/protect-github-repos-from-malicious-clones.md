@@ -22,7 +22,7 @@ head:
     - property: og:description
       content: "How to Protect Your GitHub Repos Against Malicious Clones"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/protect-github-repos-from-malicious-clones.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/protect-github-repos-from-malicious-clones.html
 prev: /devops/github/articles/README.md
 date: 2025-07-17
 isOriginal: false
@@ -254,7 +254,7 @@ A **cheat-sheet** is also available on my [GitHub (<VPIcon icon="iconfont icon-g
 {
   "title": "How to Protect Your GitHub Repos Against Malicious Clones",
   "desc": "The world of open-source development comes with various cyber threats. GitHub is still facing a type of attack that is ongoing since last year where attackers mirrored a huge number of repositories. So as it turns out…the clone wars are not over! If ...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/protect-github-repos-from-malicious-clones.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/protect-github-repos-from-malicious-clones.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

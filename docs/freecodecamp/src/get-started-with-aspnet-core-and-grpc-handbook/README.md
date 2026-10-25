@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "How to Get Started with ASP.NET Core and gRPC: A Handbook for Developers"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/get-started-with-aspnet-core-and-grpc-handbook/
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/get-started-with-aspnet-core-and-grpc-handbook/
 prev: /programming/cs/articles/README.md
 date: 2025-08-13
 isOriginal: false
@@ -2235,7 +2235,7 @@ If you want to learn more about .NET Core, you can subscribe to my YouTube chann
 {
   "title": "How to Get Started with ASP.NET Core and gRPC: A Handbook for Developers",
   "desc": "In today's distributed computing landscape, efficient service-to-service communication is crucial for building scalable, high-performance applications. gRPC (Google Remote Procedure Call) has emerged as one of the most powerful frameworks for creatin...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/get-started-with-aspnet-core-and-grpc-handbook.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/get-started-with-aspnet-core-and-grpc-handbook.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: "How to Prepare Data for Unsupervised Learning"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/clustering-in-python-a-machine-learning-handbook/how-to-prepare-data-for-unsupervised-learning.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/clustering-in-python-a-machine-learning-handbook/how-to-prepare-data-for-unsupervised-learning.html
 date: 2025-02-06
 isOriginal: false
 author:

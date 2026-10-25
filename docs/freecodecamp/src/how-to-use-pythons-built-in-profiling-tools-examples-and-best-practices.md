@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "How to Use Python's Built-in Profiling Tools: Examples and Best Practices"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-use-pythons-built-in-profiling-tools-examples-and-best-practices.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-use-pythons-built-in-profiling-tools-examples-and-best-practices.html
 prev: /programming/py/articles/README.md
 date: 2025-03-26
 isOriginal: false
@@ -776,7 +776,7 @@ Apply these profiling techniques to your own code, and you'll be surprised at wh
 {
   "title": "How to Use Python's Built-in Profiling Tools: Examples and Best Practices",
   "desc": "Python is known for its simplicity and readability, making it a favorite among developers. But this simplicity sometimes comes at the cost of performance. When your Python application grows or needs to handle larger workloads, understanding what's ha...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-use-pythons-built-in-profiling-tools-examples-and-best-practices.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-use-pythons-built-in-profiling-tools-examples-and-best-practices.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

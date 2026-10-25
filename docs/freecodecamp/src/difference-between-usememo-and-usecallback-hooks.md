@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "What's the Difference Between the useMemo and useCallback Hooks?"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/difference-between-usememo-and-usecallback-hooks.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/difference-between-usememo-and-usecallback-hooks.html
 prev: /programming/js-react/articles/README.md
 date: 2024-07-16
 isOriginal: false
@@ -288,7 +288,7 @@ I hope this article helps clear up any confusion. If you have further questions 
 {
   "title": "What's the Difference Between the useMemo and useCallback Hooks?",
   "desc": "React provides various hooks that make it easier to manage application state and other React features in functional components. Hooks provide class component features to functional components, and they don't need a lot of code compared to class compo...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/difference-between-usememo-and-usecallback-hooks.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/difference-between-usememo-and-usecallback-hooks.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

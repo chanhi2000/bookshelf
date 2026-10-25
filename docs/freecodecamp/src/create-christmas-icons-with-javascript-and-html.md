@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Create Christmas Icons with JavaScript and HTML"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/create-christmas-icons-with-javascript-and-html.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/create-christmas-icons-with-javascript-and-html.html
 prev: /programming/js/articles/README.md
 date: 2025-01-09
 isOriginal: false
@@ -85,7 +85,7 @@ Whether you're a beginner looking to level up your JavaScript skills or an exper
 {
   "title": "Create Christmas Icons with JavaScript and HTML",
   "desc": "Creating unique projects is one of the best ways to grow as a programmer, and what better way to learn than by building something creative for the holiday season? Imagine crafting a festive Christmas calendar from scratch, generating eye-catching, cu...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/create-christmas-icons-with-javascript-and-html.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/create-christmas-icons-with-javascript-and-html.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

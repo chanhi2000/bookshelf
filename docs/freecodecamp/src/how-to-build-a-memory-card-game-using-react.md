@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to Build a Memory Card Game Using React"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-build-a-memory-card-game-using-react.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-build-a-memory-card-game-using-react.html
 prev: /programming/js-react/articles/README.md
 date: 2024-11-28
 isOriginal: false
@@ -1028,7 +1028,7 @@ The Memory Card Game stands as a testament to how personal projects can both sol
 {
   "title": "How to Build a Memory Card Game Using React",
   "desc": "Recently, while watching my kid 🧒🏻 playing free memory games on her tablet, I noticed her struggling with an overwhelming number of ads and annoying pop-up banners. This inspired me to build a similar game for her. Since she's currently into anime,...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-build-a-memory-card-game-using-react.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-build-a-memory-card-game-using-react.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

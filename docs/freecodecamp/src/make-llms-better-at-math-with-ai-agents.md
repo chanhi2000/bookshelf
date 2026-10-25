@@ -25,7 +25,7 @@ head:
     - property: og:description
       content: "How to Make LLMs Better at Math Using AI Agents, MathJS, and BaseAI Tool Calls"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/make-llms-better-at-math-with-ai-agents.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/make-llms-better-at-math-with-ai-agents.html
 prev: /ai/openai/articles/README.md
 date: 2024-12-19
 isOriginal: false
@@ -468,7 +468,7 @@ By incorporating MathJS and tool calls via the BaseAI framework, developers can 
 {
   "title": "How to Make LLMs Better at Math Using AI Agents, MathJS, and BaseAI Tool Calls",
   "desc": "Large Language Models (LLMs) like GPT often struggle to answer mathematical questions. In fact, if you ask a human a tough math question, like what is 185 cm in ft, they’ll struggle as well. They’d likely need a calculator to perform this conversion ...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/make-llms-better-at-math-with-ai-agents.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/make-llms-better-at-math-with-ai-agents.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

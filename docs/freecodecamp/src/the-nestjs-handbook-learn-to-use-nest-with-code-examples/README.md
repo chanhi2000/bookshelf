@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "The NestJS Handbook - Learn to Use Nest with Code Examples"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/the-nestjs-handbook-learn-to-use-nest-with-code-examples/
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/the-nestjs-handbook-learn-to-use-nest-with-code-examples/
 prev: /programming/js-nest/articles/README.md
 date: 2025-06-14
 isOriginal: false
@@ -2927,7 +2927,7 @@ Overall, NestJS is well-suited for APIs, microservices, real-time apps, and ente
 {
   "title": "The NestJS Handbook - Learn to Use Nest with Code Examples",
   "desc": "NestJS is a progressive Node.js framework for building efficient, reliable, and scalable server-side applications. Combining the best ideas from OOP (Object-Oriented Programming), FP (Functional Programming), and FRP (Functional Reactive Programming)...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/the-nestjs-handbook-learn-to-use-nest-with-code-examples.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/the-nestjs-handbook-learn-to-use-nest-with-code-examples.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

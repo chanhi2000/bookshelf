@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: "Building Our Python Backend"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/build-a-team-of-ai-agents-for-your-website-for-free/building-our-python-backend.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-a-team-of-ai-agents-for-your-website-for-free/building-our-python-backend.html
 date: 2025-04-01
 isOriginal: false
 author:

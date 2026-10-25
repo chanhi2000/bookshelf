@@ -22,7 +22,7 @@ head:
     - property: og:description
       content: "Building a Simple CRUD Application with Express and MongoDB"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/building-a-simple-crud-application-with-express-and-mongodb-63f80f3eb1cd.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/building-a-simple-crud-application-with-express-and-mongodb-63f80f3eb1cd.html
 prev: /programming/js-node/articles/README.md
 date: 2016-01-26
 isOriginal: false
@@ -595,7 +595,7 @@ This article first appeared on my blog at [<VPIcon icon="fas fa-globe"/>zell-wee
 {
   "title": "Building a Simple CRUD Application with Express and MongoDB",
   "desc": "By Zell Liew For a long time, I didn’t dare venture into back end development. I felt intimidated because of my lack of an academic background in programming. I remember when I eventually built up the courage to try back end development. I had such a...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/building-a-simple-crud-application-with-express-and-mongodb-63f80f3eb1cd.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/building-a-simple-crud-application-with-express-and-mongodb-63f80f3eb1cd.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

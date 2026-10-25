@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "JavaScript TypeOf - How to Check the Type of a Variable or Object in JS"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/javascript-typeof-how-to-check-the-type-of-a-variable-or-object-in-js.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/javascript-typeof-how-to-check-the-type-of-a-variable-or-object-in-js.html
 prev: /programming/js/articles/README.md
 date: 2020-11-10
 isOriginal: false
@@ -414,7 +414,7 @@ You may also like these other articles:
 {
   "title": "The JavaScript `this` Keyword + 5 Key Binding Rules Explained for JS Beginners",
   "desc": "JavaScript's this keyword is one of the hardest aspects of the language to grasp. But it is critically important for writing more advanced JavaScript code. In JavaScript, the this keyword allows us to: Reuse functions in different execution contexts...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/javascript-this-keyword-binding-rules.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/javascript-this-keyword-binding-rules.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }
@@ -427,7 +427,7 @@ That's all for now. See you again with my next article soon. Until then, please 
 {
   "title": "JavaScript TypeOf - How to Check the Type of a Variable or Object in JS",
   "desc": "Data types and type checking are fundamental aspects of any programming language. Many programming languages like Java have strict type checking. This means that if a variable is defined with a specific type it can contain a value of only that type. ...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/javascript-typeof-how-to-check-the-type-of-a-variable-or-object-in-js.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/javascript-typeof-how-to-check-the-type-of-a-variable-or-object-in-js.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

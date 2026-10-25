@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "Chapter 2: What is a Database?"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-design-structured-database-systems-using-sql-full-book/chapter-2-what-is-a-database.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-design-structured-database-systems-using-sql-full-book/chapter-2-what-is-a-database.html
 date: 2025-08-14
 isOriginal: false
 author:

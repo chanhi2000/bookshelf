@@ -26,7 +26,7 @@ head:
     - property: og:description
       content: "Free React Course - 8 Real-World Projects and 140+ Coding Challenges"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/free-react-course-2022.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/free-react-course-2022.html
 prev: /programming/js-react/articles/README.md
 date: 2022-01-11
 isOriginal: false
@@ -175,7 +175,7 @@ Watch the full course below or on the [<VPIcon icon="fa-brands fa-youtube"/>free
 {
   "title": "Free React Course - 8 Real-World Projects and 140+ Coding Challenges",
   "desc": "React is still one of the most popular JavaScript libraries for building user interfaces. If you are a front-end developer, it is super helpful to know React. We just published a brand-new, 12-hour React course on the freeCodeCamp.org YouTube channel...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/free-react-course-2022.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/free-react-course-2022.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

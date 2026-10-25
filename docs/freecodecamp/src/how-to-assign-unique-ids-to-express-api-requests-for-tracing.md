@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to Assign Unique IDs to Express API Requests for Tracing"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-assign-unique-ids-to-express-api-requests-for-tracing.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-assign-unique-ids-to-express-api-requests-for-tracing.html
 prev: /programming/js-express/articles/README.md
 date: 2025-08-20
 isOriginal: false
@@ -424,7 +424,7 @@ Aside from using AsyncLocalStorage to store request IDs, you can also use it to 
 {
   "title": "How to Assign Unique IDs to Express API Requests for Tracing",
   "desc": "The ability to track what happens with API requests is an important aspect of monitoring, tracing and debugging back-end applications. But how do you differentiate between the reports of two consecutive API requests to the same API endpoint? This art...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-assign-unique-ids-to-express-api-requests-for-tracing.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-assign-unique-ids-to-express-api-requests-for-tracing.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

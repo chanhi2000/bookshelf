@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "Build a Memory Game in React"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/build-a-memory-game-in-react.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-a-memory-game-in-react.html
 prev: /programming/js-react/articles/README.md
 date: 2025-02-14
 isOriginal: false
@@ -85,7 +85,7 @@ Check out the full course on the [<VPIcon icon="fa-brands fa-youtube"/>freeCodeC
 {
   "title": "Build a Memory Game in React",
   "desc": "Building interactive and accessible web applications is a crucial skill for modern developers. React, one of the most popular JavaScript libraries, provides a powerful way to create dynamic user interfaces. A great way to deepen your understanding of...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/build-a-memory-game-in-react.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-a-memory-game-in-react.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

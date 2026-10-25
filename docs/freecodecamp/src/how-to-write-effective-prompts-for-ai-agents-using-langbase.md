@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "How to Write Effective Prompts for AI Agents using Langbase"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-write-effective-prompts-for-ai-agents-using-langbase.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-write-effective-prompts-for-ai-agents-using-langbase.html
 prev: /ai/llm/articles/README.md
 date: 2025-03-20
 isOriginal: false
@@ -412,7 +412,7 @@ Thank you for reading!
 {
   "title": "How to Write Effective Prompts for AI Agents using Langbase",
   "desc": "Prompt engineering isn’t just a skill these days - it gives you an important competitive edge in your development. In 2025, the difference between AI agents that work and those that don’t comes down to how well they’re prompted. Whether you’re a deve...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-write-effective-prompts-for-ai-agents-using-langbase.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-write-effective-prompts-for-ai-agents-using-langbase.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

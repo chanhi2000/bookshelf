@@ -44,7 +44,7 @@ head:
     - property: og:description
       content: "Strategies for Scaling TestOps"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/scale-testops-for-global-software-development-teams/strategies-for-scaling-testops.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/scale-testops-for-global-software-development-teams/strategies-for-scaling-testops.html
 date: 2025-04-18
 isOriginal: false
 author:

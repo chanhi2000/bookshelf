@@ -30,7 +30,7 @@ head:
     - property: og:description
       content: "Build and Deploy a Polished AI Project and Get Sales"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/build-and-deploy-a-polished-ai-project-and-get-sales.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-and-deploy-a-polished-ai-project-and-get-sales.html
 prev: /programming/py-streamlit/articles/README.md
 date: 2025-07-10
 isOriginal: false
@@ -119,7 +119,7 @@ Watch the full course on [<VPIcon icon="fa-brands fa-youtube"/>the freeCodeCamp.
 {
   "title": "Build and Deploy a Polished AI Project and Get Sales",
   "desc": "Tired of making projects that are just AI API wrappers? Do you want to learn how to build a real AI project that you can actually sell? We just published a course on the freeCodeCamp.org YouTube channel that will show you how to build and deploy an e...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/build-and-deploy-a-polished-ai-project-and-get-sales.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-and-deploy-a-polished-ai-project-and-get-sales.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

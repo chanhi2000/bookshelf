@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "What are Controlled and Uncontrolled Components in React.js?"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/what-are-controlled-and-uncontrolled-components-in-react.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/what-are-controlled-and-uncontrolled-components-in-react.html
 prev: /programming/js-react/articles/README.md
 date: 2024-06-22
 isOriginal: false
@@ -918,7 +918,7 @@ Connect with me on [LinkedIn (<VPIcon icon="fa-brands fa-linkedin"/>`joanayebola
 {
   "title": "What are Controlled and Uncontrolled Components in React.js?",
   "desc": "In React.js, managing form inputs and user interactions is a crucial part of building dynamic web applications.  Two key concepts that developers need to understand are controlled and uncontrolled components. These concepts define how form data is ha...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/what-are-controlled-and-uncontrolled-components-in-react.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/what-are-controlled-and-uncontrolled-components-in-react.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

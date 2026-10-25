@@ -24,7 +24,7 @@ head:
     - property: og:description
       content: "Learn Algorithms and Data Structures in Python"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/learn-algorithms-and-data-structures-in-python.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-algorithms-and-data-structures-in-python.html
 prev: /programming/py/articles/README.md
 date: 2021-09-08
 isOriginal: false
@@ -150,7 +150,7 @@ Watch the course below or [<VPIcon icon="fa-brands fa-youtube"/>on the freeCodeC
 {
   "title": "Learn Algorithms and Data Structures in Python",
   "desc": "Algorithms and data structures are important for most programmers to understand. We just released a course on the freeCodeCamp YouTube channel that is a beginner-friendly introduction to common data structures (linked lists, stacks, queues, graphs) a...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/learn-algorithms-and-data-structures-in-python.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-algorithms-and-data-structures-in-python.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

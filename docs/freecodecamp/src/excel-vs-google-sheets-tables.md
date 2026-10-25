@@ -27,7 +27,7 @@ head:
     - property: og:description
       content: "How to Work with Tables in Excel vs Google Sheets"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/excel-vs-google-sheets-tables.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/excel-vs-google-sheets-tables.html
 prev: /tool/xls/articles/README.md
 date: 2024-07-03
 isOriginal: false
@@ -333,7 +333,7 @@ I'm Eamonn, and I'll help you **get good at spreadsheets**. Join my free newslet
 {
   "title": "How to Work with Tables in Excel vs Google Sheets",
   "desc": "Google Sheets recently released an all new feature: tables. Well, new is a bit of an overstatement. Excel has had proper tables for many, many years, and it's been a point of contention in the spreadsheet community. In this article, I'll break down w...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/excel-vs-google-sheets-tables.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/excel-vs-google-sheets-tables.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

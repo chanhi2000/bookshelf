@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "How to Run LaTeX Projects Locally (for Free) On Windows"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-run-latex-projects-locally-for-free-on-windows.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-run-latex-projects-locally-for-free-on-windows.html
 prev: /programming/latex/articles/README.md
 date: 2025-02-26
 isOriginal: false
@@ -194,7 +194,7 @@ You can follow me on [GitHub (<VPIcon icon="iconfont icon-github"/>`FahimFBA`)](
 {
   "title": "How to Run LaTeX Projects Locally (for Free) On Windows",
   "desc": "LaTeX is a high-quality typesetting system that is widely used in technical, academic, and scientific writing. It’s very popular in academia, especially in fields like mathematics, physics, computer science, and engineering. LaTeX is not a word proce...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-run-latex-projects-locally-for-free-on-windows.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-run-latex-projects-locally-for-free-on-windows.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

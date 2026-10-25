@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "How to Send Emails in Python using Mailtrap SMTP and the Email API"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/send-emails-in-python-using-mailtrap-smtp-and-the-email-api.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/send-emails-in-python-using-mailtrap-smtp-and-the-email-api.html
 prev: /programming/py/articles/README.md
 date: 2025-03-28
 isOriginal: false
@@ -525,7 +525,7 @@ If you’re interested in that and more security tips and best practices, you ca
 {
   "title": "How to Send Emails in Python using Mailtrap SMTP and the Email API",
   "desc": "In this tutorial, I’ll walk you through the process of sending emails in Python using two different methods:  The traditional SMTP setup with the built-in ‘smtplib’ module.  Mailtrap email API via Mailtrap’s official SDK.  If you’re unfamiliar wi...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/send-emails-in-python-using-mailtrap-smtp-and-the-email-api.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/send-emails-in-python-using-mailtrap-smtp-and-the-email-api.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

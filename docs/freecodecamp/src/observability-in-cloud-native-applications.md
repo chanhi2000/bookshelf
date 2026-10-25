@@ -27,7 +27,7 @@ head:
     - property: og:description
       content: "A Beginner's Guide to Observability in Cloud Native Applications"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/observability-in-cloud-native-applications.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/observability-in-cloud-native-applications.html
 prev: /academcis/system-design/articles/README.md
 date: 2025-03-26
 isOriginal: false
@@ -289,7 +289,7 @@ Learn more about:
 {
   "title": "A Beginner's Guide to Observability in Cloud Native Applications",
   "desc": "If you're new to cloud native technologies, you may have heard the term 'observability' before. But what exactly does it mean? Is it simply the ability to observe? And if so, what are we observing and why? I had the same questions when I started lear...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/observability-in-cloud-native-applications.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/observability-in-cloud-native-applications.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

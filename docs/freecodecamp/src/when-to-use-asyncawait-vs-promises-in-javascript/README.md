@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "When to Use Async/Await vs Promises in JavaScript"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/when-to-use-asyncawait-vs-promises-in-javascript/
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/when-to-use-asyncawait-vs-promises-in-javascript/
 prev: /programming/js/articles/README.md
 date: 2025-07-02
 isOriginal: false
@@ -1309,7 +1309,7 @@ By mastering both techniques very well, you will be well-equipped to handle any 
 {
   "title": "When to Use Async/Await vs Promises in JavaScript",
   "desc": "JavaScript is an asynchronous programming language, which means it can handle multiple operations at the same time without blocking the main thread. When working with asynchronous operations like API calls, file reading, or database queries, you have...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/when-to-use-asyncawait-vs-promises-in-javascript.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/when-to-use-asyncawait-vs-promises-in-javascript.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

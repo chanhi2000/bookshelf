@@ -28,7 +28,7 @@ head:
     - property: og:description
       content: "Beginner’s Guide to Cloud Cybersecurity"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/beginners-guide-to-cloud-cybersecurity.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/beginners-guide-to-cloud-cybersecurity.html
 prev: /devops/gcp/articles/README.md
 date: 2025-07-02
 isOriginal: false
@@ -128,7 +128,7 @@ Watch the [<VPIcon icon="fa-brands fa-youtube"/>full course on the freeCodeCamp.
 {
   "title": "Beginner’s Guide to Cloud Cybersecurity",
   "desc": "Are you ready to become a digital guardian and launch your career on the frontlines of cloud security? We’re excited to announce that freeCodeCamp.org has just published a comprehensive Google Cloud Cybersecurity course on our YouTube channel. The co...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/beginners-guide-to-cloud-cybersecurity.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/beginners-guide-to-cloud-cybersecurity.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

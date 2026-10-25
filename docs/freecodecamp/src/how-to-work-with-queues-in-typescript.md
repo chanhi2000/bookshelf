@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "How to Work with Queues in TypeScript"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-work-with-queues-in-typescript.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-work-with-queues-in-typescript.html
 prev: /programming/ts/articles/README.md
 date: 2025-06-17
 isOriginal: false
@@ -948,7 +948,7 @@ Happy coding!
 {
   "title": "How to Work with Queues in TypeScript",
   "desc": "A queue is a collection of items arranged in a First-In-First-Out (FIFO) order. This means that the first item added is the first to be removed, much like a supermarket line where customers are served in the order they arrive. In this hands-on tutor...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-work-with-queues-in-typescript.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-work-with-queues-in-typescript.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

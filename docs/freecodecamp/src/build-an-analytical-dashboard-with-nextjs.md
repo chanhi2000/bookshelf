@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to Build an Analytical Dashboard with Next.js"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/build-an-analytical-dashboard-with-nextjs.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-an-analytical-dashboard-with-nextjs.html
 prev: /programming/js-next/articles/README.md
 date: 2025-02-06
 isOriginal: false
@@ -552,7 +552,7 @@ I aimed to highlight a diverse and engaging dataset to make the process more int
 {
   "title": "How to Build an Analytical Dashboard with Next.js",
   "desc": "If you work with data or plan to in the future, at some point you'll likely need to build a comprehensive analytics dashboard. Sharing data through charts is a great way to provide others with a clearer understanding of this information. Pairing it w...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/build-an-analytical-dashboard-with-nextjs.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-an-analytical-dashboard-with-nextjs.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

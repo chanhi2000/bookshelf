@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: "How to Secure Mobile APIs in Flutter"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-secure-mobile-apis-in-flutter.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-secure-mobile-apis-in-flutter.html
 prev: /programming/dart/articles/README.md
 date: 2025-05-07
 isOriginal: false
@@ -904,7 +904,7 @@ Remember: effective security starts with a mindset. It’s not just a one-time s
 {
   "title": "How to Secure Mobile APIs in Flutter",
   "desc": "As mobile applications continue to evolve in functionality and scope, securing the APIs that power these apps has become more critical than ever. In the context of Flutter, a framework that enables cross-platform development, understanding how to sec...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-secure-mobile-apis-in-flutter.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-secure-mobile-apis-in-flutter.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

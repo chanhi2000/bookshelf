@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "How to Use FakeLogger to Make Testing Easier In .Net"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-use-fakelogger-to-make-testing-easier-in-net.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-use-fakelogger-to-make-testing-easier-in-net.html
 prev: /programming/cs/articles/README.md
 date: 2025-02-18
 isOriginal: false
@@ -568,7 +568,7 @@ Hope you found this helpful! If you want to chat more, feel free to reach out on
 {
   "title": "How to Use FakeLogger to Make Testing Easier In .Net",
   "desc": "When writing unit tests in .NET, you may need to verify that methods are logging exceptions, errors, or other key information. You might think, No problem, I'll just mock ILogger using my favourite mocking library - for example Moq, NSubstitute, or F...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-use-fakelogger-to-make-testing-easier-in-net.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-use-fakelogger-to-make-testing-easier-in-net.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

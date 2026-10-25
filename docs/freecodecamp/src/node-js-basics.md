@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: "What is Node.js? Server-Side JavaScript Development Basics"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/node-js-basics.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/node-js-basics.html
 prev: /programming/js-node/articles/README.md
 date: 2023-07-26
 isOriginal: false
@@ -244,7 +244,7 @@ This article comes from [<VPIcon icon="fas fa-globe"/>my Complete LPI Web Develo
 {
   "title": "What is Node.js? Server-Side JavaScript Development Basics",
   "desc": "Node.js is a powerful runtime environment for executing JavaScript code outside of a web browser. It brings the JavaScript language to the server-side, enabling developers to build scalable, high-performance, and event-driven applications. Let's disc...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/node-js-basics.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/node-js-basics.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

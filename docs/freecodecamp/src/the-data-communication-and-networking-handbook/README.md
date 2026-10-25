@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "The Data Communication and Networking Handbook"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/the-data-communication-and-networking-handbook.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/the-data-communication-and-networking-handbook.html
 prev: /academics/coen/articles/README.md
 date: 2025-06-19
 isOriginal: false
@@ -1908,7 +1908,7 @@ Thank you for joining me on this journey.
 {
   "title": "The Data Communication and Networking Handbook",
   "desc": "When I was beginning to learn about networks, I didn't know how many things in my daily life depended on them - from texting on WhatsApp to watching YouTube. I still vividly remember when I learned that computers communicate with one another. It was ...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/the-data-communication-and-networking-handbook.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/the-data-communication-and-networking-handbook.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

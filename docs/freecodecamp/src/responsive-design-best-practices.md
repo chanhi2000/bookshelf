@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: "How to Build Responsive Websites - Best Practices for Developers"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/responsive-design-best-practices.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/responsive-design-best-practices.html
 prev: /programming/css/articles/README.md
 date: 2023-05-31
 isOriginal: false
@@ -451,7 +451,7 @@ Hopefully you can start using them in your own projects.
 {
   "title": "How to Build Responsive Websites - Best Practices for Developers",
   "desc": "By Fakorede Damilola The way we interact with the web has changed dramatically, and it will keep changing. In the past, most people used desktop computers to access the internet. But today, people are using a wide variety of devices, including laptop...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/responsive-design-best-practices.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/responsive-design-best-practices.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

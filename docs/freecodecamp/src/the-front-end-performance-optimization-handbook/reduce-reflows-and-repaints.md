@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: "Reduce Reflows and Repaints"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/the-front-end-performance-optimization-handbook/reduce-reflows-and-repaints.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/the-front-end-performance-optimization-handbook/reduce-reflows-and-repaints.html
 date: 2025-05-07
 isOriginal: false
 author:

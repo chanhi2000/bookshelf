@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: "How to Replicate Figma Designs in Flutter — A Guide to Pixel-Perfect UI Replication"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-replicate-figma-designs-in-flutter.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-replicate-figma-designs-in-flutter.html
 prev: /programming/dart/articles/README.md
 date: 2025-08-08
 isOriginal: false
@@ -1534,7 +1534,7 @@ Replicating Figma designs in Flutter with pixel-perfect accuracy is a skill deve
 {
   "title": "How to Replicate Figma Designs in Flutter — A Guide to Pixel-Perfect UI Replication",
   "desc": "Successfully translating a Figma design into a Flutter application requires more than just placing elements on the screen. The objective is to achieve pixel-perfect fidelity, meaning that the Flutter app must precisely mirror the designer's original ...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-replicate-figma-designs-in-flutter.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-replicate-figma-designs-in-flutter.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

@@ -22,7 +22,7 @@ head:
     - property: og:description
       content: "How to Create an AWS Free Tier Account - A Step-by-Step Guide"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-create-an-aws-free-tier-account.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-create-an-aws-free-tier-account.html
 prev: /devops/aws/articles/README.md
 date: 2025-07-16
 isOriginal: false
@@ -255,7 +255,7 @@ If you're reading this because you're just starting out like I was, well done. Y
 {
   "title": "How to Create an AWS Free Tier Account - A Step-by-Step Guide",
   "desc": "I recently started learning cloud engineering through a bootcamp. One of our first tasks was to create an AWS account. For those of us who didn’t already have one, it seemed like a simple enough assignment. But as I went through the signup process, I...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-create-an-aws-free-tier-account.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-create-an-aws-free-tier-account.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

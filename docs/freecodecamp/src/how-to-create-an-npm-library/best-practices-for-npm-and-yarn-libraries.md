@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "Best Practices for npm and Yarn Libraries"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-create-an-npm-library/best-practices-for-npm-and-yarn-libraries.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-create-an-npm-library/best-practices-for-npm-and-yarn-libraries.html
 next: freecodecamp.org/how-to-create-an-npm-library/README.md#conclusion
 date: 2025-02-08
 isOriginal: false

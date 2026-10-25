@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "What Are Monte Carlo Methods? How to Predict the Future with Python Simulations"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/what-are-monte-carlo-methods.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/what-are-monte-carlo-methods.html
 prev: /programming/py-tensorflow/articles/README.md
 date: 2024-07-17
 isOriginal: false
@@ -494,7 +494,7 @@ You can also check out the full code here:
 {
   "title": "What Are Monte Carlo Methods? How to Predict the Future with Python Simulations",
   "desc": "Monte Carlo methods have revolutionized programming and engineering. These methods use the power of randomness, which makes them effective tools that help developers solve difficult problems in many fields. Monte Carlo methods have been adopted in ph...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/what-are-monte-carlo-methods.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/what-are-monte-carlo-methods.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

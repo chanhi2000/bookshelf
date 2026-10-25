@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: "How to Design and Develop Web APIs: Essential Guidelines for Developers"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-design-and-develop-web-apis-essential-guidelines.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-design-and-develop-web-apis-essential-guidelines.html
 prev: /academics/system-design/articles/README.md
 date: 2024-10-07
 isOriginal: false

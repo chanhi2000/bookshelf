@@ -27,7 +27,7 @@ head:
     - property: og:description
       content: "Understanding Sorting Algorithms"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/understanding-sorting-algorithms.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/understanding-sorting-algorithms.html
 prev: /articles/README.md
 date: 2021-06-18
 isOriginal: false
@@ -1736,7 +1736,7 @@ Really appreciate it.
 {
   "title": "Understanding Sorting Algorithms",
   "desc": "Every programming language uses sorting algorithms. While programming languages have easy-to-use sorting methods, it can be helpful to understand how they work. We just released a course on the freeCodeCamp.org YouTube channel that will teach you som...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/understanding-sorting-algorithms.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/understanding-sorting-algorithms.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

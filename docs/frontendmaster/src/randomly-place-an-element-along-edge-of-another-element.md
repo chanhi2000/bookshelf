@@ -46,7 +46,7 @@ cover: https://blog.master.dev/wp-json/social-image-generator/v1/image/11153
 <SiteInfo
   name="Randomly Place an Element Along Edge of Another Element"
   desc="We can animate an element along the border edge of another element to random positions... pretty easily? Might as well be a cute dog."
-  url="https://master.dev/blog/blog.master.dev/randomly-place-an-element-along-edge-of-another-element/"
+  url="https://blog.master.dev/randomly-place-an-element-along-edge-of-another-element/"
   logo="https://master.dev/favicon.ico"
   preview="https://blog.master.dev/wp-json/social-image-generator/v1/image/11153"/>
 

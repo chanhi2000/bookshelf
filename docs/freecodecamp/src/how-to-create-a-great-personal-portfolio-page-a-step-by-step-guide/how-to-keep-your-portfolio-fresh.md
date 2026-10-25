@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: "How to Keep Your Portfolio Fresh"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-create-a-great-personal-portfolio-page-a-step-by-step-guide/how-to-keep-your-portfolio-fresh.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-create-a-great-personal-portfolio-page-a-step-by-step-guide/how-to-keep-your-portfolio-fresh.html
 next: /freecodecamp.org/how-to-create-a-great-personal-portfolio-page-a-step-by-step-guide/README.md#conclusion
 date: 2024-03-23
 isOriginal: false

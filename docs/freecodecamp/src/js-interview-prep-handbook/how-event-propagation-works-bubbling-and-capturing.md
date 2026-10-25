@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: "How Event Propagation Works - Bubbling and Capturing."
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/js-interview-prep-handbook/how-event-propagation-works-bubbling-and-capturing.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/js-interview-prep-handbook/how-event-propagation-works-bubbling-and-capturing.html
 date: 2024-09-10
 isOriginal: false
 author:

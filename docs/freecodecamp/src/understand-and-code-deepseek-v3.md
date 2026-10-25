@@ -27,7 +27,7 @@ head:
     - property: og:description
       content: "Understand and Code DeepSeek V3"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/understand-and-code-deepseek-v3.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/understand-and-code-deepseek-v3.html
 prev: /ai/deepseek/articles/README.md
 date: 2025-04-02
 isOriginal: false
@@ -94,7 +94,7 @@ Head over to [<VPIcon icon="fa-brands fa-youtube"/>the freeCodeCamp.org YouTube 
 {
   "title": "Understand and Code DeepSeek V3",
   "desc": "DeepSeek V3 is a cutting-edge large language model. It leverages sophisticated techniques like a unique Multi-Head Latent Attention mechanism and a Mixture of Experts architecture for enhanced efficiency and capability. Understanding this model provi...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/understand-and-code-deepseek-v3.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/understand-and-code-deepseek-v3.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

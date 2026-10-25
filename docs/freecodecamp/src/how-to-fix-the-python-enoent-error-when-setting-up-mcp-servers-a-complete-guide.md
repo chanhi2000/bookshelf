@@ -27,7 +27,7 @@ head:
     - property: og:description
       content: "How to Fix the Python ENOENT Error When Setting Up MCP Servers - A Complete Guide"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-fix-the-python-enoent-error-when-setting-up-mcp-servers-a-complete-guide.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-fix-the-python-enoent-error-when-setting-up-mcp-servers-a-complete-guide.html
 prev: /programming/py/articles/README.md
 date: 2025-08-09
 isOriginal: false
@@ -509,7 +509,7 @@ Happy building, and enjoy your error-free development journey! For more tutorial
 {
   "title": "How to Fix the Python ENOENT Error When Setting Up MCP Servers - A Complete Guide",
   "desc": "Getting the ”spawn python ENOENT” error while setting up an MCP (Model Context Protocol) server on macOS can be frustrating. But don't worry - in this tutorial, I'll guide you through fixing it by rebuilding your Python virtual environment. By the en...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-fix-the-python-enoent-error-when-setting-up-mcp-servers-a-complete-guide.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-fix-the-python-enoent-error-when-setting-up-mcp-servers-a-complete-guide.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

@@ -26,7 +26,7 @@ head:
     - property: og:description
       content: "How to Create an Interactive Terminal Portfolio Website"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-create-an-interactive-terminal-portfolio-website/
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-create-an-interactive-terminal-portfolio-website/
 prev: /programming/js/articles/README.md
 date: 2024-04-29
 isOriginal: false
@@ -324,7 +324,7 @@ If you create a cool terminal portfolio, you can [share it and tag me on Twitter
 {
   "title": "How to Create an Interactive Terminal Portfolio Website",
   "desc": "In this article, you will learn how to create an interactive terminal-based portfolio and a résumé in JavaScript. We'll use the jQuery Terminal library (and a few other tools) to create a website that looks like a real terminal. This article will sho...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-create-an-interactive-terminal-portfolio-website.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-create-an-interactive-terminal-portfolio-website.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

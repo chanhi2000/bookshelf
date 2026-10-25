@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "How to Create Linux Device Drivers"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-create-linux-device-drivers.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-create-linux-device-drivers.html
 prev: /programming/c/articles/README.md
 date: 2024-10-03
 isOriginal: false

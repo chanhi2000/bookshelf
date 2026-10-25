@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: "Less Common HTML Elements and How to Use Them in Your Code"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/less-common-html-elements-and-how-to-use-them.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/less-common-html-elements-and-how-to-use-them.html
 prev: /programming/css/articles/README.md
 date: 2024-11-05
 isOriginal: false
@@ -805,7 +805,7 @@ If you have any questions or suggestions, feel free to reach out on [LinkedIn (<
 {
   "title": "Less Common HTML Elements and How to Use Them in Your Code",
   "desc": "HTML has a lot of tags that many people use every day, like <div>, <p>, and <a>. But there are also some hidden gems that often go unnoticed. These tags can help make websites more engaging, accessible, and meaningful without much extra effort. In th...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/less-common-html-elements-and-how-to-use-them.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/less-common-html-elements-and-how-to-use-them.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

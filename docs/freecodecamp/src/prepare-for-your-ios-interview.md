@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Prepare for your iOS interview"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/prepare-for-your-ios-interview.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/prepare-for-your-ios-interview.html
 prev: /programming/swift/articles/README.md
 date: 2025-05-09
 isOriginal: false
@@ -81,7 +81,7 @@ By the end of the video, you’ll also get a summary and feedback section that t
 {
   "title": "Prepare for your iOS interview",
   "desc": "Preparing for an iOS developer interview can be a daunting task, especially when you're trying to master both conceptual questions and practical coding challenges. Whether you're just starting your iOS development journey or gearing up for your next ...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/prepare-for-your-ios-interview.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/prepare-for-your-ios-interview.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

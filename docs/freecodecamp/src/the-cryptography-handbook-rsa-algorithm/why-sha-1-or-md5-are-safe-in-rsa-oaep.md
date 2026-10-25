@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Why SHA-1 or MD5 Are Safe in RSA-OAEP"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/the-cryptography-handbook-rsa-algorithm/why-sha-1-or-md5-are-safe-in-rsa-oaep.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/the-cryptography-handbook-rsa-algorithm/why-sha-1-or-md5-are-safe-in-rsa-oaep.html
 date: 2025-04-03
 isOriginal: false
 author:

@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "How to Benchmark Your Code in C#"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-benchmark-your-code-in-csharp.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-benchmark-your-code-in-csharp.html
 prev: /programming/cs/articles/README.md
 date: 2024-11-19
 isOriginal: false
@@ -394,7 +394,7 @@ I hope you find this article helpful, and as always, if you wish to discuss it y
 {
   "title": "How to Benchmark Your Code in C#",
   "desc": "Knowing how your code performs is a crucial part of development. We strive to write the most optimal and performant code whilst keeping readability. In this article, I will show you how to test the performance of your code, benchmark your code, and i...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-benchmark-your-code-in-csharp.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-benchmark-your-code-in-csharp.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

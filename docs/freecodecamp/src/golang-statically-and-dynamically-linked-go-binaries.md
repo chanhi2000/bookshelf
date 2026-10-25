@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "How Statically and Dynamically Linked Go Binaries Work"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/golang-statically-and-dynamically-linked-go-binaries.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/golang-statically-and-dynamically-linked-go-binaries.html
 prev: /programming/go/articles/README.md
 date: 2024-09-10
 isOriginal: false
@@ -307,7 +307,7 @@ Hopefully, after reading this article, you now have a better understanding of ho
 {
   "title": "How Statically and Dynamically Linked Go Binaries Work",
   "desc": "One of the biggest strengths of Go is its compiler. It abstracts many things for you and lets you compile your program easily for almost any platform and architecture. And though it seems easy, there are some nuances to it and multiple ways of compil...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/golang-statically-and-dynamically-linked-go-binaries.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/golang-statically-and-dynamically-linked-go-binaries.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

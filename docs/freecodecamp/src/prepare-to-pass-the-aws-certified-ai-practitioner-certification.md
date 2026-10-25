@@ -26,7 +26,7 @@ head:
     - property: og:description
       content: "Prepare to Pass the AWS Certified AI Practitioner Certification"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/prepare-to-pass-the-aws-certified-ai-practitioner-certification.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/prepare-to-pass-the-aws-certified-ai-practitioner-certification.html
 prev: /devops/aws/articles/README.md
 date: 2024-10-10
 isOriginal: false
@@ -127,7 +127,7 @@ Whether you are looking to enhance your skills for a current role or pivot to a 
 {
   "title": "Prepare to Pass the AWS Certified AI Practitioner Certification",
   "desc": "The AWS Certified AI Practitioner certification is a valuable credential that validates your understanding of AI, ML, and generative AI concepts and use cases. We just published a course on the freeCodeCamp.org YouTube channel that will help you prep...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/prepare-to-pass-the-aws-certified-ai-practitioner-certification.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/prepare-to-pass-the-aws-certified-ai-practitioner-certification.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

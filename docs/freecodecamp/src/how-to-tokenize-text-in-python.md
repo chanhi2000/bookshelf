@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "How to Tokenize Text in Python — Explained with Code Examples"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-tokenize-text-in-python.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-tokenize-text-in-python.html
 prev: /programming/py/articles/README.md
 date: 2025-09-20
 isOriginal: false
@@ -296,7 +296,7 @@ By understanding the strengths and appropriate use cases for each method, you ca
 {
   "title": "How to Tokenize Text in Python — Explained with Code Examples",
   "desc": "When working with Python, you may need to perform a tokenization operation on a given text dataset. Tokenization is the process of breaking down text into smaller pieces, typically words or sentences, which are called tokens. These tokens can then be...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-tokenize-text-in-python.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-tokenize-text-in-python.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "How to Change Your Django Secret Key (Without Breaking Your App)"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-change-your-django-secret-key-without-breaking-your-app.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-change-your-django-secret-key-without-breaking-your-app.html
 prev: /programming/py-django/articles/README.md
 date: 2025-04-25
 isOriginal: false
@@ -301,7 +301,7 @@ It might be a good time to take a quick look.
 {
   "title": "How to Change Your Django Secret Key (Without Breaking Your App)",
   "desc": "If you're working on a Django project, you've probably come across the SECRET_KEY in your settings file. It might seem like just another line of code, but it's one of the most important pieces of your project. SECRET_KEY keeps your app secure by sign...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-change-your-django-secret-key-without-breaking-your-app.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-change-your-django-secret-key-without-breaking-your-app.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

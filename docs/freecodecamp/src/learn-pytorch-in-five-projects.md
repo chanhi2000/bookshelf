@@ -24,7 +24,7 @@ head:
     - property: og:description
       content: "Learn PyTorch in Five Projects"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/learn-pytorch-in-five-projects.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-pytorch-in-five-projects.html
 prev: /programming/py-torch/articles/README.md
 date: 2025-03-07
 isOriginal: false
@@ -88,7 +88,7 @@ Watch the full course here: [<VPIcon icon="fa-brands fa-youtube"/>PyTorch Course
 {
   "title": "Learn PyTorch in Five Projects",
   "desc": "Deep learning has revolutionized the way we approach complex problems like image recognition, natural language processing, and even audio analysis. At the core of many deep learning applications is PyTorch, a powerful and flexible framework that allo...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/learn-pytorch-in-five-projects.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-pytorch-in-five-projects.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

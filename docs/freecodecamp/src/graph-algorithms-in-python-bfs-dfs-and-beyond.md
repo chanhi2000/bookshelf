@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "Graph Algorithms in Python: BFS, DFS, and Beyond"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/graph-algorithms-in-python-bfs-dfs-and-beyond.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/graph-algorithms-in-python-bfs-dfs-and-beyond.html
 prev: /programming/py/articles/README.md
 date: 2025-09-04
 isOriginal: false
@@ -568,7 +568,7 @@ Keep experimenting and try out libraries like NetworkX when you are ready to tak
 {
   "title": "Graph Algorithms in Python: BFS, DFS, and Beyond",
   "desc": "Have you ever wondered how Google Maps finds the fastest route or how Netflix recommends what to watch? Graph algorithms are behind these decisions. Graphs, made up of nodes (points) and edges (connections), are one of the most powerful data structur...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/graph-algorithms-in-python-bfs-dfs-and-beyond.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/graph-algorithms-in-python-bfs-dfs-and-beyond.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

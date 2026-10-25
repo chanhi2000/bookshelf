@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: "What is SRE? A Beginner's Guide to Site Reliability Engineering"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/what-is-site-reliability-engineering.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/what-is-site-reliability-engineering.html
 prev: /devops/articles/README.md
 date: 2025-03-27
 isOriginal: false
@@ -278,7 +278,7 @@ If you found this tutorial helpful and want to stay connected for more insights 
 {
   "title": "What is SRE? A Beginner's Guide to Site Reliability Engineering",
   "desc": "In today’s digital age, we expect our online experiences to be fast, reliable, and always available. But what happens behind the scenes to make our expectations a reality? The answer is Site Reliability Engineering (SRE). SRE is a discipline that ens...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/what-is-site-reliability-engineering.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/what-is-site-reliability-engineering.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

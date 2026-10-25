@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "How to Remove All Saved Posts from Facebook Using JavaScript"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/remove-all-saved-posts-from-facebook-using-javascript.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/remove-all-saved-posts-from-facebook-using-javascript.html
 prev: /programming/js/articles/README.md
 date: 2024-10-31
 isOriginal: false
@@ -144,7 +144,7 @@ You can follow me on [GitHub (<VPIcon icon="iconfont icon-github"/>`fahimfba`)](
 {
   "title": "How to Remove All Saved Posts from Facebook Using JavaScript",
   "desc": "If you're an avid Facebook user, you've probably saved countless posts, videos, and links to revisit later. But sometimes, these saved posts accumulate and become overwhelming. You may decide to un-save them all at once rather than manually uncheckin...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/remove-all-saved-posts-from-facebook-using-javascript.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/remove-all-saved-posts-from-facebook-using-javascript.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

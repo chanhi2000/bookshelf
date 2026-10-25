@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "What Are Logs in Programming?"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/what-are-logs-in-programming.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/what-are-logs-in-programming.html
 prev: /programming/py/articles/README.md
 date: 2025-02-12
 isOriginal: false
@@ -327,7 +327,7 @@ Make sure to add logging to your code. You’ll thank yourself later!
 {
   "title": "What Are Logs in Programming?",
   "desc": "Have you ever run a program, and it crashed? No error messages, no hints, just silence. How do you figure out what went wrong? That's where logging saves the day. Logs keep track of what’s happening inside your code so that when things go wrong, you ...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/what-are-logs-in-programming.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/what-are-logs-in-programming.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

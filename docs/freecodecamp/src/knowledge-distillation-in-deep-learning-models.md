@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: "How Does Knowledge Distillation Work in Deep Learning Models?"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/knowledge-distillation-in-deep-learning-models.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/knowledge-distillation-in-deep-learning-models.html
 prev: /ai/articles/README.md
 date: 2024-07-09
 isOriginal: false
@@ -211,7 +211,7 @@ I hope this article was helpful!
 {
   "title": "How Does Knowledge Distillation Work in Deep Learning Models?",
   "desc": "Deep learning models have transformed several industries, including computer vision and natural language processing. However, the rising complexity and resource requirements of these models have motivated academics to look into ways to condense their...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/knowledge-distillation-in-deep-learning-models.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/knowledge-distillation-in-deep-learning-models.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "A Brief Introduction to React"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/a-brief-introduction-to-react.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/a-brief-introduction-to-react.html
 prev: /programming/js-react/articles/README.md
 date: 2025-05-02
 isOriginal: false
@@ -174,7 +174,7 @@ If you have feedback about the playbacks I’d love to hear from you. You can re
 {
   "title": "A Brief Introduction to React",
   "desc": "This tutorial introduces the basics of using React components in your web apps. React is a JavaScript library used to build user interfaces, especially for single-page applications where parts of the page need to update without a full page reload. It...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/a-brief-introduction-to-react.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/a-brief-introduction-to-react.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

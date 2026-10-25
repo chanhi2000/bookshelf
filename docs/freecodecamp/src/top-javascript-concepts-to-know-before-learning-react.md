@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "Top JavaScript Concepts to Know Before Learning React"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/top-javascript-concepts-to-know-before-learning-react.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/top-javascript-concepts-to-know-before-learning-react.html
 prev: /programming/js/articles/README.md
 date: 2022-01-28
 isOriginal: false
@@ -881,7 +881,7 @@ You can access over 200 of my articles by [visiting my website](https://joelolaw
 {
   "title": "Top JavaScript Concepts to Know Before Learning React",
   "desc": "By Joel Olawanle If you want to learn React - or any JavaScript framework - you'll first need to understand the fundamental JavaScript methods and concepts. Otherwise it's like a youngster learning to run before learning to walk.  Many developers cho...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/top-javascript-concepts-to-know-before-learning-react.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/top-javascript-concepts-to-know-before-learning-react.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

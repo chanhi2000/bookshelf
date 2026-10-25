@@ -25,7 +25,7 @@ head:
     - property: og:description
       content: "How to Build a Sustainable Open Source Contribution Routine"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-build-a-sustainable-open-source-contribution-routine.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-build-a-sustainable-open-source-contribution-routine.html
 prev: /projects/career/articles/README.md
 date: 2025-07-17
 isOriginal: false
@@ -212,7 +212,7 @@ Open source contributions might seem like free work at first, but in the long ru
 {
   "title": "How to Build a Sustainable Open Source Contribution Routine",
   "desc": "Contributing to open source sounds fun until life gets in the way. You get busy, you forget or you don’t know where to start again.  This is why having a routine is so important. Not just for the sake of ticking boxes, but because consistency has a g...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-build-a-sustainable-open-source-contribution-routine.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-build-a-sustainable-open-source-contribution-routine.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

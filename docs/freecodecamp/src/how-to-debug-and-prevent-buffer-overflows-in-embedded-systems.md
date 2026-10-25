@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "How to Debug and Prevent Buffer Overflows in Embedded Systems"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-debug-and-prevent-buffer-overflows-in-embedded-systems.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-debug-and-prevent-buffer-overflows-in-embedded-systems.html
 prev: /programming/c/articles/README.md
 date: 2025-03-18
 isOriginal: false
@@ -566,7 +566,7 @@ In embedded systems, where reliability and safety are critical, preventing buffe
 {
   "title": "How to Debug and Prevent Buffer Overflows in Embedded Systems",
   "desc": "Buffer overflows are one of the most serious software bugs, especially in embedded systems, where hardware limitations and real-time execution make them hard to detect and fix. A buffer overflow happens when a program writes more data into a buffer t...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-debug-and-prevent-buffer-overflows-in-embedded-systems.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-debug-and-prevent-buffer-overflows-in-embedded-systems.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

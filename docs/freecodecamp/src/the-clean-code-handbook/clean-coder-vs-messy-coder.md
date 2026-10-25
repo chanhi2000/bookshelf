@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: "Clean Coder vs. Messy Coder"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/the-clean-code-handbook/clean-coder-vs-messy-coder.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/the-clean-code-handbook/clean-coder-vs-messy-coder.html
 date: 2025-01-30
 isOriginal: false
 author:

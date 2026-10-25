@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: "How to Implement the SOLID Principles in Flutter and Dart"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/implement-the-solid-principles-in-flutter-and-dart.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/implement-the-solid-principles-in-flutter-and-dart.html
 prev: /programming/dart/articles/README.md
 date: 2025-10-01
 isOriginal: false
@@ -382,7 +382,7 @@ These principles are not just theory, they directly improve real-world Flutter p
 {
   "title": "How to Implement the SOLID Principles in Flutter and Dart",
   "desc": "When building Flutter applications, it’s easy to get caught up in writing code that just works. But as your app grows in size and complexity, poorly structured code becomes harder to maintain, test, and extend. That’s where the SOLID principles come ...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/implement-the-solid-principles-in-flutter-and-dart.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/implement-the-solid-principles-in-flutter-and-dart.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

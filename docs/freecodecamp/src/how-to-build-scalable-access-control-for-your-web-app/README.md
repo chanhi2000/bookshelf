@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to Build Scalable Access Control for Your Web App [Full Handbook]"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-build-scalable-access-control-for-your-web-app.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-build-scalable-access-control-for-your-web-app.html
 prev: /programming/js-react/articles/README.md
 date: 2025-02-05
 isOriginal: false
@@ -163,7 +163,7 @@ Happy coding, and may your app's permissions be as scalable as your user base!
 {
   "title": "How to Build Scalable Access Control for Your Web App [Full Handbook]",
   "desc": "Access control is crucial for preventing unauthorized access and ensuring that only the right people can access sensitive data in your application. As your app grows in complexity, so does the challenge of enforcing permissions in a clean and efficie...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-build-scalable-access-control-for-your-web-app.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-build-scalable-access-control-for-your-web-app.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

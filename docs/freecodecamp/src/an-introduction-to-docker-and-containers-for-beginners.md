@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: "An Introduction to Docker and Containers for Beginners"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/an-introduction-to-docker-and-containers-for-beginners.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/an-introduction-to-docker-and-containers-for-beginners.html
 prev: /devops/docker/articles/README.md
 date: 2024-11-26
 isOriginal: false
@@ -337,7 +337,7 @@ You can follow me on
 {
   "title": "An Introduction to Docker and Containers for Beginners",
   "desc": "In the world of modern software development, efficiency and consistency are key. Developers and operations teams need solutions that help them manage, deploy, and run applications seamlessly across different environments. Containers and Docker are te...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/an-introduction-to-docker-and-containers-for-beginners.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/an-introduction-to-docker-and-containers-for-beginners.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

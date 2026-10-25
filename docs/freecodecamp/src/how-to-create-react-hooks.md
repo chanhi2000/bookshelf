@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to Build Your Own React Hooks: A Step-by-Step Guide"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-create-react-hooks.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-create-react-hooks.html
 prev: /programming/js-react/articles/README.md
 date: 2021-03-06
 isOriginal: false
@@ -777,7 +777,7 @@ Click below to try the React Bootcamp for yourself:
 {
   "title": "How to Build Your Own React Hooks: A Step-by-Step Guide",
   "desc": "Custom React hooks are an essential tool that let you add special, unique functionality to your React applications.  In many cases, if you want to add a certain feature to your application, you can simply install a third-party library that is made to...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-create-react-hooks.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-create-react-hooks.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

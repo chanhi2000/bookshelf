@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "How to Use Piping and Redirection in the Linux Terminal"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/linux-terminal-piping-and-redirection-guide.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/linux-terminal-piping-and-redirection-guide.html
 prev: /programming/sh/articles/README.md
 date: 2024-04-27
 isOriginal: false
@@ -270,7 +270,7 @@ The two features in isolation can be powerful, but you can go further by combini
 {
   "title": "How to Use Piping and Redirection in the Linux Terminal",
   "desc": "The command line interface in Linux provides a powerful way of perfoming a range of tasks on your system. Because of its roots, Linux has many features baked into the terminal. Two of these powerful features are piping and redirection. These features...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/linux-terminal-piping-and-redirection-guide.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/linux-terminal-piping-and-redirection-guide.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

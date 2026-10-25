@@ -15,6 +15,8 @@ const Y2026: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2026
+    "the-most-expensive-way-to-find-an-unused-import", // 2026-10-31
+    "make-claude-code-stop-sounding-like-claude", // 2026-10-31
     "are-you-linting-your-github-actions", // 2026-07-27
     "serious-about-ai-in-typescript-start-with-prompting-techniques", // 2026-06-19
     "ai-agents-need-these-typescript-test-patterns", // 2026-04-27
@@ -369,6 +371,7 @@ export const template: SidebarInfoTemplate = {
       "ai-agents-need-these-typescript-test-patterns", // 2026-04-27
       "serious-about-ai-in-typescript-start-with-prompting-techniques", // 2026-06-19
       "are-you-linting-your-github-actions", // 2026-07-27
+      "the-most-expensive-way-to-find-an-unused-import", // 2026-10-31
       // END: 2026ts
       // END: ts
     ]],[
@@ -460,6 +463,7 @@ export const template: SidebarInfoTemplate = {
       "how-i-save-money-using-claude-code-as-my-server-admin", // 2026-04-07
       "ai-agents-need-these-typescript-test-patterns", // 2026-04-27
       "are-you-linting-your-github-actions", // 2026-07-27
+      "the-most-expensive-way-to-find-an-unused-import", // 2026-10-31
       // END: 2026github
       // END: github
     ]],[
@@ -549,6 +553,7 @@ export const template: SidebarInfoTemplate = {
       "claude-code-has-5-setting-scopes", // 2026-04-03
       "how-i-save-money-using-claude-code-as-my-server-admin", // 2026-04-07
       "ai-agents-need-these-typescript-test-patterns", // 2026-04-27
+      "make-claude-code-stop-sounding-like-claude", // 2026-10-31
       // END: 2026claude
       // END: claude
     ]],[

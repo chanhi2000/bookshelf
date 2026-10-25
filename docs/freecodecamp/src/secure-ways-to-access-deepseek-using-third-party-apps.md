@@ -24,7 +24,7 @@ head:
     - property: og:description
       content: "Secure Ways to Access DeepSeek Using Third-Party Apps"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/secure-ways-to-access-deepseek-using-third-party-apps.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/secure-ways-to-access-deepseek-using-third-party-apps.html
 prev: /ai/deepseek/articles/README.md
 date: 2025-02-21
 isOriginal: false
@@ -206,7 +206,7 @@ For developers, teams, and enterprises, QodoGen is the ideal choice, offering a 
 {
   "title": "Secure Ways to Access DeepSeek Using Third-Party Apps",
   "desc": "AI-powered coding assistants have changed the way developers write software. They help automate repetitive tasks, catch errors early, and speed up development. But not all AI coding tools are built with security in mind. One of the most promising fre...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/secure-ways-to-access-deepseek-using-third-party-apps.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/secure-ways-to-access-deepseek-using-third-party-apps.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

@@ -22,7 +22,7 @@ head:
     - property: og:description
       content: "How to Create Your Personalized  GitHub Profile Page - GitHub Profile README Guide"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/create-personalized-github-profile-page.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/create-personalized-github-profile-page.html
 prev: /devops/github/articles/README.md
 date: 2024-05-02
 isOriginal: false
@@ -201,7 +201,7 @@ If you have any feedback or questions, feel free DM me on [twitter (<VPIcon icon
 {
   "title": "How to Create Your Personalized  GitHub Profile Page - GitHub Profile README Guide",
   "desc": "Have you ever wanted to spruce up your GitHub profile page and make it stand out? Well, you're in luck!  With just a few simple steps, you can create a personalized GitHub profile that showcases your skills, projects, and personality. Let's dive in. ...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/create-personalized-github-profile-page.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/create-personalized-github-profile-page.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

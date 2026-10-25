@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "Code Refactoring Best Practices - with Python Examples"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/best-practices-for-refactoring-code.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/best-practices-for-refactoring-code.html
 prev: /programming/py/articles/README.md
 date: 2022-08-19
 isOriginal: false
@@ -314,7 +314,7 @@ Based on the simple Python code above, you should understand that refactoring do
 {
   "title": "Code Refactoring Best Practices - with Python Examples",
   "desc": "In this article, I will discuss what code refactoring is. We'll go over why you need to refactor your code, the advantages of code refactoring, and some best practices for code refactoring. What is Code Refactoring? Refactoring means organizing your ...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/best-practices-for-refactoring-code.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/best-practices-for-refactoring-code.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

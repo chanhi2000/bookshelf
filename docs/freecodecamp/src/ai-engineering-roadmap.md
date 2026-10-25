@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "AI Engineering Roadmap"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/ai-engineering-roadmap.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/ai-engineering-roadmap.html
 prev: /ai/llm/articles/README.md
 date: 2025-02-07
 isOriginal: false
@@ -98,7 +98,7 @@ You can watch the full course now on the [<VPIcon icon="fas fa-youtube"/>freeCod
 {
   "title": "AI Engineering Roadmap",
   "desc": "Artificial Intelligence is rapidly transforming industries, and AI Engineers are at the forefront of this revolution. If you’re looking to break into AI Engineering or advance your skills, having a clear roadmap is essential. Mastering AI requires a ...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/ai-engineering-roadmap.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/ai-engineering-roadmap.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

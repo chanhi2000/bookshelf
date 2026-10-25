@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: "How to Harden Your Node.js APIs - Security Best Practices"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-harden-your-nodejs-apis-security-best-practices.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-harden-your-nodejs-apis-security-best-practices.html
 prev: /programming/js-node/articles/README.md
 date: 2025-04-26
 isOriginal: false
@@ -226,7 +226,7 @@ For more cybersecurity tutorials,* [<VPIcon icon="fas fa-globe"/>join our newsle
 {
   "title": "How to Harden Your Node.js APIs - Security Best Practices",
   "desc": "If you’ve built an API with Node.js, chances are you’ve thought about security - at least a little. Maybe you’ve heard about SQL injection, brute force attacks, or data leaks. But here’s the thing: it’s not just about big hacks. Even small gaps in yo...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-harden-your-nodejs-apis-security-best-practices.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-harden-your-nodejs-apis-security-best-practices.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

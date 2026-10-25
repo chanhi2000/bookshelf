@@ -27,7 +27,7 @@ head:
     - property: og:description
       content: "How to Use PostgreSQL in Django"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-use-postgresql-in-django.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-use-postgresql-in-django.html
 prev: /programming/py-django/articles/README.md
 date: 2025-04-22
 isOriginal: false
@@ -305,7 +305,7 @@ If you want to dive deeper, here are a few links I recommend:
 {
   "title": "How to Use PostgreSQL in Django",
   "desc": "If you’re building a Django project and wondering which database to use, PostgreSQL is a great choice. It’s reliable, fast, packed with powerful features, and works beautifully with Django. I’ve used it across multiple projects - from small web apps ...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-use-postgresql-in-django.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-use-postgresql-in-django.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

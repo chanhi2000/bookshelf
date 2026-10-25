@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "How to Learn Python for JavaScript Developers [Full Handbook]"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/learn-python-for-javascript-developers-handbook.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-python-for-javascript-developers-handbook.html
 prev: /programming/py/articles/README.md
 date: 2024-11-22
 isOriginal: false
@@ -259,7 +259,7 @@ The journey to mastering Python will not only broaden your technical skills but 
 {
   "title": "How to Learn Python for JavaScript Developers [Full Handbook]",
   "desc": "As a developer with experience in JavaScript, you likely know how versatile the language is, especially when it comes to web development. JavaScript powers both frontend and backend development (thanks to Node.js) and has grown to become one of the m...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/learn-python-for-javascript-developers-handbook.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-python-for-javascript-developers-handbook.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

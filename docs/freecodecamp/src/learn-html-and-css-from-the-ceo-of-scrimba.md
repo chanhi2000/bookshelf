@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: "Learn HTML and CSS from the CEO of Scrimba"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/learn-html-and-css-from-the-ceo-of-scrimba.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-html-and-css-from-the-ceo-of-scrimba.html
 prev: /programming/css/articles/README.md
 date: 2022-09-15
 isOriginal: false
@@ -116,7 +116,7 @@ Watch the full course below or on [<VPIcon icon="fa-brands fa-youtube"/>the free
 {
   "title": "Learn HTML and CSS from the CEO of Scrimba",
   "desc": "Almost every website in the world uses HTML and CSS. So you should definitely learn them if you want to create websites. We just published a course on the freeCodeCamp.org YouTube channel that will teach you how to build websites with HTML and CSS. P...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/learn-html-and-css-from-the-ceo-of-scrimba.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-html-and-css-from-the-ceo-of-scrimba.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: "What Happens When You Visit a Website? How the Web Works Explained"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/what-happens-when-you-visit-a-website.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/what-happens-when-you-visit-a-website.html
 prev: /programming/css/articles/README.md
 date: 2024-11-16
 isOriginal: false
@@ -452,7 +452,7 @@ I hope you enjoyed this guide and found it useful. Thanks for reading!
 {
   "title": "What Happens When You Visit a Website? How the Web Works Explained",
   "desc": "In this article, I’ll guide you through an overview of what happens when you navigate to a website using your browser. Whether you’re new to web development or have some experience, this post will help you gain a better understanding of how the web a...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/what-happens-when-you-visit-a-website.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/what-happens-when-you-visit-a-website.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

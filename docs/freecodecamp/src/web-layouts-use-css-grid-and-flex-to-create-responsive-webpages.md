@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: "Web Layouts - How to Use CSS Grid and Flex to Create a Responsive Web Page"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/web-layouts-use-css-grid-and-flex-to-create-responsive-webpages.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/web-layouts-use-css-grid-and-flex-to-create-responsive-webpages.html
 prev: /programming/css/articles/README.md
 date: 2022-10-22
 isOriginal: false
@@ -821,7 +821,7 @@ This makes these concepts a must know so you can specify the arrangement of elem
 {
   "title": "Web Layouts - How to Use CSS Grid and Flex to Create a Responsive Web Page",
   "desc": "Your web layout is to your website what a floor plan is to a building. Without them, you’re just building castles in the air.  The first thing to do when you have a website or application to build or design is to decide on the layout. This is importa...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/web-layouts-use-css-grid-and-flex-to-create-responsive-webpages.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/web-layouts-use-css-grid-and-flex-to-create-responsive-webpages.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

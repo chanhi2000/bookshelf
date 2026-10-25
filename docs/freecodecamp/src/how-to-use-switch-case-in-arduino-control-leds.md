@@ -22,7 +22,7 @@ head:
     - property: og:description
       content: "How to Use Switch Case in Arduino - Control LEDs With the Switch Statement"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-use-switch-case-in-arduino-control-leds.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-use-switch-case-in-arduino-control-leds.html
 prev: /hw/articles/README.md
 date: 2024-10-08
 isOriginal: false

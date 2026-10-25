@@ -24,7 +24,7 @@ head:
     - property: og:description
       content: "Getting Started with RHEL: A Beginner’s Guide to Linux Basics"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/guide-to-rhel-linux-basics.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/guide-to-rhel-linux-basics.html
 prev: /devops/linux-fedora/articles/README.md
 date: 2025-01-11
 isOriginal: false
@@ -624,7 +624,7 @@ Stay tuned for more articles. Get ready to take your RHEL skills to the next lev
 {
   "title": "Getting Started with RHEL: A Beginner’s Guide to Linux Basics",
   "desc": "Imagine an operating system so reliable that it powers the world’s biggest servers, the fastest supercomputers, and even the cloud infrastructure of leading tech companies. Welcome to Red Hat Enterprise Linux (RHEL) — the backbone of modern IT system...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/guide-to-rhel-linux-basics.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/guide-to-rhel-linux-basics.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

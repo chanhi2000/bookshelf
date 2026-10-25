@@ -22,7 +22,7 @@ head:
     - property: og:description
       content: "Integration of Bioengineering, Physical Devices, and Language Models"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/next-gen-healthcare-with-ai-epigenetics-and-bioengineering/bioengineering-physical-devices-and-language-models.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/next-gen-healthcare-with-ai-epigenetics-and-bioengineering/bioengineering-physical-devices-and-language-models.html
 date: 2025-02-05
 isOriginal: false
 author:

@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to Fix Memory Leaks in React Applications"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/fix-memory-leaks-in-react-apps.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/fix-memory-leaks-in-react-apps.html
 prev: /programming/js-react/articles/README.md
 date: 2025-09-25
 isOriginal: false
@@ -459,7 +459,7 @@ Memory leaks can significantly impact your React application's performance and u
 {
   "title": "How to Fix Memory Leaks in React Applications",
   "desc": "Have you ever noticed your React application getting slower the longer you use it? This could be a result of memory leaks. Memory leaks are a common performance issue in React applications. They can slow down your application, crash your browser, and...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/fix-memory-leaks-in-react-apps.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/fix-memory-leaks-in-react-apps.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

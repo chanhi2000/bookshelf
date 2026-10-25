@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: "How to Push Silent Updates in Flutter Using Shorebird"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-push-silent-updates-in-flutter-using-shorebird.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-push-silent-updates-in-flutter-using-shorebird.html
 prev: /programming/dart/articles/README.md
 date: 2025-08-02
 isOriginal: false
@@ -503,7 +503,7 @@ By combining Shorebird's rapid patching with a robust forced-update strategy usi
 {
   "title": "How to Push Silent Updates in Flutter Using Shorebird",
   "desc": "Imagine you've just launched a major feature. Your app is climbing the charts, but then the first bug report arrives. It's a critical payment validation error. The fix is a single line of Dart code, but now you face the dreaded app store review queue...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-push-silent-updates-in-flutter-using-shorebird.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-push-silent-updates-in-flutter-using-shorebird.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

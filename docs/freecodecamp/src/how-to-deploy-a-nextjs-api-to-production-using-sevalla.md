@@ -27,7 +27,7 @@ head:
     - property: og:description
       content: "How to Deploy a Next.js API to Production using Sevalla"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-deploy-a-nextjs-api-to-production-using-sevalla.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-deploy-a-nextjs-api-to-production-using-sevalla.html
 prev: /programming/js-next/articles/README.md
 date: 2025-08-02
 isOriginal: false
@@ -511,7 +511,7 @@ Hope you enjoyed this article. I ll see you soon with another one. [<VPIcon icon
 {
   "title": "How to Deploy a Next.js API to Production using Sevalla",
   "desc": "When people hear about Next.js, they often think of server-side rendering, React-powered frontends, or SEO-optimised static websites. But there's more to this powerful framework than just front-end development. Next.js also allows developers to build...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-deploy-a-nextjs-api-to-production-using-sevalla.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-deploy-a-nextjs-api-to-production-using-sevalla.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

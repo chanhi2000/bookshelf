@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "“CPC Rock Paper Scissors” by Amit: A project with fireworks animations"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-become-an-analytical-programmer-compare-five-projects/1-cpc-rock-paper-scissors-by-amit-a-project-with-fireworks-animations.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-become-an-analytical-programmer-compare-five-projects/1-cpc-rock-paper-scissors-by-amit-a-project-with-fireworks-animations.html
 date: 2025-05-12
 isOriginal: false
 author:

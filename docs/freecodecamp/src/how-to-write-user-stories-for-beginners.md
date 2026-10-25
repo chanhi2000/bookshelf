@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: "How to Write User Stories for Beginners: Agile in Practice"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-write-user-stories-for-beginners.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-write-user-stories-for-beginners.html
 prev: /academics/system-design/articles/README.md/articles/README.md
 date: 2024-12-17
 isOriginal: false
@@ -317,7 +317,7 @@ Check out my blog posts on my website, [<VPIcon icon="fas fa-globe"/>Just Anothe
 {
   "title": "How to Write User Stories for Beginners: Agile in Practice",
   "desc": "In this tutorial, you’ll learn about an important part of the Agile approach to software development: user stories. I’ll take you through what user stories are, common pitfalls that I’ve seen with creating user stories, and the frameworks that exist ...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-write-user-stories-for-beginners.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-write-user-stories-for-beginners.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: "Binary Exponentiation Algorithm - Explained with Practical Examples"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/binary-exponentiation-algorithm-explained-with-examples.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/binary-exponentiation-algorithm-explained-with-examples.html
 prev: /programming/py/articles/README.md
 date: 2024-10-15
 isOriginal: false
@@ -343,7 +343,7 @@ If you found this explanation of Binary Exponentiation algorithm helpful, you mi
 {
   "title": "Binary Exponentiation Algorithm - Explained with Practical Examples",
   "desc": "Binary exponentiation, also known as exponentiation by squaring, is a powerful algorithm used to efficiently calculate large powers of numbers. This technique is particularly useful in various fields of computer science, including cryptography, compe...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/binary-exponentiation-algorithm-explained-with-examples.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/binary-exponentiation-algorithm-explained-with-examples.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

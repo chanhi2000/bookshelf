@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: "Key Metrics That Can Make or Break Your Startup"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/key-metrics-that-can-make-or-break-your-startup.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/key-metrics-that-can-make-or-break-your-startup.html
 prev: /projects/career/articles/README.md
 date: 2025-08-08
 isOriginal: false
@@ -433,7 +433,7 @@ Until then, keep learning, unlearning, and relearning, folks.
 {
   "title": "Key Metrics That Can Make or Break Your Startup",
   "desc": "If you’ve built something worth pitching - something more than a fancy hobby with a login screen - you need to know your numbers. Not ”I’ll get back to you” know them, know them like you know your co-founder's coffee order. I have seen too many found...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/key-metrics-that-can-make-or-break-your-startup.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/key-metrics-that-can-make-or-break-your-startup.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

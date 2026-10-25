@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: "IPv4 Fragmentation"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-ipv4-works-a-handbook-for-developers/ipv4-fragmentation.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-ipv4-works-a-handbook-for-developers/ipv4-fragmentation.html
 next: /freecodecamp.org/how-ipv4-works-a-handbook-for-developers/README.md#summary-ipv4
 date: 2025-05-01
 isOriginal: false

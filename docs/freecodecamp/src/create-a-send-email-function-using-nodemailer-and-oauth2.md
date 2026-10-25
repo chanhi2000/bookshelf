@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to Create a Send Email Function using Nodemailer and OAuth2"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/create-a-send-email-function-using-nodemailer-and-oauth2.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/create-a-send-email-function-using-nodemailer-and-oauth2.html
 prev: /programming/js-react/articles/README.md
 date: 2025-03-25
 isOriginal: false
@@ -581,7 +581,7 @@ Thank you for reading!
 {
   "title": "How to Create a Send Email Function using Nodemailer and OAuth2",
   "desc": "Being able to communicate by sending emails through web applications is important these days. It helps businesses stay connected with their potential customers. In this article, you’ll learn how to implement the Send Email function in your web app us...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/create-a-send-email-function-using-nodemailer-and-oauth2.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/create-a-send-email-function-using-nodemailer-and-oauth2.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: "Modern Best Practices to Help You Write Clean Code: A Summary 🥷"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/the-clean-code-handbook/modern-best-practices-to-help-you-write-clean-code-a-summary.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/the-clean-code-handbook/modern-best-practices-to-help-you-write-clean-code-a-summary.html
 date: 2025-01-30
 isOriginal: false
 author:

@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Learn Generative AI in 23 Hours"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/learn-generative-ai-in-23-hours.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-generative-ai-in-23-hours.html
 prev: /ai/llm/articles/README.md
 date: 2025-01-09
 isOriginal: false
@@ -122,7 +122,7 @@ Watch the full course on [<VPIcon icon="fa-brands fa-youtube"/>the freeCodeCamp.
 {
   "title": "Learn Generative AI in 23 Hours",
   "desc": "Artificial Intelligence is revolutionizing industries and workflows, and learning to work with AI in the cloud is an important skill for modern developers. Whether you're a beginner or looking to deepen your understanding of generative AI, this cours...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/learn-generative-ai-in-23-hours.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-generative-ai-in-23-hours.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

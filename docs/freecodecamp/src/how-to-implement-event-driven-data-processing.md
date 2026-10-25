@@ -25,7 +25,7 @@ head:
     - property: og:description
       content: "How to Implement Event-Driven Data Processing with Traefik, Kafka, and Docker"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-implement-event-driven-data-processing.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-implement-event-driven-data-processing.html
 prev: /programming/java-kafka/articles/README.md
 date: 2024-11-19
 isOriginal: false
@@ -665,7 +665,7 @@ To learn more you can visit:
 {
   "title": "How to Implement Event-Driven Data Processing with Traefik, Kafka, and Docker",
   "desc": "In modern system design, Event-Driven Architecture (EDA) focuses on creating, detecting, using, and responding to events within a system. Events are significant occurrences that can affect a system’s hardware or software, such as user actions, state ...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-implement-event-driven-data-processing.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-implement-event-driven-data-processing.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

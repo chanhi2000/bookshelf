@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "How to Build a Real-time Network Traffic Dashboard with Python and Streamlit"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/build-a-real-time-network-traffic-dashboard-with-python-and-streamlit.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-a-real-time-network-traffic-dashboard-with-python-and-streamlit.html
 prev: /programming/py/articles/README.md
 date: 2025-01-04
 isOriginal: false
@@ -370,7 +370,7 @@ With that, I hope you learnt some basics about network traffic analysis as well 
 {
   "title": "How to Build a Real-time Network Traffic Dashboard with Python and Streamlit",
   "desc": "Have you ever wanted to visualize your network traffic in real-time? In this tutorial, you will be learning how to build an interactive network traffic analysis dashboard with Python and Streamlit. Streamlit is an open-source Python framework you can...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/build-a-real-time-network-traffic-dashboard-with-python-and-streamlit.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-a-real-time-network-traffic-dashboard-with-python-and-streamlit.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

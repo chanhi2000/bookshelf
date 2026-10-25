@@ -31,7 +31,7 @@ head:
     - property: og:description
       content: "How to build a serverless AI agent to generate cold emails for your dream job"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/build-a-serverless-ai-agent-for-generating-cold-emails.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-a-serverless-ai-agent-for-generating-cold-emails.html
 prev: /programming/js-node/articles/README.md
 date: 2025-02-19
 isOriginal: false
@@ -450,7 +450,7 @@ Thank you for reading!
 {
   "title": "How to build a serverless AI agent to generate cold emails for your dream job",
   "desc": "Cold emails can make a huge difference in your job search, but writing the perfect one takes time. You need to match your skills with the job description, find the right tone, and do it over and over again—it’s exhausting. This guide will walk you th...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/build-a-serverless-ai-agent-for-generating-cold-emails.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-a-serverless-ai-agent-for-generating-cold-emails.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

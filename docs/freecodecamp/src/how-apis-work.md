@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: "What is an API and How Does it Work? APIs for Beginners"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-apis-work.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-apis-work.html
 prev: /explore/api/articles/README.md
 date: 2022-12-06
 isOriginal: false
@@ -172,7 +172,7 @@ Interested in connecting on LinkedIn? Hit me up at [Tooba Jamal (<VPIcon icon="f
 {
   "title": "What is an API and How Does it Work? APIs for Beginners",
   "desc": "When I started learning to code, the term API would always haunt me. I couldn't make sense of what it actually meant because I would hear people talking about APIs in different contexts.  The biggest challenge was that I couldn't find resources to le...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-apis-work.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-apis-work.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

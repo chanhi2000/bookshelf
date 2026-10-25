@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: "How to Code a Crossy Road Game Clone with Three.js"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-code-a-crossy-road-game-clone-with-threejs.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-code-a-crossy-road-game-clone-with-threejs.html
 prev: /programming/js-node/articles/README.md
 date: 2025-02-21
 isOriginal: false
@@ -1178,7 +1178,7 @@ Alternatively, you can find the extended tutorial on [<VPIcon icon="fa-brands fa
 {
   "title": "How to Code a Crossy Road Game Clone with Three.js",
   "desc": "In this tutorial, you’ll learn how to create a clone of the mobile game Crossy Road with Three.js. The goal of this game is to move a character through an endless path of static and moving obstacles. You have to go around trees and avoid getting hit ...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-code-a-crossy-road-game-clone-with-threejs.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-code-a-crossy-road-game-clone-with-threejs.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

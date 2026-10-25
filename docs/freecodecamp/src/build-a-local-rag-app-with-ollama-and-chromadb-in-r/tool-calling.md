@@ -34,7 +34,7 @@ head:
     - property: og:description
       content: "Tool Calling"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/build-a-local-rag-app-with-ollama-and-chromadb-in-r/tool-calling.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-a-local-rag-app-with-ollama-and-chromadb-in-r/tool-calling.html
 date: 2025-04-15
 isOriginal: false
 author:

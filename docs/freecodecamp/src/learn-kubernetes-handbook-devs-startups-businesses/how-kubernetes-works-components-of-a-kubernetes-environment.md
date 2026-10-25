@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: "How Kubernetes Works - Components of a Kubernetes Environment 🧑‍🔧"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/learn-kubernetes-handbook-devs-startups-businesses/how-kubernetes-works-components-of-a-kubernetes-environmen.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-kubernetes-handbook-devs-startups-businesses/how-kubernetes-works-components-of-a-kubernetes-environmen.html
 date: 2025-05-03
 isOriginal: false
 author:

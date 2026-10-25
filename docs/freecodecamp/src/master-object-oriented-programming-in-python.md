@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Master Object Oriented Programming in Python"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/master-object-oriented-programming-in-python.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/master-object-oriented-programming-in-python.html
 prev: /programming/py/articles/README.md
 date: 2025-01-30
 isOriginal: false
@@ -131,7 +131,7 @@ By the end of this course, learners will have a strong understanding of object-o
 {
   "title": "Master Object Oriented Programming in Python",
   "desc": "Object-oriented programming (OOP) is one of the most essential paradigms in modern software development. It provides a structured way to design and organize code, making it more reusable, maintainable, and scalable. Unlike procedural programming, whi...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/master-object-oriented-programming-in-python.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/master-object-oriented-programming-in-python.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

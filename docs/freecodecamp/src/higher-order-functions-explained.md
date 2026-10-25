@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "What are Higher Order Functions in JavaScript? Explained With Examples"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/higher-order-functions-explained.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/higher-order-functions-explained.html
 prev: /programming/js/articles/README.md
 date: 2024-05-03
 isOriginal: false
@@ -587,7 +587,7 @@ Connect with me on [LinkedIn (<VPIcon icon="fa-brands fa-linkedin"/>`joan-ayebol
 {
   "title": "What are Higher Order Functions in JavaScript? Explained With Examples",
   "desc": "JavaScript offers a powerful feature known as higher order functions (HOFs). These functions elevate your code by treating other functions as citizens of the language itself.  In simpler terms, HOFs can accept functions as arguments and even return f...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/higher-order-functions-explained.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/higher-order-functions-explained.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

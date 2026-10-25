@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: "JavaScript Tutorial - How to Set Up a Front End Development Project"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-set-up-a-front-end-development-project.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-set-up-a-front-end-development-project.html
 prev: /programming/js-node/articles/README.md
 date: 2025-02-13
 isOriginal: false
@@ -412,7 +412,7 @@ What happens once you finish developing your app? How do you upload it to the we
 {
   "title": "JavaScript Tutorial - How to Set Up a Front End Development Project",
   "desc": "Let’s say you plan to build a website. Before you start, you want to set up a few tools to make your life easier. But which tools should you have? The JavaScript ecosystem is changing so fast that it can be overwhelming to pick the best tools to use....",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-set-up-a-front-end-development-project.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-set-up-a-front-end-development-project.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "How to Use Constructors in Java: A Beginner's Guide"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-use-constructors-in-java-a-beginners-guide.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-use-constructors-in-java-a-beginners-guide.html
 prev: /articles/README.md
 date: 2025-07-09
 isOriginal: false
@@ -707,7 +707,7 @@ You can check out some of my other beginner-friendly articles on my blog:
 {
   "title": "How to Use Constructors in Java: A Beginner's Guide",
   "desc": "Java is an object-oriented programming language that is centred around the concept of objects. Objects are like real-world entities that are created with the new keyword and occupy memory. But all this happens in the front-end code - so what about th...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-use-constructors-in-java-a-beginners-guide.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-use-constructors-in-java-a-beginners-guide.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

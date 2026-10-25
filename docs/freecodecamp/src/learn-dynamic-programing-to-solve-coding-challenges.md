@@ -27,7 +27,7 @@ head:
     - property: og:description
       content: "Dynamic Programming for Beginners - How to Solve Coding Challenges with Memoization and Tabulation"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/learn-dynamic-programing-to-solve-coding-challenges.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-dynamic-programing-to-solve-coding-challenges.html
 prev: /programming/js/articles/README.md
 date: 2020-12-04
 isOriginal: false
@@ -131,7 +131,7 @@ You can watch the full course on [<VPIcon icon="fa-brands fa-youtube"/>the freeC
 {
   "title": "Dynamic Programming for Beginners - How to Solve Coding Challenges with Memoization and Tabulation",
   "desc": "Dynamic Programming is style of coding where you store the results of your algorithm in a data structure while it runs. Understanding Dynamic Programming can help you solve complex programming problems faster. These methods can help you ace programmi...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/learn-dynamic-programing-to-solve-coding-challenges.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-dynamic-programing-to-solve-coding-challenges.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

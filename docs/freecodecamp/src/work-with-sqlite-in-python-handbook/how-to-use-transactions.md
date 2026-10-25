@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: "How to Use Transactions"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/work-with-sqlite-in-python-handbook/how-to-use-transactions.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/work-with-sqlite-in-python-handbook/how-to-use-transactions.html
 date: 2024-10-02
 isOriginal: false
 author: Ashutosh Krishna

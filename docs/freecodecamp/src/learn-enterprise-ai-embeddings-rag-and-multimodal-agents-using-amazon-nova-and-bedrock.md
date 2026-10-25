@@ -36,7 +36,7 @@ head:
     - property: og:description
       content: "Learn Enterprise AI - Embeddings, RAG, and Multimodal Agents Using Amazon Nova and Bedrock"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/learn-enterprise-ai-embeddings-rag-and-multimodal-agents-using-amazon-nova-and-bedrock.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-enterprise-ai-embeddings-rag-and-multimodal-agents-using-amazon-nova-and-bedrock.html
 prev: /programming/py/articles/README.md
 date: 2025-08-01
 isOriginal: false
@@ -117,7 +117,7 @@ Watch the full course on the [<VPIcon icon="fa-brands fa-youtube"/>freeCodeCamp.
 {
   "title": "Learn Enterprise AI - Embeddings, RAG, and Multimodal Agents Using Amazon Nova and Bedrock",
   "desc": "Enterprise AI requires different skills and technologies than your basic OpenAI wrapper applications you see all over. We just published a course on the freeCodeCamp.org YouTube channel that will teach all about Embeddings, RAG, Multimodal Models, an...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/learn-enterprise-ai-embeddings-rag-and-multimodal-agents-using-amazon-nova-and-bedrock.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-enterprise-ai-embeddings-rag-and-multimodal-agents-using-amazon-nova-and-bedrock.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

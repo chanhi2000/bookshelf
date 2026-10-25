@@ -31,7 +31,7 @@ head:
     - property: og:description
       content: "An Animated Introduction to Web Development from Back to Front"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/an-animated-introduction-to-web-development-from-back-to-front.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/an-animated-introduction-to-web-development-from-back-to-front.html
 prev: /programming/js-react/articles/README.md
 date: 2025-06-26
 isOriginal: false
@@ -505,7 +505,7 @@ If you have any questions or feedback, I'd love to hear it. Comments and thought
 {
   "title": "An Animated Introduction to Web Development from Back to Front",
   "desc": "Web development combines multiple technologies to create interactive applications that run in web servers and browsers. Modern web apps require understanding both the server-side (back end) and client-side (front end) and how they communicate with ea...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/an-animated-introduction-to-web-development-from-back-to-front.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/an-animated-introduction-to-web-development-from-back-to-front.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

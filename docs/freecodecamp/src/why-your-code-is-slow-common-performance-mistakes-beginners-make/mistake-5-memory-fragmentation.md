@@ -28,7 +28,7 @@ head:
     - property: og:description
       content: "Mistake #5: Memory Fragmentation"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/why-your-code-is-slow-common-performance-mistakes-beginners-make/mistake-5-memory-fragmentation.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/why-your-code-is-slow-common-performance-mistakes-beginners-make/mistake-5-memory-fragmentation.html
 date: 2025-03-29
 isOriginal: false
 author:

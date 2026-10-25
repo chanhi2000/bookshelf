@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "From Concept to Code: How to Use AI Tools to Design and Build UI Components"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-design-and-build-ui-components-with-ai.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-design-and-build-ui-components-with-ai.html
 prev: /programming/js-react/articles/README.md
 date: 2024-10-15
 isOriginal: false
@@ -616,7 +616,7 @@ If you want to learn more, you can read this article about chat-oriented program
 {
   "title": "From Concept to Code: How to Use AI Tools to Design and Build UI Components",
   "desc": "How should a website look? What size should the buttons be? What layout should you use? Do your users need an OTP to reset their passwords? These are all questions that proper user interface and user experience (UI/UX) design answer. Design prototypi...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-design-and-build-ui-components-with-ai.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-design-and-build-ui-components-with-ai.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

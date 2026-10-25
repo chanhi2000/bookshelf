@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "All About JavaScript Arrays"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/all-about-javascript-arrays.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/all-about-javascript-arrays.html
 prev: /programming/js/articles/README.md
 date: 2025-04-24
 isOriginal: false
@@ -73,7 +73,7 @@ Watch the full course on [<VPIcon icon="fa-brands fa-youtube"/>the freeCodeCamp.
 {
   "title": "All About JavaScript Arrays",
   "desc": "JavaScript arrays are one of the most essential tools in any developer’s toolkit. Whether you're managing lists of items, transforming data, or creating complex data pipelines, arrays play an important role in how we build and think about application...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/all-about-javascript-arrays.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/all-about-javascript-arrays.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

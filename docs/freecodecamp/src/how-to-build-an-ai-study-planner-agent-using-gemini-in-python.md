@@ -37,7 +37,7 @@ head:
     - property: og:description
       content: "How to Build an AI Study Planner Agent using Gemini in Python"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-build-an-ai-study-planner-agent-using-gemini-in-python.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-build-an-ai-study-planner-agent-using-gemini-in-python.html
 prev: /programming/py-flask/articles/README.md
 date: 2025-09-06
 isOriginal: false
@@ -617,7 +617,7 @@ Happy coding!
 {
   "title": "How to Build an AI Study Planner Agent using Gemini in Python",
   "desc": "The world is shifting from simple AI chatbots answering our queries to full-fledged systems that are capable of so much more. AI Agents can not only answer our queries but can also perform tasks we give them independently, making them much more power...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-build-an-ai-study-planner-agent-using-gemini-in-python.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-build-an-ai-study-planner-agent-using-gemini-in-python.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

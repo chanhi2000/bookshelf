@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to Connect, Read, and Process Sensor Data on Microcontrollers - A Beginner's Guide"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/connect-read-process-sensor-data-on-microcontrollers-for-beginners.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/connect-read-process-sensor-data-on-microcontrollers-for-beginners.html
 prev: /hw/stm/articles/README.md
 date: 2025-03-15
 isOriginal: false
@@ -471,7 +471,7 @@ If you have questions or want to talk more about this topic, feel free to reach 
 {
   "title": "How to Connect, Read, and Process Sensor Data on Microcontrollers - A Beginner's Guide",
   "desc": "In today’s world, computers are ubiquitous and generally serve two primary purposes. The first is general-purpose computing, where they handle a wide range of tasks, including running diverse applications and programs. Examples include laptops, deskt...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/connect-read-process-sensor-data-on-microcontrollers-for-beginners.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/connect-read-process-sensor-data-on-microcontrollers-for-beginners.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

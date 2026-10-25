@@ -24,7 +24,7 @@ head:
     - property: og:description
       content: "How to Code Linked Lists with TypeScript: A Handbook for Developers"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-code-linked-lists-with-typescript-handbook/
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-code-linked-lists-with-typescript-handbook/
 prev: /programming/ts/articles/README.md
 date: 2025-06-03
 isOriginal: false
@@ -2805,7 +2805,7 @@ Happy coding!
 {
   "title": "How to Code Linked Lists with TypeScript: A Handbook for Developers",
   "desc": "A linked list is a data structure where each item, called a node, contains data and a pointer to the next node. Unlike arrays, which store elements in contiguous memory, linked lists connect nodes that can be scattered across memory. In this hands-on...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-code-linked-lists-with-typescript-handbook.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-code-linked-lists-with-typescript-handbook.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

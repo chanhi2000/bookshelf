@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: "How to Build a Word Search Game Using HTML, CSS, and JavaScript"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/build-a-word-search-game-using-html-css-and-javascript.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-a-word-search-game-using-html-css-and-javascript.html
 prev: /programming/css/articles/README.md
 date: 2025-07-15
 isOriginal: false
@@ -224,7 +224,7 @@ If you'd like to support my work and help keep Playback Press free for all, cons
 {
   "title": "How to Build a Word Search Game Using HTML, CSS, and JavaScript",
   "desc": "The Wordle phenomenon from a few years back inspired developers worldwide to create their own word games. It inspired me to conceive and build a game, too. ‘Word Zearch’ combines elements of Boggle and word search puzzles into a web-based game where ...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/build-a-word-search-game-using-html-css-and-javascript.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-a-word-search-game-using-html-css-and-javascript.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

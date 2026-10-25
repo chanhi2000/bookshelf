@@ -16,7 +16,7 @@ head:
     - property: og:description
       content: "Part 2 - Branching and Integrating Changes"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/gitting-things-done-book/part-2-branching-and-integrating-changes.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/gitting-things-done-book/part-2-branching-and-integrating-changes.html
 date: 2024-01-09
 isOriginal: false
 author:

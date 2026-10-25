@@ -39,7 +39,7 @@ head:
     - property: og:description
       content: "Build an AI Chat Application with the MERN Stack"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/build-an-ai-chat-application-with-the-mern-stack.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-an-ai-chat-application-with-the-mern-stack.html
 prev: /ai/deepseek/articles/README.md
 date: 2025-02-27
 isOriginal: false
@@ -144,7 +144,7 @@ Watch the full course on the [<VPIcon icon="fa-brands fa-youtube"/>freeCodeCamp.
 {
   "title": "Build an AI Chat Application with the MERN Stack",
   "desc": "AI-powered chat applications are becoming an essential part of modern web development, enabling users to interact with intelligent conversational agents. Whether for customer support, virtual assistants, or educational tools, building your own AI cha...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/build-an-ai-chat-application-with-the-mern-stack.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-an-ai-chat-application-with-the-mern-stack.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

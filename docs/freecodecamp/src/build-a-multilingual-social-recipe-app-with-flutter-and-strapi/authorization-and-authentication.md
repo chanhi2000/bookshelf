@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "Authorization and Authentication"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/build-a-multilingual-social-recipe-app-with-flutter-and-strapi/authorization-and-authentication.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-a-multilingual-social-recipe-app-with-flutter-and-strapi/authorization-and-authentication.html
 date: 2025-04-09
 isOriginal: false
 author:

@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: "Routing and Multi-Screen Development in Flutter - a Beginner's Guide"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/routing-and-multi-screen-development-in-flutter-for-beginners.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/routing-and-multi-screen-development-in-flutter-for-beginners.html
 prev: /programming/dart/articles/README.md
 date: 2025-06-27
 isOriginal: false
@@ -570,7 +570,7 @@ By thoughtfully organizing your code and leveraging the appropriate navigation s
 {
   "title": "Routing and Multi-Screen Development in Flutter - a Beginner's Guide",
   "desc": "Modern mobile applications are far from static, single-view experiences. Instead, they are dynamic, multi-faceted environments where users seamlessly transition between different features, content, and functionalities. Because of this inherent comple...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/routing-and-multi-screen-development-in-flutter-for-beginners.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/routing-and-multi-screen-development-in-flutter-for-beginners.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

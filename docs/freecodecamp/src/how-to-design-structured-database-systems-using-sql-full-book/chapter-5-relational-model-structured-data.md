@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "Chapter 5: Relational Model (Structured Data)"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-design-structured-database-systems-using-sql-full-book/chapter-5-relational-model-structured-data.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-design-structured-database-systems-using-sql-full-book/chapter-5-relational-model-structured-data.html
 date: 2025-08-14
 isOriginal: false
 author:

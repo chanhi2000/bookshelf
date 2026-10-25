@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "API Cheat Sheet - What is an API, How it Works, and How to Choose the Right API Testing Tools"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/what-is-an-api-and-how-to-test-it.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/what-is-an-api-and-how-to-test-it.html
 prev: /explore/api/articles/README.md
 date: 2021-02-06
 isOriginal: false
@@ -286,7 +286,7 @@ You can reach out to me on [X (<VPIcon icon="fa-brands fa-x-twitter"/>`olanetsof
 {
   "title": "API Cheat Sheet - What is an API, How it Works, and How to Choose the Right API Testing Tools",
   "desc": "Building an API is fun, right? In this article, I will explain what APIs are, why you need them, and we'll dive into API specifications, documentation, and more. Programming is made simpler by using APIs to abstract away certain implementations, and ...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/what-is-an-api-and-how-to-test-it.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/what-is-an-api-and-how-to-test-it.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

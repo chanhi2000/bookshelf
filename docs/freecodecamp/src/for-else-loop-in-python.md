@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "How Does Python's For-Else Loop Construct Work?"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/for-else-loop-in-python.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/for-else-loop-in-python.html
 prev: /programming/py/articles/README.md
 date: 2024-06-19
 isOriginal: false
@@ -187,7 +187,7 @@ Keep coding. Until the next tutorial!
 {
   "title": "How Does Python's For-Else Loop Construct Work?",
   "desc": "Python supports the for-else loop construct that is lesser known but super helpful. If you’ve programmed in Python, you may have used the for loop to iterate over items in iterables such as lists. But for some use cases, using the for loop in conjunc...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/for-else-loop-in-python.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/for-else-loop-in-python.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

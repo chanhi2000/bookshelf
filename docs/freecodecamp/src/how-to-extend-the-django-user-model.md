@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "How to Extend the Django User Model"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-extend-the-django-user-model.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-extend-the-django-user-model.html
 prev: /programming/py-django/articles/README.md
 date: 2025-04-10
 isOriginal: false
@@ -306,7 +306,7 @@ So—how are you planning to extend your Django user model, and what fields do y
 {
   "title": "How to Extend the Django User Model",
   "desc": "If you're working with Django and building anything that involves user accounts - like a blog, a store, or a membership site - you’ll likely hit a point where the default user model just isn’t enough. Maybe you want to add a profile picture, a phone ...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-extend-the-django-user-model.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-extend-the-django-user-model.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

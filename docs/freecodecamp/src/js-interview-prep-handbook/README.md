@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: The JavaScript Interview Prep Handbook - Essential Topics to Know + Code Examples
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/js-interview-prep-handbook.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/js-interview-prep-handbook.html
 prev: /programming/js/articles/README.md
 date: 2024-05-22
 isOriginal: false
@@ -268,7 +268,7 @@ Good luck with your interviews !!!
 {
   "title": "The JavaScript Interview Prep Handbook - Essential Topics to Know + Code Examples",
   "desc": "JavaScript is a widely used language in web development and powers interactive features of virtually every website out there. JavaScript makes it possible to create dynamic web pages and is very versatile. JavaScript remains one of the most in-demand...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/js-interview-prep-handbook.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/js-interview-prep-handbook.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

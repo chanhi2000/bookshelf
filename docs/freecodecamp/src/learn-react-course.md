@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "Learn React - Full Course for Beginners"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/learn-react-course.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-react-course.html
 prev: /programming/js-react/articles/README.md
 date: 2018-12-19
 isOriginal: false
@@ -82,7 +82,7 @@ You can also try the interactive version of the course [<VPIcon icon="fas fa-glo
 {
   "title": "Learn React - Full Course for Beginners",
   "desc": "Learn all the basics to build dynamic, interactive web applications with the React JavaScript library in this full course from Bob Ziroll (@bobziroll). Upon completion of this course, you'll know everything you need in order to build web applications...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/learn-react-course.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-react-course.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

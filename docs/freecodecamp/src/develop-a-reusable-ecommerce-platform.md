@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: "How to Develop a Reusable eCommerce Platform"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/develop-a-reusable-ecommerce-platform.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/develop-a-reusable-ecommerce-platform.html
 prev: /academics/system-design/articles/README.md
 date: 2020-12-31
 isOriginal: false
@@ -304,7 +304,7 @@ I hope you enjoyed this article. You can read [it too on my site](https://ramonm
 {
   "title": "How to Develop a Reusable eCommerce Platform",
   "desc": "By Ramón Morcillo This is a story about my team’s hard work developing not a single eCommerce platform, but a reusable one for different owners. We kept the same codebase, look, and feel, and made it highly customizable.  I will conclude with what we...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/develop-a-reusable-ecommerce-platform.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/develop-a-reusable-ecommerce-platform.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

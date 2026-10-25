@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: "Learn CSS Media Queries by Building Three Projects"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/learn-css-media-queries-by-building-projects.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-css-media-queries-by-building-projects.html
 prev: /programming/cs/articles/README.md
 date: 2021-04-27
 isOriginal: false
@@ -1313,7 +1313,7 @@ Here's your medal for reading all the way until the end ❤️
 {
   "title": "Learn CSS Media Queries by Building Three Projects",
   "desc": "Today we're going to learn how to use CSS Media Queries to build responsive websites. And we'll practice what we learn by completing three projects. Let's go 🏅 Table of Contents What are CSS Media Queries? Steps to follow The Syntax Practice Projec...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/learn-css-media-queries-by-building-projects.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-css-media-queries-by-building-projects.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

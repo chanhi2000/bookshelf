@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to Pass Additional Arguments to Next.js Server Actions"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-pass-additional-arguments-to-nextjs-server-actions.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-pass-additional-arguments-to-nextjs-server-actions.html
 prev: /programming/js-next/articles/README.md
 date: 2024-10-23
 isOriginal: false
@@ -301,7 +301,7 @@ See you soon with my next article. Until then, please take care of yourself, and
 {
   "title": "How to Pass Additional Arguments to Next.js Server Actions",
   "desc": "Asynchronous data mutation and handling is a necessary task in modern web applications. You may want to execute a standalone asynchronous function on the server to carryout tasks like saving data to the data store, sending emails, downloading PDFs, p...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-pass-additional-arguments-to-nextjs-server-actions.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-pass-additional-arguments-to-nextjs-server-actions.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

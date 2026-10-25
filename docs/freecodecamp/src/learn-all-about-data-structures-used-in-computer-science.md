@@ -24,7 +24,7 @@ head:
     - property: og:description
       content: "Data Structures Explained - Learn Computer Science Concepts in This 3 Hour Tutorial"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/learn-all-about-data-structures-used-in-computer-science.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-all-about-data-structures-used-in-computer-science.html
 prev: /academics/coen/articles/README.md
 date: 2020-09-09
 isOriginal: false
@@ -132,7 +132,7 @@ Data structures provide the backbone for many of the programs you’ll end up wr
 {
   "title": "Data Structures Explained - Learn Computer Science Concepts in This 3 Hour Tutorial",
   "desc": "Data structure are tools that developers use when programming to organize data so they can access it later.  freeCodeCamp.org just released a full 3-hour video course that will introduce you to some of the most important data structures in computer s...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/learn-all-about-data-structures-used-in-computer-science.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-all-about-data-structures-used-in-computer-science.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

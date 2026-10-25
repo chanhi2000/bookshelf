@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "Learn HTTP Methods like GET, POST, and DELETE - a Handbook with Code Examples"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/learn-http-methods-like-get-post-and-delete-a-handbook-with-code-examples/
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-http-methods-like-get-post-and-delete-a-handbook-with-code-examples/
 prev: /programming/js/articles/README.md
 date: 2024-10-02
 isOriginal: false

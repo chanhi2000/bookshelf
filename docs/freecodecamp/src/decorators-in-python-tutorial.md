@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "What are Decorators in Python? Explained with Code Examples"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/decorators-in-python-tutorial.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/decorators-in-python-tutorial.html
 prev: /programming/py/articles/README.md
 date: 2024-06-19
 isOriginal: false
@@ -547,7 +547,7 @@ Whether you're using function-based or class-based decorators, you can enhance y
 {
   "title": "What are Decorators in Python? Explained with Code Examples",
   "desc": "In this tutorial, you will learn about Python decorators: what they are, how they work, and when to use them. Table of Contents Foundation for Decorators [Introduction to Python Decorators](#Introduction to Python Decorators) Creating Simple Decorat...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/decorators-in-python-tutorial.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/decorators-in-python-tutorial.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

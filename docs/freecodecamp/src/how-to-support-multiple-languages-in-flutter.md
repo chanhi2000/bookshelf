@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: "How to Support Multiple Languages In Your Flutter Application"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-support-multiple-languages-in-flutter.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-support-multiple-languages-in-flutter.html
 prev: /programming/dart/articles/README.md
 date: 2024-11-16
 isOriginal: false
@@ -329,7 +329,7 @@ If you would like to read other articles I have written, you can find them [here
 {
   "title": "How to Support Multiple Languages In Your Flutter Application",
   "desc": "When building my own applications, I usually don’t stress about having multiple language support. All of my applications are pet projects of mine and I mostly use them to learn and advance my knowledge. Without any intention, some of the applications...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-support-multiple-languages-in-flutter.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-support-multiple-languages-in-flutter.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

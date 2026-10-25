@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: "Tuples and Enums"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/learn-typescript-with-react-handbook/tuples-and-enums.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-typescript-with-react-handbook/tuples-and-enums.html
 date: 2025-02-08
 isOriginal: false
 author:

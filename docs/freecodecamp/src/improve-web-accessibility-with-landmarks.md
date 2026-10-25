@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: "How to Improve Web Accessibility with Landmarks - Explained with Examples"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/improve-web-accessibility-with-landmarks.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/improve-web-accessibility-with-landmarks.html
 prev: /programming/css/articles/README.md
 date: 2025-08-06
 isOriginal: false
@@ -276,7 +276,7 @@ Landmarks aren’t just an accessibility bonus—they’re a fundamental part of
 {
   "title": "How to Improve Web Accessibility with Landmarks - Explained with Examples",
   "desc": "If you’re reading this article on the freeCodeCamp publication, you should see some visual clues in different sections of the page. The header is at the top of the page. If you scroll all the way to the bottom of the page, you can see the footer sect...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/improve-web-accessibility-with-landmarks.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/improve-web-accessibility-with-landmarks.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

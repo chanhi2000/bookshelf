@@ -16,7 +16,7 @@ head:
     - property: og:description
       content: "What is Git Merge?"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/git-rebase-handbook/what-is-git-merge.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/git-rebase-handbook/what-is-git-merge.html
 prev: /programming/git/articles/README.md
 date: 2023-07-03
 isOriginal: false

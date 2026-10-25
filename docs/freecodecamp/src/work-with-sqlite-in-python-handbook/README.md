@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: "How to Work with SQLite in Python - A Handbook for Beginners"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/work-with-sqlite-in-python-handbook.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/work-with-sqlite-in-python-handbook.html
 prev: /programming/py/articles/README.md
 date: 2024-10-02
 isOriginal: false

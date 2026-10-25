@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "A Guide To The Reduce Method In Javascript "
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/reduce-f47a7da511a9.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/reduce-f47a7da511a9.html
 prev: /programming/js/articles/README.md
 date: 2017-02-11
 isOriginal: false
@@ -372,7 +372,7 @@ And if you liked the article, please share it on social media so others can find
 {
   "title": "A Guide To The Reduce Method In Javascript ",
   "desc": "By Josh Pitzalis JavaScript’s reduce method is one of the cornerstones of functional programming. Let’s explore how it works, when you should use it, and some of the cool things it can do. A Basic Reduction Use it when: You have an array of amounts a...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/reduce-f47a7da511a9.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/reduce-f47a7da511a9.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

@@ -25,7 +25,7 @@ head:
     - property: og:description
       content: "What is Technical Debt and How Do You Manage it?"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/what-is-technical-debt-and-how-do-you-manage-it.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/what-is-technical-debt-and-how-do-you-manage-it.html
 prev: /academics/coen/articles/README.md
 date: 2025-05-10
 isOriginal: false
@@ -235,7 +235,7 @@ Hope you enjoyed this article. [<VPIcon icon="fas fa-globe"/>Join my newsletter]
 {
   "title": "What is Technical Debt and How Do You Manage it?",
   "desc": "You’ve probably heard someone say, “We’ll fix it later.” Maybe you’ve said it yourself. In the rush to launch a feature, meet a deadline, or impress a client, you take a shortcut. The code works - for now. The design passes - for now. But over time, ...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/what-is-technical-debt-and-how-do-you-manage-it.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/what-is-technical-debt-and-how-do-you-manage-it.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

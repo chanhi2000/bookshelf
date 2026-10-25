@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "Learn Clustering in Python - A Machine Learning Engineering Handbook"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/clustering-in-python-a-machine-learning-handbook/
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/clustering-in-python-a-machine-learning-handbook/
 prev: /programming/py/articles/README.md
 date: 2025-02-06
 isOriginal: false
@@ -402,7 +402,7 @@ Spots are limited, and the demand for skilled AI engineers is higher than ever. 
 {
   "title": "Learn Clustering in Python - A Machine Learning Engineering Handbook",
   "desc": "Want to learn how to discover and analyze the hidden patterns within your data? Clustering, an essential technique in Unsupervised Machine Learning, holds the key to discovering valuable insights that can revolutionize your understanding of complex d...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/clustering-in-python-a-machine-learning-handbook.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/clustering-in-python-a-machine-learning-handbook.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "Data Analysis with Python - How I Analyzed My Empire State Building Run-Up Performance"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/empire-state-building-run-up-analysis-with-python/
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/empire-state-building-run-up-analysis-with-python/
 prev: /programming/py-pandas/articles/README.md
 date: 2024-05-09
 isOriginal: false
@@ -225,7 +225,7 @@ There is plenty more to learn about the tools you just saw in this tutorial:
 {
   "title": "Data Analysis with Python - How I Analyzed My Empire State Building Run-Up Performance",
   "desc": "A tower running race is a race that you run up the stairs of a building. These happen around the world. I got the chance to participate in the Empire State Run Up in NYC, 2023 edition. The Empire State Building Run-Up (ESBRU)—the world’s first and m...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/empire-state-building-run-up-analysis-with-python.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/empire-state-building-run-up-analysis-with-python.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

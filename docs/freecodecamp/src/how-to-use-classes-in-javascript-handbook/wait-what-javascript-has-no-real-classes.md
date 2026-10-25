@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: "Wait, what? JavaScript has no real classes?"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-use-classes-in-javascript-handbook/wait-what-javascript-has-no-real-classes.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-use-classes-in-javascript-handbook/wait-what-javascript-has-no-real-classes.html
 date: 2025-02-18
 isOriginal: false
 author:

@@ -27,7 +27,7 @@ head:
     - property: og:description
       content: "Next.js vs React - Differences and How to Choose the Right One for Your Project"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/nextjs-vs-react-differences.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/nextjs-vs-react-differences.html
 prev: /programming/js-next/articles/README.md
 date: 2024-12-05
 isOriginal: false
@@ -238,7 +238,7 @@ Happy coding.
 {
   "title": "Next.js vs React - Differences and How to Choose the Right One for Your Project",
   "desc": "As a developer, there are many tools, languages, frameworks and open-source packages you have to learn in order to make your job easier and straightforward (though the journey isn’t a straightforward one but you will get there). Some of these tools, ...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/nextjs-vs-react-differences.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/nextjs-vs-react-differences.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

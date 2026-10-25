@@ -67,7 +67,7 @@ cover: https://blog.master.dev/wp-json/social-image-generator/v1/image/11114
 <SiteInfo
   name="Discover Solo: The Ultimate AI-Integrated Control Panel"
   desc="Discover Solo: the ultimate tool for streamlining coding projects with AI integration, terminal management, and powerful debugging features."
-  url="https://master.dev/blog/blog.master.dev/introducing-solo/"
+  url="https://blog.master.dev/introducing-solo/"
   logo="https://master.dev/favicon.ico"
   preview="https://blog.master.dev/wp-json/social-image-generator/v1/image/11114"/>
 

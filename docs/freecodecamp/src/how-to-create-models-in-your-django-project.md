@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "How to Create Models in Your Django Project"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-create-models-in-your-django-project.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-create-models-in-your-django-project.html
 prev: /programming/py-django/articles/README.md
 date: 2025-04-26
 isOriginal: false
@@ -315,7 +315,7 @@ The best way to learn is by building something. Start small, maybe a book catalo
 {
   "title": "How to Create Models in Your Django Project",
   "desc": "If you're building something with Django, there's one thing you can't skip: creating models. Models are the heart of any Django app. They define how your data is structured, how it's stored in the database, and how Django can interact with it. Now, i...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-create-models-in-your-django-project.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-create-models-in-your-django-project.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

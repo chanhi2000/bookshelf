@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "Chapter 10: Database Design Process Example"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-design-structured-database-systems-using-sql-full-book/chapter-10-database-design-process-example.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-design-structured-database-systems-using-sql-full-book/chapter-10-database-design-process-example.html
 date: 2025-08-14
 isOriginal: false
 author:

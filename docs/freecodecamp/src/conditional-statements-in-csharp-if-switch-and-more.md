@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: "How to Use Conditional Statements in C#: If, Switch, and More Explained with Example Code"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/conditional-statements-in-csharp-if-switch-and-more.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/conditional-statements-in-csharp-if-switch-and-more.html
 prev: /articles/README.md
 date: 2024-10-22
 isOriginal: false
@@ -508,7 +508,7 @@ As always if you want to chat about any of my articles you can follow me on [X (
 {
   "title": "How to Use Conditional Statements in C#: If, Switch, and More Explained with Example Code",
   "desc": "Being able to update variables, call particular branches of code, or simply output different code based on a certain condition is a vital part of programming in any language. C# (C Sharp) offers multiple ways to do these things, and I’m about to show...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/conditional-statements-in-csharp-if-switch-and-more.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/conditional-statements-in-csharp-if-switch-and-more.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

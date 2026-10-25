@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "How to Get Started with Matplotlib - With Code Examples and Visualizations"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/getting-started-with-matplotlib.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/getting-started-with-matplotlib.html
 prev: /programming/py/articles/README.md
 date: 2024-10-08
 isOriginal: false

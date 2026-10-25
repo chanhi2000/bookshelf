@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "The JavaScript Error Handling Handbook"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/the-javascript-error-handling-handbook.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/the-javascript-error-handling-handbook.html
 prev: /programming/js/articles/README.md
 date: 2025-07-12
 isOriginal: false
@@ -602,7 +602,7 @@ See you soon with my next article. Until then, please take care of yourself and 
 {
   "title": "The JavaScript Error Handling Handbook",
   "desc": "Errors and exceptions are inevitable in application development. As programmers, it is our responsibility to handle these errors gracefully so that the user experience of the application is not compromised. Handling errors correctly also helps progra...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/the-javascript-error-handling-handbook.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/the-javascript-error-handling-handbook.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

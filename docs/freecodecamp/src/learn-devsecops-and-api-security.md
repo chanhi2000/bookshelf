@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "Learn DevSecOps and API Security"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/learn-devsecops-and-api-security.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-devsecops-and-api-security.html
 prev: /devops/security/articles/README.md
 date: 2025-08-12
 isOriginal: false
@@ -105,7 +105,7 @@ Watch the full course on the freeCodeCamp.org YouTube channel (2-hour watch).
 {
   "title": "Learn DevSecOps and API Security",
   "desc": "Learn the essential concepts of DevSecOps and why integrating security throughout the software development lifecycle is more important than ever. We just posted a course on the freeCodeCamp.org YouTube channel that will guide you through the foundati...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/learn-devsecops-and-api-security.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-devsecops-and-api-security.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

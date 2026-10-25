@@ -26,7 +26,7 @@ head:
     - property: og:description
       content: "Future Trends and Innovations"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/the-microservices-book-build-and-manage-services-in-the-cloud/future-trends-and-innovations.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/the-microservices-book-build-and-manage-services-in-the-cloud/future-trends-and-innovations.html
 date: 2024-11-29
 isOriginal: false
 author: Adekola Olawale

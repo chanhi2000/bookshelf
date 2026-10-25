@@ -24,7 +24,7 @@ head:
     - property: og:description
       content: "Build a Stable Diffusion VAE From Scratch using Pytorch"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/build-a-stable-diffusion-vae-from-scratch-using-pytorch.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-a-stable-diffusion-vae-from-scratch-using-pytorch.html
 prev: /programming/py-torch/articles/README.md
 date: 2024-12-04
 isOriginal: false
@@ -106,7 +106,7 @@ Ready to start your journey into generative modeling? Watch the course now on [<
 {
   "title": "Build a Stable Diffusion VAE From Scratch using Pytorch",
   "desc": "We just published a course on the freeCodeCamp.org YouTube channel that will teach you everything you need to know about Variational Autoencoders (VAEs). This course is perfect for anyone looking to dive deep into one of the fundamental concepts behi...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/build-a-stable-diffusion-vae-from-scratch-using-pytorch.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-a-stable-diffusion-vae-from-scratch-using-pytorch.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

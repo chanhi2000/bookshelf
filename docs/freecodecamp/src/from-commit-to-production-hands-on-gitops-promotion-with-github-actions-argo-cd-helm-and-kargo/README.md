@@ -24,7 +24,7 @@ head:
     - property: og:description
       content: "From Commit to Production: Hands-On GitOps Promotion with GitHub Actions, Argo CD, Helm, and Kargo"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/from-commit-to-production-hands-on-gitops-promotion-with-github-actions-argo-cd-helm-and-kargo/
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/from-commit-to-production-hands-on-gitops-promotion-with-github-actions-argo-cd-helm-and-kargo/
 prev: /programming/git/articles/README.md
 date: 2025-06-06
 isOriginal: false
@@ -749,7 +749,7 @@ Whether you're a DevOps engineer sharpening your skills, or a platform team sett
 {
   "title": "From Commit to Production: Hands-On GitOps Promotion with GitHub Actions, Argo CD, Helm, and Kargo",
   "desc": "Have you ever wanted to go beyond ‘hello world’ and build a real, production-style CI/CD pipeline - starting from scratch? Let’s pause for a moment: what are you trying to learn from your DevOps journey? Are you focusing on GitOps-style deployments, ...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/from-commit-to-production-hands-on-gitops-promotion-with-github-actions-argo-cd-helm-and-kargo.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/from-commit-to-production-hands-on-gitops-promotion-with-github-actions-argo-cd-helm-and-kargo.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

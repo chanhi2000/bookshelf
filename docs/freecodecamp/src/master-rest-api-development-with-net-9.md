@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Master REST API Development with .NET 9"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/master-rest-api-development-with-net-9.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/master-rest-api-development-with-net-9.html
 prev: /programming/cs/articles/README.md
 date: 2025-05-28
 isOriginal: false
@@ -99,7 +99,7 @@ Ready to begin your journey into professional API development? Watch the full co
 {
   "title": "Master REST API Development with .NET 9",
   "desc": "Building robust web applications and services requires a solid understanding of REST APIs, the backbone of modern web communication. Whether you're looking to create mobile app backends, integrate different systems, or build scalable web services, RE...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/master-rest-api-development-with-net-9.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/master-rest-api-development-with-net-9.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

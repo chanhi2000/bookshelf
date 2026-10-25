@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: "Powerful Motion Graphics Frameworks for Developers"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/powerful-motion-graphics-frameworks-for-developers.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/powerful-motion-graphics-frameworks-for-developers.html
 prev: /programming/js-node/articles/README.md
 date: 2025-06-21
 isOriginal: false
@@ -177,7 +177,7 @@ Hope you enjoyed this article. You can [<VPIcon icon="fas fa-globe"/>learn more 
 {
   "title": "Powerful Motion Graphics Frameworks for Developers",
   "desc": "Motion graphics are no longer just eye candy. They have become a key part of how users experience software, whether it’s a mobile app, a website, or even for making animated explainer videos.  When users tap a button, they expect it to respond smooth...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/powerful-motion-graphics-frameworks-for-developers.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/powerful-motion-graphics-frameworks-for-developers.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

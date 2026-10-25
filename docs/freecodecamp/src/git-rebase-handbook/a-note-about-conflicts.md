@@ -16,7 +16,7 @@ head:
     - property: og:description
       content: "A Note About Conflicts"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/git-rebase-handbook/a-note-about-conflicts.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/git-rebase-handbook/a-note-about-conflicts.html
 prev: /programming/git/articles/README.md
 date: 2023-07-03
 isOriginal: false

@@ -22,7 +22,7 @@ head:
     - property: og:description
       content: "Learn ASP.NET Core MVC with .NET 9"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/learn-aspnet-core-mvc-with-net-9.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-aspnet-core-mvc-with-net-9.html
 prev: /programming/cs/articles/README.md
 date: 2024-10-02
 isOriginal: false

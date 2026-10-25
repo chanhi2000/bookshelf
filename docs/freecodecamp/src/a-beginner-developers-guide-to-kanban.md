@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "A Beginner Developer's Guide to Kanban"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/a-beginner-developers-guide-to-kanban.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/a-beginner-developers-guide-to-kanban.html
 prev: /academics/coen/articles/README.md
 date: 2025-07-24
 isOriginal: false
@@ -288,7 +288,7 @@ Until next time, keep Learning, Unlearning and Relearning, folks….
 {
   "title": "A Beginner Developer's Guide to Kanban",
   "desc": "First, a confession: When I was learning to code, my “workflow” was a mess. Sticky notes. Google Docs. Random Trello boards I never checked again. And a to-do list that somehow never got any shorter. Then I joined a real team. Suddenly, I was introdu...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/a-beginner-developers-guide-to-kanban.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/a-beginner-developers-guide-to-kanban.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

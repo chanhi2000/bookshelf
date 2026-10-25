@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: "How to Deploy a Front End Application with Netlify"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-deploy-your-front-end-app.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-deploy-your-front-end-app.html
 prev: /devops/netlify/articles/README.md
 date: 2021-01-09
 isOriginal: false
@@ -161,7 +161,7 @@ You can also reach out to me on [X (<VPIcon icon="fa-brands fa-x-twitter"/>`olan
 {
   "title": "How to Deploy a Front End Application with Netlify",
   "desc": "Hi everyone! In this article, I'm going to discuss how to deploy an application you've built. The application deployment process might seem complicated, and this might prevent some developers from deploying their applications after they've developed ...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-deploy-your-front-end-app.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-deploy-your-front-end-app.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

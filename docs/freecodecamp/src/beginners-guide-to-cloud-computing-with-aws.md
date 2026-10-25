@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: "What is Cloud Computing? Beginner's Guide to Cloud Computing with AWS"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/beginners-guide-to-cloud-computing-with-aws.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/beginners-guide-to-cloud-computing-with-aws.html
 prev: /devops/aws/articles/README.md
 date: 2024-10-18
 isOriginal: false
@@ -448,7 +448,7 @@ You can follow me on:
 {
   "title": "What is Cloud Computing? Beginner's Guide to Cloud Computing with AWS",
   "desc": "Ever wondered what people mean when they say, “It’s stored in the cloud”? If you’re imagining fluffy white clouds up in the sky storing your pictures, documents, or your Netflix favorites, then you’re in for a surprise! Spoiler alert: the cloud is mu...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/beginners-guide-to-cloud-computing-with-aws.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/beginners-guide-to-cloud-computing-with-aws.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

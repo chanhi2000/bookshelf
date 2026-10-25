@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: "How to Protect Your Remote Workforce from Cyber Attacks"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/protect-remote-workforce-from-cyber-attacks.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/protect-remote-workforce-from-cyber-attacks.html
 prev: /devops/security/articles/README.md
 date: 2025-06-06
 isOriginal: false
@@ -171,7 +171,7 @@ For more articles on cybersecurity, join the [<VPIcon icon="fas fa-globe"/>Steal
 {
   "title": "How to Protect Your Remote Workforce from Cyber Attacks",
   "desc": "Working remotely gives your team flexibility, but it also opens the door to cyber threats. Remote workers are more exposed without the protection of office firewalls and on-site IT teams.  Hackers know that people often use weak passwords, forget to ...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/protect-remote-workforce-from-cyber-attacks.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/protect-remote-workforce-from-cyber-attacks.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

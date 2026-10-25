@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "Why Use npm Libraries?"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-create-an-npm-library/why-use-npm-libraries.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-create-an-npm-library/why-use-npm-libraries.html
 date: 2025-02-08
 isOriginal: false
 author:

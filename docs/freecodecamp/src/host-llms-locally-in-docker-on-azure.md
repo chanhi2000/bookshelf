@@ -29,7 +29,7 @@ head:
     - property: og:description
       content: "How to Host Local LLMs in a Docker Container on Azure"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/host-llms-locally-in-docker-on-azure.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/host-llms-locally-in-docker-on-azure.html
 prev: /ai/llm/articles/README.md
 date: 2025-03-27
 isOriginal: false
@@ -646,7 +646,7 @@ And hey, if you agree with the response from the above `qwen2.5-coder` model, he
 {
   "title": "How to Host Local LLMs in a Docker Container on Azure",
   "desc": "Have you ever run into a situation where you want to test some local AI models, but your computer doesn't have enough specs to run them? Or maybe you just don't like bloating your computer with a ton of AI models? You're not alone in this. I’ve faced...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/host-llms-locally-in-docker-on-azure.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/host-llms-locally-in-docker-on-azure.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

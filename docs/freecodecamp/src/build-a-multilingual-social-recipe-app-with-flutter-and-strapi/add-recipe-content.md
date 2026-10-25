@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "Add Recipe Content"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/build-a-multilingual-social-recipe-app-with-flutter-and-strapi/add-recipe-content.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-a-multilingual-social-recipe-app-with-flutter-and-strapi/add-recipe-content.html
 date: 2025-04-09
 isOriginal: false
 author:

@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "Svelte i18n and Localization Made Easy"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/svelte-i18n-and-localization-made-easy.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/svelte-i18n-and-localization-made-easy.html
 prev: /programming/js-svelte/articles/README.md
 date: 2024-12-06
 isOriginal: false
@@ -493,7 +493,7 @@ Take your time, test thoroughly, and build an app that feels natural for all the
 {
   "title": "Svelte i18n and Localization Made Easy",
   "desc": "Apps are accessible worldwide. This means anyone from anywhere in the world can download your app.  So, if you want to cater to people everywhere, your app needs to support multiple languages.  Fortunately, Svelte is easy to work with, and it makes l...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/svelte-i18n-and-localization-made-easy.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/svelte-i18n-and-localization-made-easy.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

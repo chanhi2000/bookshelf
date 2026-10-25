@@ -28,7 +28,7 @@ head:
     - property: og:description
       content: "Build a Full Stack Book Store App Using React, Node, MongoDB"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/build-a-full-stack-book-store-app-using-react-node-mongodb.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-a-full-stack-book-store-app-using-react-node-mongodb.html
 prev: /programming/js-react/articles/README.md
 date: 2024-10-16
 isOriginal: false
@@ -97,7 +97,7 @@ Watch the full course on [<VPIcon icon="fa-brands fa-youtube"/>the freeCodeCamp.
 {
   "title": "Build a Full Stack Book Store App Using React, Node, MongoDB",
   "desc": "Building fullstack web applications is one of the most valuable skills in modern web development. If you're looking for a project that can take you through the complete development process—from setting up the front end to managing a robust back end—t...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/build-a-full-stack-book-store-app-using-react-node-mongodb.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-a-full-stack-book-store-app-using-react-node-mongodb.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

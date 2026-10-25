@@ -27,7 +27,7 @@ head:
     - property: og:description
       content: "How to Build a Distributed Rate Limiting System Using Redis and Lua Scripts"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/build-rate-limiting-system-using-redis-and-lua.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-rate-limiting-system-using-redis-and-lua.html
 prev: /programming/js-node/articles/README.md
 date: 2024-11-20
 isOriginal: false
@@ -384,7 +384,7 @@ Happy coding!
 {
   "title": "How to Build a Distributed Rate Limiting System Using Redis and Lua Scripts",
   "desc": "In this comprehensive guide, you’ll build a distributed rate limiter using Redis and Lua scripting to control user requests in a high-traffic environment. Rate limiting is crucial in any system to prevent abuse, manage traffic, and protect your resou...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/build-rate-limiting-system-using-redis-and-lua.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-rate-limiting-system-using-redis-and-lua.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

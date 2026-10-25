@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to Build a Countdown Timer with React - A Step-by-Step Guide"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/build-a-countdown-timer-with-react-step-by-step.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-a-countdown-timer-with-react-step-by-step.html
 prev: /programming/js-react/articles/README.md
 date: 2024-10-14
 isOriginal: false
@@ -708,7 +708,7 @@ Thank you for reading.
 {
   "title": "How to Build a Countdown Timer with React - A Step-by-Step Guide",
   "desc": "In this tutorial, you will learn how to build a custom countdown timer to track events using React.js. A countdown timer is a simple way to measure the time until an event happens. It counts down that time in reverse - like 5, 4, 3, 2, 1. It helps yo...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/build-a-countdown-timer-with-react-step-by-step.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-a-countdown-timer-with-react-step-by-step.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

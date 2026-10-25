@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: "Rendering Patterns for Web Apps - Server-Side, Client-Side, and SSG Explained"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/rendering-patterns.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/rendering-patterns.html
 prev: /academics/system-design/articles/README.md
 date: 2023-03-07
 isOriginal: false
@@ -432,7 +432,7 @@ If you want, you can also follow me on [LinkedIn (<VPIcon icon="fa-brands fa-lin
 {
   "title": "Rendering Patterns for Web Apps - Server-Side, Client-Side, and SSG Explained",
   "desc": "Hi everyone! In this article we're going to take a look at the different rendering pattern options available nowadays for web applications. I'll start by explaining what a rendering pattern is, then go through each of the main options available. Fina...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/rendering-patterns.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/rendering-patterns.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

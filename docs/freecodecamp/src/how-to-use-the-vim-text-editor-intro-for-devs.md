@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "How to Use the Vim Text Editor - An Introduction for Developers"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-use-the-vim-text-editor-intro-for-devs.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-use-the-vim-text-editor-intro-for-devs.html
 prev: /tool/vim/articles/README.md
 date: 2025-02-05
 isOriginal: false
@@ -585,7 +585,7 @@ Stay tuned for more articles. Get ready to take your RHEL skills to the next lev
 {
   "title": "How to Use the Vim Text Editor - An Introduction for Developers",
   "desc": "Imagine a carpenter without tools, a writer without a pen, or a chef without a knife—this is like trying to imagine a developer or sysadmin without a reliable text editor. For devs, text editors are the ultimate multitools, shaping how we create, man...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-use-the-vim-text-editor-intro-for-devs.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-use-the-vim-text-editor-intro-for-devs.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

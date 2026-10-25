@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: "Top Cybersecurity Certifications You Should Know About as a Developer"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/top-cybersecurity-certifications-for-devs.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/top-cybersecurity-certifications-for-devs.html
 prev: /articles/README.md
 date: 2024-11-01
 isOriginal: false
@@ -267,7 +267,7 @@ Join the <VPIcon icon="fas fa-globe"/>[**Stealth Security newsletter**](https://
 {
   "title": "Top Cybersecurity Certifications You Should Know About as a Developer",
   "desc": "Cybersecurity remains one of the fastest-growing fields today, and for a good reason. The need for skilled cyber defenders grows as our lives and businesses go ever more digital. A cybersecurity certification can help you boost your skills and demons...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/top-cybersecurity-certifications-for-devs.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/top-cybersecurity-certifications-for-devs.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

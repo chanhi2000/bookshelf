@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: "How to Write a Good Conference Talk Proposal - CFP Guide"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-write-a-good-conference-talk-proposal.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-write-a-good-conference-talk-proposal.html
 prev: /projects/career/articles/README.md
 date: 2025-04-22
 isOriginal: false
@@ -295,7 +295,7 @@ You can find me on [LinkedIn (<VPIcon icon="fa-brands fa-linkedin"/>`suleolanrew
 {
   "title": "How to Write a Good Conference Talk Proposal - CFP Guide",
   "desc": "When conferences organize events, they seek knowledgeable speakers to share insights that educate, inspire, and engage attendees. They discover and select speakers through a Call for Proposals (CFP), an open invitation for experts to submit talk idea...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-write-a-good-conference-talk-proposal.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-write-a-good-conference-talk-proposal.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

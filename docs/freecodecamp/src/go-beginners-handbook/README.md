@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "The Go Handbook - Learn Golang for Beginners"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/go-beginners-handbook/
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/go-beginners-handbook/
 prev: /programming/go/articles/README.md
 date: 2022-10-19
 isOriginal: false
@@ -324,7 +324,7 @@ you can get a PDF and ePub version of this Go Beginner's Handbook here
 {
   "title": "The Go Handbook - Learn Golang for Beginners",
   "desc": "Golang is an awesome, simple, modern, and fast programming language. It’s compiled, open source, and strongly typed. Golang - also called Go - was created by Google engineers with these main goals: make their projects compile (and run) faster be sim...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/go-beginners-handbook.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/go-beginners-handbook.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

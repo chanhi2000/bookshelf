@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: "Everything You Need to Know About Web Acessibility"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/the-web-accessibility-handbook.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/the-web-accessibility-handbook.html
 prev: /programming/css/articles/README.md
 date: 2025-03-19
 isOriginal: false
@@ -218,7 +218,7 @@ I hope this handbook becomes your go-to resource for anything related to accessi
 {
   "title": "Everything You Need to Know About Web Acessibility",
   "desc": "The web is a great place to access information and connect with people. It has opened up countless opportunities, making life more convenient in many ways. But not everyone experiences the web in the same way. Websites are difficult to use for people...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/the-web-accessibility-handbook.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/the-web-accessibility-handbook.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

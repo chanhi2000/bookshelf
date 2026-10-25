@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "Command Line for Beginners - How to Use the Terminal Like a Pro [Full Handbook]"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/command-line-for-beginners.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/command-line-for-beginners.html
 prev: /programming/sh/articles/README.md
 date: 2022-04-06
 isOriginal: false
@@ -768,7 +768,7 @@ Cheers and see you in the next one! =D
 {
   "title": "Command Line for Beginners - How to Use the Terminal Like a Pro [Full Handbook]",
   "desc": "Hi everyone! In this article we'll take a good look at the command line (also known as the CLI, console, terminal or shell). The command line is one of the most useful and efficient tools we have as developers and as computer users in general. But us...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/command-line-for-beginners.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/command-line-for-beginners.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

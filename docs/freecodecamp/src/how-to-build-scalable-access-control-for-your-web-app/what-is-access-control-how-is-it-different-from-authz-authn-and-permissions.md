@@ -22,7 +22,7 @@ head:
     - property: og:description
       content: "What is access control? How is it different from AuthZ, AuthN and permissions?"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-build-scalable-access-control-for-your-web-app/what-is-access-control-how-is-it-different-from-authz-authn-and-permissions.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-build-scalable-access-control-for-your-web-app/what-is-access-control-how-is-it-different-from-authz-authn-and-permissions.html
 date: 2025-02-05
 isOriginal: false
 author:

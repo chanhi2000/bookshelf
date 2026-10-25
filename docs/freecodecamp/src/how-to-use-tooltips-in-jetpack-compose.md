@@ -25,7 +25,7 @@ head:
     - property: og:description
       content: "How to Use Tooltips in JetpackCompose"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-use-tooltips-in-jetpack-compose.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-use-tooltips-in-jetpack-compose.html
 prev: /programming/java-android/articles/README.md
 date: 2024-10-02
 isOriginal: false

@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: "How to Create Documentation with docs.page - A Beginner's Tutorial"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-create-documentation-with-docspage.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-create-documentation-with-docspage.html
 prev: /programming/js-node/articles/README.md
 date: 2025-05-07
 isOriginal: false
@@ -597,7 +597,7 @@ If [<VPIcon icon="fas fa-globe"/>docs.page](http://docs.page) ever decides to ch
 {
   "title": "How to Create Documentation with docs.page - A Beginner's Tutorial",
   "desc": "One of the most tedious tasks for every startup, company, and open-source project is often building and managing documentation - especially for medium to large-scale documentation websites. docs.page is an open-source documentation tool that helps yo...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-create-documentation-with-docspage.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-create-documentation-with-docspage.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

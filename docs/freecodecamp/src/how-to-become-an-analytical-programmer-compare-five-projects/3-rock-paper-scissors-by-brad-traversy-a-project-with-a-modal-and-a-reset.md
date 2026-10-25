@@ -22,7 +22,7 @@ head:
     - property: og:description
       content: "“Rock Paper Scissors” by Brad Traversy: A project with a modal and a reset"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-become-an-analytical-programmer-compare-five-projects/3-rock-paper-scissors-by-brad-traversy-a-project-with-a-modal-and-a-reset.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-become-an-analytical-programmer-compare-five-projects/3-rock-paper-scissors-by-brad-traversy-a-project-with-a-modal-and-a-reset.html
 date: 2025-05-12
 isOriginal: false
 author:

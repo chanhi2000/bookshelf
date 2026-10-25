@@ -25,7 +25,7 @@ head:
     - property: og:description
       content: "How to Make Your First Command"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-create-an-interactive-terminal-portfolio-website/how-to-make-your-first-command.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-create-an-interactive-terminal-portfolio-website/how-to-make-your-first-command.html
 date: 2024-04-29
 isOriginal: false
 author:

@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: "Essential Pages for Your Portfolio"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-create-a-great-personal-portfolio-page-a-step-by-step-guide/what-pages-you-need-in-your-portfolio.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-create-a-great-personal-portfolio-page-a-step-by-step-guide/what-pages-you-need-in-your-portfolio.html
 date: 2024-03-23
 isOriginal: false
 author:

@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to Create a Reusable Modal Component in React"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/create-react-reusable-modal-component.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/create-react-reusable-modal-component.html
 prev: /programming/js-react/articles/README.md
 date: 2024-09-24
 isOriginal: false
@@ -493,7 +493,7 @@ As always, feel free to drop me a follow or reach out on [Twitter/X (<VPIcon ico
 {
   "title": "How to Create a Reusable Modal Component in React",
   "desc": "When using React, we strive to create reusable components as much as we can to limit the number of components and repetition. This keeps your code “DRY”. DRY is a concept you may have come across—it means “Don’t Repeat Yourself”. DRY is a coding prin...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/create-react-reusable-modal-component.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/create-react-reusable-modal-component.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

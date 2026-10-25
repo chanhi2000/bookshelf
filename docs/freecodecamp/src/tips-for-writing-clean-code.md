@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "Simple Tips to Help You Write Clean Code"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/tips-for-writing-clean-code.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/tips-for-writing-clean-code.html
 prev: /programming/js/articles/README.md
 date: 2025-02-05
 isOriginal: false
@@ -391,7 +391,7 @@ Also, if you're interested in learning more about AI, you can subscribe to my ne
 {
   "title": "Simple Tips to Help You Write Clean Code",
   "desc": "Being a developer isn’t as straightforward as many people think. It’s not just about learning a programming language and typing out code to build software. There’s a lot more to it. And one of the most confusing (and often frustrating) topics for dev...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/tips-for-writing-clean-code.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/tips-for-writing-clean-code.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

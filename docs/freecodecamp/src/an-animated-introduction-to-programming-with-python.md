@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "An Animated Introduction to Programming with Python"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/an-animated-introduction-to-programming-with-python.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/an-animated-introduction-to-programming-with-python.html
 prev: /programming/py/articles/README.md
 date: 2025-06-17
 isOriginal: false
@@ -572,7 +572,7 @@ I hope this animated introduction helps you grasp the fundamental concepts of Py
 {
   "title": "An Animated Introduction to Programming with Python",
   "desc": "Python is a high-level, general-purpose programming language. Created by Guido van Rossum and first released in 1991, Python is known for its design philosophy that emphasizes code readability, notably using significant indentation. It supports multi...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/an-animated-introduction-to-programming-with-python.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/an-animated-introduction-to-programming-with-python.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

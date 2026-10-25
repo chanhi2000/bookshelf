@@ -30,7 +30,7 @@ head:
     - property: og:description
       content: "How to Create a Python SIEM System Using AI and LLMs for Log Analysis and Anomaly Detection"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-create-a-python-siem-system-using-ai-and-llms.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-create-a-python-siem-system-using-ai-and-llms.html
 prev: /programming/py-numpy/articles/README.md
 date: 2025-03-08
 isOriginal: false
@@ -400,7 +400,7 @@ For next steps and improvements:
 {
   "title": "How to Create a Python SIEM System Using AI and LLMs for Log Analysis and Anomaly Detection",
   "desc": "In this tutorial, we’ll build a simplified, AI-flavored SIEM log analysis system using Python. Our focus will be on log analysis and anomaly detection. We’ll walk through ingesting logs, detecting anomalies with a lightweight machine learning model, ...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-create-a-python-siem-system-using-ai-and-llms.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-create-a-python-siem-system-using-ai-and-llms.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

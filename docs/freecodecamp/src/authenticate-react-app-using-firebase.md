@@ -28,7 +28,7 @@ head:
     - property: og:description
       content: "How to Authenticate Your React App Using Firebase"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/authenticate-react-app-using-firebase.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/authenticate-react-app-using-firebase.html
 prev: /programming/js-react/articles/README.md
 date: 2024-10-02
 isOriginal: false

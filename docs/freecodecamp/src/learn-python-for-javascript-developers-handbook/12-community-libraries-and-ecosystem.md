@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: "12. Community, Libraries, and Ecosystem"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/learn-python-for-javascript-developers-handbook/12-community-libraries-and-ecosystem.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-python-for-javascript-developers-handbook/12-community-libraries-and-ecosystem.html
 date: 2024-11-22
 isOriginal: false
 author:

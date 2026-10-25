@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "How to Become a Full-Stack Developer in 2025 (and Get a Job) - A Handbook for Beginners"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/become-a-full-stack-developer-and-get-a-job/
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/become-a-full-stack-developer-and-get-a-job/
 prev: /projects/career/articles/README.md
 date: 2025-03-13
 isOriginal: false
@@ -213,7 +213,7 @@ That’s all from my side. If you found this article helpful, feel free to share
 {
   "title": "How to Become a Full-Stack Developer in 2025 (and Get a Job) - A Handbook for Beginners",
   "desc": "Whenever I publish a new article, I receive countless emails and DMs across social media asking, ”How can I become a Full Stack Developer like you? How much DSA do I need to know? How long does it take?” Well, I always say, ”Wait for my next tutorial...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/become-a-full-stack-developer-and-get-a-job.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/become-a-full-stack-developer-and-get-a-job.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

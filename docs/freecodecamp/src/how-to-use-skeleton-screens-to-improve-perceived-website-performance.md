@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to Use Skeleton Screens to Improve Perceived Website Performance"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-use-skeleton-screens-to-improve-perceived-website-performance.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-use-skeleton-screens-to-improve-perceived-website-performance.html
 prev: /programming/js-react/articles/README.md
 date: 2024-10-24
 isOriginal: false
@@ -267,7 +267,7 @@ See you on the next one!
 {
   "title": "How to Use Skeleton Screens to Improve Perceived Website Performance",
   "desc": "When you’re building a website, it’s important to make sure that it’s fast. People have little to no patience for slow-loading websites. So as developers, we need to use all the techniques available to us to speed up our site’s performance. And somet...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-use-skeleton-screens-to-improve-perceived-website-performance.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-use-skeleton-screens-to-improve-perceived-website-performance.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

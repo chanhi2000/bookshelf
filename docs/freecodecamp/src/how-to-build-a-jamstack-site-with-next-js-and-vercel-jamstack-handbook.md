@@ -27,7 +27,7 @@ head:
     - property: og:description
       content: "How to Build a Jamstack Site with Next.js and Vercel - Jamstack Handbook"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-build-a-jamstack-site-with-next-js-and-vercel-jamstack-handbook.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-build-a-jamstack-site-with-next-js-and-vercel-jamstack-handbook.html
 prev: /programming/js-next/articles/README.md
 date: 2020-09-18
 isOriginal: false
@@ -291,7 +291,7 @@ You can learn more about the Jamstack, including 2 more in depth tutorials, with
 {
   "title": "How to Build a Jamstack Site with Next.js and Vercel - Jamstack Handbook",
   "desc": "The Jamstack architecture is a modern approach to an old idea: making fast, static websites, but making them dynamic with tools like JavaScript.  How can we leverage the web framework Next.js and hosting platform Vercel to build and deploy performant...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-build-a-jamstack-site-with-next-js-and-vercel-jamstack-handbook.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-build-a-jamstack-site-with-next-js-and-vercel-jamstack-handbook.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

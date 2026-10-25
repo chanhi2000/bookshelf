@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Free GenAI 65-Hour Bootcamp"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/free-genai-65-hour-bootcamp.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/free-genai-65-hour-bootcamp.html
 prev: /ai/llm/articles/README.md
 date: 2025-05-09
 isOriginal: false
@@ -90,7 +90,7 @@ This course is ideal for self-taught developers, students, educators, and profes
 {
   "title": "Free GenAI 65-Hour Bootcamp",
   "desc": "Generative AI is revolutionizing how we create, learn, and interact with digital content. From intelligent chatbots and personalized language tutors to realistic image generation and interactive story engines, the applications are endless. We just pu...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/free-genai-65-hour-bootcamp.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/free-genai-65-hour-bootcamp.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

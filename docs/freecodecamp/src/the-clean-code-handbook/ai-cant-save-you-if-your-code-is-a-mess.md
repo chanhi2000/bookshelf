@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: "AI Can’t Save You If Your Code is a Mess 🗑️"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/the-clean-code-handbook/ai-cant-save-you-if-your-code-is-a-mess.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/the-clean-code-handbook/ai-cant-save-you-if-your-code-is-a-mess.html
 date: 2025-01-30
 isOriginal: false
 author:

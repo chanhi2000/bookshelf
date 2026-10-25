@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "A Developer's Guide to Protecting Personal Data: Best Practices and Tools"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/developers-guide-to-protecting-personal-data.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/developers-guide-to-protecting-personal-data.html
 prev: /devops/security/articles/README.md
 date: 2025-04-17
 isOriginal: false
@@ -269,7 +269,7 @@ So the next time you're scanning the headlines for news of the latest ginormous 
 {
   "title": "A Developer's Guide to Protecting Personal Data: Best Practices and Tools",
   "desc": "Think about it: you're sitting there enjoying your morning coffee, reading the headlines when again another data breach is making headlines. Millions of users' personal information - gone. You can't help but cringe as a developer at the prospect. Cou...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/developers-guide-to-protecting-personal-data.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/developers-guide-to-protecting-personal-data.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

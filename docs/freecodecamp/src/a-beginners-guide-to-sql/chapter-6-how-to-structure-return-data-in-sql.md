@@ -16,7 +16,7 @@ head:
     - property: og:description
       content: "Chapter 6: How to Structure Return Data in SQL"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/a-beginners-guide-to-sql/chapter-6-how-to-structure-return-data-in-sql.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/a-beginners-guide-to-sql/chapter-6-how-to-structure-return-data-in-sql.html
 date: 2023-09-05
 isOriginal: false
 author:

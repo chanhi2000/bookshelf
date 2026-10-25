@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "An Animated Introduction to Clojure - Learn Clojure Programming Basics"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/learn-clojure-programming-basics.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-clojure-programming-basics.html
 prev: /programming/clj/articles/README.md
 date: 2025-04-10
 isOriginal: false
@@ -429,7 +429,7 @@ Comments and feedback are welcome via email: [<VPIcon icon="fas fa-envelope"/>`m
 {
   "title": "An Animated Introduction to Clojure - Learn Clojure Programming Basics",
   "desc": "This tutorial introduces the programming language, Clojure. Clojure is an awesome functional programming language that runs on Java's Virtual Machine (JVM). It is sometimes called a LISP, which is short for 'LISt Processing'. You'll need to have some...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/learn-clojure-programming-basics.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-clojure-programming-basics.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

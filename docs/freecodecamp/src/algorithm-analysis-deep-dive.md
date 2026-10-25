@@ -24,7 +24,7 @@ head:
     - property: og:description
       content: "Algorithm Analysis Deep Dive"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/algorithm-analysis-deep-dive.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/algorithm-analysis-deep-dive.html
 prev: /academics/coen/articles/README.md
 date: 2025-08-01
 isOriginal: false
@@ -86,7 +86,7 @@ Watch the [<VPIcon icon="fa-brands fa-youtube"/>full course on the freeCodeCamp.
 {
   "title": "Algorithm Analysis Deep Dive",
   "desc": "Have you ever just memorized that an algorithm is O(n log n) without truly understanding why? Our new algorithms course on the freeCodeCamp.org YouTube channel will help you build a deep intuition for how algorithms work. This Algorithm Analysis Deep...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/algorithm-analysis-deep-dive.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/algorithm-analysis-deep-dive.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

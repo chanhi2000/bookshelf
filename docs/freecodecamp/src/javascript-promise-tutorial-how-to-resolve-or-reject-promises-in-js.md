@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "JavaScript Promise Tutorial - How to Resolve or Reject Promises in JS"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/javascript-promise-tutorial-how-to-resolve-or-reject-promises-in-js.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/javascript-promise-tutorial-how-to-resolve-or-reject-promises-in-js.html
 prev: /programming/js/articles/README.md
 date: 2020-12-15
 isOriginal: false
@@ -795,7 +795,7 @@ That's all for now. See you again with my next article soon. Until then, please 
 {
   "title": "JavaScript Promise Tutorial - How to Resolve or Reject Promises in JS",
   "desc": "Promises are important building blocks for asynchronous operations in JavaScript. You may think that promises are not so easy to understand, learn, and work with. And trust me, you are not alone!  Promises are challenging for many web developers, eve...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/javascript-promise-tutorial-how-to-resolve-or-reject-promises-in-js.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/javascript-promise-tutorial-how-to-resolve-or-reject-promises-in-js.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

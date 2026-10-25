@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "Understanding the Language Server Protocol - Easier Code Editing Across Languages and Tools"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/what-is-the-language-server-protocol-easier-code-editing-across-languages.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/what-is-the-language-server-protocol-easier-code-editing-across-languages.html
 prev: /programming/go/articles/README.md
 date: 2025-01-09
 isOriginal: false
@@ -248,7 +248,7 @@ LSP is a win for both language providers and tooling vendors.
 {
   "title": "Understanding the Language Server Protocol - Easier Code Editing Across Languages and Tools",
   "desc": "In the past, many code editors were built just for one specific language. To provide rich and smart code editing, tight integration between the editor and the language tooling was a must. On the other hand, there were (and still are) more general-pur...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/what-is-the-language-server-protocol-easier-code-editing-across-languages.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/what-is-the-language-server-protocol-easier-code-editing-across-languages.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

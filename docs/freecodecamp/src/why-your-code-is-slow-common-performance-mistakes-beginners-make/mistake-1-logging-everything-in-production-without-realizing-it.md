@@ -28,7 +28,7 @@ head:
     - property: og:description
       content: "Mistake #1: Logging Everything in Production (Without Realizing It)"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/why-your-code-is-slow-common-performance-mistakes-beginners-make/mistake-1-logging-everything-in-production-without-realizing-it.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/why-your-code-is-slow-common-performance-mistakes-beginners-make/mistake-1-logging-everything-in-production-without-realizing-it.html
 date: 2025-03-29
 isOriginal: false
 author:

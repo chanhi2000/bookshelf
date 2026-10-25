@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: "The Role of Documentation in Agile Software Development 🚣"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/the-clean-code-handbook/the-role-of-documentation-in-agile-software-development.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/the-clean-code-handbook/the-role-of-documentation-in-agile-software-development.html
 next: /freecodecamp.org/the-clean-code-handbook/README.md#conclusion-🏁
 date: 2025-01-30
 isOriginal: false

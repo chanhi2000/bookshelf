@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to Implement Zero-Trust Authentication in Your Web Apps"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-implement-zero-trust-authentication-in-your-web-apps.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-implement-zero-trust-authentication-in-your-web-apps.html
 prev: /programming/js/articles/README.md
 date: 2025-08-07
 isOriginal: false
@@ -1214,7 +1214,7 @@ As threats grow more sophisticated, so must our defenses. ZTA provides a durable
 {
   "title": "How to Implement Zero-Trust Authentication in Your Web Apps",
   "desc": "Your biggest security problem might be inside your own network. Hackers don't break in anymore - they just log in with stolen passwords. Old security systems trusted anyone who got inside the network. But now there's no clear ”inside” or ”outside.” P...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-implement-zero-trust-authentication-in-your-web-apps.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-implement-zero-trust-authentication-in-your-web-apps.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

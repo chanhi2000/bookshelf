@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: "How to Use the CSS text-wrap Property to Create Balanced Text Layouts on Your Websites"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-use-css-text-wrap-property.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-use-css-text-wrap-property.html
 prev: /programming/css/articles/README.md
 date: 2025-04-14
 isOriginal: false
@@ -318,7 +318,7 @@ Even though it's not yet supported by all browsers, adding it to your next proje
 {
   "title": "How to Use the CSS text-wrap Property to Create Balanced Text Layouts on Your Websites",
   "desc": "An inconsistent text layout can really ruin the look of your website’s design. Maybe a heading has an extra word that wraps to another line, or in a paragraph some lines are longer than others. This can leave the whole thing looking messy and hard to...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-use-css-text-wrap-property.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-use-css-text-wrap-property.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

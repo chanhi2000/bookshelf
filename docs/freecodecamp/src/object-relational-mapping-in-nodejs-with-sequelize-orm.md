@@ -25,7 +25,7 @@ head:
     - property: og:description
       content: "How to Use Object Relational Mapping in Node.js - Optimize Database Interactions With Sequelize ORM"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/object-relational-mapping-in-nodejs-with-sequelize-orm.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/object-relational-mapping-in-nodejs-with-sequelize-orm.html
 prev: /programming/js-node/articles/README.md
 date: 2024-10-16
 isOriginal: false
@@ -394,7 +394,7 @@ Feel free to reach out to me on my [<VPIcon icon="fa-brands fa-dev"/>blog](http:
 {
   "title": "How to Use Object Relational Mapping in Node.js - Optimize Database Interactions With Sequelize ORM",
   "desc": "Databases play a vital role in the development of applications across mobile and web platforms. Adequate knowledge of data interactions between the application structure and the database is essential for storing relevant application data. Object-rela...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/object-relational-mapping-in-nodejs-with-sequelize-orm.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/object-relational-mapping-in-nodejs-with-sequelize-orm.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

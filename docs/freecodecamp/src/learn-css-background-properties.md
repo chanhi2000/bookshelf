@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: "Every CSS Background Property Illustrated and Explained with Code Examples 🎖️"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/learn-css-background-properties.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-css-background-properties.html
 prev: /programming/css/articles/README.md
 date: 2021-04-03
 isOriginal: false
@@ -883,7 +883,7 @@ Here's your medal for reading till the the end ❤️
 {
   "title": "Every CSS Background Property Illustrated and Explained with Code Examples 🎖️",
   "desc": "Today we're gonna learn about every single CSS background property with every possible value. We'll learn the short-hand, too. Let's go !🏅 Table of Contents All properties background-image background-size background-repeat background-position backg...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/learn-css-background-properties.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-css-background-properties.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: "How to Simplify AWS Multi-Account Management with Terraform and GitOps"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/simplify-aws-multi-account-management-with-terraform-and-gitops.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/simplify-aws-multi-account-management-with-terraform-and-gitops.html
 prev: /devops/aws/articles/README.md
 date: 2024-11-26
 isOriginal: false
@@ -509,7 +509,7 @@ Service Control Policies (SCPs) help keep things secure and compliant by making 
 {
   "title": "How to Simplify AWS Multi-Account Management with Terraform and GitOps",
   "desc": "In the past, in the world of cloud computing, a company's journey often began with a single AWS account. In this unified space, development and testing environments coexisted, while the production environment lived in a separate account. This arrange...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/simplify-aws-multi-account-management-with-terraform-and-gitops.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/simplify-aws-multi-account-management-with-terraform-and-gitops.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "How JavaScript Lint Rules Work (and Why Abstract Syntax Trees Matter)"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-javascript-lint-rules-work-and-why-abstract-syntax-trees-matter.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-javascript-lint-rules-work-and-why-abstract-syntax-trees-matter.html
 prev: /programming/js/articles/README.md
 date: 2025-05-22
 isOriginal: false
@@ -382,7 +382,7 @@ You don’t need to be a compiler expert or fully grasp every node type in the s
 {
   "title": "How JavaScript Lint Rules Work (and Why Abstract Syntax Trees Matter)",
   "desc": "Before I started to contribute to eslint-plugin-react, I didn’t think too deeply about the linters I used every day while writing code. Like many developers, I installed them at the start of a project, appreciated the red underlines or auto-fixes, an...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-javascript-lint-rules-work-and-why-abstract-syntax-trees-matter.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-javascript-lint-rules-work-and-why-abstract-syntax-trees-matter.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

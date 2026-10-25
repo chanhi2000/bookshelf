@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "Build a Vision Transformer from Scratch"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/build-a-vision-transformer-from-scratch.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-a-vision-transformer-from-scratch.html
 prev: /articles/README.md
 date: 2025-02-27
 isOriginal: false
@@ -94,7 +94,7 @@ This course will equip you with the knowledge and practical skills to work with 
 {
   "title": "Build a Vision Transformer from Scratch",
   "desc": "Transformers have revolutionized natural language processing, and now they are transforming computer vision as well. Vision Transformers (ViTs) apply the power of self-attention to image processing, offering state-of-the-art performance in tasks like...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/build-a-vision-transformer-from-scratch.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-a-vision-transformer-from-scratch.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

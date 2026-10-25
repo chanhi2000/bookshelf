@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: "Git Checkout Remote Branch - How to Fetch and List Remote Branches"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/git-checkout-remote-branch-how-to-fetch-and-list-remote-branches.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/git-checkout-remote-branch-how-to-fetch-and-list-remote-branches.html
 prev: /programming/git/articles/README.md
 date: 2024-05-01
 isOriginal: false
@@ -169,7 +169,7 @@ Happy coding!
 {
   "title": "Git Checkout Remote Branch - How to Fetch and List Remote Branches",
   "desc": "You can use branches in Git to work on different features without affecting your main codebase. For example, you can experiment with a new layout for your webpage on a different branch without affecting the main branch where your website is being dep...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/git-checkout-remote-branch-how-to-fetch-and-list-remote-branches.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/git-checkout-remote-branch-how-to-fetch-and-list-remote-branches.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

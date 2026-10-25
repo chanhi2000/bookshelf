@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to Integrate RTK Query with Redux Toolkit: A Step-by-Step Guide for React Developers"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-integrate-rtk-query-with-redux-toolkit.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-integrate-rtk-query-with-redux-toolkit.html
 prev: /programming/js-react/articles/README.md
 date: 2025-02-07
 isOriginal: false
@@ -827,7 +827,7 @@ Thanks for reading!
 {
   "title": "How to Integrate RTK Query with Redux Toolkit: A Step-by-Step Guide for React Developers",
   "desc": "Redux is a state management library for JavaScript applications. It lets you create applications that behave in a predictable manner and run on different environments, including server and native environments. Redux Toolkit is the recommended way to ...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-integrate-rtk-query-with-redux-toolkit.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-integrate-rtk-query-with-redux-toolkit.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

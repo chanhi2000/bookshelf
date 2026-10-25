@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "How to Write Extension Methods in C#"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-write-extension-methods-in-csharp.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-write-extension-methods-in-csharp.html
 prev: /programming/cs/articles/README.md
 date: 2024-10-31
 isOriginal: false
@@ -366,7 +366,7 @@ As highlighted throughout the article, they have many usages and are certainly a
 {
   "title": "How to Write Extension Methods in C#",
   "desc": "Extension methods are a fundamental part of C# and Object Oriented Programming (OOP). Extension methods in C# allow you to ”extend” existing types, including classes, interfaces, or structs, without modifying their original code. This is particularly...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-write-extension-methods-in-csharp.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-write-extension-methods-in-csharp.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

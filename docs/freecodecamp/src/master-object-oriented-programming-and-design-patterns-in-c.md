@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: Master Object-Oriented Programming and Design Patterns in C#
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/master-object-oriented-programming-and-design-patterns-in-c.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/master-object-oriented-programming-and-design-patterns-in-c.html
 prev: /programming/cs/articles/README.md
 date: 2024-09-19
 isOriginal: false
@@ -107,7 +107,7 @@ This comprehensive course on Object-Oriented Programming and Design Patterns wil
 {
   "title": "Master Object-Oriented Programming and Design Patterns in C#",
   "desc": "Understanding design patterns are important for efficient software development. They offer proven solutions to common coding challenges, promote code reusability, and enhance maintainability. By mastering these patterns, developers can create more ro...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/master-object-oriented-programming-and-design-patterns-in-c.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/master-object-oriented-programming-and-design-patterns-in-c.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

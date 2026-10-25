@@ -16,7 +16,7 @@ head:
     - property: og:description
       content: "How to Work with Branches in Git — Under the Hood"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/git-internals-objects-branches-create-repo/how-to-work-with-branches-in-git-under-the-hood.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/git-internals-objects-branches-create-repo/how-to-work-with-branches-in-git-under-the-hood.html
 date: 2020-12-15
 isOriginal: false
 author:

@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: "Compress Files"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/the-front-end-performance-optimization-handbook/compress-files.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/the-front-end-performance-optimization-handbook/compress-files.html
 date: 2025-05-07
 isOriginal: false
 author:

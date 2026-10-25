@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "C Game Development with Raylib"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/c-game-development-with-raylib.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/c-game-development-with-raylib.html
 prev: /programming/c/articles/README.md
 date: 2025-06-05
 isOriginal: false
@@ -88,7 +88,7 @@ The course is available for free on the [freeCodeCamp.org YouTube channel](https
 {
   "title": "C Game Development with Raylib",
   "desc": "Making games is one of the best ways to learn programming. It pushes you to think logically, stay organized, and solve real problems. Plus, it’s just fun. If you're looking to improve your C programming skills and learn how to create a complete game ...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/c-game-development-with-raylib.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/c-game-development-with-raylib.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

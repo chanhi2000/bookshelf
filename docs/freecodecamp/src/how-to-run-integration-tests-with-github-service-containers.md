@@ -25,7 +25,7 @@ head:
     - property: og:description
       content: "How to Run Integration Tests with GitHub Service Containers"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-run-integration-tests-with-github-service-containers.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-run-integration-tests-with-github-service-containers.html
 prev: /devops/github/articles/README.md
 date: 2025-01-08
 isOriginal: false
@@ -376,7 +376,7 @@ If you use Github Actions, this approach works extremely well as it is specifica
 {
   "title": "How to Run Integration Tests with GitHub Service Containers",
   "desc": "Recently, I published an article about using Testcontainers to emulate external dependencies like a database and cache for backend integration tests. That article also explained the different ways of running the integration tests, environment scaffol...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-run-integration-tests-with-github-service-containers.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-run-integration-tests-with-github-service-containers.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

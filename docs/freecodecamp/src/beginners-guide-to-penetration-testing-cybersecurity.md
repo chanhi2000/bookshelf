@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: "What is Penetration Testing in Cybersecurity? A Beginner's Guide"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/beginners-guide-to-penetration-testing-cybersecurity.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/beginners-guide-to-penetration-testing-cybersecurity.html
 prev: /devops/security/articles/README.md
 date: 2025-02-08
 isOriginal: false
@@ -226,7 +226,7 @@ A proactive approach to security through continuous penetration testing is cruci
 {
   "title": "What is Penetration Testing in Cybersecurity? A Beginner's Guide",
   "desc": "In today's digital world, almost every activity we engage in is intertwined with technology. From making payments via UPI and booking movie or travel tickets online to selling products through e-commerce platforms, technology has become an integral p...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/beginners-guide-to-penetration-testing-cybersecurity.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/beginners-guide-to-penetration-testing-cybersecurity.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

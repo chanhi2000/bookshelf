@@ -35,7 +35,7 @@ head:
     - property: og:description
       content: "How to Build a Smart Expense Tracker with Python and LLMs"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/build-smart-expense-tracker-with-python-and-llms.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-smart-expense-tracker-with-python-and-llms.html
 prev: /programming/py-pandas/articles/README.md
 date: 2025-09-09
 isOriginal: false
@@ -535,7 +535,7 @@ This project shows how tools, including Streamlit for interactivity, Pandas for 
 {
   "title": "How to Build a Smart Expense Tracker with Python and LLMs",
   "desc": "Imagine that you’re sipping a hot latte from Starbucks on your way to work. You quickly swipe your card, and the receipt gets lost in your bag. Later in the day, you pay for an Uber ride, order lunch, and buy airtime. By evening, you know you’ve spen...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/build-smart-expense-tracker-with-python-and-llms.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-smart-expense-tracker-with-python-and-llms.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

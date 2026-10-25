@@ -28,7 +28,7 @@ head:
     - property: og:description
       content: "Mistake #3: Writing Database Queries Inside Loops (Killer of Speed)"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/why-your-code-is-slow-common-performance-mistakes-beginners-make/mistake-3-writing-database-queries-inside-loops-killer-of-speed.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/why-your-code-is-slow-common-performance-mistakes-beginners-make/mistake-3-writing-database-queries-inside-loops-killer-of-speed.html
 date: 2025-03-29
 isOriginal: false
 author:

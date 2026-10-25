@@ -22,7 +22,7 @@ head:
     - property: og:description
       content: "Prepare for the Databricks Data Engineer Associate Certification Exam – And Pass!"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/prepare-for-the-databricks-data-engineer-associate-certification-exam-and-pass.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/prepare-for-the-databricks-data-engineer-associate-certification-exam-and-pass.html
 prev: /data-science/databricks/articles/README.md
 date: 2025-09-19
 isOriginal: false
@@ -95,7 +95,7 @@ Watch the full course on [<VPIcon icon="fa-brands fa-youtube"/>the freeCodeCamp.
 {
   "title": "Prepare for the Databricks Data Engineer Associate Certification Exam – And Pass!",
   "desc": "Prepare for the Databricks Data Engineer Associate Certification exam and pass! We just posted a new course from Andrew Brown on the freeCodeCamp.org YouTube channel that will help you earn the Databricks Data Engineer Associate Certification. This c...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/prepare-for-the-databricks-data-engineer-associate-certification-exam-and-pass.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/prepare-for-the-databricks-data-engineer-associate-certification-exam-and-pass.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

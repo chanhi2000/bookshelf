@@ -24,7 +24,7 @@ head:
     - property: og:description
       content: "Learn the basics of computer programming and computer science with this free course"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/introduction-to-computer-programming-and-computer-science-course.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/introduction-to-computer-programming-and-computer-science-course.html
 prev: /academics/coen/articles/README.md
 date: 2020-04-22
 isOriginal: false
@@ -90,7 +90,7 @@ You can watch the course below or on [<VPIcon icon="fa-brands fa-youtube"/>the f
 {
   "title": "Learn the basics of computer programming and computer science with this free course",
   "desc": "There are many core concepts that are important for all programmers to understand, no matter what programming language they use. We've released a 2-hour video course to teach the basics of computer science. The concepts taught apply to all programmin...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/introduction-to-computer-programming-and-computer-science-course.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/introduction-to-computer-programming-and-computer-science-course.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

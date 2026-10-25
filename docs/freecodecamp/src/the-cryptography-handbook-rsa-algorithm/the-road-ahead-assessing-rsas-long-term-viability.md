@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "The Road Ahead: Assessing RSA’s Long-Term Viability"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/the-cryptography-handbook-rsa-algorithm/the-road-ahead-assessing-rsas-long-term-viability.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/the-cryptography-handbook-rsa-algorithm/the-road-ahead-assessing-rsas-long-term-viability.html
 next: /freecodecamp.org/the-cryptography-handbook-rsa-algorithm/README.md#references
 date: 2025-04-03
 isOriginal: false

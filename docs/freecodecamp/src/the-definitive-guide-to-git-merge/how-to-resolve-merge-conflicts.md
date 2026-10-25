@@ -16,7 +16,7 @@ head:
     - property: og:description
       content: "How to Resolve Merge Conflicts"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/the-definitive-guide-to-git-merge/how-to-resolve-merge-conflicts.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/the-definitive-guide-to-git-merge/how-to-resolve-merge-conflicts.html
 date: 2023-04-28
 isOriginal: false
 author:

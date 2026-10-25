@@ -34,7 +34,7 @@ head:
     - property: og:description
       content: "How to Interact with Your Chatbot Using a Shiny App"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/build-a-local-rag-app-with-ollama-and-chromadb-in-r/how-to-interact-with-your-chatbot-using-a-shiny-app.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-a-local-rag-app-with-ollama-and-chromadb-in-r/how-to-interact-with-your-chatbot-using-a-shiny-app.html
 next: /freecodecamp.org/build-a-local-rag-app-with-ollama-and-chromadb-in-r/README.md#complete-code
 date: 2025-04-15
 isOriginal: false

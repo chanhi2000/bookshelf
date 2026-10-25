@@ -27,7 +27,7 @@ head:
     - property: og:description
       content: "Learn Time Series Forecasting in Python"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/learn-time-series-forecasting-in-python.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-time-series-forecasting-in-python.html
 prev: /programming/py/articles/README.md
 date: 2025-08-08
 isOriginal: false
@@ -95,7 +95,7 @@ Watch the full course on [the freeCodeCamp.org YouTube channel](https://youtu.be
 {
   "title": "Learn Time Series Forecasting in Python",
   "desc": "Learning about time series forecasting in Python is important because it can help predict future trends. We just posted a course on the freeCodeCamp.org YouTube channel that is an introduction to time series forecasting with Python. You’ll learn what...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/learn-time-series-forecasting-in-python.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-time-series-forecasting-in-python.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

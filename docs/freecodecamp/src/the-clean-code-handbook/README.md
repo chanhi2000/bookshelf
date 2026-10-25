@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "The Clean Code Handbook: How to Write Better Code for Agile Software Development"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/the-clean-code-handbook/
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/the-clean-code-handbook/
 prev: /programming/js/articles/README.md
 date: 2025-01-30
 isOriginal: false
@@ -151,7 +151,7 @@ If you’re serious about mastering clean code and taking your programming caree
 {
   "title": "The Clean Code Handbook: How to Write Better Code for Agile Software Development",
   "desc": "Building scalable software applications requires writing clean code that’s so simple that any dev can understand it. In this article, I’ll explain and demonstrate what clean code is. Then I’ll share my favorite clean code patterns for building modern...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/the-clean-code-handbook.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/the-clean-code-handbook.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

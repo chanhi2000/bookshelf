@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: "Principle of Least Privilege - Definition and Meaning in Cybersecurity"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/principle-of-lease-privilege-meaning-cybersecurity.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/principle-of-lease-privilege-meaning-cybersecurity.html
 prev: /devops/security/articles/README.md
 date: 2022-12-01
 isOriginal: false
@@ -197,7 +197,7 @@ Loved this article? Join [<VPIcon icon="fas fa-globe"/>Stealth Security Weekly N
 {
   "title": "Principle of Least Privilege - Definition and Meaning in Cybersecurity",
   "desc": "Information technology has made a profound impact on our lives over the last three decades. It has helped us create global businesses, transform industries, and build powerful connections. But it has also led to increased risks in security and privac...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/principle-of-lease-privilege-meaning-cybersecurity.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/principle-of-lease-privilege-meaning-cybersecurity.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

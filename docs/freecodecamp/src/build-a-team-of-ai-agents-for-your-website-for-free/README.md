@@ -34,7 +34,7 @@ head:
     - property: og:description
       content: "How to Build a Team of AI Agents for Your Website for Free Using Agno and Groq"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/build-a-team-of-ai-agents-for-your-website-for-free.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-a-team-of-ai-agents-for-your-website-for-free.html
 prev: /programming/py/articles/README.md
 date: 2025-04-01
 isOriginal: false
@@ -228,7 +228,7 @@ If you enjoyed these articles, connect and follow me across [<VPIcon icon="fas f
 {
   "title": "How to Build a Team of AI Agents for Your Website for Free Using Agno and Groq",
   "desc": "AI is quickly changing the way we work, and more and more companies are using it to help them get and retain clients. Teams are also using AI to create innovative and responsive websites capable of engaging visitors while also providing helpful infor...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/build-a-team-of-ai-agents-for-your-website-for-free.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-a-team-of-ai-agents-for-your-website-for-free.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

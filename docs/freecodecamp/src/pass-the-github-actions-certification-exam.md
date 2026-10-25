@@ -28,7 +28,7 @@ head:
     - property: og:description
       content: "Pass the GitHub Actions Certification Exam"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/pass-the-github-actions-certification-exam.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/pass-the-github-actions-certification-exam.html
 prev: /devops/github/articles/README.md
 date: 2024-05-08
 isOriginal: false
@@ -96,7 +96,7 @@ Watch the full course on [<VPIcon icon="fa-brands fa-youtube"/>the freeCodeCamp.
 {
   "title": "Pass the GitHub Actions Certification Exam",
   "desc": "GitHub recently launched a GitHub Actions certification exam. And we just released a course on the freeCodeCamp.org YouTube channel that will prepare you to pass this exam. This course is ideal for developers, DevOps professionals, and anyone interes...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/pass-the-github-actions-certification-exam.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/pass-the-github-actions-certification-exam.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

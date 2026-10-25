@@ -22,7 +22,7 @@ head:
     - property: og:description
       content: "How to Upload Large Objects to S3 with AWS CLI Multipart Upload"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-upload-large-objects-to-s3-with-aws-cli-multipart-upload.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-upload-large-objects-to-s3-with-aws-cli-multipart-upload.html
 prev: /devops/aws/articles/README.md
 date: 2025-07-31
 isOriginal: false
@@ -383,7 +383,7 @@ Check out this [<VPIcon icon="fa-brands fa-aws"/>documentation from the AWS know
 {
   "title": "How to Upload Large Objects to S3 with AWS CLI Multipart Upload",
   "desc": "Uploading large files to S3 using traditional single-request methods can be quite challenging. If your’e transferring a 5GB database backup, and a network interruption happens, it forces you to restart the entire upload process. This wastes bandwidth...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-upload-large-objects-to-s3-with-aws-cli-multipart-upload.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-upload-large-objects-to-s3-with-aws-cli-multipart-upload.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

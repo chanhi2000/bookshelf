@@ -26,7 +26,7 @@ head:
     - property: og:description
       content: "Learn Next.js by Coding Your Own Dropbox Clone - Full Course"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/code-a-dropbox-clone-with-nextjs.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/code-a-dropbox-clone-with-nextjs.html
 prev: /programming/js-next/articles/README.md
 date: 2025-05-08
 isOriginal: false
@@ -82,7 +82,7 @@ Watch the full course on [<VPIcon icon="fa-brands fa-youtube"/>the freeCodeCamp.
 {
   "title": "Learn Next.js by Coding Your Own Dropbox Clone - Full Course",
   "desc": "Building modern full-stack applications requires a strong grasp of various interconnected technologies. And what better way to learn than by creating a real-world project that mimics a widely used tool like Dropbox? That’s exactly what this new cours...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/code-a-dropbox-clone-with-nextjs.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/code-a-dropbox-clone-with-nextjs.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

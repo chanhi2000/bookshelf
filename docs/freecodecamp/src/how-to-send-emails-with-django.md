@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "How to Send Emails With Django"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-send-emails-with-django.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-send-emails-with-django.html
 prev: /programming/py-django/articles/README.md
 date: 2025-04-17
 isOriginal: false
@@ -277,7 +277,7 @@ If you want to dive deeper into emails with Django, check out these links:
 {
   "title": "How to Send Emails With Django",
   "desc": "If you're building a Django app and you want to connect with users - maybe to welcome them, send password reset links, or deliver updates - email is one of the best tools you’ve got. Setting up email in Django might sound tricky at first, but it's pr...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-send-emails-with-django.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-send-emails-with-django.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

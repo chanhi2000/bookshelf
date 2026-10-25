@@ -26,7 +26,7 @@ head:
     - property: og:description
       content: "How to Configure Network Interfaces in Linux"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/configure-network-interfaces-in-linux.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/configure-network-interfaces-in-linux.html
 prev: /devops/linux-debian/articles/README.md
 date: 2025-06-17
 isOriginal: false
@@ -327,7 +327,7 @@ Setting up network interfaces in Linux is a fundamental skill every system admin
 {
   "title": "How to Configure Network Interfaces in Linux",
   "desc": "Networking is an essential part of any Linux system. Proper networking allows communication between devices and the internet. Understanding the network interface is vital when setting up servers, solving connectivity issues, and managing device traff...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/configure-network-interfaces-in-linux.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/configure-network-interfaces-in-linux.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

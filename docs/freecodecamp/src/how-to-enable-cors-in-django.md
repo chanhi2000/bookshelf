@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "How to Enable CORS in Django"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-enable-cors-in-django.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-enable-cors-in-django.html
 prev: /programming/py-django/articles/README.md
 date: 2025-04-29
 isOriginal: false
@@ -316,7 +316,7 @@ Now you know how to enable CORS in Django the right way.
 {
   "title": "How to Enable CORS in Django",
   "desc": "If you've ever tried to connect your frontend app to your Django backend and suddenly hit an error that looks something like ”has been blocked by CORS policy”, you're not alone. It’s frustrating, especially when your code seems fine. So what’s going ...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-enable-cors-in-django.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-enable-cors-in-django.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

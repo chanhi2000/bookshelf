@@ -27,7 +27,7 @@ head:
     - property: og:description
       content: "How to Deploy a Flutter Web App to Firebase Hosting with GitHub Actions"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-deploy-a-flutter-web-app-to-firebase-hosting-with-github-actions.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-deploy-a-flutter-web-app-to-firebase-hosting-with-github-actions.html
 prev: /devops/github/articles/README.md
 date: 2025-08-21
 isOriginal: false
@@ -392,7 +392,7 @@ To dive deeper, check:
 {
   "title": "How to Deploy a Flutter Web App to Firebase Hosting with GitHub Actions",
   "desc": "Deploying a Flutter web app can feel repetitive if you’re doing it manually every time. GitHub Actions automates this by continuously deploying your app to Firebase Hosting whenever you push code to your repository. This guide walks you through setti...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-deploy-a-flutter-web-app-to-firebase-hosting-with-github-actions.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-deploy-a-flutter-web-app-to-firebase-hosting-with-github-actions.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

@@ -26,7 +26,7 @@ head:
     - property: og:description
       content: "How to Integrate WordPress as a Headless CMS with Next.js - With Code Examples"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/integrate-wordpress-with-nextjs.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/integrate-wordpress-with-nextjs.html
 prev: /programming/js-next/articles/README.md
 date: 2024-10-02
 isOriginal: false

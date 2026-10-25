@@ -28,7 +28,7 @@ head:
     - property: og:description
       content: "Splash Screen: The First Impression"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/build-an-ai-powered-cooking-assistant-with-flutter-and-gemini/splash-screen-the-first-impression.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-an-ai-powered-cooking-assistant-with-flutter-and-gemini/splash-screen-the-first-impression.html
 next: /freecodecamp.org/build-an-ai-powered-cooking-assistant-with-flutter-and-gemini/README.md#wrapping-up
 date: 2025-05-30
 isOriginal: false

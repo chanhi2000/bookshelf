@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: "The Logic, Philosophy, and Science of Software Testing - A Handbook for Developers"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/the-logic-philosophy-and-science-of-software-testing-handbook-for-developers.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/the-logic-philosophy-and-science-of-software-testing-handbook-for-developers.html
 prev: /academics/coen/articles/README.md
 date: 2025-06-18
 isOriginal: false
@@ -1447,7 +1447,7 @@ If you love problem solving, critical thinking, or have experiences on how you f
 {
   "title": "The Logic, Philosophy, and Science of Software Testing - A Handbook for Developers",
   "desc": "In an age of information overload, AI assistance, and rapid technological change, the ability to think clearly and reason soundly has never been more valuable. This handbook takes you on a journey from fundamental logical principles to their practica...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/the-logic-philosophy-and-science-of-software-testing-handbook-for-developers.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/the-logic-philosophy-and-science-of-software-testing-handbook-for-developers.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

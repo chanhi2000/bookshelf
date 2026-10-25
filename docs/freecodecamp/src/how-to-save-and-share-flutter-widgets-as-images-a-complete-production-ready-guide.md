@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: "How to Save and Share Flutter Widgets as Images – A Complete Production-Ready Guide"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-save-and-share-flutter-widgets-as-images-a-complete-production-ready-guide.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-save-and-share-flutter-widgets-as-images-a-complete-production-ready-guide.html
 prev: /programming/dart/articles/README.md
 date: 2025-09-03
 isOriginal: false
@@ -879,7 +879,7 @@ If you prefer a more batteries-included path, the `screenshot` package can achie
 {
   "title": "How to Save and Share Flutter Widgets as Images – A Complete Production-Ready Guide",
   "desc": "In many apps, you may want users to be able to save or share visual content generated in the UI. Flutter doesn’t ship with a “save widget to image” API, but with RepaintBoundary plus a few small packages, you can capture any widget, save it to the de...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-save-and-share-flutter-widgets-as-images-a-complete-production-ready-guide.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-save-and-share-flutter-widgets-as-images-a-complete-production-ready-guide.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

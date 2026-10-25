@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: "How to Create Zig-Zag CSS Loaders Using One Element"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/zig-zag-css-loaders.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/zig-zag-css-loaders.html
 prev: /programming/css/articles/README.md
 date: 2024-11-21
 isOriginal: false
@@ -339,7 +339,7 @@ You can explore [<VPIcon icon="fas fa-globe"/>my Zig-Zag loaders collection](htt
 {
   "title": "How to Create Zig-Zag CSS Loaders Using One Element",
   "desc": "In a previous article, I showed you how to create filling CSS loaders collection where each loader was built using a single HTML element. Here, you’ll learn more about loaders by creating the Zig-Zag collection. Here is an overview of what you’ll be ...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/zig-zag-css-loaders.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/zig-zag-css-loaders.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

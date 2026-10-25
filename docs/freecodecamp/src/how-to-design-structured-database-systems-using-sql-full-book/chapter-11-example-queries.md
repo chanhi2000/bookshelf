@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "Chapter 11: Example Queries"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-design-structured-database-systems-using-sql-full-book/chapter-11-example-queries.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-design-structured-database-systems-using-sql-full-book/chapter-11-example-queries.html
 next: /freecodecamp.org/how-to-design-structured-database-systems-using-sql-full-book/README.md#conclusion
 date: 2025-08-14
 isOriginal: false

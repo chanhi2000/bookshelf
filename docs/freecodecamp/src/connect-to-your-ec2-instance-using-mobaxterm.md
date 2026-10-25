@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: "How to Connect to Your EC2 Instance Using MobaXterm with SSH and a Keypair (.pem) File"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/connect-to-your-ec2-instance-using-mobaxterm.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/connect-to-your-ec2-instance-using-mobaxterm.html
 prev: /devops/aws/articles/README.md
 date: 2024-10-22
 isOriginal: false
@@ -162,7 +162,7 @@ You can follow me on
 {
   "title": "How to Connect to Your EC2 Instance Using MobaXterm with SSH and a Keypair (.pem) File",
   "desc": "In this article, I’ll walk you through the steps of connecting to your EC2 instance using MobaXterm with a .pem keypair file. Whether you're a beginner dipping your toes into the cloud or an experienced user looking for a quicker method, I’ve got you...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/connect-to-your-ec2-instance-using-mobaxterm.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/connect-to-your-ec2-instance-using-mobaxterm.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

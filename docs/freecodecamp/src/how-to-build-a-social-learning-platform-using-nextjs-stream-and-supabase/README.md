@@ -25,7 +25,7 @@ head:
     - property: og:description
       content: "How to Build a Social Learning Platform using Next.js, Stream, and Supabase"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-build-a-social-learning-platform-using-nextjs-stream-and-supabase/
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-build-a-social-learning-platform-using-nextjs-stream-and-supabase/
 prev: /programming/js-next/articles/README.md
 date: 2025-03-04
 isOriginal: false
@@ -201,7 +201,7 @@ Thank you for reading! 🎉
 {
   "title": "How to Build a Social Learning Platform using Next.js, Stream, and Supabase",
   "desc": "Social media and real-time communication have transformed how people interact, making it easier to share ideas, collaborate, and learn from others, regardless of location. From professional networks to online study groups, these platforms allow vario...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-build-a-social-learning-platform-using-nextjs-stream-and-supabase.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-build-a-social-learning-platform-using-nextjs-stream-and-supabase.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

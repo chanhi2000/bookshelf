@@ -22,7 +22,7 @@ head:
     - property: og:description
       content: "How to Build the Back End"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-build-a-replit-clone-with-socketio-monaco-editor-and-copilotkit/how-to-build-the-back-end.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-build-a-replit-clone-with-socketio-monaco-editor-and-copilotkit/how-to-build-the-back-end.html
 date: 2025-02-21
 isOriginal: false
 author:

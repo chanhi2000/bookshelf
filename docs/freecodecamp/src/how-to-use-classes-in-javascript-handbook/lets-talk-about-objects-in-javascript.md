@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: "Let's talk about objects in JavaScript."
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-use-classes-in-javascript-handbook/lets-talk-about-objects-in-javascript.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-use-classes-in-javascript-handbook/lets-talk-about-objects-in-javascript.html
 date: 2025-02-18
 isOriginal: false
 author:

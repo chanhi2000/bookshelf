@@ -30,7 +30,7 @@ head:
     - property: og:description
       content: "Automating Testing in CI/CD Pipelines"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/oracle-erp-test-automation-guide/automating-testing-in-cicd-pipelines.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/oracle-erp-test-automation-guide/automating-testing-in-cicd-pipelines.html
 date: 2025-05-01
 isOriginal: false
 author:

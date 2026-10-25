@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "First-Class Functions, Higher-Order Functions, and Closures in Python - Explained with Code Examples"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/first-class-functions-and-closures-in-python.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/first-class-functions-and-closures-in-python.html
 prev: /programming/py/articles/README.md
 date: 2024-06-18
 isOriginal: false
@@ -507,7 +507,7 @@ Practical usage of closures includes scenarios where you need functions to remem
 {
   "title": "First-Class Functions, Higher-Order Functions, and Closures in Python - Explained with Code Examples",
   "desc": "In modern programming, it's important to understand concepts like first-class functions, higher-order functions, and closures. These ideas help us write flexible and efficient code and serve as building blocks for many advanced coding techniques. Fir...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/first-class-functions-and-closures-in-python.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/first-class-functions-and-closures-in-python.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

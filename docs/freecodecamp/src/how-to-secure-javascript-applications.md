@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "How to Secure JavaScript Applications: Common Vulnerabilities and Best Practices"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-secure-javascript-applications.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-secure-javascript-applications.html
 prev: /programming/js/articles/README.md
 date: 2024-10-24
 isOriginal: false
@@ -369,7 +369,7 @@ Thank you for reading this article. If you have any suggestions, comments, or qu
 {
   "title": "How to Secure JavaScript Applications: Common Vulnerabilities and Best Practices",
   "desc": "JavaScript is a widely used programming language for creating client-side and server-side applications. Its use cases go beyond web development, as JavaScript is also used in mobile app development and artificial intelligence. This makes JavaScript a...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-secure-javascript-applications.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-secure-javascript-applications.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

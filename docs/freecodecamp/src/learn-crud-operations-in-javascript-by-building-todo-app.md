@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "Learn CRUD Operations in JavaScript by Building TODO APP"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/learn-crud-operations-in-javascript-by-building-todo-app.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-crud-operations-in-javascript-by-building-todo-app.html
 prev: /programming/js/articles/README.md
 date: 2022-04-14
 isOriginal: false
@@ -907,7 +907,7 @@ Here's your medal for reading until the end. ❤️
 {
   "title": "Learn CRUD Operations in JavaScript by Building TODO APP",
   "desc": "Today we're gonna learn how to do CRUD Operations in JavaScript by making a Todo App. Let's get started 🔥 This is the app we're making today: Live preview GitHub Repository You can watch this tutorial on YouTube as well if you like 🎥 https://you...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/learn-crud-operations-in-javascript-by-building-todo-app.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-crud-operations-in-javascript-by-building-todo-app.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

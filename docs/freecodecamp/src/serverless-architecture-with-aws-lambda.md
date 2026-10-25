@@ -26,7 +26,7 @@ head:
     - property: og:description
       content: "The Serverless Architecture Handbook: How to Publish a Node Js Docker Image to AWS ECR and Deploy the Container to AWS Lambda"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/serverless-architecture-with-aws-lambda.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/serverless-architecture-with-aws-lambda.html
 prev: /devops/aws/articles/README.md
 date: 2025-04-17
 isOriginal: false
@@ -869,7 +869,7 @@ If you enjoyed this article, you can learn more about me by exploring more of my
 {
   "title": "The Serverless Architecture Handbook: How to Publish a Node Js Docker Image to AWS ECR and Deploy the Container to AWS Lambda",
   "desc": "Imagine you’re tasked with building a web application that can handle incoming traffic surges as your users grow without accumulating too much cost. Sounds like a dream, right? But here’s the thing: traditionally, to do this, you would have to manage...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/serverless-architecture-with-aws-lambda.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/serverless-architecture-with-aws-lambda.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

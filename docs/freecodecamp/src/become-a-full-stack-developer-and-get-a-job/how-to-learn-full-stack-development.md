@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: "How to Learn Full Stack Development"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/become-a-full-stack-developer-and-get-a-job/how-to-learn-full-stack-development.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/become-a-full-stack-developer-and-get-a-job/how-to-learn-full-stack-development.html
 date: 2023-03-13
 isOriginal: false
 author:

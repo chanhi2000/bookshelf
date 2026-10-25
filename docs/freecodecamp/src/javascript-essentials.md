@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "JavaScript Essentials"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/javascript-essentials.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/javascript-essentials.html
 prev: /programming/js/articles/README.md
 date: 2025-03-13
 isOriginal: false
@@ -97,7 +97,7 @@ Check out the full course on the [<VPIcon icon="fa-brands fa-youtube"/>freeCodeC
 {
   "title": "JavaScript Essentials",
   "desc": "JavaScript is the backbone of modern web development, powering everything from interactive websites to complex web applications. Object-oriented programming (OOP), prototypical inheritance, ES6 classes, Node.js, and asynchronous programming are all k...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/javascript-essentials.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/javascript-essentials.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

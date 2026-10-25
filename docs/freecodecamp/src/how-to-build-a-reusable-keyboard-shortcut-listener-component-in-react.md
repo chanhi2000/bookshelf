@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to Build a Reusable Keyboard Shortcut Listener Component in React"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-build-a-reusable-keyboard-shortcut-listener-component-in-react.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-build-a-reusable-keyboard-shortcut-listener-component-in-react.html
 prev: /programming/js-react/articles/README.md
 date: 2024-12-17
 isOriginal: false
@@ -691,7 +691,7 @@ Want to connect or contact me? Feel free to hit me up on the following:
 {
   "title": "How to Build a Reusable Keyboard Shortcut Listener Component in React",
   "desc": "If you’re like me and you loveeeeee shortcuts, you know how satisfying it is to press a few keys and watch the magic happen. Whether it’s the familiar Ctrl+C - Ctrl+V that devs use to “borrow code” 😉 from LLMs and code pages, or the personalised sho...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-build-a-reusable-keyboard-shortcut-listener-component-in-react.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-build-a-reusable-keyboard-shortcut-listener-component-in-react.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

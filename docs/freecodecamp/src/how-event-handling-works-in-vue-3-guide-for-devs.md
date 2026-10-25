@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How Event Handling Works in Vue 3: A Guide for Developers"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-event-handling-works-in-vue-3-guide-for-devs.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-event-handling-works-in-vue-3-guide-for-devs.html
 prev: /programming/js-vue/articles/README.md
 date: 2024-09-12
 isOriginal: false
@@ -423,7 +423,7 @@ By using event modifiers and custom events, you can fine-tune how events are han
 {
   "title": "How Event Handling Works in Vue 3: A Guide for Developers",
   "desc": "Event handling in Vue 3 allows developers to respond to user interactions like clicks, key presses, form submissions, and more. Vue provides simple and flexible ways to manage these interactions, enabling you to build dynamic and engaging application...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-event-handling-works-in-vue-3-guide-for-devs.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-event-handling-works-in-vue-3-guide-for-devs.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

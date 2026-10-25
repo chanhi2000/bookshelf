@@ -28,7 +28,7 @@ head:
     - property: og:description
       content: "Mistake #2: Using the Wrong Loops (When There’s a Faster Alternative)"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/why-your-code-is-slow-common-performance-mistakes-beginners-make/mistake-2-using-the-wrong-loops-when-theres-a-faster-alternative.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/why-your-code-is-slow-common-performance-mistakes-beginners-make/mistake-2-using-the-wrong-loops-when-theres-a-faster-alternative.html
 date: 2025-03-29
 isOriginal: false
 author:

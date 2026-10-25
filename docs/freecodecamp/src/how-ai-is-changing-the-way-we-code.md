@@ -29,7 +29,7 @@ head:
     - property: og:description
       content: "How AI is Changing the Way We Code"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-ai-is-changing-the-way-we-code.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-ai-is-changing-the-way-we-code.html
 prev: /ai/articles/README.md
 date: 2025-08-15
 isOriginal: false
@@ -565,7 +565,7 @@ That’s not science fiction. That’s 2025.
 {
   "title": "How AI is Changing the Way We Code",
   "desc": "Something big is happening in the world of software development. In 2025, the way we write, read, and think about software has undergone a significant shift, and it’s not subtle. At the center of this shift is artificial intelligence. Just five years...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-ai-is-changing-the-way-we-code.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-ai-is-changing-the-way-we-code.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: "Use Transform and Opacity Properties to Implement Animations"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/the-front-end-performance-optimization-handbook/use-transform-and-opacity-properties-to-implement-animations.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/the-front-end-performance-optimization-handbook/use-transform-and-opacity-properties-to-implement-animations.html
 date: 2025-05-07
 isOriginal: false
 author:

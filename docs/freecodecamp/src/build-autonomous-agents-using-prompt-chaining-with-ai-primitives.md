@@ -30,7 +30,7 @@ head:
     - property: og:description
       content: "How to Build Autonomous Agents using Prompt Chaining with AI Primitives (No Frameworks)"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/build-autonomous-agents-using-prompt-chaining-with-ai-primitives.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-autonomous-agents-using-prompt-chaining-with-ai-primitives.html
 prev: /programming/js-node/articles/README.md
 date: 2025-04-22
 isOriginal: false
@@ -512,7 +512,7 @@ Connect with me by 🙌:
 {
   "title": "How to Build Autonomous Agents using Prompt Chaining with AI Primitives (No Frameworks)",
   "desc": "Autonomous agents might sound complex, but they don’t have to be. These are AI systems that can make decisions and take actions on their own to achieve a goal - usually by using LLMs, various tools, and memory to reason through a task. You can build ...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/build-autonomous-agents-using-prompt-chaining-with-ai-primitives.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-autonomous-agents-using-prompt-chaining-with-ai-primitives.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

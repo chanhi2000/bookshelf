@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: "Kubernetes Networking Tutorial: A Guide for Developers"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/kubernetes-networking-tutorial-for-developers.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/kubernetes-networking-tutorial-for-developers.html
 prev: /devops/k8s/articles/README.md
 date: 2025-06-24
 isOriginal: false
@@ -1328,7 +1328,7 @@ For more hands-on projects, follow and star this repository: [<VPIcon icon="icon
 {
   "title": "Kubernetes Networking Tutorial: A Guide for Developers",
   "desc": "Kubernetes networking is one of the most critical and complex parts of running containerized workloads in production. It’s what allows different parts of a Kubernetes system - like containers and services - to talk to each other. This tutorial will w...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/kubernetes-networking-tutorial-for-developers.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/kubernetes-networking-tutorial-for-developers.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

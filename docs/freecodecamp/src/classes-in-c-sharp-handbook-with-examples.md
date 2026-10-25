@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "The C# Class Handbook - Types of Classes with Code Examples"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/classes-in-c-sharp-handbook-with-examples.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/classes-in-c-sharp-handbook-with-examples.html
 prev: /programming/cs/articles/README.md
 date: 2024-12-21
 isOriginal: false
@@ -1058,7 +1058,7 @@ Whether you’re designing utility classes, defining abstract interfaces, or enc
 {
   "title": "The C# Class Handbook - Types of Classes with Code Examples",
   "desc": "Classes are the fundamental building blocks of object-oriented programming in C#. They allow you to create reusable and modular code by grouping related data and functions. Different types of classes serve various purposes. For instance, organizing y...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/classes-in-c-sharp-handbook-with-examples.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/classes-in-c-sharp-handbook-with-examples.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

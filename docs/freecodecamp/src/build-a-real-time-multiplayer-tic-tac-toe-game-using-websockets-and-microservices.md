@@ -25,7 +25,7 @@ head:
     - property: og:description
       content: "Build a Real-Time Multiplayer Tic-Tac-Toe Game Using WebSockets and Microservices"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/build-a-real-time-multiplayer-tic-tac-toe-game-using-websockets-and-microservices.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-a-real-time-multiplayer-tic-tac-toe-game-using-websockets-and-microservices.html
 prev: /programming/js-node/articles/README.md
 date: 2024-11-19
 isOriginal: false
@@ -521,7 +521,7 @@ Happy coding!
 {
   "title": "Build a Real-Time Multiplayer Tic-Tac-Toe Game Using WebSockets and Microservices",
   "desc": "In this tutorial, we’ll build a real-time multiplayer Tic-Tac-Toe game using Node.js, Socket.IO, and Redis. This game allows two players to connect from different browser tabs, take turns playing, and see real-time updates as they play. We'll use Red...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/build-a-real-time-multiplayer-tic-tac-toe-game-using-websockets-and-microservices.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-a-real-time-multiplayer-tic-tac-toe-game-using-websockets-and-microservices.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

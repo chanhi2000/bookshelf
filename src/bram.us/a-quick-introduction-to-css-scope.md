@@ -170,7 +170,7 @@ CSS Scope is [<VPIcon icon="fa-brands fa-chrome"/>shipping with Chrome 118](http
 
 ::: info 
 
-This post originally was a thread [on Twitter (<VPIcon icon="fa-brands fa-x-twiter"/>`bramus`)](https://x.com/bramus/status/1693559730084397286) and [on Mastodon (<VPIcon icon="iconfont icon-mastodon"/>`@bramus`)](https://front-end.social/@bramus/110927004589038994). Feel free to repost those threads to give them more reach.
+This post originally was a thread [on Twitter (<VPIcon icon="fa-brands fa-x-twiter"/>`bramus`)](https://x.com/bramus/status/1693559730084397286) and [on Mastodon (<VPIcon icon="fa-brands fa-mastodon"/>`@bramus`)](https://front-end.social/@bramus/110927004589038994). Feel free to repost those threads to give them more reach.
 
 :::
 

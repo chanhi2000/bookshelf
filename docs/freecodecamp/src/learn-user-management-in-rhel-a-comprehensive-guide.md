@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "Learn User Management in RHEL: A Comprehensive Guide"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/learn-user-management-in-rhel-a-comprehensive-guide.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-user-management-in-rhel-a-comprehensive-guide.html
 prev: /devops/linux-fedora/articles/README.md
 date: 2025-02-19
 isOriginal: false
@@ -493,7 +493,7 @@ Stay tuned for more articles. Get ready to take your RHEL skills to the next lev
 {
   "title": "Learn User Management in RHEL: A Comprehensive Guide",
   "desc": "Imagine you're throwing a house party. You wouldn’t hand out keys to every guest, right? Some friends can roam freely, some should probably stick to the living room, and a few—well, let’s just say they need supervision. Managing users in RHEL is kind...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/learn-user-management-in-rhel-a-comprehensive-guide.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-user-management-in-rhel-a-comprehensive-guide.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

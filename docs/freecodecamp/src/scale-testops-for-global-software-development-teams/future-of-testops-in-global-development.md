@@ -44,7 +44,7 @@ head:
     - property: og:description
       content: "Future of TestOps in Global Development"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/scale-testops-for-global-software-development-teams/future-of-testops-in-global-development.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/scale-testops-for-global-software-development-teams/future-of-testops-in-global-development.html
 next: /freecodecamp.org/scale-testops-for-global-software-development-teams/README.md#conclusion
 date: 2025-04-18
 isOriginal: false

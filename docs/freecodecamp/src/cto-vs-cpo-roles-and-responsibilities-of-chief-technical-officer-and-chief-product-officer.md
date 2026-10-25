@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "CTO vs. CPO: Roles and Responsibilities of Chief Technical Officer & Chief Product Officer"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/cto-vs-cpo-roles-and-responsibilities-of-chief-technical-officer-and-chief-product-officer.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/cto-vs-cpo-roles-and-responsibilities-of-chief-technical-officer-and-chief-product-officer.html
 prev: /academics/coen/articles/README.md
 date: 2025-04-17
 isOriginal: false
@@ -230,7 +230,7 @@ Effective collaboration between these roles is key to driving innovation and sta
 {
   "title": "CTO vs. CPO: Roles and Responsibilities of Chief Technical Officer & Chief Product Officer",
   "desc": "In the IT and product industries, the positions of Chief Technology Officer (CTO) and Chief Product Officer (CPO) are crucial. Although they take distinct approaches, they both prioritize customer satisfaction and corporate success. This article will...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/cto-vs-cpo-roles-and-responsibilities-of-chief-technical-officer-and-chief-product-officer.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/cto-vs-cpo-roles-and-responsibilities-of-chief-technical-officer-and-chief-product-officer.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

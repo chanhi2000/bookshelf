@@ -31,7 +31,7 @@ head:
     - property: og:description
       content: "Search Algorithms Explained with Examples in Java, Python, and C++"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/search-algorithms-explained-with-examples-in-java-python-and-c.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/search-algorithms-explained-with-examples-in-java-python-and-c.html
 prev: /academics/coen/articles/README.md
 date: 2019-12-14
 isOriginal: false
@@ -707,7 +707,7 @@ int binarySearch(int[] arr, int start,int end , int element)
 {
   "title": "Search Algorithms Explained with Examples in Java, Python, and C++",
   "desc": "What is a Search Algorithm? This kind of algorithm looks at the problem of re-arranging an array of items in ascending order. The two most classical examples of that is the binary search and the merge sort algorithm. Exponential Search Exponential Se...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/search-algorithms-explained-with-examples-in-java-python-and-c.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/search-algorithms-explained-with-examples-in-java-python-and-c.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

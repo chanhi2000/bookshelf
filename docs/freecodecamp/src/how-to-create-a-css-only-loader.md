@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: "How to Create a CSS-Only Loader Using One Element"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-create-a-css-only-loader.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-create-a-css-only-loader.html
 prev: /programming/css/articles/README.md
 date: 2022-01-15
 isOriginal: false
@@ -413,7 +413,7 @@ Find below useful links to get more detail about some properties I have used tha
 {
   "title": "How to Create a CSS-Only Loader Using One Element",
   "desc": "If you have a website, it's helpful to have a loader so users can tell something is happening once they've clicked a link or button. You can use this loader component in a lot of places, and it should be as simple as possible. In this post, we will s...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-create-a-css-only-loader.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-create-a-css-only-loader.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

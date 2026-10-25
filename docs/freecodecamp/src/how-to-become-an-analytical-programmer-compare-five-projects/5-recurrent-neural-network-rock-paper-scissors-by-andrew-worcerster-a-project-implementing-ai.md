@@ -22,7 +22,7 @@ head:
     - property: og:description
       content: "“Recurrent Neural Network - Rock, Paper, Scissors” by Andrew Worcerster: A Project Implementing AI"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-become-an-analytical-programmer-compare-five-projects/5-recurrent-neural-network-rock-paper-scissors-by-andrew-worcerster-a-project-implementing-ai.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-become-an-analytical-programmer-compare-five-projects/5-recurrent-neural-network-rock-paper-scissors-by-andrew-worcerster-a-project-implementing-ai.html
 next: /freecodecamp.org/how-to-become-an-analytical-programmer-compare-five-projects/README.md#final-toughts
 date: 2025-05-12
 isOriginal: false

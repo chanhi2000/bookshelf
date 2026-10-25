@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "How to Use Design Patterns in Java with Spring Boot - Explained with Code Examples"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-use-design-patterns-in-java-with-spring-boot.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-use-design-patterns-in-java-with-spring-boot.html
 prev: /programming/java-spring/articles/README.md
 date: 2024-11-15
 isOriginal: false
@@ -842,7 +842,7 @@ I hope this guide has helped you understand how to effectively use design patter
 {
   "title": "How to Use Design Patterns in Java with Spring Boot - Explained with Code Examples",
   "desc": "As software projects grow, it becomes increasingly important to keep your code organized, maintainable, and scalable. This is where design patterns come into play. Design patterns provide proven, reusable solutions to common software design challenge...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-use-design-patterns-in-java-with-spring-boot.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-use-design-patterns-in-java-with-spring-boot.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

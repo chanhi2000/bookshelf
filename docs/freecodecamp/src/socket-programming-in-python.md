@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "What is Socket Programming in Python?"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/socket-programming-in-python.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/socket-programming-in-python.html
 prev: /programming/py/articles/README.md
 date: 2023-05-25
 isOriginal: false
@@ -202,7 +202,7 @@ In this tutorial, We understood socket is one of the most fundamental technologi
 {
   "title": "What is Socket Programming in Python?",
   "desc": "In this article, you will learn how to code a socket program in Python. But before that, let's understand what a socket is and where you might use it. We can define a socket as a quick connection which allows the transmission of data between two proc...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/socket-programming-in-python.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/socket-programming-in-python.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

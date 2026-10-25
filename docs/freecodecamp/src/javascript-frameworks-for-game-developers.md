@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: "Powerful JavaScript Frameworks for Game Developers"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/javascript-frameworks-for-game-developers.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/javascript-frameworks-for-game-developers.html
 prev: /programming/js-node/articles/README.md
 date: 2025-07-01
 isOriginal: false
@@ -177,7 +177,7 @@ Hope you enjoyed this article. If you're into game development, check out the [<
 {
   "title": "Powerful JavaScript Frameworks for Game Developers",
   "desc": "Getting into game development with JavaScript can be a blast. JS is fast, flexible, and works right in the browser.  Whether you’re making a small puzzle game or a full 3D experience, JavaScript has the tools to help you bring your ideas to life.  Bu...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/javascript-frameworks-for-game-developers.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/javascript-frameworks-for-game-developers.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

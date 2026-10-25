@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "How to Build a Tic Tac Toe Game with Phaser.js"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-build-a-tic-tac-toe-game-with-phaserjs.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-build-a-tic-tac-toe-game-with-phaserjs.html
 prev: /programming/js/articles/README.md
 date: 2025-08-21
 isOriginal: false
@@ -398,7 +398,7 @@ If you enjoy online games, check out [<VPIcon icon="fas fa-globe"/>GameBoost](ht
 {
   "title": "How to Build a Tic Tac Toe Game with Phaser.js",
   "desc": "Tic-Tac-Toe is a great project for beginners who want to learn how to build games. It’s simple to understand but gives you the chance to learn about game state, player turns, winning logic, and user input. In this tutorial, you’ll learn how to build ...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-build-a-tic-tac-toe-game-with-phaserjs.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-build-a-tic-tac-toe-game-with-phaserjs.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

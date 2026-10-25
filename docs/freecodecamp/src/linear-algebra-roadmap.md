@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: "Practical Guide to Linear Algebra in Data Science and AI"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/linear-algebra-roadmap.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/linear-algebra-roadmap.html
 prev: /academics/math/articles/README.md
 date: 2024-06-05
 isOriginal: false
@@ -374,7 +374,7 @@ Thank you for choosing this guide as your learning companion. As you continue to
 {
   "title": "Practical Guide to Linear Algebra in Data Science and AI",
   "desc": "”In God we trust; all others bring data.” – W. Edwards Deming This famous quote from Edwards Deming perfectly captures the essence of modern Data Science and AI. Data is the lifeblood of Data Science and AI fields – Machine Learning, Deep Learning, ...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/linear-algebra-roadmap.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/linear-algebra-roadmap.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

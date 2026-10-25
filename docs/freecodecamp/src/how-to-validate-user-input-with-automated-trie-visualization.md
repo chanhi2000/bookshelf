@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: "How Trie Data Structures Work - Validate User Input with Automated Trie Visualization"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-validate-user-input-with-automated-trie-visualization.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-validate-user-input-with-automated-trie-visualization.html
 prev: /programming/py/articles/README.md
 date: 2023-04-06
 isOriginal: false
@@ -390,7 +390,7 @@ In conclusion, by embracing visualization as a key component of our development 
 {
   "title": "How Trie Data Structures Work - Validate User Input with Automated Trie Visualization",
   "desc": "Data structures play a vital role in computer science. They are essential for designing efficient software infrastructure.  Simply put, a data structure is a way of organizing and storing data in a computer so that it can be accessed and manipulated ...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-validate-user-input-with-automated-trie-visualization.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-validate-user-input-with-automated-trie-visualization.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

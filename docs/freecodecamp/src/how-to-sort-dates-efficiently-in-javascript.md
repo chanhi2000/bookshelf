@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "How to Sort Dates Efficiently in JavaScript"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-sort-dates-efficiently-in-javascript.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-sort-dates-efficiently-in-javascript.html
 prev: /programming/js/articles/README.md
 date: 2025-05-30
 isOriginal: false
@@ -243,7 +243,7 @@ The original data is preserved and the performance falls well within what is per
 {
   "title": "How to Sort Dates Efficiently in JavaScript",
   "desc": "Recently, I was working on a PowerApps Component Framework (PCF) project that required sorting an array of objects by date. The dates were in ISO 8601 format but without a time zone - for example, ”2025-05-01T15:00:00.00”. Without much thought, I wro...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-sort-dates-efficiently-in-javascript.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-sort-dates-efficiently-in-javascript.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

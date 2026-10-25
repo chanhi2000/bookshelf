@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: "How to Set Up Google Authentication in Laravel Applications"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-set-up-google-auth-in-laravel-apps.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-set-up-google-auth-in-laravel-apps.html
 prev: /programming/php/articles/README.md
 date: 2024-12-04
 isOriginal: false
@@ -388,7 +388,7 @@ I hope this article helps you with setting up Google Login with Laravel.
 {
   "title": "How to Set Up Google Authentication in Laravel Applications",
   "desc": "In this digital world, it’s important for your applications to have a smooth and secure authentication process. This helps improve user experience and the overall security of your apps. Google Authentication is among the most trusted and convenient w...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-set-up-google-auth-in-laravel-apps.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-set-up-google-auth-in-laravel-apps.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

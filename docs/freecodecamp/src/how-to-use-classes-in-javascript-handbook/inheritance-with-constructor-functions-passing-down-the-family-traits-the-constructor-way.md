@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: "Inheritance with Constructor Functions: Passing Down the Family Traits (the Constructor Way)"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-use-classes-in-javascript-handbook/inheritance-with-constructor-functions-passing-down-the-family-traits-the-constructor-way.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-use-classes-in-javascript-handbook/inheritance-with-constructor-functions-passing-down-the-family-traits-the-constructor-way.html
 date: 2025-02-18
 isOriginal: false
 author:

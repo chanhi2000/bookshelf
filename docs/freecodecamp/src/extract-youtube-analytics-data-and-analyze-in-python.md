@@ -24,7 +24,7 @@ head:
     - property: og:description
       content: "How to Extract  YouTube Analytics Data and Analyze in Python"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/extract-youtube-analytics-data-and-analyze-in-python.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/extract-youtube-analytics-data-and-analyze-in-python.html
 prev: /programming/py-pandas/articles/README.md
 date: 2025-03-27
 isOriginal: false
@@ -294,7 +294,7 @@ If you find this article interesting, don’t forget to check out my [<VPIcon ic
 {
   "title": "How to Extract  YouTube Analytics Data and Analyze in Python",
   "desc": "If you’re a YouTube content creator, you’ll make data-driven decisions when posting content. This helps you target the right audience when creating your videos. YouTube Studio provides YouTube Analytics, where you can get comprehensive data about you...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/extract-youtube-analytics-data-and-analyze-in-python.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/extract-youtube-analytics-data-and-analyze-in-python.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

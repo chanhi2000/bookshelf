@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "Mobile App Development with React Native"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/mobile-app-development-with-react-native.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/mobile-app-development-with-react-native.html
 prev: /programming/js-react/articles/README.md
 date: 2024-12-30
 isOriginal: false
@@ -123,7 +123,7 @@ Ready to start your mobile app development journey? Check out the full course on
 {
   "title": "Mobile App Development with React Native",
   "desc": "Mobile app development has become an essential skill in today’s digital landscape, and React Native is one of the leading tools for creating powerful, cross-platform mobile apps. React Native combines the best parts of React and native app developmen...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/mobile-app-development-with-react-native.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/mobile-app-development-with-react-native.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

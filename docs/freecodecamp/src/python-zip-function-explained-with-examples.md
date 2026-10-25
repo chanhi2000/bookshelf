@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "Python’s zip() Function Explained with Simple Examples"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/python-zip-function-explained-with-examples.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/python-zip-function-explained-with-examples.html
 prev: /programming/py/articles/README.md
 date: 2024-10-10
 isOriginal: false
@@ -252,7 +252,7 @@ Happy coding!
 {
   "title": "Python’s zip() Function Explained with Simple Examples",
   "desc": "The zip() function in Python is a neat tool that allows you to combine multiple lists or other iterables (like tuples, sets, or even strings) into one iterable of tuples. Think of it like a zipper on a jacket that brings two sides together. In this g...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/python-zip-function-explained-with-examples.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/python-zip-function-explained-with-examples.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

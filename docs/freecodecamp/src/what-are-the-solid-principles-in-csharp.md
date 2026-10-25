@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "What are the SOLID Principles in C#? Explained With Code Examples"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/what-are-the-solid-principles-in-csharp.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/what-are-the-solid-principles-in-csharp.html
 prev: /programming/cs/articles/README.md
 date: 2024-10-25
 isOriginal: false
@@ -664,7 +664,7 @@ Thanks for reading,
 {
   "title": "What are the SOLID Principles in C#? Explained With Code Examples",
   "desc": "The SOLID Principles are five software design principles that help you to write high quality, flexible, maintainable, reusable, testable, and readable software. If you plan to work with object-oriented software, it is crucial to understand these five...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/what-are-the-solid-principles-in-csharp.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/what-are-the-solid-principles-in-csharp.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

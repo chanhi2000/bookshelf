@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "How Bag of Words Works - The Foundation of Language Models"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-bag-of-words-works.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-bag-of-words-works.html
 prev: /programming/py/articles/README.md
 date: 2025-08-25
 isOriginal: false
@@ -188,7 +188,7 @@ Large language models may seem like magic, but their roots go back to Bag of Wor
 {
   "title": "How Bag of Words Works - The Foundation of Language Models",
   "desc": "When people talk about modern AI, they often point to large language models like ChatGPT. These models seem smart, as they’re able to write, answer, and explain in natural language. But the roots of this technology go back to something very simple: t...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-bag-of-words-works.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-bag-of-words-works.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "How to Use Classes in JavaScript - A Handbook for Beginners"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-use-classes-in-javascript-handbook
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-use-classes-in-javascript-handbook
 prev: /programming/js/articles/README.md
 date: 2025-02-18
 isOriginal: false
@@ -199,7 +199,7 @@ If you have any questions, feel free to find me on Twitter at [<VPIcon icon="fa-
 {
   "title": "How to Use Classes in JavaScript - A Handbook for Beginners",
   "desc": "Are you curious about classes in JavaScript but feel a little puzzled about how they work or why you'd even use them? If that's you, then you're definitely in the right place. Lots of developers find classes a bit tricky at first, and honestly, I was...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-use-classes-in-javascript-handbook.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-use-classes-in-javascript-handbook.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

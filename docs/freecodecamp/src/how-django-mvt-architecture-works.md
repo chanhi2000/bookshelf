@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "How Django's MVT Architecture Works: A Deep Dive into Models, Views, and Templates"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-django-mvt-architecture-works.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-django-mvt-architecture-works.html
 prev: /programming/py-django/articles/README.md
 date: 2024-12-11
 isOriginal: false
@@ -459,7 +459,7 @@ See you on the next one!
 {
   "title": "How Django's MVT Architecture Works: A Deep Dive into Models, Views, and Templates",
   "desc": "Django is a high-level Python framework. It’s popular for its simplicity and efficiency in building robust web applications. At the heart of Django’s architecture is the Model-View-Template (MVT) pattern. Having a good understanding of how Models, Vi...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-django-mvt-architecture-works.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-django-mvt-architecture-works.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

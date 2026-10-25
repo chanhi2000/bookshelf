@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: "How to Build Simpler Accordion Menus with HTML <details>"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-build-simpler-accordion-menus-with-html-details.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-build-simpler-accordion-menus-with-html-details.html
 prev: /articles/README.md
 date: 2025-07-21
 isOriginal: false
@@ -256,7 +256,7 @@ Here are some helpful resources:
 {
   "title": "How to Build Simpler Accordion Menus with HTML <details>",
   "desc": "Accordion menus are everywhere on the web because users want fast answers and smooth navigation. They help create clean, organized, and user-friendly interfaces. Many developers still reach for JavaScript to build accordions, which adds avoidable com...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-build-simpler-accordion-menus-with-html-details.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-build-simpler-accordion-menus-with-html-details.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

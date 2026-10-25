@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "What is Unicode —The Secret Language Behind Every Text You See"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/what-is-unicode-the-secret-language-behind-every-text-you-see.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/what-is-unicode-the-secret-language-behind-every-text-you-see.html
 prev: /academics/coen/articles/README.md
 date: 2025-07-31
 isOriginal: false
@@ -235,7 +235,7 @@ So the next time you post an emoji, read a message in a different script, or swi
 {
   "title": "What is Unicode —The Secret Language Behind Every Text You See",
   "desc": "Have you ever sent a message with an emoji? Read a blog in another language? Or copied some strange symbol from the internet?  All of these are possible because of something called Unicode.  Unicode is a powerful system that lets computers understand...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/what-is-unicode-the-secret-language-behind-every-text-you-see.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/what-is-unicode-the-secret-language-behind-every-text-you-see.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

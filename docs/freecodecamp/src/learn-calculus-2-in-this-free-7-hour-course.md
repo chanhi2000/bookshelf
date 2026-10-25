@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "Learn Calculus 2 in This Free 7-Hour Course"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/learn-calculus-2-in-this-free-7-hour-course.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-calculus-2-in-this-free-7-hour-course.html
 prev: /academcis/math/articles/README.md
 date: 2020-09-14
 isOriginal: false
@@ -128,7 +128,7 @@ Check out our [<VPIcon icon="fa-brands fa-youtube"/>mathematics playlist](https:
 {
   "title": "Learn Calculus 2 in This Free 7-Hour Course",
   "desc": "There are many types of software development that require high level mathematics such as graphics simulations and some types of machine learning.  We are helping people learn the mathematics they need by posting a series of college-level courses on t...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/learn-calculus-2-in-this-free-7-hour-course.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-calculus-2-in-this-free-7-hour-course.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

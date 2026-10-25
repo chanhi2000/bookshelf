@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to Build an Upload Service in Flutter Web with Firebase"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-build-an-upload-service-in-flutter-web-with-firebase.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-build-an-upload-service-in-flutter-web-with-firebase.html
 prev: /articles/README.md
 date: 2025-09-06
 isOriginal: false
@@ -660,7 +660,7 @@ This foundation makes it easy to extend the service further, for example by addi
 {
   "title": "How to Build an Upload Service in Flutter Web with Firebase",
   "desc": "Uploading files is one of the most common requirements in modern web applications. Whether it’s profile pictures, documents, or bulk uploads, users expect a smooth and reliable experience. With Flutter Web and Firebase Storage, you can implement this...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-build-an-upload-service-in-flutter-web-with-firebase.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-build-an-upload-service-in-flutter-web-with-firebase.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

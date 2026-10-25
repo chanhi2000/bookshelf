@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "A Brief Introduction to SQLite"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/a-brief-introduction-to-sqlite.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/a-brief-introduction-to-sqlite.html
 prev: /data-science/sqlite/articles/README.md
 date: 2025-09-19
 isOriginal: false
@@ -223,7 +223,7 @@ If you've found this tutorial helpful, consider supporting my work through [<VPI
 {
   "title": "A Brief Introduction to SQLite",
   "desc": "SQLite is one of the most underappreciated tools in a developer's toolkit. It's a full-featured relational database that runs directly in your application. No server setup. No configuration files. No network protocols. Just a simple library that give...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/a-brief-introduction-to-sqlite.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/a-brief-introduction-to-sqlite.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

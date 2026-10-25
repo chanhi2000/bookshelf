@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "Queue Data Structure - Definition and Java Example Code"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/queue-data-structure-definition-and-java-example-code.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/queue-data-structure-definition-and-java-example-code.html
 prev: /programming/java/articles/README.md
 date: 2022-03-04
 isOriginal: false
@@ -343,7 +343,7 @@ Thank you for reading and happy coding!
 {
   "title": "Queue Data Structure - Definition and Java Example Code",
   "desc": "In this article, we will talk about the queue data structure, its operations, and how to implement these operations using an array in Java.  What Is a Queue? A queue is linear data structure that consists of a collection is of items that follow a fir...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/queue-data-structure-definition-and-java-example-code.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/queue-data-structure-definition-and-java-example-code.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

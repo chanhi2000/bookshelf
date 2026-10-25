@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: "Hold on a second. Are we saying functions are bad now?"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-use-classes-in-javascript-handbook/hold-on-a-second-are-we-saying-functions-are-bad-now.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-use-classes-in-javascript-handbook/hold-on-a-second-are-we-saying-functions-are-bad-now.html
 date: 2025-02-18
 isOriginal: false
 author:

@@ -27,7 +27,7 @@ head:
     - property: og:description
       content: "Build a Semantic Book Recommender Using an LLM and Python"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/build-a-semantic-book-recommender-using-an-llm-and-python.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-a-semantic-book-recommender-using-an-llm-and-python.html
 prev: /ai/llm/articles/README.md
 date: 2025-01-28
 isOriginal: false
@@ -105,7 +105,7 @@ Ready to build your own intelligent book recommendation engine? Check out the [<
 {
   "title": "Build a Semantic Book Recommender Using an LLM and Python",
   "desc": "Finding your next favorite book can be a challenge, but what if you could build a smart system that recommends books tailored to your interests? With the power of large language models (LLMs) and Python, you can create an intelligent book recommendat...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/build-a-semantic-book-recommender-using-an-llm-and-python.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-a-semantic-book-recommender-using-an-llm-and-python.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

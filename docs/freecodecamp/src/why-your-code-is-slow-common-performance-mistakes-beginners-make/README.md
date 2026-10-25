@@ -32,7 +32,7 @@ head:
     - property: og:description
       content: "Why Your Code is Slow: Common Performance Mistakes Beginners Make"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/why-your-code-is-slow-common-performance-mistakes-beginners-make.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/why-your-code-is-slow-common-performance-mistakes-beginners-make.html
 prev: /programming/py/articles/README.md
 date: 2025-03-29
 isOriginal: false
@@ -232,7 +232,7 @@ Happy coding! 😊
 {
   "title": "Why Your Code is Slow: Common Performance Mistakes Beginners Make",
   "desc": "Maybe you’ve experienced something like this before: you’ve written code that works, but when you hit “run,” it takes forever. You stare at the spinner, wondering if it’s faster to just solve the problem by hand. But you end up looking something like...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/why-your-code-is-slow-common-performance-mistakes-beginners-make.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/why-your-code-is-slow-common-performance-mistakes-beginners-make.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

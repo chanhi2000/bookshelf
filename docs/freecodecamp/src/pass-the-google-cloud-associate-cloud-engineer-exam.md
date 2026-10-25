@@ -25,7 +25,7 @@ head:
     - property: og:description
       content: "Pass the Google Cloud Associate Cloud Engineer Exam"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/pass-the-google-cloud-associate-cloud-engineer-exam.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/pass-the-google-cloud-associate-cloud-engineer-exam.html
 prev: /devops/gcp/articles/README.md
 date: 2025-08-08
 isOriginal: false
@@ -89,7 +89,7 @@ Watch the full course on [<VPIcon icon="fa-brands fa-youtube"/>the freeCodeCamp.
 {
   "title": "Pass the Google Cloud Associate Cloud Engineer Exam",
   "desc": "Prepare for the Google Cloud Associate Cloud Engineer (ACE) exam and pass! We just published an updated Google Cloud Associate Cloud Engineer course on the freeCodeCamp.org YouTube channel. Andrew Brown from ExamPro developed this course. Associate C...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/pass-the-google-cloud-associate-cloud-engineer-exam.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/pass-the-google-cloud-associate-cloud-engineer-exam.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

@@ -30,7 +30,7 @@ head:
     - property: og:description
       content: "How to Build a Full Stack App with AWS Amplify and React"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/ultimate-guide-to-aws-amplify-and-reacxt.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/ultimate-guide-to-aws-amplify-and-reacxt.html
 prev: /programming/js-react/articles/README.md
 date: 2020-11-10
 isOriginal: false
@@ -789,7 +789,7 @@ If you've liked this article (and accompanying videos) and want to help me out, 
 {
   "title": "How to Build a Full Stack App with AWS Amplify and React",
   "desc": "By Sam Williams AWS Amplify is a tool developed by Amazon Web Services that helps make app development easier.  It includes loads of features which allow you to quickly and easily work with other AWS services. This means you can spend more time build...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/ultimate-guide-to-aws-amplify-and-reacxt.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/ultimate-guide-to-aws-amplify-and-reacxt.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

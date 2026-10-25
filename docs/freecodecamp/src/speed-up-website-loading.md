@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: "How to Speed Up Website Loading by Removing Extra Bits and Bytes"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/speed-up-website-loading.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/speed-up-website-loading.html
 prev: /devops/articles/README.md
 date: 2025-02-25
 isOriginal: false
@@ -320,7 +320,7 @@ By using these strategies and tools, you’ll be able to speed up page loading i
 {
   "title": "How to Speed Up Website Loading by Removing Extra Bits and Bytes",
   "desc": "Let’s start with an interesting fact: according to research done by Akamai, a 1-second delay in loading a website’s page can decrease the conversion rate by 7%. We are currently living in a fast-paced world, where time is money for everyone. People e...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/speed-up-website-loading.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/speed-up-website-loading.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

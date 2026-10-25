@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "What is New in Go 1.25? Explained with Examples"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/what-is-new-in-go.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/what-is-new-in-go.html
 prev: /programming/go/articles/README.md
 date: 2025-09-06
 isOriginal: false
@@ -249,7 +249,7 @@ Go 1.25 brings meaningful improvements across performance, correctness, and deve
 {
   "title": "What is New in Go 1.25? Explained with Examples",
   "desc": "Go 1.25 isn’t a flashy release with big syntax changes. Instead, it’s a practical one: it fixes long-standing pitfalls, improves runtime safety, adds smarter tooling, and introduces a powerful new JSON engine. These are the kind of updates that make ...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/what-is-new-in-go.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/what-is-new-in-go.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

@@ -29,7 +29,7 @@ head:
     - property: og:description
       content: "How to Deploy a Kotlin Microservice to AWS with App Runner"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/kotlin-aws-app-runner.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/kotlin-aws-app-runner.html
 prev: /devops/docker/articles/README.md
 date: 2022-04-15
 isOriginal: false
@@ -498,7 +498,7 @@ If you would like to ask me about anything, please reach out to me at [<VPIcon i
 {
   "title": "How to Deploy a Kotlin Microservice to AWS with App Runner",
   "desc": "By Piotr Wolak Hello, everyone. In this step-by-step tutorial, I would like to show you how to deploy a Kotlin Microservice using Docker and AWS App Runner.  Together, we will learn: what exactly is AWS App Runner?  how to configure AWS Command Line...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/kotlin-aws-app-runner.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/kotlin-aws-app-runner.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

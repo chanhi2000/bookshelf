@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "The Role of Data in Today's Digital World"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-design-structured-database-systems-using-sql-full-book/the-role-of-data-in-todays-digital-world.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-design-structured-database-systems-using-sql-full-book/the-role-of-data-in-todays-digital-world.html
 date: 2025-08-14
 isOriginal: false
 author:

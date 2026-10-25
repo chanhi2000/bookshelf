@@ -27,7 +27,7 @@ head:
     - property: og:description
       content: "Learn Elasticsearch with a Comprehensive Beginner-Friendly Course"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/learn-elasticsearch-with-a-comprehensive-beginner-friendly-course.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-elasticsearch-with-a-comprehensive-beginner-friendly-course.html
 prev: /programming/java-elasticsearch/articles/README.md
 date: 2024-12-13
 isOriginal: false
@@ -122,7 +122,7 @@ You can watch the full course on [<VPIcon icon="fa-brands fa-youtube"/>the freeC
 {
   "title": "Learn Elasticsearch with a Comprehensive Beginner-Friendly Course",
   "desc": "Search functionality is one of the most critical features of modern applications, whether you're building websites, e-commerce platforms, or data-driven applications. But how do you create powerful and efficient search engines that can handle vast am...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/learn-elasticsearch-with-a-comprehensive-beginner-friendly-course.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-elasticsearch-with-a-comprehensive-beginner-friendly-course.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

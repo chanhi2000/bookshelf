@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "How Python Magic Methods Work: A Practical Guide"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/python-magic-methods-practical-guide/
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/python-magic-methods-practical-guide/
 prev: /programming/py/articles/README.md
 date: 2025-03-21
 isOriginal: false
@@ -306,7 +306,7 @@ If you enjoyed this article, you might find these Python-related articles on my 
 {
   "title": "How Python Magic Methods Work: A Practical Guide",
   "desc": "Have you ever wondered how Python makes objects work with operators like + or -? Or how it knows how to display objects when you print them? The answer lies in Python's magic methods, also known as dunder (double under) methods. Magic methods are spe...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/python-magic-methods-practical-guide.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/python-magic-methods-practical-guide.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

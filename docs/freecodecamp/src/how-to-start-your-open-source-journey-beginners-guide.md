@@ -22,7 +22,7 @@ head:
     - property: og:description
       content: "How to Start Your Open Source Journey: A Beginner's Guide to Contributing"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-start-your-open-source-journey-beginners-guide.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-start-your-open-source-journey-beginners-guide.html
 prev: /devops/github/articles/README.md
 date: 2024-10-03
 isOriginal: false

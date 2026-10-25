@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "Learn TypeScript - A Handbook for Developers"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/learn-typescript-with-react-handbook/
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-typescript-with-react-handbook/
 prev: /programming/ts/articles/README.md
 date: 2025-02-08
 isOriginal: false
@@ -210,7 +210,7 @@ We also covered some advanced topics such as union and any types, readonly prope
 {
   "title": "Learn TypeScript - A Handbook for Developers",
   "desc": "This handbook will teach you the basics of TypeScript, including what it is, why it is useful, and the key features it offers. TypeScript was created by Anders Hejlsberg, a prominent software engineer at Microsoft who’s also known for his work on C# ...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/learn-typescript-with-react-handbook.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-typescript-with-react-handbook.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

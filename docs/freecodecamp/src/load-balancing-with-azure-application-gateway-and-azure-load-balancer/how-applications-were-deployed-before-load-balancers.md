@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: "🖥️ How Applications Were Deployed Before Load Balancers"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/load-balancing-with-azure-application-gateway-and-azure-load-balancer/how-applications-were-deployed-before-load-balancers.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/load-balancing-with-azure-application-gateway-and-azure-load-balancer/how-applications-were-deployed-before-load-balancers.html
 date: 2025-05-15
 isOriginal: false
 author:

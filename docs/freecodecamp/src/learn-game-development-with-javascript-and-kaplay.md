@@ -22,7 +22,7 @@ head:
     - property: og:description
       content: "Learn Game Development with JavaScript and Kaplay"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/learn-game-development-with-javascript-and-kaplay.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-game-development-with-javascript-and-kaplay.html
 prev: /programming/js-node/articles/README.md
 date: 2024-12-20
 isOriginal: false
@@ -102,7 +102,7 @@ If you're ready to get started with game development, check out the [<VPIcon ico
 {
   "title": "Learn Game Development with JavaScript and Kaplay",
   "desc": "Game development is an exciting way to bring your creative ideas to life. If you're new to coding or want to expand your skills, JavaScript is one of the best programming languages to learn. JavaScript is versatile and widely used for web-based games...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/learn-game-development-with-javascript-and-kaplay.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-game-development-with-javascript-and-kaplay.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: "IPv4 Header"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-ipv4-works-a-handbook-for-developers/ipv4-header.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-ipv4-works-a-handbook-for-developers/ipv4-header.html
 date: 2025-05-01
 isOriginal: false
 author:

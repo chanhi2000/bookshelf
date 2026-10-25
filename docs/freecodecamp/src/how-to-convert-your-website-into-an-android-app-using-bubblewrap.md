@@ -24,7 +24,7 @@ head:
     - property: og:description
       content: "How to Convert Your Website into an Android App Using Bubblewrap"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-convert-your-website-into-an-android-app-using-bubblewrap.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-convert-your-website-into-an-android-app-using-bubblewrap.html
 prev: /programming/js-node/articles/README.md
 date: 2025-08-20
 isOriginal: false
@@ -435,7 +435,7 @@ Thank you for reading!
 {
   "title": "How to Convert Your Website into an Android App Using Bubblewrap",
   "desc": "If you are a web developer who doesn’t know about App Development (like me!), then this article is for you. I’ll teach you how to turn your website into a native app, without new frameworks or languages. You’ll learn how to convert a website to a PWA...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-convert-your-website-into-an-android-app-using-bubblewrap.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-convert-your-website-into-an-android-app-using-bubblewrap.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

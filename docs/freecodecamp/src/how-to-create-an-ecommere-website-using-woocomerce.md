@@ -24,7 +24,7 @@ head:
     - property: og:description
       content: "How to Create an eCommerce Website Using WooCommerce"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-create-an-ecommere-website-using-woocomerce.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-create-an-ecommere-website-using-woocomerce.html
 prev: /programming/php/articles/README.md
 date: 2022-03-03
 isOriginal: false
@@ -98,7 +98,7 @@ Watch the full course below or [<VPIcon icon="fa-brands fa-youtube"/>on the free
 {
   "title": "How to Create an eCommerce Website Using WooCommerce",
   "desc": "Creating your own eCommerce website is easier than you may think. You don't even need to know how to code. I just created and published a course on the freeCodeCamp.org YouTube channel that will teach you how to build an online store with WooCommerce...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-create-an-ecommere-website-using-woocomerce.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-create-an-ecommere-website-using-woocomerce.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

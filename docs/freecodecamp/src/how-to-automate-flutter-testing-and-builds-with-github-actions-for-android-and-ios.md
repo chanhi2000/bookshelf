@@ -25,7 +25,7 @@ head:
     - property: og:description
       content: "How to Automate Flutter Testing and Builds with GitHub Actions for Android and iOS"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-automate-flutter-testing-and-builds-with-github-actions-for-android-and-ios.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-automate-flutter-testing-and-builds-with-github-actions-for-android-and-ios.html
 prev: /devops/github/articles/README.md
 date: 2025-08-22
 isOriginal: false
@@ -501,7 +501,7 @@ For more details, see the official GitHub Actions documentation:
 {
   "title": "How to Automate Flutter Testing and Builds with GitHub Actions for Android and iOS",
   "desc": "GitHub Actions is a CI/CD (Continuous Integration and Continuous Deployment) tool built directly into GitHub. It allows developers to define workflows, which are sequences of automated steps triggered by events such as pushing code, opening pull requ...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-automate-flutter-testing-and-builds-with-github-actions-for-android-and-ios.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-automate-flutter-testing-and-builds-with-github-actions-for-android-and-ios.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

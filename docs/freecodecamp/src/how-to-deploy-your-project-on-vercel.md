@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: "How to Deploy Your Project On Vercel With A Custom Domain"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-deploy-your-project-on-vercel.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-deploy-your-project-on-vercel.html
 prev: /devops/vercel/articles/README.md
 date: 2024-10-26
 isOriginal: false
@@ -200,7 +200,7 @@ If you’ve read up to this point, I want to say a very big congratulations, and
 {
   "title": "How to Deploy Your Project On Vercel With A Custom Domain",
   "desc": "Have you ever built a project but found it difficult to make it live on the internet? Well, worry no more because this article will help you do that. In this article, I will introduce you to one of the fastest and easiest deployment platforms for bri...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-deploy-your-project-on-vercel.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-deploy-your-project-on-vercel.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

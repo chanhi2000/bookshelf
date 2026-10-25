@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: "How to Strengthen Your Code: Essential Secure Design Principles for Developers"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/essential-secure-design-principles-for-developers.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/essential-secure-design-principles-for-developers.html
 prev: /academics/system-design/articles/README.md
 date: 2024-10-10
 isOriginal: false
@@ -198,7 +198,7 @@ The latest OWASP Top 10 emphasizes the critical role of design by [<VPIcon icon=
 {
   "title": "How to Strengthen Your Code: Essential Secure Design Principles for Developers",
   "desc": "Secure design principles have long been the foundation for building secure systems. And they remain a crucial aspect of modern cybersecurity. Introduced in 1975 by Saltzer and Schroeder in their landmark paper The Protection of Information in Compute...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/essential-secure-design-principles-for-developers.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/essential-secure-design-principles-for-developers.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

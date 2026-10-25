@@ -24,7 +24,7 @@ head:
     - property: og:description
       content: "How to Deploy a Restful Web Service on Microsoft Azure App Service"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/deploy-a-restful-web-service-on-microsoft-azure-app-service.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/deploy-a-restful-web-service-on-microsoft-azure-app-service.html
 prev: /devops/azure/articles/README.md
 date: 2025-03-29
 isOriginal: false
@@ -454,7 +454,7 @@ Stay tuned for more insightful content, and let's continue learning and growing 
 {
   "title": "How to Deploy a Restful Web Service on Microsoft Azure App Service",
   "desc": "Hey there! 👋, How’s it going? I hope you're doing well. Whether you're a seasoned coder, a curious learner, or just someone browsing through, welcome to my little corner of the internet. In this tutorial, we’ll dive into how you can deploy a web ser...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/deploy-a-restful-web-service-on-microsoft-azure-app-service.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/deploy-a-restful-web-service-on-microsoft-azure-app-service.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

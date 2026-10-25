@@ -16,7 +16,7 @@ head:
     - property: og:description
       content: "What is Accessibility?"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/the-web-accessibility-handbook/what-is-accessibility.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/the-web-accessibility-handbook/what-is-accessibility.html
 date: 2025-03-19
 isOriginal: false
 author:

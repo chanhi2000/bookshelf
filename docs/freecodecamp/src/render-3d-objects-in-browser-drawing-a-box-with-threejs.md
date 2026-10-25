@@ -22,7 +22,7 @@ head:
     - property: og:description
       content: "Three.js Tutorial - How to Render 3D Objects in the Browser"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/render-3d-objects-in-browser-drawing-a-box-with-threejs.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/render-3d-objects-in-browser-drawing-a-box-with-threejs.html
 prev: /programming/js-node/articles/README.md
 date: 2021-02-04
 isOriginal: false
@@ -328,7 +328,7 @@ If you have any feedback or questions on this tutorial, feel free to Tweet me [<
 {
   "title": "Three.js Tutorial - How to Render 3D Objects in the Browser",
   "desc": "If you have ever wanted to build a game with JavaScript, you might have come across Three.js.  Three.js is a library that we can use to render 3D graphics in the browser. The whole thing is in JavaScript, so with some logic you can add animation, int...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/render-3d-objects-in-browser-drawing-a-box-with-threejs.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/render-3d-objects-in-browser-drawing-a-box-with-threejs.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

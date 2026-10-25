@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: "How to Create Curved-Edge and Rounded-Edge Shapes Using CSS"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/rounded-and-curved-edge-css-shapes.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/rounded-and-curved-edge-css-shapes.html
 prev: /programming/css/articles/README.md
 date: 2024-10-15
 isOriginal: false
@@ -310,7 +310,7 @@ Don’t forget to bookmark [<VPIcon icon="fas fa-globe"/>my online collection of
 {
   "title": "How to Create Curved-Edge and Rounded-Edge Shapes Using CSS",
   "desc": "In a previous article, I showed you how to create some fancy shapes that you can use as section dividers on your websites (a slanted divider, an arrow divider, and others). In this article, we will study and learn how to make more CSS shapes using th...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/rounded-and-curved-edge-css-shapes.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/rounded-and-curved-edge-css-shapes.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

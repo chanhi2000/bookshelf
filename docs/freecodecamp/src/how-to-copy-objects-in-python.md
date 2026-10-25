@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "How to Copy Objects in Python"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-copy-objects-in-python.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-copy-objects-in-python.html
 prev: /programming/py/articles/README.md
 date: 2025-04-18
 isOriginal: false
@@ -384,7 +384,7 @@ Thanks for reading!
 {
   "title": "How to Copy Objects in Python",
   "desc": "In this tutorial, you’ll learn about copying objects in Python using the copy module. We’ll cover how to use the copy module and when to use its copy() function and deepcopy() function, depending on the scenario. You’ll also learn which way of copyin...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-copy-objects-in-python.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-copy-objects-in-python.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

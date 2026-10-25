@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "How to Use TestContainers in .Net"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-use-testcontainers-in-net.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-use-testcontainers-in-net.html
 prev: /programming/cs/articles/README.md
 date: 2025-03-26
 isOriginal: false
@@ -531,7 +531,7 @@ As always I hope you’ve found this article helpful, and if you have any questi
 {
   "title": "How to Use TestContainers in .Net",
   "desc": "At some point in your development lifecycle, you will need to test that your system can integrate with another system, whether it be another API, a database, or caching service, for example. This can be a laborious task of spinning up other servers h...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-use-testcontainers-in-net.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-use-testcontainers-in-net.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: "Special IPv4 Addresses"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-ipv4-works-a-handbook-for-developers/special-ipv4-addresses.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-ipv4-works-a-handbook-for-developers/special-ipv4-addresses.html
 date: 2025-05-01
 isOriginal: false
 author:

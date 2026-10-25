@@ -24,7 +24,7 @@ head:
     - property: og:description
       content: "How to Build a Multimodal Makaton-to-English Translator for Accessible Education"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/build-a-multimodal-translator-for-accessible-education.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-a-multimodal-translator-for-accessible-education.html
 prev: /ai/llm/articles/README.md
 date: 2025-09-18
 isOriginal: false
@@ -676,7 +676,7 @@ The vision is clear: a world where every learner, regardless of ability, can exp
 {
   "title": "How to Build a Multimodal Makaton-to-English Translator for Accessible Education",
   "desc": "A year nine student walks into class full of ideas, but when it is time to contribute, the tools around them do not listen. Their speech is difficult for standard voice systems to recognise, typing feels slow and exhausting, and the lesson moves on w...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/build-a-multimodal-translator-for-accessible-education.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-a-multimodal-translator-for-accessible-education.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

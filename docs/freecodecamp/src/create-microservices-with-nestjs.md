@@ -26,7 +26,7 @@ head:
     - property: og:description
       content: "Create Microservices with NestJS"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/create-microservices-with-nestjs.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/create-microservices-with-nestjs.html
 prev: /programming/js-nest/articles/README.md
 date: 2025-03-27
 isOriginal: false
@@ -90,7 +90,7 @@ Watch the full course now on [<VPIcon icon="fa-brands fa-youtube"/>the freeCodeC
 {
   "title": "Create Microservices with NestJS",
   "desc": "Microservices architecture has become a popular approach for building scalable and maintainable applications. By breaking down large applications into smaller, independent services, developers can improve performance, maintainability, and scalability...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/create-microservices-with-nestjs.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/create-microservices-with-nestjs.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

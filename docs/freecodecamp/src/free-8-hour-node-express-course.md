@@ -22,7 +22,7 @@ head:
     - property: og:description
       content: "Learn Node.js and Express with This Free 8-hour Back End Development Course"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/free-8-hour-node-express-course.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/free-8-hour-node-express-course.html
 prev: /programming/js-node/articles/README.md
 date: 2021-04-01
 isOriginal: false
@@ -151,7 +151,7 @@ Watch the full course below or on [<VPIcon icon="fa-brands fa-youtube"/>the free
 {
   "title": "Learn Node.js and Express with This Free 8-hour Back End Development Course",
   "desc": "There are many ways to create the back-end of a web app. Among the most popular methods is using a combination of Node.js and Express.js. We've just published a comprehensive 8-hour course on the freeCodeCamp.org YouTube channel that will teach you a...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/free-8-hour-node-express-course.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/free-8-hour-node-express-course.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

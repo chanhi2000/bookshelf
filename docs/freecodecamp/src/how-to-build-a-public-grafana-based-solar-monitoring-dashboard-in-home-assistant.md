@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: "How to Build a Public Grafana-based Solar Monitoring Dashboard in Home Assistant"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-build-a-public-grafana-based-solar-monitoring-dashboard-in-home-assistant.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-build-a-public-grafana-based-solar-monitoring-dashboard-in-home-assistant.html
 prev: /programming/go-grafana/articles/README.md
 date: 2025-04-17
 isOriginal: false
@@ -260,7 +260,7 @@ This method serves as an all-in-one way of having everything done, through your 
 {
   "title": "How to Build a Public Grafana-based Solar Monitoring Dashboard in Home Assistant",
   "desc": "If you have a solar inverter setup, one thing you would agree on with me is that data from your solar inverter setup is really important. Another thing that is also important is having a way to show what your energy generation, consumption, and so on...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-build-a-public-grafana-based-solar-monitoring-dashboard-in-home-assistant.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-build-a-public-grafana-based-solar-monitoring-dashboard-in-home-assistant.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

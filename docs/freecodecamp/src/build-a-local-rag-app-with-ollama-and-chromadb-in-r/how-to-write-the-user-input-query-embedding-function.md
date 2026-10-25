@@ -34,7 +34,7 @@ head:
     - property: og:description
       content: "How to Write the User Input Query Embedding Function"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/build-a-local-rag-app-with-ollama-and-chromadb-in-r/how-to-write-the-user-input-query-embedding-function.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-a-local-rag-app-with-ollama-and-chromadb-in-r/how-to-write-the-user-input-query-embedding-function.html
 date: 2025-04-15
 isOriginal: false
 author:

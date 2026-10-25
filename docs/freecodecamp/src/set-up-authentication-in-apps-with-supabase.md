@@ -25,7 +25,7 @@ head:
     - property: og:description
       content: "How to Set Up Authentication in Your Apps with Supabase Auth"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/set-up-authentication-in-apps-with-supabase.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/set-up-authentication-in-apps-with-supabase.html
 prev: /programming/js-supabase/articles/README.md
 date: 2024-01-29
 isOriginal: false
@@ -372,7 +372,7 @@ The following resources are helpful further reading. They offer more explanation
 {
   "title": "How to Set Up Authentication in Your Apps with Supabase Auth",
   "desc": "In this article, you'll learn the basic key concepts that'll help you grasp how authentication and authorization work.  You'll start by learning what authentication and authorization are, and then learn how to implement authentication in your applica...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/set-up-authentication-in-apps-with-supabase.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/set-up-authentication-in-apps-with-supabase.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

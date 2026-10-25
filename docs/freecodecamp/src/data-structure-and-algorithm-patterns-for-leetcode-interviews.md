@@ -28,7 +28,7 @@ head:
     - property: og:description
       content: "Data Structure and Algorithm Patterns for LeetCode Interviews"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/data-structure-and-algorithm-patterns-for-leetcode-interviews.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/data-structure-and-algorithm-patterns-for-leetcode-interviews.html
 prev: /academics/coen/articles/README.md
 date: 2025-07-22
 isOriginal: false
@@ -112,7 +112,7 @@ Watch the full course [<VPIcon icon="fa-brands fa-youtube"/>on the freeCodeCamp.
 {
   "title": "Data Structure and Algorithm Patterns for LeetCode Interviews",
   "desc": "To get the best tech jobs, it can be helpful to understand how to apply data structures and algorithms to coding challenges. We just published a comprehensive course on the freeCodeCamp.org channel about data structures and algorithms. This course wi...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/data-structure-and-algorithm-patterns-for-leetcode-interviews.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/data-structure-and-algorithm-patterns-for-leetcode-interviews.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

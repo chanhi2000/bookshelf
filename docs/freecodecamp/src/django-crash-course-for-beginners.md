@@ -24,7 +24,7 @@ head:
     - property: og:description
       content: "Django Crash Course for Beginners"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/django-crash-course-for-beginners.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/django-crash-course-for-beginners.html
 prev: /programming/py-django/articles/README.md
 date: 2025-05-02
 isOriginal: false
@@ -76,7 +76,7 @@ Watch the full course on [<VPIcon icon="fa-brands fa-youtube"/>the freeCodeCamp.
 {
   "title": "Django Crash Course for Beginners",
   "desc": "Django is a high-level web framework built with Python that encourages rapid development and clean, pragmatic design. Django handles much of the heavy lifting involved in web development, so you can focus more on writing your app and less on reinvent...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/django-crash-course-for-beginners.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/django-crash-course-for-beginners.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

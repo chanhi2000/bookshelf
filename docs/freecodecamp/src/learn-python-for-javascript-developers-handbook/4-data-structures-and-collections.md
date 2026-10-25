@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: "4. Data Structures and Collections"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/learn-python-for-javascript-developers-handbook/4-data-structures-and-collections.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-python-for-javascript-developers-handbook/4-data-structures-and-collections.html
 date: 2024-11-22
 isOriginal: false
 author:

@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: "How to Create a Great Personal Portfolio Page - a Handbook for Beginners"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-create-a-great-personal-portfolio-page-a-step-by-step-guide/
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-create-a-great-personal-portfolio-page-a-step-by-step-guide/
 prev: /projects/career/articles/README.md
 date: 2024-03-23
 isOriginal: false
@@ -218,7 +218,7 @@ I've consistently aimed to revolutionize technical education, striving to set a 
 {
   "title": "How to Create a Great Personal Portfolio Page - a Handbook for Beginners",
   "desc": "As a developer, you'll want to create a digital space that mirrors your unique skills and persona. And a stellar personal portfolio website can help you make your mark in the digital universe.  Imagine a space that not only highlights your finest ach...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-create-a-great-personal-portfolio-page-a-step-by-step-guide.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-create-a-great-personal-portfolio-page-a-step-by-step-guide.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

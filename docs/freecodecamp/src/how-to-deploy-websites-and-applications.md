@@ -25,7 +25,7 @@ head:
     - property: og:description
       content: "How to Deploy Your Websites and Apps - User-Friendly Deployment Strategies"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-deploy-websites-and-applications.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-deploy-websites-and-applications.html
 prev: /devops/articles/README.md
 date: 2023-08-09
 isOriginal: false
@@ -497,7 +497,7 @@ If you found this tutorial helpful, please share it with fellow developers who m
 {
   "title": "How to Deploy Your Websites and Apps - User-Friendly Deployment Strategies",
   "desc": "Deploying your application is a key aspect of software development. Typically, having an app on your local system isn't enough - it needs to be accessible online. So choosing a suitable and user-friendly hosting and deployment plan is vital. The key ...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-deploy-websites-and-applications.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-deploy-websites-and-applications.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

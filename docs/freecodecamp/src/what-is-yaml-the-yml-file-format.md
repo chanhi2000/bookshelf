@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: "What is YAML? The YML File Format"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/what-is-yaml-the-yml-file-format.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/what-is-yaml-the-yml-file-format.html
 prev: /programming/yaml/articles/README.md
 date: 2022-11-12
 isOriginal: false
@@ -423,7 +423,7 @@ Thank you for reading, and happy coding!
 {
   "title": "What is YAML? The YML File Format",
   "desc": "YAML is one of the most popular languages for writing configuration files. In this article, you will learn how YAML compares to XML and JSON - two languages also used for creating configuration files. You will also learn some of the rules and feature...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/what-is-yaml-the-yml-file-format.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/what-is-yaml-the-yml-file-format.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to Build a Dynamic Web Scraper App with Playwright and React: A Step-by-Step Guide"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/build-a-dynamic-web-scraper-app-with-playwright-and-react.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-a-dynamic-web-scraper-app-with-playwright-and-react.html
 prev: /programming/js-react/articles/README.md
 date: 2025-01-15
 isOriginal: false
@@ -428,7 +428,7 @@ Lastly, respecting the law is paramount. Ensure that your scraping activities co
 {
   "title": "How to Build a Dynamic Web Scraper App with Playwright and React: A Step-by-Step Guide",
   "desc": "Today we are going to build a small web scraper app. This application will scrape data from the Airbnb website and display it in a nice grid view. We will also add a Refresh button that will be able to trigger a new scraping round and update the resu...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/build-a-dynamic-web-scraper-app-with-playwright-and-react.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-a-dynamic-web-scraper-app-with-playwright-and-react.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

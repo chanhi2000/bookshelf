@@ -26,7 +26,7 @@ head:
     - property: og:description
       content: "Chapter 5: How to Leverage Big Data and Computer Vision in Farming"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/ai-in-agriculture-book/chapter-5-how-to-leverage-big-data-and-computer-vision-in-farming.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/ai-in-agriculture-book/chapter-5-how-to-leverage-big-data-and-computer-vision-in-farming.html
 date: 2025-01-15
 isOriginal: false
 author:

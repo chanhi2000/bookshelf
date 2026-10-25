@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: "How to Start a Career in Technical Writing by Contributing to Open Source"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/start-a-career-in-technical-writing-through-open-source.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/start-a-career-in-technical-writing-through-open-source.html
 prev: /projects/career/articles/README.md
 date: 2025-06-21
 isOriginal: false
@@ -312,7 +312,7 @@ I’d love to hear from you. Feel free to connect or reach out to me on [LinkedI
 {
   "title": "How to Start a Career in Technical Writing by Contributing to Open Source",
   "desc": "One of the most common questions I’m asked is, “how can I get started in technical writing?” And honestly, I love that question because it means more people are beginning to see writing as a valid, valuable way to enter the tech industry. Begin with ...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/start-a-career-in-technical-writing-through-open-source.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/start-a-career-in-technical-writing-through-open-source.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

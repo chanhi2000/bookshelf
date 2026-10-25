@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: "Generics in TypeScript"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/learn-typescript-with-react-handbook/generics-in-typescript.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-typescript-with-react-handbook/generics-in-typescript.html
 next: /freecodecamp.org/learn-typescript-with-react-handbook/README.md#conclusion
 date: 2025-02-08
 isOriginal: false

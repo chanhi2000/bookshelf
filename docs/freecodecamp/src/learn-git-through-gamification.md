@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: "Learn Git through Gamification - A Visual Guide to Key Version Control Concepts"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/learn-git-through-gamification.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-git-through-gamification.html
 prev: /programming/git/articles/README.md
 date: 2025-03-02
 isOriginal: false
@@ -247,7 +247,7 @@ If you or someone you know is a visual learner, beginner coder, or newer Git use
 {
   "title": "Learn Git through Gamification - A Visual Guide to Key Version Control Concepts",
   "desc": "Git has many concepts and commands that you’ll need to understand before you feel confident using it. Some of these concepts may sound trivial, especially to someone who has worked with Git before. But like most Git and coding concepts, even the “sim...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/learn-git-through-gamification.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-git-through-gamification.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

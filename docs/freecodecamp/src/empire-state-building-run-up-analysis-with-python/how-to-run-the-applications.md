@@ -22,7 +22,7 @@ head:
     - property: og:description
       content: "How to Run the Applications"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/empire-state-building-run-up-analysis-with-python/how-to-run-the-applications.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/empire-state-building-run-up-analysis-with-python/how-to-run-the-applications.html
 next: /freecodecamp.org/empire-state-building-run-up-analysis-with-python/README.md#what-else-can-we-learn
 date: 2024-12-03
 isOriginal: false

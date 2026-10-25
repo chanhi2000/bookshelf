@@ -27,7 +27,7 @@ head:
     - property: og:description
       content: "Build an Enterprise-Grade AI Project"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/build-an-enterprise-grade-ai-project.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-an-enterprise-grade-ai-project.html
 prev: /ai/llm/articles/README.md
 date: 2025-09-25
 isOriginal: false
@@ -89,7 +89,7 @@ Watch the full course on [<VPIcon icon="fa-brands fa-youtube"/>the freeCodeCamp.
 {
   "title": "Build an Enterprise-Grade AI Project",
   "desc": "You’ve built toy projects. Now build something real. We've just launched a new course on the freeCodeCamp.org YouTube channel that will teach you how to build a production-grade AI project from the ground up. Created by the Ayush Singh, this course i...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/build-an-enterprise-grade-ai-project.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-an-enterprise-grade-ai-project.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

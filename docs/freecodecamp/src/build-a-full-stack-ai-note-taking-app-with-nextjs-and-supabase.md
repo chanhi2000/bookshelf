@@ -28,7 +28,7 @@ head:
     - property: og:description
       content: "Build a Full Stack AI Note Taking App with Next.js and Supabase"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/build-a-full-stack-ai-note-taking-app-with-nextjs-and-supabase.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-a-full-stack-ai-note-taking-app-with-nextjs-and-supabase.html
 prev: /programming/js-next/articles/README.md
 date: 2025-03-21
 isOriginal: false
@@ -94,7 +94,7 @@ Start learning today by watching the full course for free on [<VPIcon icon="fa-b
 {
   "title": "Build a Full Stack AI Note Taking App with Next.js and Supabase",
   "desc": "Taking notes is a fundamental skill for staying organized, whether you're a student, professional, or developer. But what if your notes could do more than just store information? Imagine having an intelligent note-taking app that allows you to organi...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/build-a-full-stack-ai-note-taking-app-with-nextjs-and-supabase.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-a-full-stack-ai-note-taking-app-with-nextjs-and-supabase.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

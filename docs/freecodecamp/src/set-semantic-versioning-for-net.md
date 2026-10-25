@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "How to Set Semantic Versioning for .NET Core Apps and Libraries"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/set-semantic-versioning-for-net.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/set-semantic-versioning-for-net.html
 prev: /programming/cs/articles/README.md
 date: 2024-11-08
 isOriginal: false
@@ -204,7 +204,7 @@ It also showed you how to read the version number at runtime.
 {
   "title": "How to Set Semantic Versioning for .NET Core Apps and Libraries",
   "desc": "Semantic Versioning (or SemVer for short) is a software versioning scheme that stipulates three-part version numbers in the form <major>.<minor>.<patch>, such as 1.0.2, with an optional prerelease suffix in the form -<prerelease>, as in 1.0.2-beta. S...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/set-semantic-versioning-for-net.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/set-semantic-versioning-for-net.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

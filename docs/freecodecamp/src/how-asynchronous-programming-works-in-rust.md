@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "How Asynchronous Programming Works in Rust - Futures and Async/Await Explained with Examples"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-asynchronous-programming-works-in-rust.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-asynchronous-programming-works-in-rust.html
 prev: /programming/rs/articles/README.md
 date: 2024-08-16
 isOriginal: false
@@ -190,7 +190,7 @@ If you have any questions or thoughts, feel free to reach out to me. Thanks for 
 {
   "title": "How Asynchronous Programming Works in Rust - Futures and Async/Await Explained with Examples",
   "desc": "If you're familiar with languages like JavaScript and Python, you may have heard about asynchronous programming. And perhaps you're wondering how it works in Rust. In this article, I'll give you a simple overview of how asynchronous programming works...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-asynchronous-programming-works-in-rust.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-asynchronous-programming-works-in-rust.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

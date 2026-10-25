@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "How to Use Object-Oriented Programming in Python - Key OOP Concepts and Interview Questions for Beginners"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/object-oriented-programming-in-python-interview-questions.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/object-oriented-programming-in-python-interview-questions.html
 prev: /programming/py/articles/README.md
 date: 2024-10-25
 isOriginal: false
@@ -468,7 +468,7 @@ If you found this guide helpful please give it a like. You can follow me on [X (
 {
   "title": "How to Use Object-Oriented Programming in Python - Key OOP Concepts and Interview Questions for Beginners",
   "desc": "OOP is a crucial concept that every developer should grasp, especially when getting ready for job interviews. It helps you organize code into modular and reusable sections, which simplifies the development, maintenance, and scaling of software applic...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/object-oriented-programming-in-python-interview-questions.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/object-oriented-programming-in-python-interview-questions.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

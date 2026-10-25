@@ -27,7 +27,7 @@ head:
     - property: og:description
       content: "Learn the MERN Stack in 2025"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/learn-the-mern-stack-in-2025.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-the-mern-stack-in-2025.html
 prev: /programming/js-react/articles/README.md
 date: 2025-06-10
 isOriginal: false
@@ -103,7 +103,7 @@ If you’re serious about learning web dev or need a project for your portfolio,
 {
   "title": "Learn the MERN Stack in 2025",
   "desc": "If you’ve been meaning to learn full-stack web development but don’t know where to start, this new course is a solid way in. Whether you're aiming to get a job in web dev or just want to build your own projects, understanding how the pieces fit toget...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/learn-the-mern-stack-in-2025.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-the-mern-stack-in-2025.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

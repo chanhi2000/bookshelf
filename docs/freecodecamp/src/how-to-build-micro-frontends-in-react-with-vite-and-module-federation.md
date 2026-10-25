@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to Build Micro Frontends in React with Vite and Module Federation"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-build-micro-frontends-in-react-with-vite-and-module-federation.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-build-micro-frontends-in-react-with-vite-and-module-federation.html
 prev: /programming/js-react/articles/README.md
 date: 2025-08-27
 isOriginal: false
@@ -730,7 +730,7 @@ I hope you’ve learned something from this article, and as always for more tuto
 {
   "title": "How to Build Micro Frontends in React with Vite and Module Federation",
   "desc": "Micro Frontend Architecture has become increasingly popular in recent years, as teams look to re-use parts of their existing applications in new projects rather than rebuilding everything from scratch. Micro frontends also allow large teams to share ...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-build-micro-frontends-in-react-with-vite-and-module-federation.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-build-micro-frontends-in-react-with-vite-and-module-federation.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

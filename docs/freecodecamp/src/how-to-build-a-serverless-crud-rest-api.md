@@ -29,7 +29,7 @@ head:
     - property: og:description
       content: "How to Build a Serverless CRUD REST API with the Serverless Framework, Node.js, and GitHub Actions"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-build-a-serverless-crud-rest-api.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-build-a-serverless-crud-rest-api.html
 prev: /articles/README.md
 date: 2024-08-22
 isOriginal: false
@@ -725,7 +725,7 @@ In May 2023, he accomplished that goal and landed his first Cloud Engineering ro
 {
   "title": "How to Build a Serverless CRUD REST API with the Serverless Framework, Node.js, and GitHub Actions",
   "desc": "Serverless computing emerged as a response to the challenges of traditional server-based architectures. With serverless, developers no longer need to manage or scale servers manually. Instead, cloud providers handle infrastructure management, allowin...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-build-a-serverless-crud-rest-api.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-build-a-serverless-crud-rest-api.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

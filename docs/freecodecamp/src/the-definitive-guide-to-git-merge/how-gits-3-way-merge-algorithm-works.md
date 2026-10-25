@@ -16,7 +16,7 @@ head:
     - property: og:description
       content: "How Git's 3-way Merge Algorithm Works"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/the-definitive-guide-to-git-merge/how-gits-3-way-merge-algorithm-works.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/the-definitive-guide-to-git-merge/how-gits-3-way-merge-algorithm-works.html
 date: 2023-04-28
 isOriginal: false
 author:

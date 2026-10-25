@@ -22,7 +22,7 @@ head:
     - property: og:description
       content: "How to Use AI Effectively in Your Dev Projects"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-use-ai-effectively-in-your-dev-projects.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-use-ai-effectively-in-your-dev-projects.html
 prev: /ai/articles/README.md
 date: 2025-07-24
 isOriginal: false
@@ -312,7 +312,7 @@ If you have any questions, feel free to find me on Twitter at [<VPIcon icon="fa-
 {
   "title": "How to Use AI Effectively in Your Dev Projects",
   "desc": "“AI is not going to take your job - but a developer who knows how to use AI will.” I’ve seen this statement everywhere, and it’s the only one about AI taking our jobs that I totally agree with. Software development has changed. It’s not what it used ...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-use-ai-effectively-in-your-dev-projects.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-use-ai-effectively-in-your-dev-projects.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

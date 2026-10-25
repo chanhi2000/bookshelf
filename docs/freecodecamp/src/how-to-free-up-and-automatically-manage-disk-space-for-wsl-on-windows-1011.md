@@ -26,7 +26,7 @@ head:
     - property: og:description
       content: "How to Free Up and Automatically Manage Disk Space for WSL on Windows 10/11"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-free-up-and-automatically-manage-disk-space-for-wsl-on-windows-1011.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-free-up-and-automatically-manage-disk-space-for-wsl-on-windows-1011.html
 prev: /devops/win/articles/README.md
 date: 2025-08-07
 isOriginal: false
@@ -650,7 +650,7 @@ You can find a list of my current projects on [GitHub (<VPIcon icon="iconfont ic
 {
   "title": "How to Free Up and Automatically Manage Disk Space for WSL on Windows 10/11",
   "desc": "Windows Subsystem for Linux (WSL) lets you run a Linux environment directly on Windows. This is particularly useful for web development where you can develop and test applications in a Linux environment without leaving Windows. You can even run freeC...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-free-up-and-automatically-manage-disk-space-for-wsl-on-windows-1011.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-free-up-and-automatically-manage-disk-space-for-wsl-on-windows-1011.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

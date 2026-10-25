@@ -27,7 +27,7 @@ head:
     - property: og:description
       content: "Learn to Use the Gemini AI MultiModal Model"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/learn-to-use-the-gemini-ai-multimodal-model.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-to-use-the-gemini-ai-multimodal-model.html
 prev: /ai/gemini/articles/README.md
 date: 2024-08-22
 isOriginal: false

@@ -27,7 +27,7 @@ head:
     - property: og:description
       content: "How to Create a Basic CI/CD Pipeline with Webhooks on Linux"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/create-a-basic-cicd-pipeline-with-webhooks-on-linux.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/create-a-basic-cicd-pipeline-with-webhooks-on-linux.html
 prev: /devops/linux-debian/articles/README.md
 date: 2025-01-29
 isOriginal: false
@@ -433,7 +433,7 @@ You can [fork the code from here (<VPIcon icon="iconfont icon-github"/>`jpromano
 {
   "title": "How to Create a Basic CI/CD Pipeline with Webhooks on Linux",
   "desc": "In the fast-paced world of software development, delivering high-quality applications quickly and reliably is crucial. This is where CI/CD (Continuous Integration and Continuous Delivery/Deployment) comes into play. CI/CD is a set of practices and to...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/create-a-basic-cicd-pipeline-with-webhooks-on-linux.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/create-a-basic-cicd-pipeline-with-webhooks-on-linux.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

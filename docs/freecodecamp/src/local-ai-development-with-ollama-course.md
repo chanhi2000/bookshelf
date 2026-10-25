@@ -30,7 +30,7 @@ head:
     - property: og:description
       content: "Local AI Development with Ollama Course"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/local-ai-development-with-ollama-course.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/local-ai-development-with-ollama-course.html
 prev: /ai/llama/articles/README.md
 date: 2024-11-27
 isOriginal: false
@@ -114,7 +114,7 @@ Whether you're building practical applications or experimenting with new ideas, 
 {
   "title": "Local AI Development with Ollama Course",
   "desc": "Artificial Intelligence is evolving rapidly, and with tools like Ollama, you can bring cutting-edge AI capabilities directly to your local environment. Learning how to harness local large language models (LLMs) can open up a world of opportunities. L...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/local-ai-development-with-ollama-course.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/local-ai-development-with-ollama-course.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

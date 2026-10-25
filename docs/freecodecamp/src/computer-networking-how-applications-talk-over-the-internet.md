@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Computer Networking Tutorial - How Network Applications Talk Over the Internet"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/computer-networking-how-applications-talk-over-the-internet.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/computer-networking-how-applications-talk-over-the-internet.html
 prev: /academics/coen/articles/README.md
 date: 2022-01-19
 isOriginal: false
@@ -410,7 +410,7 @@ Thank you for reading! I hope you learned something new about computer networks 
 {
   "title": "Computer Networking Tutorial - How Network Applications Talk Over the Internet",
   "desc": "By Sahil Gupta Network applications are computer applications that participate in a computer network. These applications talk to each other by plugging into the network.  For example, when you visit google.com, your browser acts as a network applicat...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/computer-networking-how-applications-talk-over-the-internet.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/computer-networking-how-applications-talk-over-the-internet.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

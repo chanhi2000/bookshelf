@@ -24,7 +24,7 @@ head:
     - property: og:description
       content: "Data Structures in JavaScript - With Code Examples"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/data-structures-in-javascript-with-examples.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/data-structures-in-javascript-with-examples.html
 prev: /programming/js/articles/README.md
 date: 2022-05-17
 isOriginal: false
@@ -1087,7 +1087,7 @@ See you later!
 {
   "title": "Data Structures in JavaScript - With Code Examples",
   "desc": "Hi everyone! In this article we're going to take a look at a key topic when it comes to computer science and software development: data structures. It's definitely a must know topic for anyone working in the software development world, but it can be ...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/data-structures-in-javascript-with-examples.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/data-structures-in-javascript-with-examples.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: "Type Assertion, Type Unknown, and Type Never in TypeScript"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/learn-typescript-with-react-handbook/type-assertion-type-unknown-and-type-never-in-typescript.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-typescript-with-react-handbook/type-assertion-type-unknown-and-type-never-in-typescript.html
 date: 2025-02-08
 isOriginal: false
 author:

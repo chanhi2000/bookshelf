@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: "What is Currying?"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/js-interview-prep-handbook/what-is-currying.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/js-interview-prep-handbook/what-is-currying.html
 date: 2024-09-10
 isOriginal: false
 author:

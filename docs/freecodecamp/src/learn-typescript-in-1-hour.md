@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Learn TypeScript in 1 Hour"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/learn-typescript-in-1-hour.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-typescript-in-1-hour.html
 prev: /programming/ts/articles/README.md
 date: 2025-07-23
 isOriginal: false
@@ -121,7 +121,7 @@ Watch the full course on [<VPIcon icon="fa-brands fa-youtube"/>the freeCodeCamp.
 {
   "title": "Learn TypeScript in 1 Hour",
   "desc": "TypeScript is a powerful, statically-typed superset of JavaScript that helps you write safer and more maintainable code. We just posted a course on the freeCodeCamp.org YouTube channel that will help you master the essentials of TypeScript. In just o...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/learn-typescript-in-1-hour.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-typescript-in-1-hour.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

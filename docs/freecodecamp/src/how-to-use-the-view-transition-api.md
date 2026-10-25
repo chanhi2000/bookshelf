@@ -32,7 +32,7 @@ head:
     - property: og:description
       content: "How to Use the View Transition API for Better Web Transitions"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-use-the-view-transition-api.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-use-the-view-transition-api.html
 prev: /programming/css/articles/README.md
 date: 2025-07-02
 isOriginal: false
@@ -804,7 +804,7 @@ Also, if you found the guide valuable, feel free to share it with others who mig
 {
   "title": "How to Use the View Transition API for Better Web Transitions",
   "desc": "If you want to add some amazing and visually appealing animations to your web page, the View Transition API is a great animation tool. It lets you create Cross-Document Transitions when navigating between pages. And not just in classic multi-page app...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-use-the-view-transition-api.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-use-the-view-transition-api.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

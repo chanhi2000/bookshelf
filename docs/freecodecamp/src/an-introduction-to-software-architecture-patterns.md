@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "The Software Architecture Handbook"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/an-introduction-to-software-architecture-patterns.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/an-introduction-to-software-architecture-patterns.html
 prev: /academics/system-design/articles/README.md
 date: 2022-07-27
 isOriginal: false
@@ -840,7 +840,7 @@ Cheers and see you in the next one! ✌️
 {
   "title": "The Software Architecture Handbook",
   "desc": "Hi everyone! In this handbook you're going to learn about the vast, intricate field that is Software Architecture. This is a field that I found both confusing and intimidating when I was first starting my journey into coding. So I'll try and spare yo...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/an-introduction-to-software-architecture-patterns.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/an-introduction-to-software-architecture-patterns.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

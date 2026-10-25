@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "How to Build Your AI Demos with Gradio"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-build-your-ai-demos-with-gradio.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-build-your-ai-demos-with-gradio.html
 prev: /programming/py-gradio/articles/README.md
 date: 2025-08-28
 isOriginal: false
@@ -232,7 +232,7 @@ I Hope you enjoyed this article. Signup for my free AI newsletter* [<VPIcon icon
 {
   "title": "How to Build Your AI Demos with Gradio",
   "desc": "The world of artificial intelligence moves fast. Every week, new models appear, older ones get better, and the tools to use them become easier. But if you are building a machine learning project, you may face one big problem: how to share your work q...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-build-your-ai-demos-with-gradio.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-build-your-ai-demos-with-gradio.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

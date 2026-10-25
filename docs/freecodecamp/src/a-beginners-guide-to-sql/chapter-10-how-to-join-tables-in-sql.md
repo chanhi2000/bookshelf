@@ -16,7 +16,7 @@ head:
     - property: og:description
       content: "Chapter 10: How to Join Tables in SQL"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/a-beginners-guide-to-sql/chapter-10-how-to-join-tables-in-sql.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/a-beginners-guide-to-sql/chapter-10-how-to-join-tables-in-sql.html
 date: 2023-09-05
 isOriginal: false
 author:

@@ -24,7 +24,7 @@ head:
     - property: og:description
       content: "How AI Agents Remember Things: The Role of Vector Stores in LLM Memory"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-ai-agents-remember-things-vector-stores-in-llm-memory.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-ai-agents-remember-things-vector-stores-in-llm-memory.html
 prev: /programming/py/articles/README.md
 date: 2025-07-17
 isOriginal: false
@@ -300,7 +300,7 @@ Hope you enjoyed this article. [Connect with me on Linkedin (<VPIcon icon="fa-br
 {
   "title": "How AI Agents Remember Things: The Role of Vector Stores in LLM Memory",
   "desc": "When you talk to an AI assistant, it can feel like it remembers what you said before. But large language models (LLMs) don’t actually have memory on their own. They don’t remember conversations unless that information is given to them again. So, how ...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-ai-agents-remember-things-vector-stores-in-llm-memory.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-ai-agents-remember-things-vector-stores-in-llm-memory.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

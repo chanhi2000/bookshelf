@@ -26,7 +26,7 @@ head:
     - property: og:description
       content: "Useful Nmap Scripts for Ethical Hackers"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/useful-nmap-scripts-for-ethical-hackers.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/useful-nmap-scripts-for-ethical-hackers.html
 prev: /tool/nmap/articles/README.md
 date: 2024-11-08
 isOriginal: false
@@ -230,7 +230,7 @@ To learn how to build a career in Cybersecurity, check out** [The Hacker’s Han
 {
   "title": "Useful Nmap Scripts for Ethical Hackers",
   "desc": "Nmap is short for Network Mapper. It’s an open-source Linux command-line tool for scanning IP addresses and ports in a network and detecting installed applications. Nmap allows network admins to identify devices running on their network, discover ope...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/useful-nmap-scripts-for-ethical-hackers.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/useful-nmap-scripts-for-ethical-hackers.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

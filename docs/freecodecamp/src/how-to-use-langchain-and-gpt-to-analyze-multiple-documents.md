@@ -26,7 +26,7 @@ head:
     - property: og:description
       content: "How to Use LangChain and GPT to Analyze Multiple Documents"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-use-langchain-and-gpt-to-analyze-multiple-documents.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-use-langchain-and-gpt-to-analyze-multiple-documents.html
 prev: /programming/py/articles/README.md
 date: 2024-11-07
 isOriginal: false
@@ -208,7 +208,7 @@ This article is excerpted from [<VPIcon icon="fa-brands fa-amazon"/>my Manning b
 {
   "title": "How to Use LangChain and GPT to Analyze Multiple Documents",
   "desc": "Over the past year or so, the developer universe has exploded with ingenious new tools, applications, and processes for working with large language models and generative AI. One particularly versatile example is the LangChain project. The overall goa...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-use-langchain-and-gpt-to-analyze-multiple-documents.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-use-langchain-and-gpt-to-analyze-multiple-documents.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

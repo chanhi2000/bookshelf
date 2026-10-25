@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "What is npm?"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-create-an-npm-library/what-is-npm.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-create-an-npm-library/what-is-npm.html
 date: 2025-02-08
 isOriginal: false
 author:

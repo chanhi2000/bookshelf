@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: "10. Testing and Frameworks"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/learn-python-for-javascript-developers-handbook/10-testing-and-frameworks.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-python-for-javascript-developers-handbook/10-testing-and-frameworks.html
 date: 2024-11-22
 isOriginal: false
 author:

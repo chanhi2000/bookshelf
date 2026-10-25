@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "Check Python Version - How to Check Py in Mac, Windows, and Linux"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/check-python-version-how-to-check-py-in-mac-windows-and-linux.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/check-python-version-how-to-check-py-in-mac-windows-and-linux.html
 prev: /programming/py/articles/README.md
 date: 2023-07-08
 isOriginal: false
@@ -271,7 +271,7 @@ Happy Coding!
 {
   "title": "Check Python Version - How to Check Py in Mac, Windows, and Linux",
   "desc": "By Shittu Olumide Python is a versatile and widely used programming language known for its simplicity and readability.  With its ever-evolving nature, different versions of Python are often released, each offering new features, enhancements, and bug ...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/check-python-version-how-to-check-py-in-mac-windows-and-linux.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/check-python-version-how-to-check-py-in-mac-windows-and-linux.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "How to Use Postman Scripts to Simplify Your API Authentication Process"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-use-postman-scripts.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-use-postman-scripts.html
 prev: /tool/postman/articles/README.md
 date: 2025-09-08
 isOriginal: false
@@ -158,7 +158,7 @@ For guides on writing assertion tests for your APIs, check out the [<VPIcon icon
 {
   "title": "How to Use Postman Scripts to Simplify Your API Authentication Process",
   "desc": "Postman is a platform used by developers, API testers, technical writers and DevOps teams for testing, documenting and collaborating on API development. It provides a user-friendly interface for making different types of API requests (HTTP, GraphQL, ...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-use-postman-scripts.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-use-postman-scripts.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

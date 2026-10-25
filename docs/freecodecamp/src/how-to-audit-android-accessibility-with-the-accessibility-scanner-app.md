@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "How to Audit Android Accessibility with the Accessibility Scanner App"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-audit-android-accessibility-with-the-accessibility-scanner-app.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-audit-android-accessibility-with-the-accessibility-scanner-app.html
 prev: /programming/java-android/articles/README.md
 date: 2025-07-01
 isOriginal: false
@@ -142,7 +142,7 @@ You should now know how to get started using the Accessibility Scanner to check 
 {
   "title": "How to Audit Android Accessibility with the Accessibility Scanner App",
   "desc": "The Web Content Accessibility Guidelines (WCAG 2.1 Level AA) is an internationally recognized standard for digital accessibility. Meeting these guidelines helps you make sure that your website is usable by people with visual, motor, hearing, and cogn...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-audit-android-accessibility-with-the-accessibility-scanner-app.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-audit-android-accessibility-with-the-accessibility-scanner-app.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

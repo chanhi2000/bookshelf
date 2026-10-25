@@ -28,7 +28,7 @@ head:
     - property: og:description
       content: "Assets: Managing Application Resources"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/build-an-ai-powered-cooking-assistant-with-flutter-and-gemini/assets-managing-application-resources.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-an-ai-powered-cooking-assistant-with-flutter-and-gemini/assets-managing-application-resources.html
 date: 2025-05-30
 isOriginal: false
 author:

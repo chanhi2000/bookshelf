@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: "3. Syntax and Language Features"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/learn-python-for-javascript-developers-handbook/3-syntax-and-language-features.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-python-for-javascript-developers-handbook/3-syntax-and-language-features.html
 date: 2024-11-22
 isOriginal: false
 author:

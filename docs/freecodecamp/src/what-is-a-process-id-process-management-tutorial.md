@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "What is a Process ID? How to Use PIDs for Process Management"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/what-is-a-process-id-process-management-tutorial.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/what-is-a-process-id-process-management-tutorial.html
 prev: /programming/sh/articles/README.md
 date: 2025-01-31
 isOriginal: false
@@ -337,7 +337,7 @@ So, stay in control of your system with PIDs!
 {
   "title": "What is a Process ID? How to Use PIDs for Process Management",
   "desc": "Have you ever wondered how a computer knows which program’s output to display, especially when multiple programs are running simultaneously? This is possible because of the Process ID (PID). A PID is a unique identifier that helps the operating syste...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/what-is-a-process-id-process-management-tutorial.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/what-is-a-process-id-process-management-tutorial.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

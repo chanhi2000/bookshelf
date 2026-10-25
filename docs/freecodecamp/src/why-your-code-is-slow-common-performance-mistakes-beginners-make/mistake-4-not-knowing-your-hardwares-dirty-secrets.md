@@ -28,7 +28,7 @@ head:
     - property: og:description
       content: "Mistake #4: Not Knowing Your Hardware’s Dirty Secrets"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/why-your-code-is-slow-common-performance-mistakes-beginners-make/mistake-4-not-knowing-your-hardwares-dirty-secrets.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/why-your-code-is-slow-common-performance-mistakes-beginners-make/mistake-4-not-knowing-your-hardwares-dirty-secrets.html
 date: 2025-03-29
 isOriginal: false
 author:

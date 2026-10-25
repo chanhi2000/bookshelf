@@ -28,7 +28,7 @@ head:
     - property: og:description
       content: "How to Build Your Own Local AI: Create Free RAG and AI Agents with Qwen 3 and Ollama"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/build-a-local-ai.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-a-local-ai.html
 prev: /programming/py/articles/README.md
 date: 2025-05-07
 isOriginal: false
@@ -835,7 +835,7 @@ By leveraging these powerful, free, and open-source tools, you can continue to p
 {
   "title": "How to Build Your Own Local AI: Create Free RAG and AI Agents with Qwen 3 and Ollama",
   "desc": "The landscape of Artificial Intelligence is rapidly evolving, and one of the most exciting trends is the ability to run powerful Large Language Models (LLMs) directly on your local machine. This shift away from reliance on cloud-based APIs offers sig...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/build-a-local-ai.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-a-local-ai.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

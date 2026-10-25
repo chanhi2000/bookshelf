@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: "How to Get Your First SaaS Customers"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-get-your-first-saas-customers.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-get-your-first-saas-customers.html
 prev: /projects/career/articles/README.md
 date: 2025-05-01
 isOriginal: false
@@ -239,7 +239,7 @@ If you want to dive deeper, check out:
 {
   "title": "How to Get Your First SaaS Customers",
   "desc": "Starting a SaaS (Software as a Service) business is exciting. You’ve put in the long hours building something you believe people will love. But now comes the big question: How do you get your first customers? Getting those first few users can feel li...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-get-your-first-saas-customers.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-get-your-first-saas-customers.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

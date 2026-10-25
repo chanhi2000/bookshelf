@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to Run Database Migrations in Kubernetes - Different Approaches with Examples"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-run-database-migrations-in-kubernetes.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-run-database-migrations-in-kubernetes.html
 prev: /programming/go/articles/README.md
 date: 2024-10-03
 isOriginal: false

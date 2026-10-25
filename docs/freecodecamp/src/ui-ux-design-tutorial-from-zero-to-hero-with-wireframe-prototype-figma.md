@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: "UI / UX Design Tutorial – From Zero to Hero with Wireframe + Prototype + Design in Figma"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/ui-ux-design-tutorial-from-zero-to-hero-with-wireframe-prototype-figma.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/ui-ux-design-tutorial-from-zero-to-hero-with-wireframe-prototype-figma.html
 prev: /tool/figma/articles/README.md
 date: 2021-02-10
 isOriginal: false
@@ -356,7 +356,7 @@ I hope you enjoyed this article. If you don't know who I am, I'm Adrian from Aus
 {
   "title": "UI / UX Design Tutorial – From Zero to Hero with Wireframe + Prototype + Design in Figma",
   "desc": "This article will cover how to build a full website design from scratch following the process of user experience and user interface. This will be done in three stages: WireframeSketching the layout PrototypePreparing the user interface from the wire...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/ui-ux-design-tutorial-from-zero-to-hero-with-wireframe-prototype-figma.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/ui-ux-design-tutorial-from-zero-to-hero-with-wireframe-prototype-figma.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

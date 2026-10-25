@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: "How to Store Data Locally with Isar in Flutter"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/store-data-locally-with-isar-in-flutter.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/store-data-locally-with-isar-in-flutter.html
 prev: /programming/dart/articles/README.md
 date: 2025-09-19
 isOriginal: false
@@ -431,7 +431,7 @@ With its performance, developer-friendly API, and advanced features, Isar is an 
 {
   "title": "How to Store Data Locally with Isar in Flutter",
   "desc": "When building Flutter applications, managing local data efficiently is critical. You want a database that is lightweight, fast, and easy to integrate, especially if your app will work offline. Isar is one such database. It is a high-performance, easy...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/store-data-locally-with-isar-in-flutter.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/store-data-locally-with-isar-in-flutter.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

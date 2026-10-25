@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "How to Use Pytest: A Simple Guide to Testing in Python"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-use-pytest-a-guide-to-testing-in-python.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-use-pytest-a-guide-to-testing-in-python.html
 prev: /programming/py/articles/README.md
 date: 2025-07-09
 isOriginal: false
@@ -532,7 +532,7 @@ If you found this helpful, let me know, share it with your network, or give it a
 {
   "title": "How to Use Pytest: A Simple Guide to Testing in Python",
   "desc": "With the recent advancements in AI, tools like ChatGPT have made the development process faster and more accessible. Developers can now write code and build web apps with some well-articulated prompts and careful code reviews. While this brings an in...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-use-pytest-a-guide-to-testing-in-python.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-use-pytest-a-guide-to-testing-in-python.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

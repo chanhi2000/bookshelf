@@ -28,7 +28,7 @@ head:
     - property: og:description
       content: "Learn to Use Claude AI to Build Text Summarizers, Image Describers, and More"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/learn-to-use-claude-ai.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-to-use-claude-ai.html
 prev: /ai/claude/articles/README.md
 date: 2024-10-23
 isOriginal: false
@@ -81,7 +81,7 @@ Ready to meet Claude and start building? Watch the [<VPIcon icon="fa-brands fa-y
 {
   "title": "Learn to Use Claude AI to Build Text Summarizers, Image Describers, and More",
   "desc": "From summarizing lengthy articles to providing detailed descriptions of images, AI models are becoming essential tools for developers. One such powerful tool is Claude, a state-of-the-art AI language model developed by Anthropic. Whether you're an as...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/learn-to-use-claude-ai.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-to-use-claude-ai.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

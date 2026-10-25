@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: "What are Generator Functions?"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/js-interview-prep-handbook/what-are-generator-functions.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/js-interview-prep-handbook/what-are-generator-functions.html
 date: 2024-09-10
 isOriginal: false
 author:

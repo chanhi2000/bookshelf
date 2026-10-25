@@ -25,7 +25,7 @@ head:
     - property: og:description
       content: "How to Build a Scalable URL Shortener with Distributed Caching Using Redis"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/build-a-scalable-url-shortener-with-distributed-caching-using-redis.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-a-scalable-url-shortener-with-distributed-caching-using-redis.html
 prev: /programming/js-node/articles/README.md
 date: 2024-11-20
 isOriginal: false
@@ -351,7 +351,7 @@ Happy coding!
 {
   "title": "How to Build a Scalable URL Shortener with Distributed Caching Using Redis",
   "desc": "In this tutorial, we'll build a scalable URL shortening service using Node.js and Redis. This service will leverage distributed caching to handle high traffic efficiently, reduce latency, and scale seamlessly. We'll explore key concepts such as consi...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/build-a-scalable-url-shortener-with-distributed-caching-using-redis.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-a-scalable-url-shortener-with-distributed-caching-using-redis.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

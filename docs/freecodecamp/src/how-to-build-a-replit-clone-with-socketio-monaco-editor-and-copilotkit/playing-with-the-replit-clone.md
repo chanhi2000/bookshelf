@@ -22,7 +22,7 @@ head:
     - property: og:description
       content: "Playing with the Replit Clone"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-build-a-replit-clone-with-socketio-monaco-editor-and-copilotkit/playing-with-the-replit-clone.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-build-a-replit-clone-with-socketio-monaco-editor-and-copilotkit/playing-with-the-replit-clone.html
 next: /freecodecamp.org/how-to-build-a-replit-clone-with-socketio-monaco-editor-and-copilotkit/README.md#conclusion
 date: 2025-02-21
 isOriginal: false

@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "JavaScript Prototypes and Inheritance - and Why They Say Everything in JS is an Object"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/prototypes-and-inheritance-in-javascript.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/prototypes-and-inheritance-in-javascript.html
 prev: /programming/js/articles/README.md
 date: 2022-05-04
 isOriginal: false
@@ -201,7 +201,7 @@ That's it, everyone! As always, I hope you enjoyed the article and learned somet
 {
   "title": "JavaScript Prototypes and Inheritance - and Why They Say Everything in JS is an Object",
   "desc": "Hi everyone! In this short article we're going to talk about prototypal inheritance in JavaScript, and what are the implications of it. Table of Contents Intro How to access a prototype’s properties and methods in JavaScript The prototype chain A...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/prototypes-and-inheritance-in-javascript.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/prototypes-and-inheritance-in-javascript.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

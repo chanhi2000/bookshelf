@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "How to Transform JSON Data to Match Any Schema"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/transform-json-data-schema.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/transform-json-data-schema.html
 prev: /programming/py-pandas/articles/README.md
 date: 2025-07-10
 isOriginal: false
@@ -414,7 +414,7 @@ You can study the [<VPIcon icon="iconfont icon-pandas"/>Pandas cheatsheet](https
 {
   "title": "How to Transform JSON Data to Match Any Schema",
   "desc": "Whether you’re transferring data between APIs or just preparing JSON data for import, mismatched schemas can break your workflow.  Learning how to clean and normalize JSON data ensures a smooth, error-free data transfer. This tutorial demonstrates ho...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/transform-json-data-schema.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/transform-json-data-schema.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

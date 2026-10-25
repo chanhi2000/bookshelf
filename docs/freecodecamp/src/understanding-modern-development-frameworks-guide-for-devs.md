@@ -22,7 +22,7 @@ head:
     - property: og:description
       content: "Understanding Modern Development Frameworks: A Guide for Developers and Technical Decision-makers"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/understanding-modern-development-frameworks-guide-for-devs.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/understanding-modern-development-frameworks-guide-for-devs.html
 prev: /academics/system-design/articles/README.md
 date: 2024-11-20
 isOriginal: false
@@ -495,7 +495,7 @@ MongoDB integrates with many frameworks, acting as the data layer for your appli
 {
   "title": "Understanding Modern Development Frameworks: A Guide for Developers and Technical Decision-makers",
   "desc": "As a developer for over 20 years, I've seen firsthand how choosing the right framework can make or break a project. The term ”framework” has become so broad that it's often misunderstood. Let's clear up the confusion and help you make better technica...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/understanding-modern-development-frameworks-guide-for-devs.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/understanding-modern-development-frameworks-guide-for-devs.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

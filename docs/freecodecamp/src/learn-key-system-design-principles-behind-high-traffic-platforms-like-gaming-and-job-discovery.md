@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: "Learn Key System Design Principles Behind High-Traffic Platforms Like Gaming and Job Discovery"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/learn-key-system-design-principles-behind-high-traffic-platforms-like-gaming-and-job-discovery.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-key-system-design-principles-behind-high-traffic-platforms-like-gaming-and-job-discovery.html
 prev: /academics/system-design/articles/README.md
 date: 2025-08-21
 isOriginal: false
@@ -643,7 +643,7 @@ That’s all from my side. If you found this article helpful, feel free to share
 {
   "title": "Learn Key System Design Principles Behind High-Traffic Platforms Like Gaming and Job Discovery",
   "desc": "Over the last three months, life has had me juggling a lot - managing my marriage, taking care of family health issues, and overseeing new construction work at home. Somehow, I got through it all. But looking back, I realised something important: I c...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/learn-key-system-design-principles-behind-high-traffic-platforms-like-gaming-and-job-discovery.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-key-system-design-principles-behind-high-traffic-platforms-like-gaming-and-job-discovery.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

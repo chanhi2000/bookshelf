@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Learn How Math Can Make Your Code Better By Coding Polyrhythms"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/learn-how-math-can-make-your-code-better-by-coding-polyrhythms.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-how-math-can-make-your-code-better-by-coding-polyrhythms.html
 prev: /programming/js/articles/README.md
 date: 2024-12-13
 isOriginal: false
@@ -73,7 +73,7 @@ Watch the full course on [the freeCodeCamp.org YouTube channel (1-hour watch)](h
 {
   "title": "Learn How Math Can Make Your Code Better By Coding Polyrhythms",
   "desc": "Are you someone who’s wondered if math really matters when writing code? Or perhaps you've struggled to keep your code clean and understandable while working on fun projects? This course might just change your perspective! Understanding math concepts...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/learn-how-math-can-make-your-code-better-by-coding-polyrhythms.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-how-math-can-make-your-code-better-by-coding-polyrhythms.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

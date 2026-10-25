@@ -26,7 +26,7 @@ head:
     - property: og:description
       content: "Prepare For and Pass the Google Cloud Digital Leader Certification Exam"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/prepare-for-and-pass-the-google-cloud-digital-leader-certification-exam.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/prepare-for-and-pass-the-google-cloud-digital-leader-certification-exam.html
 prev: /articles/README.md
 date: 2024-10-25
 isOriginal: false
@@ -96,7 +96,7 @@ Ready to begin your cloud journey? Head over to the [<VPIcon icon="fa-brands fa-
 {
   "title": "Prepare For and Pass the Google Cloud Digital Leader Certification Exam",
   "desc": "We've just released a comprehensive course on the freeCodeCamp.org YouTube channel to help you prepare for the Google Cloud Digital Leader certification exam - and it's completely free. This in-depth course, created by cloud expert Andrew Brown, is d...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/prepare-for-and-pass-the-google-cloud-digital-leader-certification-exam.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/prepare-for-and-pass-the-google-cloud-digital-leader-certification-exam.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

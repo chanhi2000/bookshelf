@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "JavaScript Promises Explained"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/javascript-promises-explained.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/javascript-promises-explained.html
 prev: /programming/js/articles/README.md
 date: 2020-01-16
 isOriginal: false
@@ -267,7 +267,7 @@ Promise.all([promise1, promise2, promise3]).then(function(values) {
 {
   "title": "JavaScript Promises Explained",
   "desc": "What is a promise in JavaScript? JavaScript is single threaded, meaning that two bits of script cannot run at the same time; they have to run one after another. A Promise is an object that represents the eventual completion (or failure) of an asynchr...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/javascript-promises-explained.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/javascript-promises-explained.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

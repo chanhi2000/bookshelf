@@ -28,7 +28,7 @@ head:
     - property: og:description
       content: "The AI Engineering Handbook - How to Start a Career and Excel as an AI Engineer"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/the-ai-engineering-handbook-how-to-start-a-career-and-excel-as-an-ai-engineer.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/the-ai-engineering-handbook-how-to-start-a-career-and-excel-as-an-ai-engineer.html
 prev: /projects/career/articles/README.md
 date: 2025-01-16
 isOriginal: false
@@ -2141,7 +2141,7 @@ Spots are limited, and the demand for skilled AI engineers is higher than ever. 
 {
   "title": "The AI Engineering Handbook - How to Start a Career and Excel as an AI Engineer",
   "desc": "Have you ever wondered who’s behind the groundbreaking technologies like ChatGPT from OpenAI, Tesla’s autonomous vehicles, or the humanoid robots redefining our perception of artificial intelligence? What does it take to be one of those innovators dr...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/the-ai-engineering-handbook-how-to-start-a-career-and-excel-as-an-ai-engineer.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/the-ai-engineering-handbook-how-to-start-a-career-and-excel-as-an-ai-engineer.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How WebGL and Three.js Power Interactive Online Stores"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-webgl-and-threejs-power-interactive-online-stores.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-webgl-and-threejs-power-interactive-online-stores.html
 prev: /programming/js-three/articles/README.md
 date: 2025-08-26
 isOriginal: false
@@ -370,7 +370,7 @@ For developers, experimenting with WebGL and Three.js opens the door to a whole 
 {
   "title": "How WebGL and Three.js Power Interactive Online Stores",
   "desc": "When online shopping first took off, product pages were built around a few static images and maybe a zoom feature. That was enough back then. But today’s customers expect far more. They want to spin a sneaker around, preview a sofa in their living ro...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-webgl-and-threejs-power-interactive-online-stores.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-webgl-and-threejs-power-interactive-online-stores.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

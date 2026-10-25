@@ -22,7 +22,7 @@ head:
     - property: og:description
       content: "“Rock paper scissors game using native drag & drop” by Hmz C: A project using the HTML Drag element"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-become-an-analytical-programmer-compare-five-projects/2-rock-paper-scissors-game-using-native-drag-drop-by-hmz-c-a-project-using-the-html-drag-element.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-become-an-analytical-programmer-compare-five-projects/2-rock-paper-scissors-game-using-native-drag-drop-by-hmz-c-a-project-using-the-html-drag-element.html
 date: 2025-05-12
 isOriginal: false
 author:

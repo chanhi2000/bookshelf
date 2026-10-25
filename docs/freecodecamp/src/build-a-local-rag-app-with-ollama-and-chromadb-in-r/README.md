@@ -34,7 +34,7 @@ head:
     - property: og:description
       content: "How to Build a Local RAG App with Ollama and ChromaDB in the R Programming Language"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/build-a-local-rag-app-with-ollama-and-chromadb-in-r/
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-a-local-rag-app-with-ollama-and-chromadb-in-r/
 prev: /data-science/r/articles/README.md
 date: 2025-04-15
 isOriginal: false
@@ -457,7 +457,7 @@ Whether you're developing a cooking assistant or any other domain-specific chatb
 {
   "title": "How to Build a Local RAG App with Ollama and ChromaDB in the R Programming Language",
   "desc": "A Large Language Model (LLM) is a type of machine learning model that is trained to understand and generate human-like text. These models are trained on vast datasets to capture the nuances of human language, enabling them to generate coherent and co...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/build-a-local-rag-app-with-ollama-and-chromadb-in-r.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-a-local-rag-app-with-ollama-and-chromadb-in-r.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

@@ -24,7 +24,7 @@ head:
     - property: og:description
       content: "How to Build a Website from Scratch - Start to Finish Walkthrough"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-build-a-website-from-scratch-start-to-finish-walkthrough.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-build-a-website-from-scratch-start-to-finish-walkthrough.html
 prev: /programming/js/articles/README.md
 date: 2025-04-29
 isOriginal: false
@@ -450,7 +450,7 @@ If you have any questions or need further clarification, please don't hesitate t
 {
   "title": "How to Build a Website from Scratch - Start to Finish Walkthrough",
   "desc": "Hi, fellow developers! Building a website can feel overwhelming at first - especially when you're staring at a blank HTML file, wondering how it ever turns into a real website on the internet. If you're new to web development, you've probably asked y...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-build-a-website-from-scratch-start-to-finish-walkthrough.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-build-a-website-from-scratch-start-to-finish-walkthrough.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

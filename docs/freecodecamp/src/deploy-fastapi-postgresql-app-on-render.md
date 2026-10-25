@@ -27,7 +27,7 @@ head:
     - property: og:description
       content: "How to Deploy Your FastAPI + PostgreSQL App on Render: A Beginner's Guide"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/deploy-fastapi-postgresql-app-on-render.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/deploy-fastapi-postgresql-app-on-render.html
 prev: /programming/py-fastapi/articles/README.md
 date: 2025-05-23
 isOriginal: false
@@ -498,7 +498,7 @@ Happy coding!
 {
   "title": "How to Deploy Your FastAPI + PostgreSQL App on Render: A Beginner's Guide",
   "desc": "This guide is a comprehensive roadmap for deploying a FastAPI backend connected to a PostgreSQL database using Render, a cloud platform that supports hosting Python web apps and managed PostgreSQL databases.   You can find the complete source code he...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/deploy-fastapi-postgresql-app-on-render.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/deploy-fastapi-postgresql-app-on-render.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

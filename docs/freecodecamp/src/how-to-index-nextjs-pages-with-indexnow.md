@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to Index Your Next.js Apps Faster Using IndexNow"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-index-nextjs-pages-with-indexnow.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-index-nextjs-pages-with-indexnow.html
 prev: /programming/js-next/articles/README.md
 date: 2024-08-06
 isOriginal: false
@@ -427,7 +427,7 @@ I hope this was useful, and feel free to experiment and customize this integrati
 {
   "title": "How to Index Your Next.js Apps Faster Using IndexNow",
   "desc": "Next.js is a powerful framework for building lightning-fast applications. However, getting these applications indexed quickly by search engines is crucial for visibility and traffic, and sadly, this is not immediate. Even after uploading your sitemap...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-index-nextjs-pages-with-indexnow.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-index-nextjs-pages-with-indexnow.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

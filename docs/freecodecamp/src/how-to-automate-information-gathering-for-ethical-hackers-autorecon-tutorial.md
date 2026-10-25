@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: "How to Automate Information Gathering for Ethical Hackers — AutoRecon Tutorial"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-automate-information-gathering-for-ethical-hackers-autorecon-tutorial.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-automate-information-gathering-for-ethical-hackers-autorecon-tutorial.html
 prev: /devops/security/articles/README.md
 date: 2025-04-25
 isOriginal: false
@@ -277,7 +277,7 @@ For more cybersecurity tutorials, [<VPIcon icon="fas fa-globe"/>join our newslet
 {
   "title": "How to Automate Information Gathering for Ethical Hackers — AutoRecon Tutorial",
   "desc": "When you’re doing a penetration test, your first job is to understand the target. Before you touch a single exploit or send a single payload, you need to know what services are running, what ports are open, what technologies are in play, and where th...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-automate-information-gathering-for-ethical-hackers-autorecon-tutorial.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-automate-information-gathering-for-ethical-hackers-autorecon-tutorial.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

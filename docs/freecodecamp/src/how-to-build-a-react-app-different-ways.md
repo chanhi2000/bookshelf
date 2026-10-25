@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to Build a React App - A Walkthrough of the Many Different Ways"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-build-a-react-app-different-ways.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-build-a-react-app-different-ways.html
 prev: /programming/js-react/articles/README.md
 date: 2023-03-14
 isOriginal: false
@@ -982,7 +982,7 @@ If you want, you can also follow me on [LinkedIn (<VPIcon icon="fa-brands fa-lin
 {
   "title": "How to Build a React App - A Walkthrough of the Many Different Ways",
   "desc": "Hi everyone! In this article we're going to take a look at some of the many ways you can build a React application these days. We'll compare their main characteristics, along with their pros and cons. We'll start by explaining what React is and what ...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-build-a-react-app-different-ways.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-build-a-react-app-different-ways.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

@@ -28,7 +28,7 @@ head:
     - property: og:description
       content: "Set Up Your Flutter Project and Dependencies"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/build-an-ai-powered-cooking-assistant-with-flutter-and-gemini/set-up-your-flutter-project-and-dependencies.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-an-ai-powered-cooking-assistant-with-flutter-and-gemini/set-up-your-flutter-project-and-dependencies.html
 date: 2025-05-30
 isOriginal: false
 author:

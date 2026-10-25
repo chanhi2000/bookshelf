@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "React Interview Questions - Interview Prep with Answers and Examples"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/react-interview-questions-and-answers.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/react-interview-questions-and-answers.html
 prev: /programming/js-react/articles/README.md
 date: 2022-06-07
 isOriginal: false
@@ -659,7 +659,7 @@ Instead of attempting to take several courses at once, find a helpful tutorial a
 {
   "title": "React Interview Questions - Interview Prep with Answers and Examples",
   "desc": "By Joel Olawanle React is a JavaScript library for creating user interfaces. It's used in over 30,000 live websites and has over 70,000 GitHub stars.  According to the 2021 Stack Overflow developer survey, React has surpassed jQuery as the most popul...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/react-interview-questions-and-answers.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/react-interview-questions-and-answers.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

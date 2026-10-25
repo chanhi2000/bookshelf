@@ -24,7 +24,7 @@ head:
     - property: og:description
       content: "How to Use WPScan to Keep Your WordPress Site Secure"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-use-wpscan-to-keep-your-wordpress-site-secure.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-use-wpscan-to-keep-your-wordpress-site-secure.html
 prev: /devops/security/articles/README.md
 date: 2024-12-06
 isOriginal: false
@@ -447,7 +447,7 @@ By integrating WPScan into your workflow and following best practices, you can r
 {
   "title": "How to Use WPScan to Keep Your WordPress Site Secure",
   "desc": "Over 40% of the web is powered by WordPress. But this makes this popular CMS an attractive target for hackers. So if you run a WordPress site, you’ll need to make sure it’s secure. And this isn’t just a technical task, but is also a key responsibilit...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-use-wpscan-to-keep-your-wordpress-site-secure.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-use-wpscan-to-keep-your-wordpress-site-secure.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

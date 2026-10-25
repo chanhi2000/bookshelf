@@ -31,7 +31,7 @@ head:
     - property: og:description
       content: "How to Build and Deploy an Image Hosting Service on Sevalla"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/build-and-deploy-an-image-hosting-service-on-sevalla.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-and-deploy-an-image-hosting-service-on-sevalla.html
 prev: /programming/js-express/articles/README.md
 date: 2025-09-26
 isOriginal: false
@@ -479,7 +479,7 @@ By completing this project, you now have a working image hosting service you can
 {
   "title": "How to Build and Deploy an Image Hosting Service on Sevalla",
   "desc": "When most people think of image hosting, they imagine uploading photos to a cloud service and getting back a simple link. It feels seamless, but behind that experience sits a powerful set of technologies. At the core is something called object storag...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/build-and-deploy-an-image-hosting-service-on-sevalla.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-and-deploy-an-image-hosting-service-on-sevalla.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

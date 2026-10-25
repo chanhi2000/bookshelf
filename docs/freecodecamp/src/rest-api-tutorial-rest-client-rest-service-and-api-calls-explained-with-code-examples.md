@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: "REST API Tutorial - REST Client, REST Service, and API Calls Explained With Code Examples"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/rest-api-tutorial-rest-client-rest-service-and-api-calls-explained-with-code-examples.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/rest-api-tutorial-rest-client-rest-service-and-api-calls-explained-with-code-examples.html
 prev: /explore/api/articles/README.md
 date: 2020-04-23
 isOriginal: false
@@ -510,7 +510,7 @@ I hope you have learned something from this. If you have any questions, feel fre
 {
   "title": "REST API Tutorial - REST Client, REST Service, and API Calls Explained With Code Examples",
   "desc": "By Vaibhav Kandwal Ever wondered how login/signup on a website works on the back-end? Or how when you search for ”cute kitties” on YouTube, you get a bunch of results and are able to stream off of a remote machine? In this beginner friendly guide, I ...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/rest-api-tutorial-rest-client-rest-service-and-api-calls-explained-with-code-examples.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/rest-api-tutorial-rest-client-rest-service-and-api-calls-explained-with-code-examples.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

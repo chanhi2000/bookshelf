@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: "How to Host a Website on AWS EC2 Using a CSS Template"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/host-a-website-on-aws-ec2-using-a-css-template.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/host-a-website-on-aws-ec2-using-a-css-template.html
 prev: /devops/aws/articles/README.md
 date: 2024-11-09
 isOriginal: false
@@ -193,7 +193,7 @@ You can follow me on
 {
   "title": "How to Host a Website on AWS EC2 Using a CSS Template",
   "desc": "Are you ready to take your web hosting skills to the next level by using a CSS template? Hosting a professional looking website doesn’t have to be complicated, and with AWS EC2, you can have your website live in no time! In this guide, I’ll show you ...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/host-a-website-on-aws-ec2-using-a-css-template.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/host-a-website-on-aws-ec2-using-a-css-template.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

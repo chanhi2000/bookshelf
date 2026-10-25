@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "Python Dictionary Guide - How to Iterate Over, Copy, and Merge Dictionaries in Python 3.9"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/python-dictionary-guide.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/python-dictionary-guide.html
 prev: /programming/py/articles/README.md
 date: 2020-10-27
 isOriginal: false
@@ -283,7 +283,7 @@ I hope you enjoyed this article and I wish you a great day!
 {
   "title": "Python Dictionary Guide - How to Iterate Over, Copy, and Merge Dictionaries in Python 3.9",
   "desc": "By Florian Dedov Python is a popular language for data science. And working with collections is one of the most fundamental skills you need to have.  Collections are data structures that contain multiple elements of various different data types.  Tod...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/python-dictionary-guide.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/python-dictionary-guide.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

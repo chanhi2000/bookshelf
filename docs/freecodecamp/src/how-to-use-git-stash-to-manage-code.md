@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: "How to Use Git Stash to Efficiently Manage Your Code"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-use-git-stash-to-manage-code.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-use-git-stash-to-manage-code.html
 prev: /programming/git/articles/README.md
 date: 2024-10-11
 isOriginal: false
@@ -197,7 +197,7 @@ Thank you for reading.
 {
   "title": "How to Use Git Stash to Efficiently Manage Your Code",
   "desc": "Sometimes when you’re coding, you need to leave a particular task incomplete to focus on another task - but you don't want to lose your progress. So what do you do? Fortunately, git stash comes to the rescue. In this article, you’ll learn all about t...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-use-git-stash-to-manage-code.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-use-git-stash-to-manage-code.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

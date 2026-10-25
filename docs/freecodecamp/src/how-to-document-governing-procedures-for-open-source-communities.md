@@ -25,7 +25,7 @@ head:
     - property: og:description
       content: "How to Document Governing Procedures for Open-Source Communities"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-document-governing-procedures-for-open-source-communities.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-document-governing-procedures-for-open-source-communities.html
 prev: /projects/career/articles/README.md
 date: 2025-07-17
 isOriginal: false
@@ -189,7 +189,7 @@ And remember: governance isn’t about control. It’s about clarity.
 {
   "title": "How to Document Governing Procedures for Open-Source Communities",
   "desc": "In open source communities, we often discuss contribution guidelines, codes of conduct, and onboarding new contributors. But one thing we don’t talk about nearly enough? Governance. Governance sounds serious. But at its core, it simply means: how do ...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-document-governing-procedures-for-open-source-communities.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-document-governing-procedures-for-open-source-communities.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

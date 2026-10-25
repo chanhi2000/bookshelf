@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "What is Polymorphism in Python? Explained with an Example"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/what-is-polymorphism-in-python-example.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/what-is-polymorphism-in-python-example.html
 prev: /programming/py/articles/README.md
 date: 2025-02-07
 isOriginal: false
@@ -297,7 +297,7 @@ Thanks for reading
 {
   "title": "What is Polymorphism in Python? Explained with an Example",
   "desc": "Polymorphism is an object-oriented programming (OOP) principle that helps you write high quality, flexible, maintainable, reusable, testable, and readable software. If you plan to work with object-oriented software, it is crucial to understand polymo...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/what-is-polymorphism-in-python-example.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/what-is-polymorphism-in-python-example.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

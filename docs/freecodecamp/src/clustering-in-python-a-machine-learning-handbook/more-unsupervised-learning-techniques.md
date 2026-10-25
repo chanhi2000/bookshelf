@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: "More Unsupervised Learning Techniques"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/clustering-in-python-a-machine-learning-handbook/more-unsupervised-learning-techniques.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/clustering-in-python-a-machine-learning-handbook/more-unsupervised-learning-techniques.html
 next: /freecodecamp.org/clustering-in-python-a-machine-learning-handbook/README.md#faqs
 date: 2025-02-06
 isOriginal: false

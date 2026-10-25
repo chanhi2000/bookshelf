@@ -26,7 +26,7 @@ head:
     - property: og:description
       content: "Embedded Swift: A Modern Approach to Low-Level Programming"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/embedded-swift-a-modern-approach-to-low-level-programming.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/embedded-swift-a-modern-approach-to-low-level-programming.html
 prev: /programming/swift/articles/README.md
 date: 2025-08-02
 isOriginal: false
@@ -863,7 +863,7 @@ Swift can be especially powerful during the prototyping phase, when the primary 
 {
   "title": "Embedded Swift: A Modern Approach to Low-Level Programming",
   "desc": "Embedded programming has long been dominated by C and C++, powering everything from microcontrollers to real-time systems. While these languages offer unmatched low-level control, they also introduce persistent challenges, manual memory management, u...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/embedded-swift-a-modern-approach-to-low-level-programming.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/embedded-swift-a-modern-approach-to-low-level-programming.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

@@ -24,7 +24,7 @@ head:
     - property: og:description
       content: "Data Loading with Python and AI"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/data-loading-with-python-and-ai.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/data-loading-with-python-and-ai.html
 prev: /programming/py/articles/README.md
 date: 2025-04-18
 isOriginal: false
@@ -117,7 +117,7 @@ Check out the full course for free on the [<VPIcon icon="fa-brands fa-youtube"/>
 {
   "title": "Data Loading with Python and AI",
   "desc": "Modern data pipelines are the backbone of data engineering, enabling organizations to collect, process, and leverage massive volumes of information efficiently. But building and maintaining these pipelines isn't always straightforward. From API rate ...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/data-loading-with-python-and-ai.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/data-loading-with-python-and-ai.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

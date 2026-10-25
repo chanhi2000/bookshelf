@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: "Why Public Wi-Fi Is Dangerous - And How to Protect Yourself"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/why-public-wi-fi-is-dangerous-and-how-to-protect-yourself.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/why-public-wi-fi-is-dangerous-and-how-to-protect-yourself.html
 prev: /devops/security/articles/README.md
 date: 2025-06-03
 isOriginal: false
@@ -182,7 +182,7 @@ Learn how to earn money by building a private community - [<VPIcon icon="fas fa-
 {
   "title": "Why Public Wi-Fi Is Dangerous - And How to Protect Yourself",
   "desc": "Free Wi-Fi feels like a small win when you’re out. Coffee shops, airports, and hotels offer it like candy  -  just tap, connect, and you’re online.  But behind that convenience is a world of risk that most people never see coming. Let’s talk about wh...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/why-public-wi-fi-is-dangerous-and-how-to-protect-yourself.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/why-public-wi-fi-is-dangerous-and-how-to-protect-yourself.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

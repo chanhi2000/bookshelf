@@ -26,7 +26,7 @@ head:
     - property: og:description
       content: "Learn Next.js 15 Caching & Rendering"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/learn-nextjs-15-caching-and-rendering.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-nextjs-15-caching-and-rendering.html
 prev: /programming/js-next/articles/README.md
 date: 2025-08-14
 isOriginal: false
@@ -104,7 +104,7 @@ Watch the full course on [<VPIcon icon="fa-brands fa-youtube"/>the freeCodeCamp.
 {
   "title": "Learn Next.js 15 Caching & Rendering",
   "desc": "Learn Next.js 15 Caching & Rendering using the App Router. We just posted a course on the freeCodeCamp.org YouTube channel for people who want a clear, engineering-level understanding of how Next.js optimizes performance through smart rendering strat...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/learn-nextjs-15-caching-and-rendering.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-nextjs-15-caching-and-rendering.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "What are Data Transfer Objects? Learn to Use DTOs in Your Java Spring-Based Projects"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/what-are-dtos-java.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/what-are-dtos-java.html
 prev: /programming/java-spring/articles/README.md
 date: 2025-08-20
 isOriginal: false
@@ -694,7 +694,7 @@ In this article, you’ve learned what DTOs are as well as the main approaches f
 {
   "title": "What are Data Transfer Objects? Learn to Use DTOs in Your Java Spring-Based Projects",
   "desc": "High performance and privacy are at the heart of most successful software systems. No one wants to use a software service that takes a ridiculous amount of time to load - and no company wants their users’ data exposed at the slightest vulnerability. ...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/what-are-dtos-java.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/what-are-dtos-java.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

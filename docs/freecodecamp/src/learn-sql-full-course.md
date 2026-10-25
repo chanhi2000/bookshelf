@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: "Learn SQL for Efficient Data Storage and Retrieval"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/learn-sql-full-course.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-sql-full-course.html
 prev: /data-science/articles/README.md
 date: 2023-05-11
 isOriginal: false
@@ -78,7 +78,7 @@ So, are you ready to embark on this exciting journey and become a SQL expert? Wa
 {
   "title": "Learn SQL for Efficient Data Storage and Retrieval",
   "desc": "Unlock the power of data with SQL! Master one of the most in-demand skill in the data-driven world and supercharge your career with our new video course. We just released a comprehensive video course on the freeCodeCamp.org YouTube channel that will ...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/learn-sql-full-course.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-sql-full-course.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

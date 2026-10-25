@@ -16,7 +16,7 @@ head:
     - property: og:description
       content: "cherry-pick as a Basis for Rebase"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/git-rebase-handbook/cherry-pick-as-a-basis-for-rebase.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/git-rebase-handbook/cherry-pick-as-a-basis-for-rebase.html
 prev: /programming/git/articles/README.md
 date: 2023-07-03
 isOriginal: false

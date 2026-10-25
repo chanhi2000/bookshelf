@@ -26,7 +26,7 @@ head:
     - property: og:description
       content: "Microservices vs Monolithic Architecture"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/the-microservices-book-build-and-manage-services-in-the-cloud/microservices-vs-monolithic-architecture.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/the-microservices-book-build-and-manage-services-in-the-cloud/microservices-vs-monolithic-architecture.html
 date: 2024-11-29
 isOriginal: false
 author: Adekola Olawale

@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "How to Use Loops in C#"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-use-loops-in-c.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-use-loops-in-c.html
 prev: /programming/cs/articles/README.md
 date: 2025-09-17
 isOriginal: false
@@ -328,7 +328,7 @@ I hope this tutorial was useful, and as always I’d love to hear your thoughts 
 {
   "title": "How to Use Loops in C#",
   "desc": "Writing the same code repeatedly is poor practice in C# and doesn’t follow the Don’t Repeat Yourself (DRY) principle. But, there are many times in programming where you need to repeat commands, operations, or computations multiple times — perhaps cha...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-use-loops-in-c.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-use-loops-in-c.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

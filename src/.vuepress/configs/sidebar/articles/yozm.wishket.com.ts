@@ -5,6 +5,10 @@ const Y2026: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2026
+    "3940", // 2026-09-10
+    "3938", // 2026-09-09
+    "3937", // 2026-09-09
+    "3936", // 2026-09-08
     "3909", // 2026-08-21
     "3907", // 2026-08-20
     "3893", // 2026-08-11
@@ -693,6 +697,7 @@ export const template: SidebarInfoTemplate = {
       // END: 2025js-node
       "3676", // 2026-03-26
       "3713", // 2026-04-17
+      "3940", // 2026-09-10
       // END: 2026js-node
       // END: js-node
     ]], [
@@ -1112,6 +1117,11 @@ export const template: SidebarInfoTemplate = {
     ]],[
     "sqlite", [
       "2838", // 2024-11-08
+      // END: 2024sqlite
+      // END: 2025sqlite
+      "3940", // 2026-09-10
+      // END: 2026sqlite
+      // END: sqlite
     ]],[
     "graphql", [
       "2831", // 2024-11-05
@@ -1206,6 +1216,7 @@ export const template: SidebarInfoTemplate = {
       "3401", // 2025-10-20
       // END: 2025system-design
       "3839", // 2026-07-08
+      "3938", // 2026-09-09
       // END: 2026system-design
       // END: system-design
     ]],[
@@ -1258,6 +1269,8 @@ export const template: SidebarInfoTemplate = {
       "3866", // 2026-07-28
       "3882", // 2026-08-04
       "3909", // 2026-08-21
+      "3936", // 2026-09-08
+      "3938", // 2026-09-09
       // END: 2026ai
       // END: ai
     ]],[
@@ -1315,6 +1328,7 @@ export const template: SidebarInfoTemplate = {
     ]],[
     "github-copilot", [
       "2931", // 2025-01-14
+      "3937", // 2026-09-09
       // END: 2025github-copilot
       // END: github-copilot
     ]],[
@@ -1551,6 +1565,8 @@ export const template: SidebarInfoTemplate = {
       "3752", // 2026-05-13
       "3880", // 2026-08-03
       "3909", // 2026-08-21
+      "3936", // 2026-09-08
+      "3938", // 2026-09-09
       // END: 2026career
       // END: career
     ]],[

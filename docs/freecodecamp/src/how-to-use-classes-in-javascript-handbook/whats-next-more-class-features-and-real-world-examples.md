@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: "What’s Next? More Class Features and Real-World Examples"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-use-classes-in-javascript-handbook/whats-next-more-class-features-and-real-world-examples.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-use-classes-in-javascript-handbook/whats-next-more-class-features-and-real-world-examples.html
 next: /freecodecamp.org/how-to-use-classes-in-javascript-handbook/README.md#conclusion
 date: 2025-02-18
 isOriginal: false

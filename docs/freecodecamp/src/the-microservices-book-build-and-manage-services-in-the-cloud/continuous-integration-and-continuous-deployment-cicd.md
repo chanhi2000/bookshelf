@@ -29,7 +29,7 @@ head:
     - property: og:description
       content: "Continuous Integration and Continuous Deployment (CI/CD)"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/the-microservices-book-build-and-manage-services-in-the-cloud/continuous-integration-and-continuous-deployment-cicd.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/the-microservices-book-build-and-manage-services-in-the-cloud/continuous-integration-and-continuous-deployment-cicd.html
 date: 2024-11-29
 isOriginal: false
 author: Adekola Olawale

@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to Write Unit Tests and E2E Tests for NestJS Applications"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/nestjs-unit-testing-e2e-testing-guide.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/nestjs-unit-testing-e2e-testing-guide.html
 prev: /programming/js-nest/articles/README.md
 date: 2025-04-16
 isOriginal: false
@@ -524,7 +524,7 @@ If you don't have the opportunity to write tests, I suggest you start a practice
 {
   "title": "How to Write Unit Tests and E2E Tests for NestJS Applications",
   "desc": "Recently, I have been writing unit tests and E2E tests for a NestJS project. This was my first time writing tests for a backend project, and I found the process different from my experience with frontend testing, making it challenging to begin. After...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/nestjs-unit-testing-e2e-testing-guide.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/nestjs-unit-testing-e2e-testing-guide.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

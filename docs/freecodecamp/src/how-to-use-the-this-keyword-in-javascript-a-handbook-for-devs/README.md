@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "How to Use the “this” Keyword in JavaScript: A Handbook for Devs"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-use-the-this-keyword-in-javascript-a-handbook-for-devs/
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-use-the-this-keyword-in-javascript-a-handbook-for-devs/
 prev: /programming/js/articles/README.md
 date: 2025-07-10
 isOriginal: false
@@ -1678,7 +1678,7 @@ Mastering `this` will help you write more maintainable, reusable, and profession
 {
   "title": "How to Use the “this” Keyword in JavaScript: A Handbook for Devs",
   "desc": "The this keyword in JavaScript is like a chameleon - it changes its meaning depending on where and how it's used. Many developers struggle with this because it doesn't behave the same way in JavaScript as it does in other programming languages. Think...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-use-the-this-keyword-in-javascript-a-handbook-for-devs.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-use-the-this-keyword-in-javascript-a-handbook-for-devs.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

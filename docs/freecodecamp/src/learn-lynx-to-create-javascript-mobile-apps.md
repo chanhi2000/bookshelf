@@ -24,7 +24,7 @@ head:
     - property: og:description
       content: "Learn Lynx to Create JavaScript Mobile Apps"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/learn-lynx-to-create-javascript-mobile-apps.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-lynx-to-create-javascript-mobile-apps.html
 prev: /programming/js-lynx/articles/README.md
 date: 2025-04-10
 isOriginal: false
@@ -88,7 +88,7 @@ To get started, watch the full course on [<VPIcon icon="fa-brands fa-youtube"/>t
 {
   "title": "Learn Lynx to Create JavaScript Mobile Apps",
   "desc": "In the rapidly evolving landscape of cross-platform development, a new player has emerged that promises to revolutionize the way developers create applications: Lynx. Developed by ByteDance, the company behind TikTok, Lynx is an open-source framework...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/learn-lynx-to-create-javascript-mobile-apps.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-lynx-to-create-javascript-mobile-apps.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

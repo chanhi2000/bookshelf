@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to Use Higher-Order Components in React"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/higher-order-components-in-react.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/higher-order-components-in-react.html
 prev: /programming/js-react/articles/README.md
 date: 2023-07-29
 isOriginal: false
@@ -391,7 +391,7 @@ Happy coding!
 {
   "title": "How to Use Higher-Order Components in React",
   "desc": "Higher-order components (HOCs) are a powerful feature of the React library. They allow you to reuse component logic across multiple components.  In React, a higher-order component is a function that takes a component as an argument and returns a new ...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/higher-order-components-in-react.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/higher-order-components-in-react.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

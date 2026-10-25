@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to Handle Errors in React Applications"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/effective-error-handling-in-react-applications.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/effective-error-handling-in-react-applications.html
 prev: /programming/js-react/articles/README.md
 date: 2023-12-14
 isOriginal: false
@@ -610,7 +610,7 @@ Remember, simplicity in error messages and clear communication with users go a l
 {
   "title": "How to Handle Errors in React Applications",
   "desc": "Error handling is a critical aspect of developing user-friendly React applications. As a developer, you can't always predict or prevent errors, but you can certainly control how they are handled.  In this article, we'll explore practical and effectiv...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/effective-error-handling-in-react-applications.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/effective-error-handling-in-react-applications.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: Loops in Go
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/go-beginners-handbook/loops-in-go.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/go-beginners-handbook/loops-in-go.html
 date: 2022-10-19
 author: Flavio Copes
 isOriginal: false

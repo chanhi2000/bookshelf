@@ -29,7 +29,7 @@ head:
     - property: og:description
       content: "Code Your Own Llama 4 LLM from Scratch"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/code-your-own-llama-4-llm-from-scratch.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/code-your-own-llama-4-llm-from-scratch.html
 prev: /ai/llama/articles/README.md
 date: 2025-04-25
 isOriginal: false
@@ -91,7 +91,7 @@ Whether you're a machine learning enthusiast or a developer looking to deepen yo
 {
   "title": "Code Your Own Llama 4 LLM from Scratch",
   "desc": "Large language models (LLMs) are at the forefront of modern artificial intelligence, enabling applications that can understand and generate human-like language. Meta's latest release, Llama 4, represents a significant advancement in this field, intro...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/code-your-own-llama-4-llm-from-scratch.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/code-your-own-llama-4-llm-from-scratch.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

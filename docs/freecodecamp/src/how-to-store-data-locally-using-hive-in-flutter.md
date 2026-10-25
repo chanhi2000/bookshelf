@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: "How to Store Data Locally Using Hive in Flutter"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-store-data-locally-using-hive-in-flutter.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-store-data-locally-using-hive-in-flutter.html
 prev: /programming/dart/articles/README.md
 date: 2025-09-09
 isOriginal: false
@@ -779,7 +779,7 @@ You can explore Hive further in the [<VPIcon icon="fas fa-globe"/>Hive Package D
 {
   "title": "How to Store Data Locally Using Hive in Flutter",
   "desc": "In this tutorial, we’ll build a Flutter application that demonstrates how to perform CRUD (Create, Read, Update, Delete) operations using Hive for local data storage. Hive is a lightweight, fast key-value database written in pure Dart. Unlike SQLite,...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-store-data-locally-using-hive-in-flutter.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-store-data-locally-using-hive-in-flutter.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

@@ -27,7 +27,7 @@ head:
     - property: og:description
       content: "How to Use Your Raspberry Pi Headlessly with VS Code and SSH (No Monitor Needed)"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-use-your-raspberry-pi-headlessly-with-vs-code-and-ssh.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-use-your-raspberry-pi-headlessly-with-vs-code-and-ssh.html
 prev: /devops/linux-debian/articles/README.md
 date: 2025-05-27
 isOriginal: false
@@ -407,7 +407,7 @@ You can use this to deploy web servers and IoT dashboards, and you can explore w
 {
   "title": "How to Use Your Raspberry Pi Headlessly with VS Code and SSH (No Monitor Needed)",
   "desc": "The Raspberry Pi is a portable computer with an onboard processor that fits comfortably in the palm of your hand. Compared with general purpose computers, it’s an affordable option developed by the Raspberry Pi Foundation. The Raspberry Pi Model B wa...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-use-your-raspberry-pi-headlessly-with-vs-code-and-ssh.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-use-your-raspberry-pi-headlessly-with-vs-code-and-ssh.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to Build a Replit Clone with Socket.io, Monaco Editor, and Copilotkit"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-build-a-replit-clone-with-socketio-monaco-editor-and-copilotkit/
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-build-a-replit-clone-with-socketio-monaco-editor-and-copilotkit/
 prev: /programming/js-next/articles/README.md
 date: 2025-02-21
 isOriginal: false
@@ -228,7 +228,7 @@ That’s all from my side. If you found this article helpful, feel free to share
 {
   "title": "How to Build a Replit Clone with Socket.io, Monaco Editor, and Copilotkit",
   "desc": "I’ve been coding for about a decade now. And over the years, I’ve tried my fair share of development tools—especially IDEs like Sublime Text, Atom, and even NetBeans back in my college days. But when VS Code came along, it completely changed the game...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-build-a-replit-clone-with-socketio-monaco-editor-and-copilotkit.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-build-a-replit-clone-with-socketio-monaco-editor-and-copilotkit.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

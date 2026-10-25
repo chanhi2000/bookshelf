@@ -24,7 +24,7 @@ head:
     - property: og:description
       content: "The Agentic AI Handbook: A Beginner's Guide to Autonomous Intelligent Agents"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/the-agentic-ai-handbook.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/the-agentic-ai-handbook.html
 prev: /ai/llm/articles/README.md
 date: 2025-05-28
 isOriginal: false
@@ -564,7 +564,7 @@ The technology is advancing quickly from self-driving cars to research assistant
 {
   "title": "The Agentic AI Handbook: A Beginner's Guide to Autonomous Intelligent Agents",
   "desc": "You may have heard about “Agentic AI” systems and wondered what they’re all about. Well, in basic terms, the idea behind Agentic AI is that it can see its surroundings, set and pursue goals, plan and reason through many processes, and learn from expe...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/the-agentic-ai-handbook.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/the-agentic-ai-handbook.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "The OSI Model - The 7 Layers of Networking Explained in Plain English"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/osi-model-networking-layers-explained-in-plain-english.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/osi-model-networking-layers-explained-in-plain-english.html
 prev: /academics/coen/articles/README.md
 date: 2020-12-22
 isOriginal: false
@@ -507,7 +507,7 @@ Chloe Tucker is an artist and computer science enthusiast based in Portland, Ore
 {
   "title": "The OSI Model - The 7 Layers of Networking Explained in Plain English",
   "desc": "By Chloe Tucker This article explains the Open Systems Interconnection (OSI) model and the 7 layers of networking, in plain English. The OSI model is a conceptual framework that is used to describe how a network functions. In plain English, the OSI m...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/osi-model-networking-layers-explained-in-plain-english.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/osi-model-networking-layers-explained-in-plain-english.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

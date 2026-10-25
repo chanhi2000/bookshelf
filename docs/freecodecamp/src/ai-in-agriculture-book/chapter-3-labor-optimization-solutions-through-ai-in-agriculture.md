@@ -26,7 +26,7 @@ head:
     - property: og:description
       content: "Chapter 3: Labor Optimization Solutions Through AI in Agriculture"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/ai-in-agriculture-book/chapter-3-labor-optimization-solutions-through-ai-in-agriculture.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/ai-in-agriculture-book/chapter-3-labor-optimization-solutions-through-ai-in-agriculture.html
 date: 2025-01-15
 isOriginal: false
 author:

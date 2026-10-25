@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "How to Create Your Own npm Library"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-create-an-npm-library/how-to-create-your-own-npm-library.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-create-an-npm-library/how-to-create-your-own-npm-library.html
 date: 2025-02-08
 isOriginal: false
 author:

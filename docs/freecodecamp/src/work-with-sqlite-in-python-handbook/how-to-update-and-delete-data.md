@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: "How to Update and Delete Data"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-update-and-delete-data.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-update-and-delete-data.html
 date: 2024-10-02
 isOriginal: false
 author: Ashutosh Krishna

@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: "How Does the this Keyword Work?"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/js-interview-prep-handbook/how-does-the-this-keyword-work.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/js-interview-prep-handbook/how-does-the-this-keyword-work.html
 date: 2024-09-10
 isOriginal: false
 author:

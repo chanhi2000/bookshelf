@@ -16,7 +16,7 @@ head:
     - property: og:description
       content: "Chapter 11: Database Performance"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/a-beginners-guide-to-sql/chapter-11-database-performance.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/a-beginners-guide-to-sql/chapter-11-database-performance.html
 next: /freecodecamp.org/a-beginners-guide-to-sql/README.md#congratulations-on-making-it-to-the-end
 date: 2023-09-05
 isOriginal: false

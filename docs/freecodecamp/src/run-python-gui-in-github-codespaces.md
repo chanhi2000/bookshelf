@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "How to Run Python GUI Apps in GitHub Codespaces with Xvfb and noVNC"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/run-python-gui-in-github-codespaces.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/run-python-gui-in-github-codespaces.html
 prev: /programming/py/articles/README.md
 date: 2025-09-13
 isOriginal: false
@@ -517,7 +517,7 @@ Want to try it yourself? Clone this [repo (<VPIcon icon="iconfont icon-github"/>
 {
   "title": "How to Run Python GUI Apps in GitHub Codespaces with Xvfb and noVNC",
   "desc": "GitHub Codespaces gives you a full development environment in the cloud, directly in your browser. It’s great for writing and running code, but there’s one big limitation: it doesn’t support graphical applications out of the box, especially for Pytho...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/run-python-gui-in-github-codespaces.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/run-python-gui-in-github-codespaces.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

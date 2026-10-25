@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "The React Interview Prep Handbook - Essential Topics and Code Examples"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/react-interview-prep-handbook.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/react-interview-prep-handbook.html
 prev: /programming/js-react/articles/README.md
 date: 2024-10-11
 isOriginal: false
@@ -170,7 +170,7 @@ During the interviews, just stay calm and confidently demonstrate your knowledge
 {
   "title": "The React Interview Prep Handbook - Essential Topics and Code Examples",
   "desc": "Hi everyone! In the ever-changing landscape of web development, React is in very high demand. Companies are often seeking skilled React developers to build dynamic and engaging web applications. If you are a web developer or aspiring to be one, it's ...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/react-interview-prep-handbook.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/react-interview-prep-handbook.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "How to Use the Java Collections Framework - A Guide for Developers"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/java-collections-framework-reference-guide.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/java-collections-framework-reference-guide.html
 prev: /programming/java/articles/README.md
 date: 2025-01-29
 isOriginal: false
@@ -524,7 +524,7 @@ If you found this article interesting, feel free to check out my other articles 
 {
   "title": "How to Use the Java Collections Framework - A Guide for Developers",
   "desc": "In your Java applications, you’ll typically work with various types of objects. And you might want to perform operations like sorting, searching, and iterating on these objects. Prior to the introduction of the Collections framework in JDK 1.2, you w...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/java-collections-framework-reference-guide.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/java-collections-framework-reference-guide.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

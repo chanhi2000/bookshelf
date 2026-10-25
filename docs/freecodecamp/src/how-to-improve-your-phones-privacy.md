@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: "How to Improve Your Phone’s Privacy"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-improve-your-phones-privacy.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-improve-your-phones-privacy.html
 prev: /devops/security/articles/README.md
 date: 2025-06-14
 isOriginal: false
@@ -170,7 +170,7 @@ Hope you enjoyed this article. You can [<VPIcon icon="fas fa-globe"/>learn more 
 {
   "title": "How to Improve Your Phone’s Privacy",
   "desc": "We use our phones for everything  -  texting, banking, browsing, tracking our health, even unlocking our homes. But with all that convenience comes a lot of risk. Apps are hungry for your data. Hackers are always looking for cracks in your security. ...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-improve-your-phones-privacy.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-improve-your-phones-privacy.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

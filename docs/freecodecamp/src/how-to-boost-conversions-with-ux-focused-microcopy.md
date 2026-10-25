@@ -25,7 +25,7 @@ head:
     - property: og:description
       content: "How to Boost Conversions with UX-Focused Microcopy"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-boost-conversions-with-ux-focused-microcopy.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-boost-conversions-with-ux-focused-microcopy.html
 prev: /academics/coen/articles/README.md
 date: 2025-07-29
 isOriginal: false
@@ -316,7 +316,7 @@ And that’s how you build experiences that not only work, but **convert**.
 {
   "title": "How to Boost Conversions with UX-Focused Microcopy",
   "desc": "In this article, I’ll walk you through what microcopy is, why it matters more than you think, and how to write effective, empathetic, and high-converting microcopy. Whether you're a designer, writer, or product builder, you’ll learn practical tips, r...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-boost-conversions-with-ux-focused-microcopy.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-boost-conversions-with-ux-focused-microcopy.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

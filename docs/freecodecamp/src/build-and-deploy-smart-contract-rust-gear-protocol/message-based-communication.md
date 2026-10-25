@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: "Message-based Communication"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/build-and-deploy-smart-contract-rust-gear-protocol/message-based-communication.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-and-deploy-smart-contract-rust-gear-protocol/message-based-communication.html
 date: 2024-06-04
 isOriginal: false
 cover: https://freecodecamp.org/news/content/images/2024/06/How-to-Build-and-Deploy-a-Smart-Contract-With-Rust-and-the-Gear-Protocol-Cover.png

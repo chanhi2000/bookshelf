@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: "How to Write a Developer Résumé Hiring Managers Will Actually Read"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-write-a-resume-that-works.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-write-a-resume-that-works.html
 prev: /projects/career/articles/README.md
 date: 2020-08-04
 isOriginal: false
@@ -252,7 +252,7 @@ Here are some other popular articles with résumé advice from freeCodeCamp auth
 {
   "title": "How to Write a Developer Résumé Hiring Managers Will Actually Read",
   "desc": "By Megan Kaczanowski Résumés are hard. And most people are bad at them - which makes sense, because you probably only write or update your résumé every few years. It involves selling yourself and your skills - something most people struggle with.  On...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-write-a-resume-that-works.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-write-a-resume-that-works.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

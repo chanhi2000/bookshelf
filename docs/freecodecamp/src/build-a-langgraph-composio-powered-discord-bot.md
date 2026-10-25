@@ -22,7 +22,7 @@ head:
     - property: og:description
       content: "How to Build a LangGraph and Composio-Powered Discord Bot"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/build-a-langgraph-composio-powered-discord-bot.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-a-langgraph-composio-powered-discord-bot.html
 prev: /programming/js-node/articles/README.md
 date: 2025-06-25
 isOriginal: false
@@ -1279,7 +1279,7 @@ Love to build cool stuff like this? I regularly build such stuff every few weeks
 {
   "title": "How to Build a LangGraph and Composio-Powered Discord Bot",
   "desc": "With the rise of AI tools over the past couple years, most of us are learning how to use them in our projects. And in this article, I’ll teach you how to build a quick Discord bot with LangGraph and Composio. You’ll use LangGraph nodes to build a bra...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/build-a-langgraph-composio-powered-discord-bot.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-a-langgraph-composio-powered-discord-bot.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

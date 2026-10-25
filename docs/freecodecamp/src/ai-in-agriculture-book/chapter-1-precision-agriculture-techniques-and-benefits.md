@@ -26,7 +26,7 @@ head:
     - property: og:description
       content: "Chapter 1: Precision Agriculture - Techniques and Benefits"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/ai-in-agriculture-book/chapter-1-precision-agriculture-techniques-and-benefits.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/ai-in-agriculture-book/chapter-1-precision-agriculture-techniques-and-benefits.html
 date: 2025-01-15
 isOriginal: false
 author:

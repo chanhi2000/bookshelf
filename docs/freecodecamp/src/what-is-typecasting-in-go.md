@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "What is Typecasting in Go? Explained with Code Examples"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/what-is-typecasting-in-go.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/what-is-typecasting-in-go.html
 prev: /programming/go/articles/README.md
 date: 2025-04-22
 isOriginal: false
@@ -362,7 +362,7 @@ Mastering typecasting in Go will not only make you a better developer but also h
 {
   "title": "What is Typecasting in Go? Explained with Code Examples",
   "desc": "When you’re working with data in Go, especially when you need to handle dynamic inputs like JSON from third-party APIs, understanding how to properly convert between data types is key. This helps you avoid bugs and crashes. Often times, the values re...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/what-is-typecasting-in-go.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/what-is-typecasting-in-go.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

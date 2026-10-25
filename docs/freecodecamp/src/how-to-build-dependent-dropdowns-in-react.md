@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to Build Dependent Dropdowns in React"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-build-dependent-dropdowns-in-react.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-build-dependent-dropdowns-in-react.html
 prev: /programming/js-react/articles/README.md
 date: 2025-01-30
 isOriginal: false
@@ -552,7 +552,7 @@ See you on the next one!
 {
   "title": "How to Build Dependent Dropdowns in React",
   "desc": "In many web applications, we often encounter forms where selecting an option in one dropdown unlocks a new set of options in another. These interconnected dropdowns, commonly known as dependent or cascading dropdowns, play a crucial role in creating ...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-build-dependent-dropdowns-in-react.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-build-dependent-dropdowns-in-react.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

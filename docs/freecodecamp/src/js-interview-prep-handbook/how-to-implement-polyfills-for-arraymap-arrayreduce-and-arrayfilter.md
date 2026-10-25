@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: "How to Implement Polyfills for Array.map(), Array.reduce(), and Array.filter()"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/js-interview-prep-handbook/how-to-implement-polyfills-for-arraymap-arrayreduce-and-arrayfilter.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/js-interview-prep-handbook/how-to-implement-polyfills-for-arraymap-arrayreduce-and-arrayfilter.html
 date: 2024-09-10
 isOriginal: false
 author:

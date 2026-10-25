@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Fetch API vs. Axios vs. Alova: Which HTTP Client Should You Use in 2025?"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/fetch-api-vs-axios-vs-alova.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/fetch-api-vs-axios-vs-alova.html
 prev: /programming/js-axios/articles/README.md
 date: 2025-04-02
 isOriginal: false
@@ -783,7 +783,7 @@ As developers explore new ways to enhance performance and reduce network load, A
 {
   "title": "Fetch API vs. Axios vs. Alova: Which HTTP Client Should You Use in 2025?",
   "desc": "Before the days of the Fetch API and Axios, developers used callback-based HTTP requests. They manually managed requests with asynchronous operations and, in the process, wrote deeply nested code. This was known as callback hell. Then, in 2015, a pro...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/fetch-api-vs-axios-vs-alova.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/fetch-api-vs-axios-vs-alova.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

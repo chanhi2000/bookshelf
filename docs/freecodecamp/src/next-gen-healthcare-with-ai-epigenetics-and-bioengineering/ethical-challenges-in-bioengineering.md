@@ -16,7 +16,7 @@ head:
     - property: og:description
       content: "Ethical Challenges in Bioengineering"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/next-gen-healthcare-with-ai-epigenetics-and-bioengineering/ethical-challenges-in-bioengineering.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/next-gen-healthcare-with-ai-epigenetics-and-bioengineering/ethical-challenges-in-bioengineering.html
 date: 2025-02-05
 isOriginal: false
 author:

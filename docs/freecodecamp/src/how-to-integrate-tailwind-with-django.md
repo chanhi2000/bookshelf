@@ -29,7 +29,7 @@ head:
     - property: og:description
       content: "How to Integrate Tailwind with Django - With Code Examples"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-integrate-tailwind-with-django.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-integrate-tailwind-with-django.html
 prev: /programming/css-tailwind/articles/README.md
 date: 2024-11-05
 isOriginal: false
@@ -500,7 +500,7 @@ Happy coding!
 {
   "title": "How to Integrate Tailwind with Django - With Code Examples",
   "desc": "In modern web development, choosing the right technology is crucial because it impacts both the process and outcome of your projects. Using Django as a backend framework and Tailwind CSS as a utility-first CSS framework offers an efficient way to cre...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-integrate-tailwind-with-django.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-integrate-tailwind-with-django.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

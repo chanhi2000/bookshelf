@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: "VPS vs PaaS: How to Choose a Hosting Solution"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/vps-vs-paas-how-to-choose-a-hosting-solution.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/vps-vs-paas-how-to-choose-a-hosting-solution.html
 prev: /devops/articles/README.md
 date: 2025-07-23
 isOriginal: false
@@ -183,7 +183,7 @@ Hope you enjoyed this article. [Connect with me (<VPIcon icon="fa-brands fa-link
 {
   "title": "VPS vs PaaS: How to Choose a Hosting Solution",
   "desc": "If you’ve ever stared at a dozen hosting plans, not sure which one to choose, you’re not alone. Hosting isn’t one-size-fits-all, and knowing the difference between a VPS (Virtual Private Server) and a PaaS (Platform as a Service) can help you pick so...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/vps-vs-paas-how-to-choose-a-hosting-solution.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/vps-vs-paas-how-to-choose-a-hosting-solution.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

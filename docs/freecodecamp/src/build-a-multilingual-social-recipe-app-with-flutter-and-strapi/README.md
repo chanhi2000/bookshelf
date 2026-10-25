@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: "How to Build a Multilingual Social Recipe Application with Flutter and Strapi"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/build-a-multilingual-social-recipe-app-with-flutter-and-strapi/
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-a-multilingual-social-recipe-app-with-flutter-and-strapi/
 prev: /programming/dart/articles/README.md
 date: 2025-04-09
 isOriginal: false
@@ -272,7 +272,7 @@ Thanks for reading!
 {
   "title": "How to Build a Multilingual Social Recipe Application with Flutter and Strapi",
   "desc": "Hey there! In this project, you will build a multilingual social recipe application using Flutter and Strapi. Flutter is an open-source UI software development kit created by Google. It allows you to build beautiful and highly interactive user interf...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/build-a-multilingual-social-recipe-app-with-flutter-and-strapi.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-a-multilingual-social-recipe-app-with-flutter-and-strapi.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

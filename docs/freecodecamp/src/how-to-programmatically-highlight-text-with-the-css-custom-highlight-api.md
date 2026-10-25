@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: "How to Programmatically Highlight Text with the CSS Custom Highlight API"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-programmatically-highlight-text-with-the-css-custom-highlight-api.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-programmatically-highlight-text-with-the-css-custom-highlight-api.html
 prev: /programming/js/articles/README.md
 date: 2025-01-16
 isOriginal: false
@@ -351,7 +351,7 @@ The CSS Custom Highlight API lets you programmatically highlight regions of text
 {
   "title": "How to Programmatically Highlight Text with the CSS Custom Highlight API",
   "desc": "You can highlight text in the browser by clicking and dragging through the desired text. And sometimes this works fine. But there are times when you’ll want to programmatically highlight some text in an HTML document. In this article, I’ll discuss a ...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-programmatically-highlight-text-with-the-css-custom-highlight-api.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-programmatically-highlight-text-with-the-css-custom-highlight-api.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

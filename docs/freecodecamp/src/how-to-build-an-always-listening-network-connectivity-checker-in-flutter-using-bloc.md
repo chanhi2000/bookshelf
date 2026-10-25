@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: "How to Build an Always Listening Network Connectivity Checker in Flutter using BLoC"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-build-an-always-listening-network-connectivity-checker-in-flutter-using-bloc.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-build-an-always-listening-network-connectivity-checker-in-flutter-using-bloc.html
 prev: /programming/dart/articles/README.md
 date: 2025-08-18
 isOriginal: false
@@ -641,7 +641,7 @@ Here are some references that support the concepts and packages used in the arti
 {
   "title": "How to Build an Always Listening Network Connectivity Checker in Flutter using BLoC",
   "desc": "Many mobile applications require a stable internet connection to provide a smooth user experience. And as a Flutter developer, you need a robust way to handle network state changes, ensuring that your app responds gracefully whether it's connected, d...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-build-an-always-listening-network-connectivity-checker-in-flutter-using-bloc.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-build-an-always-listening-network-connectivity-checker-in-flutter-using-bloc.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

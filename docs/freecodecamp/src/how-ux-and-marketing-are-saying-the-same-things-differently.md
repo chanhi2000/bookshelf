@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: "How UX and Marketing Are Saying the Same Things, Differently"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-ux-and-marketing-are-saying-the-same-things-differently.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-ux-and-marketing-are-saying-the-same-things-differently.html
 prev: /academcis/system-design/articles/README.md
 date: 2025-04-25
 isOriginal: false
@@ -204,7 +204,7 @@ The classic 4Ps of marketing should be taken as a mirror for UX that reflects a 
 {
   "title": "How UX and Marketing Are Saying the Same Things, Differently",
   "desc": "Could it be that the key to designing a great product experience might be hidden in a 60-year-old marketing playbook? Well, for years, marketing and user experience (UX) have been treated as separate worlds. Marketing grabs attention and drives sales...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-ux-and-marketing-are-saying-the-same-things-differently.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-ux-and-marketing-are-saying-the-same-things-differently.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

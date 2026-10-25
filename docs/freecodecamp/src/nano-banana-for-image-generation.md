@@ -27,7 +27,7 @@ head:
     - property: og:description
       content: "How to Use Nano Banana for Image Generation - Explained with Code Examples"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/nano-banana-for-image-generation.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/nano-banana-for-image-generation.html
 prev: /programming/py/articles/README.md
 date: 2025-09-19
 isOriginal: false
@@ -387,7 +387,7 @@ Happy coding, and may your creations be as vibrant as a field of fresh bananas!
 {
   "title": "How to Use Nano Banana for Image Generation - Explained with Code Examples",
   "desc": "AI is changing the image generation and editing process into a smooth workflow. Now, with just a single prompt, you can tell your computer to generate or edit an existing image. Google just launched its new model for image generation or editing, ”Nan...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/nano-banana-for-image-generation.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/nano-banana-for-image-generation.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

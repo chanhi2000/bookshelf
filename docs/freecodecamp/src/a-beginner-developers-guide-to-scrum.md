@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "A Beginner Developer's Guide to Scrum"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/a-beginner-developers-guide-to-scrum.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/a-beginner-developers-guide-to-scrum.html
 prev: /academics/coen/articles/README.md
 date: 2025-07-24
 isOriginal: false
@@ -484,7 +484,7 @@ Until then…keep learning, unlearning, and relearning!!!
 {
   "title": "A Beginner Developer's Guide to Scrum",
   "desc": "Let me guess: you’re learning to code…alone. You’ve been grinding through tutorials. You've built a portfolio site, maybe deployed a few projects on GitHub. And now you're trying to land a job or join a team. Then the interviews start. Suddenly, peop...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/a-beginner-developers-guide-to-scrum.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/a-beginner-developers-guide-to-scrum.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

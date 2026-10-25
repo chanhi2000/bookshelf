@@ -24,7 +24,7 @@ head:
     - property: og:description
       content: "A Beginner’s Guide to Graphs — From Google Maps to Chessboards"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/a-beginners-guide-to-graphs.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/a-beginners-guide-to-graphs.html
 prev: /academics/coen/articles/README.md
 date: 2025-06-03
 isOriginal: false
@@ -619,7 +619,7 @@ They allow you to model and solve complex real-world problems by connecting enti
 {
   "title": "A Beginner’s Guide to Graphs — From Google Maps to Chessboards",
   "desc": "Most of us use Google Maps without thinking twice. You open the app, check which route has the least traffic, and hit start. Then somewhere along the way - maybe you miss a turn (I do that often) - and Maps calmly recalculates your route, showing you...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/a-beginners-guide-to-graphs.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/a-beginners-guide-to-graphs.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

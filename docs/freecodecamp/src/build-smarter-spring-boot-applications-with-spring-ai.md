@@ -24,7 +24,7 @@ head:
     - property: og:description
       content: "Build Smarter Spring Boot Applications with Spring AI"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/build-smarter-spring-boot-applications-with-spring-ai.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-smarter-spring-boot-applications-with-spring-ai.html
 prev: /programming/java-spring/articles/README.md
 date: 2024-12-20
 isOriginal: false
@@ -116,7 +116,7 @@ If you’re ready to level up your Spring Boot applications with cutting-edge AI
 {
   "title": "Build Smarter Spring Boot Applications with Spring AI",
   "desc": "If you're a Java developer working with Spring Boot, you might wonder how to harness the power of AI in your projects. The good news is that Spring AI, an emerging tool within the Spring ecosystem, offers seamless AI integrations that are both access...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/build-smarter-spring-boot-applications-with-spring-ai.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-smarter-spring-boot-applications-with-spring-ai.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

@@ -22,7 +22,7 @@ head:
     - property: og:description
       content: "Create a WordPress Website"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/create-a-wordpress-website.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/create-a-wordpress-website.html
 prev: /programming/php-wordpress/articles/README.md
 date: 2025-01-23
 isOriginal: false
@@ -119,7 +119,7 @@ Ready to get started? Watch the full course on [<VPIcon icon="fa-brands fa-youtu
 {
   "title": "Create a WordPress Website",
   "desc": "Building a website might seem daunting, but WordPress makes it accessible to everyone. With WordPress, you can create a professional website tailored to your needs, whether it’s for a personal blog, a small business, or an online store. The platform’...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/create-a-wordpress-website.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/create-a-wordpress-website.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

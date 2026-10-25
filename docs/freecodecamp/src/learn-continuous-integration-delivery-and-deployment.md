@@ -32,7 +32,7 @@ head:
     - property: og:description
       content: "Learn Continuous Integration, Delivery, and Deployment with GitHub Actions, Docker, and Google Cloud Run"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/learn-continuous-integration-delivery-and-deployment.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-continuous-integration-delivery-and-deployment.html
 prev: /devops/github/articles/README.md
 date: 2024-12-06
 isOriginal: false
@@ -1169,7 +1169,7 @@ If you enjoyed this article, you can learn more about me by exploring more of my
 {
   "title": "Learn Continuous Integration, Delivery, and Deployment with GitHub Actions, Docker, and Google Cloud Run",
   "desc": "Hey everyone! 🌟 If you’re in the tech space, chances are you’ve come across terms like Continuous Integration (CI), Continuous Delivery (CD), and Continuous Deployment. You’ve probably also heard about automation pipelines, staging environments, pro...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/learn-continuous-integration-delivery-and-deployment.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-continuous-integration-delivery-and-deployment.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

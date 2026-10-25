@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "1200 Free Computer Science Courses from the World’s Top Universities"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/free-courses-top-cs-universities.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/free-courses-top-cs-universities.html
 prev: /academics/coen/articles/README.md
 date: 2025-01-28
 isOriginal: false
@@ -1468,7 +1468,7 @@ The full list is split into subjects. Click on a subject below to go to the rele
 {
   "title": "1200 Free Computer Science Courses from the World’s Top Universities",
   "desc": "In this article, we’ve compiled 1200+ online courses offered by the 60 best universities in the world for studying computer science in 2024. We first built the list in 2020 using a data-driven approach that we have used each year, including 2024. You...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/free-courses-top-cs-universities.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/free-courses-top-cs-universities.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

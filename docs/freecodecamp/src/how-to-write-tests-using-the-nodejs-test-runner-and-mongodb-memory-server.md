@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: "How to Write Tests Using the Node.js Test Runner and mongodb-memory-server"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-write-tests-using-the-nodejs-test-runner-and-mongodb-memory-server.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-write-tests-using-the-nodejs-test-runner-and-mongodb-memory-server.html
 prev: /programming/js/articles/README.md
 date: 2025-02-14
 isOriginal: false
@@ -280,7 +280,7 @@ If you find the [<VPIcon icon="iconfont icon-github"/>`orimdominic/nodejs-test-r
 {
   "title": "How to Write Tests Using the Node.js Test Runner and mongodb-memory-server",
   "desc": "I recently migrated some tests from Jest to the Node.js test runner in two of my projects that use MongoDB. In one of those projects, test runtime was reduced from 107 seconds to 25 seconds (screenshot below). In the other project, test runtime was r...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-write-tests-using-the-nodejs-test-runner-and-mongodb-memory-server.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-write-tests-using-the-nodejs-test-runner-and-mongodb-memory-server.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "Orchestrating AWS Lambda with GraphQL and Apollo Connectors"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-orchestrate-aws-lambda-with-graphql-and-apollo-connectors.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-orchestrate-aws-lambda-with-graphql-and-apollo-connectors.html
 prev: /devops/aws/articles/README.md
 date: 2025-03-26
 isOriginal: false
@@ -567,7 +567,7 @@ Integrating AWS Lambda with Apollo Connectors offers a simplified, resolver-free
 {
   "title": "Orchestrating AWS Lambda with GraphQL and Apollo Connectors",
   "desc": "AWS Lambda is a computing service that enables you to run arbitrary code functions without needing to provision, manage, or scale servers. It’s often used in the logic tier of a multi-tier architecture to handle tasks such as processing files in S3 o...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-orchestrate-aws-lambda-with-graphql-and-apollo-connectors.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-orchestrate-aws-lambda-with-graphql-and-apollo-connectors.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

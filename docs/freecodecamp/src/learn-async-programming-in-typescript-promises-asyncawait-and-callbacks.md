@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "Learn Async Programming in TypeScript: Promises, Async/Await, and Callbacks [Full Handbook]"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/learn-async-programming-in-typescript-promises-asyncawait-and-callbacks.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-async-programming-in-typescript-promises-asyncawait-and-callbacks.html
 prev: /programming/ts/articles/README.md
 date: 2025-02-01
 isOriginal: false
@@ -682,7 +682,7 @@ Connect with me on social media:
 {
   "title": "Learn Async Programming in TypeScript: Promises, Async/Await, and Callbacks [Full Handbook]",
   "desc": "Async programming is a programming paradigm that allows you to write code that runs asynchronously. In contrast to synchronous programming, which executes code sequentially, async programming allows code to run in the background while the rest of the...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/learn-async-programming-in-typescript-promises-asyncawait-and-callbacks.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-async-programming-in-typescript-promises-asyncawait-and-callbacks.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

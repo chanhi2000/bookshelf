@@ -26,7 +26,7 @@ head:
     - property: og:description
       content: "Chapter 4: Predictive Analytics and Machine Learning in Crop Yield Improvement"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/ai-in-agriculture-book/chapter-4-predictive-analytics-and-machine-learning-in-crop-yield-improvement.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/ai-in-agriculture-book/chapter-4-predictive-analytics-and-machine-learning-in-crop-yield-improvement.html
 date: 2025-01-15
 isOriginal: false
 author:

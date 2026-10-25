@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to Set Up a Home VPN Using Tailscale on a Raspberry Pi"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/set-up-a-home-vpn-using-tailscale-on-a-raspberry-pi.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/set-up-a-home-vpn-using-tailscale-on-a-raspberry-pi.html
 prev: /devops/linux-debian/articles/README.md
 date: 2025-03-29
 isOriginal: false
@@ -247,7 +247,7 @@ You can now be away from your home internet but still connect to the internet as
 {
   "title": "How to Set Up a Home VPN Using Tailscale on a Raspberry Pi",
   "desc": "In this article, you’ll learn how to set up a VPN which you can host on a Raspberry Pi. I am a fan of Raspberry Pis because these small form factor computers are a favourite tool for tinkerers, like me. This VPN will allow you to access your home net...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/set-up-a-home-vpn-using-tailscale-on-a-raspberry-pi.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/set-up-a-home-vpn-using-tailscale-on-a-raspberry-pi.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

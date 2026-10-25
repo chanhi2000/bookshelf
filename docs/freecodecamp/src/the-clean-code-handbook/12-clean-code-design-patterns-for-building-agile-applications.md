@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: "12 Clean Code Design Patterns for Building Agile Applications ⚖️"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/the-clean-code-handbook/12-clean-code-design-patterns-for-building-agile-applications.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/the-clean-code-handbook/12-clean-code-design-patterns-for-building-agile-applications.html
 date: 2025-01-30
 isOriginal: false
 author:

@@ -26,7 +26,7 @@ head:
     - property: og:description
       content: "How to Build an Advice Generator Chrome Extension with Manifest V3"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-build-an-advice-generator-chrome-extension-with-manifest-v3.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-build-an-advice-generator-chrome-extension-with-manifest-v3.html
 prev: /tool/chrome/articles/README.md
 date: 2025-08-26
 isOriginal: false
@@ -452,7 +452,7 @@ Here are some helpful resources:
 {
   "title": "How to Build an Advice Generator Chrome Extension with Manifest V3",
   "desc": "In 2025, using Chrome without extensions is like using a smartphone without apps. It’s possible, but you’re missing out on a lot. And despite how essential extensions are, creating one is very simple - it’s just HTML, CSS, and JavaScript with browser...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-build-an-advice-generator-chrome-extension-with-manifest-v3.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-build-an-advice-generator-chrome-extension-with-manifest-v3.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

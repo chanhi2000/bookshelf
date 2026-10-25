@@ -43,7 +43,7 @@ head:
     - property: og:description
       content: "What is Backend as a Service (BaaS)? A Beginner's Guide"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/backend-as-a-service-beginners-guide.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/backend-as-a-service-beginners-guide.html
 prev: /devops/cloudflare/articles/README.md
 date: 2025-02-17
 isOriginal: false
@@ -581,7 +581,7 @@ Thank you for reading.
 {
   "title": "What is Backend as a Service (BaaS)? A Beginner's Guide",
   "desc": "Building an authentication system can be complex, often requiring a server to store user data. Sometimes, you need a faster, easier solution. For those new to development or without technical expertise, managing servers, databases, and user logins ca...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/backend-as-a-service-beginners-guide.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/backend-as-a-service-beginners-guide.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

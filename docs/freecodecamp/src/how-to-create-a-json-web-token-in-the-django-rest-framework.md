@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "How to Create a JSON Web Token in the Django Rest Framework"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-create-a-json-web-token-in-the-django-rest-framework.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-create-a-json-web-token-in-the-django-rest-framework.html
 prev: /programming/py-django/articles/README.md
 date: 2025-04-17
 isOriginal: false
@@ -438,7 +438,7 @@ It’s a must-know if you’re building APIS with Django.
 {
   "title": "How to Create a JSON Web Token in the Django Rest Framework",
   "desc": "When you're building an API, security should be at the top of your list. You want to make sure only the right people can access the right stuff - and that’s where authentication comes in. One of the most common and reliable ways to handle authenticat...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-create-a-json-web-token-in-the-django-rest-framework.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-create-a-json-web-token-in-the-django-rest-framework.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

@@ -24,7 +24,7 @@ head:
     - property: og:description
       content: "Binary Search in Python - How to Code the Algorithm with Examples"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/binary-search-in-python-with-examples.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/binary-search-in-python-with-examples.html
 prev: /programming/py/articles/README.md
 date: 2022-07-19
 isOriginal: false
@@ -424,7 +424,7 @@ It's fine if you could not grasp everything at once - just give yourself some ti
 {
   "title": "Binary Search in Python - How to Code the Algorithm with Examples",
   "desc": "In our daily lives, we're constantly searching for information or trying to find solutions to problems we encounter. When going through search results on the web, we pick the most relevant articles or resources that we think will help us. Search is s...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/binary-search-in-python-with-examples.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/binary-search-in-python-with-examples.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

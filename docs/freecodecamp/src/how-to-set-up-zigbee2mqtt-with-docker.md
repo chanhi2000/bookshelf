@@ -24,7 +24,7 @@ head:
     - property: og:description
       content: "How to Set Up Zigbee2MQTT with Docker for Home Automation"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-set-up-zigbee2mqtt-with-docker.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-set-up-zigbee2mqtt-with-docker.html
 prev: /hw/raspberry-pi/articles/README.md
 date: 2024-11-19
 isOriginal: false
@@ -485,7 +485,7 @@ If you found this tutorial helpful, don’t forget to check out [my recommended 
 {
   "title": "How to Set Up Zigbee2MQTT with Docker for Home Automation",
   "desc": "Zigbee2MQTT is an open-source tool that lets you manage all of your Zigbee devices locally, so you don’t need cloud services or multiple proprietary hubs. This gives you more control and flexibility, whether used on its own or integrated with platfor...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-set-up-zigbee2mqtt-with-docker.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-set-up-zigbee2mqtt-with-docker.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

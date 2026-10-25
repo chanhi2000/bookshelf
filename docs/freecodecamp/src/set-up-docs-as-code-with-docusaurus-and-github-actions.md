@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "How to Set Up Documentation as Code with Docusaurus and GitHub Actions"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/set-up-docs-as-code-with-docusaurus-and-github-actions.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/set-up-docs-as-code-with-docusaurus-and-github-actions.html
 prev: /devops/github/articles/README.md
 date: 2025-02-06
 isOriginal: false
@@ -445,7 +445,7 @@ In this tutorial, you have learned how to set up documentation as code using Doc
 {
   "title": "How to Set Up Documentation as Code with Docusaurus and GitHub Actions",
   "desc": "For technical writers, keeping documentation up to date manually can be really frustrating. Issues like outdated guides, broken links, and missing updates are a pain, and they can make writers less productive. These issues can also make it harder for...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/set-up-docs-as-code-with-docusaurus-and-github-actions.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/set-up-docs-as-code-with-docusaurus-and-github-actions.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

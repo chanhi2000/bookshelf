@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "AWS Solutions Architect Professional (SAP-C02) Certification Course"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/aws-solutions-architect-professional-sap-c02-certification-course.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/aws-solutions-architect-professional-sap-c02-certification-course.html
 prev: /devops/aws/articles/README.md
 date: 2024-12-20
 isOriginal: false
@@ -137,7 +137,7 @@ Head over to the [<VPIcon icon="fa-brands fa-youtube"/>freeCodeCamp.org YouTube 
 {
   "title": "AWS Solutions Architect Professional (SAP-C02) Certification Course",
   "desc": "Earning the AWS Certified Solutions Architect - Professional certification is a significant step for cloud professionals who want to validate their advanced skills in designing and deploying complex solutions on AWS. This credential is highly respect...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/aws-solutions-architect-professional-sap-c02-certification-course.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/aws-solutions-architect-professional-sap-c02-certification-course.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

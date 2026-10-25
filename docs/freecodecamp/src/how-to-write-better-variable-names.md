@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "How to Write Better Names for Your Variables, Functions, and Classes - With Examples"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-write-better-variable-names.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-write-better-variable-names.html
 prev: /programming/js/articles/README.md
 date: 2024-12-05
 isOriginal: false
@@ -560,7 +560,7 @@ These and the other tips we’ve discussed here will make your code a joy to wor
 {
   "title": "How to Write Better Names for Your Variables, Functions, and Classes - With Examples",
   "desc": "Naming is one of the most important and challenging parts of writing clean, maintainable, and scalable code. A well-thought-out variable name, for example, can act as self-documenting code, saving time and effort in understanding the logic. But poorl...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-write-better-variable-names.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-write-better-variable-names.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to Write Unit Tests inReact"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-write-unit-tests-in-react.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-write-unit-tests-in-react.html
 prev: /programming/js-react/articles/README.md
 date: 2023-01-24
 isOriginal: false
@@ -730,7 +730,7 @@ If you are unable to understand the content or find the explanation unsatisfacto
 {
   "title": "How to Write Unit Tests inReact",
   "desc": "When you're building a website and coding all the cool features you had planned, you'll want to test if everything works as expected. Now, you can’t do that just by going through the website yourself - you need to check if each unit of your code is w...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-write-unit-tests-in-react.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-write-unit-tests-in-react.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

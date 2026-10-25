@@ -31,7 +31,7 @@ head:
     - property: og:description
       content: "Learn API Fundamentals and Architecture - A Beginner-Friendly Guide"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/learn-api-fundamentals-and-architecture.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-api-fundamentals-and-architecture.html
 prev: /academcis/system-design/articles/README.md
 date: 2025-03-22
 isOriginal: false
@@ -660,7 +660,7 @@ Looking ahead, the API landscape is set for exciting changes. With AI-driven API
 {
   "title": "Learn API Fundamentals and Architecture - A Beginner-Friendly Guide",
   "desc": "Here are some questions for you: How do you log in to apps with your Google, Apple, or Microsoft account? How do online payments with Paystack or PayPal work? How do apps like Facebook and Instagram share information and notifications? The answer is:...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/learn-api-fundamentals-and-architecture.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-api-fundamentals-and-architecture.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

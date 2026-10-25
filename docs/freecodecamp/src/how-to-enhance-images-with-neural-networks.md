@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "How to Enhance Images with Neural Networks"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-enhance-images-with-neural-networks.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-enhance-images-with-neural-networks.html
 prev: /ai/articles/README.md
 date: 2025-09-04
 isOriginal: false
@@ -177,7 +177,7 @@ Hope you enjoyed this article. Signup for my free AI newsletter [<VPIcon icon="f
 {
   "title": "How to Enhance Images with Neural Networks",
   "desc": "Artificial intelligence is changing how we work with images. What once took hours in Photoshop can now happen in seconds with AI-powered tools. You can take a blurry picture, enlarge it without losing sharpness, fix the lighting, remove unwanted nois...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-enhance-images-with-neural-networks.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-enhance-images-with-neural-networks.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

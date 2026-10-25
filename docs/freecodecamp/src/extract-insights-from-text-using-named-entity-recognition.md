@@ -24,7 +24,7 @@ head:
     - property: og:description
       content: "How to Extract Insights from Text Using Named Entity Recognition (NER)"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/extract-insights-from-text-using-named-entity-recognition.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/extract-insights-from-text-using-named-entity-recognition.html
 prev: /programming/py/articles/README.md
 date: 2025-08-01
 isOriginal: false
@@ -236,7 +236,7 @@ If you enjoy online games, check out [<VPIcon icon="fas fa-globe"/>GameBoost](ht
 {
   "title": "How to Extract Insights from Text Using Named Entity Recognition (NER)",
   "desc": "Many of us enjoy reading the news and staying up-to-date on current events. But the number of new stories each day can be overwhelming. You probably want to know who’s involved in world events, where things are happening globally, and which organizat...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/extract-insights-from-text-using-named-entity-recognition.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/extract-insights-from-text-using-named-entity-recognition.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

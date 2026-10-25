@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to Build a Dynamic Wardrobe App with React Drag and Drop"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-build-a-dynamic-wardrobe-app-with-react-drag-and-drop.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-build-a-dynamic-wardrobe-app-with-react-drag-and-drop.html
 prev: /programming/js-react/articles/README.md
 date: 2025-05-05
 isOriginal: false
@@ -482,7 +482,7 @@ See you on the next one!
 {
   "title": "How to Build a Dynamic Wardrobe App with React Drag and Drop",
   "desc": "Have you ever found yourself stuck deciding what color outfit to wear? Maybe you’re mixing and matching different tops and bottoms, unsure if the colors go together. It’s a common dilemma - so common that many of us turn to friends or family for a se...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-build-a-dynamic-wardrobe-app-with-react-drag-and-drop.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-build-a-dynamic-wardrobe-app-with-react-drag-and-drop.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

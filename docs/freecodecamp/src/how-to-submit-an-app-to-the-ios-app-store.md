@@ -35,7 +35,7 @@ head:
     - property: og:description
       content: "How to Submit an App to the iOS App Store"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-submit-an-app-to-the-ios-app-store.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-submit-an-app-to-the-ios-app-store.html
 prev: /tool/xcode/articles/README.md
 date: 2025-09-08
 isOriginal: false
@@ -85,7 +85,7 @@ Watch the full course on [<VPIcon icon="fa-brands fa-youtube"/>the freeCodeCamp.
 {
   "title": "How to Submit an App to the iOS App Store",
   "desc": "The iOS App Store submission process can feel like a daunting maze, but it doesn’t have to be. We just posted a course on the freeCodeCamp.org YouTube channel is designed to be your guide through this entire process, from start to finish. Shad Rayhan...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-submit-an-app-to-the-ios-app-store.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-submit-an-app-to-the-ios-app-store.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

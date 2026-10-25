@@ -22,7 +22,7 @@ head:
     - property: og:description
       content: "Become an Open Source Master"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/become-an-open-source-master.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/become-an-open-source-master.html
 prev: /projects/career/articles/README.md
 date: 2024-11-05
 isOriginal: false
@@ -84,7 +84,7 @@ Ready to make your mark on the open-source world? Head to the [<VPIcon icon="fa-
 {
   "title": "Become an Open Source Master",
   "desc": "Open-source software has transformed the tech industry, creating powerful opportunities for learning, growth, and collaboration. By contributing to open-source projects, you can build essential coding skills, gain real-world experience, and make mean...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/become-an-open-source-master.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/become-an-open-source-master.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

@@ -34,7 +34,7 @@ head:
     - property: og:description
       content: "Build Your Own RAG Chatbot with JavaScript!"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/build-your-own-rag-chatbot-with-javascript.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-your-own-rag-chatbot-with-javascript.html
 prev: /programming/js-next/articles/README.md
 date: 2024-11-08
 isOriginal: false
@@ -141,7 +141,7 @@ This course is packed with everything you need to create and deploy a powerful, 
 {
   "title": "Build Your Own RAG Chatbot with JavaScript!",
   "desc": "Generative AI is rapidly evolving, and with it comes the ability to create powerful applications like chatbots that go beyond static knowledge. Imagine building a chatbot that isn’t limited by outdated training data or predefined responses but can fe...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/build-your-own-rag-chatbot-with-javascript.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-your-own-rag-chatbot-with-javascript.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

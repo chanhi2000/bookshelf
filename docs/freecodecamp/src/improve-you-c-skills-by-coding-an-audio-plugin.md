@@ -22,7 +22,7 @@ head:
     - property: og:description
       content: "Improve Your C++ Skills by Coding an Audio Plugin"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/improve-you-c-skills-by-coding-an-audio-plugin.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/improve-you-c-skills-by-coding-an-audio-plugin.html
 prev: /programming/cpp/articles/README.md
 date: 2025-05-06
 isOriginal: false
@@ -78,7 +78,7 @@ Ready to take the plunge into the world of audio plugin development and create y
 {
   "title": "Improve Your C++ Skills by Coding an Audio Plugin",
   "desc": "Do you want to build a practical project to help improve your C++ skills? Have you ever wanted to create your own unique audio effects? Then diving into C++ audio plugin development with the JUCE framework might be your next great step We just publis...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/improve-you-c-skills-by-coding-an-audio-plugin.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/improve-you-c-skills-by-coding-an-audio-plugin.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

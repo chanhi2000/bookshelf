@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to Build a Conversational AI Chatbot with Stream Chat and React"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/build-a-conversational-ai-chatbot-with-stream-chat-and-react.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-a-conversational-ai-chatbot-with-stream-chat-and-react.html
 prev: /programming/js-react/articles/README.md
 date: 2025-06-18
 isOriginal: false
@@ -665,7 +665,7 @@ See you on the next one!
 {
   "title": "How to Build a Conversational AI Chatbot with Stream Chat and React",
   "desc": "Modern chat applications are increasingly incorporating voice input capabilities because they offer a more engaging and versatile user experience. This also improves accessibility, allowing users with different needs to interact more comfortably with...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/build-a-conversational-ai-chatbot-with-stream-chat-and-react.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-a-conversational-ai-chatbot-with-stream-chat-and-react.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "How to Merge Multiple Google Docs into One"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/merge-multiple-google-docs-with-apps-script-or-google-docs-api.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/merge-multiple-google-docs-with-apps-script-or-google-docs-api.html
 prev: /programming/js-node/articles/README.md
 date: 2024-10-30
 isOriginal: false
@@ -274,7 +274,7 @@ For those seeking a user-friendly solution without the need for coding, [<VPIcon
 {
   "title": "How to Merge Multiple Google Docs into One",
   "desc": "Merging multiple Google Docs into a single document is often essential for compiling reports, gathering information from various sources, or creating unified documents for presentations or sharing. By combining multiple files into one, users can keep...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/merge-multiple-google-docs-with-apps-script-or-google-docs-api.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/merge-multiple-google-docs-with-apps-script-or-google-docs-api.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

@@ -437,7 +437,7 @@ You can find the full code here:
 {
   "title": "How to Build an Interpretable Artificial Intelligence Model - Simple Python Code Example",
   "desc": "Artificial Intelligence is being used everywhere these days. And many of the groundbreaking applications come from Machine Learning, a subfield of AI. Within Machine Learning, a field called Deep Learning represents one of the main areas of research....",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-build-an-interpretable-ai-deep-learning-model.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-build-an-interpretable-ai-deep-learning-model.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

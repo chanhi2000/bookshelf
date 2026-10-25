@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Interpreted vs Compiled Programming Languages: What's the Difference?"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/compiled-versus-interpreted-languages.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/compiled-versus-interpreted-languages.html
 prev: /academics/coen/articles/README.md
 date: 2020-01-11
 isOriginal: false
@@ -140,7 +140,7 @@ The most notable disadvantage is typical execution speed compared to compiled la
 {
   "title": "Interpreted vs Compiled Programming Languages: What's the Difference?",
   "desc": "Every program is a set of instructions, whether it’s to add two numbers or send a request over the internet. Compilers and interpreters take human-readable code and convert it to computer-readable machine code.  In a compiled language, the target mac...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/compiled-versus-interpreted-languages.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/compiled-versus-interpreted-languages.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

@@ -26,7 +26,7 @@ head:
     - property: og:description
       content: "How to Use a Resistive Soil Moisture Sensor"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-use-a-resistive-soil-moisture-sensor.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-use-a-resistive-soil-moisture-sensor.html
 prev: /programming/c/articles/README.md
 date: 2025-07-10
 isOriginal: false
@@ -585,7 +585,7 @@ You can access all the code on [GitHub (<VPIcon icon="iconfont icon-github"/>`mi
 {
   "title": "How to Use a Resistive Soil Moisture Sensor",
   "desc": "A resistive soil moisture sensor is a widely used, simple, and affordable way of estimating the amount of water in the soil. In this tutorial, you will learn how to interface a resistive soil moisture sensor with an Arduino UNO microcontroller. You w...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-use-a-resistive-soil-moisture-sensor.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-use-a-resistive-soil-moisture-sensor.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

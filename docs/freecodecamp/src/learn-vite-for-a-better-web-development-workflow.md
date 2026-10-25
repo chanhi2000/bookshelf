@@ -26,7 +26,7 @@ head:
     - property: og:description
       content: "Learn Vite for a Better Web Development Workflow"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/learn-vite-for-a-better-web-development-workflow.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-vite-for-a-better-web-development-workflow.html
 prev: /programming/js-node/articles/README.md
 date: 2025-05-14
 isOriginal: false
@@ -86,7 +86,7 @@ Watch the full course on [<VPIcon icon="fa-brands fa-youtube"/>the freeCodeCamp.
 {
   "title": "Learn Vite for a Better Web Development Workflow",
   "desc": "Speed and simplicity are at the heart of modern web development. As applications grow more complex and the demand for rapid iteration increases, developers are constantly searching for tools that minimize friction and maximize productivity. Tradition...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/learn-vite-for-a-better-web-development-workflow.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-vite-for-a-better-web-development-workflow.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

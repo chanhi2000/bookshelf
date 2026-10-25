@@ -31,7 +31,7 @@ head:
     - property: og:description
       content: "How to Build a Telehealth App Using Stream Video and Chat SDK in React"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-build-a-telehealth-app-using-stream-video-and-chat-sdk-in-react.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-build-a-telehealth-app-using-stream-video-and-chat-sdk-in-react.html
 prev: /programming/js-react/articles/README.md
 date: 2025-07-19
 isOriginal: false
@@ -1813,7 +1813,7 @@ Congratulations! You have successfully integrated Stream’s chat and video func
 {
   "title": "How to Build a Telehealth App Using Stream Video and Chat SDK in React",
   "desc": "Remember when the COVID-19 pandemic moved everything online - doctor’s visits included - and staying home became the safest option?  That moment kicked off a massive shift in how healthcare gets delivered.  Telehealth became more than a workaround. I...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-build-a-telehealth-app-using-stream-video-and-chat-sdk-in-react.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-build-a-telehealth-app-using-stream-video-and-chat-sdk-in-react.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

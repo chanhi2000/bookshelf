@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "Modules in JavaScript - CommonJS and ESmodules Explained"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/modules-in-javascript.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/modules-in-javascript.html
 prev: /programming/js/articles/README.md
 date: 2022-04-14
 isOriginal: false
@@ -510,7 +510,7 @@ Cheers and see you in the next one! =D
 {
   "title": "Modules in JavaScript - CommonJS and ESmodules Explained",
   "desc": "Hi everyone! In this article we're going to take a look at modules in JavaScript. Modules are a technique heavily used in today's software design/architecture. First we're going to learn what they are and the different types of modules that exist. Th...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/modules-in-javascript.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/modules-in-javascript.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

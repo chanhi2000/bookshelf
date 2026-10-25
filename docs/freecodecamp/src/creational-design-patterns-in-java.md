@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: "What are Creational Design Patterns in Java? Explained With Examples"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/creational-design-patterns-in-java.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/creational-design-patterns-in-java.html
 prev: /programming/java/articles/README.md
 date: 2024-07-26
 isOriginal: false
@@ -570,7 +570,7 @@ Connect with me on [LinkedIn (<VPIcon icon="fa-brands fa-linkedin"/>`abaradwaj`)
 {
   "title": "What are Creational Design Patterns in Java? Explained With Examples",
   "desc": "Design Patterns provide you with an idea or a strategy for solving commonly occurring problems. They are proven solutions that follow the best practices and help you make your code flexible, reusable, and maintainable. The design patterns are classif...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/creational-design-patterns-in-java.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/creational-design-patterns-in-java.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

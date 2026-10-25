@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: "How to Create an npm Library"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-create-an-npm-library/
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-create-an-npm-library/
 prev: /programming/js-node/articles/README.md
 date: 2025-02-08
 isOriginal: false
@@ -152,7 +152,7 @@ By following these steps, you've taken an important step toward open-source deve
 {
   "title": "How to Create an npm Library",
   "desc": "In the world of JavaScript development, npm (Node Package Manager) has become an essential tool for managing dependencies and sharing reusable code. Whether you're building a simple website or a complex web application, npm libraries help streamline ...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-create-an-npm-library.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-create-an-npm-library.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

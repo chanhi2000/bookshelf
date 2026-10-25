@@ -24,7 +24,7 @@ head:
     - property: og:description
       content: "Learn Machine Learning Concepts plus Generative AI"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/learn-machine-learning-concepts-plus-generative-ai.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-machine-learning-concepts-plus-generative-ai.html
 prev: /ai/llm/articles/README.md
 date: 2025-03-06
 isOriginal: false
@@ -84,7 +84,7 @@ Check out the full course now on the [<VPIcon icon="fa-brands fa-youtube"/>freeC
 {
   "title": "Learn Machine Learning Concepts plus Generative AI",
   "desc": "Machine learning is revolutionizing industries by enabling computers to learn from data, recognize patterns, and make decisions without explicit programming. If you've ever been curious about how AI systems work, this course provides a structured int...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/learn-machine-learning-concepts-plus-generative-ai.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-machine-learning-concepts-plus-generative-ai.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

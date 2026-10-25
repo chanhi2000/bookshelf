@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: "How to Build a Weather App with R Shiny"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-build-a-weather-app-with-r-shiny.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-build-a-weather-app-with-r-shiny.html
 prev: /data-science/r/articles/README.md
 date: 2024-12-10
 isOriginal: false
@@ -668,7 +668,7 @@ La Fin!
 {
   "title": "How to Build a Weather App with R Shiny",
   "desc": "In this tutorial, you’ll learn how to build a weather app in R. Really - a weather app, in R? Wait, hear me out. When you think of R, you probably imagine someone wearing chunky thick prescription glasses and devouring a book. You know, a statisticia...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-build-a-weather-app-with-r-shiny.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-build-a-weather-app-with-r-shiny.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: "Building Full-Stack Projects with AI"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/become-a-full-stack-developer-and-get-a-job/building-full-stack-projects-with-ai.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/become-a-full-stack-developer-and-get-a-job/building-full-stack-projects-with-ai.html
 date: 2023-03-13
 isOriginal: false
 author:

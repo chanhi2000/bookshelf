@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: "Third Project - Building Messages"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/build-and-deploy-smart-contract-rust-gear-protocol/third-project-building-messages.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-and-deploy-smart-contract-rust-gear-protocol/third-project-building-messages.html
 date: 2024-06-04
 isOriginal: false
 cover: https://freecodecamp.org/news/content/images/2024/06/How-to-Build-and-Deploy-a-Smart-Contract-With-Rust-and-the-Gear-Protocol-Cover.png

@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: Diving into the Go language
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/go-beginners-handbook/diving-into-the-go-language.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/go-beginners-handbook/diving-into-the-go-language.html
 date: 2022-10-19
 author: Flavio Copes
 isOriginal: false

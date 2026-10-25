@@ -38,7 +38,7 @@ head:
     - property: og:description
       content: "How to Build a Google Sheet AI Agent with Composio and Gemini TTS Support"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-build-a-google-sheet-ai-agent.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-build-a-google-sheet-ai-agent.html
 prev: /programming/ts/articles/README.md
 date: 2025-09-26
 isOriginal: false
@@ -473,7 +473,7 @@ You can find the entire source code here: [<VPIcon icon="iconfont icon-github"/>
 {
   "title": "How to Build a Google Sheet AI Agent with Composio and Gemini TTS Support",
   "desc": "With the rise of AI agents and agentic systems, we’re no longer just generating text or images, we’re teaching AI how to take actions. Instead of asking, “Can AI write this for me?” you can now ask, “Can AI do this for me?” From updating CRMs to mana...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-build-a-google-sheet-ai-agent.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-build-a-google-sheet-ai-agent.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

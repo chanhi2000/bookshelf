@@ -16,7 +16,7 @@ head:
     - property: og:description
       content: "Chapter 3: Constraints"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/a-beginners-guide-to-sql/chapter-3-constraints.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/a-beginners-guide-to-sql/chapter-3-constraints.html
 date: 2023-09-05
 isOriginal: false
 author:

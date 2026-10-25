@@ -22,7 +22,7 @@ head:
     - property: og:description
       content: "What Makes Code Vulnerable - And How to Fix It"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/what-makes-code-vulnerable-and-how-to-fix-it.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/what-makes-code-vulnerable-and-how-to-fix-it.html
 prev: /programming/py/articles/README.md
 date: 2025-04-22
 isOriginal: false
@@ -437,7 +437,7 @@ For more cybersecurity tutorials, [<VPIcon icon="fas fa-globe"/>join my newslett
 {
   "title": "What Makes Code Vulnerable - And How to Fix It",
   "desc": "Writing code is relatively easy. But writing secure code is much harder. The truth is, most developers don’t realize their code is vulnerable until something breaks. Or, worse, until someone attacks it. So if you want secure code, you first have to k...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/what-makes-code-vulnerable-and-how-to-fix-it.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/what-makes-code-vulnerable-and-how-to-fix-it.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

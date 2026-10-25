@@ -78,7 +78,7 @@ In this tutorial, you'll learn how to:
 - Stop the screen from dimming with the **Screen Wake Lock API**
 - Combine all of it into one small, reusable pattern
 
-Everything here is vanilla JavaScript with no libraries or build step. You should be comfortable with DOM events and `async/await`. If you need a refresher on the latter, freeCodeCamp has a solid [**async/await tutorial**](/freecodecamp.org/javascript-async-await.md#) that covers everything we'll rely on.
+Everything here is vanilla JavaScript with no libraries or build step. You should be comfortable with DOM events and `async/await`. If you need a refresher on the latter, freeCodeCamp has a solid [**async/await tutorial**](/freecodecamp.org/javascript-async-await.md) that covers everything we'll rely on.
 
 ---
 

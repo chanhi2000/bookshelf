@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to Schedule Tasks in Red Hat Enterprise Linux"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-schedule-tasks-in-red-hat-enterprise-linux.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-schedule-tasks-in-red-hat-enterprise-linux.html
 prev: /devops/linux-fedora/articles/README.md
 date: 2025-06-26
 isOriginal: false
@@ -712,7 +712,7 @@ To practice the operations from this tutorial, try the interactive hands-on lab:
 {
   "title": "How to Schedule Tasks in Red Hat Enterprise Linux",
   "desc": "Red Hat Enterprise Linux (RHEL) is a leading enterprise-grade Linux distribution widely regarded as the gold standard for mission-critical server environments. It provides robust, secure, and scalable solutions for organizations ranging from small bu...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-schedule-tasks-in-red-hat-enterprise-linux.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-schedule-tasks-in-red-hat-enterprise-linux.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

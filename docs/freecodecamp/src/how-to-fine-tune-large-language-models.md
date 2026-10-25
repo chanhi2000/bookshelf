@@ -24,7 +24,7 @@ head:
     - property: og:description
       content: "How to Fine-Tune Large Language Models"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-fine-tune-large-language-models.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-fine-tune-large-language-models.html
 prev: /ai/llm/articles/README.md
 date: 2025-09-04
 isOriginal: false
@@ -98,7 +98,7 @@ Watch the full course on [<VPIcon icon="fa-brands fa-youtube"/>the freeCodeCamp.
 {
   "title": "How to Fine-Tune Large Language Models",
   "desc": "Fine-tuning helps you become a master and professional in AI engineering. We just posted a course on the freeCodeCamp.org YouTube channel that offers a comprehensive guide to fine-tuning LLMs, taking you from the basics to advanced practical applicat...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-fine-tune-large-language-models.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-fine-tune-large-language-models.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

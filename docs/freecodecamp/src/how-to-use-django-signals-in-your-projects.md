@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "How to Use Django Signals in Your Projects"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-use-django-signals-in-your-projects.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-use-django-signals-in-your-projects.html
 prev: /programming/py-django/articles/README.md
 date: 2025-04-14
 isOriginal: false
@@ -231,7 +231,7 @@ If you want to dive deeper into Django signals and best practices, here are a fe
 {
   "title": "How to Use Django Signals in Your Projects",
   "desc": "Django signals can be a lifesaver if you're building anything with Django and want your code to stay clean and organized. They help you connect different parts of your app without everything getting tangled together. Think of them like walkie-talkies...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-use-django-signals-in-your-projects.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-use-django-signals-in-your-projects.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

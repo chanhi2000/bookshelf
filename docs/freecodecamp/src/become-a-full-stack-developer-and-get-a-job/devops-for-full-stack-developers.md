@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: "DevOps for Full Stack Developers"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/become-a-full-stack-developer-and-get-a-job/devops-for-full-stack-developers.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/become-a-full-stack-developer-and-get-a-job/devops-for-full-stack-developers.html
 date: 2023-03-13
 isOriginal: false
 author:

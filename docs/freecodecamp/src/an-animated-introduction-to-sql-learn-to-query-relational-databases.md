@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: "An Animated Introduction to SQL - Learn to Query Relational Databases"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/an-animated-introduction-to-sql-learn-to-query-relational-databases.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/an-animated-introduction-to-sql-learn-to-query-relational-databases.html
 prev: /data-science/articles/README.md
 date: 2025-04-17
 isOriginal: false
@@ -663,7 +663,7 @@ Comments and feedback are welcome anytime: [<VPIcon icon="fas fa-envelope"/>`mar
 {
   "title": "An Animated Introduction to SQL - Learn to Query Relational Databases",
   "desc": "In this tutorial, you’ll learn about the Structured Query Language (SQL), the standard language used to query relational databases. SQL is not a traditional programming language. In Python or Java, you write step-by-step instructions that tell the co...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/an-animated-introduction-to-sql-learn-to-query-relational-databases.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/an-animated-introduction-to-sql-learn-to-query-relational-databases.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

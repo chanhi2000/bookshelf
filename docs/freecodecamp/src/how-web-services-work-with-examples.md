@@ -22,7 +22,7 @@ head:
     - property: og:description
       content: "How Web Services Work - The Unseen Engines of the Connected World"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-web-services-work-with-examples.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-web-services-work-with-examples.html
 prev: /academics/coen/articles/README.md
 date: 2025-05-14
 isOriginal: false
@@ -260,7 +260,7 @@ Understanding the core functionalities, underlying technologies, common use case
 {
   "title": "How Web Services Work - The Unseen Engines of the Connected World",
   "desc": "Have you ever wondered how your weather app instantly knows the forecast, how you can book flights from multiple airlines on one travel site, or how logging into one service can magically log you into another? The answer often lies in a powerful, yet...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-web-services-work-with-examples.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-web-services-work-with-examples.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

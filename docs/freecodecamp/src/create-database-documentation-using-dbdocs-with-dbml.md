@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: "How to Create Database Documentation Using dbdocs with DBML"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/create-database-documentation-using-dbdocs-with-dbml.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/create-database-documentation-using-dbdocs-with-dbml.html
 prev: /data-science/articles/README.md
 date: 2024-10-15
 isOriginal: false
@@ -191,7 +191,7 @@ By incorporating this workflow into your development process, you’ll improve y
 {
   "title": "How to Create Database Documentation Using dbdocs with DBML",
   "desc": "Database documentation plays a crucial role in maintaining and scaling systems. Clear and well-organized documentation can significantly improve communication between team members and enhance project longevity. One of the most efficient ways to docum...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/create-database-documentation-using-dbdocs-with-dbml.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/create-database-documentation-using-dbdocs-with-dbml.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

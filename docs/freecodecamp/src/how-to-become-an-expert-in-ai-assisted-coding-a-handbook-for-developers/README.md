@@ -42,7 +42,7 @@ head:
     - property: og:description
       content: "How to Become an Expert in AI-Assisted Coding – A Handbook for Developers"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-become-an-expert-in-ai-assisted-coding-a-handbook-for-developers.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-become-an-expert-in-ai-assisted-coding-a-handbook-for-developers.html
 prev: /ai/claude/articles/README.md
 date: 2025-09-03
 isOriginal: false
@@ -2244,7 +2244,7 @@ Happy coding! 🚀
 {
   "title": "How to Become an Expert in AI-Assisted Coding – A Handbook for Developers",
   "desc": "Imagine writing code 3-4x faster while maintaining quality. That's what AI-assisted development can offer. In simple terms, you can be more productive with AI tools like GitHub Copilot as your coding partner. They suggest code, help you debug, and sp...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-become-an-expert-in-ai-assisted-coding-a-handbook-for-developers.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-become-an-expert-in-ai-assisted-coding-a-handbook-for-developers.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

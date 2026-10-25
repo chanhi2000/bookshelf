@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: "How to Implement a Service Worker with WorkBox in a Progressive Web App"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/implement-a-service-worker-with-workbox-in-a-pwa/
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/implement-a-service-worker-with-workbox-in-a-pwa/
 prev: /programming/js/articles/README.md
 date: 2025-06-23
 isOriginal: false
@@ -1558,7 +1558,7 @@ You can check out the full project and assets on [GitHub](https://github.com/Lol
 {
   "title": "How to Implement a Service Worker with WorkBox in a Progressive Web App",
   "desc": "Imagine having a web app that looks and feels just like a native mobile app. It launches from your home screen, runs in full-screen mode, and responds smoothly to your interactions. But here’s the surprising part: it wasn’t downloaded from an app sto...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/implement-a-service-worker-with-workbox-in-a-pwa.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/implement-a-service-worker-with-workbox-in-a-pwa.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

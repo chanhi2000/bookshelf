@@ -22,7 +22,7 @@ head:
     - property: og:description
       content: "How to Set Up GitHub CLI on WSL2"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/github-cli-wsl2-guide.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/github-cli-wsl2-guide.html
 prev: /devops/github/articles/README.md
 date: 2025-08-15
 isOriginal: false
@@ -283,7 +283,7 @@ Thank you for reading! Last, you can find me on [X (<VPIcon icon="fa-brands fa-x
 {
   "title": "How to Set Up GitHub CLI on WSL2",
   "desc": "Recently, I set up WSL2 and Ubuntu on my Windows 11 to work on some open-source projects. Since I also maintain these projects, I installed GitHub CLI to ease my workflow. I successfully installed the GitHub CLI, but failed to authenticate it. The er...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/github-cli-wsl2-guide.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/github-cli-wsl2-guide.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

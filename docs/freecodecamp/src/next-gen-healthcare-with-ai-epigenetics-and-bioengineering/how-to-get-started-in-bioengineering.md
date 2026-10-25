@@ -16,7 +16,7 @@ head:
     - property: og:description
       content: "How to Get Started in Bioengineering"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/next-gen-healthcare-with-ai-epigenetics-and-bioengineering/how-to-get-started-in-bioengineering.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/next-gen-healthcare-with-ai-epigenetics-and-bioengineering/how-to-get-started-in-bioengineering.html
 next: /freecodecamp.org/next-gen-healthcare-with-ai-epigenetics-and-bioengineering/README.md#conclusion-responsible-stewardship-of-bioengineering
 date: 2025-02-05
 isOriginal: false

@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: "How to Start Using MongoDB - Database Setup for Beginners"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-start-using-mongodb.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-start-using-mongodb.html
 prev: /data-science/mongodb/articles/README.md
 date: 2022-07-26
 isOriginal: false
@@ -218,7 +218,7 @@ If you are new to database systems, MongoDB is a good place to start.
 {
   "title": "How to Start Using MongoDB - Database Setup for Beginners",
   "desc": "MongoDB is an increasingly popular open source NoSQL database. And it has many advantages over traditional SQL databases.  It offers high scalability, reliability, and performance even with a huge amount of data.  This article covers the basics that ...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-start-using-mongodb.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-start-using-mongodb.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

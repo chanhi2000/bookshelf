@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "Create 3D Web Experiences with JavaScript and Three.js"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/create-3d-web-experiences-with-javascript-and-threejs.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/create-3d-web-experiences-with-javascript-and-threejs.html
 prev: /programming/js-threejs/articles/README.md
 date: 2025-08-28
 isOriginal: false
@@ -79,7 +79,7 @@ Watch the full course on [<VPIcon icon="fa-brands fa-youtube"/>the freeCodeCamp.
 {
   "title": "Create 3D Web Experiences with JavaScript and Three.js",
   "desc": "Do you want to improve you JavaScript skills and create 3D web experiences? We just posted a course on the freeCodeCamp.org YouTube channel that is designed to help anyone master JavaScript and Three.js by building five impressive and practical proje...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/create-3d-web-experiences-with-javascript-and-threejs.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/create-3d-web-experiences-with-javascript-and-threejs.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

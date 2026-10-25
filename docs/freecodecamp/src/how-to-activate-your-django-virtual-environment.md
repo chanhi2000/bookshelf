@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "How to Activate Your Django Virtual Environment"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-activate-your-django-virtual-environment.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-activate-your-django-virtual-environment.html
 prev: /programming/py-django/articles/README.md
 date: 2025-07-17
 isOriginal: false
@@ -344,7 +344,7 @@ If you're serious about Django, here are some free and paid resources I recommen
 {
   "title": "How to Activate Your Django Virtual Environment",
   "desc": "If you’re starting with Django, one of the first steps you’ll hear about is activating a virtual environment. And if that sounds a little technical, don’t worry - I’m going to walk you through exactly what that means, why it matters, and how to do it...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-activate-your-django-virtual-environment.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-activate-your-django-virtual-environment.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

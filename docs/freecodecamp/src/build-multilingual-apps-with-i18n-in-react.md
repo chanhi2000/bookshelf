@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to Build Multilingual Apps with i18n in React"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/build-multilingual-apps-with-i18n-in-react.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-multilingual-apps-with-i18n-in-react.html
 prev: /programming/js-react/articles/README.md
 date: 2024-12-05
 isOriginal: false
@@ -451,7 +451,7 @@ In this project, we walked through setting up i18n, adding a language switcher, 
 {
   "title": "How to Build Multilingual Apps with i18n in React",
   "desc": "I recently worked on an exciting project that involved creating a website capable of switching between languages to appeal to a broader audience. This made me understand the concept of ”localization” better, which typically entails adapting content t...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/build-multilingual-apps-with-i18n-in-react.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-multilingual-apps-with-i18n-in-react.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

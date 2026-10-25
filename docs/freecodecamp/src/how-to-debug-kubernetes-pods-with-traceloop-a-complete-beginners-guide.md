@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: "How to Debug Kubernetes Pods with Traceloop: A Complete Beginner's Guide"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-debug-kubernetes-pods-with-traceloop-a-complete-beginners-guide.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-debug-kubernetes-pods-with-traceloop-a-complete-beginners-guide.html
 prev: /devops/k8s/articles/README.md
 date: 2025-08-30
 isOriginal: false
@@ -635,7 +635,7 @@ You can also connect with me on [LinkedIn (<VPIcon icon="fa-brands fa-linkedin"/
 {
   "title": "How to Debug Kubernetes Pods with Traceloop: A Complete Beginner's Guide",
   "desc": "Debugging Kubernetes pods can feel like detective work. Your app crashes, and you're left wondering what happened in those critical moments leading up to failure. Traditional kubectl commands show you logs and statuses, but they can't tell you exactl...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-debug-kubernetes-pods-with-traceloop-a-complete-beginners-guide.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-debug-kubernetes-pods-with-traceloop-a-complete-beginners-guide.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: "How Cybercriminals Crack Your Passwords (And How to Stay One StepAhead)"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-cybercriminals-crack-your-passwords-and-how-to-stay-one-step-ahead.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-cybercriminals-crack-your-passwords-and-how-to-stay-one-step-ahead.html
 prev: /devops/security/articles/README.md
 date: 2025-05-19
 isOriginal: false
@@ -170,7 +170,7 @@ Join the [<VPIcon icon="fas fa-globe"/>Stealth Security Newsletter](https://news
 {
   "title": "How Cybercriminals Crack Your Passwords (And How to Stay One StepAhead)",
   "desc": "Passwords are the keys to your digital life  -  email, bank accounts, social media, and even your workplace systems. Unfortunately, they’re also one of the weakest links in cybersecurity.  Every year, billions of credentials are stolen and sold on th...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-cybercriminals-crack-your-passwords-and-how-to-stay-one-step-ahead.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-cybercriminals-crack-your-passwords-and-how-to-stay-one-step-ahead.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

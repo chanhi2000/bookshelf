@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: "How to Perform Code Reviews in Tech - The Painless Way"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-perform-code-reviews-in-tech-the-painless-way.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-perform-code-reviews-in-tech-the-painless-way.html
 prev: /devops/github/articles/README.md
 date: 2024-12-04
 isOriginal: false
@@ -355,7 +355,7 @@ Follow me on [X (<VPIcon icon="fa-brands fa-x-twitter"/>`theankurtyagi`)](https:
 {
   "title": "How to Perform Code Reviews in Tech - The Painless Way",
   "desc": "Okay, I know you may be skeptical: other guides have promised painless code reviews only to reveal that their solution requires some hyper-specific tech stack or a paid developer tool. I won’t do that to you. This guide provides a straightforward and...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-perform-code-reviews-in-tech-the-painless-way.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-perform-code-reviews-in-tech-the-painless-way.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

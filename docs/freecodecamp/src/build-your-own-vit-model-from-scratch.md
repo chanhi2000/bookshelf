@@ -27,7 +27,7 @@ head:
     - property: og:description
       content: "Build Your Own ViT Model from Scratch"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/build-your-own-vit-model-from-scratch.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-your-own-vit-model-from-scratch.html
 prev: /programming/py/articles/README.md
 date: 2025-05-28
 isOriginal: false
@@ -113,7 +113,7 @@ Ready to master one of the most important advances in modern computer vision? Wa
 {
   "title": "Build Your Own ViT Model from Scratch",
   "desc": "Vision Transformers have fundamentally changed how we approach computer vision problems, delivering state-of-the-art results that often surpass traditional convolutional neural networks. As the industry shifts toward transformer-based architectures f...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/build-your-own-vit-model-from-scratch.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-your-own-vit-model-from-scratch.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

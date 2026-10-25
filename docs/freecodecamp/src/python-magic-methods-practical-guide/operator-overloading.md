@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: "Operator Overloading"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/python-magic-methods-practical-guide/operator-overloading.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/python-magic-methods-practical-guide/operator-overloading.html
 date: 2025-03-21
 isOriginal: false
 author:

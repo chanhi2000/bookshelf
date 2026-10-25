@@ -26,7 +26,7 @@ head:
     - property: og:description
       content: "Build & Deploy a Full Stack Dating App"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/build-deploy-a-full-stack-dating-app.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-deploy-a-full-stack-dating-app.html
 prev: /programming/js-next/articles/README.md
 date: 2024-11-13
 isOriginal: false
@@ -129,7 +129,7 @@ Check out the course now on the [<VPIcon icon="fa-brands fa-youtube"/>freeCodeCa
 {
   "title": "Build & Deploy a Full Stack Dating App",
   "desc": "Creating a modern, full-stack web application has never been more exciting, thanks to the wide array of powerful tools available to developers today. If you’ve ever thought about building a dynamic, feature-rich app but weren’t sure where to start, t...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/build-deploy-a-full-stack-dating-app.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-deploy-a-full-stack-dating-app.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

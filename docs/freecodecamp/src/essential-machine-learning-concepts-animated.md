@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Essential Machine Learning Concepts Animated"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/essential-machine-learning-concepts-animated.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/essential-machine-learning-concepts-animated.html
 prev: /ai/articles/README.md
 date: 2025-04-23
 isOriginal: false
@@ -79,7 +79,7 @@ You can watch the full course for free on the [<VPIcon icon="fa-brands fa-youtub
 {
   "title": "Essential Machine Learning Concepts Animated",
   "desc": "Understanding artificial intelligence (AI) and machine learning (ML) is becoming essential for software developers. But to truly grasp how these technologies work, it’s important to understand the core concepts and terminology that form their foundat...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/essential-machine-learning-concepts-animated.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/essential-machine-learning-concepts-animated.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

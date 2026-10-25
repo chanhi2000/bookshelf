@@ -27,7 +27,7 @@ head:
     - property: og:description
       content: "Hack Your FirstMachine - A Guide for Aspiring Security Enthusiasts"
     - property: og:url
-      content: https://chanhi2000.github.iohttps://chanhi2000.github.io/bookshelf/fcc/hack-your-first-machine-a-guide-for-aspiring-security-enthusiasts.html
+      content: https://chanhi2000.github.iohttps://chanhi2000.github.io/bookshelf/freecodecamp.org/hack-your-first-machine-a-guide-for-aspiring-security-enthusiasts.html
 prev: /devops/security/articles/README.md
 date: 2024-10-03
 isOriginal: false

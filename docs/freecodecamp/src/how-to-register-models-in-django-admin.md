@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "How to Register Models in Django Admin"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-register-models-in-django-admin.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-register-models-in-django-admin.html
 prev: /programming/py-django/articles/README.md
 date: 2025-04-29
 isOriginal: false
@@ -251,7 +251,7 @@ These are great places to go if you want to dive even deeper into Django Admin c
 {
   "title": "How to Register Models in Django Admin",
   "desc": "When you're building a website or an app with Django, one of the most exciting moments is when your database models finally come to life. But to manage your data easily - adding, editing, or deleting entries - you need Django’s Admin panel. Now, here...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-register-models-in-django-admin.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-register-models-in-django-admin.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "JSX in React - Explained with Examples"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/jsx-in-react-introduction.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/jsx-in-react-introduction.html
 prev: /programming/js-react/articles/README.md
 date: 2021-02-02
 isOriginal: false
@@ -604,7 +604,7 @@ Subscribe to my [<VPIcon icon="fas fa-globe"/>weekly newsletter](https://yogeshc
 {
   "title": "JSX in React - Explained with Examples",
   "desc": "JSX is one of the core concepts of React. So if you understand it well, you'll be able to write better React code. In this article, we'll explore: What is JSX in React and how to use it How JSX is transformed to React.createElement What is a JSX exp...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/jsx-in-react-introduction.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/jsx-in-react-introduction.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

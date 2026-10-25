@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: "How to Become a Web Developer - a Beginner's Guide"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-become-a-web-developer-beginners-guide.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-become-a-web-developer-beginners-guide.html
 prev: /projects/career/articles/README.md
 date: 2024-12-23
 isOriginal: false
@@ -467,7 +467,7 @@ Connect with me on Twitter for more updates and discussions. If you have any que
 {
   "title": "How to Become a Web Developer - a Beginner's Guide",
   "desc": "Are you considering a career in web development? If so, then you are making an excellent choice. Web Development is one of the most in-demand skills in the market in 2024. With over 5.038 billion Internet users, web development has a promising future...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-become-a-web-developer-beginners-guide.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-become-a-web-developer-beginners-guide.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

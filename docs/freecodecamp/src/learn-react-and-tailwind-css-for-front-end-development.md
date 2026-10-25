@@ -29,7 +29,7 @@ head:
     - property: og:description
       content: "Learn React and Tailwind CSS for Front End Development"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/learn-react-and-tailwind-css-for-front-end-development.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-react-and-tailwind-css-for-front-end-development.html
 prev: /programming/js-react/articles/README.md
 date: 2025-08-04
 isOriginal: false
@@ -118,7 +118,7 @@ Watch the full course on [<VPIcon icon="fa-brands fa-youtube"/>the freeCodeCamp.
 {
   "title": "Learn React and Tailwind CSS for Front End Development",
   "desc": "React and Tailwind CSS are popular tools for frontend web development. If you want to become a frontend developer, learning them are a great place to start. We just published a course on the freeCodeCamp.org YouTube channel that will teach you React ...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/learn-react-and-tailwind-css-for-front-end-development.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-react-and-tailwind-css-for-front-end-development.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

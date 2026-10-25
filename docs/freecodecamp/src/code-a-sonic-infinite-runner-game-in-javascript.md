@@ -22,7 +22,7 @@ head:
     - property: og:description
       content: "Code a Sonic Infinite Runner Game in JavaScript"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/code-a-sonic-infinite-runner-game-in-javascript.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/code-a-sonic-infinite-runner-game-in-javascript.html
 prev: /programming/js-node/articles/README.md
 date: 2024-10-18
 isOriginal: false
@@ -76,7 +76,7 @@ Watch the full course on [<VPIcon icon="fa-brands fa-youtube"/>the freeCodeCamp.
 {
   "title": "Code a Sonic Infinite Runner Game in JavaScript",
   "desc": "Infinite runner games have been a favorite for gamers and developers alike due to their fast-paced action and replayability. These games often feature engaging mechanics like endless levels, smooth character movement, and dynamic environments that ke...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/code-a-sonic-infinite-runner-game-in-javascript.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/code-a-sonic-infinite-runner-game-in-javascript.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

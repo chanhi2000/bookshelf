@@ -24,7 +24,7 @@ head:
     - property: og:description
       content: "How to Work with SQL Databases in Go - Different Approaches and Examples"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-work-with-sql-databases-in-go.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-work-with-sql-databases-in-go.html
 prev: /programming/go/articles/README.md
 date: 2024-09-24
 isOriginal: false

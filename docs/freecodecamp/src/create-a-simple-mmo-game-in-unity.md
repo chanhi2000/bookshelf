@@ -24,7 +24,7 @@ head:
     - property: og:description
       content: "Create a simple MMO Game in Unity"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/create-a-simple-mmo-game-in-unity.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/create-a-simple-mmo-game-in-unity.html
 prev: /programming/cs-unity/articles/README.md
 date: 2025-03-06
 isOriginal: false
@@ -82,7 +82,7 @@ If you've ever wanted to create your own online game, this course is a great sta
 {
   "title": "Create a simple MMO Game in Unity",
   "desc": "Creating an MMO (Massively Multiplayer Online) game may seem like a daunting task, but with the right tools and guidance, you can bring your game idea to life. Whether you're an aspiring game developer or just curious about how online multiplayer gam...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/create-a-simple-mmo-game-in-unity.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/create-a-simple-mmo-game-in-unity.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

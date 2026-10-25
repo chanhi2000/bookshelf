@@ -24,7 +24,7 @@ head:
     - property: og:description
       content: "Train Your Own LLM"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/train-your-own-llm.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/train-your-own-llm.html
 prev: /ai/llm/articles/README.md
 date: 2025-04-11
 isOriginal: false
@@ -78,7 +78,7 @@ Check it out now on [<VPIcon icon="fa-brands fa-youtube"/>the freeCodeCamp.org Y
 {
   "title": "Train Your Own LLM",
   "desc": "Ever wondered how large language models like ChatGPT are actually built? Behind these impressive AI tools lies a complex but fascinating process of data preparation, model training, and fine-tuning. While it might seem like something only experts wit...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/train-your-own-llm.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/train-your-own-llm.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

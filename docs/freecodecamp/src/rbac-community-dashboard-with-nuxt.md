@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to Implement RBAC in a Community Dashboard with Nuxt"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/rbac-community-dashboard-with-nuxt.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/rbac-community-dashboard-with-nuxt.html
 prev: /programming/js-nuxt/articles/README.md
 date: 2024-11-23
 isOriginal: false
@@ -288,7 +288,7 @@ Cheers!
 {
   "title": "How to Implement RBAC in a Community Dashboard with Nuxt",
   "desc": "Role Based Access Control (RBAC) is a useful authorization model for users with different access levels, such as those in a community dashboard. In this article, you’ll learn how to integrate this type of authorization with Permit.io in Nuxt. Table o...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/rbac-community-dashboard-with-nuxt.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/rbac-community-dashboard-with-nuxt.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

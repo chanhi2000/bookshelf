@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Learn Kubernetes - Full Handbook for Developers, Startups, and Businesses"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/learn-kubernetes-handbook-devs-startups-businesses/
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-kubernetes-handbook-devs-startups-businesses/
 prev: /devops/k8s/articles/README.md
 date: 2025-05-03
 isOriginal: false
@@ -291,7 +291,7 @@ If you enjoyed this article, you can learn more about me by exploring more of my
 {
   "title": "Learn Kubernetes - Full Handbook for Developers, Startups, and Businesses",
   "desc": "You’ve probably heard the word Kubernetes floating around, or it’s cooler nickname k8s (pronounced “kates“). Maybe in a job post, a tech podcast, or from that one DevOps friend who always brings it up like it’s the secret sauce to everything 😅. It s...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/learn-kubernetes-handbook-devs-startups-businesses.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-kubernetes-handbook-devs-startups-businesses.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

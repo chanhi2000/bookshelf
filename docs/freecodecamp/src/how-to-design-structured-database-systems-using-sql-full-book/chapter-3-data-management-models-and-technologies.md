@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "Chapter 3: Data Management Models and Technologies"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-design-structured-database-systems-using-sql-full-book/chapter-3-data-management-models-and-technologies.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-design-structured-database-systems-using-sql-full-book/chapter-3-data-management-models-and-technologies.html
 date: 2025-08-14
 isOriginal: false
 author:

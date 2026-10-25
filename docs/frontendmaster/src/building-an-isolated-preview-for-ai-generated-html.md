@@ -4,12 +4,16 @@ title: "Building an Isolated Preview for AI-Generated HTML"
 description: "Article(s) > Building an Isolated Preview for AI-Generated HTML"
 icon: fa-brands fa-css3-alt
 category:
-  - CSS
+  - JavaScript
+  - AI
   - Article(s)
 tag:
   - blog
   - master.dev
-  - css
+  - js
+  - javascript
+  - ai
+  - artificial-intelligence
 head:
   - - meta:
     - property: og:title
@@ -17,8 +21,8 @@ head:
     - property: og:description
       content: "Building an Isolated Preview for AI-Generated HTML"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/master.dev/blog.master.devbuilding-an-isolated-preview-for-ai-generated-html.html
-prev: /programming/css/articles/README.md
+      content: https://chanhi2000.github.io/bookshelf/blog.master.dev/building-an-isolated-preview-for-ai-generated-html.html
+prev: /programming/js/articles/README.md
 date: 2026-10-22
 isOriginal: false
 author:
@@ -31,9 +35,19 @@ cover: https://blog.master.dev/wp-json/social-image-generator/v1/image/11466
 
 ```component VPCard
 {
-  "title": "CSS > Article(s)",
+  "title": "JavaScript > Article(s)",
   "desc": "Article(s)",
-  "link": "/programming/css/articles/README.md",
+  "link": "/programming/js/articles/README.md",
+  "logo": "/images/ico-wind.svg",
+  "background": "rgba(10,10,10,0.2)"
+}
+```
+
+```component VPCard
+{
+  "title": "AI > Article(s)",
+  "desc": "Article(s)",
+  "link": "/ai/articles/README.md",
   "logo": "/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }
@@ -46,7 +60,7 @@ cover: https://blog.master.dev/wp-json/social-image-generator/v1/image/11466
 <SiteInfo
   name="Building an Isolated Preview for AI-Generated HTML"
   desc="An iframe with srcdoc feels like a safe place to render HTML a model wrote. It isn't. Three tests show how the preview can read your page, escape the frame, and phone home, and four layers of protection close each hole."
-  url="https://master.dev/blog/blog.master.dev/building-an-isolated-preview-for-ai-generated-html/"
+  url="https://blog.master.dev/building-an-isolated-preview-for-ai-generated-html/"
   logo="https://master.dev/favicon.ico"
   preview="https://blog.master.dev/wp-json/social-image-generator/v1/image/11466"/>
 
@@ -293,7 +307,7 @@ To rerun the previous article’s demos locally, clone [the repo (<VPIcon icon="
 {
   "title": "Building an Isolated Preview for AI-Generated HTML",
   "desc": "An iframe with srcdoc feels like a safe place to render HTML a model wrote. It isn't. Three tests show how the preview can read your page, escape the frame, and phone home, and four layers of protection close each hole.",
-  "link": "https://chanhi2000.github.io/bookshelf/master.dev/blog.master.devbuilding-an-isolated-preview-for-ai-generated-html.html",
+  "link": "https://chanhi2000.github.io/bookshelf/blog.master.dev/building-an-isolated-preview-for-ai-generated-html.html",
   "logo": "https://master.dev/favicon.ico",
   "background": "rgba(188,75,52,0.2)"
 }

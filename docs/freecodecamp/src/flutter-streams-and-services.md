@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: How to Use Streams and Services for Flutter State
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/flutter-streams-and-services.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/flutter-streams-and-services.html
 prev: /programming/dart/articles/README.md
 date: 2024-09-25
 isOriginal: false
@@ -594,7 +594,7 @@ Remember that state management in Flutter is flexible, and no one solution fits 
 {
   "title": "How to Use Streams and Services for Flutter State",
   "desc": "Among the many state management architectures in Flutter, combining Dart streams with singleton classes (services) is an unpopular yet easy architecture. In this article, we’ll explore how to achieve this combination for app-wide state in Flutter. Ta...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/flutter-streams-and-services.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/flutter-streams-and-services.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

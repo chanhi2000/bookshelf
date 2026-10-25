@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: "8. Modules, Packages, and Dependency Management"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/learn-python-for-javascript-developers-handbook/8-modules-packages-and-dependency-management.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-python-for-javascript-developers-handbook/8-modules-packages-and-dependency-management.html
 date: 2024-11-22
 isOriginal: false
 author:

@@ -26,7 +26,7 @@ head:
     - property: og:description
       content: "How to Build an Invoice SaaS App with Next.js, Resend, Clerk and Neon Postgres"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/build-an-invoice-saas-app-with-next-js-and-neon-postgres.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-an-invoice-saas-app-with-next-js-and-neon-postgres.html
 prev: /programming/js-next/articles/README.md
 date: 2024-08-02
 isOriginal: false
@@ -1475,7 +1475,7 @@ If you found this article useful, you can:
 {
   "title": "How to Build an Invoice SaaS App with Next.js, Resend, Clerk and Neon Postgres",
   "desc": "In this tutorial, you will learn how to build an invoicing web app that allows users to add their bank information, manage a list of customers, and create and send invoices to customers. You'll also learn how to print and send React components as inv...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/build-an-invoice-saas-app-with-next-js-and-neon-postgres.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-an-invoice-saas-app-with-next-js-and-neon-postgres.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

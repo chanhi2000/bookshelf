@@ -28,7 +28,7 @@ head:
     - property: og:description
       content: "How to Build RAG AI Agents with TypeScript"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-build-rag-ai-agents-with-typescript.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-build-rag-ai-agents-with-typescript.html
 prev: /programming/ts/articles/README.md
 date: 2025-04-16
 isOriginal: false
@@ -708,7 +708,7 @@ Thank you for reading!
 {
   "title": "How to Build RAG AI Agents with TypeScript",
   "desc": "The most powerful AI systems don’t just generate - they also retrieve, reason, and respond with context. Retrieval-Augmented Generation (RAG) is how we get there. It combines the strengths of search and generation to build more accurate, reliable, an...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-build-rag-ai-agents-with-typescript.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-build-rag-ai-agents-with-typescript.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

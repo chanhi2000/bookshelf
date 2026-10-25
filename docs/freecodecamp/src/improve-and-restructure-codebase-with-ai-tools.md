@@ -22,7 +22,7 @@ head:
     - property: og:description
       content: "How to Improve and Restructure Your Codebase with AI Tools & Version Control"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/improve-and-restructure-codebase-with-ai-tools.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/improve-and-restructure-codebase-with-ai-tools.html
 prev: /programming/py/articles/README.md
 date: 2024-10-29
 isOriginal: false
@@ -674,7 +674,7 @@ Connect with me on [LinkedIn (<VPIcon icon="fa-brands fa-linkedin"/>`samuel-oluw
 {
   "title": "How to Improve and Restructure Your Codebase with AI Tools & Version Control",
   "desc": "A codebase can become messy and hard to manage over time. This happens because of quick fixes, outdated features, or just not enough time to clean things up. When code becomes difficult to read or change, it slows down progress and can even cause bug...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/improve-and-restructure-codebase-with-ai-tools.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/improve-and-restructure-codebase-with-ai-tools.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

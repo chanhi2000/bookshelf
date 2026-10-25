@@ -24,7 +24,7 @@ head:
     - property: og:description
       content: "Learn Data Visualization in This Free 17-Hour Course"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/learn-data-visualization-in-this-free-17-hour-course.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-data-visualization-in-this-free-17-hour-course.html
 prev: /programming/js-d3/articles/README.md
 date: 2021-02-23
 isOriginal: false
@@ -131,7 +131,7 @@ Here is the list of topics covered in this thorough course:
 {
   "title": "Learn Data Visualization in This Free 17-Hour Course",
   "desc": "Business is becoming increasingly data driven and this data needs to be visualized to make it easier to understand. Data Visualization is a growing field with many opportunities. We've released a comprehensive 17-hour course on data visualization tha...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/learn-data-visualization-in-this-free-17-hour-course.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-data-visualization-in-this-free-17-hour-course.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

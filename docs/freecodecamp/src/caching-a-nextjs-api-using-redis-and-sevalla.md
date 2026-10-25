@@ -31,7 +31,7 @@ head:
     - property: og:description
       content: "Caching a Next.js API using Redis and Sevalla"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/caching-a-nextjs-api-using-redis-and-sevalla.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/caching-a-nextjs-api-using-redis-and-sevalla.html
 prev: /programming/js-next/articles/README.md
 date: 2025-08-28
 isOriginal: false
@@ -356,7 +356,7 @@ Hope you enjoyed this article. Signup for my free AI newsletter [<VPIcon icon="f
 {
   "title": "Caching a Next.js API using Redis and Sevalla",
   "desc": "When you hear about Next.js, your first thought may be static websites or React-driven frontends. But that’s just part of the story. Next.js can also power full-featured backend APIs that you can host and scale just like any other backend service. In...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/caching-a-nextjs-api-using-redis-and-sevalla.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/caching-a-nextjs-api-using-redis-and-sevalla.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

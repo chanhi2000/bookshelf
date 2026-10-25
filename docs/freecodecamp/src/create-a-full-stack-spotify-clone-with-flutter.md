@@ -28,7 +28,7 @@ head:
     - property: og:description
       content: "Create a Full Stack Spotify Clone with Flutter"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/create-a-full-stack-spotify-clone-with-flutter.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/create-a-full-stack-spotify-clone-with-flutter.html
 prev: /programming/dart/articles/README.md
 date: 2024-11-15
 isOriginal: false
@@ -135,7 +135,7 @@ Watch the full course on [<VPIcon icon="fa-brands fa-youtube"/>the freeCodeCamp.
 {
   "title": "Create a Full Stack Spotify Clone with Flutter",
   "desc": "Have you ever wondered how apps like Spotify are built? Now’s your chance to learn! With the power of modern technologies like Flutter, FastAPI, and PostgreSQL, you can create a full-featured music streaming app from scratch. We just published a cour...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/create-a-full-stack-spotify-clone-with-flutter.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/create-a-full-stack-spotify-clone-with-flutter.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

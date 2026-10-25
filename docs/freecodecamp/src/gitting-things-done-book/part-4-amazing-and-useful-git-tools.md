@@ -16,7 +16,7 @@ head:
     - property: og:description
       content: "Part 4 - Amazing and Useful Git Tools"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/gitting-things-done-book/part-4-amazing-and-useful-git-tools.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/gitting-things-done-book/part-4-amazing-and-useful-git-tools.html
 date: 2024-01-09
 isOriginal: false
 author:

@@ -31,7 +31,7 @@ head:
     - property: og:description
       content: "How to Integrate Firebase into Your Flutter Applications: A Handbook for Developers"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-integrate-firebase-into-your-flutter-applications-a-handbook-for-developers.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-integrate-firebase-into-your-flutter-applications-a-handbook-for-developers.html
 prev: /programming/dart/articles/README.md
 date: 2025-07-25
 isOriginal: false
@@ -2298,7 +2298,7 @@ Depending on the specific "cutting-edge" aspects you want to explore, you'd dive
 {
   "title": "How to Integrate Firebase into Your Flutter Applications: A Handbook for Developers",
   "desc": "In the world of software development, speed, scalability, and user experience are paramount. Flutter, with its expressive UI toolkit and native compilation, offers an unparalleled frontend experience, while Firebase, Google's robust Backend-as-a-Serv...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-integrate-firebase-into-your-flutter-applications-a-handbook-for-developers.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-integrate-firebase-into-your-flutter-applications-a-handbook-for-developers.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

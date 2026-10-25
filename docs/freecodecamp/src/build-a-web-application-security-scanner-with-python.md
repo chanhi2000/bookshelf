@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "Building a Simple Web Application Security Scanner with Python: A Beginner's Guide"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/build-a-web-application-security-scanner-with-python.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-a-web-application-security-scanner-with-python.html
 prev: /programming/py/articles/README.md
 date: 2024-12-13
 isOriginal: false
@@ -382,7 +382,7 @@ I hope you learned the basics of web security and a bit of Python programming as
 {
   "title": "Building a Simple Web Application Security Scanner with Python: A Beginner's Guide",
   "desc": "In this article, you are going to learn to create a basic security tool that can be helpful in identifying common vulnerabilities in web applications. I have two goals here. The first is to empower you with the skills to develop tools that can help e...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/build-a-web-application-security-scanner-with-python.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-a-web-application-security-scanner-with-python.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

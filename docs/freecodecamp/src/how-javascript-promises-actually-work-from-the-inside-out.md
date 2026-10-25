@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "How JavaScript promises actually work from the inside out"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-javascript-promises-actually-work-from-the-inside-out.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-javascript-promises-actually-work-from-the-inside-out.html
 prev: /programming/js/articles/README.md
 date: 2019-02-19
 isOriginal: false
@@ -599,7 +599,7 @@ Originally published at [<VPIcon icon="fas fa-globe"/>101node.io](https://101nod
 {
   "title": "How JavaScript promises actually work from the inside out",
   "desc": "By Shailesh Shekhawat One of the most important questions I faced in interviews was how promises are implemented. Since async/await is becoming more popular, you need to understand promises. What is a Promise? A promise is an object which represents ...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-javascript-promises-actually-work-from-the-inside-out.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-javascript-promises-actually-work-from-the-inside-out.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

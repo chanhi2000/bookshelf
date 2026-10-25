@@ -22,7 +22,7 @@ head:
     - property: og:description
       content: "Learn Calculus 1 in This Free 12-Hour Course"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/learn-college-calculus-in-free-course.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-college-calculus-in-free-course.html
 prev: /academcis/math/articles/README.md
 date: 2020-08-27
 isOriginal: false
@@ -170,7 +170,7 @@ Watch the [<VPIcon icon="fa-brands fa-youtube"/>full course on the freeCodeCamp.
 {
   "title": "Learn Calculus 1 in This Free 12-Hour Course",
   "desc": "Calculus concepts are important to understand for many types of software development.  Calculus is often used when developing algorithms for modeling real-word phenomena. It is also used in graphics and physics simulations, which are key parts to man...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/learn-college-calculus-in-free-course.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-college-calculus-in-free-course.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

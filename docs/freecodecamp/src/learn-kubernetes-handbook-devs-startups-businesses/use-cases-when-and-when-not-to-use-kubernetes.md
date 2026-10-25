@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: "Use Cases: When (and When Not) to Use Kubernetes 🧭"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/learn-kubernetes-handbook-devs-startups-businesses/use-cases-when-and-when-not-to-use-kubernetes.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-kubernetes-handbook-devs-startups-businesses/use-cases-when-and-when-not-to-use-kubernetes.html
 next: /freecodecamp.org/learn-kubernetes-handbook-devs-startups-businesses/README.md#conclusion
 date: 2025-05-03
 isOriginal: false

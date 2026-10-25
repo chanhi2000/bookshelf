@@ -25,7 +25,7 @@ head:
     - property: og:description
       content: "How to Create Accessible and User-Friendly Forms in React"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-create-accessible-and-user-friendly-forms-in-react.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-create-accessible-and-user-friendly-forms-in-react.html
 prev: /programming/js-react/articles/README.md
 date: 2025-04-30
 isOriginal: false
@@ -835,7 +835,7 @@ As always, if you’d like to share feedback on the article, discuss it further,
 {
   "title": "How to Create Accessible and User-Friendly Forms in React",
   "desc": "When designing web applications, you’ll often be asked the age old question “How accessible is your website” and “Does it offer the best user experience?”. These are both very valid questions, but they are often overlooked in favour of rich or fancy ...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-create-accessible-and-user-friendly-forms-in-react.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-create-accessible-and-user-friendly-forms-in-react.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

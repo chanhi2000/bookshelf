@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: "How to Set Up Your Python Environment"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/work-with-sqlite-in-python-handbook/how-to-set-up-your-python-environment.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/work-with-sqlite-in-python-handbook/how-to-set-up-your-python-environment.html
 date: 2024-10-02
 isOriginal: false
 author: Ashutosh Krishna

@@ -26,7 +26,7 @@ head:
     - property: og:description
       content: "What are Microservices?"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/the-microservices-book-build-and-manage-services-in-the-cloud/what-are-microservices.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/the-microservices-book-build-and-manage-services-in-the-cloud/what-are-microservices.html
 date: 2024-11-29
 isOriginal: false
 author: Adekola Olawale

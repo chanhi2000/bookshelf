@@ -28,7 +28,7 @@ head:
     - property: og:description
       content: "Learn Software Design Basics: Key Phases and Best Practices"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/learn-software-design-basics.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-software-design-basics.html
 prev: /academics/system-design/articles/README.md
 date: 2025-03-08
 isOriginal: false
@@ -553,7 +553,7 @@ Approaching each problem with the mindset of defining a Problem Statement, Scope
 {
   "title": "Learn Software Design Basics: Key Phases and Best Practices",
   "desc": "Coding has become one of the most common tasks in modern society. With computers now central to almost every field, more people are designing algorithms and writing code to solve various problems. From healthcare to finance, robust software systems p...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/learn-software-design-basics.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-software-design-basics.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

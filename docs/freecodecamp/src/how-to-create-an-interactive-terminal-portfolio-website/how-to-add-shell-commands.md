@@ -25,7 +25,7 @@ head:
     - property: og:description
       content: "How to Add Shell Commands"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-create-an-interactive-terminal-portfolio-website/how-to-add-shell-commands.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-create-an-interactive-terminal-portfolio-website/how-to-add-shell-commands.html
 date: 2024-04-29
 isOriginal: false
 author:

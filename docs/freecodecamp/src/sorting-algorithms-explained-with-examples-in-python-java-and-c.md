@@ -31,7 +31,7 @@ head:
     - property: og:description
       content: "Sorting Algorithms Explained with Examples in JavaScript, Python, Java, and C++"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/sorting-algorithms-explained-with-examples-in-python-java-and-c.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/sorting-algorithms-explained-with-examples-in-python-java-and-c.html
 prev: /academics/coen/articles/README.md
 date: 2019-12-05
 isOriginal: false
@@ -2049,7 +2049,7 @@ public class mergesort {
 {
   "title": "Sorting Algorithms Explained with Examples in JavaScript, Python, Java, and C++",
   "desc": "What is a Sorting Algorithm? Sorting algorithms are a set of instructions that take an array or list as an input and arrange the items into a particular order. Sorts are most commonly in numerical or a form of alphabetical (or lexicographical) order,...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/sorting-algorithms-explained-with-examples-in-python-java-and-c.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/sorting-algorithms-explained-with-examples-in-python-java-and-c.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

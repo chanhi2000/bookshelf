@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "How to Build a Snake Game using Phaser.js"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-build-a-snake-game-using-phaserjs.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-build-a-snake-game-using-phaserjs.html
 prev: /programming/js/articles/README.md
 date: 2025-08-30
 isOriginal: false
@@ -582,7 +582,7 @@ If you’re into online gaming, [<VPIcon icon="fas fa-globe"/>GameBoost](https:/
 {
   "title": "How to Build a Snake Game using Phaser.js",
   "desc": "If you’ve ever wanted to make a small game that runs in the browser, Phaser.js is a great place to start. It’s a simple JavaScript library that helps you build interactive 2-D games that you can play in the browser. In this guide, you’ll learn what P...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-build-a-snake-game-using-phaserjs.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-build-a-snake-game-using-phaserjs.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

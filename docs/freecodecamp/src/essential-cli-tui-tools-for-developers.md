@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "Essential CLI/TUI Tools for Developers"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/essential-cli-tui-tools-for-developers.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/essential-cli-tui-tools-for-developers.html
 prev: /programming/sh/articles/README.md
 date: 2025-01-29
 isOriginal: false
@@ -938,7 +938,7 @@ There’s a huge amount of CLIs/TUIs out there, and I couldn’t list them all (
 {
   "title": "Essential CLI/TUI Tools for Developers",
   "desc": "As developers, we spend a lot of time in our terminals. And there are tons of great CLI/TUI tools that can boost our productivity (as well as some that are just fun to use). From managing Git repositories and navigating file systems to monitoring sys...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/essential-cli-tui-tools-for-developers.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/essential-cli-tui-tools-for-developers.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

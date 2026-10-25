@@ -32,7 +32,7 @@ head:
     - property: og:description
       content: "How to Build a Video Subtitle Generator using the Gemini API"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/build-a-video-subtitle-generator-using-the-gemini-api.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-a-video-subtitle-generator-using-the-gemini-api.html
 prev: /ai/gemini/articles/README.md
 date: 2024-12-12
 isOriginal: false
@@ -644,7 +644,7 @@ Thank you for reading!
 {
   "title": "How to Build a Video Subtitle Generator using the Gemini API",
   "desc": "In this tutorial, you'll build an AI-powered subtitle generator using Google's Gemini API. We'll create a project called “AI-Subtitle-Generator” using React for the front end and Express for the back end. Get ready for a fun and practical project. Ta...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/build-a-video-subtitle-generator-using-the-gemini-api.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-a-video-subtitle-generator-using-the-gemini-api.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

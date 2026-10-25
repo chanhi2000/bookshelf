@@ -22,7 +22,7 @@ head:
     - property: og:description
       content: How to Terminate Go Programs Elegantly - A Guide to Graceful Shutdowns
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/graceful-shutdowns-k8s-go.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/graceful-shutdowns-k8s-go.html
 prev: /programming/go/articles/README.md
 date: 2024-08-14
 isOriginal: false
@@ -336,7 +336,7 @@ Like individual application containers, Pods are considered to be relatively eph
 {
   "title": "How to Terminate Go Programs Elegantly - A Guide to Graceful Shutdowns",
   "desc": "Have you ever pulled the power cord out of your computer in frustration? While this might seem like a quick solution to certain problems, it can lead to data loss and system instability. In the world of software, a similar concept exists: the hard sh...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/graceful-shutdowns-k8s-go.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/graceful-shutdowns-k8s-go.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

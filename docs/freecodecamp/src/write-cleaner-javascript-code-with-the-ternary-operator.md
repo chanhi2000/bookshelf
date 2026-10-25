@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "How to Write Cleaner JavaScript Code with The Ternary Operator"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/write-cleaner-javascript-code-with-the-ternary-operator.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/write-cleaner-javascript-code-with-the-ternary-operator.html
 prev: /programming/js/articles/README.md
 date: 2024-10-26
 isOriginal: false
@@ -242,7 +242,7 @@ Connect with me on [LinkedIn (<VPIcon icon="fa-brands fa-linkedin"/>`samuel-oluw
 {
   "title": "How to Write Cleaner JavaScript Code with The Ternary Operator",
   "desc": "When you're coding in JavaScript, handling decisions through conditional statements is one of the core tasks you'll frequently encounter. One of the most commonly used methods for this is the ternary operator. But what exactly is it, and when should ...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/write-cleaner-javascript-code-with-the-ternary-operator.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/write-cleaner-javascript-code-with-the-ternary-operator.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

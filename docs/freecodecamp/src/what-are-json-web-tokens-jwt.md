@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: "What Are JSON Web Tokens (JWT)?"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/what-are-json-web-tokens-jwt.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/what-are-json-web-tokens-jwt.html
 prev: /devops/security/articles/README.md
 date: 2025-07-08
 isOriginal: false
@@ -455,7 +455,7 @@ I hope you’ve found this tutorial useful, and as always if you want to ask any
 {
   "title": "What Are JSON Web Tokens (JWT)?",
   "desc": "When you’re working with any website, application, or API, you'll inevitably need to log in and authenticate your user base. One of the more commonly used methods of passing around authentication credentials from one system to another is using a JSON...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/what-are-json-web-tokens-jwt.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/what-are-json-web-tokens-jwt.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

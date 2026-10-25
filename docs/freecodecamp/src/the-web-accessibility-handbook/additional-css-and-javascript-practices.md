@@ -16,7 +16,7 @@ head:
     - property: og:description
       content: "Additional CSS and JavaScript Practices"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/the-web-accessibility-handbook/additional-css-and-javascript-practices.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/the-web-accessibility-handbook/additional-css-and-javascript-practices.html
 date: 2025-03-19
 isOriginal: false
 author:

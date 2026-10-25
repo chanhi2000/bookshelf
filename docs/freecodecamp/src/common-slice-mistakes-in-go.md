@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "Common Slice Mistakes in Go and How to Avoid Them"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/common-slice-mistakes-in-go.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/common-slice-mistakes-in-go.html
 prev: /programming/go/articles/README.md
 date: 2025-10-01
 isOriginal: false
@@ -554,7 +554,7 @@ Don't forget to share.
 {
   "title": "Common Slice Mistakes in Go and How to Avoid Them",
   "desc": "Slices are one of the most fundamental and powerful data structures in Go. They provide a dynamic array-like interface that's both flexible and efficient. However, they can be very tricky when implementing. And if not implemented correctly, they can ...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/common-slice-mistakes-in-go.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/common-slice-mistakes-in-go.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

@@ -24,7 +24,7 @@ head:
     - property: og:description
       content: "How to Add a Video Conferencing Feature with Stream"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-build-a-social-learning-platform-using-nextjs-stream-and-supabase/how-to-add-a-video-conferencing-feature-with-stream.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-build-a-social-learning-platform-using-nextjs-stream-and-supabase/how-to-add-a-video-conferencing-feature-with-stream.html
 date: 2025-03-04
 isOriginal: false
 author:

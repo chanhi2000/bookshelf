@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: "How Infinite Loops Work in C++"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-infinite-loops-work-in-c.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-infinite-loops-work-in-c.html
 prev: /programming/cpp/articles/README.md
 date: 2025-08-02
 isOriginal: false
@@ -473,7 +473,7 @@ If you are beginner in C++, I’ve covered many programming topic in detail on t
 {
   "title": "How Infinite Loops Work in C++",
   "desc": "In C++, a loop is a part of code that is executed repetitively until the given condition is satisfied. An infinite loop is a loop that runs indefinitely, without any condition to exit the loop. In this article, we will learn about infinite loops in C...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-infinite-loops-work-in-c.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-infinite-loops-work-in-c.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

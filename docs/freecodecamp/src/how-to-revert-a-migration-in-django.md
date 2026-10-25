@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "How to Revert a Migration in Django"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-revert-a-migration-in-django.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-revert-a-migration-in-django.html
 prev: /programming/py-django/articles/README.md
 date: 2025-07-17
 isOriginal: false
@@ -320,7 +320,7 @@ Shoot me a [message (<VPIcon icon="fa-brands fa-x-twitter"/>`_udemezue`)](http:/
 {
   "title": "How to Revert a Migration in Django",
   "desc": "So, you're working with Django, you've run a migration, and now something’s broken. Maybe you added a field that shouldn't be there. Maybe you renamed a model, and suddenly your database is a mess. Or maybe you're just experimenting and want to roll ...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-revert-a-migration-in-django.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-revert-a-migration-in-django.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

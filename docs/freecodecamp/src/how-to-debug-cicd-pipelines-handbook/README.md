@@ -39,7 +39,7 @@ head:
     - property: og:description
       content: "How to Debug CI/CD Pipelines: A Handbook on Troubleshooting with Observability Tools"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-debug-cicd-pipelines-handbook.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-debug-cicd-pipelines-handbook.html
 prev: /devops/docker/articles/README.md
 date: 2025-06-17
 isOriginal: false
@@ -2452,7 +2452,7 @@ I hope this comes in handy for you someday. If you made it to the end of this ha
 {
   "title": "How to Debug CI/CD Pipelines: A Handbook on Troubleshooting with Observability Tools",
   "desc": "Observability is a game-changer for CI/CD pipelines, and it’s one of the most exciting aspects of DevOps. When I started working with CI/CD systems, I assumed the hardest part would be building the pipeline. But with increasingly complex setups, the ...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-debug-cicd-pipelines-handbook.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-debug-cicd-pipelines-handbook.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

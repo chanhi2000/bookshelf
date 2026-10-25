@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "Create Request Recipe Screen"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/build-a-multilingual-social-recipe-app-with-flutter-and-strapi/create-request-recipe-screen.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-a-multilingual-social-recipe-app-with-flutter-and-strapi/create-request-recipe-screen.html
 date: 2025-04-09
 isOriginal: false
 author:

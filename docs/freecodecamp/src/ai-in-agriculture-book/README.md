@@ -27,7 +27,7 @@ head:
     - property: og:description
       content: "AI in Agriculture: How AI-Enhanced Farming Can Increase Crop Yields [Full Book]"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/ai-in-agriculture-book/
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/ai-in-agriculture-book/
 prev: /programming/py/articles/README.md
 date: 2025-01-15
 isOriginal: false
@@ -301,7 +301,7 @@ If you want to learn more about a career in Data Science, Machine Learning and A
 {
   "title": "AI in Agriculture: How AI-Enhanced Farming Can Increase Crop Yields [Full Book]",
   "desc": "Artificial intelligence is revolutionizing the agriculture industry, paving the way for a future of smarter, more efficient farming practices. Imagine a world where crops are grown with precision and care, maximizing yields like never before. With AI...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/ai-in-agriculture-book.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/ai-in-agriculture-book.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

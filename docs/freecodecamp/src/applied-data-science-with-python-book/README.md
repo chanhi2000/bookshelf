@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "Applied Data Science with Python - Business Intelligence for Developers [Full Book]"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/applied-data-science-with-python-book/
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/applied-data-science-with-python-book/
 prev: /programming/py/articles/README.md
 date: 2024-06-04
 isOriginal: false

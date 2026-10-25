@@ -46,7 +46,7 @@ cover: https://blog.master.dev/wp-json/social-image-generator/v1/image/10687
 <SiteInfo
   name="Background Image Refraction in CSS"
   desc=""
-  url="https://blog.master.dev/blog.master.dev/background-image-refraction-in-css/"
+  url="https://blog.blog.master.dev//background-image-refraction-in-css/"
   logo="https://blog.master.dev/favicon.ico"
   preview="https://blog.master.dev/wp-json/social-image-generator/v1/image/10687"/>
 

@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: "How to Build a Flexible API with Feature Flags Using Open Source Tools"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/build-a-flexible-api-with-feature-flags-using-open-source-tools.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-a-flexible-api-with-feature-flags-using-open-source-tools.html
 prev: /programming/go/articles/README.md
 date: 2024-11-20
 isOriginal: false
@@ -553,7 +553,7 @@ You can connect with me - Pradumna Saraf, on socials [<VPIcon icon="fas fa-globe
 {
   "title": "How to Build a Flexible API with Feature Flags Using Open Source Tools",
   "desc": "Feature flagging has changed the paradigm of how backend developers can test and modify the things they build. With feature flags, we can enable and disable a feature or change the functionality of something on the fly with a single click (no need to...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/build-a-flexible-api-with-feature-flags-using-open-source-tools.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-a-flexible-api-with-feature-flags-using-open-source-tools.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: "Load Code on Demand Through Webpack, Extract Third-Party Libraries, Reduce Redundant Code When Converting ES6 to ES5"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/the-front-end-performance-optimization-handbook/load-code-on-demand-through-webpack-extract-third-party-libraries-reduce-redundant-code-when-converting-es6-to-es5.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/the-front-end-performance-optimization-handbook/load-code-on-demand-through-webpack-extract-third-party-libraries-reduce-redundant-code-when-converting-es6-to-es5.html
 date: 2025-05-07
 isOriginal: false
 author:

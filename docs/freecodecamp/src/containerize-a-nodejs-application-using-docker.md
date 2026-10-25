@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to Containerize a Node.js Application Using Docker - A Beginner's Guide"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/containerize-a-nodejs-application-using-docker.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/containerize-a-nodejs-application-using-docker.html
 prev: /programming/js-node/articles/README.md
 date: 2025-01-24
 isOriginal: false
@@ -329,7 +329,7 @@ Feel free to ask me any questions! You can also check out my other articles [<VP
 {
   "title": "How to Containerize a Node.js Application Using Docker - A Beginner's Guide",
   "desc": "Over the years, applications and tools have become more complex to keep up with people’s changing requirements and expectations. But this can create issues of code compatibility and remote access. For example, a codebase that functions properly on Wi...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/containerize-a-nodejs-application-using-docker.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/containerize-a-nodejs-application-using-docker.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

@@ -22,7 +22,7 @@ head:
     - property: og:description
       content: "Multi-layered Access Control"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-build-scalable-access-control-for-your-web-app/multi-layered-access-control.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-build-scalable-access-control-for-your-web-app/multi-layered-access-control.html
 date: 2025-02-05
 isOriginal: false
 author:

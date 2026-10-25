@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "How to Build Production-Ready Web Apps with the Hono Framework: A Deep Dive"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/build-production-ready-web-apps-with-hono.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-production-ready-web-apps-with-hono.html
 prev: /programming/js-hono/articles/README.md
 date: 2025-09-09
 isOriginal: false
@@ -732,7 +732,7 @@ To continue your journey, I highly recommend exploring the official [<VPIcon ico
 {
   "title": "How to Build Production-Ready Web Apps with the Hono Framework: A Deep Dive",
   "desc": "As a dev, you’d probably like to write your application once and not have to worry so much about where it's going to run. This is what the open source framework Hono lets you do, and it’s a game-changer. Hono is a small, incredibly fast web framework...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/build-production-ready-web-apps-with-hono.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-production-ready-web-apps-with-hono.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

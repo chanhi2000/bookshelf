@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Deep Learning Course - Math and Applications"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/deep-learning-course-math-and-applications.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/deep-learning-course-math-and-applications.html
 prev: /ai/articles/README.md
 date: 2024-05-08
 isOriginal: false
@@ -97,7 +97,7 @@ Watch the full course on [<VPIcon icon="fa-brands fa-youtube"/>the freeCodeCamp.
 {
   "title": "Deep Learning Course - Math and Applications",
   "desc": "Understanding the math behind deep learning is important if you want to become proficient in machine learning techniques. We just published a 14-hour deep learning course on the freeCodeCamp.org YouTube channel. This course is specifically tailored t...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/deep-learning-course-math-and-applications.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/deep-learning-course-math-and-applications.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

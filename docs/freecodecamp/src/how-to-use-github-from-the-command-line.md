@@ -22,7 +22,7 @@ head:
     - property: og:description
       content: "What is the GitHub CLI? How to Use GitHub from the Command Line"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-use-github-from-the-command-line.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-use-github-from-the-command-line.html
 prev: /devops/github/articles/README.md
 date: 2025-09-27
 isOriginal: false
@@ -391,7 +391,7 @@ You can save time and improve productivity as developers using this powerful too
 {
   "title": "What is the GitHub CLI? How to Use GitHub from the Command Line",
   "desc": "The GitHub CLI (Command Line Interface) is a powerful tool developed by GitHub that allows developers to interact with GitHub directly from the terminal. It provides a simple way to perform many GitHub tasks without leaving the command line interface...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-use-github-from-the-command-line.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-use-github-from-the-command-line.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

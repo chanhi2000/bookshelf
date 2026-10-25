@@ -25,7 +25,7 @@ head:
     - property: og:description
       content: "How to Build a Documentation Site using React and Docusaraus"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/build-a-documentation-site-using-react-and-docusaraus.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-a-documentation-site-using-react-and-docusaraus.html
 prev: /programming/js-react/articles/README.md
 date: 2024-10-10
 isOriginal: false
@@ -806,7 +806,7 @@ And here’s the main Docusaurus [<VPIcon icon="fas fa-globe"/>documentation](ht
 {
   "title": "How to Build a Documentation Site using React and Docusaraus",
   "desc": "Having a properly designed and comprehensive documentation site is important for any project. But creating good documentation can be challenging, and problems like poor user onboarding experience and increased support tickets can become daily hassles...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/build-a-documentation-site-using-react-and-docusaraus.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-a-documentation-site-using-react-and-docusaraus.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

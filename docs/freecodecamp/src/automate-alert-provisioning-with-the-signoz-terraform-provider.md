@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: "How to Automate Alert Provisioning with the SigNoz Terraform Provider"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/automate-alert-provisioning-with-the-signoz-terraform-provider.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/automate-alert-provisioning-with-the-signoz-terraform-provider.html
 prev: /devops/terraform/articles/README.md
 date: 2025-03-18
 isOriginal: false
@@ -411,7 +411,7 @@ Till the next one, happy coding!
 {
   "title": "How to Automate Alert Provisioning with the SigNoz Terraform Provider",
   "desc": "Modern infrastructure requires continuous monitoring and rapid incident response. However, manually configuring and managing alerts is not only labor-intensive but also susceptible to human error. Automating alert provisioning allows you to enforce c...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/automate-alert-provisioning-with-the-signoz-terraform-provider.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/automate-alert-provisioning-with-the-signoz-terraform-provider.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "An Animated Introduction to Elixir"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/an-animated-introduction-to-elixir.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/an-animated-introduction-to-elixir.html
 prev: /programming/elixir/articles/README.md
 date: 2025-05-23
 isOriginal: false
@@ -141,7 +141,7 @@ If you have any questions or feedback, I'd love to hear it. Comments and feedbac
 {
   "title": "An Animated Introduction to Elixir",
   "desc": "Elixir is a dynamic, functional programming language designed for building scalable and maintainable applications. It leverages the battle-tested Erlang VM, known for running low-latency, distributed, and fault-tolerant systems. Elixir is based on an...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/an-animated-introduction-to-elixir.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/an-animated-introduction-to-elixir.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

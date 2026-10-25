@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to Create and Send Email Templates Using React Email and Resend in Next.js"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/create-and-send-email-templates-using-react-email-and-resend-in-nextjs.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/create-and-send-email-templates-using-react-email-and-resend-in-nextjs.html
 prev: /programming/js-next/articles/README.md
 date: 2024-12-13
 isOriginal: false
@@ -442,7 +442,7 @@ Thank you for reading!
 {
   "title": "How to Create and Send Email Templates Using React Email and Resend in Next.js",
   "desc": "Modern software applications often rely on email communication to engage with users. They may send authentication codes during sign in attempts, marketing emails, or newsletters, for example. This means that email notifications are typically the most...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/create-and-send-email-templates-using-react-email-and-resend-in-nextjs.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/create-and-send-email-templates-using-react-email-and-resend-in-nextjs.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

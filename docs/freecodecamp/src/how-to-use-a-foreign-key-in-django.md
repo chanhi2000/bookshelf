@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "How to Use a Foreign Key in Django"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-use-a-foreign-key-in-django.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-use-a-foreign-key-in-django.html
 prev: /programming/py-django/articles/README.md
 date: 2025-04-22
 isOriginal: false
@@ -306,7 +306,7 @@ And if something’s still unclear, that’s normal. I had to build a few mini-p
 {
   "title": "How to Use a Foreign Key in Django",
   "desc": "When you're building something in Django - whether it's a blog, a to-do app, or even something way more complex - at some point, you'll want to connect different pieces of data. That’s where ForeignKey comes in. It helps link one model to another, li...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-use-a-foreign-key-in-django.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-use-a-foreign-key-in-django.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: "How to Retrieve System Information Using The CPUID Instruction"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/retrieve-system-information-using-cpuid.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/retrieve-system-information-using-cpuid.html
 prev: /programming/asm/articles/README.md
 date: 2024-10-03
 isOriginal: false
@@ -318,7 +318,7 @@ Happy coding!
 {
   "title": "How to Retrieve System Information Using The CPUID Instruction",
   "desc": "When developing a bootloader/kernel, understanding the underlying architecture is crucial for optimizing performance and compatibility between software and hardware. One important yet sometimes overlooked tool available to engineers for querying and ...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/retrieve-system-information-using-cpuid.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/retrieve-system-information-using-cpuid.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

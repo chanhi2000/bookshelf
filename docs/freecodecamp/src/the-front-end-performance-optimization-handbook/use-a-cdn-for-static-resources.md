@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: "Use a CDN for Static Resources"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/the-front-end-performance-optimization-handbook/use-a-cdn-for-static-resources.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/the-front-end-performance-optimization-handbook/use-a-cdn-for-static-resources.html
 date: 2025-05-07
 isOriginal: false
 author:

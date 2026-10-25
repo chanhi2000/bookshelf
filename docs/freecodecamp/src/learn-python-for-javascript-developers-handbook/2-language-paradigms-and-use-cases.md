@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: "2. Language Paradigms and Use Cases"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/learn-python-for-javascript-developers-handbook/2-language-paradigms-and-use-cases.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-python-for-javascript-developers-handbook/2-language-paradigms-and-use-cases.html
 date: 2024-11-22
 isOriginal: false
 author:

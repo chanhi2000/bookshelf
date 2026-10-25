@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "Chapter 9: SQL (Structured Query Language)"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-design-structured-database-systems-using-sql-full-book/chapter-9-sql-structured-query-language.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-design-structured-database-systems-using-sql-full-book/chapter-9-sql-structured-query-language.html
 date: 2025-08-14
 isOriginal: false
 author:

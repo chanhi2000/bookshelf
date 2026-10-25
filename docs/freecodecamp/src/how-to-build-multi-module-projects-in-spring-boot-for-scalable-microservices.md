@@ -25,7 +25,7 @@ head:
     - property: og:description
       content: "How to Build Multi-Module Projects in Spring Boot for Scalable Microservices"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-build-multi-module-projects-in-spring-boot-for-scalable-microservices.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-build-multi-module-projects-in-spring-boot-for-scalable-microservices.html
 prev: /programming/java-spring/articles/README.md
 date: 2024-11-13
 isOriginal: false
@@ -573,7 +573,7 @@ Following best practices and using advanced techniques like messaging and cachin
 {
   "title": "How to Build Multi-Module Projects in Spring Boot for Scalable Microservices",
   "desc": "As software applications grow in complexity, managing scalability, modularity, and clarity becomes essential. Spring Boot’s multi-module structure allows you to manage different parts of the application independently, which lets your team develop, te...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-build-multi-module-projects-in-spring-boot-for-scalable-microservices.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-build-multi-module-projects-in-spring-boot-for-scalable-microservices.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

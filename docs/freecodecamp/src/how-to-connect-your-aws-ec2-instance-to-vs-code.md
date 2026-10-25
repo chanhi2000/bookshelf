@@ -24,7 +24,7 @@ head:
     - property: og:description
       content: "How to Connect Your AWS EC2 Instance to VS Code"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-connect-your-aws-ec2-instance-to-vs-code.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-connect-your-aws-ec2-instance-to-vs-code.html
 prev: /tool/vscode/articles/README.md
 date: 2025-03-26
 isOriginal: false
@@ -352,7 +352,7 @@ Thank you for reading.
 {
   "title": "How to Connect Your AWS EC2 Instance to VS Code",
   "desc": "As a DevOps engineer, it is crucial to master at least one cloud provider. Cloud services simplify storage, data migration, and CI/CD workflows and help make these tasks easier and more efficient. If you need a basic introduction to cloud computing, ...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-connect-your-aws-ec2-instance-to-vs-code.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-connect-your-aws-ec2-instance-to-vs-code.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

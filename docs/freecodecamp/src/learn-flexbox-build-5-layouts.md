@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: "Learn CSS Flexbox by Building 5 Responsive Layouts"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/learn-flexbox-build-5-layouts.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-flexbox-build-5-layouts.html
 prev: /programming/css/articles/README.md
 date: 2021-03-30
 isOriginal: false
@@ -626,7 +626,7 @@ Suggestions and criticisms are highly appreciated ❤️ Do get in touch with me
 {
   "title": "Learn CSS Flexbox by Building 5 Responsive Layouts",
   "desc": "Here's a practical guide to help you learn CSS Flexbox in 2021 by building 5 responsive layouts. Let's dive right in.🥇 Table of Contents Flexbox Architecture Setup Level-1 Level-2 Level-3 Level-4 Level-5 Conclusion You can check out the Figma desi...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/learn-flexbox-build-5-layouts.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-flexbox-build-5-layouts.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

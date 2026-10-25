@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to Optimize Next.js Web Apps for Better Performance"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/optimize-nextjs-web-apps-for-better-performance.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/optimize-nextjs-web-apps-for-better-performance.html
 prev: /programming/js-next/articles/README.md
 date: 2025-01-02
 isOriginal: false
@@ -405,7 +405,7 @@ Want to connect with me?
 {
   "title": "How to Optimize Next.js Web Apps for Better Performance",
   "desc": "As engineers, we often get so carried away with other aspects of development that we overlook how users perceive and interact with our applications. This oversight can result in users leaving the app almost as soon as they arrive, leading to higher b...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/optimize-nextjs-web-apps-for-better-performance.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/optimize-nextjs-web-apps-for-better-performance.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

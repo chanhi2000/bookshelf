@@ -34,7 +34,7 @@ head:
     - property: og:description
       content: "How to Initialize the Chat System, Design Prompts, and Integrate Tools"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/build-a-local-rag-app-with-ollama-and-chromadb-in-r/how-to-initialize-the-chat-system-design-prompts-and-integrate-tools.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-a-local-rag-app-with-ollama-and-chromadb-in-r/how-to-initialize-the-chat-system-design-prompts-and-integrate-tools.html
 date: 2025-04-15
 isOriginal: false
 author:

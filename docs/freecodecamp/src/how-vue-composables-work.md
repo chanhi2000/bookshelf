@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How Vue Composables Work - Explained with Code Examples"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-vue-composables-work.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-vue-composables-work.html
 prev: /programming/js-vue/articles/README.md
 date: 2025-06-14
 isOriginal: false
@@ -413,7 +413,7 @@ For more real world examples you can check out the [<VPIcon icon="iconfont icon-
 {
   "title": "How Vue Composables Work - Explained with Code Examples",
   "desc": "Vue composables are a very helpful tool when developing Vue applications. They give developers an easy way to reuse logic across our applications. In addition to allowing for “stateless” logic (things like formatting or routine calculations), composa...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-vue-composables-work.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-vue-composables-work.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

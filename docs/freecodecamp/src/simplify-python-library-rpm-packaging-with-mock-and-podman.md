@@ -24,7 +24,7 @@ head:
     - property: og:description
       content: "How to Simplify Python Library RPM Packaging with Mock and Podman"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/simplify-python-library-rpm-packaging-with-mock-and-podman.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/simplify-python-library-rpm-packaging-with-mock-and-podman.html
 prev: /devops/docker/articles/README.md
 date: 2025-01-16
 isOriginal: false
@@ -508,7 +508,7 @@ As an added bonus, the fact than you can run it inside Podman gives you even mor
 {
   "title": "How to Simplify Python Library RPM Packaging with Mock and Podman",
   "desc": "Packaging libraries and applications written in Python comes with its challenges. And while virtual environments are great for controlling and standardizing installations, there are some scenarios where using them may not be the best. For example, sa...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/simplify-python-library-rpm-packaging-with-mock-and-podman.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/simplify-python-library-rpm-packaging-with-mock-and-podman.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

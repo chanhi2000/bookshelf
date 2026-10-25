@@ -26,7 +26,7 @@ head:
     - property: og:description
       content: "Learn Generative AI for Developers"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/learn-generative-ai-for-developers.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-generative-ai-for-developers.html
 prev: /ai/llm/articles/README.md
 date: 2024-11-01
 isOriginal: false
@@ -82,7 +82,7 @@ Watch the full course on [<VPIcon icon="fa-brands fa-youtube"/>the freeCodeCamp.
 {
   "title": "Learn Generative AI for Developers",
   "desc": "Generative AI is reshaping the landscape of artificial intelligence, allowing machines to create text, images, audio, and even answer questions in natural language. But understanding the entire end-to-end process can be complex without structured gui...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/learn-generative-ai-for-developers.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-generative-ai-for-developers.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "Fetch API - How to Make a GET Request and POST Request in JavaScript"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-make-api-calls-with-fetch.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-make-api-calls-with-fetch.html
 prev: /programming/js/articles/README.md
 date: 2021-06-03
 isOriginal: false
@@ -198,7 +198,7 @@ Thank you and see you soon.
 {
   "title": "Fetch API - How to Make a GET Request and POST Request in JavaScript",
   "desc": "By Kingsley Ubah Often times you might want your system to communicate with other web servers to get information. For example, let's say a new user wants to sign up for an account on your website. And instead of having to manually fill out a form to ...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-make-api-calls-with-fetch.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-make-api-calls-with-fetch.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

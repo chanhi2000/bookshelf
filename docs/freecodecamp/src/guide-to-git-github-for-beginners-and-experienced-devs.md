@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "How to Use Git and GitHub - a Guide for Beginners and Experienced Developers"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/guide-to-git-github-for-beginners-and-experienced-devs.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/guide-to-git-github-for-beginners-and-experienced-devs.html
 prev: /programming/git/articles/README.md
 date: 2024-04-06
 isOriginal: false
@@ -740,7 +740,7 @@ You can contact me on [X (<VPIcon icon="fa-brands fa-x-twitter"/>)](https://twit
 {
   "title": "How to Use Git and GitHub - a Guide for Beginners and Experienced Developers",
   "desc": "Welcome to Git and GitHub for Beginners! This comprehensive guide is tailored to help you navigate the world of version control and collaboration.  Whether you're a newbie just starting out or an experienced developer looking to brush up on your skil...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/guide-to-git-github-for-beginners-and-experienced-devs.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/guide-to-git-github-for-beginners-and-experienced-devs.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

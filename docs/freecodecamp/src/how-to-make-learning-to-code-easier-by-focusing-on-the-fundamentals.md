@@ -22,7 +22,7 @@ head:
     - property: og:description
       content: "How to Make Learning to Code Easier by Focusing on the Fundamentals"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-make-learning-to-code-easier-by-focusing-on-the-fundamentals.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-make-learning-to-code-easier-by-focusing-on-the-fundamentals.html
 prev: /academics/coen/articles/README.md
 date: 2025-01-03
 isOriginal: false
@@ -569,7 +569,7 @@ If you have any questions, feel free to find me on Twitter at [<VPIcon icon="fa-
 {
   "title": "How to Make Learning to Code Easier by Focusing on the Fundamentals",
   "desc": "It’s the beginning of the year again, and perhaps you’re still struggling to learn that programming language. We’ve all been there. Let me share a story from my own journey. In 2016, I thought I wasn’t cut out for programming. After months of trying ...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-make-learning-to-code-easier-by-focusing-on-the-fundamentals.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-make-learning-to-code-easier-by-focusing-on-the-fundamentals.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

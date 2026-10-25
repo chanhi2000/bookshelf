@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "Learn College Calculus and Implement with Python"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/learn-college-calculus-and-implement-with-python.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-college-calculus-and-implement-with-python.html
 prev: /academics/math/articles/README.md
 date: 2025-04-30
 isOriginal: false
@@ -121,7 +121,7 @@ Ready to bring math to life with code? Check out this comprehensive Calculus wit
 {
   "title": "Learn College Calculus and Implement with Python",
   "desc": "Calculus is one of the cornerstones of higher mathematics and a powerful tool for understanding change, motion, and growth across countless disciplines. But for many students, Calculus can seem intimidating or abstract. What if you could learn it ste...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/learn-college-calculus-and-implement-with-python.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-college-calculus-and-implement-with-python.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

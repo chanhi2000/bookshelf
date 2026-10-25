@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to Integrate Discord Webhooks with Next.js 15 - Example Project"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/integrate-discord-webhooks-with-nextjs-15-example-project.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/integrate-discord-webhooks-with-nextjs-15-example-project.html
 prev: /programming/js-next/articles/README.md
 date: 2025-01-21
 isOriginal: false
@@ -637,7 +637,7 @@ See you soon with my next article. Until then, please take care of yourself, and
 {
   "title": "How to Integrate Discord Webhooks with Next.js 15 - Example Project",
   "desc": "You’ve likely seen (or used) contact forms on websites that ask for customer feedback, potential work opportunities, customer contact info, and so on. But do you know what’s required to get all that feedback, contact info, and data sent to a private ...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/integrate-discord-webhooks-with-nextjs-15-example-project.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/integrate-discord-webhooks-with-nextjs-15-example-project.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

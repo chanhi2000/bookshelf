@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: "Git Diff and Patch - Full Handbook for Developers"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/git-diff-and-patch.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/git-diff-and-patch.html
 prev: /programming/git/articles/README.md
 date: 2023-02-22
 isOriginal: false
@@ -607,7 +607,7 @@ In future tutorials, you will use your knowledge from this post to dive into the
 {
   "title": "Git Diff and Patch - Full Handbook for Developers",
   "desc": "Many of the interesting processes in Git like merging, rebasing, or even committing are based on diffs and patches. Developers work with diffs all the time, whether using Git directly or relying on the IDE's diff view. In this post, you will learn wh...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/git-diff-and-patch.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/git-diff-and-patch.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

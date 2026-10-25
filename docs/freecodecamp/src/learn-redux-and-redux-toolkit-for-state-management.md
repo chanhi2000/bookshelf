@@ -26,7 +26,7 @@ head:
     - property: og:description
       content: "Learn Redux and Redux Toolkit for State Management"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/learn-redux-and-redux-toolkit-for-state-management.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-redux-and-redux-toolkit-for-state-management.html
 prev: /programming/js-react/articles/README.md
 date: 2024-11-21
 isOriginal: false
@@ -103,7 +103,7 @@ Watch the full course on [<VPIcon icon="fa-brands fa-youtube"/>the freeCodeCamp.
 {
   "title": "Learn Redux and Redux Toolkit for State Management",
   "desc": "State management is one of the most important aspects of building scalable and efficient React applications. Whether you're managing user interactions, API data, or application-wide settings, having a robust tool for handling state can save time and ...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/learn-redux-and-redux-toolkit-for-state-management.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-redux-and-redux-toolkit-for-state-management.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

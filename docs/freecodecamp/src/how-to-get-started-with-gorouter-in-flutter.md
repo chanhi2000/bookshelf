@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: "How to Get Started With GoRouter in Flutter"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-get-started-with-gorouter-in-flutter.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-get-started-with-gorouter-in-flutter.html
 prev: /programming/dart/articles/README.md
 date: 2025-09-04
 isOriginal: false
@@ -1628,7 +1628,7 @@ By following this comprehensive guide, you should now be well-equipped to integr
 {
   "title": "How to Get Started With GoRouter in Flutter",
   "desc": "Navigating between screens in Flutter is crucial for any app. And while the built-in Navigator API provides functionality, it can get complex for larger projects. This is where go_router shines, offering a more declarative, URL-based, and feature-ric...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-get-started-with-gorouter-in-flutter.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-get-started-with-gorouter-in-flutter.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

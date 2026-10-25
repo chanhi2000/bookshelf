@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "How to Build a Real-Time Intrusion Detection System with Python and Open-Source Libraries"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/build-a-real-time-intrusion-detection-system-with-python.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-a-real-time-intrusion-detection-system-with-python.html
 prev: /programming/py/articles/README.md
 date: 2025-01-21
 isOriginal: false
@@ -465,7 +465,7 @@ I hope you gained insights into network security fundamentals and learned how Py
 {
   "title": "How to Build a Real-Time Intrusion Detection System with Python and Open-Source Libraries",
   "desc": "An Intrusion Detection System (IDS) is like a security camera for your network. Just as security cameras help identify suspicious activities in the physical world, an IDS will monitor your network to help detect any potential cyber attacks and securi...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/build-a-real-time-intrusion-detection-system-with-python.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-a-real-time-intrusion-detection-system-with-python.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

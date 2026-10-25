@@ -24,7 +24,7 @@ head:
     - property: og:description
       content: "How to Deploy a Kubernetes App on AWS EKS"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-deploy-a-kubernetes-app-on-aws-eks.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-deploy-a-kubernetes-app-on-aws-eks.html
 prev: /devops/aws/articles/README.md
 date: 2025-08-22
 isOriginal: false
@@ -346,7 +346,7 @@ Thanks for reading!
 {
   "title": "How to Deploy a Kubernetes App on AWS EKS",
   "desc": "AWS makes it much easier to deploy containerized applications, and running Kubernetes in the cloud is a powerful way to scale and manage these applications. Among the many managed Kubernetes services AWS offers, Amazon EKS (Elastic Kubernetes Service...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-deploy-a-kubernetes-app-on-aws-eks.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-deploy-a-kubernetes-app-on-aws-eks.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

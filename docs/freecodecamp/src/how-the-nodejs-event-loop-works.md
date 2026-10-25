@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: "How the Node.js Event Loop Works"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-the-nodejs-event-loop-works.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-the-nodejs-event-loop-works.html
 prev: /programming/js-node/articles/README.md
 date: 2025-09-04
 isOriginal: false
@@ -238,7 +238,7 @@ In this article, you’ve learnt about synchronous and asynchronous code, concur
 {
   "title": "How the Node.js Event Loop Works",
   "desc": "The Node.js event loop is a concept that may seem difficult to understand at first. But as with any seemingly complex subject, the best way to understand it is often through an analogy. In this article, you’ll learn how overworked managers, busy wait...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-the-nodejs-event-loop-works.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-the-nodejs-event-loop-works.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

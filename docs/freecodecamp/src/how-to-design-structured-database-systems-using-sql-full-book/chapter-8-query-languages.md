@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "Chapter 8: Query Languages"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-design-structured-database-systems-using-sql-full-book/chapter-8-query-languages.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-design-structured-database-systems-using-sql-full-book/chapter-8-query-languages.html
 date: 2025-08-14
 isOriginal: false
 author:

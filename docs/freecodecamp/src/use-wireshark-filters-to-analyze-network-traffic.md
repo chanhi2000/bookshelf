@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to Use Wireshark Filters to Analyze Your Network Traffic"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/use-wireshark-filters-to-analyze-network-traffic.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/use-wireshark-filters-to-analyze-network-traffic.html
 prev: /devops/security/articles/README.md
 date: 2025-04-03
 isOriginal: false
@@ -505,7 +505,7 @@ To practice the operations from this tutorial, try the interactive hands-on lab:
 {
   "title": "How to Use Wireshark Filters to Analyze Your Network Traffic",
   "desc": "Wireshark is an open-source tool widely regarded as the gold standard for network packet analysis. It allows you to capture live network traffic or inspect pre-recorded capture files, breaking down the data into individual packets for detailed examin...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/use-wireshark-filters-to-analyze-network-traffic.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/use-wireshark-filters-to-analyze-network-traffic.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

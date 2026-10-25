@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: "What is CSS Subgrid? A Practical Tutorial"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/what-is-css-subgrid.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/what-is-css-subgrid.html
 prev: /programming/css/articles/README.md
 date: 2024-08-22
 isOriginal: false
@@ -379,7 +379,7 @@ Here are some helpful resources:
 {
   "title": "What is CSS Subgrid? A Practical Tutorial",
   "desc": "When designers create layouts in their mockups, everything including the content typically looks perfectly aligned and consistent. But in the real world, user-generated content varies wildly. For example, one testimonial card might have a brief sente...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/what-is-css-subgrid.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/what-is-css-subgrid.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

@@ -26,7 +26,7 @@ head:
     - property: og:description
       content: "Chapter 7: Sustainable Land Use Strategies with Agricultural Technology"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/ai-in-agriculture-book/chapter-7-sustainable-land-use-strategies-with-agricultural-technology.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/ai-in-agriculture-book/chapter-7-sustainable-land-use-strategies-with-agricultural-technology.html
 date: 2025-01-15
 isOriginal: false
 author:

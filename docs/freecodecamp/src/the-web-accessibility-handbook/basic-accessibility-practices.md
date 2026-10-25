@@ -16,7 +16,7 @@ head:
     - property: og:description
       content: "Basic Accessibility Practices"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/the-web-accessibility-handbook/basic-accessibility-practices.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/the-web-accessibility-handbook/basic-accessibility-practices.html
 date: 2025-03-19
 isOriginal: false
 author:

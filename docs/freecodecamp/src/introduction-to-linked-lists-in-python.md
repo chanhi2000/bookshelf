@@ -24,7 +24,7 @@ head:
     - property: og:description
       content: "Linked Lists in Python - Explained with Examples"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/introduction-to-linked-lists-in-python.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/introduction-to-linked-lists-in-python.html
 prev: /programming/py/articles/README.md
 date: 2022-09-23
 isOriginal: false
@@ -293,7 +293,7 @@ You can find the code for [this article here (<VPIcon icon="iconfont icon-github
 {
   "title": "Linked Lists in Python - Explained with Examples",
   "desc": "By Fakorede Damilola Different programming languages offer different ways to store and access data. Some of the data structures you can use are collections such as arrays, lists, maps, sets, and so on.  These all do an awesome job storing and accessi...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/introduction-to-linked-lists-in-python.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/introduction-to-linked-lists-in-python.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

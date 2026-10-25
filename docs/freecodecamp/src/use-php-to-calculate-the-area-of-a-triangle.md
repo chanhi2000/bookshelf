@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: "How to Write a PHP Script to Calculate the Area of a Triangle"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/use-php-to-calculate-the-area-of-a-triangle.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/use-php-to-calculate-the-area-of-a-triangle.html
 prev: /programming/php/articles/README.md
 date: 2025-06-20
 isOriginal: false
@@ -330,7 +330,7 @@ And I’ve written some other tutorials about math and programming:
 {
   "title": "How to Write a PHP Script to Calculate the Area of a Triangle",
   "desc": "In programming, being able to find the area of a triangle is useful for many reasons. It can help you understand logic-building and syntax, and it’s a common programming problem used in school assignments. There are also many real-world applications,...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/use-php-to-calculate-the-area-of-a-triangle.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/use-php-to-calculate-the-area-of-a-triangle.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: "ES6 Classes: Class Syntax - Prototypes in Disguise"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-use-classes-in-javascript-handbook/es6-classes-class-syntax-prototypes-in-disguise.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-use-classes-in-javascript-handbook/es6-classes-class-syntax-prototypes-in-disguise.html
 date: 2025-02-18
 isOriginal: false
 author:

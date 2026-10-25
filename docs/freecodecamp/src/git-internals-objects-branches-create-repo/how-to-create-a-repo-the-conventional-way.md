@@ -16,7 +16,7 @@ head:
     - property: og:description
       content: "How to Create a Repo — The Conventional Way"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/git-internals-objects-branches-create-repo/how-to-create-a-repo-the-conventional-way.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/git-internals-objects-branches-create-repo/how-to-create-a-repo-the-conventional-way.html
 date: 2020-12-15
 isOriginal: false
 author:

@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "How to Use Developer Tools to Debug JavaScript in the Browser"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-use-developer-tools-to-debug-javascript-in-the-browser.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-use-developer-tools-to-debug-javascript-in-the-browser.html
 prev: /programming/js/articles/README.md
 date: 2024-10-31
 isOriginal: false
@@ -297,7 +297,7 @@ Note that every modern browser has this JavaScript debugging tool built into it,
 {
   "title": "How to Use Developer Tools to Debug JavaScript in the Browser",
   "desc": "The console object is the number one go-to for developers when working with buggy JavaScript code. But if you still rely heavily on the console object alone to debug your JavaScript, then you're missing out on some amazing browser developer tools fea...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-use-developer-tools-to-debug-javascript-in-the-browser.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-use-developer-tools-to-debug-javascript-in-the-browser.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

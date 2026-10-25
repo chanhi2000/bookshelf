@@ -27,7 +27,7 @@ head:
     - property: og:description
       content: "Learn Tailwind CSS by Building a Responsive Product Card"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/learn-tailwind-css-by-building-a-responsive-product-card.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-tailwind-css-by-building-a-responsive-product-card.html
 prev: /programming/css-tailwind/articles/README.md
 date: 2024-10-11
 isOriginal: false
@@ -83,7 +83,7 @@ This course is perfect for anyone looking to sharpen their skills in Tailwind CS
 {
   "title": "Learn Tailwind CSS by Building a Responsive Product Card",
   "desc": "Are you looking to enhance your web design skills and create responsive websites more efficiently? Tailwind CSS, a utility-first CSS framework, has become a favorite among developers for its flexibility and speed in building modern web layouts. One o...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/learn-tailwind-css-by-building-a-responsive-product-card.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-tailwind-css-by-building-a-responsive-product-card.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

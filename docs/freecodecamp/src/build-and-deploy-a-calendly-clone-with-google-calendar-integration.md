@@ -30,7 +30,7 @@ head:
     - property: og:description
       content: "Build and Deploy a Calendly Clone with Google Calendar Integration"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/build-and-deploy-a-calendly-clone-with-google-calendar-integration.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-and-deploy-a-calendly-clone-with-google-calendar-integration.html
 prev: /programming/js-next/articles/README.md
 date: 2025-06-24
 isOriginal: false
@@ -147,7 +147,7 @@ If you’re serious about full-stack development, this is the kind of project th
 {
   "title": "Build and Deploy a Calendly Clone with Google Calendar Integration",
   "desc": "If you've ever found yourself drowning in back-and-forth scheduling emails or confused by time zone mix-ups, you’ve probably used (or wished for) a tool like Calendly. Now you can learn how to build your own version from scratch. This course is perfe...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/build-and-deploy-a-calendly-clone-with-google-calendar-integration.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-and-deploy-a-calendly-clone-with-google-calendar-integration.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

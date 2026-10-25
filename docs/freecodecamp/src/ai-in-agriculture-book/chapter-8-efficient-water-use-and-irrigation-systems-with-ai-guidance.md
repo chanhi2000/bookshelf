@@ -26,7 +26,7 @@ head:
     - property: og:description
       content: "Chapter 8: Efficient Water Use and Irrigation Systems with AI Guidance"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/ai-in-agriculture-book/chapter-8-efficient-water-use-and-irrigation-systems-with-ai-guidance.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/ai-in-agriculture-book/chapter-8-efficient-water-use-and-irrigation-systems-with-ai-guidance.html
 date: 2025-01-15
 isOriginal: false
 author:

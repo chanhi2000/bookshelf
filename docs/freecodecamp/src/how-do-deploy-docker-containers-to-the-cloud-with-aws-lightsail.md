@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "Docker Deployment Guide - How to Deploy Containers to the Cloud with AWS Lightsail"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-do-deploy-docker-containers-to-the-cloud-with-aws-lightsail.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-do-deploy-docker-containers-to-the-cloud-with-aws-lightsail.html
 prev: /devops/docker/articles/README.md
 date: 2021-02-10
 isOriginal: false
@@ -200,7 +200,7 @@ I’m Marcia Villalba, Developer Advocate for AWS and the host of a YouTube chan
 {
   "title": "Docker Deployment Guide - How to Deploy Containers to the Cloud with AWS Lightsail",
   "desc": "By Marcia Villalba Containers have become the de-facto way to develop applications nowadays. They provide a standard way to package all the dependencies that your application needs.  But how you deploy a containerized application to the cloud? The cl...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-do-deploy-docker-containers-to-the-cloud-with-aws-lightsail.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-do-deploy-docker-containers-to-the-cloud-with-aws-lightsail.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

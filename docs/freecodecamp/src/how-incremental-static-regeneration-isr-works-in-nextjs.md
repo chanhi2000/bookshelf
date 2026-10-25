@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How Incremental Static Regeneration (ISR) Works in Next.js"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-incremental-static-regeneration-isr-works-in-nextjs.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-incremental-static-regeneration-isr-works-in-nextjs.html
 prev: /programming/js-next/articles/README.md
 date: 2025-05-02
 isOriginal: false
@@ -434,7 +434,7 @@ If you use ISR wisely, you can build websites that are faster and smarter withou
 {
   "title": "How Incremental Static Regeneration (ISR) Works in Next.js",
   "desc": "When you build a website, you often have two main choices for how pages are created: statically or dynamically. Static pages are created once when you build your project. They’re fast because the server doesn’t have to do any extra work when someone ...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-incremental-static-regeneration-isr-works-in-nextjs.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-incremental-static-regeneration-isr-works-in-nextjs.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

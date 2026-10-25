@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "The Front-End Monitoring Handbook: Track Performance, Errors, and User Behavior"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/the-front-end-monitoring-handbook/
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/the-front-end-monitoring-handbook/
 prev: /articles/README.md
 date: 2025-06-03
 isOriginal: false
@@ -1657,7 +1657,7 @@ By following the approaches outlined in this article, you'll be well-equipped to
 {
   "title": "The Front-End Monitoring Handbook: Track Performance, Errors, and User Behavior",
   "desc": "A complete frontend monitoring system is essential for tracking application performance, errors, and user behavior. It consists of three main components: data collection and reporting, data processing and storage, and data visualization. This article...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/the-front-end-monitoring-handbook.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/the-front-end-monitoring-handbook.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

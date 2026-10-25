@@ -25,7 +25,7 @@ head:
     - property: og:description
       content: "How Attackers Steal Data from Websites (And How to Stop Them)"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-attackers-steal-data-from-websites-and-how-to-stop-them.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-attackers-steal-data-from-websites-and-how-to-stop-them.html
 prev: /devops/security/articles/README.md
 date: 2025-06-12
 isOriginal: false
@@ -723,7 +723,7 @@ Preventing damage to our business and ourselves means committing to careful onli
 {
   "title": "How Attackers Steal Data from Websites (And How to Stop Them)",
   "desc": "Across platforms, behind every app, and on your own website, hackers may patiently wait.  These days, everyone should have identity theft protections, and be informed about data threats lurking in the trenches of the world-wide-web’s war on privacy a...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-attackers-steal-data-from-websites-and-how-to-stop-them.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-attackers-steal-data-from-websites-and-how-to-stop-them.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: "How to Use TypeSpec for Documenting and Modeling APIs"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/use-typespec-for-documenting-and-modeling-apis.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/use-typespec-for-documenting-and-modeling-apis.html
 prev: /programming/js-node/articles/README.md
 date: 2025-04-12
 isOriginal: false
@@ -928,7 +928,7 @@ Thanks for reading. You can find me on [LinkedIn (<VPIcon icon="fa-brands fa-lin
 {
   "title": "How to Use TypeSpec for Documenting and Modeling APIs",
   "desc": "If you're curious and passionate about technology like I am, and you’re looking for clarity in your code, you've likely already experienced the limitations of conventional tools for documenting and modeling APIs. Tools such as Swagger, JSON Schema, o...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/use-typespec-for-documenting-and-modeling-apis.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/use-typespec-for-documenting-and-modeling-apis.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

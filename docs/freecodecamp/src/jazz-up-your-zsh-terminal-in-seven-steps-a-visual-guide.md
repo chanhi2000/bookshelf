@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "Jazz Up Your “ZSH” Terminal In Seven Steps - A Visual Guide"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/jazz-up-your-zsh-terminal-in-seven-steps-a-visual-guide.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/jazz-up-your-zsh-terminal-in-seven-steps-a-visual-guide.html
 prev: /programming/sh/articles/README.md
 date: 2018-03-13
 isOriginal: false
@@ -542,7 +542,7 @@ If you have questions, please feel free to ask me on [Twitter (<VPIcon icon="fa-
 {
   "title": "Jazz Up Your “ZSH” Terminal In Seven Steps - A Visual Guide",
   "desc": "By rajaraodv In this blog I’ll cover installing ITerm2, ZSH shell, “oh my ZSH”, Themes, ITerm2 color schemes, “oh my ZSH” plugins and enable “ligature” support to help create a beautiful and powerful Terminal. If you want to just make your regular B...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/jazz-up-your-zsh-terminal-in-seven-steps-a-visual-guide-e81a8fd59a38.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/jazz-up-your-zsh-terminal-in-seven-steps-a-visual-guide-e81a8fd59a38.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

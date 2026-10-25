@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "Thrown for a loop: understanding for loops and timeouts in JavaScript"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/thrown-for-a-loop-understanding-for-loops-and-timeouts-in-javascript.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/thrown-for-a-loop-understanding-for-loops-and-timeouts-in-javascript.html
 prev: /programming/js/articles/README.md
 date: 2018-04-02
 isOriginal: false
@@ -737,7 +737,7 @@ Thanks!
 {
   "title": "Thrown for a loop: understanding for loops and timeouts in JavaScript",
   "desc": "Often, JavaScript just works. And because it is written in human-readable syntax, certain things seem intuitive. But it’s easy to ignore what’s happening on a deeper level. Eventually, though, this lack of understanding results in an inability to sol...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/thrown-for-a-loop-understanding-for-loops-and-timeouts-in-javascript-558d8255d8a4.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/thrown-for-a-loop-understanding-for-loops-and-timeouts-in-javascript-558d8255d8a4.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

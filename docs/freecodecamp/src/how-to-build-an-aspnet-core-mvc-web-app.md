@@ -24,7 +24,7 @@ head:
     - property: og:description
       content: "How to Build an ASP.NET Core MVC Web App"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-build-an-aspnet-core-mvc-web-app.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-build-an-aspnet-core-mvc-web-app.html
 prev: /programming/cs/articles/README.md
 date: 2025-02-20
 isOriginal: false
@@ -93,7 +93,7 @@ Check out the full course on the [<VPIcon icon="fa-brands fa-youtube"/>freeCodeC
 {
   "title": "How to Build an ASP.NET Core MVC Web App",
   "desc": "Building modern web applications requires a solid understanding of both frontend and backend development. ASP.NET Core MVC is a powerful framework for creating full-stack web applications with clean architecture and maintainable code. Whether you're ...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-build-an-aspnet-core-mvc-web-app.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-build-an-aspnet-core-mvc-web-app.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

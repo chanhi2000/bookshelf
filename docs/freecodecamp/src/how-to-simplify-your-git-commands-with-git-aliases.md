@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: "How to Simplify Your Git Commands with Git Aliases"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-simplify-your-git-commands-with-git-aliases.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-simplify-your-git-commands-with-git-aliases.html
 prev: /programming/git/articles/README.md
 date: 2024-11-12
 isOriginal: false
@@ -297,7 +297,7 @@ As always if you want to chat about it, or hear about future articles you can fo
 {
   "title": "How to Simplify Your Git Commands with Git Aliases",
   "desc": "As a developer, you probably use the Git CLI (Command Line Interface) daily. However, writing the same old commands repeatedly can be laborious, especially when the commands are lengthy. This is where Git aliases come in to help out. In this article,...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-simplify-your-git-commands-with-git-aliases.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-simplify-your-git-commands-with-git-aliases.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

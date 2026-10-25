@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "OpenFeign vs WebClient: How to Choose a REST Client for Your Spring Boot Project"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/best-choice-openfeign-or-webclient.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/best-choice-openfeign-or-webclient.html
 prev: /programming/java-spring/articles/README.md
 date: 2025-06-06
 isOriginal: false
@@ -199,7 +199,7 @@ Understanding both tools, their pros and cons, is important to make the proper c
 {
   "title": "OpenFeign vs WebClient: How to Choose a REST Client for Your Spring Boot Project",
   "desc": "When building microservices with Spring Boot, you’ll have to decide how the services will communicate with one another. The basic choices in terms of protocols are Messaging and REST. In this article we’ll discuss tools based on REST, which is a comm...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/best-choice-openfeign-or-webclient.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/best-choice-openfeign-or-webclient.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

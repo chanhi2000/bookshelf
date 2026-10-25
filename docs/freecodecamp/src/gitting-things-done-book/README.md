@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: "Gitting Things Done - A Visual and Practical Guide to Git [Full Book]"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/gitting-things-done-book/
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/gitting-things-done-book/
 prev: /programming/git/articles/README.md
 date: 2024-01-09
 isOriginal: false
@@ -181,7 +181,7 @@ The most default diff algorithm in Git is Myers:
 {
   "title": "Gitting Things Done - A Visual and Practical Guide to Git [Full Book]",
   "desc": "Introduction Git is awesome. Most software developers use Git on a daily basis. But how many truly understand Git? Do you feel like you know what's going on under the hood as you use Git to perform various tasks? For example, what happens when you us...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/gitting-things-done-book.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/gitting-things-done-book.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

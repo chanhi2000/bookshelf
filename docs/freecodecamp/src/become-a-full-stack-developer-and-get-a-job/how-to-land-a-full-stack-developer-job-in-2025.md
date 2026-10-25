@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: "How to Land a Full Stack Developer Job in 2025"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/become-a-full-stack-developer-and-get-a-job/how-to-land-a-full-stack-developer-job-in-2025.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/become-a-full-stack-developer-and-get-a-job/how-to-land-a-full-stack-developer-job-in-2025.html
 next: /freecodecamp.org/become-a-full-stack-developer-and-get-a-job/README.md#q-a
 date: 2023-03-13
 isOriginal: false

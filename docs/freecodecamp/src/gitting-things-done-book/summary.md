@@ -16,7 +16,7 @@ head:
     - property: og:description
       content: Summary
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/gitting-things-done-book/summary.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/gitting-things-done-book/summary.html
 next: /freecodecamp.org/gitting-things-done-book/README.md#appendixes
 date: 2024-01-09
 isOriginal: false

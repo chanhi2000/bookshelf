@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How To Build A Simple Portfolio Blog With Next.js"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-build-a-simple-portfolio-blog-with-nextjs/
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-build-a-simple-portfolio-blog-with-nextjs/
 prev: /programming/js-next/articles/README.md
 date: 2025-05-30
 isOriginal: false
@@ -1024,7 +1024,7 @@ Also, [this is the codebase (<VPIcon icon="iconfont icon-github"/>`chidiadi01/si
 {
   "title": "How To Build A Simple Portfolio Blog With Next.js",
   "desc": "I have written articles on different platforms including LinkedIn, The Network Bits (Substack), and freeCodeCamp. So I wanted to bring all of these articles together in a single place where someone could go and see all my work. A blog sounded like a ...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-build-a-simple-portfolio-blog-with-nextjs.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-build-a-simple-portfolio-blog-with-nextjs.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

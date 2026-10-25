@@ -30,7 +30,7 @@ head:
     - property: og:description
       content: "Understanding Deep Learning Research Tutorial - Theory, Code, and Math"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/understanding-deep-learning-research-tutorial-theory-code-and-math.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/understanding-deep-learning-research-tutorial-theory-code-and-math.html
 prev: /ai/llm/articles/README.md
 date: 2025-01-17
 isOriginal: false
@@ -149,7 +149,7 @@ Check out the [<VPIcon icon="fa-brands fa-youtube"/>Deep Learning Research Tutor
 {
   "title": "Understanding Deep Learning Research Tutorial - Theory, Code, and Math",
   "desc": "Understanding deep learning research can often feel like unraveling a dense and intricate puzzle. From decoding mathematical notation to navigating complex code bases, the process can be daunting, especially for newcomers. But with the right guidance...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/understanding-deep-learning-research-tutorial-theory-code-and-math.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/understanding-deep-learning-research-tutorial-theory-code-and-math.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

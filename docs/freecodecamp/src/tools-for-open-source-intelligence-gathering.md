@@ -24,7 +24,7 @@ head:
     - property: og:description
       content: "Tools You Can Use for Open Source Intelligence (OSINT) Gathering"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/tools-for-open-source-intelligence-gathering.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/tools-for-open-source-intelligence-gathering.html
 prev: /devops/security/articles/README.md
 date: 2024-10-29
 isOriginal: false
@@ -230,7 +230,7 @@ For more tutorials on cybersecurity, [<VPIcon icon="fas fa-globe"/>**join our we
 {
   "title": "Tools You Can Use for Open Source Intelligence (OSINT) Gathering",
   "desc": "Welcome to the world of Open-Source Intelligence (OSINT). OSINT is all about gathering public information from various online sources. OSINT can come from social media, websites, search engines, and even public databases. You’d be surprised at how mu...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/tools-for-open-source-intelligence-gathering.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/tools-for-open-source-intelligence-gathering.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

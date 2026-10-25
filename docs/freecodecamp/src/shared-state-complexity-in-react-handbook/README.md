@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "Shared State Complexity in React - A Complete Handbook for Developers"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/shared-state-complexity-in-react-handbook.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/shared-state-complexity-in-react-handbook.html
 prev: /programming/ts/articles/README.md
 date: 2025-08-01
 isOriginal: false
@@ -4514,7 +4514,7 @@ By following these principles and patterns, you'll build React applications that
 {
   "title": "Shared State Complexity in React - A Complete Handbook for Developers",
   "desc": "Imagine you're building a simple shopping website. You have a product page where users can add items to their cart, and a header that displays the number of items in the cart. Sounds simple, right? But here's the challenge: how does the header know w...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/shared-state-complexity-in-react-handbook.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/shared-state-complexity-in-react-handbook.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

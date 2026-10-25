@@ -16,7 +16,7 @@ head:
     - property: og:description
       content: "Time For a More Advanced Case"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/the-definitive-guide-to-git-merge/time-for-a-more-advanced-case.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/the-definitive-guide-to-git-merge/time-for-a-more-advanced-case.html
 date: 2023-04-28
 isOriginal: false
 author:

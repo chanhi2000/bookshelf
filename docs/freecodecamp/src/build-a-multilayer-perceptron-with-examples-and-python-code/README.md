@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "Learn to Build a Multilayer Perceptron with Real-Life Examples and PythonCode"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/build-a-multilayer-perceptron-with-examples-and-python-code/
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-a-multilayer-perceptron-with-examples-and-python-code/
 prev: /programming/py/articles/README.md
 date: 2025-05-31
 isOriginal: false
@@ -1559,7 +1559,7 @@ You can find more info about me on my [<VPIcon icon="fas fa-globe"/>Portfolio](h
 {
   "title": "Learn to Build a Multilayer Perceptron with Real-Life Examples and PythonCode",
   "desc": "The perceptron is a fundamental concept in deep learning, with many algorithms stemming from its original design. In this tutorial, I’ll show you how to build both single layer and multi-layer perceptrons (MLPs) across three frameworks: Custom class...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/build-a-multilayer-perceptron-with-examples-and-python-code.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-a-multilayer-perceptron-with-examples-and-python-code.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

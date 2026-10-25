@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "How to Enforce Type Safety in FormData with TypeScript"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-enforce-type-safety-in-formdata-with-typescript.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-enforce-type-safety-in-formdata-with-typescript.html
 prev: /programming/ts/articles/README.md
 date: 2025-03-10
 isOriginal: false
@@ -213,7 +213,7 @@ Thanks for reading!
 {
   "title": "How to Enforce Type Safety in FormData with TypeScript",
   "desc": "When working with the FormData interface in JavaScript, where data is appended as key/value pairs, there's no built-in way to enforce type safety on the keys you append. This can lead to typos, missing keys, and unexpected runtime errors. But in Type...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-enforce-type-safety-in-formdata-with-typescript.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-enforce-type-safety-in-formdata-with-typescript.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

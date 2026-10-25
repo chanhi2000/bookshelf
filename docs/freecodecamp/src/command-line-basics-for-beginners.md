@@ -22,7 +22,7 @@ head:
       content: "Command Line Basics for Beginners"
     - property: og:url
       content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/command-line-basics-for-beginners.html
-prev: /articles/README.md
+prev: /programming/sh/articles/README.md
 date: 2026-07-01
 isOriginal: false
 author:
@@ -35,9 +35,9 @@ cover: https://cdn.hashnode.com/uploads/covers/5f68e7df6dfc523d0a894e7c/c456512e
 
 ```component VPCard
 {
-  "title": " > Article(s)",
+  "title": "Shell > Article(s)",
   "desc": "Article(s)",
-  "link": "/articles/README.md",
+  "link": "/programming/sh/articles/README.md",
   "logo": "/images/ico-wind.svg",
   "background": "rgba(10,10,10,0.2)"
 }

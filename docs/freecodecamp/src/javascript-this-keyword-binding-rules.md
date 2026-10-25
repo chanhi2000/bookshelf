@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "The JavaScript `this` Keyword + 5 Key Binding Rules Explained for JS Beginners"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/javascript-this-keyword-binding-rules.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/javascript-this-keyword-binding-rules.html
 prev: /programming/js/articles/README.md
 date: 2020-10-23
 isOriginal: false
@@ -401,7 +401,7 @@ If this article was useful, please share it so others can read it as well. You c
 {
   "title": "The JavaScript `this` Keyword + 5 Key Binding Rules Explained for JS Beginners",
   "desc": "JavaScript's this keyword is one of the hardest aspects of the language to grasp. But it is critically important for writing more advanced JavaScript code. In JavaScript, the this keyword allows us to: Reuse functions in different execution contexts...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/javascript-this-keyword-binding-rules.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/javascript-this-keyword-binding-rules.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

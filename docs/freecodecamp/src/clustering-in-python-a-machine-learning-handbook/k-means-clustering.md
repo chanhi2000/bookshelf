@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: "K-Means Clustering"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/clustering-in-python-a-machine-learning-handbook/k-means-clustering.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/clustering-in-python-a-machine-learning-handbook/k-means-clustering.html
 date: 2025-02-06
 isOriginal: false
 author:

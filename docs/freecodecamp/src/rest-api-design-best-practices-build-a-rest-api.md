@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: "REST API Design Best Practices Handbook - How to Build a REST API with JavaScript, Node.js, and Express.js"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/rest-api-design-best-practices-build-a-rest-api.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/rest-api-design-best-practices-build-a-rest-api.html
 prev: /programming/js-node/articles/README.md
 date: 2022-05-05
 isOriginal: false
@@ -2647,7 +2647,7 @@ See you next time!
 {
   "title": "REST API Design Best Practices Handbook - How to Build a REST API with JavaScript, Node.js, and Express.js",
   "desc": "By Jean-Marc Möckel I've created and consumed many API's over the past few years. During that time, I've come across good and bad practices and have experienced nasty situations when consuming and building API's. But there also have been great moment...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/rest-api-design-best-practices-build-a-rest-api.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/rest-api-design-best-practices-build-a-rest-api.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

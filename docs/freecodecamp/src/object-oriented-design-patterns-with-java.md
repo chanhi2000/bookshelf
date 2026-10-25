@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "Object-Oriented Design Patterns with Java"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/object-oriented-design-patterns-with-java.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/object-oriented-design-patterns-with-java.html
 prev: /programming/java/articles/README.md
 date: 2025-07-29
 isOriginal: false
@@ -272,7 +272,7 @@ If you'd like to support my work and help keep Playback Press free for all, cons
 {
   "title": "Object-Oriented Design Patterns with Java",
   "desc": "In this article I will introduce some of the most useful object-oriented design patterns. Design patterns are solutions to common problems that show up over and over again. These problems will show up in many different contexts but always have the sa...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/object-oriented-design-patterns-with-java.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/object-oriented-design-patterns-with-java.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

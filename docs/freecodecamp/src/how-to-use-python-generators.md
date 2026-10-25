@@ -18,7 +18,7 @@ head:
     - property: og:description`
       content: How to Use Python Generators - Explained With Code Examples
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-use-python-generators.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-use-python-generators.html
 prev: /programming/py/articles/README.md
 date: 2024-07-11
 isOriginal: false

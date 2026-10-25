@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "Arrays, Slices, and Maps in Go: a Quick Guide to Collection Types"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/arrays-slices-and-maps-in-go-a-quick-guide-to-collection-types.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/arrays-slices-and-maps-in-go-a-quick-guide-to-collection-types.html
 prev: /programming/go/articles/README.md
 date: 2025-09-06
 isOriginal: false
@@ -731,7 +731,7 @@ How it works:
 {
   "title": "Arrays, Slices, and Maps in Go: a Quick Guide to Collection Types",
   "desc": "Golang has a reputation for simplicity, and one reason is its small set of core data structures. Unlike some languages that offer lists, vectors, dictionaries, hashmaps, tuples, sets, and more, Go keeps things minimal. The three fundamental building ...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/arrays-slices-and-maps-in-go-a-quick-guide-to-collection-types.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/arrays-slices-and-maps-in-go-a-quick-guide-to-collection-types.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

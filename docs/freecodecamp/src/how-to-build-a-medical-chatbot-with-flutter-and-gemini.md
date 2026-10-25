@@ -31,7 +31,7 @@ head:
     - property: og:description
       content: "How to Build a Medical Chatbot with Flutter and Gemini: A Beginner’s Guide"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-build-a-medical-chatbot-with-flutter-and-gemini.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-build-a-medical-chatbot-with-flutter-and-gemini.html
 prev: /programming/dart/articles/README.md
 date: 2025-06-14
 isOriginal: false
@@ -431,7 +431,7 @@ Remember to always prioritize user safety and data privacy when developing AI so
 {
   "title": "How to Build a Medical Chatbot with Flutter and Gemini: A Beginner’s Guide",
   "desc": "In today's digital age, the demand for accessible and accurate health information is higher than ever. Leveraging the power of artificial intelligence, we can create intelligent chatbots that provide reliable health-related guidance. This beginner's ...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-build-a-medical-chatbot-with-flutter-and-gemini.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-build-a-medical-chatbot-with-flutter-and-gemini.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

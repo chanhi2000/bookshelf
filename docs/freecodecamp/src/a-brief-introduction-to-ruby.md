@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "A Brief Introduction to Ruby"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/a-brief-introduction-to-ruby.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/a-brief-introduction-to-ruby.html
 prev: /programming/rb/articles/README.md
 date: 2025-08-21
 isOriginal: false
@@ -198,7 +198,7 @@ If you’ve found this tutorial helpful, consider supporting my work through [Gi
 {
   "title": "A Brief Introduction to Ruby",
   "desc": "Ruby is a programming language designed with developer happiness in mind. Its elegant and intuitive syntax makes coding not only productive but also enjoyable. Ruby stands out with its powerful metaprogramming capabilities, allowing developers to tre...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/a-brief-introduction-to-ruby.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/a-brief-introduction-to-ruby.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

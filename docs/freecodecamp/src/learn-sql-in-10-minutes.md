@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: "SQL Commands Cheat Sheet - How to Learn SQL in 10 Minutes"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/learn-sql-in-10-minutes.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-sql-in-10-minutes.html
 prev: /data-science/articles/README.md
 date: 2021-11-24
 isOriginal: false
@@ -729,7 +729,7 @@ Be sure to [follow me on X (<VPIcon icon="fa-brands fa-x-twitter"/>`jasmcaus`)](
 {
   "title": "SQL Commands Cheat Sheet - How to Learn SQL in 10 Minutes",
   "desc": "By Jason Dsouza I’m an AI researcher, so one of the main things I deal with is data. A lot of it.  With more than 2.5 exabytes of data generated every day, it comes as no surprise that this data needs to be stored somewhere where we can access",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/learn-sql-in-10-minutes.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-sql-in-10-minutes.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

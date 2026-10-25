@@ -22,7 +22,7 @@ head:
     - property: og:description
       content: "The Cryptography Handbook: Exploring RSA PKCSv1.5, OAEP, and PSS"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/the-cryptography-handbook-rsa-algorithm/
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/the-cryptography-handbook-rsa-algorithm/
 prev: /devops/security/articles/README.md
 date: 2025-04-03
 isOriginal: false
@@ -291,7 +291,7 @@ For visual learners, the associated video may offer a more engaging experience.
 {
   "title": "The Cryptography Handbook: Exploring RSA PKCSv1.5, OAEP, and PSS",
   "desc": "The RSA algorithm was introduced in 1978 in the seminal paper, ”A Method for Obtaining Digital Signatures and Public-Key Cryptosystems”. Over the decades, as RSA became integral to secure communications, various vulnerabilities and attacks have emerg...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/the-cryptography-handbook-rsa-algorithm.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/the-cryptography-handbook-rsa-algorithm.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

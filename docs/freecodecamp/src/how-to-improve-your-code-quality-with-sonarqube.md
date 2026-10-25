@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: "How to Use SonarQube to Improve Your Code Quality"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-improve-your-code-quality-with-sonarqube.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-improve-your-code-quality-with-sonarqube.html
 prev: /devops/sonarqube/articles/README.md
 date: 2025-05-03
 isOriginal: false
@@ -252,7 +252,7 @@ This is a fantastic tool for keeping your code base clean and maintainable. As t
 {
   "title": "How to Use SonarQube to Improve Your Code Quality",
   "desc": "SonarQube is a powerful open-source tool that helps you maintain code quality and security by analyzing your codebase for bugs and vulnerabilities. And it can play a major role when integrated into your CI/CD pipeline. In this tutorial, we will cover...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-improve-your-code-quality-with-sonarqube.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-improve-your-code-quality-with-sonarqube.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

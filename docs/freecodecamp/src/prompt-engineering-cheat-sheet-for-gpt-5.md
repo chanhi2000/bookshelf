@@ -25,7 +25,7 @@ head:
     - property: og:description
       content: "Prompt Engineering Cheat Sheet for GPT-5: Learn These Patterns for Solid Code Generation"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/prompt-engineering-cheat-sheet-for-gpt-5.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/prompt-engineering-cheat-sheet-for-gpt-5.html
 prev: /articles/README.md
 date: 2025-09-12
 isOriginal: false
@@ -458,7 +458,7 @@ If you found this article helpful and want to discuss AI development, LLMs, or s
 {
   "title": "Prompt Engineering Cheat Sheet for GPT-5: Learn These Patterns for Solid Code Generation",
   "desc": "When large language models like ChatGPT first became widely available, a lot of us developers felt like we’d been handed a new superpower. We could use LLMs to help us develop new coding projects, build websites, and much more – just using a few prom...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/prompt-engineering-cheat-sheet-for-gpt-5.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/prompt-engineering-cheat-sheet-for-gpt-5.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

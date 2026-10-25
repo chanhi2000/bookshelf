@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: "How Loops Work in PHP: A Complete Guide for Beginners"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-loops-work-in-php-beginners-guide.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-loops-work-in-php-beginners-guide.html
 prev: /programming/php/articles/README.md
 date: 2025-06-19
 isOriginal: false
@@ -585,7 +585,7 @@ Now hopefully you understand how each [<VPIcon icon="fas fa-globe"/>PHP loop](ht
 {
   "title": "How Loops Work in PHP: A Complete Guide for Beginners",
   "desc": "PHP loops help you repeat a block of code based on a condition. You can use them to work through arrays or repeat actions. You can also use them to skip steps based on logic. In this article, you will learn how PHP loops work and when to use each",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-loops-work-in-php-beginners-guide.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-loops-work-in-php-beginners-guide.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

@@ -27,7 +27,7 @@ head:
     - property: og:description
       content: "How to Use the Stack Data Structure to Solve Coding Challenges"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/stack-data-structure-solve-coding-challenges.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/stack-data-structure-solve-coding-challenges.html
 prev: /programming/py/articles/README.md
 date: 2022-10-07
 isOriginal: false
@@ -119,7 +119,7 @@ Watch the full course below or on [<VPIcon icon="fa-brands fa-youtube"/>the free
 {
   "title": "How to Use the Stack Data Structure to Solve Coding Challenges",
   "desc": "The stack data structure is used frequently in programming, sometimes behind-the-scenes. And questions involving the stack data structure are very common in coding interviews. We just published a course on the freeCodeCamp.org YouTube channel that wi...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/stack-data-structure-solve-coding-challenges.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/stack-data-structure-solve-coding-challenges.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

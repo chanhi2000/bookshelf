@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "State Management in React - When and Where to use State"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/react-state-management.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/react-state-management.html
 prev: /programming/js-react/articles/README.md
 date: 2024-02-06
 isOriginal: false
@@ -289,7 +289,7 @@ React is an interesting user interface library, but can get confusing sometimes 
 {
   "title": "State Management in React - When and Where to use State",
   "desc": "State management is a crucial concept in React, which is one of the most popular JavaScript libraries in the world for building dynamic user interfaces.  Due to its importance in handling data, it is essential know how to manage state, when you need ...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/react-state-management.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/react-state-management.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: "GitReset Explained - How to Save the Day with the Reset Command"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/save-the-day-with-git-reset.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/save-the-day-with-git-reset.html
 prev: /programming/git/articles/README.md
 date: 2020-09-29
 isOriginal: false
@@ -313,7 +313,7 @@ In future posts, we will cover additional `git` commands and how they can help u
 {
   "title": "GitReset Explained - How to Save the Day with the Reset Command",
   "desc": "Does this sound familiar? “Help! I committed to the wrong branch!” “It happened again… Where is my commit?” Well, I’ve been there so many times. Someone calls my name for help when something goes wrong with git. And it has happened not only when I wa...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/save-the-day-with-git-reset.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/save-the-day-with-git-reset.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

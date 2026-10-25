@@ -33,7 +33,7 @@ head:
     - property: og:description
       content: "How to Build AI Speech-to-Text and Text-to-Speech Accessibility Tools with Python"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/build-ai-accessibility-tools-with-python.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-ai-accessibility-tools-with-python.html
 prev: /programming/py-numpy/articles/README.md
 date: 2025-09-02
 isOriginal: false
@@ -779,7 +779,7 @@ Inclusive education isn’t just a dream, it’s becoming a reality. With though
 {
   "title": "How to Build AI Speech-to-Text and Text-to-Speech Accessibility Tools with Python",
   "desc": "Classrooms today are more diverse than ever before. Among the students are neurodiverse learners with different learning needs. While these learners bring unique strengths, traditional teaching methods don’t always meet their needs. This is where AI-...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/build-ai-accessibility-tools-with-python.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-ai-accessibility-tools-with-python.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

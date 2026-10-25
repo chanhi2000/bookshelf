@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How Does the Morgan Express Middleware Library Work? Explained with Code Examples"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-does-the-morgan-library-work.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-does-the-morgan-library-work.html
 prev: /programming/js-express/articles/README.md
 date: 2025-09-30
 isOriginal: false
@@ -306,7 +306,7 @@ If you have any questions, you can connect with me on [LinkedIn (<VPIcon icon="f
 {
   "title": "How Does the Morgan Express Middleware Library Work? Explained with Code Examples",
   "desc": "Morgan is an Express middleware library that examines HTTP requests and logs details of the request to an output. It is one of the most popular Express middleware libraries with over 8,000 GitHub stars and more than 9,000 npm libraries dependent on i...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-does-the-morgan-library-work.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-does-the-morgan-library-work.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

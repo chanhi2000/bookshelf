@@ -25,7 +25,7 @@ head:
     - property: og:description
       content: "How to Build a MERN Stack To-Do App"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-build-a-mern-stack-to-do-app.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-build-a-mern-stack-to-do-app.html
 prev: /programming/js-react/articles/README.md
 date: 2025-03-05
 isOriginal: false
@@ -1035,7 +1035,7 @@ For more learning resources:
 {
   "title": "How to Build a MERN Stack To-Do App",
   "desc": "This guide will walk you through building a full-stack MERN To-Do application. It covers setting up the environment, writing code to demonstrate core CRUD (Create, Read, Update, Delete) operations, and connecting the application to MongoDB Atlas, a f...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-build-a-mern-stack-to-do-app.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-build-a-mern-stack-to-do-app.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

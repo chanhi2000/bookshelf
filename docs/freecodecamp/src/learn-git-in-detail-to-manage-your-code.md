@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: "Learn Git in Detail to Manage Your Code"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/learn-git-in-detail-to-manage-your-code.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-git-in-detail-to-manage-your-code.html
 prev: /programming/git/articles/README.md
 date: 2024-05-08
 isOriginal: false
@@ -98,7 +98,7 @@ Watch the full course on [<VPIcon icon="fa-brands fa-youtube"/>the freeCodeCamp.
 {
   "title": "Learn Git in Detail to Manage Your Code",
   "desc": "Version control is an essential skill for anyone involved in software development, from solo hobbyists to professional developers working in large teams. Understanding how to effectively manage changes and collaborate on code is critical, and Git is ...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/learn-git-in-detail-to-manage-your-code.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-git-in-detail-to-manage-your-code.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

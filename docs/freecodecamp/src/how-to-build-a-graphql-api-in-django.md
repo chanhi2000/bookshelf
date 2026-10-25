@@ -25,7 +25,7 @@ head:
     - property: og:description
       content: "How to Build a GraphQL API in Django"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-build-a-graphql-api-in-django.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-build-a-graphql-api-in-django.html
 prev: /programming/py-django/articles/README.md
 date: 2025-04-16
 isOriginal: false
@@ -479,7 +479,7 @@ If you’ve been using Django for a while and want to give your API a little mor
 {
   "title": "How to Build a GraphQL API in Django",
   "desc": "If you're building an app with Django and thinking about using GraphQL, you're not alone. REST has been the go-to for years, but GraphQL is quickly becoming a favourite option for developers who want more flexibility and less back-and-forth between f...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-build-a-graphql-api-in-django.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-build-a-graphql-api-in-django.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

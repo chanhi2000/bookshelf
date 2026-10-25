@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "How to Automate API Documentation Updates with GitHub Actions and OpenAPI Specifications"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-automate-api-documentation-updates-with-github-actions-and-openapi-specifications.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-automate-api-documentation-updates-with-github-actions-and-openapi-specifications.html
 prev: /devops/github/articles/README.md
 date: 2025-09-09
 isOriginal: false
@@ -76,7 +76,7 @@ This tutorial walks you through a working example of how to use GitHub Actions t
 {
   "title": "Gitting Things Done - A Visual and Practical Guide to Git [Full Book]",
   "desc": "Introduction Git is awesome. Most software developers use Git on a daily basis. But how many truly understand Git? Do you feel like you know what's going on under the hood as you use Git to perform various tasks? For example, what happens when you us...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/gitting-things-done-book.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/gitting-things-done-book.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }
@@ -564,7 +564,7 @@ With this workflow, your documentation stays accurate, up-to-date, and hassle-fr
 {
   "title": "How to Automate API Documentation Updates with GitHub Actions and OpenAPI Specifications",
   "desc": "Maintaining up-to-date API documentation is often one of the biggest pain points for developers and teams. Too often, the API spec changes but the docs lag behind, leaving developers with outdated or inconsistent information. This frustrates consumer...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-automate-api-documentation-updates-with-github-actions-and-openapi-specifications.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-automate-api-documentation-updates-with-github-actions-and-openapi-specifications.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: How to Use Variables and Data Types in JavaScript - Explained With Code Examples
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-use-variables-and-data-types-in-javascript.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-use-variables-and-data-types-in-javascript.html
 prev: /programming/js/articles/README.md
 date: 2024-08-19
 isOriginal: false

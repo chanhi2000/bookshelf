@@ -26,7 +26,7 @@ head:
     - property: og:description
       content: "How to Build a Simple Secure Chat System Using Netcat"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/build-a-simple-secure-chat-system-with-netcat.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-a-simple-secure-chat-system-with-netcat.html
 prev: /devops/security/articles/README.md
 date: 2024-10-24
 isOriginal: false
@@ -476,7 +476,7 @@ Now that you've learned the basics of Netcat and built a secure chat system, let
 {
   "title": "How to Build a Simple Secure Chat System Using Netcat",
   "desc": "In this hands-on tutorial, you'll learn how to harness the power of Netcat to build practical networking tools. We’ll start with basic message transmission. Then you'll progress to creating a file transfer system, and you’ll ultimately develop a secu...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/build-a-simple-secure-chat-system-with-netcat.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-a-simple-secure-chat-system-with-netcat.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

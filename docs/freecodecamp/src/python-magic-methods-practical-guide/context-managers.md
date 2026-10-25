@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: "Context Managers"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/python-magic-methods-practical-guide/context-managers.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/python-magic-methods-practical-guide/context-managers.html
 date: 2025-03-21
 isOriginal: false
 author:

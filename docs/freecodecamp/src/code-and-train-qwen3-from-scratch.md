@@ -28,7 +28,7 @@ head:
     - property: og:description
       content: "Code and Train Qwen3 from Scratch"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/code-and-train-qwen3-from-scratch.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/code-and-train-qwen3-from-scratch.html
 prev: /ai/qwen/articles/README.md
 date: 2025-08-19
 isOriginal: false
@@ -98,7 +98,7 @@ Watch the full course [<VPIcon icon="fa-brands fa-youtube"/>on the freeCodeCamp.
 {
   "title": "Code and Train Qwen3 from Scratch",
   "desc": "Qwen3 is the cutting-edge series of large language models developed by Alibaba Cloud's Qwen team. The LLM is known for its advanced reasoning, multilingual support, and efficient hybrid ”Thinking” and ”Non-Thinking” modes. We just posted a course on ...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/code-and-train-qwen3-from-scratch.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/code-and-train-qwen3-from-scratch.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

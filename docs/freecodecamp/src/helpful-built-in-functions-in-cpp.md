@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: "Helpful Built-in Functions in C++ that All Devs Should Know"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/helpful-built-in-functions-in-cpp.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/helpful-built-in-functions-in-cpp.html
 prev: /programming/cpp/articles/README.md
 date: 2025-07-23
 isOriginal: false
@@ -638,7 +638,7 @@ And I’ve written some other tutorials about math and programming:
 {
   "title": "Helpful Built-in Functions in C++ that All Devs Should Know",
   "desc": "Built-in functions in C++ are those functions that are part of the C++ standard libraries. These functions are designed to provide common and essential functionality that is often required in programming. In this article, we will look at some of the ...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/helpful-built-in-functions-in-cpp.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/helpful-built-in-functions-in-cpp.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

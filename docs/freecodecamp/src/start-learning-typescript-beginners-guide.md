@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "How to Start Learning TypeScript - A Beginner's Guide"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/start-learning-typescript-beginners-guide.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/start-learning-typescript-beginners-guide.html
 prev: /programming/ts/articles/README.md
 date: 2025-01-24
 isOriginal: false
@@ -848,7 +848,7 @@ Keep pushing your boundaries and dive deeper into the world of TypeScript. 😉
 {
   "title": "How to Start Learning TypeScript - A Beginner's Guide",
   "desc": "JavaScript is the most widely-used programming language for web development. But it lacks type-checking support, which is an essential feature of modern programming languages. JavaScript was originally designed as a simple scripting language. Its loo...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/start-learning-typescript-beginners-guide.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/start-learning-typescript-beginners-guide.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

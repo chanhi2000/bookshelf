@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to Set Up Social Authentication with Strapi and Nuxt.js"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-set-up-social-authentication-with-strapi-and-nuxtjs.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-set-up-social-authentication-with-strapi-and-nuxtjs.html
 prev: /programming/js-nuxt/articles/README.md
 date: 2025-01-15
 isOriginal: false
@@ -513,7 +513,7 @@ Thanks for reading!
 {
   "title": "How to Set Up Social Authentication with Strapi and Nuxt.js",
   "desc": "Enhancing security is a critical aspect of every development process. But it’s crucial to make your apps accessible for users signing up for the application. So, creating a seamless experience for users while they sign up and maintaining security thr...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-set-up-social-authentication-with-strapi-and-nuxtjs.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-set-up-social-authentication-with-strapi-and-nuxtjs.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

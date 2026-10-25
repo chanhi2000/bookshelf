@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: "Object-Oriented Programming in Java - A Beginner's Guide"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/object-oriented-programming-concepts-java.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/object-oriented-programming-concepts-java.html
 prev: /programming/java/articles/README.md
 date: 2022-04-19
 isOriginal: false
@@ -815,7 +815,7 @@ Thanks for reading and happy learning!
 {
   "title": "Object-Oriented Programming in Java - A Beginner's Guide",
   "desc": "By Patrick Cyubahiro Hi, folks! Today we are going to talk about object-oriented programming in Java. This article will help give you a thorough understanding of the underlying principles of object-oriented programming and its concepts.  Once you und...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/object-oriented-programming-concepts-java.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/object-oriented-programming-concepts-java.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

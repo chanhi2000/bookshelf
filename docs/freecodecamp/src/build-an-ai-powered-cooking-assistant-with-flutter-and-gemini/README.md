@@ -30,7 +30,7 @@ head:
     - property: og:description
       content: "How to Build an AI-Powered Cooking Assistant with Flutter and Gemini"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/build-an-ai-powered-cooking-assistant-with-flutter-and-gemini/
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-an-ai-powered-cooking-assistant-with-flutter-and-gemini/
 prev: /programming/dart/articles/README.md
 date: 2025-05-30
 isOriginal: false
@@ -329,7 +329,7 @@ Google Cloud's machine learning platform.
 {
   "title": "How to Build an AI-Powered Cooking Assistant with Flutter and Gemini",
   "desc": "After soaking in everything shared at GoogleIO, I can’t lie - I feel supercharged! From What’s New in Flutter to Building Agentic Apps with Flutter and Firebase AI Logic, and the deep dive into How Flutter Makes the Most of Your Platforms, it felt li...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/build-an-ai-powered-cooking-assistant-with-flutter-and-gemini.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-an-ai-powered-cooking-assistant-with-flutter-and-gemini.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

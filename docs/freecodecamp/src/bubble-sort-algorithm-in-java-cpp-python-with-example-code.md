@@ -29,7 +29,7 @@ head:
     - property: og:description
       content: "Bubble Sort - Algorithm in Java, C++, Python with Example Code"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/bubble-sort-algorithm-in-java-cpp-python-with-example-code.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/bubble-sort-algorithm-in-java-cpp-python-with-example-code.html
 prev: /academics/coen/articles/README.md
 date: 2022-09-30
 isOriginal: false
@@ -358,7 +358,7 @@ Thank you for reading.
 {
   "title": "Bubble Sort - Algorithm in Java, C++, Python with Example Code",
   "desc": "Bubble sort is a type of sorting algorithm you can use to arrange a set of values in ascending order. If you want, you can also implement bubble sort to sort the values in descending order. A real-world example of a bubble sort algorithm is how the c...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/bubble-sort-algorithm-in-java-cpp-python-with-example-code.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/bubble-sort-algorithm-in-java-cpp-python-with-example-code.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: "Server-Sent Events vs WebSockets - How to Choose a Real-Time Data Exchange Protocol"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/server-sent-events-vs-websockets.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/server-sent-events-vs-websockets.html
 prev: /programming/js-node/articles/README.md
 date: 2025-01-04
 isOriginal: false
@@ -741,7 +741,7 @@ Happy coding, and keep learning!
 {
   "title": "Server-Sent Events vs WebSockets - How to Choose a Real-Time Data Exchange Protocol",
   "desc": "In our fast-paced digital era, real-time data exchange has become critical in creating responsive and dynamic user experiences. It’s especially important in applications like live news updates, chat systems, AI generative platforms, and so on. In thi...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/server-sent-events-vs-websockets.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/server-sent-events-vs-websockets.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

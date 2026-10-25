@@ -22,7 +22,7 @@ head:
     - property: og:description
       content: "2: Build Your Custom Permissions Validation Framework"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-build-scalable-access-control-for-your-web-app/2-build-your-custom-permissions-validation-framework.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-build-scalable-access-control-for-your-web-app/2-build-your-custom-permissions-validation-framework.html
 date: 2025-02-05
 isOriginal: false
 author:

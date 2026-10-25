@@ -24,7 +24,7 @@ head:
     - property: og:description
       content: "JavaScript vs C#: How to Choose the Right Language as a Beginner"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/choose-the-right-language-js-vs-c-sharp.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/choose-the-right-language-js-vs-c-sharp.html
 prev: /programming/js/articles/README.md
 date: 2025-08-07
 isOriginal: false
@@ -180,7 +180,7 @@ You don’t have to choose forever. Many developers learn both. Start with one, 
 {
   "title": "JavaScript vs C#: How to Choose the Right Language as a Beginner",
   "desc": "If you're just starting your coding journey or trying to pick your next language, two names you’ll often hear — among others — are JavaScript and C#. Both are powerful, widely used, and respected in the software world. But they serve different purpos...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/choose-the-right-language-js-vs-c-sharp.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/choose-the-right-language-js-vs-c-sharp.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

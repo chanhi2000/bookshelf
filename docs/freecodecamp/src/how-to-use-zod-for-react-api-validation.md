@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to Use Zod for React API Validation"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-use-zod-for-react-api-validation.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-use-zod-for-react-api-validation.html
 prev: /programming/js-react/articles/README.md
 date: 2025-03-01
 isOriginal: false
@@ -404,7 +404,7 @@ Zod empowers you to catch mismatched data early on, preventing errors and saving
 {
   "title": "How to Use Zod for React API Validation",
   "desc": "In React applications, handling API (Application Programming Interface) responses can be challenging. You might encounter data that’s missing crucial fields, that’s formatted unexpectedly, or that simply doesn’t match what you anticipated. This incon...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-use-zod-for-react-api-validation.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-use-zod-for-react-api-validation.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

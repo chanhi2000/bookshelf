@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: "The Git Merge Handbook - Definitive Guide to Merging in Git"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/the-definitive-guide-to-git-merge/
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/the-definitive-guide-to-git-merge/
 prev: /programming/git/articles/README.md
 date: 2023-04-28
 isOriginal: false
@@ -286,7 +286,7 @@ There is much more to be said about merges - different merge strategies, recursi
 {
   "title": "The Git Merge Handbook - Definitive Guide to Merging in Git",
   "desc": "By reading this post, you are going to really understand git merge, one of the most common operations you'll perform in your Git repositories. Notes before we start I also created two videos covering the contents of this post. If you wish to watch a...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/the-definitive-guide-to-git-merge/",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/the-definitive-guide-to-git-merge/",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

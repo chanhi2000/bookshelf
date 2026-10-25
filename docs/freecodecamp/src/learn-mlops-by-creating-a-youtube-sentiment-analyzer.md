@@ -26,7 +26,7 @@ head:
     - property: og:description
       content: "Learn MLOps by Creating a YouTube Sentiment Analyzer"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/learn-mlops-by-creating-a-youtube-sentiment-analyzer.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-mlops-by-creating-a-youtube-sentiment-analyzer.html
 prev: /programming/py/articles/README.md
 date: 2025-06-15
 isOriginal: false
@@ -99,7 +99,7 @@ You can [watch the full course on the freeCodeCamp.org YouTube channel](https://
 {
   "title": "Learn MLOps by Creating a YouTube Sentiment Analyzer",
   "desc": "If you’re serious about machine learning and want to break into real-world ML engineering, learning MLOps is one of the best things you can do. It’s what turns experiments into reliable systems. You can train a great model, but without the right pipe...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/learn-mlops-by-creating-a-youtube-sentiment-analyzer.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-mlops-by-creating-a-youtube-sentiment-analyzer.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

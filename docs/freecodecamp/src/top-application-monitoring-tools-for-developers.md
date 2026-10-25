@@ -26,7 +26,7 @@ head:
     - property: og:description
       content: "Top Application Monitoring Tools for Developers"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/top-application-monitoring-tools-for-developers.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/top-application-monitoring-tools-for-developers.html
 prev: /devops/articles/README.md
 date: 2025-07-03
 isOriginal: false
@@ -241,7 +241,7 @@ Hope you found this article useful. [Get in touch with me (<VPIcon icon="fa-bran
 {
   "title": "Top Application Monitoring Tools for Developers",
   "desc": "If your app runs in production, you’ll need to know when it breaks. Preferably before your users tell you.  That’s where application monitoring tools (APM) come in. They show you what’s working, what’s slow, and what’s failing, all in one place. Here...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/top-application-monitoring-tools-for-developers.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/top-application-monitoring-tools-for-developers.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

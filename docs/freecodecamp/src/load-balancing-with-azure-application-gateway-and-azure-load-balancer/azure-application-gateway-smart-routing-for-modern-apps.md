@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: "🍴 Azure Application Gateway - Smart Routing for Modern Apps"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/load-balancing-with-azure-application-gateway-and-azure-load-balancer/azure-application-gateway-smart-routing-for-modern-apps.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/load-balancing-with-azure-application-gateway-and-azure-load-balancer/azure-application-gateway-smart-routing-for-modern-apps.html
 date: 2025-05-15
 isOriginal: false
 author:

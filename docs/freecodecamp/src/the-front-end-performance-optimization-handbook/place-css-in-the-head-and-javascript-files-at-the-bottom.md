@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: "Place CSS in the Head and JavaScript Files at the Bottom"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/the-front-end-performance-optimization-handbook/place-css-in-the-head-and-javascript-files-at-the-bottom.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/the-front-end-performance-optimization-handbook/place-css-in-the-head-and-javascript-files-at-the-bottom.html
 date: 2025-05-07
 isOriginal: false
 author:

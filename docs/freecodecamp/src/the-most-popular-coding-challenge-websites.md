@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "The Most Popular Coding Challenge Websites"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/the-most-popular-coding-challenge-websites.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/the-most-popular-coding-challenge-websites.html
 prev: /academics/coen/articles/README.md
 date: 2022-06-16
 isOriginal: false
@@ -637,7 +637,7 @@ Thanks a bunch!
 {
   "title": "The Most Popular Coding Challenge Websites",
   "desc": "If you want to improve your analytical skills, there's no better way to do that than solving problems.  If you are a programmer, then this is something you should do for yourself. Programmers need to deal with all sorts of problems almost every day. ...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/the-most-popular-coding-challenge-websites.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/the-most-popular-coding-challenge-websites.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

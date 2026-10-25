@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: "What to Do If You Don't Get into Outreachy: Exploring Other Paths to Open Source"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/what-to-do-if-you-dont-get-into-outreachy.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/what-to-do-if-you-dont-get-into-outreachy.html
 prev: /projects/career/articles/README.md
 date: 2024-12-19
 isOriginal: false
@@ -196,7 +196,7 @@ If you haven’t gotten into Outreachy, take a moment to regroup and then try ag
 {
   "title": "What to Do If You Don't Get into Outreachy: Exploring Other Paths to Open Source",
   "desc": "Did you apply to Outreachy and receive a “Your Initial Application Was Not Successful” email? Or maybe you got into the contribution stage but after a rigorous month of contribution, you were not selected as an intern. How disheartening that can be! ...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/what-to-do-if-you-dont-get-into-outreachy.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/what-to-do-if-you-dont-get-into-outreachy.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

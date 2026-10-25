@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "The Birth of the RSA Cryptosystem"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/the-cryptography-handbook-rsa-algorithm/the-birth-of-the-rsa-cryptosystem.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/the-cryptography-handbook-rsa-algorithm/the-birth-of-the-rsa-cryptosystem.html
 date: 2025-04-03
 isOriginal: false
 author:

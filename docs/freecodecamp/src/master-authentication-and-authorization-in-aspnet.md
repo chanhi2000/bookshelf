@@ -24,7 +24,7 @@ head:
     - property: og:description
       content: "Master Authentication and Authorization in ASP.NET"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/master-authentication-and-authorization-in-aspnet.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/master-authentication-and-authorization-in-aspnet.html
 prev: /programming/cs/articles/README.md
 date: 2025-09-19
 isOriginal: false
@@ -83,7 +83,7 @@ Watch the full course on [<VPIcon icon="fa-brands fa-youtube"/>the freeCodeCamp.
 {
   "title": "Master Authentication and Authorization in ASP.NET",
   "desc": "Securing modern web applications is an important skill for any developer, and a foundational part of this is understanding how to manage user access. We just posted new course on the freeCodeCamp.org that will teach you about authentication and autho...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/master-authentication-and-authorization-in-aspnet.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/master-authentication-and-authorization-in-aspnet.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

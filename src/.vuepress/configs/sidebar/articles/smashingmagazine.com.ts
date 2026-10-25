@@ -165,8 +165,10 @@ const Y2016: SidebarYeargroupTemplate = {
     "automating-art-direction-with-the-responsive-image-breakpoints-generator", // 2016-09-29
     "responsive-images-done-right-guide-picture-srcset", // 2016-09-01
     "battling-bem-extended-edition-common-problems-and-how-to-avoid-them", // 2016-06-01
+    "an-ultimate-guide-to-css-pseudo-classes-and-pseudo-elements", // 2016-05-03
     "preload-what-is-it-good-for", // 2016-02-26
     "getting-ready-for-http2", // 2016-02-16
+    "variables-in-css-architecture", // 2016-01-13
   ],
 }
 
@@ -199,6 +201,7 @@ const Y2013: SidebarYeargroupTemplate = {
     "challenging-css-best-practices-atomic-approach", // 2013-10-21
     "semantic-css-with-intelligent-selectors", // 2013-08-20
     "other-interface-atomic-design-sass", // 2013-08-02
+    "centering-elements-with-flexbox", // 2013-05-22
     "the-history-of-the-bem-methodolog", // 2013-02-21
     "the-importance-of-sections", // 2013-01-18
     "off-canvas-navigation-for-responsive-website", // 2013-01-15
@@ -229,6 +232,7 @@ const Y2011: SidebarYeargroupTemplate = {
     "an-introduction-to-object-oriented-css-oocss", // 2011-12-12
     "sisyphus-js-client-side-drafts-and-more", // 2011-12-05
     "html5-semantics", // 2011-11-18
+    "prefixfree-break-free-from-css-prefix-hell", // 2011-10-12
   ],
 }
 
@@ -420,6 +424,7 @@ export const template: SidebarInfoTemplate = {
       // END: 2009css
       "when-one-word-is-more-meaningful-than-a-thousand", // 2010-07-14
       // END: 2010css
+      "prefixfree-break-free-from-css-prefix-hell", // 2011-10-12
       "html5-semantics", // 2011-11-18
       "an-introduction-to-object-oriented-css-oocss", // 2011-12-12
       // END: 2011css
@@ -432,6 +437,7 @@ export const template: SidebarInfoTemplate = {
       "off-canvas-navigation-for-responsive-website", // 2013-01-15
       "the-importance-of-sections", // 2013-01-18
       "the-history-of-the-bem-methodolog", // 2013-02-21
+      "centering-elements-with-flexbox", // 2013-05-22
       "other-interface-atomic-design-sass", // 2013-08-02
       "semantic-css-with-intelligent-selectors", // 2013-08-20
       "challenging-css-best-practices-atomic-approach", // 2013-10-21
@@ -443,8 +449,10 @@ export const template: SidebarInfoTemplate = {
       "understanding-critical-css", // 2015-08-13
       "getting-started-css-calc-techniques", // 2015-12-03
       // END: 2015css
+      "variables-in-css-architecture", // 2016-01-13
       "getting-ready-for-http2", // 2016-02-16
       "preload-what-is-it-good-for", // 2016-02-26
+      "an-ultimate-guide-to-css-pseudo-classes-and-pseudo-elements", // 2016-05-03
       "battling-bem-extended-edition-common-problems-and-how-to-avoid-them", // 2016-06-01
       "automating-art-direction-with-the-responsive-image-breakpoints-generator", // 2016-09-29
       // END: 2016css

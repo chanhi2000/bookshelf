@@ -31,7 +31,7 @@ head:
     - property: og:description
       content: "How to Build Production-Ready Full Stack Apps with the MERN Stack"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-build-production-ready-full-stack-apps-with-the-mern-stack/
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-build-production-ready-full-stack-apps-with-the-mern-stack/
 prev: /programming/js-react/articles/README.md
 date: 2025-07-07
 isOriginal: false
@@ -1482,7 +1482,7 @@ Remember, continuous learning and adaptation are key in the ever-evolving world 
 {
   "title": "How to Build Production-Ready Full Stack Apps with the MERN Stack",
   "desc": "As developers, we’re always looking for more efficient tools. The MERN stack (MongoDB, Express.js, React, and Node.js) stands out for its JavaScript-centric nature, offering a unified language across the entire application. In this guide, you'll buil...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-build-production-ready-full-stack-apps-with-the-mern-stack.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-build-production-ready-full-stack-apps-with-the-mern-stack.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

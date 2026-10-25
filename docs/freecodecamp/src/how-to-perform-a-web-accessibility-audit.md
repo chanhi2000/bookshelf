@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: "How to Perform a Web Accessibility Audit"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-perform-a-web-accessibility-audit.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-perform-a-web-accessibility-audit.html
 prev: /academics/system-design/articles/README.md
 date: 2024-10-19
 isOriginal: false
@@ -262,7 +262,7 @@ Consistently prioritizing accessibility leads to a more user-friendly, functiona
 {
   "title": "How to Perform a Web Accessibility Audit",
   "desc": "Over one billion people worldwide live with some form of disability. That is about 16% of the global population. Now, imagine how many of these individuals might be trying to access your website. Would they navigate easily through your site, or would...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-perform-a-web-accessibility-audit.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-perform-a-web-accessibility-audit.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

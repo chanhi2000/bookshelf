@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: "How to Use Granular Segmentation with Feature Flags"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-use-granular-segmentation-with-feature-flags.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-use-granular-segmentation-with-feature-flags.html
 prev: /programming/js-node/articles/README.md
 date: 2025-01-24
 isOriginal: false
@@ -253,7 +253,7 @@ By leveraging these strategies, you can ensure that your product updates are mor
 {
   "title": "How to Use Granular Segmentation with Feature Flags",
   "desc": "These days, SaaS has become an integral part of running many businesses. So rolling out new features that resonate with the user base is key to a business’s growth. Imagine a feature that promises to enhance user experience but that ends up resonatin...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-use-granular-segmentation-with-feature-flags.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-use-granular-segmentation-with-feature-flags.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

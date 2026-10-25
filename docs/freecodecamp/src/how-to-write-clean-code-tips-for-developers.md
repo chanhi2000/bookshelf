@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "How to Write Clean Code - Tips for Developers with Examples"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-write-clean-code-tips-for-developers.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-write-clean-code-tips-for-developers.html
 prev: /programming/js/articles/README.md
 date: 2024-11-06
 isOriginal: false
@@ -769,7 +769,7 @@ Hope to see you next time!
 {
   "title": "How to Write Clean Code - Tips for Developers with Examples",
   "desc": "Imagine a messy room with clothes, books, and other items scattered everywhere. Finding something in that room would be tough, right? Now, think about writing messy code - it’s just as confusing, if not more! On the other hand, clean code is like an ...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-write-clean-code-tips-for-developers.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-write-clean-code-tips-for-developers.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

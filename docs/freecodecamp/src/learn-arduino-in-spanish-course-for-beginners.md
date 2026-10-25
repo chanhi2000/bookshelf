@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "Learn Arduino in Spanish - Course for Beginners"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/learn-arduino-in-spanish-course-for-beginners.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-arduino-in-spanish-course-for-beginners.html
 prev: /hw/arduino/articles/README.md
 date: 2024-12-05
 isOriginal: false
@@ -140,7 +140,7 @@ If you’re ready to start learning, check out the course in Spanish on the [<VP
 {
   "title": "Learn Arduino in Spanish - Course for Beginners",
   "desc": "Arduino is an open-source electronics platform that allows you to control the physical world through programming. With Arduino, you can read sensor data, control motors, light LEDs, and much more. It's a great way to learn electronics and programming...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/learn-arduino-in-spanish-course-for-beginners.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-arduino-in-spanish-course-for-beginners.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

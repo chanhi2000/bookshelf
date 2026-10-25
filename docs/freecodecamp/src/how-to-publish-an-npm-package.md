@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: "How to Publish an npm Package - Explained with Examples"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-publish-an-npm-package.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-publish-an-npm-package.html
 prev: /programming/js-node/articles/README.md
 date: 2025-09-25
 isOriginal: false
@@ -559,7 +559,7 @@ If you’d like to get hands-on experience collaborating on a real package, I pu
 {
   "title": "How to Publish an npm Package - Explained with Examples",
   "desc": "If you’ve spent any time working with JavaScript, you’ve most likely come across npm—whether installing packages like Express, Lodash, or React, or running commands like npm init. While using npm is second nature for many JavaScript developers, some ...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-publish-an-npm-package.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-publish-an-npm-package.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

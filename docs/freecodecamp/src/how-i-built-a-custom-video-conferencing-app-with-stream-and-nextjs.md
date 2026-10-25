@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How I Built a Custom Video Conferencing App with Stream and Next.js"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-i-built-a-custom-video-conferencing-app-with-stream-and-nextjs.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-i-built-a-custom-video-conferencing-app-with-stream-and-nextjs.html
 prev: /programming/js-next/articles/README.md
 date: 2024-10-03
 isOriginal: false

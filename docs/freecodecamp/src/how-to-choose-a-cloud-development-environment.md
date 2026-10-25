@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: "How to Choose a Cloud Development Environment - Harness CDE, Gitpod, and Coder Compared"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-choose-a-cloud-development-environment.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-choose-a-cloud-development-environment.html
 prev: /devops/articles/README.md
 date: 2025-02-05
 isOriginal: false
@@ -307,7 +307,7 @@ Till the next one, happy coding!
 {
   "title": "How to Choose a Cloud Development Environment - Harness CDE, Gitpod, and Coder Compared",
   "desc": "Cloud Development Environments (CDEs) have become essential tools in modern software development, offering enhanced productivity and streamlined workflows. This article compares three leading CDEs: Harness CDE, Gitpod, and Coder. My goal here is to o...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-choose-a-cloud-development-environment.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-choose-a-cloud-development-environment.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: "How to Use CDNs to Improve Performance in your Front-end Projects"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-cdns-improve-performance-in-front-end-projects.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-cdns-improve-performance-in-front-end-projects.html
 prev: /academics/system-design/articles/README.md
 date: 2024-10-15
 isOriginal: false
@@ -227,7 +227,7 @@ See you on the next one!
 {
   "title": "How to Use CDNs to Improve Performance in your Front-end Projects",
   "desc": "In web development, styling plays a crucial role in the visual presentation of web applications. According to a study by Adobe, 59% of users would choose a beautifully designed website over a “simple and plain” design. So designs that are crafted in ...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-cdns-improve-performance-in-front-end-projects.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-cdns-improve-performance-in-front-end-projects.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

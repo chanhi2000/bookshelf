@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: "Learn Relational Database Basics - Key Concepts for Beginners"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/learn-relational-database-basics-key-concepts-for-beginners.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-relational-database-basics-key-concepts-for-beginners.html
 prev: /data-science/articles/README.md
 date: 2025-01-14
 isOriginal: false
@@ -434,7 +434,7 @@ If you’re curious to learn more, connect with me on [LinkedIn (<VPIcon icon="f
 {
   "title": "Learn Relational Database Basics - Key Concepts for Beginners",
   "desc": "In today’s digital world, data is everywhere, and it’s at the heart of most modern applications. Databases are the unsung heroes that keep it all organised and accessible. Many sites use databases, from social media platforms to online shopping retai...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/learn-relational-database-basics-key-concepts-for-beginners.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-relational-database-basics-key-concepts-for-beginners.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

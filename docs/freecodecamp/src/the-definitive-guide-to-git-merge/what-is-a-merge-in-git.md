@@ -16,7 +16,7 @@ head:
     - property: og:description
       content: "What is a Merge in Git?"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/the-definitive-guide-to-git-merge/what-is-a-merge-in-git.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/the-definitive-guide-to-git-merge/what-is-a-merge-in-git.html
 date: 2023-04-28
 isOriginal: false
 author:

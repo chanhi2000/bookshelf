@@ -27,7 +27,7 @@ head:
     - property: og:description
       content: "LeetCode Meditations: A Visual Handbook of Data Structures and Algorithms Concepts"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/leetcode-dsa-concepts-handbook/
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/leetcode-dsa-concepts-handbook/
 prev: /academics/coen/articles/README.md
 date: 2025-05-30
 isOriginal: false
@@ -3233,7 +3233,7 @@ There are many other resources to check out if you want to go further, here are 
 {
   "title": "LeetCode Meditations: A Visual Handbook of Data Structures and Algorithms Concepts",
   "desc": "It may seem like an oxymoron when the words ”LeetCode” and ”meditation” are used together - after all, one thing that almost everyone can agree is that LeetCode is challenging. It's called grinding LeetCode for a reason. It doesn't have anything to d...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/leetcode-dsa-concepts-handbook.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/leetcode-dsa-concepts-handbook.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

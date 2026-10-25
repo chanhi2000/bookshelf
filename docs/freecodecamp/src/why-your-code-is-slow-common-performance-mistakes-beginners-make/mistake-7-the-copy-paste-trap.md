@@ -28,7 +28,7 @@ head:
     - property: og:description
       content: "Mistake #7: The Copy-Paste Trap"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/why-your-code-is-slow-common-performance-mistakes-beginners-make/mistake-7-the-copy-paste-trap.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/why-your-code-is-slow-common-performance-mistakes-beginners-make/mistake-7-the-copy-paste-trap.html
 date: 2025-03-29
 isOriginal: false
 author:

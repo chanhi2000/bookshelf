@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: "How to Create a Minimal API in .NET Core - A Step By Step Handbook"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/create-a-minimal-api-in-net-core-handbook.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/create-a-minimal-api-in-net-core-handbook.html
 prev: /programming/cs/articles/README.md
 date: 2024-12-03
 isOriginal: false
@@ -237,7 +237,7 @@ Feel free to connect with me on social media:
 {
   "title": "How to Create a Minimal API in .NET Core - A Step By Step Handbook",
   "desc": "Minimal APIs are an exciting feature introduced in .NET 6, designed to revolutionize how you create APIs. Imagine building robust APIs with minimal code and zero boilerplate—no more wrestling with controllers, routing, or middleware. That’s what mini...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/create-a-minimal-api-in-net-core-handbook.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/create-a-minimal-api-in-net-core-handbook.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

@@ -26,7 +26,7 @@ head:
     - property: og:description
       content: "Learn Data Structures from a Google Engineer - A Free 8-hour Course"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/learn-data-structures-from-a-google-engineer.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-data-structures-from-a-google-engineer.html
 prev: /articles/README.md
 date: 2019-09-23
 isOriginal: false
@@ -97,7 +97,7 @@ You can watch the [<VPIcon icon="fa-brands fa-youtube"/>full video on the freeCo
 {
   "title": "Learn Data Structures from a Google Engineer - A Free 8-hour Course",
   "desc": "Learn and master the most common data structures in this free 8-hour video course from Google engineer William Fiset. This course teaches data structures using animations to represent the data structures visually. And it's designed with beginners in ...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/learn-data-structures-from-a-google-engineer.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-data-structures-from-a-google-engineer.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

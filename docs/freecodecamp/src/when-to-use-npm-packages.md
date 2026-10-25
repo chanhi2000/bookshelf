@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "When to Use NPM Packages - A Guide for Developers"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/when-to-use-npm-packages.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/when-to-use-npm-packages.html
 prev: /programming/npm/articles/README.md
 date: 2024-06-25
 isOriginal: false

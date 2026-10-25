@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: "🔍 Azure Load Balancer vs Azure Application Gateway"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/load-balancing-with-azure-application-gateway-and-azure-load-balancer/azure-load-balancer-vs-azure-application-gateway.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/load-balancing-with-azure-application-gateway-and-azure-load-balancer/azure-load-balancer-vs-azure-application-gateway.html
 date: 2025-05-15
 isOriginal: false
 author:

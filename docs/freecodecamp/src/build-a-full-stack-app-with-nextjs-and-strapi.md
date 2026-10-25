@@ -26,7 +26,7 @@ head:
     - property: og:description
       content: "Build a Full Stack App with Next.js and Strapi"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/build-a-full-stack-app-with-nextjs-and-strapi.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-a-full-stack-app-with-nextjs-and-strapi.html
 prev: /programming/js-next/articles/README.md
 date: 2025-02-05
 isOriginal: false
@@ -102,7 +102,7 @@ Watch the full course now on the [<VPIcon icon="fa-brands fa-youtube"/>freeCodeC
 {
   "title": "Build a Full Stack App with Next.js and Strapi",
   "desc": "Building modern, dynamic websites requires a combination of powerful front-end frameworks and flexible content management systems. Whether you're a developer looking to enhance your skills or a beginner wanting to create your first web project, learn...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/build-a-full-stack-app-with-nextjs-and-strapi.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-a-full-stack-app-with-nextjs-and-strapi.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

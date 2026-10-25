@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: "How to Build a Simple Portfolio Website With HTML and CSS"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/build-a-simple-portfolio-website-with-html-and-css.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-a-simple-portfolio-website-with-html-and-css.html
 prev: /programming/css/articles/README.md
 date: 2025-01-14
 isOriginal: false
@@ -791,7 +791,7 @@ If you have any questions, feel free to find me on [Twitter <VPIcon icon="fa-bra
 {
   "title": "How to Build a Simple Portfolio Website With HTML and CSS",
   "desc": "While browsing through some of my old projects, I stumbled upon a portfolio I worked on a while back. The funny thing? I never used it. So, I decided to give it a fresh look and thought, why not share it with you? As a developer, having a portfolio i...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/build-a-simple-portfolio-website-with-html-and-css.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-a-simple-portfolio-website-with-html-and-css.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

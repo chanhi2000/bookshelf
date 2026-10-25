@@ -29,7 +29,7 @@ head:
     - property: og:description
       content: "How to Use DeepSeek-R1"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-use-deepseek-r1.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-use-deepseek-r1.html
 prev: /ai/deepseek/articles/README.md
 date: 2025-01-28
 isOriginal: false
@@ -97,7 +97,7 @@ Ready to dive into the world of DeepSeek-R1? Check out the full course on [<VPIc
 {
   "title": "How to Use DeepSeek-R1",
   "desc": "Artificial Intelligence (AI) is rapidly evolving, and one of the latest breakthroughs is DeepSeek-R1, a model that has gotten significant attention for its innovative approach to reasoning and problem-solving. Developed by the Chinese AI startup Deep...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-use-deepseek-r1.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-use-deepseek-r1.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

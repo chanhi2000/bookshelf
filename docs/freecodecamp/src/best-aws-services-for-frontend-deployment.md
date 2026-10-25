@@ -26,7 +26,7 @@ head:
     - property: og:description
       content: "The Best AWS Services to Deploy Front-End Applications in 2025"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/best-aws-services-for-frontend-deployment.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/best-aws-services-for-frontend-deployment.html
 prev: /devops/aws/articles/README.md
 date: 2025-05-28
 isOriginal: false
@@ -336,7 +336,7 @@ Thank you for reading.
 {
   "title": "The Best AWS Services to Deploy Front-End Applications in 2025",
   "desc": "As front-end development evolves, finding the right deployment service is more important than ever. Amazon Web Services (AWS), a cloud-based service, offers a number of helpful tools and platforms for hosting modern front-end applications. Although i...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/best-aws-services-for-frontend-deployment.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/best-aws-services-for-frontend-deployment.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

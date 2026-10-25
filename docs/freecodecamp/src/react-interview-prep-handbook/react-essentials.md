@@ -22,7 +22,7 @@ head:
     - property: og:description
       content: "React Essentials"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/react-interview-prep-handbook/react-essentials.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/react-interview-prep-handbook/react-essentials.html
 date: 2024-10-11
 isOriginal: false
 author:

@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "React Context for Beginners - The Complete Guide (2021)"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/react-context-for-beginners.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/react-context-for-beginners.html
 prev: /programming/js-react/articles/README.md
 date: 2021-07-22
 isOriginal: false
@@ -333,7 +333,7 @@ Click below to try the React Bootcamp for yourself:
 {
   "title": "React Context for Beginners - The Complete Guide (2021)",
   "desc": "React context is an essential tool for every React developer to know. It lets you easily share state in your applications. In this comprehensive guide, we will cover what React context is, how to use it, when and when not to use context, and lots mor...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/react-context-for-beginners.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/react-context-for-beginners.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

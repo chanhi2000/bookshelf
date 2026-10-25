@@ -27,7 +27,7 @@ head:
     - property: og:description
       content: "Google Play’s 16 KB Page Size Compatibility Requirement — What You Should Know, and How to Upgrade Your App"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/google-16-kb-page-size-requirement-what-to-do.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/google-16-kb-page-size-requirement-what-to-do.html
 prev: /programming/java-android/articles/README.md
 date: 2025-09-27
 isOriginal: false
@@ -205,7 +205,7 @@ You can follow my [Twitter/X account (<VPIcon icon="fa-brands fa-x-twitter"/>`AI
 {
   "title": "Google Play’s 16 KB Page Size Compatibility Requirement — What You Should Know, and How to Upgrade Your App",
   "desc": "Android is always evolving, and sometimes those changes happen a bit under the hood. One such change that's been gaining traction—and now has a firm deadline from Google—is the move to a 16 KB page size. If you're an Android developer, especially wit...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/google-16-kb-page-size-requirement-what-to-do.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/google-16-kb-page-size-requirement-what-to-do.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

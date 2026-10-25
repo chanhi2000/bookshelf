@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: "How to Write Good API Documentation"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-write-good-api-docs.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-write-good-api-docs.html
 prev: /academics/system-design/articles/README.md
 date: 2025-05-03
 isOriginal: false
@@ -360,7 +360,7 @@ This is a call to action for developers, organizations, and technical writers: p
 {
   "title": "How to Write Good API Documentation",
   "desc": "Imagine purchasing a standing fan straight out of the box, all parts dismantled, and you have no manual or guide to put them together. Did you imagine that just now? Cool. Here is another scenario: imagine purchasing an LG product, such as a smart TV...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-write-good-api-docs.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-write-good-api-docs.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

@@ -28,7 +28,7 @@ head:
     - property: og:description
       content: "How to Build Your Own Private Hacking Lab with VirtualBox"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/build-a-private-hacking-lab-with-virtualbox.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-a-private-hacking-lab-with-virtualbox.html
 prev: /devops/security/articles/README.md
 date: 2024-10-25
 isOriginal: false
@@ -238,7 +238,7 @@ See you soon with another article.
 {
   "title": "How to Build Your Own Private Hacking Lab with VirtualBox",
   "desc": "Ethical hacking involves testing and finding vulnerabilities in systems. But doing this on live networks or public servers can lead to accidental damage. Setting up a virtual lab for hacking is a great way to sharpen your skills in a safe environment...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/build-a-private-hacking-lab-with-virtualbox.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-a-private-hacking-lab-with-virtualbox.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

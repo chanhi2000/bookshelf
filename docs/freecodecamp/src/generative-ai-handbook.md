@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: "The Generative AI Handbook - How GenAI is Impacting Business and Innovation"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/generative-ai-handbook.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/generative-ai-handbook.html
 prev: /ai/articles/README.md
 date: 2024-06-21
 isOriginal: false
@@ -719,7 +719,7 @@ If you want to learn more about a career in Data Science, Machine Learning and A
 {
   "title": "The Generative AI Handbook - How GenAI is Impacting Business and Innovation",
   "desc": "The emergence of Generative Artificial Intelligence (GenAI) is both shaping the future of innovation management and revolutionizing it. This handbook delves into the groundbreaking research presented in ”Generative Artificial Intelligence in Innovati...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/generative-ai-handbook.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/generative-ai-handbook.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

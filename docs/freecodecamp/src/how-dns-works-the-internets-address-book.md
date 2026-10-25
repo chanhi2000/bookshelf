@@ -22,7 +22,7 @@ head:
     - property: og:description
       content: "How DNS Works: A Guide to Understanding the Internet's Address Book"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-dns-works-the-internets-address-book.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-dns-works-the-internets-address-book.html
 prev: /academics/coen/articles/README.md
 date: 2025-05-15
 isOriginal: false
@@ -252,7 +252,7 @@ The Domain Name System (DNS) translates domain names into IP addresses, making t
 {
   "title": "How DNS Works: A Guide to Understanding the Internet's Address Book",
   "desc": "The Domain Name System (DNS) translates domain names (like example.com) into IP addresses (like 192.0.2.1) so we can easily access websites. In this guide, you’ll learn how DNS resolution starts, its step-by-step process, how caching works, and the r...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-dns-works-the-internets-address-book.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-dns-works-the-internets-address-book.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "JavaScript Async/Await Tutorial - Learn Callbacks, Promises, and Async/Await in JS by Making Ice Cream 🍧🍨🍦"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/javascript-async-await-tutorial-learn-callbacks-promises-async-await-by-making-icecream.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/javascript-async-await-tutorial-learn-callbacks-promises-async-await-by-making-icecream.html
 prev: /programming/js/articles/README.md
 date: 2021-06-02
 isOriginal: false
@@ -1128,7 +1128,7 @@ Here's your medal for reading until the end. ❤️
 {
   "title": "JavaScript Async/Await Tutorial - Learn Callbacks, Promises, and Async/Await in JS by Making Ice Cream 🍧🍨🍦",
   "desc": "Today we're going to build and run an ice cream shop and learn asynchronous JavaScript at the same time. Along the way, you'll learn how to use: Callbacks Promises Async / Await Here's what we'll cover in this article: What is Asynchronous JavaSc...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/javascript-async-await-tutorial-learn-callbacks-promises-async-await-by-making-icecream.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/javascript-async-await-tutorial-learn-callbacks-promises-async-await-by-making-icecream.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

@@ -28,7 +28,7 @@ head:
     - property: og:description
       content: "Permissions: Ensuring App Functionality and User Privacy"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/build-an-ai-powered-cooking-assistant-with-flutter-and-gemini/permissions-ensuring-app-functionality-and-user-privacy.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-an-ai-powered-cooking-assistant-with-flutter-and-gemini/permissions-ensuring-app-functionality-and-user-privacy.html
 date: 2025-05-30
 isOriginal: false
 author:

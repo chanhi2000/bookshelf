@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: "⚙️ Azure Virtual Machines (VMs) - The Building Blocks"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/load-balancing-with-azure-application-gateway-and-azure-load-balancer/azure-virtual-machines-vms-the-building-blocks.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/load-balancing-with-azure-application-gateway-and-azure-load-balancer/azure-virtual-machines-vms-the-building-blocks.html
 date: 2025-05-15
 isOriginal: false
 author:

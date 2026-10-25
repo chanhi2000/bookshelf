@@ -22,7 +22,7 @@ head:
     - property: og:description
       content: "Learn A-Level Computer Science Concepts"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/learn-a-level-computer-science-concepts.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-a-level-computer-science-concepts.html
 prev: /programming/vb/articles/README.md
 date: 2025-02-14
 isOriginal: false
@@ -74,7 +74,7 @@ By the end of this course, you'll have a strong understanding of programming con
 {
   "title": "Learn A-Level Computer Science Concepts",
   "desc": "Understanding fundamental programming concepts is crucial for success in computer science, especially for students preparing for the Cambridge A-Level Computer Science exam. Mastering these topics not only helps in exams but also builds a strong foun...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/learn-a-level-computer-science-concepts.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-a-level-computer-science-concepts.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

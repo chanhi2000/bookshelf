@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: "How Hackers Use Command Execution to Break IntoSystems"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-hackers-use-command-execution-to-break-into-systems.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-hackers-use-command-execution-to-break-into-systems.html
 prev: /devops/security/articles/README.md
 date: 2024-11-27
 isOriginal: false
@@ -161,7 +161,7 @@ Want some real-world experience in cybersecurity? Try our five-day* [<VPIcon ico
 {
   "title": "How Hackers Use Command Execution to Break IntoSystems",
   "desc": "When learning about cybersecurity, you’ll quickly realize that some vulnerabilities are more dangerous than others. One of the most serious ones is called command execution.  Hackers use it to run harmful commands on a system, gain access to sensitiv...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-hackers-use-command-execution-to-break-into-systems.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-hackers-use-command-execution-to-break-into-systems.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

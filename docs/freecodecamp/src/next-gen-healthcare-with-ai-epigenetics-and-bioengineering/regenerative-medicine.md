@@ -16,7 +16,7 @@ head:
     - property: og:description
       content: "Regenerative Medicine"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/next-gen-healthcare-with-ai-epigenetics-and-bioengineering/regenerative-medicine.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/next-gen-healthcare-with-ai-epigenetics-and-bioengineering/regenerative-medicine.html
 date: 2025-02-05
 isOriginal: false
 author:

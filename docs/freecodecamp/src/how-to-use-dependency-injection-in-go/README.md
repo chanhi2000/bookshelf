@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "How to Implement Dependency Injection in Go - Explained with Code Examples"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-use-dependency-injection-in-go/
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-use-dependency-injection-in-go/
 prev: /programming/go/articles/README.md
 date: 2025-09-25
 isOriginal: false
@@ -864,7 +864,7 @@ By understanding the trade-offs and following best practices, you'll be well equ
 {
   "title": "How to Implement Dependency Injection in Go - Explained with Code Examples",
   "desc": "Regardless of their initial size or scope, projects tend to grow in complexity over time. As new features are added and requirements evolve, the number of components and the connections between them multiply. Services, handlers, repositories, externa...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-use-dependency-injection-in-go/",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-use-dependency-injection-in-go/",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

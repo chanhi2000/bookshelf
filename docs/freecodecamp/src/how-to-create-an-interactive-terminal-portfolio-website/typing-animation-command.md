@@ -25,7 +25,7 @@ head:
     - property: og:description
       content: "Typing Animation Command"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-create-an-interactive-terminal-portfolio-website/typing-animation-command.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-create-an-interactive-terminal-portfolio-website/typing-animation-command.html
 date: 2024-04-29
 isOriginal: false
 author:

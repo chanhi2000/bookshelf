@@ -54,7 +54,7 @@ head:
     - property: og:description
       content: "How to Build a Machine Learning System on Serverless Architecture"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-build-a-machine-learning-system-on-serverless-architecture/
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-build-a-machine-learning-system-on-serverless-architecture/
 prev: /academics/system-design/articles/README.md
 date: 2025-08-27
 isOriginal: false
@@ -1684,7 +1684,7 @@ This information about AWS is current as of August 2025 and is subject to change
 {
   "title": "How to Build a Machine Learning System on Serverless Architecture",
   "desc": "Let’s say you’ve built a fantastic machine learning model that performs beautifully in notebooks. But a model isn’t truly valuable until it’s in production, serving real users and solving real problems. In this article, you’ll learn how to ship a pro...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-build-a-machine-learning-system-on-serverless-architecture.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-build-a-machine-learning-system-on-serverless-architecture.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

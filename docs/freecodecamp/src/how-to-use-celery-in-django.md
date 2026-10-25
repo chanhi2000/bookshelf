@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "How to Use Celery in Django"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-use-celery-in-django.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-use-celery-in-django.html
 prev: /programming/py-django/articles/README.md
 date: 2025-04-19
 isOriginal: false
@@ -337,7 +337,7 @@ Once you get the basics down, you’ll find yourself using it for all kinds of t
 {
   "title": "How to Use Celery in Django",
   "desc": "You’ve probably noticed that some tasks in your Django app seem to take a long time. For example, maybe sending confirmation emails, resizing images, or processing large data files slows things down. The good news? You don’t have to sit around waitin...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-use-celery-in-django.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-use-celery-in-django.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

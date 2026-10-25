@@ -22,7 +22,7 @@ head:
     - property: og:description
       content: "How to Deploy a Static Web App on AWS with Amplify, Lambda, API Gateway, & DynamoDB"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-deploy-a-static-web-app-on-aws-with-amplify-lambda-api-gateway-and-dynamodb.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-deploy-a-static-web-app-on-aws-with-amplify-lambda-api-gateway-and-dynamodb.html
 prev: /devops/aws/articles/README.md
 date: 2025-07-18
 isOriginal: false
@@ -1030,7 +1030,7 @@ This architecture is incredibly powerful because it can scale automatically to h
 {
   "title": "How to Deploy a Static Web App on AWS with Amplify, Lambda, API Gateway, & DynamoDB",
   "desc": "Building modern web applications often involves complex setups and managing servers - but it doesn't have to be that way. Amazon Web Services (AWS) offers a powerful suite of ”serverless” services that allow you to build and deploy applications witho...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-deploy-a-static-web-app-on-aws-with-amplify-lambda-api-gateway-and-dynamodb.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-deploy-a-static-web-app-on-aws-with-amplify-lambda-api-gateway-and-dynamodb.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

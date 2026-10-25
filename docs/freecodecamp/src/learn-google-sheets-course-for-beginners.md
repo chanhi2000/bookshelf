@@ -24,7 +24,7 @@ head:
     - property: og:description
       content: "Learn Google Sheets - Course for Beginners"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/learn-google-sheets-course-for-beginners.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-google-sheets-course-for-beginners.html
 prev: /tool/xls/articles/README.md
 date: 2024-12-04
 isOriginal: false
@@ -109,7 +109,7 @@ Watch the full course on the [<VPIcon icon="fa-brands fa-youtube"/>freeCodeCamp.
 {
   "title": "Learn Google Sheets - Course for Beginners",
   "desc": "Spreadsheets are important for modern data management, analysis, and organization. Whether you're tracking personal finances, managing a business, or conducting advanced data analysis, spreadsheets offer a versatile platform for countless tasks. Amon...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/learn-google-sheets-course-for-beginners.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-google-sheets-course-for-beginners.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

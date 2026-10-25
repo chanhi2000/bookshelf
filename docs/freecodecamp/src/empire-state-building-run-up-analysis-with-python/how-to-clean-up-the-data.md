@@ -22,7 +22,7 @@ head:
     - property: og:description
       content: "How to Clean Up the Data"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/empire-state-building-run-up-analysis-with-python/how-to-clean-up-the-data.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/empire-state-building-run-up-analysis-with-python/how-to-clean-up-the-data.html
 date: 2024-12-03
 isOriginal: false
 author:

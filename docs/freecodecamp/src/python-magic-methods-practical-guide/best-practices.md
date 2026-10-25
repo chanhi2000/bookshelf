@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: "Best Practices"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/python-magic-methods-practical-guide/best-practices.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/python-magic-methods-practical-guide/best-practices.html
 next: /freecodecamp.org/python-magic-methods-practical-guide/README.md#wrapping-up
 date: 2025-03-21
 isOriginal: false

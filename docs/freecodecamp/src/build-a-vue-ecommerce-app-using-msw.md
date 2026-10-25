@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: How to Build a Vue E-commerce App Using MSW
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/build-a-vue-ecommerce-app-using-msw.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-a-vue-ecommerce-app-using-msw.html
 prev: /programming/js-vue/articles/README.md
 date: 2024-07-08
 isOriginal: false
@@ -611,7 +611,7 @@ I have prepared this article with help of [Jayendrasinh Solanki (<VPIcon icon="f
 {
   "title": "How to Develop a Reusable eCommerce Platform",
   "desc": "By Ramón Morcillo This is a story about my team’s hard work developing not a single eCommerce platform, but a reusable one for different owners. We kept the same codebase, look, and feel, and made it highly customizable.  I will conclude with what we...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/develop-a-reusable-ecommerce-platform.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/develop-a-reusable-ecommerce-platform.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }
@@ -621,7 +621,7 @@ I have prepared this article with help of [Jayendrasinh Solanki (<VPIcon icon="f
 {
   "title": "How to Create an eCommerce Website Using WooCommerce",
   "desc": "Creating your own eCommerce website is easier than you may think. You don't even need to know how to code. I just created and published a course on the freeCodeCamp.org YouTube channel that will teach you how to build an online store with WooCommerce...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-create-an-ecommere-website-using-woocomerce.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-create-an-ecommere-website-using-woocomerce.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

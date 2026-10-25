@@ -28,7 +28,7 @@ head:
     - property: og:description
       content: "How Do Pro Developers Write Faster Code?"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/why-your-code-is-slow-common-performance-mistakes-beginners-make/how-do-pro-developers-write-faster-code.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/why-your-code-is-slow-common-performance-mistakes-beginners-make/how-do-pro-developers-write-faster-code.html
 next: /freecodecamp.org/why-your-code-is-slow-common-performance-mistakes-beginners-make/README.md#🚀-final-thoughts-lessons-learned-the-hard-way
 date: 2025-03-29
 isOriginal: false

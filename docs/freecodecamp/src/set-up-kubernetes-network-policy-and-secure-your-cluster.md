@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "How to Set Up a Kubernetes Network Policy and Secure Your Cluster"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/set-up-kubernetes-network-policy-and-secure-your-cluster.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/set-up-kubernetes-network-policy-and-secure-your-cluster.html
 prev: /devops/k8s/articles/README.md
 date: 2025-02-18
 isOriginal: false
@@ -299,7 +299,7 @@ By doing this, you can achieve end-to-end protection for your workloads.
 {
   "title": "How to Set Up a Kubernetes Network Policy and Secure Your Cluster",
   "desc": "In a Kubernetes environment, proper networking allows for seamless communication between various components within the cluster and the external environment. As your applications grow, networking becomes more and more important and helps ensure that t...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/set-up-kubernetes-network-policy-and-secure-your-cluster.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/set-up-kubernetes-network-policy-and-secure-your-cluster.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

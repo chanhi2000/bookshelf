@@ -24,7 +24,7 @@ head:
     - property: og:description
       content: "The Application Database Design"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-build-a-social-learning-platform-using-nextjs-stream-and-supabase/the-application-database-design.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-build-a-social-learning-platform-using-nextjs-stream-and-supabase/the-application-database-design.html
 date: 2025-03-04
 isOriginal: false
 author:

@@ -27,7 +27,7 @@ head:
     - property: og:description
       content: "The Microservices Book - Learn How to Build and Manage Services in the Cloud"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/the-microservices-book-build-and-manage-services-in-the-cloud/
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/the-microservices-book-build-and-manage-services-in-the-cloud/
 prev: /programming/js-node/articles/README.md
 date: 2024-11-29
 isOriginal: false
@@ -466,7 +466,7 @@ For those looking to deepen their understanding of microservices, here are some 
 {
   "title": "The Microservices Book - Learn How to Build and Manage Services in the Cloud",
   "desc": "In today’s fast-paced tech landscape, microservices have emerged as one of the most efficient ways to architect and manage scalable, flexible, and resilient cloud-based systems. Whether you're working with large-scale applications or building somethi...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/the-microservices-book-build-and-manage-services-in-the-cloud.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/the-microservices-book-build-and-manage-services-in-the-cloud.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

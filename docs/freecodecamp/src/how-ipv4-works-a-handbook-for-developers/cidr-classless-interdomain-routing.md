@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: "CIDR: Classless Interdomain Routing"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-ipv4-works-a-handbook-for-developers/cidr-classless-interdomain-routing.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-ipv4-works-a-handbook-for-developers/cidr-classless-interdomain-routing.html
 date: 2025-05-01
 isOriginal: false
 author:

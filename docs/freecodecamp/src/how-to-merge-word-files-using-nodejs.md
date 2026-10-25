@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: "How to Merge Word Files Using NodeJS"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-merge-word-files-using-nodejs.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-merge-word-files-using-nodejs.html
 prev: /programming/js-node/articles/README.md
 date: 2024-10-16
 isOriginal: false
@@ -269,7 +269,7 @@ By following best practices and ensuring robust error handling, you can create a
 {
   "title": "How to Merge Word Files Using NodeJS",
   "desc": "Merging Word files is essential for applications like document automation, where multiple reports, proposals, or forms need to be consolidated into a single document. Content management systems also rely on this functionality to combine documents for...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-merge-word-files-using-nodejs.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-merge-word-files-using-nodejs.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

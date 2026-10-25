@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "How to Use Your npm Library in a React Project"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-create-an-npm-library/how-to-use-your-npm-library-in-a-react-project.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-create-an-npm-library/how-to-use-your-npm-library-in-a-react-project.html
 date: 2025-02-08
 isOriginal: false
 author:

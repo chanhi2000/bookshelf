@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: "How to Get Started With Navigation in Flutter Using AutoRoute"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-get-started-with-navigation-in-flutter-using-autoroute.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-get-started-with-navigation-in-flutter-using-autoroute.html
 prev: /programming/dart/articles/README.md
 date: 2025-09-08
 isOriginal: false
@@ -485,7 +485,7 @@ For deeper learning and advanced features, refer to the official documentation:
 {
   "title": "How to Get Started With Navigation in Flutter Using AutoRoute",
   "desc": "Navigation is one of the most important parts of any mobile application. Users expect to move seamlessly between screens such as home, settings, profile, and more. While Flutter provides built-in navigation using Navigator, managing routes can quickl...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-get-started-with-navigation-in-flutter-using-autoroute.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-get-started-with-navigation-in-flutter-using-autoroute.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

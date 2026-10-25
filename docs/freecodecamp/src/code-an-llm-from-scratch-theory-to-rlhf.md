@@ -30,7 +30,7 @@ head:
     - property: og:description
       content: "Code an LLM From Scratch – Theory to RLHF"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/code-an-llm-from-scratch-theory-to-rlhf.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/code-an-llm-from-scratch-theory-to-rlhf.html
 prev: /ai/llm/articles/README.md
 date: 2025-09-23
 isOriginal: false
@@ -104,7 +104,7 @@ You can watch [the full course on our YouTube channel](https://youtu.be/p3sij8Qz
 {
   "title": "Code an LLM From Scratch – Theory to RLHF",
   "desc": "How do LLMs actually work? We just posted a course on the freeCodeCamp.org YouTube channel that will teach you how to build a large language model from scratch using pure PyTorch. This isn't your typical course that just scratches the surface. It’s a...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/code-an-llm-from-scratch-theory-to-rlhf.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/code-an-llm-from-scratch-theory-to-rlhf.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

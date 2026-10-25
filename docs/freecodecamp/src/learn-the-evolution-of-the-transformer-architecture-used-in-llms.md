@@ -24,7 +24,7 @@ head:
     - property: og:description
       content: "Learn the Evolution of the Transformer Architecture Used in LLMs"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/learn-the-evolution-of-the-transformer-architecture-used-in-llms.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-the-evolution-of-the-transformer-architecture-used-in-llms.html
 prev: /ai/llm/articles/README.md
 date: 2025-06-26
 isOriginal: false
@@ -110,7 +110,7 @@ You can watch the full course for free on the [<VPIcon icon="fa-brands fa-youtub
 {
   "title": "Learn the Evolution of the Transformer Architecture Used in LLMs",
   "desc": "Transformers have changed the game in machine learning. From powering chatbots and search engines to enabling machine translation and image generation, they're at the core of today’s most impressive AI models. But the field moves fast. New techniques...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/learn-the-evolution-of-the-transformer-architecture-used-in-llms.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-the-evolution-of-the-transformer-architecture-used-in-llms.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

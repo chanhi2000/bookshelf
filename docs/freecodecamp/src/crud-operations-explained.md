@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "CRUD Operations - What is CRUD?"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/crud-operations-explained.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/crud-operations-explained.html
 prev: /academics/coen/articles/README.md
 date: 2022-06-16
 isOriginal: false
@@ -161,7 +161,7 @@ Keep coding 👋
 {
   "title": "CRUD Operations - What is CRUD?",
   "desc": "Despite being commonly pronounced /krʌd/, CRUD is not a word. It’s an abbreviation that stands for Create, Read, Update, and Delete or Destroy. In this article, I will show you what CRUD means, and what the individual terms mean and do. I will also s...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/crud-operations-explained.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/crud-operations-explained.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "How to Automate CI/CD with GitHub Actions and Streamline Your Workflow"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/automate-cicd-with-github-actions-streamline-workflow.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/automate-cicd-with-github-actions-streamline-workflow.html
 prev: /devops/github/articles/README.md
 date: 2025-04-15
 isOriginal: false
@@ -258,7 +258,7 @@ In this article, you learned about how the CI/CD process works. We also covered 
 {
   "title": "How to Automate CI/CD with GitHub Actions and Streamline Your Workflow",
   "desc": "CI/CD stands for Continuous Integration and Continuous Delivery. It is a system or set of processes and methodologies that help developers quickly update codebases and deploy applications. The Continuous Integration (CI) part of CI/CD means that deve...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/automate-cicd-with-github-actions-streamline-workflow.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/automate-cicd-with-github-actions-streamline-workflow.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

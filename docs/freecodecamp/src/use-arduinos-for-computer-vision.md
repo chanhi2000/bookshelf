@@ -29,7 +29,7 @@ head:
     - property: og:description
       content: "Use Arduinos for Computer Vision"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/use-arduinos-for-computer-vision.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/use-arduinos-for-computer-vision.html
 prev: /programming/py-opencv/articles/README.md
 date: 2025-08-27
 isOriginal: false
@@ -94,7 +94,7 @@ You can watch the full course [<VPIcon icon="fa-brands fa-youtube"/>on the freeC
 {
   "title": "Use Arduinos for Computer Vision",
   "desc": "We just published a new course on the freeCodeCamp.org YouTube channel that mixes computer vision, deep learning, and Arduino into some really fun projects. In this course, you’ll build two hands-on applications using MediaPipe and OpenCV. The first ...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/use-arduinos-for-computer-vision.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/use-arduinos-for-computer-vision.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Optimal Asymmetric Encryption Padding (OAEP)"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/the-cryptography-handbook-rsa-algorithm/optimal-asymmetric-encryption-padding-oaep.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/the-cryptography-handbook-rsa-algorithm/optimal-asymmetric-encryption-padding-oaep.html
 date: 2025-04-03
 isOriginal: false
 author:

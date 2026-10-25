@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to Build a CRUD Application using React and Convex"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/build-crud-app-react-and-convex.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-crud-app-react-and-convex.html
 prev: /programming/js-react/articles/README.md
 date: 2024-10-24
 isOriginal: false
@@ -718,7 +718,7 @@ Thank you for reading!
 {
   "title": "How to Build a CRUD Application using React and Convex",
   "desc": "CRUD operations are the basis of every application, so it is essential to become proficient in them when learning new technologies. In this tutorial, you’ll learn how to build a CRUD application using React and Convex. We’ll cover these operations by...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/build-crud-app-react-and-convex.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-crud-app-react-and-convex.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

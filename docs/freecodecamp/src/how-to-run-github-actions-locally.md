@@ -22,7 +22,7 @@ head:
     - property: og:description
       content: "How to Run GitHub Actions Locally Using the act CLI Tool"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-run-github-actions-locally.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-run-github-actions-locally.html
 prev: /devops/github/articles/README.md
 date: 2024-03-12
 isOriginal: false
@@ -400,7 +400,7 @@ You can hire me as a freelance developer with [<VPIcon icon="fas fa-globe"/>Upwo
 {
   "title": "How to Run GitHub Actions Locally Using the act CLI Tool",
   "desc": "GitHub Actions help automate tasks like building, testing, and deploying in your GitHub repository.  With one click, you can publish your production-ready code or package on npm, GitHub pages, docker images, deploy your production code on a cloud pro...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-run-github-actions-locally.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-run-github-actions-locally.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

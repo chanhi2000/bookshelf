@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: "Learn Databases In-Depth"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/learn-databases-in-depth.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-databases-in-depth.html
 prev: /data-science/sqlite/articles/README.md
 date: 2024-10-10
 isOriginal: false
@@ -93,7 +93,7 @@ In this course you'll gain the expertise needed to optimize and manage complex d
 {
   "title": "Learn Databases In-Depth",
   "desc": "Understanding databases is important for a software developer. We just posted a comprehensive course on the freeCodeCamp.org YouTube channel designed to help you understand the complexities of database architecture and optimization. Whether you're a ...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/learn-databases-in-depth.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-databases-in-depth.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

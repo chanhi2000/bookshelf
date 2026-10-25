@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "New JavaScript Array Methods to Help You Write Better, Cleaner Code"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/new-javascript-array-methods-to-help-you-write-better-cleaner-code.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/new-javascript-array-methods-to-help-you-write-better-cleaner-code.html
 prev: /programming/js/articles/README.md
 date: 2024-10-02
 isOriginal: false

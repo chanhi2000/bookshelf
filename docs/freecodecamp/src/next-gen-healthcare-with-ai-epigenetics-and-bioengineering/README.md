@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: "Pioneering Next-Gen Healthcare with AI, Epigenetics, and Bioengineering"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/next-gen-healthcare-with-ai-epigenetics-and-bioengineering/
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/next-gen-healthcare-with-ai-epigenetics-and-bioengineering/
 prev: /ai/articles/README.md
 date: 2025-02-05
 isOriginal: false
@@ -253,7 +253,7 @@ Spots are limited, and the demand for skilled AI engineers is higher than ever. 
 {
   "title": "Pioneering Next-Gen Healthcare with AI, Epigenetics, and Bioengineering",
   "desc": "Bioengineering stands at the precipice of a transformative era, where the convergence of biology, engineering, and technology promises to redefine the very fabric of human existence. This is not hyperbole. It’s a reflection of the rapid strides being...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/next-gen-healthcare-with-ai-epigenetics-and-bioengineering.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/next-gen-healthcare-with-ai-epigenetics-and-bioengineering.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

@@ -28,7 +28,7 @@ head:
     - property: og:description
       content: "Code a Full Stack AI-Powered Email SaaS"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/code-a-full-stack-ai-powered-email-saas.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/code-a-full-stack-ai-powered-email-saas.html
 prev: /programming/js-next/articles/README.md
 date: 2024-10-25
 isOriginal: false
@@ -94,7 +94,7 @@ Watch the full course on [the freeCodeCamp.org YouTube channel](https://youtu.be
 {
   "title": "Code a Full Stack AI-Powered Email SaaS",
   "desc": "Are you ready to dive into the world of full-stack web development and AI-powered applications? This comprehensive tutorial takes you through the exciting process of building and deploying an intelligent, fully-featured email client from scratch. Usi...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/code-a-full-stack-ai-powered-email-saas.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/code-a-full-stack-ai-powered-email-saas.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

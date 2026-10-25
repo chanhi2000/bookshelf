@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "How JavaScript's Temporal Proposal Will Change Date/Time Functions"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-javascripts-temporal-proposal-will-change-datetime-functions.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-javascripts-temporal-proposal-will-change-datetime-functions.html
 prev: /programming/js/articles/README.md
 date: 2024-11-14
 isOriginal: false
@@ -332,7 +332,7 @@ Check out my other content and let me know how I can help you on your journey to
 {
   "title": "How JavaScript's Temporal Proposal Will Change Date/Time Functions",
   "desc": "JavaScript's handling of dates and times has long frustrated developers. The built-in Date object, created in JavaScript’s early days, has numerous limitations and quirks that complicate working with dates and times. Fortunately for us, the Temporal ...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-javascripts-temporal-proposal-will-change-datetime-functions.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-javascripts-temporal-proposal-will-change-datetime-functions.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

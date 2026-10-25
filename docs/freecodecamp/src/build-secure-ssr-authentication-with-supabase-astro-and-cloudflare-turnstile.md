@@ -29,7 +29,7 @@ head:
     - property: og:description
       content: "How to Build Secure SSR Authentication with Supabase, Astro, and Cloudflare Turnstile"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/build-secure-ssr-authentication-with-supabase-astro-and-cloudflare-turnstile.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-secure-ssr-authentication-with-supabase-astro-and-cloudflare-turnstile.html
 prev: /programming/js-astro/articles/README.md
 date: 2025-06-21
 isOriginal: false
@@ -745,7 +745,7 @@ The complete code for this project is available on GitHub:
 {
   "title": "How to Build Secure SSR Authentication with Supabase, Astro, and Cloudflare Turnstile",
   "desc": "In this guide, you'll build a full server-side rendered (SSR) authentication system using Astro, Supabase, and Cloudflare Turnstile to protect against bots. By the end, you'll have a fully functional authentication system with Astro actions, magic li...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/build-secure-ssr-authentication-with-supabase-astro-and-cloudflare-turnstile.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-secure-ssr-authentication-with-supabase-astro-and-cloudflare-turnstile.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

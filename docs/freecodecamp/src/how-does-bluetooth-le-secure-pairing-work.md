@@ -22,7 +22,7 @@ head:
     - property: og:description
       content: "How Does Bluetooth LE Secure Pairing Work?"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-does-bluetooth-le-secure-pairing-work.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-does-bluetooth-le-secure-pairing-work.html
 prev: /programming/cpp/articles/README.md
 date: 2025-09-14
 isOriginal: false
@@ -600,7 +600,7 @@ So the next time a pairing prompt pops up, don’t just click through. Imagine t
 {
   "title": "How Does Bluetooth LE Secure Pairing Work?",
   "desc": "The first time I tried to get a Bluetooth keyboard to connect to my laptop, it felt like the devices were having a private argument I wasn’t invited to. One second: “Pairing successful.” The next: “Connection failed.” No explanation, no apology. If y...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-does-bluetooth-le-secure-pairing-work.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-does-bluetooth-le-secure-pairing-work.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

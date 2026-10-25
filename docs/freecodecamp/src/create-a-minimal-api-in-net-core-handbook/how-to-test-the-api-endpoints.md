@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: "How to Test the API Endpoints"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/create-a-minimal-api-in-net-core-handbook/how-to-test-the-api-endpoints.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/create-a-minimal-api-in-net-core-handbook/how-to-test-the-api-endpoints.html
 date: 2024-12-03
 isOriginal: false
 author:

@@ -34,7 +34,7 @@ head:
     - property: og:description
       content: "How to Set Up the Vector Database for Embedding Storage"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/build-a-local-rag-app-with-ollama-and-chromadb-in-r/how-to-set-up-the-vector-database-for-embedding-storage.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-a-local-rag-app-with-ollama-and-chromadb-in-r/how-to-set-up-the-vector-database-for-embedding-storage.html
 date: 2025-04-15
 isOriginal: false
 author:

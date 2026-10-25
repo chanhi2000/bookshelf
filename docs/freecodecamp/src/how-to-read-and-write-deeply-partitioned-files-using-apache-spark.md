@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to Read and Write Deeply Partitioned Files Using Apache Spark"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-read-and-write-deeply-partitioned-files-using-apache-spark.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-read-and-write-deeply-partitioned-files-using-apache-spark.html
 prev: /data-science/spark/articles/README.md
 date: 2025-09-01
 isOriginal: false
@@ -186,7 +186,7 @@ You can read my other articles at [<VPIcon icon="fas fa-globe"/>beyonddream.me](
 {
   "title": "How to Read and Write Deeply Partitioned Files Using Apache Spark",
   "desc": "If you use Apache Spark to write your data pipeline, you might need to export or copy data from a source to destination while preserving the partition folders between the source and destination. When I researched online on how to do this in Spark, I ...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-read-and-write-deeply-partitioned-files-using-apache-spark.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-read-and-write-deeply-partitioned-files-using-apache-spark.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

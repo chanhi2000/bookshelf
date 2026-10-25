@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "What are Smart Pointers in Rust? Explained with Code Examples"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/smart-pointers-in-rust-with-code-examples.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/smart-pointers-in-rust-with-code-examples.html
 prev: /programming/rs/articles/README.md
 date: 2024-10-30
 isOriginal: false
@@ -338,7 +338,7 @@ I hope this article has provided clarity on smart pointers in Rust and how they 
 {
   "title": "What are Smart Pointers in Rust? Explained with Code Examples",
   "desc": "Smart pointers are data structures that act like pointers but contain extra information and have functionalities that make them excel over regular pointers in certain situations. So what are regular pointers? Regular pointers (just called “pointers”)...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/smart-pointers-in-rust-with-code-examples.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/smart-pointers-in-rust-with-code-examples.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

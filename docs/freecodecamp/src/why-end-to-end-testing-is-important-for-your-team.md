@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Why End-to-End Testing is Important for Your Team"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/why-end-to-end-testing-is-important-for-your-team.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/why-end-to-end-testing-is-important-for-your-team.html
 prev: /academics/coen/articles/README.md
 date: 2017-12-04
 isOriginal: false
@@ -188,7 +188,7 @@ In conclusion, while E2E tests are very expensive to maintain, we believe that t
 {
   "title": "Why End-to-End Testing is Important for Your Team",
   "desc": "By Phong Huynh How our team implemented end to end testing in 4 easy steps At Hubba, our business needs are always evolving and the speed of development needs to catch up with it. One of the ways to keep the team moving forward without breaking every...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/why-end-to-end-testing-is-important-for-your-team.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/why-end-to-end-testing-is-important-for-your-team.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

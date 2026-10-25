@@ -27,7 +27,7 @@ head:
     - property: og:description
       content: "Learn Interactive Data Visualization with Svelte and D3"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/learn-interactive-data-visualization-with-svelte-and-d3.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-interactive-data-visualization-with-svelte-and-d3.html
 prev: /programming/js-svelte/articles/README.md
 date: 2025-07-17
 isOriginal: false
@@ -83,7 +83,7 @@ To keep things engaging, you’ll work with fun and unique datasets, starting wi
 {
   "title": "Learn Interactive Data Visualization with Svelte and D3",
   "desc": "Data is everywhere, but raw numbers on a screen rarely tell a compelling story. To uncover insights and communicate them effectively, you need to make that data visible and interactive. We just posted a new course on the freeCodeCamp.org YouTube chan...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/learn-interactive-data-visualization-with-svelte-and-d3.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-interactive-data-visualization-with-svelte-and-d3.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

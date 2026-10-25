@@ -28,7 +28,7 @@ head:
     - property: og:description
       content: "How to Get Your Gemini API Key"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/build-an-ai-powered-cooking-assistant-with-flutter-and-gemini/how-to-get-your-gemini-api-key.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-an-ai-powered-cooking-assistant-with-flutter-and-gemini/how-to-get-your-gemini-api-key.html
 date: 2025-05-30
 isOriginal: false
 author:

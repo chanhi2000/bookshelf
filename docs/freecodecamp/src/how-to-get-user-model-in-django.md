@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "How to Get the User Model in Django - A Simple Guide With Examples"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-get-user-model-in-django.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-get-user-model-in-django.html
 prev: /programming/py-django/articles/README.md
 date: 2025-05-01
 isOriginal: false
@@ -246,7 +246,7 @@ If you want me to show you how to **build** a custom user model from scratch, le
 {
   "title": "How to Get the User Model in Django - A Simple Guide With Examples",
   "desc": "When I’m working with Django, one of the first things I often need to do is work with users - like getting the logged-in user, creating a new one, or extending the default user model to add more information. Now, Django has a built-in User model, but...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-get-user-model-in-django.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-get-user-model-in-django.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

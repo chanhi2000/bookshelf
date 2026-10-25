@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: "The Git Rebase Handbook - A Definitive Guide to Rebasing"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/git-rebase-handbook/
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/git-rebase-handbook/
 prev: /programming/git/articles/README.md
 date: 2023-07-03
 isOriginal: false
@@ -230,7 +230,7 @@ I hope I was able to convince you that `git rebase` is powerful - but also that 
 {
   "title": "The Git Rebase Handbook - A Definitive Guide to Rebasing",
   "desc": "One of the most powerful tools a developer can have in their toolbox is git rebase. Yet it is notorious for being complex and misunderstood.  The truth is, if you understand what it actually does, git rebase is a very elegant, and straightforward too...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/git-rebase-handbook.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/git-rebase-handbook.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

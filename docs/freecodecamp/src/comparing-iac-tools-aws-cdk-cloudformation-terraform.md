@@ -26,7 +26,7 @@ head:
     - property: og:description
       content: "How to Choose the Right IaC Tool - AWS CDK, CloudFormation, and Terraform Compared"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/comparing-iac-tools-aws-cdk-cloudformation-terraform.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/comparing-iac-tools-aws-cdk-cloudformation-terraform.html
 prev: /devops/aws/articles/README.md
 date: 2024-06-04
 isOriginal: false
@@ -584,7 +584,7 @@ If you want to learn more about me and my story of transitioning from a Pro Athl
 {
   "title": "How to Choose the Right IaC Tool - AWS CDK, CloudFormation, and Terraform Compared",
   "desc": "Infrastructure as Code (IaC) has become a cornerstone of modern cloud resource management. It enables developers and engineers to manage their cloud resources with the same level of control and precision as application code.  When you're working with...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/comparing-iac-tools-aws-cdk-cloudformation-terraform.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/comparing-iac-tools-aws-cdk-cloudformation-terraform.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

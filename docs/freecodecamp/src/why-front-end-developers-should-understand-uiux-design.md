@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: "Why Front-End Developers Should Understand UI/UX Design"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/why-front-end-developers-should-understand-uiux-design.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/why-front-end-developers-should-understand-uiux-design.html
 prev: /academics/system-design/articles/README.md
 date: 2025-09-12
 isOriginal: false
@@ -503,7 +503,7 @@ At the end of the day, the best front-end developers don’t just write code, th
 {
   "title": "Why Front-End Developers Should Understand UI/UX Design",
   "desc": "When users interact with a website or application, the first thing they notice isn’t the code. Instead, it’s the design and experience. Smooth navigation, intuitive layouts, and visually appealing interfaces are what keep users engaged. Behind these ...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/why-front-end-developers-should-understand-uiux-design.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/why-front-end-developers-should-understand-uiux-design.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

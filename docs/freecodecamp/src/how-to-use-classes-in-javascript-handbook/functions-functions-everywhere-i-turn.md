@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: "Functions, Functions Everywhere I Turn"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-use-classes-in-javascript-handbook/functions-functions-everywhere-i-turn.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-use-classes-in-javascript-handbook/functions-functions-everywhere-i-turn.html
 date: 2025-02-18
 isOriginal: false
 author:

@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: "How to Insert Data into a Table"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/work-with-sqlite-in-python-handbook/how-to-insert-data-into-a-table.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/work-with-sqlite-in-python-handbook/how-to-insert-data-into-a-table.html
 date: 2024-10-02
 isOriginal: false
 author: Ashutosh Krishna

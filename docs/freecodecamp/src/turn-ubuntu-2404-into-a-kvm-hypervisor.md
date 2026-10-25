@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "How to Turn Ubuntu 24.04 into a KVM Hypervisor - Quick Setup with Web Management"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/turn-ubuntu-2404-into-a-kvm-hypervisor.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/turn-ubuntu-2404-into-a-kvm-hypervisor.html
 prev: /devops/linux-debian/articles/README.md
 date: 2025-04-29
 isOriginal: false
@@ -466,7 +466,7 @@ Share your ideas or comments with me - I’d love to hear them!
 {
   "title": "How to Turn Ubuntu 24.04 into a KVM Hypervisor - Quick Setup with Web Management",
   "desc": "Virtualization lets you run multiple operating systems on one machine. It’s perfect for testing apps, hosting servers, or learning DevOps. A hypervisor is the software that lets you run multiple virtual machines on a single physical machine, and the ...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/turn-ubuntu-2404-into-a-kvm-hypervisor.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/turn-ubuntu-2404-into-a-kvm-hypervisor.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

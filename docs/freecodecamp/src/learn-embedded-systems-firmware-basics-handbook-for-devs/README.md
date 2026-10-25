@@ -30,7 +30,7 @@ head:
     - property: og:description
       content: "Learn Embedded Systems Firmware Basics - A Handbook for Developers"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/learn-embedded-systems-firmware-basics-handbook-for-devs/
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-embedded-systems-firmware-basics-handbook-for-devs/
 prev: /programming/c/articles/README.md
 date: 2025-06-24
 isOriginal: false
@@ -1169,7 +1169,7 @@ Whether you're preparing for embedded job interviews, building your own IoT proj
 {
   "title": "Learn Embedded Systems Firmware Basics - A Handbook for Developers",
   "desc": "Have you ever wondered how your fridge knows when to cool, or how a coffee machine knows when to stop pouring? Behind the scenes, these devices are powered by embedded systems - small, dedicated computers designed to perform specific tasks reliably a...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/learn-embedded-systems-firmware-basics-handbook-for-devs/",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-embedded-systems-firmware-basics-handbook-for-devs/",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

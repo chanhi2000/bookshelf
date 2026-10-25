@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to Build a Reusable useSearch Hook in React"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-build-a-reusable-usesearch-hook-in-react.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-build-a-reusable-usesearch-hook-in-react.html
 prev: /programming/js-react/articles/README.md
 date: 2025-02-26
 isOriginal: false
@@ -778,7 +778,7 @@ If you have any questions, feel free to find me on Twitter at [<VPIcon icon="fa-
 {
   "title": "How to Build a Reusable useSearch Hook in React",
   "desc": "Recently, I needed to add a search feature to a React app. Naturally, I did what many developers would do—I turned to Google for help. The first article I found was about building a search and filter component in React. As I read through it, I couldn...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-build-a-reusable-usesearch-hook-in-react.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-build-a-reusable-usesearch-hook-in-react.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

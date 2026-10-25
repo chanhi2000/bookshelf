@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: "How to Improve Your Front-End Development Workflow with the ZenUI Library"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/improve-front-end-development-workflow-with-zenui-library.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/improve-front-end-development-workflow-with-zenui-library.html
 prev: /programming/js-node/articles/README.md
 date: 2024-10-03
 isOriginal: false

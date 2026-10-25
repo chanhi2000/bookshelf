@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: "How to Use Generics in Java - Explained with Code Examples"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/generics-in-java.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/generics-in-java.html
 prev: /programming/java/articles/README.md
 date: 2024-07-13
 isOriginal: false
@@ -277,7 +277,7 @@ Let's connect on [LinkedIn (<VPIcon icon="fa-brands fa-linkedin"/>`abaradwaj`)](
 {
   "title": "How to Use Generics in Java - Explained with Code Examples",
   "desc": "In your Java program, you might have encountered the dreaded ClassCastException at runtime while working with different types of objects such as Integer, String, and so on. This error is mostly caused by casting an object to the wrong data type.  In ...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/generics-in-java.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/generics-in-java.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

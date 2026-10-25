@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "How to Loop Through Arrays in JavaScript"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/loop-through-arrays-javascript.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/loop-through-arrays-javascript.html
 prev: /programming/js/articles/README.md
 date: 2023-11-01
 isOriginal: false
@@ -443,7 +443,7 @@ By mastering the various ways to loop through arrays, you'll be better equipped 
 {
   "title": "How to Loop Through Arrays in JavaScript",
   "desc": "Looping through arrays in JavaScript is a fundamental concept that every JavaScript developer should understand. Whether you're a beginner or an experienced developer, understanding how to loop through an array is crucial for many programming tasks. ...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/loop-through-arrays-javascript.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/loop-through-arrays-javascript.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

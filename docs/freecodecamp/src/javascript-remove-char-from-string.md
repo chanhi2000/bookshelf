@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "JS Remove Char from String – How to Trim a Character from a String in JavaScript"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/javascript-remove-char-from-string.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/javascript-remove-char-from-string.html
 prev: /programming/js/articles/README.md
 date: 2024-05-10
 isOriginal: false
@@ -230,7 +230,7 @@ Thanks for reading, and happy coding!
 {
   "title": "JS Remove Char from String – How to Trim a Character from a String in JavaScript",
   "desc": "Manipulating strings is a fundamental skill in programming. A common task you might encounter when coding in JavaScript is trimming characters from a string. Trimming involves removing specific characters from the beginning and/or end of a string. Th...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/javascript-remove-char-from-string.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/javascript-remove-char-from-string.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

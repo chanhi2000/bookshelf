@@ -16,7 +16,7 @@ head:
     - property: og:description
       content: "Advanced Accessibility Practices: WAI-ARIA"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/the-web-accessibility-handbook/advanced-accessibility-practices-wai-aria.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/the-web-accessibility-handbook/advanced-accessibility-practices-wai-aria.html
 date: 2025-03-19
 isOriginal: false
 author:

@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: "What Is Q in Django? (And Why It's Super Useful)"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/what-is-q-in-django-and-why-its-super-useful.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/what-is-q-in-django-and-why-its-super-useful.html
 prev: /programming/py-django/articles/README.md
 date: 2025-04-24
 isOriginal: false
@@ -346,7 +346,7 @@ Want to go deeper?
 {
   "title": "What Is Q in Django? (And Why It's Super Useful)",
   "desc": "If you're working with Django and writing queries, chances are you’ve bumped into a situation where you need to combine filters in a way that’s just... not straightforward. Maybe you're trying to search for users with a username or an email that matc...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/what-is-q-in-django-and-why-its-super-useful.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/what-is-q-in-django-and-why-its-super-useful.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

@@ -22,7 +22,7 @@ head:
     - property: og:description
       content: "What WordPress Development Looks Like in the Age of AI"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/what-wordpress-development-looks-like-in-the-age-of-ai.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/what-wordpress-development-looks-like-in-the-age-of-ai.html
 prev: /programming/php-wordpress/articles/README.md
 date: 2025-08-13
 isOriginal: false
@@ -196,7 +196,7 @@ Hope you enjoyed this article. You can [find me on Linkedin (<VPIcon icon="fa-br
 {
   "title": "What WordPress Development Looks Like in the Age of AI",
   "desc": "Building a website with WordPress used to take a lot of time. You had to install the platform, choose a theme, add plugins, write all the content by hand, and make sure everything worked well together. Even skilled developers spent hours setting up a...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/what-wordpress-development-looks-like-in-the-age-of-ai.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/what-wordpress-development-looks-like-in-the-age-of-ai.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: "What is the Cold Start Problem in Recommender Systems?"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/cold-start-problem-in-recommender-systems.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/cold-start-problem-in-recommender-systems.html
 prev: /academics/system-design/articles/README.md/articles/README.md
 date: 2025-02-26
 isOriginal: false
@@ -186,7 +186,7 @@ Stay updated with my projects by following me on [LinkedIn (<VPIcon icon="fa-bra
 {
   "title": "What is the Cold Start Problem in Recommender Systems?",
   "desc": "Recommender systems are used to provide personalized experiences for customers in many industries today, including e-commerce, social media, entertainment, and education. These recommender systems make recommendations based on user preferences and co...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/cold-start-problem-in-recommender-systems.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/cold-start-problem-in-recommender-systems.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

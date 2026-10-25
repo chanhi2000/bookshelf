@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "How to Build a Honeypot in Python: A Practical Guide to Security Deception"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/build-a-honeypot-with-python.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-a-honeypot-with-python.html
 prev: /programming/py/articles/README.md
 date: 2024-12-20
 isOriginal: false
@@ -624,7 +624,7 @@ I hope you learnt about how honeypots work, what is their purpose as well as a b
 {
   "title": "How to Build a Honeypot in Python: A Practical Guide to Security Deception",
   "desc": "In cybersecurity, a honeypot is a decoy system that’s designed to attract and then detect potential attackers attempting to compromise the system. Just like a pot of honey sitting out in the open would attract flies. Think of these honeypots as secur...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/build-a-honeypot-with-python.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-a-honeypot-with-python.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

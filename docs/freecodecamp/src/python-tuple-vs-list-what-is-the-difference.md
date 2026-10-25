@@ -24,7 +24,7 @@ head:
     - property: og:description
       content: "Python Tuple VS List - What is the Difference?"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/python-tuple-vs-list-what-is-the-difference.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/python-tuple-vs-list-what-is-the-difference.html
 prev: /programming/py/articles/README.md
 date: 2021-09-21
 isOriginal: false
@@ -568,7 +568,7 @@ Thanks for reading and happy learning!
 {
   "title": "Python Tuple VS List - What is the Difference?",
   "desc": "Tuples and lists are two of the four available built-in data types that you can use to store data in Python. They are both useful and they might seem similar at first glance. But they have significant differences and each one is best used in differen...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/python-tuple-vs-list-what-is-the-difference.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/python-tuple-vs-list-what-is-the-difference.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

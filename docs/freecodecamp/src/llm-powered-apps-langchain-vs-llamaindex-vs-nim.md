@@ -25,7 +25,7 @@ head:
     - property: og:description
       content: "Which Tools to Use for LLM-Powered Applications: LangChain vs LlamaIndex vs NIM"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/llm-powered-apps-langchain-vs-llamaindex-vs-nim.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/llm-powered-apps-langchain-vs-llamaindex-vs-nim.html
 prev: /programming/py/articles/README.md
 date: 2024-10-22
 isOriginal: false
@@ -489,7 +489,7 @@ While each tool has its challenges, such as handling complex infrastructures or 
 {
   "title": "Which Tools to Use for LLM-Powered Applications: LangChain vs LlamaIndex vs NIM",
   "desc": "If you’re considering building an application powered by a Large Language Model, you may wonder which tool to use. Well, two well-established frameworks—LangChain and LlamaIndex—have gained significant attention for their unique features and capabili...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/llm-powered-apps-langchain-vs-llamaindex-vs-nim.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/llm-powered-apps-langchain-vs-llamaindex-vs-nim.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

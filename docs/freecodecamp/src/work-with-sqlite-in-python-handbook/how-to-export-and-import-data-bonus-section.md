@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: "How to Export and Import Data [Bonus Section]"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/work-with-sqlite-in-python-handbook/how-to-export-and-import-data-bonus-section.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/work-with-sqlite-in-python-handbook/how-to-export-and-import-data-bonus-section.html
 date: 2024-10-02
 isOriginal: false
 author: Ashutosh Krishna

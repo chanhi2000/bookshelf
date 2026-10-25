@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "How to Change the Password of a Superuser in Django"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-change-the-password-of-a-superuser-in-django.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-change-the-password-of-a-superuser-in-django.html
 prev: /programming/py-django/articles/README.md
 date: 2025-04-23
 isOriginal: false
@@ -261,7 +261,7 @@ Let’s keep the conversation going, Connect with me on [X (<VPIcon icon="fa-bra
 {
   "title": "How to Change the Password of a Superuser in Django",
   "desc": "Changing a superuser password in Django might sound like a big task, but it’s one of the easiest things to do once you know how. If you’re working on a Django project - whether it’s a hobby blog, a client’s website, or a bigger web application - mana...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-change-the-password-of-a-superuser-in-django.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-change-the-password-of-a-superuser-in-django.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

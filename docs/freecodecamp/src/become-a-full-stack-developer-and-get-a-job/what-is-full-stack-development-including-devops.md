@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: "What is Full Stack Development (Including DevOps)?"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/become-a-full-stack-developer-and-get-a-job/what-is-full-stack-development-including-devops.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/become-a-full-stack-developer-and-get-a-job/what-is-full-stack-development-including-devops.html
 date: 2023-03-13
 isOriginal: false
 author:

@@ -16,7 +16,7 @@ head:
     - property: og:description
       content: "How to Create Objects in Git"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/git-internals-objects-branches-create-repo/how-to-create-objects-in-git.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/git-internals-objects-branches-create-repo/how-to-create-objects-in-git.html
 date: 2020-12-15
 isOriginal: false
 author:

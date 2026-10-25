@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: "Why Security Audits Are Important"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/why-security-audits-are-important.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/why-security-audits-are-important.html
 prev: /devops/security/articles/README.md
 date: 2025-03-20
 isOriginal: false
@@ -228,7 +228,7 @@ I hope this article gave you a better idea about what’s involved in a security
 {
   "title": "Why Security Audits Are Important",
   "desc": "In this digital world, companies rely on the latest technology to run their businesses, and the risk of cyber attacks is high. Every product, whether it’s software or an application, should go through some sort of security testing process. These chec...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/why-security-audits-are-important.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/why-security-audits-are-important.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "How to Use Closures in JavaScript - A Beginner's Guide"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/closures-in-javascript.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/closures-in-javascript.html
 prev: /programming/js/articles/README.md
 date: 2021-06-08
 isOriginal: false
@@ -353,7 +353,7 @@ Closures are one of those concepts that can be hard to understand when you're st
 {
   "title": "How to Use Closures in JavaScript - A Beginner's Guide",
   "desc": "By Matías Hernández Closures are a confusing JavaScript concept to learn, because it's hard to see how they're actually used.  Unlike other concepts such as functions, variables, and objects, you don't always use closures conscientiously and directly...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/closures-in-javascript.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/closures-in-javascript.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

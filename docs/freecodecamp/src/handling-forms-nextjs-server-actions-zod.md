@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "How to Handle Forms in Next.js with Server Actions and Zod for Validation"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/handling-forms-nextjs-server-actions-zod.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/handling-forms-nextjs-server-actions-zod.html
 prev: /programming/js-next/articles/README.md
 date: 2024-11-23
 isOriginal: false
@@ -459,7 +459,7 @@ Here's the [GitHub repository (<VPIcon icon="iconfont icon-github"/>`DeraCodings
 {
   "title": "How to Handle Forms in Next.js with Server Actions and Zod for Validation",
   "desc": "Forms are essential in modern websites, as they help you collect your users’ information. So knowing how to handle forms properly is crucial when you’re building web applications. In this article, you will learn how to handle forms in Next.js using s...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/handling-forms-nextjs-server-actions-zod.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/handling-forms-nextjs-server-actions-zod.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

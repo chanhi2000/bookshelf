@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: "The Fetch API Cheatsheet: Nine of the Most Common API Requests"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/fetch-api-cheatsheet.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/fetch-api-cheatsheet.html
 prev: /programming/js/articles/README.md
 date: 2020-11-17
 isOriginal: false
@@ -277,7 +277,7 @@ Oh, and you can get this cheatsheet in a [<VPIcon icon="fas fa-globe"/>printable
 {
   "title": "The Fetch API Cheatsheet: Nine of the Most Common API Requests",
   "desc": "By Ondrej Polesny Almost every project needs to communicate with the outside world. If youʼre working with JavaScript frameworks, you'll most likely use Fetch API to do that.  But when you're working with the API, do you remember the syntax by heart ...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/fetch-api-cheatsheet.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/fetch-api-cheatsheet.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

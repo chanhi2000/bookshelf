@@ -19,7 +19,7 @@ head:
     - property: og:description
       content: "What is Docker Compose? How to Use it with an Example"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/what-is-docker-compose-how-to-use-it.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/what-is-docker-compose-how-to-use-it.html
 prev: /devops/docker/articles/README.md
 date: 2023-04-08
 isOriginal: false
@@ -272,7 +272,7 @@ If you wish to learn more about Docker, subscribe to my article on my [<VPIcon i
 {
   "title": "What is Docker Compose? How to Use it with an Example",
   "desc": "Docker helps you setup a development environment on your machine quickly. It only takes a couple of minutes to go through the entire process.  But let's assume you were assigned on a project which requires at least 10 different services in a running ...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/what-is-docker-compose-how-to-use-it.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/what-is-docker-compose-how-to-use-it.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

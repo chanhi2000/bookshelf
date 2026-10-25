@@ -22,7 +22,7 @@ head:
     - property: og:description
       content: "How to Contribute to Open Source Projects as a Beginner"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-contribute-to-open-source-projects-as-a-beginner.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-contribute-to-open-source-projects-as-a-beginner.html
 prev: /programming/git/articles/README.md
 date: 2024-12-05
 isOriginal: false
@@ -431,7 +431,7 @@ Remember, every contributor starts somewhere. Don’t be discouraged if your fir
 {
   "title": "How to Contribute to Open Source Projects as a Beginner",
   "desc": "Recently, I attended an open-source summit and was struck by an unexpected revelation. During a panel discussion about community contributions, a question was posed to the audience: “How many of you have contributed to an open-source project before?”...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-contribute-to-open-source-projects-as-a-beginner.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-contribute-to-open-source-projects-as-a-beginner.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

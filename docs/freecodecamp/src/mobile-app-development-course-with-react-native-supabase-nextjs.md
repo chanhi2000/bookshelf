@@ -32,7 +32,7 @@ head:
     - property: og:description
       content: "Mobile App Development Course with React Native, Supabase, Next.js"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/mobile-app-development-course-with-react-native-supabase-nextjs.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/mobile-app-development-course-with-react-native-supabase-nextjs.html
 prev: /programming/js-react/articles/README.md
 date: 2024-10-16
 isOriginal: false
@@ -113,7 +113,7 @@ Watch the full course on [<VPIcon icon="fa-brands fa-youtube"/>the freeCodeCamp.
 {
   "title": "Mobile App Development Course with React Native, Supabase, Next.js",
   "desc": "Mobile app development has evolved tremendously, and creating a robust, full-featured app today involves mastering both the front-end and back-end. If you're looking to build something practical, like an e-commerce platform, and want to learn the ins...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/mobile-app-development-course-with-react-native-supabase-nextjs.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/mobile-app-development-course-with-react-native-supabase-nextjs.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

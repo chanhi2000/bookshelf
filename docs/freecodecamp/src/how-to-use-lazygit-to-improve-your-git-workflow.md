@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: "How to Use Lazygit to Improve Your Git Workflow"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-use-lazygit-to-improve-your-git-workflow.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-use-lazygit-to-improve-your-git-workflow.html
 prev: /programming/git/articles/README.md
 date: 2025-04-10
 isOriginal: false
@@ -358,7 +358,7 @@ To learn more about [LazyGit keybindings or shortcuts (<VPIcon icon="iconfont ic
 {
   "title": "How to Use Lazygit to Improve Your Git Workflow",
   "desc": "Lazygit is an open-source command line terminal UI for Git commands that I’ve used for the last couple of years, and it’s become my new best friend. Basically, the Lazygit tool is a wrapper for the Git command line that replaces it with a UI. Instead...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-use-lazygit-to-improve-your-git-workflow.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-use-lazygit-to-improve-your-git-workflow.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

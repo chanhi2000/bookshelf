@@ -24,7 +24,7 @@ head:
     - property: og:description
       content: "Intro to Algorithms with Python"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/intro-to-algorithms-with-python.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/intro-to-algorithms-with-python.html
 prev: /articles/README.md
 date: 2022-09-22
 isOriginal: false
@@ -142,7 +142,7 @@ Watch the full course below or on [<VPIcon icon="fa-brands fa-youtube"/>the free
 {
   "title": "Intro to Algorithms with Python",
   "desc": "Understanding algorithms in an important skill for many computer science jobs. Algorithms help us solve problems efficiently. We just published an introduction to algorithms with Python course on the freeCodeCamp.org YouTube channel. In this course, ...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/intro-to-algorithms-with-python.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/intro-to-algorithms-with-python.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

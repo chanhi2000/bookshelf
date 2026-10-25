@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "Key Security Concepts to Learn for a Career in Cybersecurity"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/key-cybersecurity-concepts-for-career.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/key-cybersecurity-concepts-for-career.html
 prev: /devops/security/articles/README.md
 date: 2024-10-09
 isOriginal: false

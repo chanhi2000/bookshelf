@@ -2349,11 +2349,61 @@ const BUILD_PUBLISH_NATIVE_ANDROID_APP_FROM_JETPACK_COMPOSE_TO_GOOGLE_PLAY_STORE
   ]
 }
 
+const PYTHON_IN_MARKETING_A_PRACTICAL_BOOK: SidebarInfoSubgroupTemplate = { // 2026-10-30
+  text: "Python in Marketing: A Practical Guide to Marketing Analytics, Automation, and Data-Driven Growth [Full Book]",
+  collapsible: true,
+  icon: 'iconfont icon-pandas',
+  subPath: 'python-in-marketing-a-practical-book',
+  children: [
+    'README',
+    // TODO: 페이지 생성
+  ]
+}
+
+const BUILD_PDF_STORYBOARD_GENERATOR_JAVASCRIPT: SidebarInfoSubgroupTemplate = { // 2026-11-07
+  text: "How to Build a PDF Storyboard Generator Using JavaScript",
+  collapsible: true,
+  icon: 'fa-brands fa-js',
+  subPath: 'build-pdf-storyboard-generator-javascript',
+  children: [
+    'README',
+    // TODO: 페이지 생성
+  ]
+}
+
 const Y2026: SidebarYeargroupTemplate = {
   text: '2026',
   collapsible: true,
   children: [
     // END: 2026
+    "build-nlp-pipeline-python-therapy-notes", // 2026-11-17
+    "how-to-build-a-translator-with-chrome-s-built-in-ai", // 2026-11-17
+    "build-and-train-a-glm-53-flash-model-from-scratch-with-python", // 2026-11-15
+    "speed-up-ci-in-the-age-of-ai-written-code", // 2026-11-13
+    "schema-drift-vs-semantic-drift-in-data-pipelines", // 2026-11-13
+    "build-image-storyboard-to-pdf-tool-javascript", // 2026-11-13
+    "learn-agentic-coding-with-codex-ai-coding-agents", // 2026-11-11
+    "how-file-transfer-services-work", // 2026-11-10
+    BUILD_PDF_STORYBOARD_GENERATOR_JAVASCRIPT, // 2026-11-07
+    "godot-4-roguelike-course-build-a-complete-top-down-action-game", // 2026-11-07
+    "how-to-use-shadcn-ui-in-react-native-applications-full-handbook", // 2026-11-06
+    "captcha-farm-attack", // 2026-11-05
+    "fix-common-technical-seo-issues", // 2026-11-04
+    "how-to-automate-docker-image-creation-for-postgres-using-shell", // 2026-11-04
+    "freelance-developer-design-studios", // 2026-11-04
+    "learn-vector-databases-for-beginners-embeddings-similarity-search-chromadb", // 2026-11-04
+    "how-to-detect-financial-fraud-patterns-with-knowledge-graphs-a-production-guide", // 2026-10-30
+    "ai-search-visibility", // 2026-10-30
+    "learn-real-world-penetration-testing-hands-on-ethical-hacking-crash-course", // 2026-10-30
+    "high-speed-decision-pipelines-jev-and-prefill-only-inference-from-scratch", // 2026-10-30
+    "build-with-gemini-4-argon-fast-track-api-crash-course", // 2026-10-30
+    "secure-your-ai-agents-free-model-context-protocol-mcp-security-course", // 2026-10-30
+    PYTHON_IN_MARKETING_A_PRACTICAL_BOOK, // 2026-10-30
+    "cloud-service-models-explained-iaas-vs-paas-vs-saas", // 2026-10-30
+    "how-to-build-a-command-line-weather-app-with-python", // 2026-10-29
+    "how-to-build-passkey-authentication-with-webauthn-next-js-and-nestjs", // 2026-10-28
+    "how-to-build-a-simple-data-analyzer-in-python-with-pandas", // 2026-10-27
+    "how-noise-cancelling-headphones-work", // 2026-10-26
     "learn-model-context-protocol-mcp-security", // 2026-10-23
     "what-is-model-distillation-a-guide-for-developers", // 2026-10-22
     "diagnose-vite-not-found-npm-ci-container-build", // 2026-10-22
@@ -4795,6 +4845,8 @@ export const template: SidebarInfoTemplate = {
         "how-to-build-a-real-time-word-counter-tool-with-html-css-and-javascript", // 2026-09-30
         "css-content-visibility-rendering-performance", // 2026-10-01
         "how-to-submit-a-quarterly-update-to-hmrc-making-tax-digital-api", // 2026-10-04
+        "fix-common-technical-seo-issues", // 2026-11-04
+        BUILD_PDF_STORYBOARD_GENERATOR_JAVASCRIPT, // 2026-11-07
         // END: 2026js
         // END: js
       ]], [
@@ -4978,6 +5030,7 @@ export const template: SidebarInfoTemplate = {
         "how-to-break-the-ai-coding-agent-fix-loop", // 2026-10-05
         "how-to-make-your-coding-agent-check-its-work-in-the-browser", // 2026-10-20
         "diagnose-vite-not-found-npm-ci-container-build", // 2026-10-22
+        "build-with-gemini-4-argon-fast-track-api-crash-course", // 2026-10-30
         // END: 2026js-node
         // END: js-node
       ]], [
@@ -5167,6 +5220,8 @@ export const template: SidebarInfoTemplate = {
         "how-to-build-an-ai-chatbot-with-gemini-and-vercel-serverless-functions", // 2026-09-08
         "the-ios-nfc-handbook-how-to-read-write-and-lock-nfc-tags-with-react-native", // 2026-09-20
         "build-and-publish-a-full-stack-mobile-app-with-ai", // 2026-10-02
+        "how-to-use-shadcn-ui-in-react-native-applications-full-handbook", // 2026-11-06
+        "learn-agentic-coding-with-codex-ai-coding-agents", // 2026-11-11
         // END: 2026js-react
         // END: js-react
       ]], [
@@ -5187,6 +5242,7 @@ export const template: SidebarInfoTemplate = {
         "how-to-build-an-ai-chat-app-interface-with-the-ai-sdk", // 2026-09-12
         "how-to-add-shadcn-ui-charts-to-nextjs", // 2026-10-02
         "how-to-build-a-website-user-interface-faster-using-ai-prompts", // 2026-10-19
+        "how-to-use-shadcn-ui-in-react-native-applications-full-handbook", // 2026-11-06
         // END: 2026js-shadcn
         // END: js-shadcn
       ]], [
@@ -5277,8 +5333,10 @@ export const template: SidebarInfoTemplate = {
         "build-an-ai-support-system-that-automatically-routes-bugs-to-github", // 2026-10-02
         "nextjs-json-ld-structured-data", // 2026-10-11
         "how-to-build-a-website-user-interface-faster-using-ai-prompts", // 2026-10-19
+        "how-to-build-passkey-authentication-with-webauthn-next-js-and-nestjs", // 2026-10-28
+        "how-to-build-a-translator-with-chrome-s-built-in-ai", // 2026-11-17
         // END: 2026js-next
-        // END:t
+        // END: js-next
       ]], [
       "js-nuxt", [
         "rbac-community-dashboard-with-nuxt", // 2024-11-23
@@ -5344,6 +5402,7 @@ export const template: SidebarInfoTemplate = {
         "how-to-build-a-scholarship-research-mcp-server-with-node-js-express-and-mongodb", // 2026-09-05
         "how-orms-still-let-sql-injection-through-and-how-to-close-the-gaps", // 2026-09-29
         NODEJS_AND_EXPRESSJS_HANDBOOK_FOR_BEGINNERS, // 2026-10-01
+        "how-file-transfer-services-work", // 2026-11-10
         // END: 2026js-express
         // END: js-express
       ]], [
@@ -5373,6 +5432,7 @@ export const template: SidebarInfoTemplate = {
         "the-saga-pattern-in-node-js-roll-back-distributed-transactions-across-microservices", // 2026-06-13
         "how-to-implement-paypal-in-a-microservice-architecture-using-nestjs-grpc-and-docker", // 2026-07-17
         "how-to-use-nestjs-observe-an-observability-handbook-for-devs", // 2026-10-05
+        "how-to-build-passkey-authentication-with-webauthn-next-js-and-nestjs", // 2026-10-28
         // END: 2026js-nest
         // END: js-nest
       ]], [
@@ -5586,6 +5646,7 @@ export const template: SidebarInfoTemplate = {
         "fullscreen-api-javascript-wake-lock", // 2026-09-29
         "how-to-build-a-real-time-word-counter-tool-with-html-css-and-javascript", // 2026-09-30
         "css-content-visibility-rendering-performance", // 2026-10-01
+        BUILD_PDF_STORYBOARD_GENERATOR_JAVASCRIPT, // 2026-11-07
         // END: 2026css
         // END`: css
       ]], [
@@ -5870,6 +5931,8 @@ export const template: SidebarInfoTemplate = {
         "how-to-create-system-design-diagrams-using-python", // 2026-10-08
         AGENTIC_AI_RELIABILITY_BOOK_BUILD_A_TESTING_HARNESS, // 2026-10-17
         "build-a-hybrid-search-engine-in-postgresql-bm25-vector-retrieval", // 2026-10-21
+        "how-to-build-a-command-line-weather-app-with-python", // 2026-10-29
+        "how-to-detect-financial-fraud-patterns-with-knowledge-graphs-a-production-guide", // 2026-10-30
         // END: 2026py
         // END: py
       ]], [
@@ -5998,6 +6061,8 @@ export const template: SidebarInfoTemplate = {
         NEURAL_NETWORKS_EXPLAINED_SIMPLY_IN_PYTHON, // 2026-08-22
         "build-a-self-evaluating-ai-system-automated-testing-and-evaluation-pipelines-for-llm-apps", // 2026-09-12
         "how-to-turn-a-recist-line-into-a-3d-tumor-segmentation-mask", // 2026-09-19
+        PYTHON_IN_MARKETING_A_PRACTICAL_BOOK, // 2026-10-30
+        "build-and-train-a-glm-53-flash-model-from-scratch-with-python", // 2026-11-15
         // END: 2026py-numpy
         // END: py-numpy
       ]], [
@@ -6060,6 +6125,7 @@ export const template: SidebarInfoTemplate = {
         "how-to-customize-an-llm-for-ai-agents-using-sft-and-qlora", // 2026-08-07
         "how-to-turn-a-recist-line-into-a-3d-tumor-segmentation-mask", // 2026-09-19
         "what-is-model-distillation-a-guide-for-developers", // 2026-10-22
+        "build-and-train-a-glm-53-flash-model-from-scratch-with-python", // 2026-11-15
         // END: 2026py-torch
         // END: py-torch
       ]], [
@@ -6118,6 +6184,8 @@ export const template: SidebarInfoTemplate = {
         BUILD_A_MULTI_AGENT_TRADING_RESEARCH_SYSTEM_WITH_LANGCHAIN_DEEP_AGENTS_HANDBOOK, // 2026-08-15
         HOW_TO_USE_GRADIO_WITH_PYTHON_BEGINNER_TO_ADVANCED_BOOK, // 2026-09-10
         "build-a-self-evaluating-ai-system-automated-testing-and-evaluation-pipelines-for-llm-apps", // 2026-09-12
+        "how-to-build-a-simple-data-analyzer-in-python-with-pandas", // 2026-10-27
+        PYTHON_IN_MARKETING_A_PRACTICAL_BOOK, // 2026-10-30
         // END: 2026py-pandas
         // END: py-pandas
       ]], [
@@ -6161,6 +6229,8 @@ export const template: SidebarInfoTemplate = {
         "how-to-write-your-first-quantum-circuit-in-python-a-beginner-s-step-by-step-guide", // 2026-06-30
         "switchback-experiments-for-ai-platform-features-in-python", // 2026-07-01
         "stop-early-without-p-hacking-using-msprt-and-sequential-testing-in-python", // 2026-07-03
+        "how-to-build-a-simple-data-analyzer-in-python-with-pandas", // 2026-10-27
+        "build-and-train-a-glm-53-flash-model-from-scratch-with-python", // 2026-11-15
         // END: 2026py-matplotlib
         // END: py-matplotlib
       ]], [
@@ -6210,6 +6280,7 @@ export const template: SidebarInfoTemplate = {
         // END: 2025py-pydantic
         "build-ai-applications-that-switch-models-automatically", // 2026-07-29
         "building-agents-with-pydantic-ai", // 2026-08-14
+        "schema-drift-vs-semantic-drift-in-data-pipelines", // 2026-11-13
         // END: 2026py-pydantic
         // END: py-pydantic
       ]], [
@@ -6673,6 +6744,8 @@ export const template: SidebarInfoTemplate = {
         "integrate-ai-into-your-terminal-using-opencode", // 2025-10-10
         "the-secret-life-of-your-cpu-exploring-the-low-power-island-in-android-bluetooth", // 2025-11-14
         "command-line-basics-for-beginners", // 2026-07-01
+        "how-to-automate-docker-image-creation-for-postgres-using-shell", // 2026-11-04
+        "fix-common-technical-seo-issues", // 2026-11-04
         // END: 2025sh
         // END: sh
       ]], [
@@ -6732,6 +6805,8 @@ export const template: SidebarInfoTemplate = {
         "learn-godot-course-for-beginners-in-spanish", // 2025-06-04
         "learn-game-development-by-building-your-first-platformer-with-godot", // 2025-09-10
         // END: 2025gd
+        "godot-4-roguelike-course-build-a-complete-top-down-action-game", // 2026-11-07
+        // END: 2026gd
         // END: gd
       ]], [
       "hs", [
@@ -6807,6 +6882,7 @@ export const template: SidebarInfoTemplate = {
         "cdn-cache-made-my-site-slower", // 2026-08-28
         "how-to-build-api-documentation-from-scratch-roadmap", // 2026-08-31
         "executable-operational-specifications-software-automation", // 2026-09-25
+        "cloud-service-models-explained-iaas-vs-paas-vs-saas", // 2026-10-30
         // END: 2026devops
         // END: devops
       ]], [
@@ -6893,6 +6969,7 @@ export const template: SidebarInfoTemplate = {
         "how-to-prevent-poisoned-github-actions-dependencies", // 2026-09-19
         "how-to-build-a-reading-focused-blog-with-python-markdown-and-github-pages-for-free", // 2026-09-22
         "build-an-ai-support-system-that-automatically-routes-bugs-to-github", // 2026-10-02
+        "speed-up-ci-in-the-age-of-ai-written-code", // 2026-11-13
         // END: 2026github
         // END: github
       ]], [
@@ -6956,6 +7033,7 @@ export const template: SidebarInfoTemplate = {
         "how-linux-actually-boots-from-firmware-to-the-login-screen", // 2026-09-10
         "how-to-sandbox-a-linux-process-with-landlock-no-root-required", // 2026-09-12
         "how-to-write-a-linux-kernel-module-that-actually-builds", // 2026-09-16
+        "learn-real-world-penetration-testing-hands-on-ethical-hacking-crash-course", // 2026-10-30
         // END: 2026linux-debian
         // END: linux-debian
       ]], [
@@ -7109,6 +7187,7 @@ export const template: SidebarInfoTemplate = {
         "claude-code-in-a-docker-sandbox", // 2026-10-06
         HOW_TO_MIGRATE_AN_APPLICATION_FROM_AWS_TO_GKE_FULL_BOOK, // 2026-10-17
         "diagnose-vite-not-found-npm-ci-container-build", // 2026-10-22
+        "how-to-detect-financial-fraud-patterns-with-knowledge-graphs-a-production-guide", // 2026-10-30
         // END: 2026docker
         // END: docker
       ]], [
@@ -7667,6 +7746,9 @@ export const template: SidebarInfoTemplate = {
         "engineering-anatomy-of-api-vulnerabilities-owasp-api-security-top-10", // 2026-10-05
         "api-authentication-authorization-mechanisms-trade-offs-and-failure-modes", // 2026-10-05
         "how-to-encrypt-pii-in-data-pipelines-while-keeping-it-searchable", // 2026-10-06
+        "secure-your-ai-agents-free-model-context-protocol-mcp-security-course", // 2026-10-30
+        "learn-real-world-penetration-testing-hands-on-ethical-hacking-crash-course", // 2026-10-30
+        "captcha-farm-attack", // 2026-11-05
         // END: 2026security
         // END: security
       ]], [
@@ -7804,6 +7886,7 @@ export const template: SidebarInfoTemplate = {
         "firestore-data-modeling-guide-embedded-documents-vs-referencing-with-a-blog-case-study", // 2026-07-25
         "how-to-work-with-subqueries-in-sql", // 2026-08-18
         UNDERSTANDING_DATA_MANAGEMENT_WITH_A_REAL_WORLD_USE_CASE_BOOK, // 2026-08-26
+        "learn-vector-databases-for-beginners-embeddings-similarity-search-chromadb", // 2026-11-04
         // END: 2026data-science
         // END: data-science
       ]], [
@@ -7860,6 +7943,8 @@ export const template: SidebarInfoTemplate = {
         "how-to-fix-the-dual-write-problem-in-node-js-with-the-outbox-pattern", // 2026-08-06
         "timescaledb-course-postgresql-for-time-series-data", // 2026-09-24
         "build-a-hybrid-search-engine-in-postgresql-bm25-vector-retrieval", // 2026-10-21
+        "how-to-build-passkey-authentication-with-webauthn-next-js-and-nestjs", // 2026-10-28
+        "how-to-automate-docker-image-creation-for-postgres-using-shell", // 2026-11-04
         // END: 2026postgresql
         // END: postgresql
       ]], [
@@ -7925,6 +8010,8 @@ export const template: SidebarInfoTemplate = {
         "learn-databases-and-sql-from-harvard-university", // 2025-10-09
         // END: 2025sqlite
         HOW_TO_BUILD_A_BASIC_DISCORD_BOT_WITH_PYTHON, // 2026-08-15
+        "learn-agentic-coding-with-codex-ai-coding-agents", // 2026-11-11
+        "schema-drift-vs-semantic-drift-in-data-pipelines", // 2026-11-13
         // END: 2026sqlite
         // END: sqlite
       ]], [
@@ -8072,6 +8159,7 @@ export const template: SidebarInfoTemplate = {
         "how-to-turn-performance-audits-into-ai-fix-prompts-with-a-devtools-extension", // 2026-06-23
         "how-to-stop-your-ai-coding-agent-from-writing-outdated-code-with-modern-web-guidance", // 2026-06-25
         "how-the-chrome-dino-game-works", // 2026-08-14
+        "how-to-build-a-translator-with-chrome-s-built-in-ai", // 2026-11-17
         // END: 2026chrome
         // END: chrome
       ]], [
@@ -8225,6 +8313,7 @@ export const template: SidebarInfoTemplate = {
         "healthcare-ai-won-t-work-until-you-fix-your-data", // 2026-10-01
         "ai-email-deliverability-explained", // 2026-10-05
         "the-anatomy-of-an-ai-data-center", // 2026-10-16
+        "ai-search-visibility", // 2026-10-30
         // END: 2026ai
         // END: ai
       ]], [
@@ -8375,6 +8464,10 @@ export const template: SidebarInfoTemplate = {
         "detect-operational-drift-before-incident", // 2026-10-19
         "how-neural-networks-work-why-straight-lines-aren-t-enough", // 2026-10-21
         "what-is-model-distillation-a-guide-for-developers", // 2026-10-22
+        "learn-vector-databases-for-beginners-embeddings-similarity-search-chromadb", // 2026-11-04
+        "learn-agentic-coding-with-codex-ai-coding-agents", // 2026-11-11
+        "how-to-build-a-translator-with-chrome-s-built-in-ai", // 2026-11-17
+        "build-nlp-pipeline-python-therapy-notes", // 2026-11-17
         // END: 2026llm
         // END: llm
       ]], [
@@ -8461,6 +8554,7 @@ export const template: SidebarInfoTemplate = {
         "agentic-ai-engineering-in-practice-how-to-build-with-claude-code-codex-and-gemini", // 2026-09-05
         "how-to-build-an-ai-chatbot-with-gemini-and-vercel-serverless-functions", // 2026-09-08
         "why-you-should-never-embed-your-gemini-api-key-in-client-code-and-how-firebase-ai-logic-fixes-it", // 2026-09-20
+        "build-with-gemini-4-argon-fast-track-api-crash-course", // 2026-10-30
         // END: 2026gemini
         // END: gemini
       ]], [
@@ -8736,12 +8830,15 @@ export const template: SidebarInfoTemplate = {
         "claude-code-full-course", // 2026-08-05
         "build-a-privacy-first-medical-image-de-identification-agent", // 2026-08-06
         "how-to-build-a-scholarship-research-mcp-server-with-node-js-express-and-mongodb", // 2026-09-05
+        "secure-your-ai-agents-free-model-context-protocol-mcp-security-course", // 2026-10-30
+        "learn-agentic-coding-with-codex-ai-coding-agents", // 2026-11-11
         // END: 2026mcp
         // END: mcp
       ]], [
       "jev", [
         "build-an-ai-resume-screening-tool-with-next-js-supabase-and-typesafe-jev", // 2026-09-29
         "build-an-ai-support-system-that-automatically-routes-bugs-to-github", // 2026-10-02
+        "high-speed-decision-pipelines-jev-and-prefill-only-inference-from-scratch", // 2026-10-30
         // END: 2026jev
         // END: jev
       ]], [
@@ -8797,6 +8894,7 @@ export const template: SidebarInfoTemplate = {
         // END: 2025fnce
         "financial-storytelling-using-data-visualization", // 2026-03-12
         "how-to-analyze-insider-transactions-with-python-a-ceo-buying-case-study", // 2026-07-15
+        "how-to-detect-financial-fraud-patterns-with-knowledge-graphs-a-production-guide", // 2026-10-30
         // END: 2026fnce
         // END: fnce
       ]], [
@@ -8900,6 +8998,7 @@ export const template: SidebarInfoTemplate = {
         "the-7-essential-parts-of-your-online-presence", // 2026-09-16
         "migrate-legacy-monolith-incrementally", // 2026-09-18
         "ai-email-deliverability-explained", // 2026-10-05
+        "freelance-developer-design-studios", // 2026-11-04
         // END: 2026coen
         // END: coen
       ]], [
@@ -8944,6 +9043,7 @@ export const template: SidebarInfoTemplate = {
         "the-real-infrastructure-behind-remote-work-it-s-not-just-wi-fi", // 2026-05-07
         "tools-digital-nomads-need-in-2026", // 2026-05-16
         "the-7-essential-parts-of-your-online-presence", // 2026-09-16
+        "freelance-developer-design-studios", // 2026-11-04
         // END: 2026career
         // END: career
       ]], [
@@ -8976,6 +9076,7 @@ export const template: SidebarInfoTemplate = {
         "are-screenless-wearables-better-for-health-tracking", // 2026-10-01
         "the-anatomy-of-an-ai-data-center", // 2026-10-16
         "how-wearables-can-adapt-when-pregnancy-changes-a-user-s-regular-baseline", // 2026-10-21
+        "how-noise-cancelling-headphones-work", // 2026-10-26
         // END: 2026hw
         // END: hw
       ]], [

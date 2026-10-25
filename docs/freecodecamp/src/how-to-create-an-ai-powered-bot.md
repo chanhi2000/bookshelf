@@ -29,7 +29,7 @@ head:
     - property: og:description
       content: "How to Create an AI-Powered Bot that Can Post on Twitter/X"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-create-an-ai-powered-bot.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-create-an-ai-powered-bot.html
 prev: /programming/js-node/articles/README.md
 date: 2025-04-24
 isOriginal: false
@@ -669,7 +669,7 @@ Meanwhile, you can follow my [Twitter/X account (<VPIcon icon="fa-brands fa-x-tw
 {
   "title": "How to Create an AI-Powered Bot that Can Post on Twitter/X",
   "desc": "These days, everyone wants to be a content creator. But it can be hard to find time to create and curate content, post on social media, build engagement, and grow your brand. And I’m not an exception to this. I wanted to create more content, and had ...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-create-an-ai-powered-bot.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-create-an-ai-powered-bot.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

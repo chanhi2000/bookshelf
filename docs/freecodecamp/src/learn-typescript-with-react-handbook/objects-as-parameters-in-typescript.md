@@ -17,7 +17,7 @@ head:
     - property: og:description
       content: "Objects as Parameters in TypeScript"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/learn-typescript-with-react-handbook/objects-as-parameters-in-typescript.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-typescript-with-react-handbook/objects-as-parameters-in-typescript.html
 date: 2025-02-08
 isOriginal: false
 author:

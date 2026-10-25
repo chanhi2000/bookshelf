@@ -20,7 +20,7 @@ head:
     - property: og:description
       content: "1. Brief Overview of JavaScript and Python"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/learn-python-for-javascript-developers-handbook/1-brief-overview-of-javascript-and-python.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-python-for-javascript-developers-handbook/1-brief-overview-of-javascript-and-python.html
 date: 2024-11-22
 isOriginal: false
 author:

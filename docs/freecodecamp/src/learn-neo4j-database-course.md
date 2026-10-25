@@ -23,7 +23,7 @@ head:
     - property: og:description
       content: "Learn to Build Graph Databases with Neo4j (Full Course)"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/learn-neo4j-database-course.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-neo4j-database-course.html
 prev: /programming/java/articles/README.md
 date: 2023-06-02
 isOriginal: false
@@ -81,7 +81,7 @@ So if you are ready to start learning about this powerful graph database system,
 {
   "title": "Learn to Build Graph Databases with Neo4j (Full Course)",
   "desc": "Neo4j is revolutionizing the way we handle complex relationships between data points. Its intuitive graph-based structure provides a flexible and efficient solution for various applications. We just published a Neo4j course on the freeCodeCamp.org Yo...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/learn-neo4j-database-course.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-neo4j-database-course.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

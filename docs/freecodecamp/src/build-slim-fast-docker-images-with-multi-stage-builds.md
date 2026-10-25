@@ -26,7 +26,7 @@ head:
     - property: og:description
       content: "How to Build Slim and Fast Docker Images with Multi-Stage Builds"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/build-slim-fast-docker-images-with-multi-stage-builds.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-slim-fast-docker-images-with-multi-stage-builds.html
 prev: /devops/docker/articles/README.md
 date: 2025-05-15
 isOriginal: false
@@ -284,7 +284,7 @@ Not every project needs them, but when you do, they make a big difference. So ne
 {
   "title": "How to Build Slim and Fast Docker Images with Multi-Stage Builds",
   "desc": "Apps don’t stay simple forever. More features mean more dependencies, slower builds, and heavier Docker images. That’s where things start to hurt. Docker helps, but without the right setup, your builds can quickly get bloated. Multi-stage builds make...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/build-slim-fast-docker-images-with-multi-stage-builds.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/build-slim-fast-docker-images-with-multi-stage-builds.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

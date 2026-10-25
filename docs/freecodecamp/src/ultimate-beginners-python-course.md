@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Ultimate Beginner's Python Course"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/ultimate-beginners-python-course.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/ultimate-beginners-python-course.html
 prev: /programming/py/articles/README.md
 date: 2023-09-20
 isOriginal: false
@@ -113,7 +113,7 @@ You can watch the full course [<VPIcon icon="fa-brands fa-youtube"/>on the freeC
 {
   "title": "Ultimate Beginner's Python Course",
   "desc": "If you've ever considered venturing into the world of Python programming or if you're just looking for a comprehensive guide to help reinforce your existing knowledge, you're in for a treat. I'm excited to announce that Dave Gray, one of our most pop...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/ultimate-beginners-python-course.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/ultimate-beginners-python-course.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

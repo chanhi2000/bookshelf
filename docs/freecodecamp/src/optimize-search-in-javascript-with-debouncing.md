@@ -18,7 +18,7 @@ head:
     - property: og:description
       content: "How to Optimize Search in JavaScript with Debouncing"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/optimize-search-in-javascript-with-debouncing.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/optimize-search-in-javascript-with-debouncing.html
 prev: /programming/js/articles/README.md
 date: 2025-09-24
 isOriginal: false
@@ -211,7 +211,7 @@ See you in the next article — until then, keep learning!
 {
   "title": "How to Optimize Search in JavaScript with Debouncing",
   "desc": "A few months ago, my manager assigned me a task: implement a search functionality across an entire page. The tricky part was that the displayed text was shown in the form of prompts, and each prompt could be truncated after two lines. If the text exc...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/optimize-search-in-javascript-with-debouncing.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/optimize-search-in-javascript-with-debouncing.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

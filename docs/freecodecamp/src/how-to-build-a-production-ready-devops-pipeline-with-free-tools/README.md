@@ -29,7 +29,7 @@ head:
     - property: og:description
       content: "How to Build a Production-Ready DevOps Pipeline with Free Tools"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/how-to-build-a-production-ready-devops-pipeline-with-free-tools/
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-build-a-production-ready-devops-pipeline-with-free-tools/
 prev: /articles/README.md
 date: 2025-04-29
 isOriginal: false
@@ -1384,7 +1384,7 @@ I’d love to see what you build. Share your pipeline on [<VPIcon icon="fa-brand
 {
   "title": "How to Build a Production-Ready DevOps Pipeline with Free Tools",
   "desc": "A few months ago, I dove into DevOps, expecting it to be an expensive journey requiring costly tools and infrastructure. But I discovered you can build professional-grade pipelines using entirely free resources. If DevOps feels out of reach because y...",
-  "link": "https://chanhi2000.github.io/bookshelf/fcc/how-to-build-a-production-ready-devops-pipeline-with-free-tools.html",
+  "link": "https://chanhi2000.github.io/bookshelf/freecodecamp.org/how-to-build-a-production-ready-devops-pipeline-with-free-tools.html",
   "logo": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
   "background": "rgba(10,10,35,0.2)"
 }

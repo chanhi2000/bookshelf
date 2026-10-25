@@ -21,7 +21,7 @@ head:
     - property: og:description
       content: "Adoption in Cryptographic Libraries (PKCS#1 v1.5 vs OAEP)"
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/the-cryptography-handbook-rsa-algorithm/adoption-in-cryptographic-libraries-pkcs1-v15-vs-oaep.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/the-cryptography-handbook-rsa-algorithm/adoption-in-cryptographic-libraries-pkcs1-v15-vs-oaep.html
 date: 2025-04-03
 isOriginal: false
 author:

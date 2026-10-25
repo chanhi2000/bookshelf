@@ -26,7 +26,7 @@ head:
     - property: og:description
       content: Learn High-Level System Design by Building a YouTube Clone
     - property: og:url
-      content: https://chanhi2000.github.io/bookshelf/fcc/learn-high-level-system-design-by-building-a-youtube-clone.html
+      content: https://chanhi2000.github.io/bookshelf/freecodecamp.org/learn-high-level-system-design-by-building-a-youtube-clone.html
 prev: /programming/js-react/articles/README.md
 date: 2024-06-11
 isOriginal: false
