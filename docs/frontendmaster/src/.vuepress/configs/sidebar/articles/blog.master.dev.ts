@@ -5,6 +5,13 @@ const Y2026: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2026
+    "what-should-you-put-on-a-dynamic-custom-social-media-card-image", // 2026-10-26
+    "building-an-isolated-preview-for-ai-generated-html", // 2026-10-22
+    "structured-output-with-tanstack-ai", // 2026-10-19
+    "unlocking-ai-in-your-apps-with-tanstack-ai", // 2026-10-16
+    "svg-linked-parameters-will-change-how-we-do-icon-systems", // 2026-10-15
+    "building-a-fancy-scrollspy-using-modern-css", // 2026-10-14
+    "tips-and-tricks-for-using-tanstack-start-with-cloudflare-durable-objects", // 2026-10-12
     "5-good-choices-for-html-containers", // 2026-10-09
     "testing-an-iframes-postmessage-handler", // 2026-10-07
     "transferring-sibling-count-to-a-parent-element", // 2026-10-05
@@ -116,6 +123,7 @@ const Y2026: SidebarYeargroupTemplate = {
     "single-flight-mutations-in-tanstack-start-part-2", // 2026-01-28
     "single-flight-mutations-in-tanstack-start-part-1", // 2026-01-23
     "view-transitions-playing-video", // 2026-01-20
+    "firefox-goes-css-modules", // 2026-01-21
     "the-missing-link-for-web-components", // 2026-01-15
     "simulating-crop-marks", // 2026-01-13
     "beyond-the-mouse-animating-with-mobile-accelerometers", // 2026-01-09
@@ -279,6 +287,7 @@ const Y2024: SidebarYeargroupTemplate = {
     "css-fan-out-with-grid-and-property", // 2024-10-09
     "reminder-that-scope-and-html-style-blocks-are-a-potent-combo", //2024-10-07
     "whats-the-difference-between-htmls-dialog-element-and-popovers", // 2024-09-30
+    "why-does-this-have-to-be-a-modal", // 2024-09-27
     "you-might-not-need-that-framework", // 2024-09-27
     "what-software-developer-skills-should-you-focus-on-leading-into-2025", // 2024-09-25
     "keeping-pixely-images-pixely-and-performant", // 2024-09-23
@@ -303,6 +312,7 @@ const Y2024: SidebarYeargroupTemplate = {
     "figma-typography-variables", // 2024-08-05
     "what-if-you-used-container-units-for-everything", // 2024-08-02
     "reading-from-the-clipboard-in-javascript", // 2024-07-31
+    "svg-triangle-of-compromise", // 2024-07-30
     "patterns-for-memory-efficient-dom-manipulation", // 2024-07-29
     "how-to-get-the-width-height-of-any-element-in-only-css", // 2024-07-25
     "clip-pathing-color-changes", // 2024-07-23
@@ -335,9 +345,11 @@ const Y2024: SidebarYeargroupTemplate = {
     "exactly-how-to-deploy-local-files-to-make-a-live-website", // 2024-05-17
     "prefetching-when-server-loading-wont-do", // 2024-05-15
     "the-classic-border-radius-advice-plus-an-unusual-trick", // 2024-05-13
+    "frontend-to-fullstack-13", // 2024-05-13
     "using-css-scroll-driven-animations-for-section-based-scroll-progress-indicators", // 2024-05-10
     "5-things-designers-can-do-with-javascript", // 2024-05-08
     "using-the-popover-api-for-html-tooltips", // 2024-05-06
+    "icones", // 2024-05-06
     "multiplexed-fonts-have-a-cool-superpower", // 2024-05-03
     "popover-api-is-here", // 2024-04-30
     "using-nextauth-now-auth-js-with-sveltekit", // 2024-04-29
@@ -345,12 +357,17 @@ const Y2024: SidebarYeargroupTemplate = {
     "feedback-on-masonry-layout", // 2024-04-24
     "dark-and-light", // 2024-04-18
     "things-that-can-break-aspect-ratio-in-css", // 2024-04-16
+    "color-picker-with-display-p3", // 2024-04-12
     "a-css-powered-add-remove-tags-ui", // 2024-04-11
     "drawing-a-line-to-connect-elements-with-css-anchor-positioning", // 2024-04-02
+    "flashy-landing-pages", // 2024-03-27
+    "dom-to-png-directly-in-the-browser", // 2024-03-13
     "menus-toasts-and-more", // 2024-03-04
     "creating-flower-shapes-using-css-mask-trigonometric-functions", // 2024-02-29
+    "building-a-todo-app-from-scratch-step-4-styling-interactive-choices", // 2024-02-28
     "scroll-locked-dialogs", // 2024-02-19
     "basic-dialog-usage-and-gotchas-to-watch-for", // 2024-02-05
+    "mask-your-icons", // 2024-02-02
 
     "heads-up-on-custom-scrollbars-chrome-is-supporting-the-standard-now-which-overrides-the-old-pseudo-elements", // 2024-01-31
     "the-color-input-the-color-picker", // 2024-01-18
@@ -366,8 +383,10 @@ const Y2023: SidebarYeargroupTemplate = {
   children: [
     // END: 2023
     "container-queries-and-units", // 2023-12-21
+    "media-scripting-enabled", // 2023-12-14
     "light-dom-only", // 2023-12-08
     "vanilla-javascript-reactivity", // 2023-08-21
+    "dark-patterns", // 2023-04-24
     "what-is-sql-database-definition-for-beginners", // 2023-01-13
   ]
 }
@@ -382,7 +401,9 @@ export const template: SidebarInfoTemplate = {
       // END: java
     ]],[
     "js", [
+      // END: 2022js
       "vanilla-javascript-reactivity", // 2023-08-21
+      "media-scripting-enabled", // 2023-12-14
       // END: 2023js
       "console-delight", // 2024-01-11
       "the-color-input-the-color-picker", // 2024-01-18
@@ -410,11 +431,14 @@ export const template: SidebarInfoTemplate = {
       "sharing-a-variable-across-html-css-and-javascript", // 2025-01-08
       "simplify-lazy-loading-with-intersection-observers-scrollmargin", // 2025-01-20
       "mapping-with-leaflet", // 2025-01-29
+      "the-case-for-design-engineers", // 2024-02-14
+      "dom-to-png-directly-in-the-browser", // 2024-03-13
       "css-spotlight-effect", // 2025-05-26
       "view-transition-list-reordering-with-a-kick-flip", // 2025-07-08
       "using-the-custom-highlight-api", // 2025-08-07
       "a-progressive-enhancement-challenge", // 2025-10-03
       // END: 2025js
+      "firefox-goes-css-modules", // 2026-01-21
       "view-transitions-playing-video", // 2026-01-20
       "the-browser-hates-surprises", // 2026-02-06
       "virtual-scroll-driven-3d-scenes", // 2026-02-23
@@ -429,6 +453,7 @@ export const template: SidebarInfoTemplate = {
       "new-things-you-should-know-about-html-here-in-mid-2026", // 2026-09-02
       "custom-scrollbar-component-in-2026", // 2026-09-07
       "5-good-choices-for-html-containers", // 2026-10-09
+      "building-an-isolated-preview-for-ai-generated-html", // 2026-10-22
       // END: 2026js
       // END: js
     ]],[
@@ -490,7 +515,6 @@ export const template: SidebarInfoTemplate = {
       "building-a-blog-in-tanstack-part-2-of-2", // 2026-04-20
       "introducing-tanstack-form", // 2026-05-01
       "react-server-components-in-tanstack", // 2026-05-18
-      "cloudflare-workers-and-hyperdrive-with-tanstack-start", // 2026-07-02
       "durable-objects-on-cloudflare", // 2026-07-20
       "react-compiler-linting-just-got-a-rust-native-speedup-in-oxlint", // 2026-08-17
       "keyboard-shortcuts-that-display-the-correct-modifier-key-per-os", // 2026-08-21
@@ -504,6 +528,14 @@ export const template: SidebarInfoTemplate = {
       // END: 2024js-react
       // END: 2025js-react
       // END: js-next
+    ]],[
+    "js-tanstack", [
+      "cloudflare-workers-and-hyperdrive-with-tanstack-start", // 2026-07-02
+      "tips-and-tricks-for-using-tanstack-start-with-cloudflare-durable-objects", // 2026-10-12
+      "unlocking-ai-in-your-apps-with-tanstack-ai", // 2026-10-16
+      "structured-output-with-tanstack-ai", // 2026-10-19
+      // END: 2026js-tanstack
+      // END: js-tanstack
     ]],[
     "js-vue", [
       "exploring-multi-brand-systems-with-tokens-and-composability", // 2025-12-19
@@ -545,21 +577,30 @@ export const template: SidebarInfoTemplate = {
       // END: js-bun
     ]],[
     "css", [
+      // END: 2022css
       "light-dom-only", // 2023-12-08
+      "media-scripting-enabled", // 2023-12-14
       // END: 2023css
       "we-can-has-it-all", // 2024-01-10
       "heads-up-on-custom-scrollbars-chrome-is-supporting-the-standard-now-which-overrides-the-old-pseudo-elements", // 2024-01-31
+      "mask-your-icons", // 2024-02-02
       "basic-dialog-usage-and-gotchas-to-watch-for", // 2024-02-05
+      "the-case-for-design-engineers", // 2024-02-14
       "scroll-locked-dialogs", // 2024-02-19
+      "building-a-todo-app-from-scratch-step-4-styling-interactive-choices", // 2024-02-28
       "creating-flower-shapes-using-css-mask-trigonometric-functions", // 2024-02-29
+      "dom-to-png-directly-in-the-browser", // 2024-03-13
+      "flashy-landing-pages", // 2024-03-27
       "drawing-a-line-to-connect-elements-with-css-anchor-positioning", // 2024-04-02
       "a-css-powered-add-remove-tags-ui", // 2024-04-11 
+      "color-picker-with-display-p3", // 2024-04-12
       "things-that-can-break-aspect-ratio-in-css", // 2024-04-16
       "dark-and-light", // 2024-04-18
       "feedback-on-masonry-layout", // 2024-04-24
       "the-html-css-and-svg-for-a-classic-search-form", // 2024-04-25
       "popover-api-is-here", // 2024-04-30
       "multiplexed-fonts-have-a-cool-superpower", // 2024-05-03
+      "icones", // 2024-05-06
       "using-the-popover-api-for-html-tooltips", // 2024-05-06
       "using-css-scroll-driven-animations-for-section-based-scroll-progress-indicators", // 2024-05-10
       "the-classic-border-radius-advice-plus-an-unusual-trick", // 2024-05-13
@@ -579,6 +620,7 @@ export const template: SidebarInfoTemplate = {
       "single-directionally-allowed-overflow", // 2024-07-10
       "css-does-need-mixins", // 2024-07-12
       "how-to-get-the-width-height-of-any-element-in-only-css", // 2024-07-25
+      "svg-triangle-of-compromise", // 2024-07-30
       "what-if-you-used-container-units-for-everything", // 2024-08-02
       "relative-color-syntax-basic-use-cases", // 2024-08-12
       "letting-ios-text-size-setting-affect-font-size-on-the-web", // 2024-08-16
@@ -587,8 +629,8 @@ export const template: SidebarInfoTemplate = {
       "the-dialog-element-with-entry-and-exit-animations", // 2024-08-28
       "backgrounds-for-the-box-model-and-why-it-can-be-useful", // 2024-09-02
       "split-effects-with-no-content-duplication", // 2024-09-11
-      "gradient-text-with-a-drop-shadow", // 2024-09-20
       "keeping-pixely-images-pixely-and-performant", // 2024-09-23
+      "gradient-text-with-a-drop-shadow", // 2024-09-20
 
       "fanout-with-grid-and-view-transitions", // 2024-10-14
       "simple-typographic-email-template", // 2024-10-17
@@ -694,6 +736,7 @@ export const template: SidebarInfoTemplate = {
       "how-to-scope-css-now-that-its-baseline", // 2026-01-05
       "popover-context-menus-with-anchor-positioning", // 2026-01-08
       "simulating-crop-marks", // 2026-01-13
+      "firefox-goes-css-modules", // 2026-01-21
       "view-transitions-playing-video", // 2026-01-20
       "performance-optimized-video-embeds-with-zero-javascript", // 2026-02-02
       "an-over-the-top-spoiler-design-with-the-details-element", // 2026-02-04
@@ -762,6 +805,8 @@ export const template: SidebarInfoTemplate = {
       "transferring-sibling-count-to-a-parent-element", // 2026-10-05
       "testing-an-iframes-postmessage-handler", // 2026-10-07
       "5-good-choices-for-html-containers", // 2026-10-09
+      "building-a-fancy-scrollspy-using-modern-css", // 2026-10-14
+      "svg-linked-parameters-will-change-how-we-do-icon-systems", // 2026-10-15
       // END: 2026css
       // END: css
     ]],[
@@ -811,6 +856,7 @@ export const template: SidebarInfoTemplate = {
       "durable-objects-on-cloudflare", // 2026-07-20
       "cloudflare-workers-and-hyperdrive-with-sveltekit", // 2026-07-27
       "making-the-most-of-vercels-ai-sdk-with-cloudflare-durable-objects", // 2026-09-28
+      "tips-and-tricks-for-using-tanstack-start-with-cloudflare-durable-objects", // 2026-10-12
       // END: 2026cloudflare
       // END: cloudflare
     ]],[
@@ -901,6 +947,7 @@ export const template: SidebarInfoTemplate = {
     "ai", [
       "what-senior-engineers-need-to-know-about-ai-coding-tools", // 2026-01-29
       "ai-engineer-is-a-new-role", // 2026-05-14
+      "building-an-isolated-preview-for-ai-generated-html", // 2026-10-22
       // END: 2026ai
       // END: ai
     ]],[
@@ -913,6 +960,8 @@ export const template: SidebarInfoTemplate = {
       "having-fun-with-vercels-ai-sdk-and-ai-gateway", // 2026-08-31
       "making-the-most-of-vercels-ai-sdk-with-cloudflare-durable-objects", // 2026-09-28
       "you-dont-know-bidi-and-neither-does-chatgpt", // 2026-09-30
+      "unlocking-ai-in-your-apps-with-tanstack-ai", // 2026-10-16
+      "structured-output-with-tanstack-ai", // 2026-10-19
       // END: 2026llm
       // END: llm
     ]],[
@@ -939,7 +988,12 @@ export const template: SidebarInfoTemplate = {
       // END: mcp
     ]],[
     "system-design", [
+      "dark-patterns", // 2023-04-24
+      // END: 2023system-design
+      "why-does-this-have-to-be-a-modal", // 2024-09-27
+      // END: 2024system-design
       "web-design-what-is-the-web-capable-of-that-is-hard-to-express-in-design-software", // 2025-08-18
+      "classic-mac-os-system-1-patterns", // 2025-11-21
       // END: 2025system-design
       // END: system-design
     ]],[

@@ -5,7 +5,7 @@ const Y2026: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2026
-    "building-an-isolated-preview-for-ai-generated-html", // 2026-10-2
+    "building-an-isolated-preview-for-ai-generated-html", // 2026-10-22
     "structured-output-with-tanstack-ai", // 2026-10-19
     "unlocking-ai-in-your-apps-with-tanstack-ai", // 2026-10-16
     "svg-linked-parameters-will-change-how-we-do-icon-systems", // 2026-10-15
@@ -345,6 +345,7 @@ const Y2024: SidebarYeargroupTemplate = {
     "frontend-to-fullstack-13", // 2024-05-13
     "using-css-scroll-driven-animations-for-section-based-scroll-progress-indicators", // 2024-05-10
     "5-things-designers-can-do-with-javascript", // 2024-05-08
+    "icones", // 2024-05-06
     "using-the-popover-api-for-html-tooltips", // 2024-05-06
     "multiplexed-fonts-have-a-cool-superpower", // 2024-05-03
     "popover-api-is-here", // 2024-04-30
@@ -359,6 +360,7 @@ const Y2024: SidebarYeargroupTemplate = {
     "creating-flower-shapes-using-css-mask-trigonometric-functions", // 2024-02-29
     "scroll-locked-dialogs", // 2024-02-19
     "basic-dialog-usage-and-gotchas-to-watch-for", // 2024-02-05
+    "how-to-favicon-in-2024", // 2024-02-01
 
     "heads-up-on-custom-scrollbars-chrome-is-supporting-the-standard-now-which-overrides-the-old-pseudo-elements", // 2024-01-31
     "the-color-input-the-color-picker", // 2024-01-18
@@ -570,6 +572,7 @@ export const template: SidebarInfoTemplate = {
       // END: 2023css
       "we-can-has-it-all", // 2024-01-10
       "heads-up-on-custom-scrollbars-chrome-is-supporting-the-standard-now-which-overrides-the-old-pseudo-elements", // 2024-01-31
+      "how-to-favicon-in-2024", // 2024-02-01
       "basic-dialog-usage-and-gotchas-to-watch-for", // 2024-02-05
       "scroll-locked-dialogs", // 2024-02-19
       "creating-flower-shapes-using-css-mask-trigonometric-functions", // 2024-02-29
@@ -582,6 +585,7 @@ export const template: SidebarInfoTemplate = {
       "popover-api-is-here", // 2024-04-30
       "multiplexed-fonts-have-a-cool-superpower", // 2024-05-03
       "using-the-popover-api-for-html-tooltips", // 2024-05-06
+      "icones", // 2024-05-06
       "using-css-scroll-driven-animations-for-section-based-scroll-progress-indicators", // 2024-05-10
       "the-classic-border-radius-advice-plus-an-unusual-trick", // 2024-05-13
       "weve-got-container-queries-now-but-are-we-actually-using-them", // 2024-05-21
@@ -785,7 +789,8 @@ export const template: SidebarInfoTemplate = {
       "testing-an-iframes-postmessage-handler", // 2026-10-07
       "5-good-choices-for-html-containers", // 2026-10-09
       "building-a-fancy-scrollspy-using-modern-css", // 2026-10-14
-    "svg-linked-parameters-will-change-how-we-do-icon-systems", // 2026-10-15
+      "svg-linked-parameters-will-change-how-we-do-icon-systems", // 2026-10-15
+      "building-an-isolated-preview-for-ai-generated-html", // 2026-10-22
       // END: 2026css
       // END: css
     ]],[

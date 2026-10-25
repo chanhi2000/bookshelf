@@ -72,7 +72,7 @@ cover: https://blog.master.dev/wp-json/social-image-generator/v1/image/7539
 <SiteInfo
   name="chrome-devtools-mcp"
   desc="I'm no expert here, but I understand an ”MCP server” as a way to make an AI system a bit ”smarter” by having more context and capabilities. I find AI coding agents pretty darn smart already particularly when they have your entire codebase and your instruction for context. But if you're using it to build…"
-  url="https://master.dev/blog/blog.master.dev/chrome-devtools-mcp/"
+  url="https://blog.master.dev/chrome-devtools-mcp/"
   logo="https://master.dev/favicon.ico"
   preview="https://blog.master.dev/wp-json/social-image-generator/v1/image/7539"/>
 

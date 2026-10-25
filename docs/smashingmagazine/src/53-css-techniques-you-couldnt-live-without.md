@@ -202,17 +202,27 @@ https://smashingmagazine.com/2015/12/introduction-to-postcss/
 
 [![](https://archive.smashing.media/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/3426185f-6807-452d-a391-819adbac4ec5/post-css-opt.png)](https://smashingmagazine.com/2015/12/introduction-to-postcss/)
 
-## 26. Variables: The Backbone Of CSS Architecture
-
-https://smashingmagazine.com/2016/01/variables-in-css-architecture/
-
-[![](https://archive.smashing.media/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/56002798-3c1e-48a1-8ab7-b7a1a332aeca/preprocessors-opt-84x84.jpg)](https://smashingmagazine.com/2016/01/variables-in-css-architecture/)
+```component VPCard
+{
+  "title": "CSS Variables: The Architecture Backbone",
+  "desc": "Using a preprocessor does not automatically upgrade one’s code: A thorough foundation in CSS is a prerequisite. In Karen Menezes’ experience, badly architected and overly abstracted preprocessor code is much harder to debug and maintain than a large CSS file created with basic structure and common sense. Variables can be seen as the backbone of a well-constructed project. Well-commented and well-defined variables set a great foundation for a project of any size. By maintaining a variable-centric approach, we can structure our style sheets with a meaning and modularity that persist beyond the trends that come and go.",
+  "link": "/smashingmagazine.com/variables-in-css-architecture.md",
+  "logo": "https://smashingmagazine.com/images/favicon/favicon.svg",
+  "background": "rgba(211,58,44,0.2)"
+}
+```
 
 ## 27. An Ultimate Guide To CSS Pseudo-Classes And Pseudo-Elements
 
-https://smashingmagazine.com/2016/05/an-ultimate-guide-to-css-pseudo-classes-and-pseudo-elements/
-
-[![](https://archive.smashing.media/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/20244df4-8e57-4bb1-8abe-ef4319b21662/pseudo-classes-pseudo-elements-opt.jpg)](https://smashingmagazine.com/2016/05/an-ultimate-guide-to-css-pseudo-classes-and-pseudo-elements/)
+```component VPCard
+{
+  "title": "An Ultimate Guide To CSS Pseudo Classes And Pseudo Elements",
+  "desc": "CSS pseudo-classes and pseudo-elements can certainly be a handful. They provide so many possibilities that one can easily feel overwhelmed, but that’s the life of a web designer and developer! In this guide, Ricardo Zea will teach you all the things you need to keep in mind so that your pseudo-classes and pseudo-elements are well implemented. If you’re an experienced web designer or developer, you must know and have used most of the pseudo-classes and pseudo-elements discussed here. However, you might not have heard of one or two of them before.",
+  "link": "/smashingmagazine.com/an-ultimate-guide-to-css-pseudo-classes-and-pseudo-elements.md",
+  "logo": "https://smashingmagazine.com/images/favicon/favicon.svg",
+  "background": "rgba(211,58,44,0.2)"
+}
+```
 
 ## 28. Truly Fluid Typography With vh And vw Units
 

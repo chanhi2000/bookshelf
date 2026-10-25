@@ -865,7 +865,7 @@ If `feature_login` is its own package, a developer working inside `feature_home`
 
 That raises a second question: if the screens, state management, and logic all live inside feature packages, what's left inside `app_main/lib`? The answer is that `app_main/lib` shrinks down to exactly three responsibilities.
 
-1. It holds `main.dart`, which boots the app and calls `runApp()`.
+1. It holds <VPIcon icon="fa-brands fa-dart-lang"/>`main.dart`, which boots the app and calls `runApp()`.
 2. It holds the dependency injection setup. This means the composition root from earlier sections, where concrete implementations (such as a real network client) get created and handed to whichever feature packages need them.
 3. And it holds the master router, since a feature package like `feature_login` deliberately doesn't know that `feature_home` exists. So only `app_main`, which depends on both, is in a position to navigate from one to the other.
 
@@ -913,7 +913,7 @@ class AppNavigator implements LoginNavigationContract {
 }
 ```
 
-`AppNavigator` implements `LoginNavigationContract` and is the only place that imports both `feature_login` and `feature_home` at once. When `onLoginSuccess()` fires, it pushes `HomeScreen`, a widget that lives inside `feature_home`. Wiring it into the running app happens back in `main.dart`.
+`AppNavigator` implements `LoginNavigationContract` and is the only place that imports both `feature_login` and `feature_home` at once. When `onLoginSuccess()` fires, it pushes `HomeScreen`, a widget that lives inside `feature_home`. Wiring it into the running app happens back in <VPIcon icon="fa-brands fa-dart-lang"/>`main.dart`.
 
 ```dart title="apps/app_main/lib/main.dart"
 import 'package:flutter/material.dart';
@@ -936,7 +936,7 @@ class App extends StatelessWidget {
 
 This is the complete picture. `feature_login` owns its screens, its validation, and the question of what should happen after a successful login, expressed only as a contract.
 
-`app_main`, and only `app_main`, owns the concrete answer, along with <VPIcon icon="fas fa-folder-open"/>`android/`, <VPIcon icon="fas fa-folder-open"/>`ios/`, `main.dart`, dependency injection, and routing. Every other package in `packages/` follows the same shape as `feature_login`: a <VPIcon icon="fas fa-folder-open"/>`lib/` folder, a <VPIcon icon="fas fa-folder-open"/>`test/` folder, a <VPIcon icon="iconfont icon-yaml"/>`pubspec.yaml` with explicit `path:` dependencies, and no native folders at all, because those exist in exactly one place in the whole project.
+`app_main`, and only `app_main`, owns the concrete answer, along with <VPIcon icon="fas fa-folder-open"/>`android/`, <VPIcon icon="fas fa-folder-open"/>`ios/`, <VPIcon icon="fa-brands fa-dart-lang"/>`main.dart`, dependency injection, and routing. Every other package in `packages/` follows the same shape as `feature_login`: a <VPIcon icon="fas fa-folder-open"/>`lib/` folder, a <VPIcon icon="fas fa-folder-open"/>`test/` folder, a <VPIcon icon="iconfont icon-yaml"/>`pubspec.yaml` with explicit `path:` dependencies, and no native folders at all, because those exist in exactly one place in the whole project.
 
 ```sh title="file structure"
 my_lego_project/

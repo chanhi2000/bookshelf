@@ -95,7 +95,7 @@ cover: https://blog.master.dev/wp-json/social-image-generator/v1/image/10743
 <SiteInfo
   name="Keyboard Shortcuts That Display The Correct Modifier Key per OS"
   desc="Websites often hardcode keyboard shortcuts for Mac (⌘) while neglecting Windows users, leading to confusion."
-  url="https://blog.master.dev/blog.master.dev/keyboard-shortcuts-that-display-the-correct-modifier-key-per-os/"
+  url="https://blog.blog.master.dev//keyboard-shortcuts-that-display-the-correct-modifier-key-per-os/"
   logo="https://blog.master.dev/favicon.ico"
   preview="https://blog.master.dev/wp-json/social-image-generator/v1/image/10743"/>
 

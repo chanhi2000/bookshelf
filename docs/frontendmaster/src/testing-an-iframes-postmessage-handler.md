@@ -46,7 +46,7 @@ cover: https://blog.master.dev/wp-json/social-image-generator/v1/image/11245
 <SiteInfo
   name="Testing an iframe’s postMessage Handler"
   desc="There are some real complexities using iframes and the postMessage API for communication between a widget and its parent. Security vulnerabilities like cross-origin scripting risks being one."
-  url="https://master.dev/blog/blog.master.dev/testing-an-iframes-postmessage-handler/"
+  url="https://blog.master.dev/testing-an-iframes-postmessage-handler/"
   logo="https://master.dev/favicon.ico"
   preview="https://blog.master.dev/wp-json/social-image-generator/v1/image/11245"/>
 

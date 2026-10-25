@@ -2354,6 +2354,9 @@ const Y2026: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2026
+    "how-to-build-passkey-authentication-with-webauthn-next-js-and-nestjs", // 2026-10-28
+    "how-to-build-a-simple-data-analyzer-in-python-with-pandas", // 2026-10-27
+    "how-noise-cancelling-headphones-work", // 2026-10-26
     "learn-model-context-protocol-mcp-security", // 2026-10-23
     "what-is-model-distillation-a-guide-for-developers", // 2026-10-22
     "diagnose-vite-not-found-npm-ci-container-build", // 2026-10-22
@@ -5277,8 +5280,9 @@ export const template: SidebarInfoTemplate = {
         "build-an-ai-support-system-that-automatically-routes-bugs-to-github", // 2026-10-02
         "nextjs-json-ld-structured-data", // 2026-10-11
         "how-to-build-a-website-user-interface-faster-using-ai-prompts", // 2026-10-19
+        "how-to-build-passkey-authentication-with-webauthn-next-js-and-nestjs", // 2026-10-28
         // END: 2026js-next
-        // END:t
+        // END: js-next
       ]], [
       "js-nuxt", [
         "rbac-community-dashboard-with-nuxt", // 2024-11-23
@@ -5373,6 +5377,7 @@ export const template: SidebarInfoTemplate = {
         "the-saga-pattern-in-node-js-roll-back-distributed-transactions-across-microservices", // 2026-06-13
         "how-to-implement-paypal-in-a-microservice-architecture-using-nestjs-grpc-and-docker", // 2026-07-17
         "how-to-use-nestjs-observe-an-observability-handbook-for-devs", // 2026-10-05
+        "how-to-build-passkey-authentication-with-webauthn-next-js-and-nestjs", // 2026-10-28
         // END: 2026js-nest
         // END: js-nest
       ]], [
@@ -6118,6 +6123,7 @@ export const template: SidebarInfoTemplate = {
         BUILD_A_MULTI_AGENT_TRADING_RESEARCH_SYSTEM_WITH_LANGCHAIN_DEEP_AGENTS_HANDBOOK, // 2026-08-15
         HOW_TO_USE_GRADIO_WITH_PYTHON_BEGINNER_TO_ADVANCED_BOOK, // 2026-09-10
         "build-a-self-evaluating-ai-system-automated-testing-and-evaluation-pipelines-for-llm-apps", // 2026-09-12
+        "how-to-build-a-simple-data-analyzer-in-python-with-pandas", // 2026-10-27
         // END: 2026py-pandas
         // END: py-pandas
       ]], [
@@ -6161,6 +6167,7 @@ export const template: SidebarInfoTemplate = {
         "how-to-write-your-first-quantum-circuit-in-python-a-beginner-s-step-by-step-guide", // 2026-06-30
         "switchback-experiments-for-ai-platform-features-in-python", // 2026-07-01
         "stop-early-without-p-hacking-using-msprt-and-sequential-testing-in-python", // 2026-07-03
+        "how-to-build-a-simple-data-analyzer-in-python-with-pandas", // 2026-10-27
         // END: 2026py-matplotlib
         // END: py-matplotlib
       ]], [
@@ -7860,6 +7867,7 @@ export const template: SidebarInfoTemplate = {
         "how-to-fix-the-dual-write-problem-in-node-js-with-the-outbox-pattern", // 2026-08-06
         "timescaledb-course-postgresql-for-time-series-data", // 2026-09-24
         "build-a-hybrid-search-engine-in-postgresql-bm25-vector-retrieval", // 2026-10-21
+        "how-to-build-passkey-authentication-with-webauthn-next-js-and-nestjs", // 2026-10-28
         // END: 2026postgresql
         // END: postgresql
       ]], [
@@ -8976,6 +8984,7 @@ export const template: SidebarInfoTemplate = {
         "are-screenless-wearables-better-for-health-tracking", // 2026-10-01
         "the-anatomy-of-an-ai-data-center", // 2026-10-16
         "how-wearables-can-adapt-when-pregnancy-changes-a-user-s-regular-baseline", // 2026-10-21
+        "how-noise-cancelling-headphones-work", // 2026-10-26
         // END: 2026hw
         // END: hw
       ]], [

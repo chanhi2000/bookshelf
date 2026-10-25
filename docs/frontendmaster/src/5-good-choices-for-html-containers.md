@@ -59,7 +59,7 @@ cover: https://blog.master.dev/wp-json/social-image-generator/v1/image/11290
 <SiteInfo
   name="5 Good Choices for HTML Containers"
   desc="Divs and spans are fine, but purposefully meaningless. Often the meaning actually matters, so let's look at some of those situations."
-  url="https://master.dev/blog/blog.master.dev/5-good-choices-for-html-containers/"
+  url="https://blog.master.dev/5-good-choices-for-html-containers/"
   logo="https://master.dev/favicon.ico"
   preview="https://blog.master.dev/wp-json/social-image-generator/v1/image/11290"/>
 

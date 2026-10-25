@@ -542,7 +542,7 @@ The demo below requires Chrome with the Experimental Web Platform Features featu
 
 ::: info 💭
 
-Initially I wanted to hide the header upon scrolling down or remaining idle after having scrolled down, and only show it again once starting to scroll up again. I couldn’t immediately find a solution here – using `--when-scrolling-down-or-when-not-scrolling` also hides it on initial load, which is not what I want – but I’m sure [Johannes (<VPIcon icon="iconfont icon-mastodon"/>`@johannes`)](https://front-end.social/@johannes) will be able to tell me how to do it using [<VPIcon icon="fas fa-globe"/>Scroll-Persisted State](https://johannesodland.github.io/state/scroll-snap/scroll-driven-animations/2023/06/18/scroll-persisted-state.html).
+Initially I wanted to hide the header upon scrolling down or remaining idle after having scrolled down, and only show it again once starting to scroll up again. I couldn’t immediately find a solution here – using `--when-scrolling-down-or-when-not-scrolling` also hides it on initial load, which is not what I want – but I’m sure [Johannes (<VPIcon icon="fa-brands fa-mastodon"/>`@johannes`)](https://front-end.social/@johannes) will be able to tell me how to do it using [<VPIcon icon="fas fa-globe"/>Scroll-Persisted State](https://johannesodland.github.io/state/scroll-snap/scroll-driven-animations/2023/06/18/scroll-persisted-state.html).
 
 :::
 

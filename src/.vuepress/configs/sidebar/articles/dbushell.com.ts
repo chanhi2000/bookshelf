@@ -27,13 +27,16 @@ const Y2025: SidebarYeargroupTemplate = {
     "croissant-is-coming-for-you", // 2025-07-18
     "croissant-no-framework-web-app", // 2025-07-11
     "your-framework-is-showing-nextjs-error", // 2025-06-13
-    "bunny-cdn-edge-storage", // 2025-04-27
+    "ai-policy", // 2025-06-18
     "baseless", // 2025-06-01
     "search-with-zig-wasm-worker", // 2025-05-18
     "the-static-site-churns", // 2025-05-11
     "glossary-web-component", // 2025-05-07
     "denos-decline", // 2025-04-28
     "blog-redesign", // 2025-03-21
+    "zig-zsh-prompt", // 2025-03-05
+    "frameworks-vs-libraries", // 2025-02-06
+    "zig-the-good-parts", // 2025-01-27
   ],
 }
 
@@ -44,6 +47,7 @@ const Y2024: SidebarYeargroupTemplate = {
     // END: 2024
     "static-search-page-find", // 2024-11-21
     "rem-or-px", // 2024-11-11
+    "webkit-font-smoothing", // 2024-11-05
     "html-parser-conundrum", // 2024-10-01
     "hmmarkdown", // 2024-09-01
     "git-granary", // 2024-07-25
@@ -163,6 +167,7 @@ const Y2012: SidebarYeargroupTemplate = {
   collapsible: true,
   children: [
     // END: 2012
+    "im-bored-with-code", // 2012-08-27
     "scoping-typography-css", // 2012-04-18
   ],
 }
@@ -214,13 +219,13 @@ export const template: SidebarInfoTemplate = {
   linksMap: new Map([
     [
     "sh", [
-    ]], [
+    ]],[
     "js-hono", [
       "the-static-site-churns", // 2025-05-11
       // END: 2025js-hono
       // END: 2026js-hono
       // END: js-hono
-    ]], [
+    ]],[
     "js-next", [
       // END: 2010js-next
       // END: 2011js-next
@@ -241,7 +246,7 @@ export const template: SidebarInfoTemplate = {
       // END: 2025js-next
       // END: 2026js-next
       // END: js-next
-    ]], [
+    ]],[
     "js-svelte", [
       // END: 2010js-svelte
       // END: 2011js-svelte
@@ -263,7 +268,7 @@ export const template: SidebarInfoTemplate = {
       // END: 2025js-svelte
       // END: 2026js-svelte
       // END: js-svelte
-    ]], [
+    ]],[
     "js-node", [
       // END: 2010js-node
       // END: 2011js-node
@@ -291,7 +296,7 @@ export const template: SidebarInfoTemplate = {
       // END: 2025js-node
       // END: 2026js-node
       // END: js-node
-    ]], [
+    ]],[
     "js", [
       // END: 2010js
       // END: 2011js
@@ -311,15 +316,17 @@ export const template: SidebarInfoTemplate = {
       "html-parser-conundrum", // 2024-10-01
       "static-search-page-find", // 2024-11-21
       // END: 2024js
+      "frameworks-vs-libraries", // 2025-02-06
       "text-to-speech-synthesis", // 2025-07-26
       // END: 2025js
       // END: 2026js
       // END: js
-    ]], [
+    ]],[
     "css", [
       // END: 2010css
       // END: 2011css
       "scoping-typography-css", // 2012-04-18
+      "im-bored-with-code", // 2012-08-27
       // END: 2012css
       "origin", // 2013-05-01
       // END: 2013css
@@ -343,6 +350,7 @@ export const template: SidebarInfoTemplate = {
       // END: 2023css
       "better-syntax-highlighting", // 2024-03-14
       "microblog", // 2024-07-10
+      "webkit-font-smoothing", // 2024-11-05
       "rem-or-px", // 2024-11-11
       // END: 2024css
       "baseless", // 2025-06-01
@@ -357,7 +365,7 @@ export const template: SidebarInfoTemplate = {
       "css-subgrid-is-super-good", // 2026-04-03
       // END: 2026css
       // END: css
-    ]], [
+    ]],[
     "md", [
       // END: 2010md
       // END: 2011md
@@ -380,7 +388,7 @@ export const template: SidebarInfoTemplate = {
       "hmmarkdown2", // 2026-01-23
       // END: 2026md
       // END: md
-    ]], [
+    ]],[
     "zig", [
       // END: 2014zig
       // END: 2015zig
@@ -393,11 +401,13 @@ export const template: SidebarInfoTemplate = {
       // END: 2022zig
       // END: 2023zig
       // END: 2024zig
+      "zig-the-good-parts", // 2025-01-27
+      "zig-zsh-prompt", // 2025-03-05
       "search-with-zig-wasm-worker", // 2025-05-18
       // END: 2025zig
       // END: 2026zig
       // END: zig
-    ]], [
+    ]],[
     "docker", [
       // END: 2010docker
       // END: 2011docker
@@ -418,7 +428,7 @@ export const template: SidebarInfoTemplate = {
       "mooving-to-a-self-hosted-bluesky-pds", // 2026-03-03
       // END: 2026docker
       // END: docker
-    ]], [
+    ]],[
     "cloudflare", [
       // END: 2010cloudflare
       // END: 2011cloudflare
@@ -440,7 +450,7 @@ export const template: SidebarInfoTemplate = {
       // END: 2025cloudflare
       // END: 2026cloudflare
       // END: cloudflare
-    ]], [
+    ]],[
     "bunny", [
       // END: 2010bunny
       // END: 2011bunny
@@ -461,7 +471,7 @@ export const template: SidebarInfoTemplate = {
       // END: 2025bunny
       // END: 2026bunny
       // END: bunny
-    ]], [
+    ]],[
     "netlify", [
       // END: 2010netlify
       // END: 2011netlify
@@ -483,12 +493,20 @@ export const template: SidebarInfoTemplate = {
       // END: 2025netlify
       // END: 2026netlify
       // END: netlify
-    ]], [
+    ]],[
     "figma", [
       "top-ten-figma-betrayls", // 2026-03-24
       // END: 2026figma
       // END: figma
-    ]], [
+    ]],[
+    "safari", [
+      // END: 2023safari
+      "webkit-font-smoothing", // 2024-11-05
+      // END: 2024safari
+      // END: 2025safari
+      // END: 2026safari
+      // END: safari
+    ]],[
     "system-design", [
       // END: 2010system-design
       "designing-a-new-me", // 2011-05-25
@@ -511,7 +529,13 @@ export const template: SidebarInfoTemplate = {
       // END: 2025system-design
       // END: 2026system-design
       // END: system-design
-    ]], [
+    ]],[
+    "ai", [
+      "ai-policy", // 2025-06-18
+      // END: 2025ai
+      // END: 2026ai
+      // END: ai
+    ]],[
     "all", [
       Y2026,
       Y2025,

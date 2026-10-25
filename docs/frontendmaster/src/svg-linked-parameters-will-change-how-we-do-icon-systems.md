@@ -46,7 +46,7 @@ cover: https://blog.master.dev/wp-json/social-image-generator/v1/image/11420
 <SiteInfo
   name="Unlocking SVG Styling Control with CSS Linked Parameters"
   desc="Discover how CSS Linked Parameters transform SVG usage for icons, enhancing styling control while maintaining efficient caching and accessibility."
-  url="https://master.dev/blog/blog.master.dev/svg-linked-parameters-will-change-how-we-do-icon-systems/"
+  url="https://blog.master.dev/svg-linked-parameters-will-change-how-we-do-icon-systems/"
   logo="https://master.dev/favicon.ico"
   preview="https://blog.master.dev/wp-json/social-image-generator/v1/image/11420"/>
 
@@ -112,31 +112,44 @@ I have no idea if or when this will be “baseline” (supported in all major br
 
 :::
 
-[![](https://i0.wp.com/blog.master.dev/wp-content/uploads/2024/02/mask-icon-thumb.jpg?fit=1000%2C500&quality=89&ssl=1&resize=350%2C200)](https://blog.master.dev/mask-your-icons/ "Making your SVG icons CSS masks instead of inline HTML or backgrounds has some benefits")
+```component VPCard
+{
+  "title": "Making your SVG icons CSS masks instead of inline HTML or backgrounds has some benefits",
+  "desc": "I'm a fan of just chucking SVG icons right into the HTML where you need them: <svg class=”icon icon-eye-dropper” width=”16” height=”16” viewBox=”0 0 16 16”> <path d=”...” /> <path d=”...” /> </svg> This has lots of benefits, like instant loading with no additional requests, and is 100% styleable, including all the internal parts (i.e. multicolor…",
+  "link": "/blog.master.dev/mask-your-icons.md",
+  "logo": "https://blog.master.dev/favicon.ico",
+  "background": "rgba(188,75,52,0.2)"
+}
+```
 
-#### [Making your SVG icons CSS masks instead of inline HTML or backgrounds has some benefits](https://blog.master.dev/mask-your-icons/ "Making your SVG icons CSS masks instead of inline HTML or backgrounds has some benefits")
+```component VPCard
+{
+  "title": "SVG triangle of compromise",
+  "desc": "I enjoyed Micah R Ledbetter's SVG triangle of compromise and generally think it's a fair analysis of how any-which-way you use SVG on a page, you're giving up some kind of nice ability it could have. For instance, if you use SVG through an <img> tag, it's cached nicely, but you give up on CSS…",
+  "link": "/blog.master.dev/svg-triangle-of-compromise.md",
+  "logo": "https://blog.master.dev/favicon.ico",
+  "background": "rgba(188,75,52,0.2)"
+}
+```
 
-I'm a fan of just chucking SVG icons right into the HTML where you need them: This has lots of benefits, like instant loading with no additional requests, and is 100% styleable, including all…
-
-[![](https://i0.wp.com/blog.master.dev/wp-content/uploads/2024/07/Screenshot-2024-07-30-at-7.18.42%E2%80%AFAM.png?fit=994%2C786&quality=80&ssl=1&resize=350%2C200)](https://blog.master.dev/svg-triangle-of-compromise/ "SVG triangle of compromise")
-
-#### [SVG triangle of compromise](https://blog.master.dev/svg-triangle-of-compromise/ "SVG triangle of compromise")
-
-I enjoyed Micah R Ledbetter's SVG triangle of compromise and generally think it's a fair analysis of how any-which-way you use SVG on a page, you're giving up some kind of nice ability it could have. For instance, if you use SVG through an tag, it's cached nicely, but…
-
-[![](https://i0.wp.com/blog.master.dev/wp-content/uploads/2024/02/todo-thumb-2.jpg?fit=1000%2C500&quality=89&ssl=1&resize=350%2C200)](https://blog.master.dev/building-a-todo-app-from-scratch-step-4-styling-interactive-choices/ "Building a TODO App from Scratch — Step 4 — Styling &#038; Interactive Choices")
-
-#### [Building a TODO App from Scratch — Step 4 — Styling & Interactive Choices](https://blog.master.dev/building-a-todo-app-from-scratch-step-4-styling-interactive-choices/ "Building a TODO App from Scratch — Step 4 — Styling &#038; Interactive Choices")
-
-I'm already a little over all the green. What was I thinking? I'm much more of a nice gray color palette kinda guy with some fun poppy colors. That's what we need to get to here. When we left off, we just had wireframes going. It's time to get some…
+```component VPCard
+{
+  "title": "Building a TODO App from Scratch — Step 4 — Styling & Interactive Choices",
+  "desc": "I'm already a little over all the green. What was I thinking? I'm much more of a nice gray color palette kinda guy with some fun poppy colors. That's what we need to get to here. When we left off, we just had wireframes going. It's time to get some style on this thing! Custom…",
+  "link": "/blog.master.dev/building-a-todo-app-from-scratch-step-4-styling-interactive-choices.md",
+  "logo": "https://blog.master.dev/favicon.ico",
+  "background": "rgba(188,75,52,0.2)"
+}
+```
 
 <!-- TODO: add ARTICLE CARD -->
 ```component VPCard
 {
-  "title": "Unlocking SVG Styling Control with CSS Linked Parameters",
-  "desc": "Discover how CSS Linked Parameters transform SVG usage for icons, enhancing styling control while maintaining efficient caching and accessibility.",
-  "link": "https://chanhi2000.github.io/bookshelf/blog.master.dev/svg-linked-parameters-will-change-how-we-do-icon-systems.html",
-  "logo": "https://master.dev/favicon.ico",
+  "title": "Building a TODO App from Scratch — Step 4 — Styling & Interactive Choices",
+  "desc": "I'm already a little over all the green. What was I thinking? I'm much more of a nice gray color palette kinda guy with some fun poppy colors. That's what we need to get to here. When we left off, we just had wireframes going. It's time to get some style on this thing! Custom…",
+  "link": "https://chanhi2000.github.io/bookshelf/blog.master.dev/building-a-todo-app-from-scratch-step-4-styling-interactive-choices.html",
+  "logo": "https://blog.master.dev/favicon.ico",
   "background": "rgba(188,75,52,0.2)"
 }
 ```
+

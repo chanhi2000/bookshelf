@@ -70,7 +70,16 @@ In the article, I’ll demonstrate that the class is as antiquated and inappropr
 }
 ```
 
-- [**An Ultimate Guide To CSS Pseudo-Classes And Pseudo-Elements**](/smashingmagazine.com/an-ultimate-guide-to-css-pseudo-classes-and-pseudo-elements.md)
+```component VPCard
+{
+  "title": "An Ultimate Guide To CSS Pseudo Classes And Pseudo Elements",
+  "desc": "CSS pseudo-classes and pseudo-elements can certainly be a handful. They provide so many possibilities that one can easily feel overwhelmed, but that’s the life of a web designer and developer! In this guide, Ricardo Zea will teach you all the things you need to keep in mind so that your pseudo-classes and pseudo-elements are well implemented. If you’re an experienced web designer or developer, you must know and have used most of the pseudo-classes and pseudo-elements discussed here. However, you might not have heard of one or two of them before.",
+  "link": "/smashingmagazine.com/an-ultimate-guide-to-css-pseudo-classes-and-pseudo-elements.md",
+  "logo": "https://smashingmagazine.com/images/favicon/favicon.svg",
+  "background": "rgba(211,58,44,0.2)"
+}
+```
+
 - [**CSS Inheritance, The Cascade And Global Scope**](/smashingmagazine.com/css-inheritance-cascade-global-scope-new-old-worst-best-friends.md)
 - [**53 CSS-Techniques You Couldn’t Live Without**](/smashingmagazine.com/53-css-techniques-you-couldnt-live-without.md)
 

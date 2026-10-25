@@ -60,7 +60,7 @@ cover: https://blog.master.dev/wp-json/social-image-generator/v1/image/10787
 <SiteInfo
   name="Introducing Sandcastle"
   desc=""
-  url="https://blog.master.dev/blog.master.dev/introducing-sandcastle/"
+  url="https://blog.blog.master.dev//introducing-sandcastle/"
   logo="https://blog.master.dev/favicon.ico"
   preview="https://blog.master.dev/wp-json/social-image-generator/v1/image/10787"/>
 
