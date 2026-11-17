@@ -19,6 +19,10 @@ tag:
   - py-pandas
   - matplotlib
   - py-matplotlib
+  - ai
+  - artificial-intelligence
+  - llm
+  - large-language-models
 head:
   - - meta:
     - property: og:title
